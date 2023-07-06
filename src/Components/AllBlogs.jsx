@@ -10,7 +10,7 @@ const AllBlogs = () => {
         {blogsData.map((m) => (
           <Link key={m.id} to={`/blog/${m.id}`}>
             <div>
-              <img src={m.img} alt="featured" />
+              <img src={m.img} alt="Featured" />
               <h3 className="uppercase mt-4 lg:text-lg">{m.title}</h3>
               <h3 className="mt-4 text-gray-500">{m.Date}</h3>
               <h3 className="text-gray-500">{m.Genere}</h3>
