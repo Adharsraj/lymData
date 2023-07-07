@@ -7,7 +7,7 @@ const SelectedWorks = () => {
   return (
 
 
-    <div className="max-w-[1640px] mx-auto p-4 font-roboto grid justify-center mb-20  gap-8">
+    <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8">
         {worksData.map((m)=>(
 
       <div className="md:hidden">
@@ -48,10 +48,10 @@ const SelectedWorks = () => {
 {worksData.map((m)=>(
 
 
-      <div className="hidden md:grid md:grid-cols-3 items-center ">
+      <div className="hidden md:grid md:grid-cols-3 font-times items-center ">
         
         <div className="mt-24 w-[200px] lg:w-[300px] md:text-xl">
-          <h1 className=" text-center border-b-2 border-b-slate-200 ">
+          <h1 className=" text-center border-b-2 border-b-slate-200 font-times ">
  {m.head1}
           </h1>
           <h1 className=" text-center border-b-2 border-b-slate-200">

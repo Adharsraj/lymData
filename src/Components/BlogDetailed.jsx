@@ -23,7 +23,8 @@ const BlogDetailed = () => {
       setCombinedData(newData);
     }
     setBlogData(m);
-    console.log(combinedData);
+    console.log(combinedData)
+    window.scrollTo(0, 0);
   }, [id]);
 
   return (
