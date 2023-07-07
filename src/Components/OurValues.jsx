@@ -9,7 +9,7 @@ const OurValues = () => {
     <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white font-roboto">
       <div>
         <h1 className="mb-8 mt-8 text-2xl  md:text-4xl lg:text-5xl  lg:ml-10 md:ml-5">
-          About <span className="text-orange-400 text-2xl md:text-4xl lg:text-5xl  ">LymData</span>
+          About <span className="text-orange-400 text-2xl md:text-4xl lg:text-4xl  ">LYM-DATA</span>
         </h1>
         <h2 className=" w-[290px]  md:text-xl  lg:w-[635px] md:w-[500px] md:ml-5 lg:ml-10 ">
           LymData labs is a group of creative technologists dedicated to design

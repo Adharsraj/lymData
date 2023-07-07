@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 const ReachOut = () => {
   return (
     <div className="max-w-[1640px]  mx-auto p-4 text-[#040404]">
-      <span className="text-5xl font-times lg:mx-20 md:mt-16   ">
+      <span className="text-5xl font-times lg:mx-20 md:mt-16  lg:text-6xl lg:ml-40 lg:mt-16   ">
         Reach out.
       </span>
       <h3 className="mt-10 md:mt-20 mx-auto md:w-[450px] lg:w-[550px] md:flex  md:justify-center sm:text-lg ">

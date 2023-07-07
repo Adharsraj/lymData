@@ -5,6 +5,8 @@ import Blog from "../Pages/Blog";
 import Careers from "../Pages/Careers";
 import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
+import Works from "../Pages/Works";
+
 const Router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +31,10 @@ const Router = createBrowserRouter([
   {
     path: "/blog/:id",
     element: <BlogDetailed />,
+  },
+  {
+    path: "/works",
+    element: <Works />,
   },
 ]);
 

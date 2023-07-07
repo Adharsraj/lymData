@@ -56,7 +56,7 @@ const Footer = () => {
   
     </div>
     <div className='flex flex-col-reverse items-center justify-between md:flex-row mt-14 text-gray-500 '>
-  <div className='mb-3 text-center'>© Copyright 2023 LymData. All rights reserved.</div>
+  <div className='mb-3 text-center text-sm'>© Copyright 2023 LymData. All rights reserved.</div>
   <div className='mb-3'>
     <span>Terms of service</span>
     <span className='mx-4'>Privacy policy</span>
