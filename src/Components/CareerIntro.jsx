@@ -2,7 +2,7 @@ import React from 'react';
 import ColourfulVideo from '../assets/Videos/careers.mp4'
 const CareerIntro = () => {
   return (
-    <div className="max-w-[1640px] mx-auto p-4 text-[#040404]">
+    <div className="max-w-[1640px] mx-auto p-4 text-[#040404] mt-20">
       <span className="text-5xl md:text-7xl lg:text-9xl flex justify-center text-center font-roboto uppercase mt-10  w-[200px] mx-auto">
         Creative, curious, friendly & talented?
       </span>

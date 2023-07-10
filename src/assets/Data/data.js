@@ -10,9 +10,9 @@ import Blog3 from "../../Components/BlogComponents/Blog3";
 import Blog4 from "../../Components/BlogComponents/Blog4";
 import Blog5 from "../../Components/BlogComponents/Blog5";
 import Blog6 from "../../Components/BlogComponents/Blog6";
-import workimg1 from '../Images/works/IMAGE (12).png'
-import workimg2 from '../Images/works/IMAGE (13).png'
-import workimg3 from '../Images/works/IMAGE (14).png'
+import workimg1 from '../Images/works/new1.webp'
+import workimg2 from '../Images/works/new2.webp'
+import workimg3 from '../Images/works/new3.webp'
 import allworks1 from '../Images/allworks/IMAGE (15).png'
 import allworks2 from '../Images/allworks/IMAGE (16).png'
 import allworks3 from '../Images/allworks/IMAGE (17).png'
@@ -21,6 +21,8 @@ import allworks5 from '../Images/allworks/IMAGE (19).png'
 import allworks6 from '../Images/allworks/IMAGE (20).png'
 import allworks7 from '../Images/allworks/IMAGE (21).png'
 import allworks8 from '../Images/allworks/IMAGE (22).png'
+
+
 
 export const ourValues = [
   {
@@ -232,3 +234,6 @@ export const allWorks = [
 
  
 ]
+
+
+

@@ -6,8 +6,8 @@ import { SlSocialDribbble, SlSocialLinkedin } from "react-icons/sl";
 import {ourValues} from "../assets/Data/data";
 const OurValues = () => {
   return (
-    <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white font-roboto">
-      <div>
+    <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white font-roboto ">
+      <div className="mt-20">
         <h1 className="mb-8 mt-8 text-2xl  md:text-4xl lg:text-5xl  lg:ml-10 md:ml-5">
           About <span className="text-orange-400 text-2xl md:text-4xl lg:text-4xl  ">LYM-DATA</span>
         </h1>

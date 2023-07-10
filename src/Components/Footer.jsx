@@ -3,6 +3,8 @@ import CompanyLogo from '../assets/Logos/Group 51.svg'
 import { BsFacebook } from 'react-icons/bs';
 import {AiFillInstagram} from 'react-icons/ai'
 import {FaTwitter} from'react-icons/fa'
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <div className='max-w-[1640px]  mx-auto p-2 font-dm'>
@@ -58,7 +60,10 @@ const Footer = () => {
     <div className='flex flex-col-reverse items-center justify-between md:flex-row mt-14 text-gray-500 '>
   <div className='mb-3 text-center text-sm'>© Copyright 2023 LymData. All rights reserved.</div>
   <div className='mb-3'>
+    <Link to='/terms'>
+
     <span>Terms of service</span>
+    </Link>
     <span className='mx-4'>Privacy policy</span>
   </div>
   <div className='flex gap-5 mb-3'>

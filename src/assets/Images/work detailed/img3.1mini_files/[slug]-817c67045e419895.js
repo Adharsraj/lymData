@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[676],{261:function(n,u,_){"use strict";_.r(u),_.d(u,{__N_SSG:function(){return i}});var t=_(6635),i=!0;u.default=t.W},3684:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/opinions/[slug]",function(){return _(261)}])}},function(n){n.O(0,[774,888,179],function(){return n(n.s=3684)}),_N_E=n.O()}]);

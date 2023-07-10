@@ -2,7 +2,7 @@ import React from "react";
 import featuedImg from "../assets/Images/IMAGE (4).png";
 const BlogFeatured = () => {
   return (
-    <div className="max-w-[1640px]  mx-auto p-4   font-roboto">
+    <div className="max-w-[1640px]  mx-auto p-4   font-roboto mt-20">
       <div className="mb-6">
         <div className=" lg:flex lg:justify-between lg:p-8">
           <h2 className="text-3xl  uppercase mb-5 mt-10">enabling blog</h2>
