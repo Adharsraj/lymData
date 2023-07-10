@@ -5,7 +5,7 @@ const BlogFeatured = () => {
     <div className="max-w-[1640px]  mx-auto p-4   font-roboto mt-20">
       <div className="mb-6">
         <div className=" lg:flex lg:justify-between lg:p-8">
-          <h2 className="text-3xl  uppercase mb-5 mt-10">enabling blog</h2>
+          <h2 className="text-3xl  uppercase mb-5 mt-10 lg:text-6xl md:text-5xl">enabling blog</h2>
           <h3 className="md:text-lg md:mt-12">
             Take a look behind the scenes, learn from us, be entertained or
             inspired.

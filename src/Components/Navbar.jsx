@@ -27,11 +27,7 @@ const Navbar = () => {
               <li className="px-4 mt-[-6px] py-2 cursor-pointer text-gray-400">
                 menu
               </li>
-              <Link to="/contact">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  Contact
-                </li>
-              </Link>
+              
               <Link to="/about">
                 <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
                   About
@@ -50,6 +46,11 @@ const Navbar = () => {
               <Link to="/works">
                 <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
                   Works
+                </li>
+              </Link>
+              <Link to="/contact">
+                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
+                  Contact
                 </li>
               </Link>
             </ul>
