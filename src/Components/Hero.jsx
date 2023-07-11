@@ -1,6 +1,8 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
 
+
+
 const Hero = () => {
   useEffect(() => {
     var tl = gsap.timeline();
@@ -158,10 +160,10 @@ const Hero = () => {
 
   return (
     <>
-      <div className="max-w-[1640px] mx-auto p-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px] ">
-        <div className="mt-10 ">
+      <div className="max-w-[1640px] mx-auto p-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
+        <div className="mt-10 mb-20">
           <h3
-            className=" hidden border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex justify-center items-center hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] lg:top-6 lg:left-6 z-50 text-white"
+            className="  hidden border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex justify-center items-center hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] lg:top-6 lg:left-6 z-50 text-white"
             id="box"
           >
             h0ver
@@ -184,17 +186,17 @@ const Hero = () => {
           <div className="lg:mt-[92px] mt-20">
             <section className="clip-text-video ">
               <img
-                className="lg:h-[500px] lg:mt-[207px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
+                className="lg:h-[480px] lg:mt-[212px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
                 id="running"
                 src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
                 alt="GIF"
               />
 
-              <div className="clip-text-video__text layer lg:mt-[200px] w-full  z-0 ">
+              <div className="clip-text-video__text layer lg:mt-[216px] w-full  z-0 ">
                 <p className="lg:text-9xl lg:w-[990px] md:text-7xl  text-4xl font-extrabold font-zuume mx-auto mt-30 ml-  relative">
                   "Transforming
                 </p>
-                <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl  font-extrabold font-zuume mx-auto relative">
+                <p className="lg:[160px] lg:w-[990px] md:text-7xl text-4xl  font-extrabold font-zuume mx-auto relative">
                   visions
                 </p>
                 <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl   font-extrabold font-zuume mx-auto relative">
