@@ -10,6 +10,7 @@ export default {
         roboto: "'Roboto', sans-serif",
         dm: "'DM Sans', sans-serif",
         times: [ 'Times', 'Times New Roman', 'serif'],
+        zuume: ['Zuume', 'sans-serif'],
       },
     },
   },

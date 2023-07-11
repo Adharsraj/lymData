@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
+#running {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.clip-text-video__text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  overflow: hidden;
+  background: #000;
+  mix-blend-mode: multiply;
+}
+
+.clip-text-video__text p {
+  line-height: 1;
+  font-weight: 900;
+
+}
 @layer base {
   @font-face {
     font-family: "Roboto";
@@ -23,6 +49,12 @@
       url("/fonts/unicode.timesu.woff") format("woff");
   }
 
+  @font-face {
+    font-family: "Zuume";
+    font-weight: 900;
+    src: url("Zuume ExtraBold.woff2") format("woff2"),
+      url("Zuume ExtraBold.woff") format("woff");
+  }
  
-
+  
 }

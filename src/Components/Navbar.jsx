@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import gsap from "gsap";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import CompanyLogo from "../assets/Logos/Group 51.svg";
 
@@ -13,11 +14,23 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
+useEffect(()=>{
+  gsap.from("#logo,#getintouch,#menu",{
+    y:-100,
+    duration:0.5,
+    delay:0.5,
+    opacity:0,
+    stagger:0.2
+  })  
+
+},[])
+
+
   return (
     <div className="max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between bg-transparent h-[65px] z-10 fixed top-0 left-0 right-0">
       <div>
         <Link to="/">
-          <img className="w-28 h-20" src={CompanyLogo} alt="companylogo" />
+          <img id="logo" className="w-28 h-20" src={CompanyLogo} alt="companylogo" />
         </Link>
       </div>
       <div className="relative flex items-center p-2">
@@ -73,11 +86,11 @@ const Navbar = () => {
           </div>
         )}
         <div className="flex items-center ease-out duration-300">
-          <span className="bg-slate-800 text-white rounded-3xl w-[110px] h-[33px] sm:flex items-center justify-center text-center hidden mr-5 font-dm">
+          <span id="getintouch" className="bg-slate-800 text-white rounded-3xl w-[110px] h-[33px] sm:flex items-center justify-center text-center hidden mr-5 font-dm">
             Get in touch
           </span>
         </div>
-        <svg
+        <svg id="menu"
   className="w-6 h-6 ml-2 cursor-pointer"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 24 24"
