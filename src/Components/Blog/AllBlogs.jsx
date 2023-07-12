@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { blogsData } from '../assets/Data/data';
+import { blogsData } from '../../assets/Data/data';
 
 const AllBlogs = () => {
   const handleLinkClick = () => {
@@ -8,7 +8,7 @@ const AllBlogs = () => {
   };
 
   return (
-    <div className="max-w-[1640px] mx-auto p-4 font-roboto">
+    <div className="max-w-[1640px] mx-auto p-4 font-roboto ">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 gap-5">
           {blogsData.map((m) => (

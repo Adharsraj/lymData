@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { blogsData } from "../assets/Data/data";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import { blogsData } from "../../assets/Data/data";
+import Footer from "../Footer";
+import Navbar from "../Navbar";
 
 const BlogDetailed = () => {
   const { id } = useParams();
@@ -32,7 +32,7 @@ const BlogDetailed = () => {
       <Navbar />
       <div>
         {blogData && (
-          <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-4">
+          <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-4 mt-10">
             <div className="mt-8 mx-3">
               <h1 className="md:text-lg font-dm">
                 blog/

@@ -4,12 +4,12 @@ import img4 from "../Images/blog img/img3.jpeg";
 import img5 from "../Images/blog img/img4.jpeg";
 import img6 from "../Images/blog img/img5.jpeg";
 import img7 from "../Images/blog img/img6.png";
-import Blog1 from "../../Components/BlogComponents/Blog1";
-import Blog2 from "../../Components/BlogComponents/Blog2";
-import Blog3 from "../../Components/BlogComponents/Blog3";
-import Blog4 from "../../Components/BlogComponents/Blog4";
-import Blog5 from "../../Components/BlogComponents/Blog5";
-import Blog6 from "../../Components/BlogComponents/Blog6";
+import Blog1 from "../../Components/Blog/BlogComponents/Blog1";
+import Blog2 from "../../Components/Blog/BlogComponents/Blog2";
+import Blog3 from "../../Components/Blog/BlogComponents/Blog3";
+import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
+import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
+import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 import workimg1 from '../Images/works/new1.webp'
 import workimg2 from '../Images/works/new2.webp'
 import workimg3 from '../Images/works/new3.webp'
@@ -234,6 +234,81 @@ export const allWorks = [
 
  
 ]
+
+export const productDrivenDesign = [
+  {
+    id: 1,
+    head1: "Product discovery",
+    head2: "We set the right processes and methodologies to boost innovation labs and digital product discoveries.    ",
+  },
+
+  {
+    id: 2,
+    head1: "Branding & strategy ",
+    head2: "We evolve powerful ideas into solid and relatable brands that drive adoption and build reputation including.",
+  },
+
+  {
+    id: 3,
+    head1: "Product design & development  ",
+    head2: "From initial concept, to interface design and product development we craft high-end platforms for outstanding digital experiences.    ",
+  },
+  {
+    id: 4,
+    head1: "Blockchain innovation LAB",
+    head2: "We open an exploration space to innovate with the tools of the future.    ",
+  },
+  
+  
+
+ 
+]
+
+
+export const sevenIndustries = [
+  {
+    id: 1,
+    head1: "Entertainment    ",
+    head2: "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.    ",
+  },
+
+  {
+    id: 2,
+    head1: "Media & OTT    ",
+    head2: "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
+  },
+
+  {
+    id: 3,
+    head1: "Banking, Finance & Crypto    ",
+    head2: "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
+  },
+  {
+    id: 4,
+    head1: "Insurance & Insurtech    ",
+    head2: "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
+  },
+  {
+    id: 5,
+    head1: " Energy & Industrials    ",
+    head2: " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles. ",
+  },
+  {
+    id: 6,
+    head1: " Retail & Commerce    ",
+    head2: " Digital is now an indispensable channel for any retail or commerce. E-commerce and online presence have become commodities in the way brands sell and strategize. It is the ultimate channel for brand presence, and we bring years of experience to help brands stand out in a crowded space.    ",
+  },
+  {
+    id: 7,
+    head1: "   Information Technology    ",
+    head2: " As delivery times get shorter, new competitors flood the market, and clients get increasingly well-informed and demanding, we deliver innovation, 360 strategies and agile frameworks to turn raw data into key insights.    ",
+  },
+  
+  
+
+ 
+]
+
 
 
 

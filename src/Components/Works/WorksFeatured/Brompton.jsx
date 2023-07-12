@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "../../assets/Images/work detailed/img2.1main.webp";
-import img1m from "../../assets/Images/work detailed/img2.1.webp";
-import img2 from "../../assets/Images/work detailed/img2.2.webp";
-import img3 from "../../assets/Images/work detailed/img2.3.webp";
-import img4 from "../../assets/Images/work detailed/img2.4.webp";
-import img5 from "../../assets/Images/work detailed/img2.5.webp";
-import img6 from "../../assets/Images/work detailed/img2.6.webp";
-import img7 from "../../assets/Images/work detailed/img2.7.webp";
+import img1 from "../../../assets/Images/work detailed/img2.1main.webp";
+import img1m from "../../../assets/Images/work detailed/img2.1.webp";
+import img2 from "../../../assets/Images/work detailed/img2.2.webp";
+import img3 from "../../../assets/Images/work detailed/img2.3.webp";
+import img4 from "../../../assets/Images/work detailed/img2.4.webp";
+import img5 from "../../../assets/Images/work detailed/img2.5.webp";
+import img6 from "../../../assets/Images/work detailed/img2.6.webp";
+import img7 from "../../../assets/Images/work detailed/img2.7.webp";
 
 const Brompton = () => {
   return (

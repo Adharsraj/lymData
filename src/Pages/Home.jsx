@@ -1,6 +1,10 @@
 import React from 'react'
 import Footer from '../Components/Footer'
-import Hero from '../Components/Hero'
+import Hero from '../Components/Home/Hero'
+import HowWeThink from '../Components/Home/HowWeThink'
+import IndustriesWeKnow from '../Components/Home/IndustriesWeKnow'
+import ProcessDrivenDesign from '../Components/Home/ProcessDrivenDesign'
+import Within7Industries from '../Components/Home/Within7Industries'
 import Navbar from '../Components/Navbar'
 
 const Home = () => {
@@ -8,6 +12,10 @@ const Home = () => {
     <>
     <Navbar/>
     <Hero/>
+    <HowWeThink/>
+    <ProcessDrivenDesign/>
+    <IndustriesWeKnow/>
+    <Within7Industries/>
     <Footer/>
     </>
   )

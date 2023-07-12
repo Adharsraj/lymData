@@ -1,14 +1,14 @@
 import React from "react";
-import img1 from "../../assets/Images/work detailed/img1.webp";
-import img1m from "../../assets/Images/work detailed/img1mini.webp";
-import img2 from "../../assets/Images/work detailed/img2.webp";
-import img3 from "../../assets/Images/work detailed/img3.webp";
-import img4 from "../../assets/Images/work detailed/img4.webp";
-import img5 from "../../assets/Images/work detailed/img5.webp";
-import img6 from "../../assets/Images/work detailed/img6.webp";
-import img7 from "../../assets/Images/work detailed/img7.webp";
-import img8 from "../../assets/Images/work detailed/img8.webp";
-import img9 from "../../assets/Images/work detailed/img9.webp";
+import img1 from "../../../assets/Images/work detailed/img1.webp";
+import img1m from "../../../assets/Images/work detailed/img1mini.webp";
+import img2 from "../../../assets/Images/work detailed/img2.webp";
+import img3 from "../../../assets/Images/work detailed/img3.webp";
+import img4 from "../../../assets/Images/work detailed/img4.webp";
+import img5 from "../../../assets/Images/work detailed/img5.webp";
+import img6 from "../../../assets/Images/work detailed/img6.webp";
+import img7 from "../../../assets/Images/work detailed/img7.webp";
+import img8 from "../../../assets/Images/work detailed/img8.webp";
+import img9 from "../../../assets/Images/work detailed/img9.webp";
 const Mailchimp = () => {
   return (
     <div>

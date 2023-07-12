@@ -1,5 +1,5 @@
 import React from "react";
-import { allWorks } from "../assets/Data/data";
+import { allWorks } from "../../assets/Data/data";
 
 const AllWorksListing = () => {
   return (
@@ -7,7 +7,7 @@ const AllWorksListing = () => {
         {allWorks.map((m)=>(
 
     
-      <div className="grid grid-cols-2 gap-4 mb-10 ">
+      <div key={m.id} className="grid grid-cols-2 gap-4 mb-10 ">
         <div className="flex items-center justify-center md:justify-between lg:ml-40 md:ml-20">
           <div className=" mr-5 border-b-2 lg:text-xl">
             <h1 className="text-lg underline  md:text-xl mb-4 font-times ">{m.title}</h1>

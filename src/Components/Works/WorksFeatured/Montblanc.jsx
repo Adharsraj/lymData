@@ -1,13 +1,13 @@
 import React from "react";
-import img1 from "../../assets/Images/work detailed/img3.1.webp";
-import img1m from "../../assets/Images/work detailed/img3.1mini.webp";
-import img2 from "../../assets/Images/work detailed/img3.2.webp";
-import img3 from "../../assets/Images/work detailed/img3.4.webp";
-import img4 from "../../assets/Images/work detailed/img3.5.webp";
-import img5 from "../../assets/Images/work detailed/img3.6.webp";
+import img1 from "../../../assets/Images/work detailed/img3.1.webp";
+import img1m from "../../../assets/Images/work detailed/img3.1mini.webp";
+import img2 from "../../../assets/Images/work detailed/img3.2.webp";
+import img3 from "../../../assets/Images/work detailed/img3.4.webp";
+import img4 from "../../../assets/Images/work detailed/img3.5.webp";
+import img5 from "../../../assets/Images/work detailed/img3.6.webp";
 
 
-import img8 from "../../assets/Images/work detailed/img3.8.webp";
+import img8 from "../../../assets/Images/work detailed/img3.8.webp";
 const Montblanc = () => {
   return (
     <div className="">

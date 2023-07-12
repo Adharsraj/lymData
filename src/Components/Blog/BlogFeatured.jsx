@@ -1,5 +1,5 @@
 import React from "react";
-import featuedImg from "../assets/Images/IMAGE (4).png";
+import featuedImg from "../../assets/Images/IMAGE (4).png";
 const BlogFeatured = () => {
   return (
     <div className="max-w-[1640px]  mx-auto p-4   font-roboto mt-20">

@@ -1,8 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
 
-
-
 const Hero = () => {
   useEffect(() => {
     var tl = gsap.timeline();
@@ -15,6 +13,8 @@ const Hero = () => {
 
     tl.from("h3", {
       y: 100,
+      ease: "power4.inOut",
+
       stagger: 1.5,
     });
 
@@ -163,23 +163,30 @@ const Hero = () => {
       <div className="max-w-[1640px] mx-auto p-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
         <div className="mt-10 mb-20">
           <h3
-  className="flex justify-center items-center border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] lg:top-6 lg:left-6 z-50 text-white left-[-210px] top-[10px] w-[85px] h-[85px]"
-  id="box"
->
-  h0ver
-</h3>
-
-
+            className="flex justify-center items-center 
+            border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px]
+             rounded-full bg-grey hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] 
+             lg:top-6 lg:left-6 z-50 text-white left-[-210px] top-[10px] w-[85px] h-[85px]"
+            id="box"
+          >
+            h0ver
+          </h3>
 
           <h3
-            className="flex justify-center items-center  border md:w-[150px] md:h-[150px] lg:w-[200px]  lg:h-[200px] rounded-full bg-grey md:flex  hover:text-2xl duration-200 absolute lg:top-60 lg:left-[386px] md:top-[100px] md:left-[180px] z-50 text-white left-[-50px] w-[85px] h-[85px]"
+            className="flex justify-center items-center 
+             border md:w-[150px] md:h-[150px] lg:w-[200px]  lg:h-[200px] rounded-full bg-grey
+              md:flex  hover:text-2xl duration-200 absolute lg:top-60 lg:left-[386px] md:top-[100px]
+               md:left-[180px] z-50 text-white left-[-50px] w-[85px] h-[85px]"
             id="box1"
           >
             h0ver
           </h3>
 
           <h3
-            className=" flex text-center  left-[-210px] top-[180px]  border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex justify-center items-center hover:text-2xl duration-200 absolute lg:top-[480px] lg:left-[-100px] md:top-[160px] md:left-[-110px] z-50 text-white w-[85px] h-[85px]"
+            className=" flex text-center  left-[-210px] top-[180px] 
+             border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex
+              justify-center items-center hover:text-2xl duration-200 absolute lg:top-[480px] 
+              lg:left-[-100px] md:top-[160px] md:left-[-110px] z-50 text-white w-[85px] h-[85px]"
             id="box2"
           >
             h0ver
@@ -194,18 +201,18 @@ const Hero = () => {
                 alt="GIF"
               />
 
-              <div className="clip-text-video__text layer lg:mt-[216px] w-full  z-0 ">
+              <div className="clip-text-video__text layer lg:mt-[204px] w-full  z-0 ">
                 <p className="lg:text-9xl lg:w-[890px]  md:text-7xl  text-4xl font-extrabold font-zuume mx-auto mt-30 ml-  relative">
-                  "Transforming
+                  "Data-driven   
                 </p>
                 <p className="lg:[160px] lg:w-[890px]  md:text-7xl text-4xl  font-extrabold font-zuume mx-auto relative">
-                  visions
+                Solutions
                 </p>
                 <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl   font-extrabold font-zuume mx-auto relative">
-                  Into <span className="lg:text-[132px]">Captivating</span>  
+                <span className="lg:text-[132px]">Shaping</span>  <span className="lg:text-[102px]">your</span>
                 </p>
-                <p className="lg:text-9xl lg:w-[930px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
-                  Beauty"
+                <p className="lg:text-9xl lg:ml-60 lg:w-[1000px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
+                digital Success"
                 </p>
               </div>
             </section>

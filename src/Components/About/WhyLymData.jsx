@@ -1,5 +1,5 @@
 import React from 'react'
-import { whyLymData } from '../assets/Data/data'
+import { whyLymData } from '../../assets/Data/data'
 
 const WhyLymData = () => {
   return (

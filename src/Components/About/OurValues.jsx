@@ -3,7 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { SlSocialDribbble, SlSocialLinkedin } from "react-icons/sl";
-import {ourValues} from "../assets/Data/data";
+import {ourValues} from "../../assets/Data/data";
 const OurValues = () => {
   return (
     <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white font-roboto ">

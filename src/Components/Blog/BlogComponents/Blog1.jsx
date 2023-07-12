@@ -69,7 +69,7 @@ const Blog1 = () => {
             someone who speaks to your target group on an equal footing and not
             from above. It becomes "easier" to talk about your passion.
           </p>
-          <ul class="list-disc ml-7 mt-5">
+          <ul className="list-disc ml-7 mt-5">
   <li>Why the CUSTOMER PROBLEM is challenging but can be solved with your BRAND SOLUTION.</li>
   <li>How your customer can start using the BRAND SOLUTION tomorrow.</li>
   <li>Common misconceptions about the CUSTOMER PROBLEM/BRAND SOLUTION.</li>

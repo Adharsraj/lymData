@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { worksData } from "../assets/Data/data";
+import { worksData } from "../../assets/Data/data";
 
 const SelectedWorks = () => {
     const handleLinkClick = () => {
@@ -10,8 +10,8 @@ const SelectedWorks = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 mt-20">
       {worksData.map((m) => (
-        <div className="md:hidden">
-          <div className="flex flex-col items-center relative">
+        <div key={m.id} className="md:hidden">
+          <div key={m.id} className="flex flex-col items-center relative">
             <span className="text-4xl mx-auto font-times mb-8 mt-10">
               {m.title}
             </span>
@@ -42,7 +42,7 @@ const SelectedWorks = () => {
       ))}
 
       {worksData.map((m) => (
-        <div className="hidden md:grid md:grid-cols-3 font-times items-center ">
+        <div key={m.id} className="hidden md:grid md:grid-cols-3 font-times items-center ">
           <div className="mt-24 w-[200px] lg:w-[300px] md:text-xl">
             <h1 className=" text-center border-b-2 border-b-slate-200 font-times ">
               {m.head1}

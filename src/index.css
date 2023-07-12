@@ -10,16 +10,15 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  object-fit: cover;
   overflow: hidden;
 }
 
 .clip-text-video__text {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color:#DCDCDC;
   overflow: hidden;
-  background: #000;
+  background:#000;
   mix-blend-mode: multiply;
 }
 
@@ -28,6 +27,10 @@
   font-weight: 900;
 
 }
+
+
+// for scroll sheet 
+
 @layer base {
   @font-face {
     font-family: "Roboto";

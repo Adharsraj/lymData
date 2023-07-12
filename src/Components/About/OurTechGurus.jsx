@@ -1,8 +1,8 @@
 import React from "react";
-import Shinas from "../assets/Images/IMAGE (1).png";
-import Billal from "../assets/Images/IMAGE (2).png";
-import Bibin from "../assets/Images/IMAGE (3).png";
-import Shabeer from "../assets/Images/IMAGE.png";
+import Shinas from "../../assets/Images/IMAGE (1).png";
+import Billal from "../../assets/Images/IMAGE (2).png";
+import Bibin from "../../assets/Images/IMAGE (3).png";
+import Shabeer from "../../assets/Images/IMAGE.png";
 
 const OurTechGurus = () => {
   return (
