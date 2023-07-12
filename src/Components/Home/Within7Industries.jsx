@@ -10,7 +10,7 @@ const Within7Industries = () => {
       {sevenIndustries.map((m) => (
         <div key={m.id} className="md:flex justify-between border-b mb-6 ">
           <div>
-            <h1 className="text-2xl mb-4 md:w-[350px] lg:w-[700px]">
+            <h1 className="text-2xl mb-4 md:w-[350px] lg:px-16 lg:w-[700px]">
               {m.head1}
             </h1>
           </div>
