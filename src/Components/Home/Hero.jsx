@@ -160,6 +160,8 @@ const Hero = () => {
 
   return (
     <>
+    <div className="bg-black">
+
       <div className="max-w-[1640px] mx-auto px-0 py-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
         <div className="mt-10 mb-20">
           <h3
@@ -219,6 +221,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      </div>
+
       <div className="bg-white"></div>
     </>
   );
