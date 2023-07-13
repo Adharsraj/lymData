@@ -62,7 +62,7 @@ const ProcessDrivenDesign = () => {
             </defs>
           </svg>
 
-          <h1 className="text-5xl hidden md:flex  md:w-[600px] lg:w-[800px]   md:text-7xl lg:text-9xl  mt-4 ">driven design</h1>
+          <h1 className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px] border xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
         </div>
         <h1 className="text-5xl mt-4 md:hidden  ">driven design</h1>
         <div className="flex justify-center gap-10 mt-10">
