@@ -160,7 +160,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="max-w-[1640px] mx-auto p-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
+      <div className="max-w-[1640px] mx-auto py-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
         <div className="mt-10 mb-20">
           <h3
             className="flex justify-center items-center 
@@ -211,7 +211,7 @@ const Hero = () => {
                 <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl   font-extrabold font-zuume mx-auto relative">
                 <span className="lg:text-[132px]">Shaping</span>  <span className="lg:text-[102px]">your</span>
                 </p>
-                <p className="lg:text-[125px] xl:text-[130px]  xl:w-[1180px] border  lg:w-[980px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
+                <p className="lg:text-[125px] xl:text-[130px]  xl:w-[1180px] border text-center  lg:w-[980px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
                 digital Success"
                 </p>
               </div>
