@@ -160,7 +160,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="max-w-[1640px]  px-0 py-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
+      <div className="max-w-[1640px] mx-auto px-0 py-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
         <div className="mt-10 mb-20">
           <h3
             className="flex justify-center items-center 
@@ -195,7 +195,7 @@ const Hero = () => {
           <div className="lg:mt-[92px] mt-20">
             <section className="clip-text-video ">
               <img
-                className="lg:h-[480px] lg:mt-[212px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full   z-0"
+                className="lg:h-[480px] lg:mt-[212px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
                 id="running"
                 src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
                 alt="GIF"
