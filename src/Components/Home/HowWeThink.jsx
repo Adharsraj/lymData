@@ -67,7 +67,7 @@ const HowWeThink = () => {
             height="30"
             viewBox="0 0 60 60"
             fill="none"
-            className="animate-spin"
+            className="hover:animate-spin"
             
 
           >
@@ -100,7 +100,7 @@ const HowWeThink = () => {
   height="30"
   viewBox="0 0 60 60"
   fill="none"
-  className="lg:hidden animate-spin mr-10"
+  className="lg:hidden hover:animate-spin mr-10"
   
 
 >
@@ -125,7 +125,7 @@ const HowWeThink = () => {
   height="80"
   viewBox="0 0 60 60"
   fill="none"
-  className=" lg:flex animate-spin"
+  className=" lg:flex hover:animate-spin"
   
 
 >

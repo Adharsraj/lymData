@@ -9,12 +9,12 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 const ProcessDrivenDesign = () => {
   useEffect(() => {
-    gsap.from("#processdriven", {
+    gsap.from("#processdriven #designed", {
       scrollTrigger: {
-        trigger: "#processdriven",
+        trigger: "#processdriven #designed",
         toggleActions: "restart pause resume pause",
       },
-      x: 200,
+      y: 100,
       opacity: 0,
       scrub:true,
       markers:true,
@@ -27,12 +27,13 @@ const ProcessDrivenDesign = () => {
         toggleActions: "restart pause resume pause",
         
     },
-    x: 200,
+    y: 100,
     opacity: 0,
     stagger:0.2
     });
-   
   }, []);
+
+
   return (
     <>
     <div className="bg-[#BCBCBC]">
@@ -100,18 +101,18 @@ const ProcessDrivenDesign = () => {
         </div>
         <h1 id="design" className="text-5xl mt-4 md:hidden  ">driven design</h1>
         <div className="flex justify-center gap-10 mt-10">
-          <h2 className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
+          <h2 id="buttons" className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise
           </h2>
-          <h2 className="p-2 bg-gray-800 lg:text-xl text-slate-100 rounded-full font-times ">
+          <h2 id="buttons" className="p-2 bg-gray-800 lg:text-xl text-slate-100 rounded-full font-times ">
             What we do
           </h2>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div id="designed" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
   {productDrivenDesign.map((m) => (
-    <div key={m.id} className="flex md:items  flex-col">
+    <div key={m.id} className="flex md:  flex-col">
       <h1 className="w-[250px] mx-auto text-2xl mt-10">{m.head1}</h1>
       <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 bg-black">
         <BsArrowRight size={30} />
