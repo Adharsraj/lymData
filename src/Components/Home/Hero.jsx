@@ -211,7 +211,7 @@ const Hero = () => {
                 <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl   font-extrabold font-zuume mx-auto relative">
                 <span className="lg:text-[132px]">Shaping</span>  <span className="lg:text-[102px]">your</span>
                 </p>
-                <p className="lg:text-9xl lg:ml-60 lg:w-[1000px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
+                <p className="lg:text-9xl   lg:w-[995px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
                 digital Success"
                 </p>
               </div>

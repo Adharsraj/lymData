@@ -64,7 +64,7 @@ const ProcessDrivenDesign = () => {
 
           <h1 className="text-5xl hidden md:flex  md:w-[600px] lg:w-[800px]   md:text-7xl lg:text-9xl  mt-4 ">driven design</h1>
         </div>
-        <h1 className="text-5xl mt-4 md:hidden border ">driven design</h1>
+        <h1 className="text-5xl mt-4 md:hidden  ">driven design</h1>
         <div className="flex justify-center gap-10 mt-10">
           <h2 className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise

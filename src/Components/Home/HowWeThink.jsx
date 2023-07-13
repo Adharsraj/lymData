@@ -16,6 +16,8 @@ const HowWeThink = () => {
           },
           x: 300,
           opacity: 0,
+          scrub:true,
+          markers:true
         });
     
         gsap.from("#howwechallenge", {
@@ -28,6 +30,19 @@ const HowWeThink = () => {
         opacity: 0,
         stagger:0.2
         });
+        // gsap.to("#diveinto",{
+        //   scrollTrigger:{
+        //     trigger:"#diveinto",
+        //     start:"top center",
+        //     end:"top 50px",
+        //     scrub:true,
+        //     markers:true,
+          
+        // },
+        // x:100,
+        // rotation:360,
+        // ease:"none",
+        // })
       }, []);
   return (
     <div className="max-w-[1640px] mx-auto p-4 font-dm md:text-xl bg-[#F8FAFC
@@ -84,7 +99,7 @@ const HowWeThink = () => {
   height="30"
   viewBox="0 0 60 60"
   fill="none"
-  className="lg:hidden animate-spin"
+  className="lg:hidden animate-spin mr-10"
   
 
 >
@@ -130,15 +145,18 @@ const HowWeThink = () => {
 </div>
       </div>
           {/* <h5 className="mt-8  mx-auto  mb-4 w-[160px] text-gray-500 rounded-xl p-2 bg-yellow-300">Dive into our culture</h5> */}
-                <div className="w-[132px] h-[53px]  mt-6 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform border lg:ml-[480px]  ">
+                <div id="diveinto" className="w-[132px] h-[53px]  mt-6 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform border lg:ml-[480px]  ">
                     <div className="flex">
 
-                <h1 className="flex justify-center font-roboto ">Dive into our culture</h1>
+                <h1  className="flex justify-center font-roboto ">Dive into our culture</h1>
                 <span className="flex justify-end">
                   <BsArrowRight size={30} />
                 </span>
                     </div>
               </div>
+
+
+              
     </div>
   );
 };

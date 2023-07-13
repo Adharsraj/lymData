@@ -42,7 +42,7 @@ const IndustriesWeKnow = () => {
             height="80"
             viewBox="0 0 60 60"
             fill="none"
-            className="  md:w-[200px]  mt-10 md:mt-2 md:ml-16  lg:ml-12  md:flex animate-spin "
+            className="  md:w-[200px]   mt-10 md:mt-2 md:ml-12 lg:ml-32 md:flex animate-spin "
           >
             <g clipPath="url(#clip0_286_233)">
               <path
