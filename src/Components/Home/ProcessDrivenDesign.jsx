@@ -100,7 +100,7 @@ const ProcessDrivenDesign = () => {
           <h1 id="design" className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px]  xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
         </div>
         <h1 id="design" className="text-5xl mt-4 md:hidden  ">driven design</h1>
-        <div className="flex justify-center gap-10 mt-10">
+        <div className="flex justify-center gap-10 mt-10 mb-20">
           <h2 id="buttons" className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise
           </h2>
@@ -112,7 +112,7 @@ const ProcessDrivenDesign = () => {
 
       <div id="designed" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
   {productDrivenDesign.map((m) => (
-    <div key={m.id} className="flex md:  flex-col">
+    <div key={m.id} className="flex md:border-r  flex-col">
       <h1 className="w-[250px] mx-auto text-2xl mt-10">{m.head1}</h1>
       <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 bg-black">
         <BsArrowRight size={30} />

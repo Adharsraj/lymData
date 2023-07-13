@@ -10,19 +10,17 @@ import Blog3 from "../../Components/Blog/BlogComponents/Blog3";
 import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
-import workimg1 from '../Images/works/new1.webp'
-import workimg2 from '../Images/works/new2.webp'
-import workimg3 from '../Images/works/new3.webp'
-import allworks1 from '../Images/allworks/IMAGE (15).png'
-import allworks2 from '../Images/allworks/IMAGE (16).png'
-import allworks3 from '../Images/allworks/IMAGE (17).png'
-import allworks4 from '../Images/allworks/IMAGE (18).png'
-import allworks5 from '../Images/allworks/IMAGE (19).png'
-import allworks6 from '../Images/allworks/IMAGE (20).png'
-import allworks7 from '../Images/allworks/IMAGE (21).png'
-import allworks8 from '../Images/allworks/IMAGE (22).png'
-
-
+import workimg1 from "../Images/works/new1.webp";
+import workimg2 from "../Images/works/new2.webp";
+import workimg3 from "../Images/works/new3.webp";
+import allworks1 from "../Images/allworks/IMAGE (15).png";
+import allworks2 from "../Images/allworks/IMAGE (16).png";
+import allworks3 from "../Images/allworks/IMAGE (17).png";
+import allworks4 from "../Images/allworks/IMAGE (18).png";
+import allworks5 from "../Images/allworks/IMAGE (19).png";
+import allworks6 from "../Images/allworks/IMAGE (20).png";
+import allworks7 from "../Images/allworks/IMAGE (21).png";
+import allworks8 from "../Images/allworks/IMAGE (22).png";
 
 export const ourValues = [
   {
@@ -139,7 +137,6 @@ export const blogsData = [
   },
 ];
 
-
 export const worksData = [
   {
     id: 1,
@@ -170,10 +167,7 @@ export const worksData = [
     head3: "Digital and wearable design expertise",
     title: "Montblanc",
   },
-
- 
-]
-
+];
 
 export const allWorks = [
   {
@@ -203,112 +197,137 @@ export const allWorks = [
     head1: "Helping millions across EMEA train and learn",
     title: "Grow with Google",
   },
-  
+
   {
     id: 5,
     img: allworks5,
     head1: "How we created Mailchimp Academy to upskill Mailchimp users",
     title: "Mailchimp",
   },
-  
+
   {
     id: 6,
     img: allworks6,
     head1: "Educating the public on Big Tobacco’s tricks to hook kids",
     title: "California Tobacco Control Program",
   },
-  
+
   {
     id: 7,
     img: allworks7,
     head1: "Partnering with Google for a decade of award-winning work",
     title: "Ten years with Google",
-  }, 
-  
+  },
+
   {
     id: 8,
     img: allworks8,
     head1: "Helping Just Eat keep first place for food delivery",
     title: "Just Eat",
   },
-
- 
-]
+];
 
 export const productDrivenDesign = [
   {
     id: 1,
     head1: "Product discovery",
-    head2: "We set the right processes and methodologies to boost innovation labs and digital product discoveries.    ",
+    head2:
+      "We set the right processes and methodologies to boost innovation labs and digital product discoveries.    ",
   },
 
   {
     id: 2,
     head1: "Branding & strategy ",
-    head2: "We evolve powerful ideas into solid and relatable brands that drive adoption and build reputation including.",
+    head2:
+      "We evolve powerful ideas into solid and relatable brands that drive adoption and build reputation including.",
   },
 
   {
     id: 3,
-    head1: "Product design & development  ",
-    head2: "From initial concept, to interface design and product development we craft high-end platforms for outstanding digital experiences.    ",
+    head1: "Product design ",
+    head2:
+      "From initial concept, to interface design and product development we craft high-end platforms for outstanding digital experiences.    ",
   },
   {
     id: 4,
-    head1: "Blockchain innovation LAB",
-    head2: "We open an exploration space to innovate with the tools of the future.    ",
+    head1: "Blockchain innovation",
+    head2:
+      "We open an exploration space to innovate with the tools of the future.    ",
   },
-  
-  
-
- 
-]
-
+];
 
 export const sevenIndustries = [
   {
     id: 1,
     head1: "Entertainment    ",
-    head2: "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.    ",
+    head2:
+      "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.    ",
   },
 
   {
     id: 2,
     head1: "Media & OTT    ",
-    head2: "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
+    head2:
+      "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
   },
 
   {
     id: 3,
     head1: "Banking, Finance & Crypto    ",
-    head2: "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
+    head2:
+      "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
   },
   {
     id: 4,
     head1: "Insurance & Insurtech    ",
-    head2: "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
+    head2:
+      "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
   },
   {
     id: 5,
     head1: " Energy & Industrials    ",
-    head2: " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles. ",
+    head2:
+      " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles. ",
   },
   {
     id: 6,
     head1: " Retail & Commerce    ",
-    head2: " Digital is now an indispensable channel for any retail or commerce. E-commerce and online presence have become commodities in the way brands sell and strategize. It is the ultimate channel for brand presence, and we bring years of experience to help brands stand out in a crowded space.    ",
+    head2:
+      " Digital is now an indispensable channel for any retail or commerce. E-commerce and online presence have become commodities in the way brands sell and strategize. It is the ultimate channel for brand presence, and we bring years of experience to help brands stand out in a crowded space.    ",
   },
   {
     id: 7,
     head1: "   Information Technology    ",
-    head2: " As delivery times get shorter, new competitors flood the market, and clients get increasingly well-informed and demanding, we deliver innovation, 360 strategies and agile frameworks to turn raw data into key insights.    ",
+    head2:
+      " As delivery times get shorter, new competitors flood the market, and clients get increasingly well-informed and demanding, we deliver innovation, 360 strategies and agile frameworks to turn raw data into key insights.    ",
   },
-  
-  
-
- 
-]
+];
 
 
+ export const accordionData = [
+  {
+    title: 'How much does it cost to build an app? ',
+    content: "It’s not possible to quote a single monetary amount. Building a mobile app depends on many factors, from scope to budget. To estimate costs, request a project estimation.    "
+  },
+  {
+    title:"How long does a web development project take to complete? " ,
+    content: "That depends on the type and complexity of your project. Weeks 1-2 involve planning and organization. This is followed by the graphic design phase, which can take another two weeks. ",
+  },
+  {
+    title: "What essential features must a real estate website or app have?    ",
+    content: "Based on the analysis of top real estate websites, the core features should include a registration page, search filters, listings, maps, local infos, payments and a calendar.  ",
+  },
+  {
+    title:"How long does it take to build a product?    " ,
+    content: "That depends on the complexity of your app and the structure and stage of your project. Each stage takes a different amount of time, so if you’ve already completed some stages, such as writing the project brief and conducting research, it’ll take less time. It can take anywhere between three and nine months to go from idea to launch, but with a team of full-stack developers and experts we can make sure you lose no time in getting your mobile app to market.    ",
+  },
+  {
+    title: "How much does it cost to hire a Artificial Intelligence portal development company?    ",
+    content: "The price depends on the complexity of the projects you want to see. A project with a unique design, custom layout and complex features may cost upwards around $50,000. A more straight forward application that includes everything from design to code may cost 23,000 - 25,000 USD.    ",
+  },
+  {
+    title:"Why do I need a UX designer?" ,
+    content: "By hiring a UX specialist, you can avoid failed investments in developing features that are not relevant to your users and shift your efforts to developing only features that make sense for them. This allows you to limit costs and increase your profitability.    ",
+  },
 
-
+];

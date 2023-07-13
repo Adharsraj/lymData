@@ -6,7 +6,7 @@ import Shabeer from "../../assets/Images/IMAGE.png";
 
 const OurTechGurus = () => {
   return (
-    <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white  font-roboto">
+    <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white  font-roboto ">
       <div className="text-center mt-16">
         <span className="text-gray-400 md:text-lg ">Our Tech Gurus</span>
         <h1 className="text-2xl mt-8 mb-6 md:text-6xl ">Leadership team</h1>
@@ -18,7 +18,7 @@ const OurTechGurus = () => {
         </h3>
       </div>
 
-      <div className="grid font-dm md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid font-dm md:grid-cols-2 lg:grid-cols-4 mb-10">
         <div className="relative">
           <img
             className="h-[300px] w-[150px] mx-auto mb-10 mt-12"

@@ -96,7 +96,7 @@ const Navbar = () => {
             Get in touch
           </span>
         </div>
-        <div  onClick={toggleMenu} className="bg-white hover:bg-green-200  rounded-full w-10 h-10  flex justify-center items-center">
+        <div  onClick={toggleMenu} className="bg-white hover:bg-blue-200  rounded-full w-10 h-10  flex justify-center items-center">
   <svg
     id="menu"
     className="w-6 h-6  cursor-pointer"

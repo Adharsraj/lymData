@@ -19,8 +19,8 @@ const IndustriesWeKnow = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 ">
         <div>
           <h1 className="text-xl italic font-times text-gray-500">Industries we know and understand</h1>
-          <h2 className="text-6xl lg:mt-20 lg:text-9xl">
-            experi <br /> -ence
+          <h2 className="text-6xl  lg:mt-20 lg:text-[135px]">
+            experi <br /> ence
           </h2>
         </div>
         <div>
