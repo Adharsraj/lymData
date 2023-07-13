@@ -1,27 +1,61 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { productDrivenDesign } from "../../assets/Data/data";
+import gsap from "gsap";
+import { useEffect } from "react";
+import {ScrollTrigger} from 'gsap/ScrollTrigger'
 
+
+gsap.registerPlugin(ScrollTrigger)
 const ProcessDrivenDesign = () => {
+  useEffect(() => {
+    gsap.from("#processdriven", {
+      scrollTrigger: {
+        trigger: "#processdriven",
+        toggleActions: "restart pause resume pause",
+      },
+      x: 200,
+      opacity: 0,
+      scrub:true,
+      markers:true,
+      stagger:0.2,
+    });
+
+    gsap.from("#design", {
+      scrollTrigger: {
+        trigger: "#design",
+        toggleActions: "restart pause resume pause",
+        
+    },
+    x: 200,
+    opacity: 0,
+    stagger:0.2
+    });
+   
+  }, []);
   return (
+    <>
+    <div className="bg-[#BCBCBC]">
+
+   
     <div className="max-w-[1640px] mx-auto p-4 bg-[#BCBCBC] text-white font-dm">
       <div>
       <div className="flex justify-end">
-  <h1 className="w-[300px] flex flex-col items-center lg:text-xl  lg:w-[400px]">
+  <h1 id="processdriven" className="w-[300px] flex flex-col items-center italic lg:text-xl  lg:w-[400px]">
     They aren’t created by chance, nor are the fruit of inspiration.
     Products that matter are the end result of a curated process of
     ideation, incubation, and implementation.
   </h1>
 </div>
         <div className="flex">
-          <h1 className="text-5xl mt-4 lg:mt-0 lg:text-9xl md:text-8xl md:ml-8 ">process</h1>
+          <h1 id="design" className="text-5xl mt-4 lg:mt-0 lg:text-9xl md:text-8xl md:ml-8  xl:w-[800px]  xl:text-[200px] ">process</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
             viewBox="0 0 60 60"
             fill="none"
-            className="ml-8 md:hidden animate-spin"
+            className="ml-8 md:hidden hover:animate-spin"
           >
             <g clipPath="url(#clip0_286_233)">
               <path
@@ -42,11 +76,11 @@ const ProcessDrivenDesign = () => {
         <div className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="60"
+            width="80"
             height="80"
             viewBox="0 0 60 60"
             fill="none"
-            className="  md:w-[200px] hidden mt-10 md:mt-2  md:flex animate-spin "
+            className="  md:w-[200px] hidden mt-10 md:mt-2   md:flex hover:animate-spin "
           >
             <g clipPath="url(#clip0_286_233)">
               <path
@@ -62,9 +96,9 @@ const ProcessDrivenDesign = () => {
             </defs>
           </svg>
 
-          <h1 className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px] border xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
+          <h1 id="design" className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px]  xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
         </div>
-        <h1 className="text-5xl mt-4 md:hidden  ">driven design</h1>
+        <h1 id="design" className="text-5xl mt-4 md:hidden  ">driven design</h1>
         <div className="flex justify-center gap-10 mt-10">
           <h2 className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise
@@ -92,6 +126,8 @@ const ProcessDrivenDesign = () => {
 
 
     </div>
+    </div>
+    </>
   );
 };
 

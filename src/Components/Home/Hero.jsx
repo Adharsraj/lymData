@@ -197,7 +197,7 @@ const Hero = () => {
           <div className="lg:mt-[92px] mt-20">
             <section className="clip-text-video ">
               <img
-                className="lg:h-[480px] lg:mt-[212px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
+                className="lg:h-[480px] max-w-[1640px] lg:mt-[212px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
                 id="running"
                 src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
                 alt="GIF"
@@ -213,7 +213,7 @@ const Hero = () => {
                 <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl   font-extrabold font-zuume mx-auto relative">
                 <span className="lg:text-[132px]">Shaping</span>  <span className="lg:text-[102px]">your</span>
                 </p>
-                <p className="lg:text-[125px] xl:text-[130px]  xl:w-[1180px] border text-center  lg:w-[980px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
+                <p className="lg:text-[125px] 2xl:text-left xl:text-[130px]  xl:w-[1180px]  text-center  lg:w-[980px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
                 digital Success"
                 </p>
               </div>

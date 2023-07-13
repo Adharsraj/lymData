@@ -34,14 +34,15 @@ const HowWeThink = () => {
         //   scrollTrigger:{
         //     trigger:"#diveinto",
         //     start:"top center",
-        //     end:"top 50px",
+        //     end:"top end",
         //     scrub:true,
         //     markers:true,
           
         // },
-        // x:100,
+        // x:0,
         // rotation:360,
         // ease:"none",
+        // yoyo:true
         // })
       }, []);
   return (
@@ -85,7 +86,7 @@ const HowWeThink = () => {
           </svg>
           </div>
           <div id="howwechallenge" className="text-gray-500 lg:w-[650px] lg:text-5xl">
-            DHNN™ is a collective brain, formed by a diverse group offormed by a
+            LYM-DATA™ is a collective brain, formed by a diverse group offormed by a
             diverse group of people who bring years ofpeople who bring years of
             experience, dedication and commitment to our daily work.
           </div>
@@ -118,12 +119,13 @@ const HowWeThink = () => {
 </svg>
 
 <svg
+
   xmlns="http://www.w3.org/2000/svg"
   width="90"
   height="80"
   viewBox="0 0 60 60"
   fill="none"
-  className="hidden lg:flex animate-spin"
+  className=" lg:flex animate-spin"
   
 
 >
@@ -145,7 +147,7 @@ const HowWeThink = () => {
 </div>
       </div>
           {/* <h5 className="mt-8  mx-auto  mb-4 w-[160px] text-gray-500 rounded-xl p-2 bg-yellow-300">Dive into our culture</h5> */}
-                <div id="diveinto" className="w-[132px] h-[53px]  mt-6 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform border lg:ml-[480px]  ">
+                <div id="" className="w-[132px] h-[53px] 2xl:ml-[540px] mt-6 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform border lg:ml-[480px]  ">
                     <div className="flex">
 
                 <h1  className="flex justify-center font-roboto ">Dive into our culture</h1>
