@@ -57,6 +57,8 @@ const ProcessDrivenDesign = () => {
             viewBox="0 0 60 60"
             fill="none"
             className="ml-8 md:hidden hover:animate-spin"
+            style={{ animationDuration: '5s' }}
+
           >
             <g clipPath="url(#clip0_286_233)">
               <path
@@ -82,6 +84,7 @@ const ProcessDrivenDesign = () => {
             viewBox="0 0 60 60"
             fill="none"
             className="  md:w-[200px] hidden mt-10 md:mt-2   md:flex hover:animate-spin "
+            style={{ animationDuration: '5s' }}
           >
             <g clipPath="url(#clip0_286_233)">
               <path
@@ -112,18 +115,27 @@ const ProcessDrivenDesign = () => {
 
       <div id="designed" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
   {productDrivenDesign.map((m) => (
-    <div key={m.id} className="flex md:border-r  flex-col">
+    <div
+      key={m.id}
+      className="flex md:border-r lg:hover:bg-white lg:hover:text-black flex-col"
+    >
       <h1 className="w-[250px] mx-auto text-2xl mt-10">{m.head1}</h1>
-      <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 bg-black">
+      <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 lg:text-[#BCBCBC]  ">
         <BsArrowRight size={30} />
       </h2>
-      <h2 className="w-[250px] mx-auto  mt-4 mb-4">{m.head2}</h2>
+      <h2
+        className="w-[250px] mx-auto lg:text-[#BCBCBC]  mt-4 mb-4"
+        
+      >
+        {m.head2}
+      </h2>
       <h2 className="w-[60px] h-[42px] md:hidden rounded-full ml-8 p-2 bg-black">
         <BsArrowRight size={30} />
       </h2>
     </div>
   ))}
 </div>
+
 
 
     </div>

@@ -283,24 +283,24 @@ export const sevenIndustries = [
     head2:
       "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
   },
-  {
-    id: 5,
-    head1: " Energy & Industrials    ",
-    head2:
-      " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles. ",
-  },
-  {
-    id: 6,
-    head1: " Retail & Commerce    ",
-    head2:
-      " Digital is now an indispensable channel for any retail or commerce. E-commerce and online presence have become commodities in the way brands sell and strategize. It is the ultimate channel for brand presence, and we bring years of experience to help brands stand out in a crowded space.    ",
-  },
-  {
-    id: 7,
-    head1: "   Information Technology    ",
-    head2:
-      " As delivery times get shorter, new competitors flood the market, and clients get increasingly well-informed and demanding, we deliver innovation, 360 strategies and agile frameworks to turn raw data into key insights.    ",
-  },
+  // {
+  //   id: 5,
+  //   head1: " Energy & Industrials    ",
+  //   head2:
+  //     " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles. ",
+  // },
+  // {
+  //   id: 6,
+  //   head1: " Retail & Commerce    ",
+  //   head2:
+  //     " Digital is now an indispensable channel for any retail or commerce. E-commerce and online presence have become commodities in the way brands sell and strategize. It is the ultimate channel for brand presence, and we bring years of experience to help brands stand out in a crowded space.    ",
+  // },
+  // {
+  //   id: 7,
+  //   head1: "   Information Technology    ",
+  //   head2:
+  //     " As delivery times get shorter, new competitors flood the market, and clients get increasingly well-informed and demanding, we deliver innovation, 360 strategies and agile frameworks to turn raw data into key insights.    ",
+  // },
 ];
 
 

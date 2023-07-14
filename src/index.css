@@ -18,7 +18,7 @@
   flex-direction: column;
   color:#DCDCDC;
   overflow: hidden;
-  background:#000;
+  background:#1c1f24;
   mix-blend-mode: multiply;
 }
 
@@ -28,8 +28,31 @@
 
 }
 
+//hero
+.overlay{
+width:100vw;
+height:100vh;
+color:#fff;
+display:flex;
+clip-path:polygon(0% 100%,100% 100%,100% 0%,0% 0%)
 
-// for scroll sheet 
+}
+.col{
+width:100%;
+padding:1em;
+}
+
+h6{
+margin:0;
+clip-path:polygon(0% 0%,100% 0%,100% 0%,0% 0%);
+font-weight:900;
+line-height:0.8;
+}
+
+
+// for animate spin 
+
+
 
 @layer base {
   @font-face {
@@ -58,6 +81,16 @@
     src: url("Zuume ExtraBold.woff2") format("woff2"),
       url("Zuume ExtraBold.woff") format("woff");
   }
- 
+
+  @font-face {
+  font-family: 'Aeonic';
+  font-weight: 900;
+  src: url("/fonts/AeonikTRIAL-Bold.woff2") format("woff2"),
+      url("/fonts/AeonikTRIAL-Bold.woff") format("woff");
+  
+
+}
+
+
   
 }

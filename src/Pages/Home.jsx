@@ -1,9 +1,10 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Hero from '../Components/Home/Hero'
-import HowWeThink from '../Components/Home/HowWeThink'
+import HowWeThinkk from '../Components/Home/HowWeThinkk'
 import IndustriesWeKnow from '../Components/Home/IndustriesWeKnow'
 import ProcessDrivenDesign from '../Components/Home/ProcessDrivenDesign'
+// import Test from '../Components/Home/Test'
 import Within7Industries from '../Components/Home/Within7Industries'
 import Navbar from '../Components/Navbar'
 
@@ -12,7 +13,8 @@ const Home = () => {
     <>
     <Navbar/>
     <Hero/>
-    <HowWeThink/>
+    {/* <Test/> */}
+    <HowWeThinkk/>
     <ProcessDrivenDesign/>
     <IndustriesWeKnow/>
     <Within7Industries/>

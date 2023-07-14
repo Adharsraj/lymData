@@ -156,71 +156,104 @@ const Hero = () => {
         duration: 2.3,
       });
     });
+
+    // if (divRef.current) {
+    //   gsap.to(divRef.current, { clipPath: 'circle(50% at 50% 100% )', duration: 1 });
+    // }
+    gsap.from("h6 div", 1.5, {
+      yPercent: 100,
+      ease: "power4.inOut",
+      stagger: {
+        amount: 0.5,
+      },
+    });
+
+    gsap.to("h6", 1.5, {
+      clipPath: "polygon(0 0,100% 0,100% 100%,0% 100%)",
+      ease: "power4.inOut",
+      stagger: {
+        amount: 0.5,
+      },
+    });
   }, []);
 
   return (
     <>
-    <div className="bg-black">
-
-      <div className="max-w-[1640px] mx-auto px-0 py-2 font-roboto  bg-black md:mt-[-6px] lg:mt-[-16px]  ">
-        <div className="mt-10 mb-20">
-          <h3
-            className="flex justify-center items-center 
+      <div className="">
+        <div className="max-w-[1640px] mx-auto px-0 py-2    md:mt-[-6px] lg:mt-[-16px]  ">
+          <div className=" mb-10">
+            <h3
+              className="flex justify-center items-center 
             border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px]
              rounded-full bg-grey hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] 
              lg:top-6 lg:left-6 z-50 text-white left-[-210px] top-[10px] w-[85px] h-[85px]"
-            id="box"
-          >
-            h0ver
-          </h3>
+              id="box"
+            >
+              Home
+            </h3>
 
-          <h3
-            className="flex justify-center items-center 
+            <h3
+              className="flex justify-center items-center 
              border md:w-[150px] md:h-[150px] lg:w-[200px]  lg:h-[200px] rounded-full bg-grey
               md:flex  hover:text-2xl duration-200 absolute lg:top-60 lg:left-[386px] md:top-[100px]
                md:left-[180px] z-50 text-white left-[-50px] w-[85px] h-[85px]"
-            id="box1"
-          >
-            h0ver
-          </h3>
+              id="box1"
+            >
+              About
+            </h3>
 
-          <h3
-            className=" flex text-center  left-[-210px] top-[180px] 
+            <h3
+              className=" flex text-center  left-[-210px] top-[180px] 
              border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex
-              justify-center items-center hover:text-2xl duration-200 absolute lg:top-[480px] 
+              justify-center items-center hover:text-2xl duration-200 absolute lg:top-[380px] 
               lg:left-[-100px] md:top-[160px] md:left-[-110px] z-50 text-white w-[85px] h-[85px]"
-            id="box2"
-          >
-            h0ver
-          </h3>
+              id="box2"
+            >
+              Works
+            </h3>
 
-          <div className="lg:mt-[92px] mt-20">
-            <section className="clip-text-video ">
-              <img
-                className="lg:h-[480px] max-w-[1640px] lg:mt-[212px] md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
-                id="running"
-                src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
-                alt="GIF"
-              />
+            <div className=" ">
+              <section className="clip-text-video  ">
+                {/* <img
+                  className="lg:h-[480px] max-w-[1640px] lg:mt-[102px] opacity-50 md:mt-[90px] md:h-[280px]   h-[180px] mt-[88px]   w-full px-6  z-0"
+                  id="running"
+                  src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
+                  alt="GIF"
+                /> */}
 
-              <div className="clip-text-video__text layer lg:mt-[204px] w-full  z-0 ">
-                <p className="lg:text-9xl lg:w-[890px]  md:text-7xl  text-4xl font-extrabold font-zuume mx-auto mt-30 ml-  relative">
-                  "Data-driven   
-                </p>
-                <p className="lg:[160px] lg:w-[890px]  md:text-7xl text-4xl  font-extrabold font-zuume mx-auto relative">
-                Solutions
-                </p>
-                <p className="lg:text-9xl lg:w-[990px] md:text-7xl text-4xl   font-extrabold font-zuume mx-auto relative">
-                <span className="lg:text-[132px]">Shaping</span>  <span className="lg:text-[102px]">your</span>
-                </p>
-                <p className="lg:text-[125px] 2xl:text-left xl:text-[130px]  xl:w-[1180px]  text-center  lg:w-[980px] md:text-7xl text-4xl   mb-10 font-extrabold font-zuume mx-auto relative">
-                digital Success"
-                </p>
-              </div>
-            </section>
+                <div className="clip-text-video__text layer    z-0 ">
+                  <div className="overlay  flex flex-col justify-center font-aeonic uppercase text-[134px]">
+                    <div className="col  ">
+                      <h6 className="text-left xl:w-full lg:text-8xl md:text-7xl  text-4xl md:w-full w-[300px] ml-[-110px] md:ml-0 ">
+                        <div>Data-driven</div>
+                      </h6>
+                      <h6 className="text-left xl:w-full lg:text-8xl md:text-7xl text-4xl md:w-full w-[300px] ml-[-110px] md:ml-0">
+                        <div>Solutions</div>
+                      </h6>
+                      <h6 className="text-left xl:w-full lg:text-8xl md:text-6xl text-4xl md:w-full w-[300px]  ml-[-110px]  md:ml-0">
+                        <div> Shaping your</div>
+                      </h6>
+                      <h6 className="md:text-left xl:text-[128px] xl:w-full lg:text-[83px]  w-[300px] md:text-5xl text-4xl  md:w-full ml-[-110px]  md:ml-0">
+                        <div>digital Success</div>
+                      </h6>
+
+                      <h6 className="text-center">
+                        <div> </div>
+                      </h6>
+                    </div>
+                    {/* <div className="col">
+                      <h6>
+                        <div>
+                          <span>click</span>anywhere to continue
+                        </div>
+                      </h6>
+                    </div> */}
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
-      </div>
       </div>
 
       <div className="bg-white"></div>

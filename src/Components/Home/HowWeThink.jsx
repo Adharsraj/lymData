@@ -68,6 +68,8 @@ const HowWeThink = () => {
             viewBox="0 0 60 60"
             fill="none"
             className="hover:animate-spin"
+            style={{ animationDuration: '5s' }}
+
             
 
           >
@@ -101,6 +103,8 @@ const HowWeThink = () => {
   viewBox="0 0 60 60"
   fill="none"
   className="lg:hidden hover:animate-spin mr-10"
+  style={{ animationDuration: '5s' }}
+
   
 
 >
@@ -126,6 +130,8 @@ const HowWeThink = () => {
   viewBox="0 0 60 60"
   fill="none"
   className=" lg:flex hover:animate-spin"
+  style={{ animationDuration: '5s' }}
+
   
 
 >
