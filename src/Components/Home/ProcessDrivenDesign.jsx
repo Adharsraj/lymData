@@ -41,15 +41,15 @@ const ProcessDrivenDesign = () => {
    
     <div className="max-w-[1640px] mx-auto p-4 bg-[#BCBCBC] text-white font-roboto">
       <div>
-      <div className="flex justify-end">
-  <h1 id="processdriven" className="w-[300px] flex flex-col items-center italic lg:text-xl  lg:w-[400px]">
+      <div className="flex justify-start md:justify-end">
+  <h1 id="processdriven" className="w-[300px] flex flex-col items-center italic lg:text-xl  ml-4 md:ml-0 lg:w-[400px]">
     They aren’t created by chance, nor are the fruit of inspiration.
     Products that matter are the end result of a curated process of
     ideation, incubation, and implementation.
   </h1>
 </div>
         <div className="flex">
-          <h1 id="design" className="text-5xl mt-4 lg:mt-0 lg:text-9xl md:text-8xl md:ml-8  xl:w-[800px]  xl:text-[200px] ">process</h1>
+          <h1 id="design" className="text-5xl mt-4 lg:mt-0 lg:text-9xl md:text-8xl md:ml-8  xl:w-[800px]  xl:text-[200px] text-center  w-[300px] mx-auto ">process</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -102,7 +102,7 @@ const ProcessDrivenDesign = () => {
 
           <h1 id="design" className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px]  xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
         </div>
-        <h1 id="design" className="text-5xl mt-4 md:hidden  ">driven design</h1>
+        <h1 id="design" className="text-5xl border text-center mt-4 md:hidden  ">driven design</h1>
         <div className="flex justify-center gap-10 mt-10 mb-20">
           <h2 id="buttons" className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise
@@ -129,7 +129,7 @@ const ProcessDrivenDesign = () => {
       >
         {m.head2}
       </h2>
-      <h2 className="w-[60px] h-[42px] md:hidden rounded-full ml-8 p-2 bg-black">
+      <h2 className="w-[60px] h-[42px]  md:hidden rounded-full ml-14 p-2 bg-black">
         <BsArrowRight size={30} />
       </h2>
     </div>

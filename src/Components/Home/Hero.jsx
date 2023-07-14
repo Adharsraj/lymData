@@ -215,7 +215,7 @@ const Hero = () => {
             <div className=" ">
               <section className="clip-text-video  ">
                 <img
-                  className="xl:h-[520px] max-w-[1640px] xl:mt-[125px] lg:h-[790px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
+                  className="xl:h-[520px] max-w-[1640px] xl:mt-[125px] opacity-80 lg:h-[790px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
                   id="running"
                   src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
                   alt="GIF"

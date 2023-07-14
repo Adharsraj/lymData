@@ -96,7 +96,7 @@ const Navbar = () => {
             Get in touch
           </span>
         </div>
-        <div  onClick={toggleMenu} className="bg- hover:bg-blue-200  rounded-full w-10 h-10  flex justify-center items-center">
+        <div  onClick={toggleMenu} className="hover:text-white">
   <svg
     id="menu"
     className="w-6 h-6  cursor-pointer"
@@ -107,7 +107,7 @@ const Navbar = () => {
     onClick={toggleMenu}
   >
     <path
-      className="text-gray-500"
+      className="text-gray-500 hover:text-white"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"
