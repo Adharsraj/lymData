@@ -179,7 +179,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className=" bg-bl text-white">
+      <div className=" bg-black text-white">
         <div className="max-w-[1640px] mx-auto  mt-[-10px]    md:mt-[-16px] lg:mt-[-16px]  ">
           <div className="">
             <h3
