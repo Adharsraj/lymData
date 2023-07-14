@@ -83,7 +83,7 @@ const ProcessDrivenDesign = () => {
             height="80"
             viewBox="0 0 60 60"
             fill="none"
-            className="  md:w-[200px] hidden mt-10 md:mt-2   md:flex hover:animate-spin "
+            className="  md:w-[200px] hidden mt-10 md:mt-2 xl:ml-20   md:flex hover:animate-spin "
             style={{ animationDuration: '5s' }}
           >
             <g clipPath="url(#clip0_286_233)">
