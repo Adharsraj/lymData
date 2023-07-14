@@ -39,7 +39,7 @@ const ProcessDrivenDesign = () => {
     <div className="bg-[#BCBCBC]">
 
    
-    <div className="max-w-[1640px] mx-auto p-4 bg-[#BCBCBC] text-white font-dm">
+    <div className="max-w-[1640px] mx-auto p-4 bg-[#BCBCBC] text-white font-roboto">
       <div>
       <div className="flex justify-end">
   <h1 id="processdriven" className="w-[300px] flex flex-col items-center italic lg:text-xl  lg:w-[400px]">
@@ -107,7 +107,7 @@ const ProcessDrivenDesign = () => {
           <h2 id="buttons" className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise
           </h2>
-          <h2 id="buttons" className="p-2 bg-gray-800 lg:text-xl text-slate-100 rounded-full font-times ">
+          <h2 id="buttons" className="p-2 bg-gray-800 lg:text-xl text-slate-100 rounded-full  ">
             What we do
           </h2>
         </div>
@@ -124,7 +124,7 @@ const ProcessDrivenDesign = () => {
         <BsArrowRight size={30} />
       </h2>
       <h2
-        className="w-[250px] mx-auto lg:text-[#BCBCBC]  mt-4 mb-4"
+        className="w-[250px] lg:text-2xl mx-auto lg:text-[#BCBCBC]  mt-4 mb-4"
         
       >
         {m.head2}

@@ -273,7 +273,7 @@ export const sevenIndustries = [
 
   {
     id: 3,
-    head1: "Banking, Finance & Crypto    ",
+    head1: "Finance & Crypto    ",
     head2:
       "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
   },

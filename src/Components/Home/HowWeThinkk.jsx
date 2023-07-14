@@ -3,7 +3,9 @@ import React from "react";
 import { useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
-
+import imgmain from '../../assets/Images/service/test.png'
+import imgtab from '../../assets/Images/service/bg-services1.png'
+import imgphone from '../../assets/Images/service/bg-services2.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -14,7 +16,7 @@ const HowWeThink = () => {
             trigger: "#howwethink",
             toggleActions: "restart pause resume pause",
           },
-          x: 300,
+          x: 100,
           opacity: 0,
           scrub:true,
           markers:true
@@ -45,26 +47,39 @@ const HowWeThink = () => {
         // })
       }, []);
   return (
-    <div className="max-w-[1640px] mx-auto p-4 font-roboto md:text-xl bg-[#F8FAFC
-    ] ">
+    <div className="max-w-[1640px] mx-auto p-4 font-roboto md:text-xl bg-[#F8FAFC] ">
      <div className="md:grid md:grid-cols-3  relative">
   <img
-    src="https://lymdata-2-0-9uzrbq2vo-lymdatalabs.vercel.app/assets/home-section-3--lines2.png"
+    src={imgmain}
     alt="bg-img"
-    className="absolute  mt-40 w-full  lg:pl-[75px]    "
+    className="absolute hidden md:flex md:mt-40  lg:mt-40 w-full   lg:pl-[75px]    "
   />
-  <div className="">
+
+
+  <div className="hidden md:flex">
     <h1
       id="howwethink"
-      className="lg:mt-10 font-mono lg:w-[150px] py-10 ml-20 relative z-10"
+      className="lg:mt-10 font-mono lg:w-[150px] lg:py-10 lg:ml-20"
     >
       How we think
     </h1>
   </div>
+
+
+  <div className="md:hidden">
+    <h1
+      id=""
+      className="lg:mt-10 ml-5  lg:w-[150px] lg:py-10 lg:ml-20"
+    >
+      How we think
+    </h1>
+  </div>
+
+
   <div>
     <h5
       id="howwechallenge"
-      className="mt-4 mb-4 lg:w-[650px] mx-auto  py-14 font-semibold lg:text-4xl mr-16 relative z-10"
+      className="mt-4 mb-4 md:ml-0 lg:w-[650px] mx-auto font-bold text-2xl ml-6  md:w-[400px]  lg:py-14  lg:text-5xl mr-16 relative z-10"
     >
       We're challengers at heart and builders by nature.
     </h5>
@@ -74,7 +89,7 @@ const HowWeThink = () => {
     </div>
     <div
       id="howwechallenge"
-      className="text-neutral-500 lg:w-[650px] lg:text-4xl mt-20  font-semibold mr-20 relative z-10"
+      className="text-neutral-500 lg:w-[650px] md:ml-0 ml-6 w-[250px] text-left lg:text-5xl lg:mt-8 md:w-[500px]    mr-20 relative z-10"
     >
       LYM™ is a collective brain, <br />
       formed by a diverse group <br />
@@ -115,7 +130,7 @@ style={{ animationDuration: '5s' }}
 </div>
 
           {/* <h5 className="mt-8  mx-auto  mb-4 w-[160px] text-gray-500 rounded-xl p-2 bg-yellow-300">Dive into our culture</h5> */}
-          <div id="" className="w-[132px] h-[53px] 2xl:ml-[540px] mt-6 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform border lg:ml-[480px]  ">
+          <div id="" className="w-[132px] h-[53px] 2xl:ml-[540px] mt-6 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform border ml-5 lg:ml-[480px]  ">
                     <div className="flex">
 
                 <h1  className="flex justify-center font-roboto ">Dive into our culture</h1>
@@ -129,6 +144,7 @@ style={{ animationDuration: '5s' }}
           </figure>    */}
            
     </div>
+    
   );
 };
 
