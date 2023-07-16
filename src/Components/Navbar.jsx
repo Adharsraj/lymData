@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import CompanyLogo from "../assets/Logos/Group 51.svg";
+import CompanyLogo from "../assets/Logos/Group 68.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link to="/">
           <img
             id="logo"
-            className="w-28  h-20"
+            className="lg:w-[124px]  lg:h-[100px] md:w-28 w-24 "
             src={CompanyLogo}
             alt="companylogo"
           />

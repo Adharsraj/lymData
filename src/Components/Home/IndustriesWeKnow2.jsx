@@ -84,7 +84,7 @@ const IndustriesWeKnow = () => {
 
 
       </div>
-      <div className="flex w-[300px] md:w-[600px] lg:w-[800px]  mx-auto justify-between  mt-4 mb-4">
+      <div className="flex w-[300px] md:w-[600px] lg:w-[800px]  mx-auto justify-between  mt-14 mb-14">
     <img src={ibmLogo} alt="Partners" className="w-14 md:w-16  lg:w-28     h-[100px]" />
     <img src={telefonicaLogo} alt="Partners" className="w-14  lg:w-28 md:w-16 h-[100px]" />
     <img src={turnerLogo} alt="Partners" className="w-14 md:w-16  lg:w-28 h-[100px]" />
