@@ -42,21 +42,27 @@ const ProcessDrivenDesign = () => {
     <div className="max-w-[1640px] mx-auto p-4 bg-[#BCBCBC] text-white font-roboto">
       <div>
       <div className="flex justify-start md:justify-end">
-  <h1 id="processdriven" className="w-[300px] flex flex-col items-center italic lg:text-xl  ml-4 md:ml-0 lg:w-[400px]">
+  <h1 id="processdriven" className="w-[300px] flex flex-col items-center font-sans lg:text-xl  ml-4 md:ml-0 lg:w-[400px] py-10 mr-10">
+    Products that matter are anticipated, personal and relevant to people.<br/>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp; 
     They aren’t created by chance, nor are the fruit of inspiration.
     Products that matter are the end result of a curated process of
-    ideation, incubation, and implementation.
+    ideation, incubation, and implementation.</p>
   </h1>
 </div>
         <div className="flex">
-          <h1 id="design" className="text-5xl mt-4 lg:mt-0 lg:text-9xl md:text-8xl md:ml-8  xl:w-[800px]  xl:text-[200px] text-center  w-[300px] mx-auto ">process</h1>
+          <h1 id="design" className="text-xl font-semibold mt-4 lg:mt-0 lg:text-5xl md:text-5xl md:ml-1  xl:w-[800px]  xl:text-[150px]  w-[300px] mx-auto ">process</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
             viewBox="0 0 60 60"
             fill="none"
-            className="ml-8 md:hidden hover:animate-spin"
+            className="ml-16 md:hidden hover:animate-spin"
             style={{ animationDuration: '5s' }}
 
           >
@@ -83,7 +89,7 @@ const ProcessDrivenDesign = () => {
             height="80"
             viewBox="0 0 60 60"
             fill="none"
-            className="  md:w-[200px] hidden mt-10 md:mt-2 xl:ml-20   md:flex hover:animate-spin "
+            className="  md:w-[200px] hidden mt-20 md:mt-2 xl:ml-20   md:flex hover:animate-spin "
             style={{ animationDuration: '5s' }}
           >
             <g clipPath="url(#clip0_286_233)">
@@ -100,33 +106,31 @@ const ProcessDrivenDesign = () => {
             </defs>
           </svg>
 
-          <h1 id="design" className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px]  xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
+          <h1 id="design" className="text-xl font-semibold hidden md:flex  md:w-[550px] lg:w-[900px] xl:w-[1100px]  xl:text-[160px]   md:text-7xl lg:text-[120px] lg:ml-20">driven design</h1>
         </div>
-        <h1 id="design" className="text-5xl  text-center mt-4 md:hidden  ">driven design</h1>
-        <div className="flex justify-center gap-10 mt-10 mb-20">
-          <h2 id="buttons" className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
+        <h1 id="design" className="text-xxl font-semibold border md:hidden  ">driven design</h1>
+        <div className="flex gap-10 mt-10 mb-20">
+          <h2 id="buttons" className="p-2 hover:cursor-pointer lg:text-xl text font-mono text-black px-10">
             Fields of expertise
           </h2>
-          <h2 id="buttons" className="p-2 bg-gray-800 lg:text-xl text-slate-100 rounded-full  ">
+          <h2 id="buttons" className="justify-center hover:cursor-pointer p-2 bg-gray-800 lg:text-xl text-slate-100 rounded-full item-center">
             What we do
           </h2>
         </div>
       </div>
 
-      <div id="designed" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div id="designed" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8">
   {productDrivenDesign.map((m) => (
     <div
       key={m.id}
-      className="flex md:border-r group lg:hover:bg-white lg:hover:text-black flex-col"
+      className="flex md:border-r group hover:cursor-pointer  lg:hover:bg-white lg:hover:text-black flex-col"
     >
       <h1 className="w-[250px] mx-auto text-2xl mt-10">{m.head1}</h1>
-      <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 group-hover:text-black lg:text-[#BCBCBC]  ">
+      <h2 className="w-[60px] md:ml-12 lg:ml-[39px] group-hover:text-black hidden md:flex rounded-full p-2 lg:text-[#BCBCBC]  ">
         <BsArrowRight size={30} />
       </h2>
       <h2
-        className="w-[250px] lg:text-2xl mx-auto group-hover:text-black lg:text-[#BCBCBC]  mt-4 mb-4"
-        
-      >
+        className="w-[250px] group-hover:text-black lg:text-sm mx-auto lg:text-[#BCBCBC]  mt-8 mb-8 font-sans">
         {m.head2}
       </h2>
       <h2 className="w-[60px] h-[42px]  md:hidden rounded-full ml-14 p-2 bg-black">

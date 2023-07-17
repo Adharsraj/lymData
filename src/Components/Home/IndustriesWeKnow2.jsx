@@ -53,6 +53,8 @@ const IndustriesWeKnow = () => {
             viewBox="0 0 60 60"
             fill="none"
             className="  md:w-[200px] md:mt-16 md:ml-5 lg:ml-5 md:flex hover:animate-spin "
+            style={{ animationDuration: '5s' }}
+
             >
             <g clipPath="url(#clip0_286_233)">
               <path

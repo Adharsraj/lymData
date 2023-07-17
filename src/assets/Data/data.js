@@ -254,9 +254,9 @@ export const productDrivenDesign = [
   },
   {
     id: 4,
-    head1: "Blockchain innovation",
+    head1: "Blockchain ",
     head2:
-      "We open an exploration space to innovate with the tools of the future.    ",
+      "We open an exploration space to innovate wi   ",
   },
 ];
 

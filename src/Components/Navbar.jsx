@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import CompanyLogo from "../assets/Logos/Group 68.svg";
+import CompanyLogo from "../assets/Logos/Companylogo.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,12 +25,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between bg-transparent h-[65px] z-10 fixed top-0 left-0 right-0">
+    <div className="max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between bg-transparent h-[65px] z-10 fixed top-0  border-black left-0 right-0">
       <div>
         <Link to="/">
           <img
             id="logo"
-            className="lg:w-[124px]  lg:h-[100px] md:w-28 w-24 "
+            className="lg:w-[104px]  lg:h-[80px] md:w-16 w-12 "
             src={CompanyLogo}
             alt="companylogo"
           />
@@ -70,6 +70,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
+
             <svg
               className="absolute top-2 right-2 w-6 h-6 cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
@@ -91,12 +92,14 @@ const Navbar = () => {
         <div className="flex items-center ease-out duration-300">
           <span
             id="getintouch"
-            className="bg-slate-800 text-white rounded-3xl w-[110px] h-[33px] sm:flex items-center justify-center text-center hidden mr-5 font-dm"
+            className="bg-slate-800 hover:cursor-pointer text-white rounded-3xl w-[110px] h-[33px] sm:flex items-center justify-center text-center hidden mr-5 font-dm"
           >
             Get in touch
           </span>
         </div>
-        <div  onClick={toggleMenu} className="hover:text-white">
+        <div onClick={toggleMenu} className="bg-transparent hover:cursor-pointer  group">
+
+        <div  onClick={toggleMenu} className="group  p-2">
   <svg
     id="menu"
     className="w-6 h-6  cursor-pointer"
@@ -107,13 +110,14 @@ const Navbar = () => {
     onClick={toggleMenu}
   >
     <path
-      className="text-gray-500 hover:text-white"
+      className="text-gray-500 group-hover:text-white "
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"
       d="M2 6h20M2 18h20"
     />
   </svg>
+</div>
 </div>
 
       </div>
