@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Components/Footer'
+import Footer from '../Components/FooterNew'
 import Hero from '../Components/Home/Hero'
 import HowWeThinkk from '../Components/Home/HowWeThinkk'
 import IndustriesWeKnow from '../Components/Home/IndustriesWeKnow2'

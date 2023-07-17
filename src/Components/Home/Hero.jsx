@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import giphy from '../../assets/gif/giphy.webp'
 const Hero = () => {
   useEffect(() => {
@@ -182,6 +183,8 @@ const Hero = () => {
       <div className=" bg-black text-white">
         <div className="max-w-[1640px] mx-auto  mt-[-10px]    md:mt-[-16px] lg:mt-[-16px]  ">
           <div className="">
+            <Link to='/contact'>
+            
             <h3
               className="flex justify-center items-center 
             border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px]
@@ -189,9 +192,10 @@ const Hero = () => {
              lg:top-6 lg:left-6 z-50 text-white left-[-210px] top-[10px] w-[85px] h-[85px]"
               id="box"
             >
-              Home
+              Contact
             </h3>
-
+            </Link>
+              <Link to="/about">
             <h3
               className="flex justify-center items-center 
              border md:w-[150px] md:h-[150px] lg:w-[200px]  lg:h-[200px] rounded-full bg-grey
@@ -201,7 +205,9 @@ const Hero = () => {
             >
               About
             </h3>
-
+              
+              </Link>
+            <Link to='/works'>
             <h3
               className=" flex text-center  left-[-210px] top-[180px] 
              border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex
@@ -211,6 +217,9 @@ const Hero = () => {
             >
               Works
             </h3>
+            
+            </Link>
+
 
             <div className=" ">
               <section className="clip-text-video  ">

@@ -1,6 +1,6 @@
 import React from "react";
 import CareerIntro from "../Components/Careers/CareerIntro";
-import Footer from "../Components/Footer";
+import Footer from "../Components/FooterNew";
 import JobListing from "../Components/Careers/JobListing";
 import Navbar from "../Components/Navbar";
 
