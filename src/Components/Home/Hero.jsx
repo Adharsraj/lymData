@@ -230,10 +230,10 @@ const Hero = () => {
                       <h6 className="md:text-left text-center  xl:w-full xl:text-[134px] lg:text-[100px] md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div>Solutions</div>
                       </h6>
-                      <h6 className="md:text-left text-center  xl:w-full xl:text-[134px] lg:text-[80px] md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
+                      <h6 className="md:text-left text-center   xl:w-[1100px] xl:text-[134px] lg:text-[80px] md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div> Shaping your</div>
                       </h6>
-                      <h6 className="md:text-left text-center  xl:text-[128px]  xl:w-full lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
+                      <h6 className="md:text-left text-center xl:w-[1200px]   xl:text-[124px]   lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
                         <div>digital Success</div>
                       </h6>
 
