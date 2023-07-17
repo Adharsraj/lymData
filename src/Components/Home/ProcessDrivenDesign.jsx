@@ -102,7 +102,7 @@ const ProcessDrivenDesign = () => {
 
           <h1 id="design" className="text-5xl hidden md:flex  md:w-[600px] lg:w-[900px] xl:w-[1100px]  xl:text-[160px]   md:text-7xl lg:text-[130px] lg:ml-10  mt-4 ">driven design</h1>
         </div>
-        <h1 id="design" className="text-5xl border text-center mt-4 md:hidden  ">driven design</h1>
+        <h1 id="design" className="text-5xl  text-center mt-4 md:hidden  ">driven design</h1>
         <div className="flex justify-center gap-10 mt-10 mb-20">
           <h2 id="buttons" className="p-2 lg:text-xl bg-transparent border border-stone-400 rounded-full text font-times text-black ">
             Fields of expertise
@@ -117,14 +117,14 @@ const ProcessDrivenDesign = () => {
   {productDrivenDesign.map((m) => (
     <div
       key={m.id}
-      className="flex md:border-r lg:hover:bg-white lg:hover:text-black flex-col"
+      className="flex md:border-r group lg:hover:bg-white lg:hover:text-black flex-col"
     >
       <h1 className="w-[250px] mx-auto text-2xl mt-10">{m.head1}</h1>
-      <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 lg:text-[#BCBCBC]  ">
+      <h2 className="w-[60px] md:ml-12 lg:ml-[39px] hidden md:flex rounded-full p-2 group-hover:text-black lg:text-[#BCBCBC]  ">
         <BsArrowRight size={30} />
       </h2>
       <h2
-        className="w-[250px] lg:text-2xl mx-auto lg:text-[#BCBCBC]  mt-4 mb-4"
+        className="w-[250px] lg:text-2xl mx-auto group-hover:text-black lg:text-[#BCBCBC]  mt-4 mb-4"
         
       >
         {m.head2}

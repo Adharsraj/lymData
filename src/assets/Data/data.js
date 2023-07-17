@@ -21,6 +21,10 @@ import allworks5 from "../Images/allworks/IMAGE (19).png";
 import allworks6 from "../Images/allworks/IMAGE (20).png";
 import allworks7 from "../Images/allworks/IMAGE (21).png";
 import allworks8 from "../Images/allworks/IMAGE (22).png";
+import entertainment from '../Images/industries/entertainment.jpg'
+import energyindustrials from '../Images/industries/energy-industrials.jpg'
+import informationtechnology from '../Images/industries/information-technology.jpg'
+import retailcommerce from '../Images/industries/retail-commerce.jpg'
 
 export const ourValues = [
   {
@@ -260,6 +264,7 @@ export const sevenIndustries = [
   {
     id: 1,
     head1: "Entertainment    ",
+     img:entertainment,
     head2:
       "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.    ",
   },
@@ -267,6 +272,7 @@ export const sevenIndustries = [
   {
     id: 2,
     head1: "Media & OTT    ",
+    img:energyindustrials,
     head2:
       "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
   },
@@ -274,12 +280,14 @@ export const sevenIndustries = [
   {
     id: 3,
     head1: "Finance & Crypto    ",
+    img:informationtechnology,
     head2:
       "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
   },
   {
     id: 4,
     head1: "Insurance & Insurtech    ",
+    img:retailcommerce,
     head2:
       "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
   },

@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
-
+import giphy from '../../assets/gif/giphy.webp'
 const Hero = () => {
   useEffect(() => {
     var tl = gsap.timeline();
@@ -215,25 +215,25 @@ const Hero = () => {
             <div className=" ">
               <section className="clip-text-video  ">
                 <img
-                  className="xl:h-[520px] max-w-[1640px] xl:mt-[125px] opacity-80 lg:h-[790px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
+                  className="xl:h-[520px] max-w-[1640px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
                   id="running"
-                  src="https://i.giphy.com/media/HkEDr0jVekaZO/giphy.webp"
+                  src={giphy}
                   alt="GIF"
                 />
 
                 <div className="clip-text-video__text layer flex items-center text-center z-0 ">
                   <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px]">
                     <div className="col  ">
-                      <h6 className="md:text-left   xl:w-full lg:text-[134px] md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
+                      <h6 className="md:text-left   xl:w-full xl:text-[134px] lg:text-[100px]  md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
                         <div>Data-driven</div>
                       </h6>
-                      <h6 className="md:text-left text-center  xl:w-full lg:text-[134px] md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
+                      <h6 className="md:text-left text-center  xl:w-full xl:text-[134px] lg:text-[100px] md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div>Solutions</div>
                       </h6>
-                      <h6 className="md:text-left text-center  xl:w-full lg:text-[134px] md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
+                      <h6 className="md:text-left text-center  xl:w-full xl:text-[134px] lg:text-[80px] md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div> Shaping your</div>
                       </h6>
-                      <h6 className="md:text-left text-center  xl:text-[128px] xl:w-full lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
+                      <h6 className="md:text-left text-center  xl:text-[128px]  xl:w-full lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
                         <div>digital Success</div>
                       </h6>
 
