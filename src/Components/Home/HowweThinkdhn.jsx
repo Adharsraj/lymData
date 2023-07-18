@@ -18,7 +18,7 @@ const HowweThinkdhn = () => {
           <h1>builders by nature.</h1>
         </div>
         <div className="text-[25px]  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-10  mb-16">
-        <h1>DHNN™ is a collective brain,
+        <h1>LYM™ is a collective brain,
         formed by a diverse group of
         people who bring years of
         experience, dedication and
@@ -37,7 +37,7 @@ const HowweThinkdhn = () => {
       
 
       <div className="text-[42px] w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16">
-        <h1>DHNN™ is a collective brain,
+        <h1>LYM™ is a collective brain,
         formed by a diverse group of
         people who bring years of
         experience, dedication and
