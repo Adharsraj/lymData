@@ -239,7 +239,7 @@ const Hero = () => {
                       <h6 className="md:text-left text-center xl:text-9xl  xl:w-full lg:text-8xl md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div>Solutions</div>
                       </h6>
-                      <h6 className="md:text-left text-center xl:text-9xl  xl:w-full lg:text-8xl md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
+                      <h6 className="md:text-left text-center xl:text-9xl   xl:w-full lg:text-8xl md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div> Shaping your</div>
                       </h6>
                       <h6 className="md:text-left text-center   xl:text-[112px]   xl:w-full lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">

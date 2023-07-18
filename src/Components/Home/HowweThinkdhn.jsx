@@ -4,6 +4,8 @@ import arrowright from "../../assets/assets/asset 49.svg";
 import imgright from "../../assets/assets/lines2.png";
 const HowweThinkdhn = () => {
   return (
+    <div className="bg-[#F8FAFC] ">
+
     <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
 
@@ -28,7 +30,7 @@ const HowweThinkdhn = () => {
       </div>
 
       <div className="hidden md:block mt-20 relative">
-        <div className="flex justify-between align-middle items-center">
+        <div className="flex justify-between xl:px-5  align-middle items-center">
           <h1>How we think</h1>
           <h1 className="text-[38px] xl:text-[42px]  w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
           <img className="hover:animate-spin" src={star} alt="" style={{ animationDuration: '3s' }} />
@@ -53,7 +55,7 @@ const HowweThinkdhn = () => {
     <img src={arrowright}  />
   </h1>
 </div>
-<img className="hidden xl:flex absolute z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-125" src={imgright} alt="img" />
+<img className="hidden xl:flex absolute  z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110" src={imgright} alt="img" />
 
 
 
@@ -61,6 +63,8 @@ const HowweThinkdhn = () => {
       </div>
 
     </div>
+    </div>
+
   );
 };
 
