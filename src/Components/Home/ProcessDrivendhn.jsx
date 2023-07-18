@@ -76,72 +76,24 @@ Products that matter are anticipated, personal and relevant to people.
 </div>
 
 
-<div className="z-10 relative mx-20 md:mx-12 w-2 md:grid md:grid-cols-3 md:gap-[200px] lg:gap-[190px] lg:grid-cols-5 xl:gap-[272px] ">
-  {productDrivenDesign.map((m)=>(
-
-<div className="flex hover:cursor-pointer justify-between flex-wrap gap-5 md:border-r mt-10 group ">
-    <div className="relative  lg:px-[5px] xl:px-[50px] py-2.5 font-medium uppercase  text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-        <h1 className='group-hover:text-black '>{m.head1}</h1>
-        <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
-    <img className='lg:w-56' src={arrowright}  />
-  </h1>
-  <h1 className='lg:text-transparent  md:invisible group-hover:visible text-black group-hover:text-black '>we set the right process and methodologies to boost
- {m.head2}
-  </h1>
-    </div>
+<div className="z-10 relative mx-20 md:mx-12 overflow-x-auto">
+  <div className="w-2 md:grid md:grid-cols-3 md:gap-[200px] lg:gap-[190px] lg:grid-cols-5 xl:gap-64">
+    {productDrivenDesign.map((m) => (
+      <div className="flex hover:cursor-pointer justify-between flex-wrap gap-5 md:border-r mt-10 group">
+        <div className="relative lg:px-[5px] xl:px-10 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+          <h1 className="group-hover:text-black">{m.head1}</h1>
+          <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+            <img className="lg:w-56" src={arrowright} />
+          </h1>
+          <h1 className="lg:text-transparent md:invisible group-hover:visible text-black group-hover:text-black">
+            we set the right process and methodologies to boost {m.head2}
+          </h1>
+        </div>
+      </div>
+    ))}
   </div>
-  ))}
-
-  {/* <div className="flex flex-wrap gap-5 border-r mt-10 group">
-    <div className="relative lg:px-[5px] xl:px-[50px]  px-5 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-        <h1 className='group-hover:text-black'>Product Discovery</h1>
-    <h1 className="p-2  mb-16  invisible group-hover:visible items-center rounded-full  ">
-    <img className='invisible group-hover:visible' src={arrowright}  />
-  </h1>
-  <h1 className='lg:text-transparent text-black group-hover:text-black '>we set the right process and methodologies to boost
-    innovation labs and digital product discoveries
-  </h1>
-    </div>
-  </div>
-  
-
-  <div className="flex flex-wrap gap-5 border-r mt-10 group">
-    <div className="relative lg:px-[5px] xl:px-[50px]  px-5 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-        <h1 className='group-hover:text-black'>Product Discovery</h1>
-    <h1 className="p-2 invisible group-hover:visible  mb-16  items-center rounded-full  ">
-    <img className='' src={arrowright}  />
-  </h1>
-  <h1 className='lg:text-transparent text-black group-hover:text-black '>we set the right process and methodologies to boost
-    innovation labs and digital product discoveries
-  </h1>
-    </div>
-  </div>
-
-  <div className="flex flex-wrap gap-5 border-r mt-10 group">
-    <div className="relative lg:px-[5px] xl:px-[50px]  px-5 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-        <h1 className='group-hover:text-black'>Product Discovery</h1>
-    <h1 className="p-2  mb-16  items-center rounded-full  ">
-    <img className='' src={arrowright}  />
-  </h1>
-  <h1 className='lg:text-transparent text-black group-hover:text-black '>we set the right process and methodologies to boost
-    innovation labs and digital product discoveries
-  </h1>
-    </div>
-  </div>
-
-
-  <div className="flex flex-wrap gap-5 border-r mt-10 group">
-    <div className="relative lg:px-[5px] xl:px-[50px]  px-5 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-        <h1 className='group-hover:text-black'>Product Discovery</h1>
-    <h1 className="p-2  mb-16  items-center rounded-full  ">
-    <img className='' src={arrowright}  />
-  </h1>
-  <h1 className='lg:text-transparent text-black group-hover:text-black '>we set the right process and methodologies to boost
-    innovation labs and digital product discoveries
-  </h1>
-    </div>
-  </div> */}
 </div>
+
 
 
     </div>

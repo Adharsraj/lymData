@@ -7,6 +7,7 @@ import Blog from "../Pages/Blog";
 import Careers from "../Pages/Careers";
 import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
+import Services from "../Pages/Services";
 import TermsOfUse from "../Pages/TermsOfUse";
 import Works from "../Pages/Works";
 
@@ -46,6 +47,10 @@ const Router = createBrowserRouter([
   {
     path: "/terms",
     element: <TermsOfUse />,
+  },
+  {
+    path: "/services",
+    element: <Services />,
   },
 ]);
 
