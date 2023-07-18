@@ -243,20 +243,26 @@ export const productDrivenDesign = [
     id: 2,
     head1: "Branding & strategy ",
     head2:
-      "We evolve powerful ideas into solid and relatable brands that drive adoption and build reputation including.",
+      "We evolve powerful ideas into solid and relatable brands that drive adoption.",
   },
 
   {
     id: 3,
     head1: "Product design ",
     head2:
-      "From initial concept, to interface design and product development we craft high-end platforms for outstanding digital experiences.    ",
+      "From initial concept, to interface design and product development we craft high-end platforms ",
   },
   {
     id: 4,
     head1: "Blockchain ",
     head2:
-      "We open an exploration space to innovate wi   ",
+      "We open an exploration space to innovate with to interface design and product development   ",
+  },
+  {
+    id: 5,
+    head1: "crypto ",
+    head2:
+      "space to product development for outstanding digital experiences. ",
   },
 ];
 
@@ -264,7 +270,7 @@ export const sevenIndustries = [
   {
     id: 1,
     head1: "Entertainment    ",
-     img:entertainment,
+     img:"https://images.unsplash.com/photo-1567593810070-7a3d471af022?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
     head2:
       "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.    ",
   },
@@ -272,7 +278,7 @@ export const sevenIndustries = [
   {
     id: 2,
     head1: "Media & OTT    ",
-    img:energyindustrials,
+    img:"https://images.unsplash.com/photo-1536604673810-81370412626d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80",
     head2:
       "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
   },
@@ -280,14 +286,14 @@ export const sevenIndustries = [
   {
     id: 3,
     head1: "Finance & Crypto    ",
-    img:informationtechnology,
+    img:"https://www.omfif.org/wp-content/uploads/2022/04/crypto-asset-growth-newweb.png",
     head2:
       "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
   },
   {
     id: 4,
     head1: "Insurance & Insurtech    ",
-    img:retailcommerce,
+    img:"https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
     head2:
       "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
   },
