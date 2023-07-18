@@ -70,93 +70,93 @@ const Hero = () => {
       }
     );
 
-    const box = document.getElementById("box");
-    const box1 = document.getElementById("box1");
-    const box2 = document.getElementById("box2");
+    // const box = document.getElementById("box");
+    // const box1 = document.getElementById("box1");
+    // const box2 = document.getElementById("box2");
 
-    box.addEventListener("mouseenter", () => {
-      gsap.to("#box", {
-        x: 270,
-        y: 90,
-        yoyo: true,
-        background: "gray",
-      });
+    // box.addEventListener("mouseenter", () => {
+    //   gsap.to("#box", {
+    //     x: 270,
+    //     y: 90,
+    //     yoyo: true,
+    //     background: "gray",
+    //   });
 
-      gsap.to("#box", {
-        scale: 1.4,
-        duration: 0.3,
-      });
-    });
+    //   gsap.to("#box", {
+    //     scale: 1.4,
+    //     duration: 0.3,
+    //   });
+    // });
 
-    box.addEventListener("mouseleave", () => {
-      gsap.to("#box", {
-        x: 270,
-        y: 100,
-        duration: 1.3,
-        background: "transparent",
-      });
+    // box.addEventListener("mouseleave", () => {
+    //   gsap.to("#box", {
+    //     x: 270,
+    //     y: 100,
+    //     duration: 1.3,
+    //     background: "transparent",
+    //   });
 
-      gsap.to("#box", {
-        scale: 1, // Reset the size
-        duration: 2.3,
-      });
-    });
+    //   gsap.to("#box", {
+    //     scale: 1, // Reset the size
+    //     duration: 2.3,
+    //   });
+    // });
 
-    box1.addEventListener("mouseenter", () => {
-      gsap.to("#box1", {
-        x: 270,
-        y: 90,
-        yoyo: true,
-        background: "gray",
-      });
+    // box1.addEventListener("mouseenter", () => {
+    //   gsap.to("#box1", {
+    //     x: 270,
+    //     y: 90,
+    //     yoyo: true,
+    //     background: "gray",
+    //   });
 
-      gsap.to("#box1", {
-        scale: 1.4,
-        duration: 0.3,
-      });
-    });
+    //   gsap.to("#box1", {
+    //     scale: 1.4,
+    //     duration: 0.3,
+    //   });
+    // });
 
-    box1.addEventListener("mouseleave", () => {
-      gsap.to("#box1", {
-        x: 270,
-        y: 100,
-        duration: 1.3,
-        background: "transparent",
-      });
+    // box1.addEventListener("mouseleave", () => {
+    //   gsap.to("#box1", {
+    //     x: 270,
+    //     y: 100,
+    //     duration: 1.3,
+    //     background: "transparent",
+    //   });
 
-      gsap.to("#box1", {
-        scale: 1,
-        duration: 2.3,
-      });
-    });
+    //   gsap.to("#box1", {
+    //     scale: 1,
+    //     duration: 2.3,
+    //   });
+    // });
 
-    box2.addEventListener("mouseenter", () => {
-      gsap.to("#box2", {
-        x: 270,
-        y: 90,
-        yoyo: true,
-        background: "gray",
-      });
+    // box2.addEventListener("mouseenter", () => {
+    //   gsap.to("#box2", {
+    //     x: 270,
+    //     y: 90,
+    //     yoyo: true,
+    //     background: "gray",
+    //   });
 
-      gsap.to("#box2", {
-        scale: 1.4,
-        duration: 0.3,
-      });
-    });
+    //   gsap.to("#box2", {
+    //     scale: 1.4,
+    //     duration: 0.3,
+    //   });
+    // });
 
-    box2.addEventListener("mouseleave", () => {
-      gsap.to("#box2", {
-        x: 270,
-        y: 100,
-        duration: 1.3,
-        background: "transparent",
-      });
+    // box2.addEventListener("mouseleave", () => {
+    //   gsap.to("#box2", {
+    //     x: 270,
+    //     y: 100,
+    //     duration: 1.3,
+    //     background: "transparent",
+    //   });
 
-      gsap.to("#box2", {
-        scale: 1, // Reset the size
-        duration: 2.3,
-      });
-    });
+    //   gsap.to("#box2", {
+    //     scale: 1, // Reset the size
+    //     duration: 2.3,
+    //   });
+    // });
 
     // if (divRef.current) {
     //   gsap.to(divRef.current, { clipPath: 'circle(50% at 50% 100% )', duration: 1 });
@@ -183,7 +183,7 @@ const Hero = () => {
       <div className=" bg-black text-white">
         <div className="max-w-[1640px] mx-auto  mt-[-10px]    md:mt-[-16px] lg:mt-[-16px]  ">
           <div className="">
-            <Link to='/contact'>
+            {/* <Link to='/contact'>
             
             <h3
               className="flex justify-center items-center 
@@ -218,7 +218,7 @@ const Hero = () => {
               Works
             </h3>
             
-            </Link>
+            </Link> */}
 
 
             <div className=" ">
@@ -242,7 +242,7 @@ const Hero = () => {
                       <h6 className="md:text-left text-center xl:text-9xl  xl:w-full lg:text-8xl md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
                         <div> Shaping your</div>
                       </h6>
-                      <h6 className="md:text-left text-center xl:text-9xl  xl:text-[114px] xl:w-full lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
+                      <h6 className="md:text-left text-center   xl:text-[112px]   xl:w-full lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
                         <div>digital Success</div>
                       </h6>
 

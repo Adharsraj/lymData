@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       <div className="relative flex items-center p-2">
         {isMenuOpen && (
-          <div className="absolute top-[-5px] mt-4 py-2 w-[300px] md:w-[356px] md:h-[310px] bg-white rounded-lg shadow-lg left-[-230px] md:left-[-180px] lg:left-[-180px] md:top-[-8px] lg:top-[-8px] md:text-2xl md:p-4 z-50 p-2 ease-in duration-300">
+          <div className="absolute top-[-5px] mt-4 py-2 w-[300px] md:w-[356px] md:h-[350px] bg-white rounded-lg shadow-lg left-[-230px] md:left-[-180px] lg:left-[-180px] md:top-[-8px] lg:top-[-8px] md:text-2xl md:p-4 z-50 p-2 ease-in duration-300">
             <ul>
               <li className="px-4 mt-[-6px] py-2 cursor-pointer text-gray-400">
                 menu
@@ -67,6 +67,11 @@ const Navbar = () => {
               <Link to="/contact">
                 <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
                   Contact
+                </li>
+              </Link>
+              <Link to="/services">
+                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
+                  Services
                 </li>
               </Link>
             </ul>

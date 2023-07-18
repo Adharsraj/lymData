@@ -236,7 +236,7 @@ export const productDrivenDesign = [
     id: 1,
     head1: "Product discovery",
     head2:
-      "We set the right processes and methodologies to boost innovation labs and digital product discoveries.    ",
+      "We set the right processes and methodologies to boost innovation     ",
   },
 
   {

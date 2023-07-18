@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xxl': '1350px',
+      },
+
       fontFamily: {
         roboto: "'Roboto', sans-serif",
         dm: "'DM Sans', sans-serif",
