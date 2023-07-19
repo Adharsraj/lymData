@@ -55,6 +55,7 @@ const HowweThinkdhn = () => {
     <img src={arrowright}  />
   </h1>
 </div>
+
 <img className="hidden xl:flex absolute  z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110" src={imgright} alt="img" />
 
 

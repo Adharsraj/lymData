@@ -10,7 +10,7 @@ const Services = () => {
     <>
     <Navbar/>
       <ServicesLanding/>
-      {/* <Approaches/> */}
+      <Approaches/>
       <ServicesEnd/>
 <Footer/>
     </>

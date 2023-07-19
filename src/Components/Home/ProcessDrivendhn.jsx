@@ -2,8 +2,12 @@ import React from 'react'
 import star from "../../assets/assets/asset 62.svg";
 import arrowright from "../../assets/assets/asset 60.svg";
 import { productDrivenDesign } from '../../assets/Data/data';
+import { Link } from 'react-router-dom';
 
 const ProcessDrivendhn = () => {
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
   return (
     <div className='bg-[#BCBCBC]'>
 
@@ -33,7 +37,7 @@ const ProcessDrivendhn = () => {
     </div>
 </div>
 
-
+<Link to="/services" onClick={handleLinkClick}>
 <div className='hidden group hover:cursor-pointer md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-32 '>
     <h1>Fields of expertise </h1>
     <div className="flex xl:gap-1 gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
@@ -45,6 +49,7 @@ const ProcessDrivendhn = () => {
   </h1>
 </div>
 </div>
+</Link>
 
 <div className='md:hidden text-white text-7xl'>
     <h1>process</h1>
