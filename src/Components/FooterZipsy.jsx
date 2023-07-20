@@ -78,16 +78,16 @@ const FooterZipsy = () => {
           </div>
           <div className="flex justify-around gap-36">
             <div className=" ">
-              <h3 className="p-1">work</h3>
-              <h3 className="p-1">About us</h3>
-              <h3 className="p-1">Engagement</h3>
-              <h3 className="p-1">Careers</h3>
+              <h2 className="p-1">work</h2>
+              <h2 className="p-1">About us</h2>
+              <h2 className="p-1">Engagement</h2>
+              <h2 className="p-1">Careers</h2>
             </div>
             <div className="">
-              <h3 className="p-1">Privacy Policy</h3>
-              <h3 className="p-1">Terms of Service</h3>
-              <h3 className="p-1">Customer Terms</h3>
-              <h3 className="p-1">Designer Terms</h3>
+              <h2 className="p-1">Privacy Policy</h2>
+              <h2 className="p-1">Terms of Service</h2>
+              <h2 className="p-1">Customer Terms</h2>
+              <h2 className="p-1">Designer Terms</h2>
             </div>
           </div>
         </div>
