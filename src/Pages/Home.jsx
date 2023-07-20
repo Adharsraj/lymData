@@ -12,10 +12,11 @@ import ProcessDrivendhn from '../Components/Home/ProcessDrivendhn'
 import Within7Industries from '../Components/Home/Within7Industries'
 import Within7Industriesdhn from '../Components/Home/Within7Industriesdhn'
 import Navbar from '../Components/Navbar'
+import UseDocumentTitle from '../Hooks/UseDocumentTitle'
 const Home = () => {
-  useEffect(() => {
-    document.title = 'LYM DATA - Home';
-  }, []);
+  UseDocumentTitle("LYM DATA | Home")
+
+  
   return (
     <>
     <Navbar/>

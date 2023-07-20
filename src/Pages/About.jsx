@@ -5,11 +5,11 @@ import Navbar from "../Components/Navbar";
 import OurTechGurus from "../Components/About/OurTechGurus";
 import OurValues from "../Components/About/OurValues";
 import WhyLymData from "../Components/About/WhyLymData";
+import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const About = () => {
-  useEffect(() => {
-    document.title = 'LYM DATA - About';
-  }, []);
+  UseDocumentTitle("LYM DATA | Home")
+
   return (
     <>
       <Navbar />

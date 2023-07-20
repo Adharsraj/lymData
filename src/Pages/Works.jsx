@@ -4,11 +4,11 @@ import AllWorksListing from "../Components/Works/AllWorksListing";
 import Footer from "../Components/FooterZipsy";
 import Navbar from "../Components/Navbar";
 import SelectedWorks from "../Components/Works/SelectedWorks";
+import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const Works = () => {
-  useEffect(() => {
-    document.title = 'LYM DATA - Works';
-  }, []);
+  UseDocumentTitle("LYM DATA | Home")
+
   return (
     <>
       <Navbar />

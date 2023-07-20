@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import Footer from "../Components/FooterZipsy";
 import Navbar from "../Components/Navbar";
+import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const TermsOfUse = () => {
-  useEffect(() => {
-    document.title = 'LYM DATA - Terms of use';
-  }, []);
+  UseDocumentTitle("LYM DATA | Home")
+
   return (
     <>
       <Navbar />

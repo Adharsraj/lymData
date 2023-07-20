@@ -5,6 +5,7 @@ import CompanyLogo from "../assets/Logos/Companylogo.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -22,10 +23,26 @@ const Navbar = () => {
       opacity: 0,
       stagger: 0.2,
     });
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
+  const navbarBgColor = scrolling ? "bg-neutral-500" : "bg-transparent";
+
   return (
-    <div className="max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between bg-neutral-300 h-[65px] z-10 fixed top-0 left-0 right-0 border-black">
+    <div className={`max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between h-[65px] z-10 fixed top-0 left-0 right-0 border-black ${navbarBgColor}`}>
       <div>
         <Link to="/">
           <img

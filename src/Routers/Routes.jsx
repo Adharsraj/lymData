@@ -1,4 +1,6 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, useLocation } from "react-router-dom";
+import { useLayoutEffect } from "react";
+
 import BlogDetailed from '../Components/Blog/BlogDetailed'
 // import BlogDetailed from "../Components/BlogDetailed";
 import WorkDetailed from "../Components/Works/WorkDetailed";
@@ -11,46 +13,54 @@ import Services from "../Pages/Services";
 import TermsOfUse from "../Pages/TermsOfUse";
 import Works from "../Pages/Works";
 
+const Wrapper = ({ children }) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children
+}
+
 const Router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Wrapper><Home /></Wrapper>,
   },
   {
     path: "/contact",
-    element: <Contact />,
+    element: <Wrapper><Contact /></Wrapper>,
   },
   {
     path: "/careers",
-    element: <Careers />,
+    element: <Wrapper><Careers /></Wrapper>,
   },
   {
     path: "/about",
-    element: <About />,
+    element: <Wrapper><About /></Wrapper>,
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Wrapper><Blog /></Wrapper>,
   },
   {
     path: "/blog/:id",
-    element: <BlogDetailed />,
+    element: <Wrapper><BlogDetailed /></Wrapper>,
   },
   {
     path: "/works",
-    element: <Works />,
+    element: <Wrapper><Works /></Wrapper>,
   },
   {
     path: "/works/:id",
-    element: <WorkDetailed />,
+    element: <Wrapper><WorkDetailed /></Wrapper>,
   },
   {
     path: "/terms",
-    element: <TermsOfUse />,
+    element: <Wrapper><TermsOfUse /></Wrapper>,
   },
   {
     path: "/services",
-    element: <Services />,
+    element: <Wrapper><Services /></Wrapper>,
   },
 ]);
 

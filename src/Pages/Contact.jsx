@@ -4,10 +4,10 @@ import Navbar from '../Components/Navbar'
 import OurHubs from '../Components/Contact/OurHubs'
 import ReachOut from '../Components/Contact/ReachOut'
 import ContactUs from '../Components/Contact/Contact'
+import UseDocumentTitle from '../Hooks/UseDocumentTitle'
 const Contact = () => {
-  useEffect(() => {
-    document.title = 'LYM DATA - Contact';
-  }, []);
+  UseDocumentTitle("LYM DATA | Home")
+
   return (
     <>
     <Navbar/>

@@ -1,8 +1,13 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
 import { SlSocialDribbble, SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
+import { Link } from "react-router-dom";
+import CompanyLogo from '../assets/Logos/Companylogo.svg'
 
 const FooterZipsy = () => {
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
   return (
     <div className="bg-[#262626]">
       <div className="max-w-[1640px]  mx-auto p-2 text-white ">
@@ -19,18 +24,29 @@ const FooterZipsy = () => {
             </h2>
           </div>
           <div>
-            <div className="flex justify-around">
+            <div className="flex justify-between">
               <div className="mt-4 ">
-                <h3 className="p-1">work</h3>
-                <h3 className="p-1">Aboutus</h3>
-                <h3 className="p-1">Engagement</h3>
-                <h3 className="p-1">Careers</h3>
+              <Link to="/works">
+              <h2 className="p-1">Works</h2>
+              </Link>
+              <Link to="/about">
+              <h2 className="p-1">About us</h2>
+              </Link>
+              <Link to="/careers">
+              <h2 className="p-1">Careers</h2>
+              </Link>
+              <Link to="/services">
+              <h2 className="p-1">Services</h2>
+              </Link>
               </div>
               <div className="mt-4">
-                <h3 className="p-1">work</h3>
-                <h3 className="p-1">Aboutus</h3>
-                <h3 className="p-1">Engagement</h3>
-                <h3 className="p-1">Careers</h3>
+              <Link to='/terms'>
+              
+              <h2 className="p-1">Privacy Policy</h2>
+              </Link>
+              <Link to="/terms">
+              <h2 className="p-1">Terms of Service</h2>
+              </Link>
               </div>
             </div>
 
@@ -58,7 +74,7 @@ const FooterZipsy = () => {
                 </h1>
               </div>
               <div>
-                <h1 className="mt-4"> footer logo</h1>
+              <img src={CompanyLogo} className="w-12 h-12" alt="footer-logo"  />
               </div>
             </div>
           </div>
@@ -78,26 +94,39 @@ const FooterZipsy = () => {
           </div>
           <div className="flex justify-around gap-36">
             <div className=" ">
-              <h2 className="p-1">work</h2>
+              <Link to="/works">
+              <h2 className="p-1">Works</h2>
+              </Link>
+              <Link to="/about">
               <h2 className="p-1">About us</h2>
-              <h2 className="p-1">Engagement</h2>
+              </Link>
+              <Link to="/careers">
               <h2 className="p-1">Careers</h2>
+              </Link>
+              <Link to="/services">
+              <h2 className="p-1">Services</h2>
+              </Link>
             </div>
             <div className="">
+              <Link to='/terms'>
+              
               <h2 className="p-1">Privacy Policy</h2>
+              </Link>
+              <Link to="/terms">
               <h2 className="p-1">Terms of Service</h2>
-              <h2 className="p-1">Customer Terms</h2>
-              <h2 className="p-1">Designer Terms</h2>
+              </Link>
+              {/* <h2 className="p-1">Customer Terms</h2>
+              <h2 className="p-1">Designer Terms</h2> */}
             </div>
           </div>
         </div>
 
         <div className=" hidden md:flex justify-around mt-10 mb-20">
-          <div className="flex">
-            <h1>logo</h1>
+          <div className="flex items-center">
+            <img src={CompanyLogo} className="w-12 h-12" alt="footer-logo"  />
             <h1>© 2023 lym, Inc. All rights reserved</h1>
           </div>
-          <div className="flex gap-12">
+          <div className="flex items-center gap-12">
           <span className="border p-2 cursor-pointer hover:text-blue-800">
                   <SlSocialFacebook />
                 </span>

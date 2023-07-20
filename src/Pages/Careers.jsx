@@ -3,11 +3,11 @@ import CareerIntro from "../Components/Careers/CareerIntro";
 import Footer from "../Components/FooterZipsy";
 import JobListing from "../Components/Careers/JobListing";
 import Navbar from "../Components/Navbar";
+import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const Careers = () => {
-  useEffect(() => {
-    document.title = 'LYM DATA - Careers';
-  }, []);
+  UseDocumentTitle("LYM DATA | Home")
+
   return (
     <>
 
