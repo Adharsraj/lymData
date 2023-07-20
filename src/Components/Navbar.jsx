@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between bg-transparent h-[65px] z-10 fixed top-0  border-black left-0 right-0">
+    <div className="max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between bg-neutral-300 h-[65px] z-10 fixed top-0 left-0 right-0 border-black">
       <div>
         <Link to="/">
           <img

@@ -1,8 +1,11 @@
-import React from "react";
-import Footer from "../Components/FooterNew";
+import React, { useEffect } from "react";
+import Footer from "../Components/FooterZipsy";
 import Navbar from "../Components/Navbar";
 
 const TermsOfUse = () => {
+  useEffect(() => {
+    document.title = 'LYM DATA - Terms of use';
+  }, []);
   return (
     <>
       <Navbar />

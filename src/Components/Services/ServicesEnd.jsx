@@ -7,7 +7,7 @@ const ServicesEnd = () => {
   const imageStyle = {
     maxWidth: '100%',
     marginLeft: '10px',
-    transform: 'scale(2.3)',
+    transform: 'scale(1.8)',
 
     // Adjust the scale value as needed
   };
@@ -16,23 +16,27 @@ const ServicesEnd = () => {
     
     <div className='bg-[#F4F4F4]'>
 
-    <div className="max-w-[1640px]  mx-auto p-4 font-dm   md:text-xl bg-[#F4F4F4] ">
+    <div id='#ind' className="max-w-[1640px]  mx-auto p-4 font-dm  relative  md:text-xl bg-[#F4F4F4]  ">
       
-       <div className="mt-20   xl:mt-40 text-[#DEDEDE] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
-        <h1>
-          services{" "}
-          <span className="text-[#424142] ">/ industries / </span> archive <br />{" "}
-          <span className='text-[#424142] '>we are experts in.</span> 
+       <div className="relative mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
+
+
+    <div className='xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20'>
+      <div className='relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 '>
+      <img style={imageStyle}  className="mt-32" src={imgright} alt="Sample Image" />
+      <h1 className='absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]'>
+          <span className='opacity-20 hover:opacity-50 hover:cursor-pointer'>services</span> 
+          <span className="text-[#424142] ">/ industries / </span> <span className="opacity-20 hover:opacity-50 hover:cursor-pointer"> archive</span>  <br />{" "}
+          <span className='text-[#424142] mb-10 '>we are experts in.
+</span> 
         </h1>
-        <img className='lg:ml-20 mt-32 animate-bounce' src={arrowbottom} alt="" />
+        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src={arrowbottom} alt="" />
 
-      </div>
-
-      <div className="flex items-center xl:mt-[-460px] lg:mt-[-320px] md:mt-[-360px] mt-[-440px] mb-10 h-[400px] overflow-hidden justify-center">
-      <div className="max-w-screen-lg ">
-        <img style={imageStyle}  src={imgright} alt="Sample Image" />
       </div>
     </div>
+      </div>
+
+     
 
 
 
@@ -40,23 +44,26 @@ const ServicesEnd = () => {
     <Within7ForService/>
     </div>
 
-    <div className="max-w-[1640px]  mx-auto p-4 font-dm mb-10  md:text-xl bg-[#F4F4F4] ">
+    <div className="max-w-[1640px]  mx-auto p-4 font-dm  relative  md:text-xl bg-[#F4F4F4]  ">
       
-       <div className="mt-20   xl:mt-40 text-[#DEDEDE] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
-        <h1>
-          services{" "}
-          <span className=" ">/ industries / </span> <span className="text-[#424142]"> archive</span>  <br />{" "}
-          <span className='text-[#424142] '>15+ years of solved challenges</span> 
+       <div className="relative mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
+
+
+    <div className='xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20'>
+      <div className='relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 '>
+      <img style={imageStyle}  className="mt-32" src={imgright} alt="Sample Image" />
+      <h1 className='absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]'>
+          <span className='opacity-20 hover:opacity-50 hover:cursor-pointer'>services</span> 
+          <span className="opacity-20 hover:opacity-50 hover:cursor-pointer ">/ industries / </span> <span className="text-[#424142]"> archive</span>  <br />{" "}
+          <span className='text-[#424142] mb-10 '>15+ years of solved challenges</span> 
         </h1>
-        <img className='lg:ml-20 mt-32 animate-bounce' src={arrowbottom} alt="" />
+        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src={arrowbottom} alt="" />
 
-      </div>
-
-      <div className="flex items-center xl:mt-[-460px] lg:mt-[-320px] md:mt-[-360px] mt-[-440px] mb-10 h-[400px] overflow-hidden justify-center">
-      <div className="max-w-screen-lg ">
-        <img style={imageStyle}  src={imgright} alt="Sample Image" />
       </div>
     </div>
+      </div>
+
+     
 
 
 

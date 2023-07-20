@@ -1,5 +1,5 @@
-import React from 'react'
-import Footer from '../Components/FooterNew'
+import React, { useEffect } from 'react'
+import Footer from '../Components/FooterZipsy'
 import Hero from '../Components/Home/Hero'
 import HowweThinkdhn from '../Components/Home/HowweThinkdhn'
 import HowWeThinkk from '../Components/Home/HowWeThinkk'
@@ -13,6 +13,9 @@ import Within7Industries from '../Components/Home/Within7Industries'
 import Within7Industriesdhn from '../Components/Home/Within7Industriesdhn'
 import Navbar from '../Components/Navbar'
 const Home = () => {
+  useEffect(() => {
+    document.title = 'LYM DATA - Home';
+  }, []);
   return (
     <>
     <Navbar/>
