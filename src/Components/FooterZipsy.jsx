@@ -40,7 +40,7 @@ const FooterZipsy = () => {
               </Link>
               </div>
               <div className="mt-4">
-              <Link to='/terms'>
+              <Link to='/privacy'>
               
               <h2 className="p-1">Privacy Policy</h2>
               </Link>
@@ -108,7 +108,7 @@ const FooterZipsy = () => {
               </Link>
             </div>
             <div className="">
-              <Link to='/terms'>
+              <Link to='/privacy'>
               
               <h2 className="p-1">Privacy Policy</h2>
               </Link>

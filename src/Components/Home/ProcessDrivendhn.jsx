@@ -92,19 +92,104 @@ Products that matter are anticipated, personal and relevant to people.
     `}
   </style>
   <div className="w-2  md:grid md:grid-cols-3 md:gap-[200px] xxl:ml-12  lg:gap-[185px] lg:grid-cols-5 xl:gap-56 xxl:gap-[250px] hide-scrollbar">
-    {productDrivenDesign.map((m) => (
+    {/* {productDrivenDesign.map((m) => ( */}
       <div className="flex hover:cursor-pointer  ml-[-50px]    h-96 justify-between flex-wrap gap-5  mt-10 group">
 <div className="relative lg:px-[5px] border md:border-l-transparent  md:border-t-transparent  md:border-b-transparent xl:px-10 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-          <h1 className="group-hover:text-black">{m.head1}</h1>
+          <h1 className="group-hover:text-black">Product discovery
+</h1>
           <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
             <img className="lg:w-56" src={arrowright} />
           </h1>
           <h1 className="lg:text-transparent mt-20 md:invisible w-[250px] lg:w-[175px] md:w-[200px] xl:w-[145px] xxl:w-[170px] group-hover:visible text-black text-[12px] group-hover:text-black">
-             {m.head2}
+          We set the right processes and methodologies to boost innovation labs and digital product discoveries.
+
+
           </h1>
         </div>
+
+
+
+        
       </div>
-    ))}
+
+      <div className="flex hover:cursor-pointer  ml-[-50px]    h-96 justify-between flex-wrap gap-5  mt-10 group">
+<div className="relative lg:px-[5px] border md:border-l-transparent  md:border-t-transparent  md:border-b-transparent xl:px-10 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+          <h1 className="group-hover:text-black">Product discovery
+</h1>
+          <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+            <img className="lg:w-56" src={arrowright} />
+          </h1>
+          <h1 className="lg:text-transparent mt-20 md:invisible w-[250px] lg:w-[175px] md:w-[200px] xl:w-[145px] xxl:w-[170px] group-hover:visible text-black text-[12px] group-hover:text-black">
+          We set the right processes and methodologies to boost innovation labs and digital product discoveries.
+
+
+          </h1>
+        </div>
+
+
+
+        
+      </div>
+
+      <div className="flex hover:cursor-pointer  ml-[-50px]    h-96 justify-between flex-wrap gap-5  mt-10 group">
+<div className="relative lg:px-[5px] border md:border-l-transparent  md:border-t-transparent  md:border-b-transparent xl:px-10 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+          <h1 className="group-hover:text-black">Product discovery
+</h1>
+          <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+            <img className="lg:w-56" src={arrowright} />
+          </h1>
+          <h1 className="lg:text-transparent mt-20 md:invisible w-[250px] lg:w-[175px] md:w-[200px] xl:w-[145px] xxl:w-[170px] group-hover:visible text-black text-[12px] group-hover:text-black">
+          We set the right processes and methodologies to boost innovation labs and digital product discoveries.
+
+
+          </h1>
+        </div>
+
+
+
+        
+      </div>
+
+
+      <div className="flex hover:cursor-pointer  ml-[-50px]    h-96 justify-between flex-wrap gap-5  mt-10 group">
+<div className="relative lg:px-[5px] border md:border-l-transparent  md:border-t-transparent  md:border-b-transparent xl:px-10 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+          <h1 className="group-hover:text-black">Product discovery
+</h1>
+          <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+            <img className="lg:w-56" src={arrowright} />
+          </h1>
+          <h1 className="lg:text-transparent mt-20 md:invisible w-[250px] lg:w-[175px] md:w-[200px] xl:w-[145px] xxl:w-[170px] group-hover:visible text-black text-[12px] group-hover:text-black">
+          We set the right processes and methodologies to boost innovation labs and digital product discoveries.
+
+
+          </h1>
+        </div>
+
+
+
+        
+      </div>
+
+
+      <div className="flex hover:cursor-pointer  ml-[-50px]    h-96 justify-between flex-wrap gap-5  mt-10 group">
+<div className="relative lg:px-[5px] border md:border-l-transparent  md:border-t-transparent  md:border-b-transparent xl:px-10 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+          <h1 className="group-hover:text-black">Product discovery
+</h1>
+          <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+            <img className="lg:w-56" src={arrowright} />
+          </h1>
+          <h1 className="lg:text-transparent mt-20 md:invisible w-[250px] lg:w-[175px] md:w-[200px] xl:w-[145px] xxl:w-[170px] group-hover:visible text-black text-[12px] group-hover:text-black">
+          We set the right processes and methodologies to boost innovation labs and digital product discoveries.
+
+
+          </h1>
+        </div>
+
+
+
+        
+      </div>
+    {/* ))} */}
   </div>
 </div>
 

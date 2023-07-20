@@ -39,7 +39,7 @@ const Navbar = () => {
     }
   };
 
-  const navbarBgColor = scrolling ? "bg-neutral-500" : "bg-transparent";
+  const navbarBgColor = scrolling ? "bg-[#ecebff]" : "bg-transparent";
 
   return (
     <div className={`max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between h-[65px] z-10 fixed top-0 left-0 right-0 border-black ${navbarBgColor}`}>
@@ -132,7 +132,7 @@ const Navbar = () => {
     onClick={toggleMenu}
   >
     <path
-      className="text-gray-500 group-hover:text-white "
+      className="text-gray-500 group-hover:text-yellow-600 "
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"

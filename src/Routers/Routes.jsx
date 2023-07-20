@@ -12,6 +12,7 @@ import Home from "../Pages/Home";
 import Services from "../Pages/Services";
 import TermsOfUse from "../Pages/TermsOfUse";
 import Works from "../Pages/Works";
+import PrivacyPolicy from "../Pages/PrivacyPolicy";
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -61,6 +62,10 @@ const Router = createBrowserRouter([
   {
     path: "/services",
     element: <Wrapper><Services /></Wrapper>,
+  },
+  {
+    path: "/privacy",
+    element: <Wrapper><PrivacyPolicy /></Wrapper>,
   },
 ]);
 
