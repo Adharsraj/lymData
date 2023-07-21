@@ -1,5 +1,5 @@
-import React from 'react';
-import ColourfulVideo from '../../assets/Videos/careers.mp4'
+import React from "react";
+import ColourfulVideo from "../../assets/Videos/careers.mp4";
 const CareerIntro = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4  text-[#040404] ">
@@ -9,7 +9,7 @@ const CareerIntro = () => {
       <div className="mt-8 md:grid md:grid-cols-4 md:gap-4">
         <video
           className="w-full hidden md:flex h-full object-cover filter blur-xl"
-          style={{ transform: 'scaleX(-1)' }}
+          style={{ transform: "scaleX(-1)" }}
           src={ColourfulVideo}
           autoPlay
           loop
@@ -24,15 +24,18 @@ const CareerIntro = () => {
         ></video>
         <video
           className="w-full h-full hidden md:flex object-cover filter blur-xl"
-          style={{ transform: 'scaleX(-1)' }}
+          style={{ transform: "scaleX(-1)" }}
           src={ColourfulVideo}
           autoPlay
           loop
           muted
         ></video>
       </div>
-      <h1 className='w-[300px] md:w-[450px] lg:w-[590px] text-lg md:text-2xl   mx-auto mt-12 font-times'>
-      LymData is a team of designers, developers, strategists, copywriters and producers brought together by good fortune, great clients, and a shared drive to make amazing things. Individually, we’re great; together, we become extraordinary.
+      <h1 className="w-[300px] md:w-[450px] lg:w-[590px] text-lg md:text-2xl   mx-auto mt-12 font-times">
+        LymData is a team of designers, developers, strategists, copywriters and
+        producers brought together by good fortune, great clients, and a shared
+        drive to make amazing things. Individually, we’re great; together, we
+        become extraordinary.
       </h1>
     </div>
   );

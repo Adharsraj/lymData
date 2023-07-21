@@ -34,9 +34,7 @@ const Blog1 = () => {
           </h4>
           <h5 className="mt-3 mb-3">That's the customer's problem.</h5>
 
-          <h4 className="font-dm text-lg">
-            2. Who is affected by this issue?
-          </h4>
+          <h4 className="font-dm text-lg">2. Who is affected by this issue?</h4>
           <h5 className="mt-3 mb-3">This is your target audience.</h5>
 
           <h4 className="font-dm text-lg"> 3. What do these customers want?</h4>
@@ -70,34 +68,50 @@ const Blog1 = () => {
             from above. It becomes "easier" to talk about your passion.
           </p>
           <ul className="list-disc ml-7 mt-5">
-  <li>Why the CUSTOMER PROBLEM is challenging but can be solved with your BRAND SOLUTION.</li>
-  <li>How your customer can start using the BRAND SOLUTION tomorrow.</li>
-  <li>Common misconceptions about the CUSTOMER PROBLEM/BRAND SOLUTION.</li>
-  <li>Tell how you encountered the CUSTOMER PROBLEM.</li>
-  <li>The story of the CUSTOMER PROBLEM/BRAND SOLUTION.</li>
-  <li>Tell me about a moment when you felt the reward of the BRAND SOLUTION.</li>
-</ul>
+            <li>
+              Why the CUSTOMER PROBLEM is challenging but can be solved with
+              your BRAND SOLUTION.
+            </li>
+            <li>
+              How your customer can start using the BRAND SOLUTION tomorrow.
+            </li>
+            <li>
+              Common misconceptions about the CUSTOMER PROBLEM/BRAND SOLUTION.
+            </li>
+            <li>Tell how you encountered the CUSTOMER PROBLEM.</li>
+            <li>The story of the CUSTOMER PROBLEM/BRAND SOLUTION.</li>
+            <li>
+              Tell me about a moment when you felt the reward of the BRAND
+              SOLUTION.
+            </li>
+          </ul>
 
-<p className="mt-3 text-lg">You are not a know-it-all. You are not a know-it-all. </p>
-<p className="mt-3 text-lg">We hope that you have now been able to take a lot of inspiration for your content strategy with you! If you need support for you or your business, drop us a line! </p>
+          <p className="mt-3 text-lg">
+            You are not a know-it-all. You are not a know-it-all.{" "}
+          </p>
+          <p className="mt-3 text-lg">
+            We hope that you have now been able to take a lot of inspiration for
+            your content strategy with you! If you need support for you or your
+            business, drop us a line!{" "}
+          </p>
 
-<div className="flex gap-5 sm:mt-10 mt-10  md:ml-5 lg:ml-10">
-        <span>
-          <BsFacebook />
-        </span>
-        <span>
-          <AiFillInstagram />
-        </span>
-        <span>
-          <FaTwitter />
-        </span>
-        <span>
-          <SlSocialDribbble />
-        </span>
-        <span>
-          <SlSocialLinkedin />
-        </span>
-      </div>
+          <div className="flex gap-5 sm:mt-10 mt-10  md:ml-5 lg:ml-10">
+            <span>
+              <BsFacebook />
+            </span>
+            <span>
+              <AiFillInstagram />
+            </span>
+            <span>
+              <FaTwitter />
+            </span>
+            <span>
+              <SlSocialDribbble />
+            </span>
+            <span>
+              <SlSocialLinkedin />
+            </span>
+          </div>
         </div>
       </div>
     </div>

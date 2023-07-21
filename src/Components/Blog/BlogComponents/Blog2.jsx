@@ -32,8 +32,7 @@ const Blog2 = () => {
             not.
           </p>
           <p className="mt-6  text-2xl mb-6">
-             What does a modern website need to be able
-            to do? ‍
+            What does a modern website need to be able to do? ‍
           </p>
           <ul class="list-disc ml-7 mt-2">
             <li>

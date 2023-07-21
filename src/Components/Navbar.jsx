@@ -1,27 +1,90 @@
-import gsap from "gsap";
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useRef, useState } from "react";
+import { TimelineMax, Expo } from "gsap";
+import { BsFacebook } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaTwitter } from "react-icons/fa";
+import { Link, useLocation } from "react-router-dom";
 import CompanyLogo from "../assets/Logos/Companylogo.svg";
+import gsap from "gsap";
 
-const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const NavbarNew = () => {
+  const location = useLocation();
+
+  const navigationItems = [
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/blog", label: "Blogs" },
+    { path: "/careers", label: "Careers" },
+    { path: "/works", label: "Works" },
+    { path: "/services", label: "Services" },
+  ];
+
+  const menuRef = useRef(null);
+  const oneRef = useRef(null);
+  const twoRef = useRef(null);
   const [scrolling, setScrolling] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
+  const [menuopen, setMenuopen] = useState(false);
 
   useEffect(() => {
-    gsap.from("#logo,#getintouch,#menu", {
+    const t1 = new TimelineMax({ paused: true });
+    gsap.from("#logo,#menu", {
       y: -100,
       duration: 0.5,
       delay: 0.5,
       opacity: 0,
       stagger: 0.2,
+    });
+
+    t1.to(oneRef.current, 0.05, {
+      y: 6,
+      rotation: 45,
+      ease: Expo.easeInOut,
+    });
+    t1.to(
+      twoRef.current,
+      0.05,
+      {
+        y: -6,
+        rotation: -45,
+        ease: Expo.easeInOut,
+        delay: -0.05,
+      },
+      "-=0.05"
+    );
+
+    t1.to(
+      menuRef.current,
+      0.15,
+      {
+        top: "0%",
+        ease: Expo.easeInOut,
+        delay: -0.15,
+      },
+      "-=0.05"
+    );
+
+    t1.staggerFrom(
+      ".menu ul li",
+      0.15,
+      { y: -200, opacity: 0, ease: Expo.easeOut },
+      0.03
+    );
+
+    t1.reverse();
+
+    const toggleAnimation = () => {
+      t1.reversed(!t1.reversed());
+    };
+
+    const handleLinkClick = () => {
+      t1.reversed(!t1.reversed());
+    };
+
+    document
+      .querySelector(".toggle-btn")
+      .addEventListener("click", toggleAnimation);
+    document.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", handleLinkClick);
     });
 
     window.addEventListener("scroll", handleScroll);
@@ -31,6 +94,19 @@ const Navbar = () => {
     };
   }, []);
 
+
+  const second = {
+    width: menuopen ? '40px' : '40px',
+    marginLeft: menuopen ? '5px' : '16px',
+
+  };
+
+  const first = {
+    width: menuopen ? '40px' : '40px',
+    marginLeft: menuopen ? '5px' : '',
+  };
+
+
   const handleScroll = () => {
     if (window.scrollY > 0) {
       setScrolling(true);
@@ -38,113 +114,94 @@ const Navbar = () => {
       setScrolling(false);
     }
   };
+  const menu = () => {
+    setMenuopen(!menuopen);
+  };
 
-  const navbarBgColor = scrolling ? "bg-[#ecebff]" : "bg-transparent";
+  const navbarBgColor =
+    !menuopen && scrolling ? "bg-[#ecebff]" : "bg-transparent";
 
   return (
-    <div className={`max-w-[1640px] mx-auto p-8 font-roboto flex items-center justify-between h-[65px] z-10 fixed top-0 left-0 right-0 border-black ${navbarBgColor}`}>
-      <div>
-        <Link to="/">
-          <img
-            id="logo"
-            className="lg:w-[104px]  lg:h-[80px] md:w-16 w-12 "
-            src={CompanyLogo}
-            alt="companylogo"
-          />
-        </Link>
-      </div>
-      <div className="relative flex items-center p-2">
-        {isMenuOpen && (
-          <div className="absolute top-[-5px] mt-4 py-2 w-[300px] md:w-[356px] md:h-[350px] bg-white rounded-lg shadow-lg left-[-230px] md:left-[-180px] lg:left-[-180px] md:top-[-8px] lg:top-[-8px] md:text-2xl md:p-4 z-50 p-2 ease-in duration-300">
-            <ul>
-              <li className="px-4 mt-[-6px] py-2 cursor-pointer text-gray-400">
-                menu
-              </li>
-
-              <Link to="/about">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  About
-                </li>
-              </Link>
-              <Link to="/blog">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  Blogs
-                </li>
-              </Link>
-              <Link to="/careers">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  Careers
-                </li>
-              </Link>
-              <Link to="/works">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  Works
-                </li>
-              </Link>
-              <Link to="/contact">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  Contact
-                </li>
-              </Link>
-              <Link to="/services">
-                <li className="px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-green-500">
-                  Services
-                </li>
-              </Link>
-            </ul>
-
-            <svg
-              className="absolute top-2 right-2 w-6 h-6 cursor-pointer"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              onClick={closeMenu}
-            >
-              <path
-                className="text-gray-600"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
+    <>
+      <div className=" ">
+        <h1 id="navh1" className=""></h1>
+        <div
+          id="menu"
+          className={`toggle-btn w-full  ${navbarBgColor}   flex items-center   justify-between px-10 align-middle`}
+        >
+          <div className="mt-5">
+            <Link to="/">
+              <img
+                id="logo"
+                className="lg:w-[104px]  lg:h-[80px] md:w-16 w-24 "
+                src={CompanyLogo}
+                alt="companylogo"
+              />{" "}
+            </Link>
           </div>
-        )}
-        <div className="flex items-center ease-out duration-300">
-          <span
-            id="getintouch"
-            className="bg-slate-800 hover:cursor-pointer text-white rounded-3xl w-[110px] h-[33px] sm:flex items-center justify-center text-center hidden mr-5 font-dm"
+          <div className="w-full h-20">
+            <Link className="cursor-default" to="#">
+              <div className=" w-full h-20"></div>
+            </Link>
+          </div>
+          <div
+            onClick={menu}
+            className="w-20  h-12 mt-5  cursor-pointer  flex   py-2 px-2 "
           >
-            Get in touch
-          </span>
+            <span style={first} className="one px-2    bg-gray-500" ref={oneRef}></span>
+            <span style={second} className="two  bg-gray-500" ref={twoRef}></span>
+          </div>
         </div>
-        <div onClick={toggleMenu} className="bg-transparent hover:cursor-pointer  group">
-
-        <div  onClick={toggleMenu} className="group  p-2">
-  <svg
-    id="menu"
-    className="w-6 h-6  cursor-pointer"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    onClick={toggleMenu}
-  >
-    <path
-      className="text-gray-500 group-hover:text-yellow-600 "
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      d="M2 6h20M2 18h20"
-    />
-  </svg>
-</div>
-</div>
-
+        <div className="menu w-screen  h-screen " ref={menuRef}>
+          <div className="flex justify-center items-center h-screen">
+            <div className="w-screen lg:flex lg:flex-end lg:items-center   justify-around">
+              <div className="text-white md:flex md:flex-col md:gap-6  text-4xl md:text-6xl px-10 md:mt-24 lg:mt-0">
+                <ul>
+                  {navigationItems.map((item) => {
+                    if (location.pathname !== item.path) {
+                      return (
+                        <li
+                          key={item.path}
+                          className="lg:mb-8 hover:text-amber-500"
+                        >
+                          <Link to={item.path}>{item.label}</Link>
+                        </li>
+                      );
+                    }
+                    return null; // If on the specified page, don't render the item
+                  })}
+                </ul>
+              </div>
+              <div className="text-white md:text-2xl mt-10 px-10">
+                <ul>
+                  <li className="lg:mb-5">
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                  <li className="lg:mb-5">
+                    <Link to="/privacy">Privacy&legal</Link>
+                  </li>
+                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2">
+                    <Link className="lg:mb-5">Accessibility</Link>
+                    <div className="flex gap-2 lg:gap-14">
+                      <span>
+                        <BsFacebook />
+                      </span>
+                      <span>
+                        <AiFillInstagram />
+                      </span>
+                      <span>
+                        <FaTwitter />
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default Navbar;
+export default NavbarNew;

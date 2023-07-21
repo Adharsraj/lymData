@@ -104,11 +104,11 @@ const ServicesLanding = () => {
           <div onClick={handleClicktoapproach} className="inline-block mt-[-20px] mb-20">
             <button
               id="arrowcontainer"
-              className="md:h-20 h-10 w-7 ml-5 mt-[-40px] bg-yellow-300  flex items-end justify-center rounded-full"
+              className="md:h-20 h-10 w-7 ml-5 mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
             >
               <h1
                 id="arrowbottom"
-                className="md:h-36 h-32 w-7  bg-yellow-300 z-50 rounded-full flex items-end justify-center"
+                className="md:h-36 h-32 w-7  bg-blue-400 z-50 rounded-full flex items-end justify-center"
               >
                 <FaLongArrowAltDown color="black" size={38} />
               </h1>

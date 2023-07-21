@@ -1,18 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { blogsData } from '../../assets/Data/data';
+import React from "react";
+import { Link } from "react-router-dom";
+import { blogsData } from "../../assets/Data/data";
 
 const AllBlogs = () => {
-  const handleLinkClick = () => {
-    window.scrollTo(0, 0); // Scroll to the top of the page
-  };
-
   return (
     <div className="max-w-[1640px] mx-auto p-4 font-roboto ">
       <div className="flex justify-center">
         <div className="grid  md:grid-cols-2 gap-5">
           {blogsData.map((m) => (
-            <Link key={m.id} to={`/blog/${m.id}`} onClick={handleLinkClick}>
+            <Link key={m.id} to={`/blog/${m.id}`}>
               <div>
                 <img src={m.img} alt="Featured" />
                 <h3 className="uppercase mt-4 lg:text-lg">{m.title}</h3>

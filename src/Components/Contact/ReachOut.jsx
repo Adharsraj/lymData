@@ -10,7 +10,6 @@ const ReachOut = () => {
         Thanks for your interest in working with us. Please complete the details
         below and we’ll get back to you within one business day.
       </h3>
-
       <div className="p-2 font-dm mt-10 mx-auto md:w-[450px] lg:w-[550px] md:flex md:flex-col  md:justify-center sm:text-lg ">
         <h4 className="font-dm text-sm mt-8 mb-8">Required*</h4>
         <form action="">

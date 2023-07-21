@@ -49,7 +49,9 @@ const Blog5 = () => {
             structure to stay on track. See it as your personal guide to
             success.
           </h3>
-          <h4 className="font-dm text-lg lg:text-xl">1. IT ALL STARTS WITH "WHY"</h4>
+          <h4 className="font-dm text-lg lg:text-xl">
+            1. IT ALL STARTS WITH "WHY"
+          </h4>
           <h5 className="mt-3 mb-3">
             Everything starts here. What purpose does your organization serve?
             Although this question seems simple, the solution requires deep
@@ -87,7 +89,9 @@ const Blog5 = () => {
             habits.
           </h5>
 
-          <h4 className="font-dm text-lg lg:text-xl">5. PRODUCT AND SERVICE STRATEGY</h4>
+          <h4 className="font-dm text-lg lg:text-xl">
+            5. PRODUCT AND SERVICE STRATEGY
+          </h4>
           <h5 className="mt-3 mb-3">
             The product and service strategy describes how your product or
             service will help your business. It describes the problem that the
@@ -102,7 +106,6 @@ const Blog5 = () => {
             solution.
           </h5>
 
-         
           <p className="mt-3 text-lg">
             We hope that you have now been able to take a lot of inspiration for
             your content strategy with you! If you need support for you or your

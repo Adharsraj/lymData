@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Footer from "../Components/FooterZipsy";
-import Navbar from "../Components/NavbarNew";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const TermsOfUse = () => {

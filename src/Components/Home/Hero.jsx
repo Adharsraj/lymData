@@ -1,166 +1,39 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import giphy from '../../assets/gif/giphy.webp'
+import { FaLongArrowAltDown } from "react-icons/fa";
+
 const Hero = () => {
+  const handleClicktohowethink = () => {
+    const component2Element = document.getElementById('howethink');
+    if (component2Element) {
+      window.scrollTo({
+        top: component2Element.offsetTop,
+        behavior: 'smooth',
+      })
+    }
+  }
   useEffect(() => {
-    var tl = gsap.timeline();
-
-    tl.from("p", {
-      y: 100,
-      opacity: 0,
-      stagger: 0.2,
-    });
-
-    tl.from("h3", {
-      y: 100,
-      ease: "power4.inOut",
-
-      stagger: 1.5,
-    });
 
     gsap.fromTo(
-      "#box",
+      "#arrowbottom",
       {
-        x: 270,
-        y: 50,
+        x: 0,
+        y: 70,
         rotate: 0,
       },
       {
-        x: 270,
-        y: 80,
+        x: 0,
+        y: 100,
         rotate: 0,
         delay: 1,
-        duration: 1.8,
+        duration: 1.5,
         repeat: -1,
         yoyo: true,
       }
     );
 
-    gsap.fromTo(
-      "#box1",
-      {
-        x: 270,
-        y: 50,
-        rotate: 0,
-      },
-      {
-        x: 270,
-        y: 80,
-        rotate: 0,
-        duration: 1.4,
-        repeat: -1,
-        yoyo: true,
-      }
-    );
-    gsap.fromTo(
-      "#box2",
-      {
-        x: 270,
-        y: 50,
-        rotate: 0,
-      },
-      {
-        x: 270,
-        y: 80,
-        rotate: 0,
-        duration: 1.4,
-        repeat: -1,
-        yoyo: true,
-      }
-    );
-
-    // const box = document.getElementById("box");
-    // const box1 = document.getElementById("box1");
-    // const box2 = document.getElementById("box2");
-
-    // box.addEventListener("mouseenter", () => {
-    //   gsap.to("#box", {
-    //     x: 270,
-    //     y: 90,
-    //     yoyo: true,
-    //     background: "gray",
-    //   });
-
-    //   gsap.to("#box", {
-    //     scale: 1.4,
-    //     duration: 0.3,
-    //   });
-    // });
-
-    // box.addEventListener("mouseleave", () => {
-    //   gsap.to("#box", {
-    //     x: 270,
-    //     y: 100,
-    //     duration: 1.3,
-    //     background: "transparent",
-    //   });
-
-    //   gsap.to("#box", {
-    //     scale: 1, // Reset the size
-    //     duration: 2.3,
-    //   });
-    // });
-
-    // box1.addEventListener("mouseenter", () => {
-    //   gsap.to("#box1", {
-    //     x: 270,
-    //     y: 90,
-    //     yoyo: true,
-    //     background: "gray",
-    //   });
-
-    //   gsap.to("#box1", {
-    //     scale: 1.4,
-    //     duration: 0.3,
-    //   });
-    // });
-
-    // box1.addEventListener("mouseleave", () => {
-    //   gsap.to("#box1", {
-    //     x: 270,
-    //     y: 100,
-    //     duration: 1.3,
-    //     background: "transparent",
-    //   });
-
-    //   gsap.to("#box1", {
-    //     scale: 1,
-    //     duration: 2.3,
-    //   });
-    // });
-
-    // box2.addEventListener("mouseenter", () => {
-    //   gsap.to("#box2", {
-    //     x: 270,
-    //     y: 90,
-    //     yoyo: true,
-    //     background: "gray",
-    //   });
-
-    //   gsap.to("#box2", {
-    //     scale: 1.4,
-    //     duration: 0.3,
-    //   });
-    // });
-
-    // box2.addEventListener("mouseleave", () => {
-    //   gsap.to("#box2", {
-    //     x: 270,
-    //     y: 100,
-    //     duration: 1.3,
-    //     background: "transparent",
-    //   });
-
-    //   gsap.to("#box2", {
-    //     scale: 1, // Reset the size
-    //     duration: 2.3,
-    //   });
-    // });
-
-    // if (divRef.current) {
-    //   gsap.to(divRef.current, { clipPath: 'circle(50% at 50% 100% )', duration: 1 });
-    // }
+   
     gsap.from("h6 div", 1.5, {
       yPercent: 100,
       ease: "power4.inOut",
@@ -183,42 +56,7 @@ const Hero = () => {
       <div className=" bg-black text-white">
         <div className="max-w-[1640px] mx-auto  mt-[-10px]    md:mt-[-16px] lg:mt-[-16px]  ">
           <div className="">
-            {/* <Link to='/contact'>
-            
-            <h3
-              className="flex justify-center items-center 
-            border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px]
-             rounded-full bg-grey hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] 
-             lg:top-6 lg:left-6 z-50 text-white left-[-210px] top-[10px] w-[85px] h-[85px]"
-              id="box"
-            >
-              Contact
-            </h3>
-            </Link>
-              <Link to="/about">
-            <h3
-              className="flex justify-center items-center 
-             border md:w-[150px] md:h-[150px] lg:w-[200px]  lg:h-[200px] rounded-full bg-grey
-              md:flex  hover:text-2xl duration-200 absolute lg:top-60 lg:left-[386px] md:top-[100px]
-               md:left-[180px] z-50 text-white left-[-50px] w-[85px] h-[85px]"
-              id="box1"
-            >
-              About
-            </h3>
-              
-              </Link>
-            <Link to='/works'>
-            <h3
-              className=" flex text-center  left-[-210px] top-[180px] 
-             border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex
-              justify-center items-center hover:text-2xl duration-200 absolute lg:top-[380px] 
-              lg:left-[-100px] md:top-[160px] md:left-[-110px] z-50 text-white w-[85px] h-[85px]"
-              id="box2"
-            >
-              Works
-            </h3>
-            
-            </Link> */}
+    
 
 
             <div className=" ">
@@ -230,7 +68,7 @@ const Hero = () => {
                   alt="GIF"
                 />
 
-                <div className="clip-text-video__text layer flex items-center text-center z-0 ">
+                <div className="clip-text-video__text layer lg:h-screen flex items-center text-center z-0 ">
                   <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px]">
                     <div className="col  ">
                       <h6 className="md:text-left xl:text-9xl  xl:w-full lg:text-8xl md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
@@ -248,17 +86,27 @@ const Hero = () => {
 
                     
                     </div>
-                    {/* <div className="col">
-                      <h6>
-                        <div>
-                          <span>click</span>anywhere to continue
-                        </div>
-                      </h6>
-                    </div> */}
+
+                    
+                  
                   </div>
                 </div>
               </section>
             </div>
+
+            <div onClick={handleClicktohowethink} className="  hidden md:inline-block   absolute top-[490px] px-10 ">
+            <button
+              id="arrowcontainer"
+              className="md:h-20 h-10 w-7 ml-5 mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
+            >
+              <h1
+                id="arrowbottom"
+                className="md:h-36 h-32 w-7 bg-blue-400 z-50 rounded-full flex items-end justify-center"
+              >
+                <FaLongArrowAltDown color="black" size={38} />
+              </h1>
+            </button>
+          </div>
           </div>
         </div>
       </div>
