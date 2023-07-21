@@ -10,7 +10,7 @@ const TermsOfUse = () => {
     <>
       <Navbar />
       <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
-        <div className="mt-20">
+        <div className="mt-32">
           <h1 className="md:text-lg lg:w-[700px] lg">
             This is the legal bit – so you can use our website and know what
             you’re agreeing to. If you have any questions, please get in touch.

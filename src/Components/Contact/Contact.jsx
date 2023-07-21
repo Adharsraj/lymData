@@ -49,7 +49,7 @@ const Contact = () => {
 
         <div className="  md:px-20">
           <div className="mt-10 lg:mt-16   ">
-            <h1 className="text-5xl  lg:text-8xl xxl:text-9xl ">
+            <h1 className="text-5xl mt-32  lg:text-8xl xxl:text-9xl ">
               ready when <br /> you are—It’s time <br /> to accelerate{" "}
             </h1>
 

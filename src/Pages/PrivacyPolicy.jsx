@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
     <>
         <Navbar />
         <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
-        <div className='mt-20'>
+        <div className='mt-32'>
           <h1 className="md:text-lg lg:w-[700px] lg">
           When you browse our site, we may collect some information about you – like your location, or the pages you look at. This information is your ‘personal data’.
           </h1>

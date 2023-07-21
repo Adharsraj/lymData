@@ -10,7 +10,7 @@ const AllBlogs = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 font-roboto ">
       <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 gap-5">
+        <div className="grid  md:grid-cols-2 gap-5">
           {blogsData.map((m) => (
             <Link key={m.id} to={`/blog/${m.id}`} onClick={handleLinkClick}>
               <div>

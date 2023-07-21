@@ -8,9 +8,10 @@ const SelectedWorks = () => {
         window.scrollTo(0, 0); // Scroll to the top of the page
       };
   return (
-    <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
+    <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center  mb-20  gap-8 ">
+      <h1 className="mt-10"></h1>
       {worksData.map((m) => (
-        <div key={m.id} className="md:hidden">
+        <div key={m.id} className="md:hidden ">
           <div key={m.id} className="flex flex-col items-center relative">
             <span className="text-4xl mx-auto font-times mb-8 mt-10">
               {m.title}

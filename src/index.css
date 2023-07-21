@@ -86,7 +86,7 @@ line-height:0.8;
 
 .toggle-btn {
      position:fixed;
-     z-index: 2;
+     z-index: 600; /* Set a high z-index to ensure it's on top of other elements */
 }
 
 span.one {
@@ -106,9 +106,8 @@ span.two {
 .menu {
      position: fixed;
      background: #000;
-     
      top: -100%;
-     z-index: 1;
+     z-index: 500; /* Set a high z-index to ensure it's on top of other elements */
 
 }
 

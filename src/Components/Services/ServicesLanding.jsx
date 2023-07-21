@@ -85,9 +85,10 @@ const ServicesLanding = () => {
     {/* services */}
     <div id="services" className="bg-[#282728]">
       <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl mb-10 lg:mb-28 bg-[#282728] ">
+
         
 
-        <div className="mt-20 lg:mt-52 xl:mt-60 text-white text-5xl lg:text-6xl xl:w-full  xl:text-8xl  lg:mx-auto lg:w-[900px]">
+        <div className="mt-32  lg:mt-52 xl:mt-60 text-white text-5xl lg:text-6xl xl:w-full  xl:text-8xl  lg:mx-auto lg:w-[900px]">
           <h1>
             services
             <span className="text-[#7b7b7b]  ">
