@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Footer from "../Components/FooterZipsy";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/NavbarNew";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const TermsOfUse = () => {
@@ -9,8 +9,8 @@ const TermsOfUse = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 mt-20">
-        <div>
+      <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
+        <div className="mt-20">
           <h1 className="md:text-lg lg:w-[700px] lg">
             This is the legal bit – so you can use our website and know what
             you’re agreeing to. If you have any questions, please get in touch.

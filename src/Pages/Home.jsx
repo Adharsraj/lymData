@@ -11,7 +11,7 @@ import ProcessDrivendhn from '../Components/Home/ProcessDrivendhn'
 // import Test from '../Components/Home/Test'
 import Within7Industries from '../Components/Home/Within7Industries'
 import Within7Industriesdhn from '../Components/Home/Within7Industriesdhn'
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/NavbarNew'
 import UseDocumentTitle from '../Hooks/UseDocumentTitle'
 const Home = () => {
   UseDocumentTitle("LYM DATA | Home")

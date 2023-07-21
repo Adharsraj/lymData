@@ -75,44 +75,53 @@ line-height:0.8;
 
 
 
+
+
+
+
+#navh1 {
+     position: absolute;
+   
+}
+
 .toggle-btn {
-     position: fixed;
-     margin: 1.4em;
-     padding: 1em;
-     width: 40px;
-     height: 12px;
-     right: 0;
-     z-index: 1;
+     position:fixed;
+     z-index: 2;
 }
 
 span.one {
-     position: absolute;
+     position: fixed;
      width: 40px;
-     height: 2px;
-     background: #fff;
+     height: 6px;
+     
 }
 
 span.two {
-     position: absolute;
+     position: fixed;
      width: 40px;
-     height: 2px;
-     background: #fff;
+     height: 6px;
      margin-top: 12px;
 }
 
 .menu {
-     z-index: 0;
-     position: absolute;
-     background: #101010;
-     height: 100vh;
-     width: 100%;
+     position: fixed;
+     background: #000;
+     
      top: -100%;
+     z-index: 1;
+
 }
 
-.data {
-     padding: 8em 0 0 2em;
-     text-align: left;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
