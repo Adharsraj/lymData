@@ -95,16 +95,16 @@ const NavbarNew = () => {
   }, []);
 
 
-  const second = {
-    width: menuopen ? '40px' : '40px',
-    marginLeft: menuopen ? '5px' : '16px',
+  // const second = {
+  //   width: menuopen ? '40px' : '40px',
+  //   marginLeft: menuopen ? '5px' : '16px',
 
-  };
+  // };
 
-  const first = {
-    width: menuopen ? '40px' : '40px',
-    marginLeft: menuopen ? '5px' : '',
-  };
+  // const first = {
+  //   width: menuopen ? '40px' : '40px',
+  //   marginLeft: menuopen ? '5px' : '',
+  // };
 
 
   const handleScroll = () => {
@@ -119,7 +119,7 @@ const NavbarNew = () => {
   };
 
   const navbarBgColor =
-    !menuopen && scrolling ? "bg-[#ecebff]" : "bg-transparent";
+    !menuopen && scrolling ? "bg-[#fff]" : "bg-transparent";
 
   return (
     <>
@@ -148,8 +148,8 @@ const NavbarNew = () => {
             onClick={menu}
             className="w-20  h-12 mt-5  cursor-pointer  flex   py-2 px-2 "
           >
-            <span style={first} className="one px-2    bg-gray-500" ref={oneRef}></span>
-            <span style={second} className="two  bg-gray-500" ref={twoRef}></span>
+            <span  className="one px-2 w-12   bg-gray-500" ref={oneRef}></span>
+            <span className="two w-10  bg-gray-500" ref={twoRef}></span>
           </div>
         </div>
         <div className="menu w-screen  h-screen " ref={menuRef}>
@@ -174,13 +174,13 @@ const NavbarNew = () => {
               </div>
               <div className="text-white md:text-2xl mt-10 px-10">
                 <ul>
-                  <li className="lg:mb-5">
+                  <li className="lg:mb-5 opacity-50 ">
                     <Link to="/contact">Contact</Link>
                   </li>
-                  <li className="lg:mb-5">
+                  <li className="lg:mb-5 opacity-50 ">
                     <Link to="/privacy">Privacy&legal</Link>
                   </li>
-                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2">
+                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 opacity-50 ">
                     <Link className="lg:mb-5">Accessibility</Link>
                     <div className="flex gap-2 lg:gap-14">
                       <span>

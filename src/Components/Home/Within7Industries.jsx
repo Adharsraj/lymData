@@ -62,7 +62,7 @@ const Within7Industriesdhn = () => {
   };
 
   return (
-    <div className="max-w-[1640px] mx-auto p-4 mb-20">
+    <div className="max-w-[1840px] mx-auto">
       <div className=" hidden md:block">
         <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">
           Within these 7 industries
@@ -72,7 +72,7 @@ const Within7Industriesdhn = () => {
           <div
             key={m.id}
             id={m.id}
-            className={`md:flex group md:px-8 m hover:cursor-pointer lg:text-lg lg:py-8 xl:py-16 border-b ${
+            className={`md:flex group md:px-8 m hover:cursor-pointer  lg:text-lg lg:py-8 xl:py-16 border-b ${
               hoveredId === m.id ? "bg-image" : ""
             }`}
             onMouseEnter={() => handleMouseEnter(m.id)}

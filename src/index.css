@@ -91,14 +91,15 @@ line-height:0.8;
 
 span.one {
      position: fixed;
-     height: 4px;
-     
+     height: 3px;
 }
 
 span.two {
      position: fixed;
-     height: 4px;
-     margin-top: 12px;
+     height: 3px;
+     margin-top: 7px;
+     margin-left:10px;
+
 }
 
 .menu {

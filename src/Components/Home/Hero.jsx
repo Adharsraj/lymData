@@ -94,14 +94,15 @@ const Hero = () => {
               </section>
             </div>
 
-            <div onClick={handleClicktohowethink} className="  hidden md:inline-block   absolute top-[490px] px-10 ">
+            <div onClick={handleClicktohowethink}   className="hidden md:inline-block absolute top-1/2 px-10"
+>
             <button
               id="arrowcontainer"
-              className="md:h-20 h-10 w-7 ml-5 mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
+              className="md:h-20 h-10 w-5 ml-5 mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
             >
               <h1
                 id="arrowbottom"
-                className="md:h-36 h-32 w-7 bg-blue-400 z-50 rounded-full flex items-end justify-center"
+                className="md:h-32 h-32 w-5 bg-blue-400 z-50 rounded-full flex items-end justify-center"
               >
                 <FaLongArrowAltDown color="black" size={38} />
               </h1>
