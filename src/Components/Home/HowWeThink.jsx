@@ -43,7 +43,7 @@ const HowweThinkdhn = () => {
         formed by a diverse group of
         people who bring years of
         experience, dedication and
-        commitment to our daily work.</h1>
+        commitment to our daily work</h1>
 
       </div>
 
