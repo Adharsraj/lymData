@@ -121,7 +121,7 @@ const NavbarNew = () => {
     <>
     <div className=" ">
 
-      <h1 id="navh1" className="bg-black">
+      <h1 id="navh1" className="">
         
       </h1>
       <div id="menu" className={`toggle-btn w-full  ${navbarBgColor}   flex items-center   justify-between px-10 align-middle`}>
