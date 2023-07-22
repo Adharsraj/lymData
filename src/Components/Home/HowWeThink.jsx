@@ -12,7 +12,7 @@ const HowweThinkdhn = () => {
       <div className="md:hidden">
         <div className="flex justify-between align-middle items-center">
           <h1>How we think</h1>
-          <img src={star} alt="" />
+          <img className=" hover:animate-spin" src={star} alt="" style={{ animationDuration: '3s' }} />
         </div>
 
         <div className="text-[25px] leading-10  ">

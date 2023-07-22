@@ -52,7 +52,7 @@ const Hero = () => {
   return (
     <>
       <div className=" bg-black text-white ">
-        <div className="max-w-[1640px] mx-auto  mt-[-10px]    md:mt-[-16px] lg:mt-0  overflow-hidden ">
+        <div className="max-w-[1640px] mx-auto  mt-[-10px]     md:mt-[-16px] lg:mt-0  overflow-hidden ">
           <div className="">
             <div className=" ">
               <section className="clip-text-video  ">
@@ -66,7 +66,7 @@ const Hero = () => {
                 <div className="clip-text-video__text layer lg:h-screen flex items-center text-center z-0 ">
                   <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px]">
                     <div className="col  ">
-                      <h6 className="md:text-left xl:text-9xl  xl:w-full lg:whitespace-nowrap lg:text-8xl md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
+                      <h6 className="md:text-left  xl:text-9xl  xl:w-full lg:whitespace-nowrap lg:text-8xl md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
                         <div>Data-driven</div>
                       </h6>
                       <h6 className="md:text-left text-center xl:text-9xl lg:whitespace-nowrap  xl:w-full lg:text-8xl md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
