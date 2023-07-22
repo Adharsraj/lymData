@@ -7,13 +7,11 @@ import img6 from "../../assets/assets (3)/lines.png";
 const Services = () => {
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-[1640px]   mx-auto p-4 font-dm  md:text-xl  ">
+      <div className="max-w-[1640px]   mx-auto p-4 font-dm  md:text-xl overflow-hidden  ">
         <div className="lg:mt-20">
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center">
-              <h1>services
-
-</h1>
+              <h1>services</h1>
               <img
                 className="hover:animate-spin"
                 src={star}
@@ -21,10 +19,11 @@ const Services = () => {
                 style={{ animationDuration: "3s" }}
               />
             </div>
-           
+
             <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16">
               <h1>
-              We’re challengers and problem solvers.See what this amazing team is capable of.See what this amazing team is capable of.
+                We’re challengers and problem solvers.See what this amazing team
+                is capable of.See what this amazing team is capable of.
               </h1>
             </div>
           </div>
@@ -55,9 +54,9 @@ const Services = () => {
 
             <div className="text-[42px] lg:mt-[-40px] lg:text-[3px]  w-[600px] xl:text-[42px] xxl:w-[820px]  mx-auto text-left   leading-10   text-[#000]   mb-16">
               <h1 className="lg:text-4xl  lg:w-[670px] xxl:w-[940px] xxl:text-5xl">
-              We’re challengers and problem solvers. 
-              <br />
-               See what this amazing team is capable of.
+                We’re challengers and problem solvers.
+                <br />
+                See what this amazing team is capable of.
               </h1>
             </div>
             <div className="flex group hover:cursor-pointer gap-4 w-[600px] xxl:w-[830px]  mx-auto lg:mb-40">
@@ -81,6 +80,3 @@ const Services = () => {
 };
 
 export default Services;
-
-
-

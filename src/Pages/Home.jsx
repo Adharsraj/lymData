@@ -5,9 +5,11 @@ import HowweThinkdhn from "../Components/Home/HowweThink";
 import IndustriesWeknowdhn from "../Components/Home/IndustriesWeknow";
 import Marque from "../Components/Home/Marque";
 import ProcessDrivendhn from "../Components/Home/ProcessDriven";
+import ProcessDrivenFive from "../Components/Home/ProcessDrivenFive";
 import Within7Industriesdhn from "../Components/Home/Within7Industries";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
+
 const Home = () => {
   UseDocumentTitle("LYM DATA | Home");
 
@@ -17,6 +19,7 @@ const Home = () => {
       <Hero />
       <HowweThinkdhn />
       <ProcessDrivendhn />
+      <ProcessDrivenFive/>
       <IndustriesWeknowdhn />
       <Marque />
       <Within7Industriesdhn />

@@ -4,7 +4,7 @@ import arrowright from "../../assets/assets/asset 49.svg";
 import imgright from "../../assets/assets/lines2.png";
 const HowweThinkdhn = () => {
   return (
-    <div id="howethink" className="bg-[#F8FAFC] ">
+    <div id="howethink" className="bg-[#F8FAFC] overflow-hidden ">
 
     <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
@@ -56,7 +56,7 @@ const HowweThinkdhn = () => {
   </h1>
 </div>
 
-<img className="hidden xl:flex absolute  z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110" src={imgright} alt="img" />
+<img className="hidden xl:flex absolute  z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-150" src={imgright} alt="img" />
 
 
 
