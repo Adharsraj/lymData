@@ -96,17 +96,17 @@ const Hero = () => {
 
             <div onClick={handleClicktohowethink}   className="hidden md:inline-block absolute top-1/2 px-10"
 >
-            <button
-              id="arrowcontainer"
-              className="md:h-20 h-10 w-5 ml-5 mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
-            >
-              <h1
-                id="arrowbottom"
-                className="md:h-32 h-32 w-5 bg-blue-400 z-50 rounded-full flex items-end justify-center"
+<button
+                id="arrowcontainer"
+                className="md:h-12 h-10 w-5   bg-blue-400  flex items-end justify-center rounded-full"
               >
-                <FaLongArrowAltDown color="black" size={38} />
-              </h1>
-            </button>
+              </button>
+                <h1
+                  id="arrowbottom"
+                  className="md:h-16 h-32 mt-[-115px] w-5 bg-blue-400 z-50 rounded-full flex items-end justify-center"
+                >
+                  <FaLongArrowAltDown color="black" size={38} />
+                </h1>
           </div>
           </div>
         </div>

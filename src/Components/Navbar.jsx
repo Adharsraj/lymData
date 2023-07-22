@@ -17,6 +17,8 @@ const NavbarNew = () => {
     { path: "/careers", label: "Careers" },
     { path: "/works", label: "Works" },
     { path: "/services", label: "Services" },
+    { path: "/culture", label: "Culture" },
+
   ];
 
   const menuRef = useRef(null);
@@ -95,16 +97,6 @@ const NavbarNew = () => {
   }, []);
 
 
-  // const second = {
-  //   width: menuopen ? '40px' : '40px',
-  //   marginLeft: menuopen ? '5px' : '16px',
-
-  // };
-
-  // const first = {
-  //   width: menuopen ? '40px' : '40px',
-  //   marginLeft: menuopen ? '5px' : '',
-  // };
 
 
   const handleScroll = () => {

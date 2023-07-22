@@ -25,6 +25,10 @@ import entertainment from '../Images/industries/entertainment.jpg'
 import energyindustrials from '../Images/industries/energy-industrials.jpg'
 import informationtechnology from '../Images/industries/information-technology.jpg'
 import retailcommerce from '../Images/industries/retail-commerce.jpg'
+import culture1 from '../../assets/assets (3)/asset 38.svg'
+import culture2 from '../../assets/assets (3)/asset 39.svg'
+import culture3 from '../../assets/assets (3)/asset 40.svg'
+import culture4 from '../../assets/assets (3)/asset 41.svg'
 
 export const ourValues = [
   {
@@ -344,4 +348,39 @@ export const sevenIndustries = [
     content: "By hiring a UX specialist, you can avoid failed investments in developing features that are not relevant to your users and shift your efforts to developing only features that make sense for them. This allows you to limit costs and increase your profitability.    ",
   },
 
+];
+
+
+export const fourCultures = [
+  {
+    id: 1,
+    head1: "Curiosity    ",
+     img:culture1,
+    head2:
+      "Always on the lookout for what’s out there, what lies beyond, the reasons and workings behind things, curiosity is a core fiber in everyone at DH. We make it a point to nurture curiosity in our day to day, as it creates the conditions for innovation and helps us handle uncertainty and keep our inventiveness sharp.      ",
+  },
+
+  {
+    id: 2,
+    head1: "Adaptability   ",
+    img:culture2,
+    head2:
+      "Light on our feet, we strive to be as nimble as possible, ready to pivot as we incorporate new information. That reflects on the freshness of the work we deliver, on how we organize our teams, and how we approach everything from hiring to exploring new spaces.      ",
+  },
+
+  {
+    id: 3,
+    head1: "  Collaboration ",
+    img:culture3,
+    head2:
+      "Building great teams is at the heart of the way DH operates, and we have a long tradition of organizing our work around cooperation, partnerships and interdisciplinary exchange. Over years of exploring various industries, we have learned to incorporate diverse perspectives early on in everything we do.      ",
+  },
+  {
+    id: 4,
+    head1: " Sustainability  ",
+    img:culture4,
+    head2:
+      "Before anything else, DH is an ecosystem. We have always had clarity about the fact that we are a part of something bigger, and that we nurture from it every bit as much as it is our responsibility to take good care of our surroundings. The only way to be consistent in our effort to co-create the future, is to also create the conditions for that future to be a better version of today.      ",
+  },
+ 
 ];

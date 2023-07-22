@@ -1,8 +1,6 @@
 import { createBrowserRouter, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
-
 import BlogDetailed from '../Components/Blog/BlogDetailed'
-// import BlogDetailed from "../Components/BlogDetailed";
 import WorkDetailed from "../Components/Works/WorkDetailed";
 import About from "../Pages/About";
 import Blog from "../Pages/Blog";
@@ -13,6 +11,7 @@ import Services from "../Pages/Services";
 import TermsOfUse from "../Pages/TermsOfUse";
 import Works from "../Pages/Works";
 import PrivacyPolicy from "../Pages/PrivacyPolicy";
+import Culture from "../Pages/Culture";
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -66,6 +65,10 @@ const Router = createBrowserRouter([
   {
     path: "/privacy",
     element: <Wrapper><PrivacyPolicy /></Wrapper>,
+  },
+  {
+    path: "/culture",
+    element: <Wrapper><Culture /></Wrapper>,
   },
 ]);
 
