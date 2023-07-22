@@ -101,18 +101,18 @@ const ServicesLanding = () => {
 
         <div className="text-white md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative ">
           
-          <div onClick={handleClicktoapproach} className="inline-block mt-[-20px] mb-20">
-            <button
-              id="arrowcontainer"
-              className="md:h-20 h-10 w-7 ml-5 mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
-            >
-              <h1
-                id="arrowbottom"
-                className="md:h-36 h-32 w-7  bg-blue-400 z-50 rounded-full flex items-end justify-center"
+          <div onClick={handleClicktoapproach} className="inline-block hover:cursor-pointer mt-[-20px] mb-20"> 
+<button
+                id="arrowcontainer"
+                className="md:h-12 h-10 w-5   bg-gradient-to-r from-indigo-400 to-cyan-400  flex items-end justify-center rounded-full"
               >
-                <FaLongArrowAltDown color="black" size={38} />
-              </h1>
-            </button>
+              </button>
+                <h1
+                  id="arrowbottom"
+                  className="md:h-16 h-32 mt-[-115px] w-5 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
+                >
+                  <FaLongArrowAltDown color="black" size={38} />
+                </h1>
           </div>
 
 
