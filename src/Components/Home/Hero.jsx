@@ -94,7 +94,7 @@ const Hero = () => {
               </section>
             </div>
 
-            <div onClick={handleClicktohowethink}   className="hidden md:inline-block absolute top-1/2 px-10"
+            <div onClick={handleClicktohowethink}   className="hidden md:inline-block top-1/2 absolute px-10 my-60"
 >
 <button
                 id="arrowcontainer"

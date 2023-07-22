@@ -11,6 +11,16 @@ import { useEffect } from "react";
 import gsap from "gsap";
 
 const Cultureandmore = () => {
+  const handleClicktofourculture = () => {
+    const component2Element = document.getElementById("fourculture");
+    if (component2Element) {
+      window.scrollTo({
+        top: component2Element.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+
   useEffect(() => {
     gsap.fromTo(
       "#arrowbottom",
@@ -119,18 +129,20 @@ const Cultureandmore = () => {
                 way to define what we’re all about:
               </h1>
             </div>
-            <div className=" hidden lg:inline-block absolute ml-5  top-[2100px] left-0 px-3 ">
+            <div
+              onClick={handleClicktofourculture}
+              className=" hidden lg:inline-block absolute ml-5  top-[2100px] left-0 px-3 "
+            >
               <button
                 id="arrowcontainer"
                 className="md:h-12 h-10 w-5  mt-[-40px] bg-blue-400  flex items-end justify-center rounded-full"
+              ></button>
+              <h1
+                id="arrowbottom"
+                className="md:h-16 h-32 mt-[-95px] w-5 bg-blue-400 z-50 rounded-full flex items-end justify-center"
               >
-              </button>
-                <h1
-                  id="arrowbottom"
-                  className="md:h-16 h-32 mt-[-95px] w-5 bg-blue-400 z-50 rounded-full flex items-end justify-center"
-                >
-                  <FaLongArrowAltDown color="black" size={38} />
-                </h1>
+                <FaLongArrowAltDown color="black" size={38} />
+              </h1>
             </div>
           </div>
 
@@ -142,9 +154,7 @@ const Cultureandmore = () => {
             />
           </div>
         </div>
-
       </div>
-     
     </div>
   );
 };

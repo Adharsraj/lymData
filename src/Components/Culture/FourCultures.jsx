@@ -4,7 +4,7 @@ import { fourCultures } from "../../assets/Data/data";
 
 const FourCultures = () => {
   return (
-    <div className="bg-[#282728]">
+    <div id="fourculture" className="bg-[#282728]">
       <div className="max-w-[1640px] mt-[-150px] text-white  mx-auto p-2  ">
         <h2 className=" invisible mt-40 mb-32">gh</h2>
         {/* mobile view */}
