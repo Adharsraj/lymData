@@ -4,7 +4,7 @@ import { productDrivenDesign } from "../../assets/Data/data";
 const ProcessDrivenFive = () => {
   return (
     <div className="bg-[#BCBCBC]">
-      <div className="max-w-[1840px]  bg-[#BCBCBC] mb-10  mx-auto p-4 md:p-0  md:text-xl  ">
+      <div className="max-w-[1840px]  bg-[#BCBCBC] mb-10   mx-auto p-4 md:p-0  md:text-xl  ">
         <div className="md:flex">
           {productDrivenDesign.map((m) => (
             <div

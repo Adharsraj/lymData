@@ -7,7 +7,7 @@ const ProcessDrivendhn = () => {
     <div className="bg-[#BCBCBC]">
       <div className="max-w-[1640px]  bg-[#BCBCBC]   mx-auto p-4 font-dm  md:text-xl  ">
         <div className="flex flex-between">
-          <h1 className="md:hidden font-mono py-10">Fields of expertise</h1>
+          <h1 className="md:hidden font-mono py-1">Fields of expertise</h1>
           <div className="hidden md:flex md:flex-col w-[200px] ml-auto mr-16 text-white text-sm">
             <h1 className=" mt-5 mb-1">
               We are enthusiastic about empowering businesses to build amazing
@@ -40,7 +40,7 @@ const ProcessDrivendhn = () => {
         </div>
 
         <Link to="/services" >
-          <div className="hidden group hover:cursor-pointer md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-32 ">
+          <div className="hidden group hover:cursor-pointer md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-16 ">
             <h1>Fields of expertise </h1>
             <div className="flex xl:gap-1 gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
               <h1 className="p-4 xl:w-[160px] flex text-center items-center justify-center lg:w-[160px] lg:h-10 rounded-full w-[220px] bg-[#000] transition-all duration-300  transform group-hover:-translate-x-[-56px]">
