@@ -159,7 +159,7 @@ const NavbarNew = () => {
                         </li>
                       );
                     }
-                    return null; // If on the specified page, don't render the item
+                    return null;
                   })}
                 </ul>
               </div>

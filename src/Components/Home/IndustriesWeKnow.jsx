@@ -3,7 +3,15 @@ import { useEffect, useRef } from "react";
 
 const IndustriesWeknowdhn = () => {
   const videoRef = useRef(null);
-
+  const withinseven = () => {
+    const component2Element = document.getElementById("withinseven");
+    if (component2Element) {
+      window.scrollTo({
+        top: component2Element.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.playbackRate = 2;
@@ -20,7 +28,7 @@ const IndustriesWeknowdhn = () => {
           <h2 className="text-7xl lg:mb-10 lg:text-8xl xl:text-[190px] font-bold">
             experi <br /> ence
           </h2>
-          <img className="lg:ml-20 animate-bounce" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
+          <img onClick={withinseven} className="lg:ml-20 animate-bounce" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
         </div>
 
         <div

@@ -30,7 +30,7 @@ const HowweThinkdhn = () => {
       <div className="hidden md:block mt-20 relative">
         <div className="flex justify-between xl:px-5  align-middle items-center">
           <h1>How we think</h1>
-          <h1 className="text-[38px] xl:text-[42px]  w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
+          <h1 className="text-[38px] xl:text-[42px]  ml-[-20px]   w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
           <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 

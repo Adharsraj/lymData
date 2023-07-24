@@ -6,13 +6,13 @@
 
 @keyframes animate-size {
   0% {
-    transform: scale(1); /* Initial size */
+    transform: scale(1);
   }
   50% {
-    transform: scale(1.5); /* Increased size */
+    transform: scale(1.5); 
   }
   100% {
-    transform: scale(1); /* Back to initial size */
+    transform: scale(1); 
   }
 }
 
@@ -47,7 +47,6 @@
 
 
 
-//hero
 .overlay{
 width:100vw;
 height:100vh;
@@ -69,7 +68,6 @@ line-height:0.8;
 }
 
 
-// for navbar
 
 
 
@@ -86,7 +84,7 @@ line-height:0.8;
 
 .toggle-btn {
      position:fixed;
-     z-index: 600; /* Set a high z-index to ensure it's on top of other elements */
+     z-index: 600;
 }
 
 span.one {
@@ -106,7 +104,7 @@ span.two {
      position: fixed;
      background: #000;
      top: -100%;
-     z-index: 500; /* Set a high z-index to ensure it's on top of other elements */
+     z-index: 500; 
 
 }
 

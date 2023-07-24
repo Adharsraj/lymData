@@ -6,7 +6,6 @@ import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 
-
 export const ourValues = [
   {
     id: 1,

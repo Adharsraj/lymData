@@ -9,12 +9,11 @@ const ProcessDrivendhn = () => {
         <div className="flex flex-between">
           <h1 className="md:hidden font-mono py-10">Fields of expertise</h1>
           <div className="hidden md:flex md:flex-col w-[200px] ml-auto mr-16 text-white text-sm">
-            <h1 className=" mt-5 mb-5">
+            <h1 className=" mt-5 mb-1">
               We are enthusiastic about empowering businesses to build amazing
               user experiences through data-driven design.
             </h1>
             <h1>
-              {" "}
               Our strategy centres on utilising data and insights to
               create successfully engage, delight, and convert people.
             </h1>
