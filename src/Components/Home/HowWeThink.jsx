@@ -1,7 +1,5 @@
 import React from "react";
-import star from "../../assets/assets/asset 61.svg";
-import arrowright from "../../assets/assets/asset 49.svg";
-import imgright from "../../assets/assets/lines2.png";
+import { Link } from "react-router-dom";
 const HowweThinkdhn = () => {
   return (
     <div id="howethink" className="bg-[#F8FAFC] overflow-hidden ">
@@ -12,7 +10,7 @@ const HowweThinkdhn = () => {
       <div className="md:hidden">
         <div className="flex justify-between align-middle items-center">
           <h1>How we think</h1>
-          <img className=" hover:animate-spin" src={star} alt="" style={{ animationDuration: '3s' }} />
+          <img className=" hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 
         <div className="text-[25px] leading-10  ">
@@ -20,7 +18,7 @@ const HowweThinkdhn = () => {
           <h1>builders by nature.</h1>
         </div>
         <div className="text-[25px]  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-10  mb-16">
-        <h1>LYM™ is a collective brain,
+        <h1>LYM Data Labs is a collective brain,
         formed by a diverse group of
         people who bring years of
         experience, dedication and
@@ -33,30 +31,32 @@ const HowweThinkdhn = () => {
         <div className="flex justify-between xl:px-5  align-middle items-center">
           <h1>How we think</h1>
           <h1 className="text-[38px] xl:text-[42px]  w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
-          <img className="hover:animate-spin" src={star} alt="" style={{ animationDuration: '3s' }} />
+          <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 
       
 
-      <div className="text-[42px] w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16">
-        <h1>LYM™ is a collective brain,
+      <div className="text-[42px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
+        <h1>LYM Data Labs is a collective brain,
         formed by a diverse group of
         people who bring years of
         experience, dedication and
         commitment to our daily work</h1>
 
       </div>
+<Link to="/culture">
 
-      <div className="flex group hover:cursor-pointer gap-4 w-[600px] xl:w-[560px] mx-auto">
-  <h1 className="p-2 mt-10 rounded-full w-[220px] bg-[#ffff05] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+      <div className="flex group hover:cursor-pointer gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[560px] mx-auto lg:mb-7">
+  <h1 className="p-2 mt-10 rounded-full w-[220px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
     Dive into our culture
   </h1>
-  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#ffff05]">
-    <img src={arrowright}  />
+  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
+    <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_49_lb3zxr.svg" />
   </h1>
 </div>
+</Link>
 
-<img className="hidden xl:flex absolute  z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-150" src={imgright} alt="img" />
+<img className="hidden xl:flex absolute  z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-150" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="img" />
 
 
 

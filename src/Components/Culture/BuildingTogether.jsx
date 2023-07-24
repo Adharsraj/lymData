@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../assets/assets (3)/asset 3.png";
 const BuildingTogether = () => {
   return (
     <div className="bg-[#F4F4F4]">
@@ -13,7 +12,7 @@ const BuildingTogether = () => {
             <h1 className="lg:ml-20">—together</h1>
           </h2>
           <img
-            src={img1}
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/assets%20%283%29/asset_3_gtyaon.png"
             className=" w-full top-0 h-[300px] lg:h-[600px] scale-x-150"
             alt="imgrotate"
           />

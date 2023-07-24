@@ -1,11 +1,4 @@
 import React from "react";
-import star from "../../assets/assets/asset 61.svg";
-import img2 from "../../assets/assets (3)/asset 4.jpeg";
-import img3 from "../../assets/assets (3)/asset 5.jpeg";
-import img4 from "../../assets/assets (3)/asset 33.svg";
-import img5 from "../../assets/assets (3)/asset 34.svg";
-import img6 from "../../assets/assets (3)/asset 35.svg";
-import img7 from "../../assets/assets (3)/asset 6.jpeg";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -47,7 +40,11 @@ const Cultureandmore = () => {
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center">
               <h1>Culture @ DHNN™</h1>
-              <img src={star} className="invisible" alt="" />
+              <img
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                className="invisible"
+                alt=""
+              />
             </div>
 
             <div className="text-[25px] leading-10  ">
@@ -77,7 +74,7 @@ const Cultureandmore = () => {
               </h1>
               <img
                 className=" hover:animate-spin invisible"
-                src={star}
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
                 alt=""
                 style={{ animationDuration: "3s" }}
               />
@@ -87,20 +84,24 @@ const Cultureandmore = () => {
 
         <div className="md:grid md:mt-20 mt-10 md:grid-cols-2 ">
           <img
-            src={img2}
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_4_udsfcg.jpg"
             className="md:mt-40 md:ml-0 lg:h-[700px] md:w-[300px] lg:w-[400px] ml-20 lg:ml-12"
             alt=""
             srcset=""
           />
           <div className="">
             <img
-              src={img3}
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/assets%20%283%29/asset_5_ierey2.jpg"
               className="mt-10 ml-[-30px] md:ml-10 "
               alt=""
               srcset=""
             />
             <div className=" md:ml-10 xxl:gap-6 lg:mt-14 lg:flex lg:gap-3 lg:items-center">
-              <img src={img4} className="mt-10 mb-10 " alt="gjj" />
+              <img
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187567/assets/assets%20%283%29/asset_33_b9ifoq.svg"
+                className="mt-10 mb-10 "
+                alt="gjj"
+              />
               <h1 className="">
                 Our craft is a combination of robust methodology, an open
                 mindset and a collaborative spirit that brings out the best in
@@ -108,7 +109,12 @@ const Cultureandmore = () => {
               </h1>
             </div>
             <div className="md:ml-10 lg:mt-14 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
-              <img src={img5} className="mb-10 mt-10" alt="" srcset="" />
+              <img
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187575/assets/assets%20%283%29/asset_34_xw8ije.svg"
+                className="mb-10 mt-10"
+                alt=""
+                srcset=""
+              />
               <h1>
                 DHNN™ is best thought of as a collective brain, formed by a
                 diverse group of people who bring years of experience,
@@ -121,7 +127,11 @@ const Cultureandmore = () => {
         <div className="grid md:grid-cols-2   ">
           <div>
             <div className="lg:flex lg:gap-3 xxl:gap-6 lg:ml-10 lg:items-center lg:mt-52">
-              <img src={img6} className="mb-10 mt-10" alt="" />
+              <img
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187580/assets/assets%20%283%29/asset_35_rrxuyo.svg"
+                className="mb-10 mt-10"
+                alt=""
+              />
 
               <h1 className="lg:w-[350px] xxl:w-[500px]">
                 We have invested a lot of time and effort into assembling the
@@ -133,24 +143,22 @@ const Cultureandmore = () => {
               onClick={handleClicktofourculture}
               className=" hidden lg:inline-block absolute ml-5  top-[2100px] left-0 px-3 "
             >
-              
-<button
+              <button
                 id="arrowcontainer"
                 className="md:h-12 h-10 w-5   bg-gradient-to-r from-indigo-400 to-cyan-400  flex items-end justify-center rounded-full"
+              ></button>
+              <h1
+                id="arrowbottom"
+                className="md:h-16 h-32 mt-[-115px] w-5 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
               >
-              </button>
-                <h1
-                  id="arrowbottom"
-                  className="md:h-16 h-32 mt-[-115px] w-5 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
-                >
-                  <FaLongArrowAltDown color="black" size={38} />
-                </h1>
+                <FaLongArrowAltDown color="black" size={38} />
+              </h1>
             </div>
           </div>
 
           <div>
             <img
-              src={img7}
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187556/assets/assets%20%283%29/asset_6_rq5v6i.jpg"
               className="ml-14 lg:ml-10 md:ml-0 md:mt-40  mt-10"
               alt=""
             />

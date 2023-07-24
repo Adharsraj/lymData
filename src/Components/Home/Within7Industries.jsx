@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { sevenIndustries } from "../../assets/Data/data";
-import arrowright from "../../assets/assets/asset 60.svg";
-import arrowleft from "../../assets/assets/asset 59.svg";
 
 const Within7Industriesdhn = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -21,33 +19,39 @@ const Within7Industriesdhn = () => {
   const carouselData = [
     {
       id: 1,
-      title: "Entertainment",
+      title: "E-commerce",
       details:
-        "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.   ",
+        "This industry involves buying and selling products or services over the internet. It encompasses online stores, payment gateways, customer support, and digital marketing to facilitate smooth online transactions.",
     },
     {
       id: 2,
-      title: "Media & OTT",
+      title: "Finance and Banking",
       details:
-        "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
+        "This sector deals with financial services, including banking, investments, loans, and asset management. Digital solutions in finance enable secure transactions, mobile banking, and personalized financial advice.",
     },
     {
       id: 3,
-      title: "Finance & Crypto   ",
+      title: "Healthcare",
       details:
-        "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.   ",
+        "The healthcare industry focuses on providing medical services, treatment, and support to patients. Digital solutions in healthcare aim to improve patient care, enhance diagnostics, and streamline administrative processes.",
     },
     {
       id: 4,
-      title: "Insurance & Insurtech  ",
+      title: "Travel and Hospitality",
       details:
-        "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.  ",
+        "This sector revolves around travel services, such as hotels, airlines, tour operators, and travel agencies. Digital technologies play a significant role in online booking systems and personalized travel experiences.",
     },
     {
       id: 5,
-      title: "Energy & Industrials  ",
+      title: "Retail",
       details:
-        " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles.",
+        "Retail involves the sale of goods directly to consumers, either through physical stores or online platforms. Digital solutions in retail include e-commerce platforms, inventory management, and customer analytics.",
+    },
+    {
+      id: 6,
+      title: "Entertainment",
+      details:
+        "The entertainment industry encompasses various forms of media and entertainment, including movies, music, gaming, and digital content creation. Digital agencies in entertainment may focus on marketing, content production, and audience engagement.",
     },
   ];
 
@@ -68,17 +72,23 @@ const Within7Industriesdhn = () => {
           Within these 7 industries
         </h1>
 
-        {sevenIndustries.map((m) => (
+        {sevenIndustries.map((m, index) => (
           <div
             key={m.id}
             id={m.id}
-            className={`md:flex group md:px-8 m hover:cursor-pointer  lg:text-lg lg:py-8 xl:py-16 border-b ${
+            className={`md:flex group md:px-8 m hover:cursor-pointer lg:text-lg lg:py-8 xl:py-16 ${
               hoveredId === m.id ? "bg-image" : ""
-            }`}
+            } ${index !== sevenIndustries.length - 1 ? "border-b" : ""}`}
             onMouseEnter={() => handleMouseEnter(m.id)}
             onMouseLeave={handleMouseLeave}
             style={
-              hoveredId === m.id ? { backgroundImage: `url(${m.img})` } : null
+              hoveredId === m.id
+                ? {
+                    backgroundImage: `url(${m.img})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }
+                : null
             }
           >
             <div>
@@ -92,8 +102,12 @@ const Within7Industriesdhn = () => {
                 <h1 className="p-4 xl:w-[160px] text-base border rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
                   What we do
                 </h1>
-                <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
-                  <img className="lg:w-56" src={arrowright} />
+                <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+                  <img
+                    className="lg:w-56"
+                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                    alt="Arrow Right"
+                  />
                 </h1>
               </div>
             </div>
@@ -120,7 +134,10 @@ const Within7Industriesdhn = () => {
                   Find out more
                 </h1>
                 <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
-                  <img className="lg:w-56" src={arrowright} />
+                  <img
+                    className="lg:w-56"
+                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                  />
                 </h1>
               </div>
             </div>
@@ -130,16 +147,16 @@ const Within7Industriesdhn = () => {
               className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={prevSlide}
             >
-              <img src={arrowleft} />
+              <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187630/assets/assets/asset_59_wsgb7l.svg" />
             </button>
             <div className="text-gray-500 text-xl w-14 h-14 rounded-full  flex items-center justify-center">
-              {carouselData[currentSlide].id}/5
+              {carouselData[currentSlide].id}/{carouselData.length}
             </div>
             <button
               className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={nextSlide}
             >
-              <img src={arrowright} />
+              <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
             </button>
           </div>
         </div>

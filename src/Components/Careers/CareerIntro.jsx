@@ -1,5 +1,4 @@
 import React from "react";
-import ColourfulVideo from "../../assets/Videos/careers.mp4";
 const CareerIntro = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4  text-[#040404] ">
@@ -10,14 +9,14 @@ const CareerIntro = () => {
         <video
           className="w-full hidden md:flex h-full object-cover filter blur-xl"
           style={{ transform: "scaleX(-1)" }}
-          src={ColourfulVideo}
+          src="https://res.cloudinary.com/db5gkedee/video/upload/v1690187578/assets/Videos/careers_ypgzvs.mp4"
           autoPlay
           loop
           muted
         ></video>
         <video
           className="w-full h-full object-cover col-span-2"
-          src={ColourfulVideo}
+          src="https://res.cloudinary.com/db5gkedee/video/upload/v1690187578/assets/Videos/careers_ypgzvs.mp4"
           autoPlay
           loop
           muted
@@ -25,7 +24,7 @@ const CareerIntro = () => {
         <video
           className="w-full h-full hidden md:flex object-cover filter blur-xl"
           style={{ transform: "scaleX(-1)" }}
-          src={ColourfulVideo}
+          src="https://res.cloudinary.com/db5gkedee/video/upload/v1690187578/assets/Videos/careers_ypgzvs.mp4"
           autoPlay
           loop
           muted

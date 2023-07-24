@@ -1,5 +1,4 @@
 import React from "react";
-import featuedImg from "../../assets/Images/IMAGE (4).png";
 const BlogFeatured = () => {
   return (
     <div className="max-w-[1640px]  mx-auto p-4   font-roboto ">
@@ -18,7 +17,7 @@ const BlogFeatured = () => {
         </h3>
         <h3 className="mb-2 text-gray-400 md:text-lg lg:ml-14">Featured</h3>
 
-        <img className="mx-auto" src={featuedImg} alt="featured" />
+        <img className="mx-auto" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187560/assets/Images/IMAGE_4_qugcon.png" alt="featured" />
       </div>
     </div>
   );

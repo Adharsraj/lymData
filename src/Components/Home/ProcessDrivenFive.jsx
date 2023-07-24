@@ -1,6 +1,5 @@
 import React from "react";
 import { productDrivenDesign } from "../../assets/Data/data";
-import arrowright from "../../assets/assets/asset 60.svg";
 
 const ProcessDrivenFive = () => {
   return (
@@ -16,7 +15,7 @@ const ProcessDrivenFive = () => {
                 <div className="border md:border-transparent p-2 md:p-0   h-96 flex flex-col justify-around">
                   <h1 className="text-lg uppercase ">{m.head1}</h1>
                   <h1 className="p-4 md:invisible mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[60px] bg-[#282728]">
-                    <img className="lg:w-56" src={arrowright} />
+                    <img className="lg:w-56" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
                   </h1>
                   <h1 className=" md:text-transparent group-hover:text-black">
                     {m.head2}

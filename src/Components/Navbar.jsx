@@ -4,7 +4,6 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-import CompanyLogo from "../assets/Logos/Companylogo.svg";
 import gsap from "gsap";
 
 const NavbarNew = () => {
@@ -116,17 +115,17 @@ const NavbarNew = () => {
   return (
     <>
       <div className=" ">
-        <h1 id="navh1" className=""></h1>
+        <h1 id="navh1 " className=""></h1>
         <div
           id="menu"
-          className={`toggle-btn w-full  ${navbarBgColor}   flex items-center   justify-between px-10 align-middle`}
+          className={`toggle-btn w-full  ${navbarBgColor}    flex items-center   justify-between px-10 align-middle`}
         >
-          <div className="mt-5">
+          <div className="">
             <Link to="/">
               <img
                 id="logo"
-                className="lg:w-[104px]  lg:h-[80px] md:w-16 w-24 "
-                src={CompanyLogo}
+                className="lg:w-[106px]   lg:h-[80px] md:w-16 w-24 "
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg"
                 alt="companylogo"
               />{" "}
             </Link>
@@ -138,9 +137,9 @@ const NavbarNew = () => {
           </div>
           <div
             onClick={menu}
-            className="w-20  h-12 mt-5  cursor-pointer  flex   py-2 px-2 "
+            className="w-20  h-12     cursor-pointer  flex align-midde items-center  py-2 px-2 "
           >
-            <span  className="one px-2 w-12   bg-gray-500" ref={oneRef}></span>
+            <span  className="one px-2 mb-2 w-12   bg-gray-500" ref={oneRef}></span>
             <span className="two w-10  bg-gray-500" ref={twoRef}></span>
           </div>
         </div>

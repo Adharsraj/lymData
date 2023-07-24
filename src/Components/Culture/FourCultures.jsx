@@ -1,5 +1,4 @@
 import React from "react";
-import img6 from "../../assets/assets (3)/asset 38.svg";
 import { fourCultures } from "../../assets/Data/data";
 
 const FourCultures = () => {

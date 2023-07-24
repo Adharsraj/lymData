@@ -1,5 +1,4 @@
 import React from "react";
-import arrowright from "../../assets/assets/asset 60.svg";
 const Contact = () => {
   return (
     <div className="bg-[#F4F4F4]">
@@ -14,7 +13,7 @@ const Contact = () => {
                 Get in touch
               </h1>
               <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
-                <img src={arrowright} />
+                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
               </h1>
             </div>
             <div></div>
@@ -36,7 +35,8 @@ const Contact = () => {
         <div className="md:flex justify-around items-center md:px-10 xxl:px-16 ">
           <div className="md:w-[400px] xxl:w-full">
             <h1 className="mt-5 md:mt-0">
-              Dotspace Edapally <br />
+              4th floor <br />
+              Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
               <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
             </h1>
@@ -53,20 +53,45 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-        <div className="grid md:grid-cols-3 md:px-10 xxl:px-16">
-            <div>
-                <h1 className="text-xl mt-3 mb-3">Contact us :</h1>
-                <h1 className="text-2xl mt-3 mb-3">9553432489</h1>
-            </div>
-            <div>
-<h1 className="text-xl mt-3 mb-3">Email: </h1>
-<h1 className="text-2xl mt-3 mb-3">lym@gmail.com</h1>
-            </div>
+        <div className="md:px-24 lg:px-52">
 
-            <div className="flex justify-end">
-                <img className="w-32 h-[100px]" src="https://media4.giphy.com/media/KpOqvmCFdNMhF0pQb7/giphy.gif?cid=ecf05e477yl24655ubg2yxbn0u2txl4zx88cap1fznfn6xyq&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+        <div className="border border-black rounded-ss-xl rounded-ee-xl ">
+          <div className="flex flex-col items-center text-center justify-center align-middle">
+            <h1 className="text-3xl mb-4">our services</h1>
+            <h1 className="text-sm mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, esse!</h1>
+            <div className="flex gap-5 mb-4">
+              <div className="bg-gray-200 rounded-md p-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+    <path d="M21.944 5.018l-3.983-.72c-.424-.077-.823.266-.939.694-.028.103-.058.206-.09.309l-1.797 5.236c-.102.298-.4.484-.711.484H6.895c-.311 0-.609-.186-.711-.484L4.387 5.301c-.114-.328-.515-.57-.939-.694-.122-.022-.245-.039-.369-.051l-3.984-.719C.525 4.761 0 5.128 0 5.568V18.41c0 .44.525.807 1.179.906l3.984.719c.424.077.823-.266.939-.694.028-.103.058-.206.09-.309l1.797-5.236c.102-.298.4-.484.711-.484h8.63c.311 0 .609.186.711.484l1.797 5.236c.115.328.516.57.939.694.122.022.245.039.369.051l3.984.719c.654.099 1.179-.467 1.179-.906V5.568c0-.44-.525-.807-1.179-.906zM3.309 6.504l1.592 4.63c.097.282.455.487.846.487h8.63c.39 0 .748-.205.846-.487l1.592-4.63c.034-.1.067-.2.097-.3l1.368-.247c-.018.109-.048.213-.079.318L12.003 18.71 3.309 6.504zM2.365 18.113V7.601l1.259 3.668c.144.42.574.718 1.066.718h8.63c.493 0 .922-.298 1.066-.718l1.259-3.668v10.512H2.365z" fill="#4CAF50"/>
+</svg>                <h1>text for it </h1>
+              </div>
+              <div className="bg-gray-200 rounded-md p-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+    <path d="M21.944 5.018l-3.983-.72c-.424-.077-.823.266-.939.694-.028.103-.058.206-.09.309l-1.797 5.236c-.102.298-.4.484-.711.484H6.895c-.311 0-.609-.186-.711-.484L4.387 5.301c-.114-.328-.515-.57-.939-.694-.122-.022-.245-.039-.369-.051l-3.984-.719C.525 4.761 0 5.128 0 5.568V18.41c0 .44.525.807 1.179.906l3.984.719c.424.077.823-.266.939-.694.028-.103.058-.206.09-.309l1.797-5.236c.102-.298.4-.484.711-.484h8.63c.311 0 .609.186.711.484l1.797 5.236c.115.328.516.57.939.694.122.022.245.039.369.051l3.984.719c.654.099 1.179-.467 1.179-.906V5.568c0-.44-.525-.807-1.179-.906zM3.309 6.504l1.592 4.63c.097.282.455.487.846.487h8.63c.39 0 .748-.205.846-.487l1.592-4.63c.034-.1.067-.2.097-.3l1.368-.247c-.018.109-.048.213-.079.318L12.003 18.71 3.309 6.504zM2.365 18.113V7.601l1.259 3.668c.144.42.574.718 1.066.718h8.63c.493 0 .922-.298 1.066-.718l1.259-3.668v10.512H2.365z" fill="#4CAF50"/>
+</svg>                      <h1>text for it </h1>
+              </div>
+              <div className="bg-gray-200 rounded-md p-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+    <path d="M21.944 5.018l-3.983-.72c-.424-.077-.823.266-.939.694-.028.103-.058.206-.09.309l-1.797 5.236c-.102.298-.4.484-.711.484H6.895c-.311 0-.609-.186-.711-.484L4.387 5.301c-.114-.328-.515-.57-.939-.694-.122-.022-.245-.039-.369-.051l-3.984-.719C.525 4.761 0 5.128 0 5.568V18.41c0 .44.525.807 1.179.906l3.984.719c.424.077.823-.266.939-.694.028-.103.058-.206.09-.309l1.797-5.236c.102-.298.4-.484.711-.484h8.63c.311 0 .609.186.711.484l1.797 5.236c.115.328.516.57.939.694.122.022.245.039.369.051l3.984.719c.654.099 1.179-.467 1.179-.906V5.568c0-.44-.525-.807-1.179-.906zM3.309 6.504l1.592 4.63c.097.282.455.487.846.487h8.63c.39 0 .748-.205.846-.487l1.592-4.63c.034-.1.067-.2.097-.3l1.368-.247c-.018.109-.048.213-.079.318L12.003 18.71 3.309 6.504zM2.365 18.113V7.601l1.259 3.668c.144.42.574.718 1.066.718h8.63c.493 0 .922-.298 1.066-.718l1.259-3.668v10.512H2.365z" fill="#4CAF50"/>
+</svg>                      <h1>text for it </h1>
+              </div>
             </div>
+          </div>
+          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+    <path d="M21.944 5.018l-3.983-.72c-.424-.077-.823.266-.939.694-.028.103-.058.206-.09.309l-1.797 5.236c-.102.298-.4.484-.711.484H6.895c-.311 0-.609-.186-.711-.484L4.387 5.301c-.114-.328-.515-.57-.939-.694-.122-.022-.245-.039-.369-.051l-3.984-.719C.525 4.761 0 5.128 0 5.568V18.41c0 .44.525.807 1.179.906l3.984.719c.424.077.823-.266.939-.694.028-.103.058-.206.09-.309l1.797-5.236c.102-.298.4-.484.711-.484h8.63c.311 0 .609.186.711.484l1.797 5.236c.115.328.516.57.939.694.122.022.245.039.369.051l3.984.719c.654.099 1.179-.467 1.179-.906V5.568c0-.44-.525-.807-1.179-.906zM3.309 6.504l1.592 4.63c.097.282.455.487.846.487h8.63c.39 0 .748-.205.846-.487l1.592-4.63c.034-.1.067-.2.097-.3l1.368-.247c-.018.109-.048.213-.079.318L12.003 18.71 3.309 6.504zM2.365 18.113V7.601l1.259 3.668c.144.42.574.718 1.066.718h8.63c.493 0 .922-.298 1.066-.718l1.259-3.668v10.512H2.365z" fill="#4CAF50"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+    <path d="M21.6 5.2c-.2-.2-.5-.2-.7 0L12 13.4l-8.9-8.1c-.2-.2-.5-.2-.7 0-.2.2-.2.5 0 .7l9.6 8.8c.1.1.2.1.3.1s.2 0 .3-.1l9.6-8.8c.2-.2.2-.5 0-.7z" fill="#1976D2"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M60 6H4c-1.1 0-2 .9-2 2v48c0 1.1.9 2 2 2h56c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 50H4V32h56v24zm0-28H4V10h56v18zm-48-5h-2v2h2v-2zm4 0h-2v2h2v-2zm10 0h-2v2h2v-2zm4 0h-2v2h2v-2zm8 0h-2v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-28 4h-2v2h2v-2zm4 0h-2v2h2v-2zm14 0h-2v2h2v-2zm-18 4h-2v2h2v-2zm4 0h-2v2h2v-2zm6 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-10 4h-2v2h2v-2zm-10 4h-2v2h2v-2zm18 0h-2v2h2v-2zm-14 4h-2v2h2v-2zm14 0h-2v2h2v-2zm-14 4h-2v2h2v-2zm4 0h-2v2h2v-2zm10 0h-2v2h2v-2zm6 0h-2v2h2v-2zm-10 4h-2v2h2v-2zm-8 4h-2v2h2v-2zm12 0h-2v2h2v-2zm-14 4h-2v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm6 0h-2v2h2v-2z" fill="#4CAF50"/>
+</svg> */}
+
+
         </div>
+        </div>
+
+
       </div>
     </div>
   );

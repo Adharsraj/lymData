@@ -1,20 +1,11 @@
 import React from "react";
-import img1 from "../../../assets/Images/work detailed/img1.webp";
-import img1m from "../../../assets/Images/work detailed/img1mini.webp";
-import img2 from "../../../assets/Images/work detailed/img2.webp";
-import img3 from "../../../assets/Images/work detailed/img3.webp";
-import img4 from "../../../assets/Images/work detailed/img4.webp";
-import img5 from "../../../assets/Images/work detailed/img5.webp";
-import img6 from "../../../assets/Images/work detailed/img6.webp";
-import img7 from "../../../assets/Images/work detailed/img7.webp";
-import img8 from "../../../assets/Images/work detailed/img8.webp";
-import img9 from "../../../assets/Images/work detailed/img9.webp";
+
 const Mailchimp = () => {
   return (
     <div>
-      <img className="w-full md:hidden" src={img1m} alt="imgbanner" />
+      <img className="w-full md:hidden" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img1mini_nmnsuv.webp" alt="imgbanner" />
 
-      <img className="w-full hidden md:flex" src={img1} alt="imgbanner" />
+      <img className="w-full hidden md:flex" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img1_psgbfv.webp" alt="imgbanner" />
       <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
         <div className="flex flex-col items-center md:items-start justify-center md:ml-8">
           <h1 className="text-5xl md:text-7xl md:w-[500px] md:text-left md:mt-5 lg:text-9xl lg:w-[900px]">
@@ -40,7 +31,7 @@ const Mailchimp = () => {
         </div>
 
         <div>
-          <img src={img2} alt="img1" />
+          <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img2_b0mlc4.webp" alt="img1" />
 
           <h1 className="mt-8 uppercase">Idea /</h1>
           <h3 className="text-4xl mt-4">Bottling Mailchimp’s magic</h3>
@@ -63,7 +54,7 @@ const Mailchimp = () => {
             </h4>
             <img
               className="mt-8 mb-8 md:w-[600px] lg:w-[800px]"
-              src={img3}
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img3_qyr8co.webp"
               alt="img3"
             />
             <h3 className="text-4xl mt-4 md:text-left  md:w-[600px] lg:w-[800px]">
@@ -83,15 +74,15 @@ const Mailchimp = () => {
               – applying development principles to set the programme up for
               scalable success.
             </h4>
-            <img className="mt-8" src={img4} alt="" />
+            <img className="mt-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img4_odhqi2.webp" alt="" />
             <img
               className="mt-8 md:w-[600px] lg:w-[950px] lg:h-[500px]"
-              src={img5}
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img5_htn9bn.webp"
               alt=""
             />
             <img
               className="mt-8 md:w-[600px] lg:w-[950px] lg:h-[500px]"
-              src={img6}
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img6_cclm41.webp"
               alt=""
             />
           </div>
@@ -110,7 +101,7 @@ const Mailchimp = () => {
                 made sense alongside Mailchimp’s overall brand identity.
               </h4>
             </div>
-            <img className="mt-8 mb-8" src={img7} alt="img7" />
+            <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img7_pactia.webp" alt="img7" />
           </div>
 
           <div>
@@ -137,7 +128,7 @@ const Mailchimp = () => {
           <div>
             <div className="grid md:grid-cols-2 md:gap-8">
               <div>
-                <img className="mt-8 mb-8" src={img8} alt="img8" />
+                <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img8_xqa8li.webp" alt="img8" />
               </div>
               <div className="md:mt-16 lg:text-2xl">
                 <h3 className="mt-3">
@@ -155,7 +146,7 @@ const Mailchimp = () => {
               </div>
             </div>
 
-            <img className="mt-8 mb-8" src={img9} alt="img9" />
+            <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img9_rvdvpz.webp" alt="img9" />
           </div>
 
           <div>

@@ -1,8 +1,5 @@
 import React from "react";
-import Shinas from "../../assets/Images/IMAGE (1).png";
-import Billal from "../../assets/Images/IMAGE (2).png";
-import Bibin from "../../assets/Images/IMAGE (3).png";
-import Shabeer from "../../assets/Images/IMAGE.png";
+
 
 const OurTechGurus = () => {
   return (
@@ -22,7 +19,7 @@ const OurTechGurus = () => {
         <div className="relative">
           <img
             className="h-[300px] w-[150px] mx-auto mb-10 mt-12"
-            src={Shinas}
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Images/IMAGE_svg4lz.png"
             alt="chiefarchitect"
           />
           <div className="absolute bottom-16 left-8 bg-transparent text-white p-2 ">
@@ -34,7 +31,7 @@ const OurTechGurus = () => {
         <div className="relative">
           <img
             className="h-[300px] w-[150px] md:mt-12 mx-auto mb-10"
-            src={Shabeer}
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/IMAGE_3_kgsewq.png"
             alt="chiefarchitect"
           />
           <div className="absolute bottom-16 left-8 bg-transparent text-white p-2 ">
@@ -47,7 +44,7 @@ const OurTechGurus = () => {
         <div className="relative">
           <img
             className="h-[300px] w-[150px] mx-auto mb-10 lg:mt-12"
-            src={Billal}
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187562/assets/Images/IMAGE_1_smlfke.png"
             alt="chiefarchitect"
           />
           <div className="absolute bottom-16 left-8 bg-transparent text-white p-2">
@@ -60,7 +57,7 @@ const OurTechGurus = () => {
         <div className="relative">
           <img
             className="h-[300px] w-[150px] mx-auto mb-10 lg:mt-12"
-            src={Bibin}
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187561/assets/Images/IMAGE_2_gz969p.png"
             alt="chiefarchitect"
           />
           <div className="absolute bottom-16 left-8 bg-transparent text-white p-2">

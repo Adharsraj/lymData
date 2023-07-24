@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { sevenIndustries } from "../../assets/Data/data";
-import arrowright from "../../assets/assets/asset 60.svg";
 
 const Within7ForService = () => {
   const [hoveredId, setHoveredId] = useState(null);
@@ -14,9 +13,8 @@ const Within7ForService = () => {
   };
 
   return (
-    <div className="max-w-[1640px] mx-auto p-4 ">
+    <div className="max-w-[1740px] mx-auto  ">
       <div>
-
         {sevenIndustries.map((m) => (
           <div
             key={m.id}
@@ -26,7 +24,9 @@ const Within7ForService = () => {
             }`}
             onMouseEnter={() => handleMouseEnter(m.id)}
             onMouseLeave={handleMouseLeave}
-            style={hoveredId === m.id ? { backgroundImage: `url(${m.img})` } : null}
+            style={
+              hoveredId === m.id ? { backgroundImage: `url(${m.img})` } : null
+            }
           >
             <div>
               <h1 className="mt-3 mb-3 group-hover:text-white md:w-[200px] lg:w-[350px] xl:w-[500px] font-semibold">
@@ -40,8 +40,11 @@ const Within7ForService = () => {
                   What we do
                 </h1>
                 <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
-    <img className='lg:w-56' src={arrowright}  />
-  </h1>
+                  <img
+                    className="lg:w-56"
+                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                  />
+                </h1>
               </div>
             </div>
           </div>

@@ -1,13 +1,7 @@
 import React from "react";
-import img1 from "../../../assets/Images/work detailed/img3.1.webp";
-import img1m from "../../../assets/Images/work detailed/img3.1mini.webp";
-import img2 from "../../../assets/Images/work detailed/img3.2.webp";
-import img3 from "../../../assets/Images/work detailed/img3.4.webp";
-import img4 from "../../../assets/Images/work detailed/img3.5.webp";
-import img5 from "../../../assets/Images/work detailed/img3.6.webp";
 
 
-import img8 from "../../../assets/Images/work detailed/img3.8.webp";
+
 const Montblanc = () => {
   return (
     <div className="">
@@ -24,9 +18,9 @@ const Montblanc = () => {
             Together, we developed an online learning hub for users to deepen
             their knowledge and earn Mailchimp certification.
           </h3>
-          <img className="w-full md:hidden" src={img1m} alt="imgbanner " />
+          <img className="w-full md:hidden" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img3.1mini_bn9ls5.webp" alt="imgbanner " />
 
-          <img className="w-full hidden md:flex " src={img1} alt="imgbanner" />
+          <img className="w-full hidden md:flex " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img3.1_ugncbu.webp" alt="imgbanner" />
           <h4 className="border-b-2 pt-3 pb-3 text-center lg:w-[800px]">
             Customisable watch faces – from work to workouts
           </h4>
@@ -52,7 +46,7 @@ const Montblanc = () => {
         </div>
 
         <div>
-          <img src={img2} alt="img1" />
+          <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img3.2_yuurs2.webp" alt="img1" />
 
           <h1 className="mt-8 uppercase">Idea /</h1>
           <h3 className="text-4xl mt-4">One watch, multiple faces</h3>
@@ -89,11 +83,11 @@ const Montblanc = () => {
             </h4>
             <img className="mt-8" src={img4} alt="" />
           </div> */}
-          <img className="mt-8 mb-8 " src={img3} alt="img3" />
+          <img className="mt-8 mb-8 " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img3.4_r4zkvt.webp" alt="img3" />
           <div>
             <div className="grid md:grid-cols-2 md:gap-8">
               <div>
-                <img className="mt-8 mb-8" src={img4} alt="img8" />
+                <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img3.5_h15qgz.webp" alt="img8" />
               </div>
               <div className="md:mt-16 lg:mt-32 lg:text-2xl">
                 <h3 className="mt-3">
@@ -139,7 +133,7 @@ const Montblanc = () => {
               too – it reduced the amount of lit pixels, preserving battery
               life.
             </h4>
-            <img src={img5} alt="img1" />
+            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img3.6_wtxwgi.webp" alt="img1" />
           </div>
           <div>
             <h1 className="text-4xl text-center mt-4 mb-4 lg:text-6xl">

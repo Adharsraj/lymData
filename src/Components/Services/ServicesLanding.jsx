@@ -1,13 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
-import arrowright from "../../assets/assets/asset 60.svg";
-import imgright from "../../assets/assets/lines2.png";
 import { FaLongArrowAltDown } from "react-icons/fa";
-import img1 from "../../assets/assets/asset 0.png";
-import img2 from "../../assets/assets/asset 1.png";
-import star from "../../assets/assets/asset 61.svg";
-import { Link } from "react-router-dom";
-import arrowbottom from "../../assets/assets/asset 41.svg";
 import Within7ForService from '../Home/Within7ForService';
 
 const ServicesLanding = () => {
@@ -151,7 +144,7 @@ const ServicesLanding = () => {
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                  <img src={arrowright} />
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
                 </h1>
               </div>
             </div>
@@ -189,7 +182,7 @@ const ServicesLanding = () => {
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                  <img src={arrowright} />
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
                 </h1>
               </div>
             </div>
@@ -230,7 +223,7 @@ const ServicesLanding = () => {
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                  <img src={arrowright} />
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
                 </h1>
               </div>
             </div>
@@ -268,7 +261,7 @@ const ServicesLanding = () => {
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                  <img src={arrowright} />
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
                 </h1>
               </div>
             </div>
@@ -307,7 +300,7 @@ const ServicesLanding = () => {
                 see more
               </h1>
               <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                <img src={arrowright} />
+                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
               </h1>
             </div>
           </div>
@@ -317,10 +310,10 @@ const ServicesLanding = () => {
         </div>
       </div>
           <div className="overflow-hidden">
-    <img src={img1} className="absolute opacity-10 xl:left-[-550px]  left-[-350px] top-[820px]" alt="" />
+    <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187588/assets/assets/asset_0_iofmqv.png" className="absolute opacity-10 xl:left-[-550px]  left-[-350px] top-[820px]" alt="" />
   </div>
   <div className="overflow-hidden">
-    <img src={img2} className="absolute  opacity-10  top-[1400px]" alt="" />
+    <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187588/assets/assets/asset_1_ixuqhj.png" className="absolute  opacity-10  top-[1400px]" alt="" />
   </div>
     </div>
     {/* Approaches */}
@@ -331,7 +324,7 @@ const ServicesLanding = () => {
   <div className="md:hidden">
     <div className="flex justify-between align-middle items-center">
       <h1>approach</h1>
-      <img className="hover:animate-spin" src={star} alt="" style={{ animationDuration: '3s' }} />
+      <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
     </div>
 {/* 
     <div className="text-[25px] hidden leading-10  ">
@@ -353,7 +346,7 @@ than 150 companies of all than 150 companies of allkinds and sizes.</h1>
 Dive into our culture
 </h1>
 <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
-<img src={arrowright}  />
+<img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />
 </h1>
 </div>
 
@@ -361,7 +354,7 @@ Dive into our culture
     <div className="flex justify-between xl:px-16 lg:px-5  align-middle items-center">
       <h1 className="text-sm">approach</h1>
       <h1 className="text-[38px] xl:text-[42px] hidden w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
-      <img className="hover:animate-spin" src={star} alt="" style={{ animationDuration: '3s' }} />
+      <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
     </div>
 
   
@@ -378,10 +371,10 @@ than 150 companies of allkinds and sizes.</h1>
 Lets build together
 </h1>
 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
-<img src={arrowright}  />
+<img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />
 </h1>
 </div>
-<img className="hidden xl:flex absolute z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110 opacity-70 filter invert" src={imgright} alt="img" />
+<img className="hidden xl:flex absolute z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110 opacity-70 filter invert" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="img" />
 
 
 
@@ -403,7 +396,7 @@ Lets build together
 
     <div className='xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20'>
       <div className='relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 '>
-      <img style={imageStyle}  className="mt-32" src={imgright} alt="Sample Image" />
+      <img style={imageStyle}  className="mt-32" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="Sample Image" />
       <h1 className='absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]'>
           <span onClick={handleClicktoservices} className='opacity-20 hover:opacity-50 hover:cursor-pointer'>services</span> 
           <span onClick={handleClicktoindustries} className="text-[#424142] ">/ industries / </span> 
@@ -411,7 +404,7 @@ Lets build together
           <span  className='text-[#424142] mb-10 '>we are experts in.
 </span> 
         </h1>
-        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src={arrowbottom} alt="" />
+        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
 
       </div>
     </div>
@@ -432,14 +425,14 @@ Lets build together
 
     <div className='xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20'>
       <div className='relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 '>
-      <img style={imageStyle}  className="mt-32" src={imgright} alt="Sample Image" />
+      <img style={imageStyle}  className="mt-32" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="Sample Image" />
       <h1 className='absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]'>
           <span onClick={handleClicktoservices} className='opacity-20 hover:opacity-50 hover:cursor-pointer'>services</span> 
           <span onClick={handleClicktoindustries}  className="opacity-20 hover:opacity-50 hover:cursor-pointer ">/ industries / </span> 
           <span onClick={handleClicktoarchieve} className="text-[#424142] cursor-pointer"> archive</span>  <br />{" "}
           <span   className='text-[#424142] mb-10 '>15+ years of solved challenges</span> 
         </h1>
-        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src={arrowbottom} alt="" />
+        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
 
       </div>
     </div>

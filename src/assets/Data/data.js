@@ -1,34 +1,11 @@
-import img2 from "../Images/blog img/img1.png";
-import img3 from "../Images/blog img/img7.png";
-import img4 from "../Images/blog img/img3.jpeg";
-import img5 from "../Images/blog img/img4.jpeg";
-import img6 from "../Images/blog img/img5.jpeg";
-import img7 from "../Images/blog img/img6.png";
+
 import Blog1 from "../../Components/Blog/BlogComponents/Blog1";
 import Blog2 from "../../Components/Blog/BlogComponents/Blog2";
 import Blog3 from "../../Components/Blog/BlogComponents/Blog3";
 import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
-import workimg1 from "../Images/works/new1.webp";
-import workimg2 from "../Images/works/new2.webp";
-import workimg3 from "../Images/works/new3.webp";
-import allworks1 from "../Images/allworks/IMAGE (15).png";
-import allworks2 from "../Images/allworks/IMAGE (16).png";
-import allworks3 from "../Images/allworks/IMAGE (17).png";
-import allworks4 from "../Images/allworks/IMAGE (18).png";
-import allworks5 from "../Images/allworks/IMAGE (19).png";
-import allworks6 from "../Images/allworks/IMAGE (20).png";
-import allworks7 from "../Images/allworks/IMAGE (21).png";
-import allworks8 from "../Images/allworks/IMAGE (22).png";
-import entertainment from '../Images/industries/entertainment.jpg'
-import energyindustrials from '../Images/industries/energy-industrials.jpg'
-import informationtechnology from '../Images/industries/information-technology.jpg'
-import retailcommerce from '../Images/industries/retail-commerce.jpg'
-import culture1 from '../../assets/assets (3)/asset 38.svg'
-import culture2 from '../../assets/assets (3)/asset 39.svg'
-import culture3 from '../../assets/assets (3)/asset 40.svg'
-import culture4 from '../../assets/assets (3)/asset 41.svg'
+
 
 export const ourValues = [
   {
@@ -82,7 +59,7 @@ export const whyLymData = [
 export const blogsData = [
   {
     id: 1,
-    img: img2,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img1_zyhhcu.png",
     Time: "7 min read",
     By: "Alex Bechor",
     more: Blog1,
@@ -93,7 +70,7 @@ export const blogsData = [
 
   {
     id: 2,
-    img: img3,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img7_fptpmq.png",
     Time: "5 min read",
     By: "Ann Maria",
     more: Blog2,
@@ -104,7 +81,7 @@ export const blogsData = [
 
   {
     id: 3,
-    img: img4,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img3_j9rxo4.jpg",
     Time: "2 min read",
     By: "Alexander Dimitri",
     more: Blog3,
@@ -115,7 +92,7 @@ export const blogsData = [
 
   {
     id: 4,
-    img: img5,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187558/assets/Images/blog%20img/img4_mo2z2e.jpg",
     Time: "8 min read",
     By: "Pablo john",
     more: Blog4,
@@ -125,7 +102,7 @@ export const blogsData = [
   },
   {
     id: 5,
-    img: img6,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187558/assets/Images/blog%20img/img5_bznh2i.jpg",
     Time: "6 min read",
     By: "Roony elizabeth",
     more: Blog5,
@@ -135,7 +112,7 @@ export const blogsData = [
   },
   {
     id: 6,
-    img: img7,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img7_fptpmq.png",
     Time: "4 min read",
     By: "Alexander Williams",
     more: Blog6,
@@ -148,7 +125,7 @@ export const blogsData = [
 export const worksData = [
   {
     id: 1,
-    img: workimg1,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/Images/works/new1_ueh680.webp",
     head1: "5+ hours’ worth of educational content",
     head2: "10+ interactive activities",
     mainhead: "How we created Mailchimp Academy to upskill Mailchimp users",
@@ -158,7 +135,7 @@ export const worksData = [
 
   {
     id: 2,
-    img: workimg2,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/Images/works/new2_xj6meu.webp",
     head1: "A buying experience to uplevel Brompton’s digital presence",
     head2: "UX and UI design transformation in just eight weeks",
     mainhead: "A unique ecommerce experience for an iconic British brand",
@@ -168,7 +145,7 @@ export const worksData = [
 
   {
     id: 3,
-    img: workimg3,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/Images/works/new3_izzr45.webp",
     head1: "Customisable watch faces – from work to workouts",
     head2: "Accessible activity app design for health and wellbeing",
     mainhead: "Flexible, functional design for the Summit Lite watch",
@@ -180,56 +157,56 @@ export const worksData = [
 export const allWorks = [
   {
     id: 1,
-    img: allworks1,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187564/assets/Images/allworks/IMAGE_15_lsolsv.png",
     head1: "Designing a world-class website for a world-class college",
     title: "Royal College of Art",
   },
 
   {
     id: 2,
-    img: allworks2,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187562/assets/Images/allworks/IMAGE_16_mkd8hl.png",
     head1: "Flexible, functional design for the Summit Lite watch",
     title: "Montblanc",
   },
 
   {
     id: 3,
-    img: allworks3,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/Images/allworks/IMAGE_17_srzwqt.png",
     head1: "A unique ecommerce experience for an iconic British brand",
     title: "Brompton",
   },
 
   {
     id: 4,
-    img: allworks4,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/Images/allworks/IMAGE_18_xnejek.png",
     head1: "Helping millions across EMEA train and learn",
     title: "Grow with Google",
   },
 
   {
     id: 5,
-    img: allworks5,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187564/assets/Images/allworks/IMAGE_19_gichlu.png",
     head1: "How we created Mailchimp Academy to upskill Mailchimp users",
     title: "Mailchimp",
   },
 
   {
     id: 6,
-    img: allworks6,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187562/assets/Images/allworks/IMAGE_20_l8ka0c.png",
     head1: "Educating the public on Big Tobacco’s tricks to hook kids",
     title: "California Tobacco Control Program",
   },
 
   {
     id: 7,
-    img: allworks7,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187562/assets/Images/allworks/IMAGE_21_ydzejp.png",
     head1: "Partnering with Google for a decade of award-winning work",
     title: "Ten years with Google",
   },
 
   {
     id: 8,
-    img: allworks8,
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/Images/allworks/IMAGE_22_irp2wt.png",
     head1: "Helping Just Eat keep first place for food delivery",
     title: "Just Eat",
   },
@@ -238,33 +215,33 @@ export const allWorks = [
 export const productDrivenDesign = [
   {
     id: 1,
-    head1: "Product discovery",
+    head1: "User Research and Analysis",
     head2:
       "We set the right processes and methodologies to boost innovation     ",
   },
 
   {
     id: 2,
-    head1: "Branding & strategy ",
+    head1: "Personalization and Customization",
     head2:
       "We evolve powerful ideas into solid and relatable brands that drive adoption.",
   },
 
   {
     id: 3,
-    head1: "Product design ",
+    head1: "A/B Testing and Optimization",
     head2:
       "From initial concept, to interface design and product development we craft high-end platforms ",
   },
   {
     id: 4,
-    head1: "Blockchain ",
+    head1: "Data-Driven Content Strategy",
     head2:
       "We open an exploration space to innovate with to interface design and product development   ",
   },
   {
     id: 5,
-    head1: "crypto ",
+    head1: "Conversion Rate Optimization",
     head2:
       "space to product development for outstanding digital experiences. ",
   },
@@ -273,52 +250,43 @@ export const productDrivenDesign = [
 export const sevenIndustries = [
   {
     id: 1,
-    head1: "Entertainment    ",
-     img:"https://images.unsplash.com/photo-1567593810070-7a3d471af022?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
-    head2:
-      "We help the entertainment industry adapt and adopt technology with the goal of creating compelling content like never before, and redefining what a digital product is, and how it transforms leisure time.    ",
+    head1: "E-commerce  ",
+     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/E-commerce_fr8gu6.webp",
+    head2:"This industry involves buying and selling products or services over the internet. It encompasses online stores, payment gateways, customer support, and digital marketing to facilitate smooth online transactions."
   },
 
   {
     id: 2,
-    head1: "Media & OTT    ",
-    img:"https://images.unsplash.com/photo-1536604673810-81370412626d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80",
-    head2:
-      "Audiences demand ever more content, delivered instantly, without pause or buffering, in higher and higher quality, and increasingly tailored to their personal taste. We help media companies reinvent themselves to stay relevant. ",
+    head1: "Finance and Banking    ",
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Finance_and_Banking_kssz3a.webp",
+    head2:" This sector deals with financial services, including banking, investments, loans, and asset management. Digital solutions in finance enable secure transactions, mobile banking, and personalized financial advice."
   },
 
   {
     id: 3,
-    head1: "Finance & Crypto    ",
-    img:"https://www.omfif.org/wp-content/uploads/2022/04/crypto-asset-growth-newweb.png",
-    head2:
-      "As the term fintech becomes a part of our everyday conversations, individuals and organizations expect nothing but the very best from brands in this space, and we make sure they deliver.    ",
+    head1: "Healthcare",
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Healthcare_apc3ha.webp",
+    head2:"The healthcare industry focuses on providing medical services, treatment, and support to patients. Digital solutions in healthcare aim to improve patient care, enhance diagnostics, and streamline administrative processes."
   },
   {
     id: 4,
-    head1: "Insurance & Insurtech    ",
-    img:"https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
-    head2:
-      "The design of meaningful experiences is a key asset that we bring to the insurance industry, and it’s part of what helps organizations rethink their portfolio in a digitally enhanced world.    ",
+    head1: "Travel and Hospitality     ",
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Travel_and_Hospitality_zwmvvt.webp",
+    head2:"This sector revolves around travel services, such as hotels, airlines, tour operators, and travel agencies. Digital technologies play a significant role in online booking systems and personalized travel experiences."
   },
-  // {
-  //   id: 5,
-  //   head1: " Energy & Industrials    ",
-  //   head2:
-  //     " We help the industrial sector redesign their operations, and reshape how factories are organized to build and ship products in shorter and shorter cycles. ",
-  // },
-  // {
-  //   id: 6,
-  //   head1: " Retail & Commerce    ",
-  //   head2:
-  //     " Digital is now an indispensable channel for any retail or commerce. E-commerce and online presence have become commodities in the way brands sell and strategize. It is the ultimate channel for brand presence, and we bring years of experience to help brands stand out in a crowded space.    ",
-  // },
-  // {
-  //   id: 7,
-  //   head1: "   Information Technology    ",
-  //   head2:
-  //     " As delivery times get shorter, new competitors flood the market, and clients get increasingly well-informed and demanding, we deliver innovation, 360 strategies and agile frameworks to turn raw data into key insights.    ",
-  // },
+  {
+    id: 5,
+    head1: "Retail",
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Retail_xldndr.webp",
+    head2:"Retail involves the sale of goods directly to consumers, either through physical stores or online platforms. Digital solutions in retail include e-commerce platforms, inventory management, and customer analytics."
+  },
+  {
+    id: 6,
+    head1: "Entertainment",
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Entertainment_vbj4et.webp",
+    head2:"The entertainment industry encompasses various forms of media and entertainment, including movies, music, gaming, and digital content creation. Digital agencies in entertainment may focus on marketing, content production, and audience engagement."
+  },
+ 
 ];
 
 
@@ -355,7 +323,7 @@ export const fourCultures = [
   {
     id: 1,
     head1: "Curiosity    ",
-     img:culture1,
+     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_38_yz6gqj.svg",
     head2:
       "Always on the lookout for what’s out there, what lies beyond, the reasons and workings behind things, curiosity is a core fiber in everyone at DH. We make it a point to nurture curiosity in our day to day, as it creates the conditions for innovation and helps us handle uncertainty and keep our inventiveness sharp.      ",
   },
@@ -363,7 +331,7 @@ export const fourCultures = [
   {
     id: 2,
     head1: "Adaptability   ",
-    img:culture2,
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_39_azl9yl.svg",
     head2:
       "Light on our feet, we strive to be as nimble as possible, ready to pivot as we incorporate new information. That reflects on the freshness of the work we deliver, on how we organize our teams, and how we approach everything from hiring to exploring new spaces.      ",
   },
@@ -371,14 +339,14 @@ export const fourCultures = [
   {
     id: 3,
     head1: "  Collaboration ",
-    img:culture3,
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/assets%20%283%29/asset_40_bin1o9.svg",
     head2:
       "Building great teams is at the heart of the way DH operates, and we have a long tradition of organizing our work around cooperation, partnerships and interdisciplinary exchange. Over years of exploring various industries, we have learned to incorporate diverse perspectives early on in everything we do.      ",
   },
   {
     id: 4,
     head1: " Sustainability  ",
-    img:culture4,
+    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/assets%20%283%29/asset_41_hferql.svg",
     head2:
       "Before anything else, DH is an ecosystem. We have always had clarity about the fact that we are a part of something bigger, and that we nurture from it every bit as much as it is our responsibility to take good care of our surroundings. The only way to be consistent in our effort to co-create the future, is to also create the conditions for that future to be a better version of today.      ",
   },

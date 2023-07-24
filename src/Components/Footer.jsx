@@ -1,13 +1,9 @@
 import React from "react";
-import { FaLocationArrow } from "react-icons/fa";
 import { SlSocialDribbble, SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
 import { Link } from "react-router-dom";
-import CompanyLogo from '../assets/Logos/Companylogo.svg'
 
 const FooterZipsy = () => {
-  const handleLinkClick = () => {
-    window.scrollTo(0, 0); // Scroll to the top of the page
-  };
+  
   return (
     <div className="bg-[#262626]">
       <div className="max-w-[1640px]  mx-auto p-2 text-white ">
@@ -16,16 +12,11 @@ const FooterZipsy = () => {
             <h1 className="text-2xl md:text-4xl w-[250px] md:w-full mx-auto">
               Design capital from <br /> obscurity to scale
             </h1>
-            {/* <h2 className=" mt-5 flex gap-2">
-              Let’s talk{" "}
-              <span>
-                <FaLocationArrow />
-              </span>
-            </h2> */}
+           
             
           <div className="py-10">
           <input type="email" placeholder='user@lym.com' className='text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none'/>
-          <button className='bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-white md:w-auto w-full'>Subscribe</button>
+          <button className='bg-gradient-to-r from-indigo-400 to-cyan-400 p-2 font-[Poppins] rounded-md text-white md:w-auto w-full'>Subscribe</button>
           </div>
           </div>
           <div>
@@ -79,7 +70,7 @@ const FooterZipsy = () => {
                 </h1>
               </div>
               <div>
-              <img src={CompanyLogo} className="w-12 h-12" alt="footer-logo"  />
+              <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg" className="w-12 h-12" alt="footer-logo"  />
               </div>
             </div>
           </div>
@@ -90,16 +81,10 @@ const FooterZipsy = () => {
             <h1 className="text-2xl md:text-4xl w-[250px] md:w-full mx-auto">
               Design capital from <br /> obscurity to scale
             </h1>
-            {/* <h2 className=" mt-10 flex gap-2">
-              Let’s talk{" "}
-              <span>
-                <FaLocationArrow />
-              </span>
-            </h2> */}
-  
+          
           <div className="py-10">
           <input type="email" placeholder='user@lym.com' className='text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none'/>
-          <button className='bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-white md:w-auto w-full'>Subscribe</button>
+          <button className='bg-gradient-to-r from-indigo-400 to-cyan-400 p-2 font-[Poppins] rounded-md text-white md:w-auto w-full'>Subscribe</button>
           </div>
         
         </div>
@@ -126,15 +111,14 @@ const FooterZipsy = () => {
               <Link to="/terms">
               <h2 className="p-1">Terms of Service</h2>
               </Link>
-              {/* <h2 className="p-1">Customer Terms</h2>
-              <h2 className="p-1">Designer Terms</h2> */}
+
             </div>
           </div>
         </div>
 
         <div className=" hidden md:flex justify-around mt-10 mb-20">
           <div className="flex items-center">
-            <img src={CompanyLogo} className="w-12 h-12" alt="footer-logo"  />
+            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg" className="w-12 h-12" alt="footer-logo"  />
             <h1>© 2023 lym, Inc. All rights reserved</h1>
           </div>
           <div className="flex items-center gap-12">
