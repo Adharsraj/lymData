@@ -4,42 +4,61 @@ import { Link } from "react-router-dom";
 const ProcessDrivendhn = () => {
  
   return (
-    <div className="bg-[#BCBCBC]">
-      <div className="max-w-[1640px]  bg-[#BCBCBC]   mx-auto p-4 font-dm  md:text-xl  ">
-        <div className="flex flex-between">
+    <div className="bg-[#BCBCBC] relative">
+      <div className="max-w-[1640px] relative bg-[#BCBCBC]   mx-auto p-4 font-dm  md:text-xl  ">
+        <div className="">
+
+        <div className="  flex flex-between">
           <h1 className="md:hidden font-mono py-1">Fields of expertise</h1>
-          <div className="hidden md:flex md:flex-col w-[200px] ml-auto mr-16 text-white text-sm">
-            <h1 className=" mt-5 mb-1">
+          <div className="hidden  md:flex md:flex-col w-[200px] ml-auto mr-16 text-white text-sm">
+            <h1 className=" z-10  mt-5 mb-1">
               We are enthusiastic about empowering businesses to build amazing
               user experiences through data-driven design.
             </h1>
-            <h1>
+            <h1 className="z-10">
               Our strategy centres on utilising data and insights to
               create successfully engage, delight, and convert people.
             </h1>
           </div>
         </div>
+        <div className="">
+          
+  <div
+    className=" hidden md:flex absolute top-0 left-0 scale-90 w-full h-full mt-6 z-0"
+    style={{
+      backgroundImage:
+        'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690288787/WhatsApp_Image_2023-07-25_at_6.00.10_PM_wfnksq.jpg")',
+      backgroundPosition: 'center',
+      opacity: 0.8, 
+    }}
+  ></div>
 
-        <div className="hidden md:block text-white">
-          <div>
-            <h1 className="text-[100px]  lg:text-[150px] xl:text-[200px]">
-              <span className="lg:text-[135px] xl:text-[180px]">D</span>
-              ata
-            </h1>
-          </div>
-          <div className="flex items-center justify-around text-[100px] xl:text-[200px] xl:mt-32 lg:text-[140px] mt-14 lg:mt-20 ">
-            <img
+  {/* Text Content */}
+  <div className="relative z-10">
+    <div className="hidden md:block text-white">
+      <div>
+        <h1 className="text-[100px] lg:text-[150px] xl:text-[200px]">
+          <span className="lg:text-[135px] xl:text-[180px]">D</span>
+          ata
+        </h1>
+      </div>
+      <div className="flex items-center justify-around text-[100px] xl:text-[200px] xl:mt-32 lg:text-[140px] mt-14 lg:mt-20 ">
+      <img
               className="lg:w-20 hover:animate-spin"
               src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
               alt="imgsmallviewstar "
               style={{ animationDuration: "3s" }}
-            />
-            <h2>driven</h2>
-            <h2>design</h2>
-          </div>
-        </div>
+              />
+        <h2>driven</h2>
+        <h2>design</h2>
+      </div>
+    </div>
+  </div>
+</div>
 
-          <div className="hidden   md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-16 ">
+
+
+          <div className="hidden relative   md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-16 ">
             <h1 className="cursor-pointer">Fields of expertise </h1>
         <Link to="/services" >
             <div className="flex  xl:gap-1 group gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
@@ -71,7 +90,7 @@ const ProcessDrivendhn = () => {
           <h1>design</h1>
         </div>
 
-        <div className=" md:hidden md:flex-col w-[200px]  mr-16 text-white  text-sm">
+        <div className=" relative md:hidden md:flex-col w-[200px]  mr-16 text-white  text-sm">
           <h1 className=" mt-5 w-[300px] mb-5 py-5">
             We are enthusiastic about empowering businesses to build amazing
             user experiences through data-driven design.
@@ -102,7 +121,12 @@ const ProcessDrivendhn = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
+
+
+
 
 export default ProcessDrivendhn;

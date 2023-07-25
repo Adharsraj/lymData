@@ -318,7 +318,7 @@ const ServicesLanding = () => {
     </div>
     {/* Approaches */}
     <>
-<div id="approach" className="max-w-[1640px]   mx-auto p-4 font-helvetica  md:text-xl  ">
+<div id="approach" className="max-w-[1640px]   mx-auto p-4  md:text-xl  ">
     <div className="lg:mt-20">
 
   <div className="md:hidden">
@@ -360,7 +360,7 @@ Lets  build together
   
 
   <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#000]   mb-16">
-    <h1 className="lg:text-6xl  lg:w-[670px] ">Our offering has evolved
+    <h1 className="lg:text-5xl  lg:leading-[70px]  font-helvetica some-element text-[#282728]  lg:w-[670px] ">Our offering has evolved
 as a testament of work we have completed
 and delivered for  more
 than 150 companies of allkinds and sizes.</h1>
