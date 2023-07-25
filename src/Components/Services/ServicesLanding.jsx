@@ -343,7 +343,7 @@ than 150 companies of all than 150 companies of allkinds and sizes.</h1>
 
   <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px">
 <h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-Dive into our culture
+Lets  build together
 </h1>
 <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
 <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />

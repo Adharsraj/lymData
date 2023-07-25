@@ -7,7 +7,7 @@ import ServicesLanding from '../Components/Services/ServicesLanding'
 import UseDocumentTitle from '../Hooks/UseDocumentTitle'
 
 const Services = () => {
-  UseDocumentTitle("LYM DATA | Home")
+  UseDocumentTitle("LYM DATA | Services")
 
   return (
     <>

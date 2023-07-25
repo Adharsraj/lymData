@@ -6,7 +6,7 @@ import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const Careers = () => {
-  UseDocumentTitle("LYM DATA | Home")
+  UseDocumentTitle("LYM DATA | Careers")
 
   return (
     <>

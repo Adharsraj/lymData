@@ -39,19 +39,19 @@ const ProcessDrivendhn = () => {
           </div>
         </div>
 
+          <div className="hidden   md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-16 ">
+            <h1 className="cursor-pointer">Fields of expertise </h1>
         <Link to="/services" >
-          <div className="hidden group hover:cursor-pointer md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-16 ">
-            <h1>Fields of expertise </h1>
-            <div className="flex xl:gap-1 gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
-              <h1 className="p-4 xl:w-[160px] flex text-center items-center justify-center lg:w-[160px] lg:h-10 rounded-full w-[220px] bg-[#000] transition-all duration-300  transform group-hover:-translate-x-[-56px]">
+            <div className="flex  xl:gap-1 group gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
+              <h1 className="p-4  xl:w-[160px] flex text-center items-center justify-center lg:w-[160px] lg:h-10 rounded-full w-[220px] bg-[#000] transition-all duration-300  transform group-hover:-translate-x-[-56px]">
                 What we do
               </h1>
               <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#000]">
                 <img className="lg:w-56" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
               </h1>
             </div>
-          </div>
         </Link>
+          </div>
 
         <div className="md:hidden text-white text-7xl">
           <h1>

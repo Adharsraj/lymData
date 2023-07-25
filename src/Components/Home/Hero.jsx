@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
+import giphy from "../../assets/gif/giphy.webp";
 import { FaLongArrowAltDown } from "react-icons/fa";
 
 const Hero = () => {
@@ -58,7 +59,7 @@ const Hero = () => {
                 <img
                   className="xl:h-screen max-w-[1640px] xl:mt-0 opacity-80 lg:h-screen lg:mt-0  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
                   id="running"
-                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/gif/giphy_ykopza.webp"
+                  src={giphy}
                   alt="GIF"
                 />
 

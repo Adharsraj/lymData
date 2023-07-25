@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar";
 import ContactUs from "../Components/Contact/Contact";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 const Contact = () => {
-  UseDocumentTitle("LYM DATA | Home");
+  UseDocumentTitle("LYM DATA | Contact");
 
   return (
     <>

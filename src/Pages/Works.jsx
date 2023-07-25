@@ -7,7 +7,7 @@ import SelectedWorks from "../Components/Works/SelectedWorks";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const Works = () => {
-  UseDocumentTitle("LYM DATA | Home")
+  UseDocumentTitle("LYM DATA | Works")
 
   return (
     <>

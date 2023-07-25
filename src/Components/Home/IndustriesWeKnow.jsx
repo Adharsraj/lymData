@@ -28,7 +28,7 @@ const IndustriesWeknowdhn = () => {
           <h2 className="text-7xl lg:mb-10 lg:text-8xl xl:text-[190px] font-bold">
             experi <br /> ence
           </h2>
-          <img onClick={withinseven} className="lg:ml-20 animate-bounce" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
+          <img onClick={withinseven} className="lg:ml-20 cursor-pointer animate-bounce" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
         </div>
 
         <div

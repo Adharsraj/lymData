@@ -6,7 +6,7 @@ import Navbar from '../Components/Navbar'
 import UseDocumentTitle from '../Hooks/UseDocumentTitle'
 
 const Blog = () => {
-  UseDocumentTitle("LYM DATA | Home")
+  UseDocumentTitle("LYM DATA | Blogs")
 
   return (
     <>

@@ -5,6 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import gsap from "gsap";
+import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
 
 const NavbarNew = () => {
   const location = useLocation();
@@ -124,7 +125,7 @@ const NavbarNew = () => {
             <Link to="/">
               <img
                 id="logo"
-                className="lg:w-[106px]   lg:h-[80px] md:w-16 w-24 "
+                className="lg:w-[106px]    lg:h-[80px] md:w-16 w-24 "
                 src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg"
                 alt="companylogo"
               />{" "}
@@ -174,15 +175,30 @@ const NavbarNew = () => {
                   <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 opacity-50 ">
                     <Link className="lg:mb-5">Accessibility</Link>
                     <div className="flex gap-2 lg:gap-14">
-                      <span>
-                        <BsFacebook />
-                      </span>
-                      <span>
-                        <AiFillInstagram />
-                      </span>
-                      <span>
-                        <FaTwitter />
-                      </span>
+                    <span
+      onClick={() => window.open('https://www.facebook.com/lymdatalabs/', '_blank')}
+      className="  cursor-pointer hover:text-blue-800"
+    >
+      <SlSocialFacebook />
+    </span>
+            <span
+                  onClick={() => window.open('https://twitter.com/lymdata', '_blank')}
+
+            className="  cursor-pointer hover:text-blue-300">
+              <SlSocialTwitter />
+            </span>
+            <span
+                  onClick={() => window.open('https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==', '_blank')}
+
+            className="  cursor-pointer hover:text-red-200">
+              <SlSocialInstagram />
+            </span>
+            <span
+                  onClick={() => window.open('https://www.linkedin.com/company/lymdata-labs', '_blank')}
+
+            className="  cursor-pointer hover:text-blue-500">
+              <SlSocialLinkedin />
+            </span>
                     </div>
                   </li>
                 </ul>

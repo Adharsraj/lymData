@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const TermsOfUse = () => {
-  UseDocumentTitle("LYM DATA | Home")
+  UseDocumentTitle("LYM DATA | Terms")
 
   return (
     <>

@@ -8,7 +8,7 @@ import WhyLymData from "../Components/About/WhyLymData";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const About = () => {
-  UseDocumentTitle("LYM DATA | Home")
+  UseDocumentTitle("LYM DATA | About")
 
   return (
     <>
