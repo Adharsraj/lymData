@@ -33,10 +33,10 @@ const BlogDetailed = () => {
         {blogData && (
           <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-4 ">
             <div className=" mx-3 mt-32">
-              <h1 className="md:text-lg font-dm">
+              {/* <h1 className="md:text-lg font-dm">
                 <Link to="/blog">blog/</Link>
                 <span className="text-gray-400">{blogData.title}</span>
-              </h1>
+              </h1> */}
               <h2 className="uppercase text-2xl md:text-4xl font-bold w-[230px] md:w-[600px] mt-10 ">
                 {blogData.title}
               </h2>

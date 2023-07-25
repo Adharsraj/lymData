@@ -4,7 +4,7 @@ const HowweThinkdhn = () => {
   return (
     <div id="howethink" className="bg-[#F8FAFC] overflow-hidden ">
 
-    <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl bg-[#F8FAFC] ">
+    <div className="max-w-[1640px]  mx-auto p-4 font-helvetica  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
 
       <div className="md:hidden">
@@ -13,7 +13,7 @@ const HowweThinkdhn = () => {
           <img className=" hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 
-        <div className="text-[25px] leading-10  ">
+        <div className="text-[25px] leading-10 some-element ">
           <h1>We're challengers at heart and</h1>
           <h1>builders by nature.</h1>
         </div>
@@ -30,11 +30,11 @@ const HowweThinkdhn = () => {
       <div className="hidden md:block mt-20 relative">
         <div className="flex justify-between xl:px-5  align-middle items-center">
           <h1>How we think</h1>
-          <h1 className="text-[38px] xl:text-[42px]  ml-[-20px]   w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
+          <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element xxl:w-[610px]  lg:w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
           <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 
-      
+
 
       <div className="text-[42px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
         <h1>LYM Data Labs is a collective brain,

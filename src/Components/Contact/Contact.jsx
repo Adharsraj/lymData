@@ -32,7 +32,7 @@ const Contact = () => {
             </h1>
           </div>
         </div>
-        <div className="md:flex justify-around items-center bg-[#262626] text-white lg:rounded-3xl md:px-10 xxl:px-16 ">
+        <div className="md:flex justify-around items-center bg-[#262626] text-white text-white lg:rounded-3xl md:px-10 xxl:px-16 ">
           <div className="md:w-[400px] xxl:w-full">
             <h1 className="mt-5 md:mt-0">
               4th floor <br />

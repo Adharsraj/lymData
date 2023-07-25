@@ -166,41 +166,45 @@ const NavbarNew = () => {
               </div>
               <div className="text-white md:text-2xl mt-10 px-10">
                 <ul>
-                  <li className="lg:mb-5 opacity-50 ">
+                  <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/contact">Contact</Link>
                   </li>
-                  <li className="lg:mb-5 opacity-50 ">
+                  <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/privacy">Privacy&legal</Link>
                   </li>
-                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 opacity-50 ">
-                    <Link className="lg:mb-5">Accessibility</Link>
+                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 text-[#646060] hover:text-white ">
+                    <Link className="lg:mb-5 mb-5">Accessibility</Link>
+                    </li>
+<li>
+
                     <div className="flex gap-2 lg:gap-14">
                     <span
       onClick={() => window.open('https://www.facebook.com/lymdatalabs/', '_blank')}
-      className="  cursor-pointer hover:text-blue-800"
+      className="  cursor-pointer text-[#646060] hover:text-white"
     >
       <SlSocialFacebook />
     </span>
             <span
                   onClick={() => window.open('https://twitter.com/lymdata', '_blank')}
 
-            className="  cursor-pointer hover:text-blue-300">
+            className="  cursor-pointer text-[#646060] hover:text-white">
               <SlSocialTwitter />
             </span>
             <span
                   onClick={() => window.open('https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==', '_blank')}
 
-            className="  cursor-pointer hover:text-red-200">
+            className="  cursor-pointer text-[#646060] hover:text-white">
               <SlSocialInstagram />
             </span>
             <span
                   onClick={() => window.open('https://www.linkedin.com/company/lymdata-labs', '_blank')}
 
-            className="  cursor-pointer hover:text-blue-500">
+            className="  cursor-pointer text-[#646060] hover:text-white">
               <SlSocialLinkedin />
             </span>
                     </div>
-                  </li>
+                    </li>
+
                 </ul>
               </div>
             </div>

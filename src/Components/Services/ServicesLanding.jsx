@@ -318,7 +318,7 @@ const ServicesLanding = () => {
     </div>
     {/* Approaches */}
     <>
-<div id="approach" className="max-w-[1640px]   mx-auto p-4 font-dm  md:text-xl  ">
+<div id="approach" className="max-w-[1640px]   mx-auto p-4 font-helvetica  md:text-xl  ">
     <div className="lg:mt-20">
 
   <div className="md:hidden">

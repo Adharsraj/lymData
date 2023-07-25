@@ -39,7 +39,7 @@ const Cultureandmore = () => {
         <div className="lg:mt-20">
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center">
-              <h1>Culture @ DHNN™</h1>
+              <h1>Culture @ LYM</h1>
               <img
                 src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
                 className="invisible"
@@ -54,7 +54,7 @@ const Cultureandmore = () => {
                 the onlyway to work things out.
               </h1>
               <h1 className="mt-6">
-                DHNN™ exists to transform our surroundings and ourselves through
+              LYM Data Labs exists to transform our surroundings and ourselves through
                 design, empathy and a restless quest for quality
               </h1>
             </div>
@@ -62,13 +62,13 @@ const Cultureandmore = () => {
 
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle ">
-              <h1 className="text-sm">Culture @ DHNN™</h1>
+              <h1 className="text-sm">Culture @ LYM</h1>
               <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10">
                 Organizations exist to carry out things that individuals
                 couldn’t achieve by themselves. We work together because it’s
                 the onlyway to work things out.
                 <h1 className="mt-6">
-                  DHNN™ exists to transform our surroundings and ourselves
+                  LYM Data Labs exists to transform our surroundings and ourselves
                   through design, empathy and a restless quest for quality
                 </h1>
               </h1>

@@ -16,6 +16,8 @@ export default {
         times: [ 'Times', 'Times New Roman', 'serif'],
         zuume: ['Zuume', 'sans-serif'],
         aeonic:[ 'Aeonic', "arial"],
+        helvetica: ['Helvetica Now Display', 'sans-serif']
+
       },
       animation: {
         marquee: 'marquee 25s linear infinite',

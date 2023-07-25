@@ -214,23 +214,23 @@ export const allWorks = [
 export const productDrivenDesign = [
   {
     id: 1,
-    head1: "  User  Research  and   Analysis",
+    head1: "  User  Research  &   Analysis",
     head2:
       "We set the right processes and methodologies to boost innovation     ",
   },
 
   {
     id: 2,
-    head1: "Personalization and Customization",
+    head1: "Personalization & Customization",
     head2:
       "We evolve powerful ideas into solid and relatable brands that drive adoption.",
   },
 
   {
     id: 3,
-    head1: "A/B Testing and Optimization",
+    head1: "A/B Testing & Optimization",
     head2:
-      "From initial concept, to interface design and product development we craft high-end platforms ",
+      "From initial concept, to interface design and product development  high-end platforms ",
   },
   {
     id: 4,

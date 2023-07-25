@@ -15,7 +15,7 @@ const JobListing = () => {
             We're not actively hiring at the moment, but always looking for
             great people to collaborate with.
           </h2>
-          <div className="w-[102px] h-[53px] mt-2 mb-6 bg-[#F2F626] hover:-rotate-45 transition-transform">
+          <div className="w-[102px] h-[53px] mt-2 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform">
             <span className="flex justify-end">
               <BsArrowRight size={30} />
             </span>

@@ -11,7 +11,7 @@ useNavigate;
 const FooterZipsy = () => {
   const navigate = useNavigate();
   return (
-    // <div className="bg-[#262626]">
+    // <div className="bg-[#262626] text-white">
 
     <div className="bg-[#000]">
       <div className="max-w-[1640px]  mx-auto p-2 text-white ">

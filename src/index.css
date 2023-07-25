@@ -112,6 +112,10 @@ span.two {
 
 
 
+.some-element {
+  font-family: 'Helvetica Now Display', sans-serif;
+  font-weight:700; /* Use the appropriate font weight for your use case */
+}
 
 
 
@@ -166,6 +170,23 @@ span.two {
 
 }
 
+@font-face {
+    font-family: "Helvetica Now Display";
+    font-weight: 400;
+    src: url("/fonts/HelveticaNowDisplay-Regular.5e3876e.woff2") format("woff2"),
+  }
+
+  @font-face {
+    font-family: "Helvetica Now Display";
+    font-weight: 500; /* Medium */
+    src: url("/fonts/HelveticaNowDisplay-Medium.cfbcf6c.woff2") format("woff2"),
+  }
+
+  @font-face {
+    font-family: "Helvetica Now Display";
+    font-weight: 700; /* Bold */
+    src: url("/fonts/HelveticaNowDisplay-Bold.f0b7416.woff2") format("woff2"),
+  }
 
   
 }

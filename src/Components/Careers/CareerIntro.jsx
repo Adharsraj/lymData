@@ -31,7 +31,7 @@ const CareerIntro = () => {
         ></video>
       </div>
       <h1 className="w-[300px] md:w-[450px] lg:w-[590px] text-lg md:text-2xl   mx-auto mt-12 font-times">
-        LymData is a team of designers, developers, strategists, copywriters and
+      LYM Data Labs is a team of designers, developers, strategists, copywriters and
         producers brought together by good fortune, great clients, and a shared
         drive to make amazing things. Individually, we’re great; together, we
         become extraordinary.

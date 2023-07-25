@@ -15,7 +15,7 @@ const BlogFeatured = () => {
         <h3 className="mb-6 lg:text-right lg:mt-[-40px] lg:text-lg lg:mr-8">
           We are happy that you are here.
         </h3>
-        <h3 className="mb-2 text-gray-400 md:text-lg lg:ml-14">Featured</h3>
+        {/* <h3 className="mb-2 text-gray-400 md:text-lg lg:ml-14">Featured</h3> */}
 
         <img className="mx-auto" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187560/assets/Images/IMAGE_4_qugcon.png" alt="featured" />
       </div>
