@@ -66,7 +66,7 @@ const Within7Industriesdhn = () => {
   };
 
   return (
-    <div id="withinseven" className="max-w-[1840px] mx-auto">
+    <div id="withinseven" className="max-w-[1840px] mx-auto overflow-hidden">
       <div className=" hidden md:block">
         <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">
           Within these 7 industries

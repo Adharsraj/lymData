@@ -32,9 +32,9 @@ const Contact = () => {
             </h1>
           </div>
         </div>
-        <div className="md:flex justify-around items-center bg-[#262626] text-white text-white lg:rounded-3xl md:px-10 xxl:px-16 ">
+        <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 ">
           <div className="md:w-[400px] xxl:w-full">
-            <h1 className="mt-5 md:mt-0">
+            <h1 className="mt-5 md:mt-0 lg:text-xl font-bold">
               4th floor <br />
               Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
@@ -43,9 +43,9 @@ const Contact = () => {
           </div>
           <div>
             <iframe
-              className="  md w-full xxl:w-[500px] h-[300px] lg:mt-16  mt-10 mb-10 "
+              className=" w-full lg:w-[600px] lg:rounded-3xl xxl:w-[800px] md:h-[400px] h-[300px] lg:mt-16  mt-10 mb-10 "
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.991079733446!2d76.29998647382259!3d10.017594172734224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d2e430b5527%3A0x19cf2b36ac16c7f8!2sDotspace%20Edapally!5e0!3m2!1sen!2sin!4v1689835845317!5m2!1sen!2sin"
-              width="400"
+              width="600"
               height="300"
               allowfullscreen=""
               loading="lazy"

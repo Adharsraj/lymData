@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Faq from "../Components/About/Faq";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
@@ -9,9 +9,10 @@ import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const About = () => {
   UseDocumentTitle("LYM DATA | About")
-
+ 
   return (
     <>
+    
       <Navbar />
       <OurValues />
       <WhyLymData />

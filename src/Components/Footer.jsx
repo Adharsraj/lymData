@@ -14,7 +14,7 @@ const FooterZipsy = () => {
     // <div className="bg-[#262626] text-white">
 
     <div className="bg-[#000]">
-      <div className="max-w-[1640px]  mx-auto p-2 text-white ">
+      <div className="max-w-[1640px]  mx-auto p-2 text-white overflow-hidden ">
         <div className="px-8 md:hidden mt-20 mb-20 ">
           <div>
             <h1 className="text-2xl md:text-4xl w-[250px] md:w-full mx-auto">
