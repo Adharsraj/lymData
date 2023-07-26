@@ -1,5 +1,6 @@
 import { createBrowserRouter, useLocation } from "react-router-dom";
 import { lazy, Suspense, useLayoutEffect } from "react";
+import Loading from "../Components/Loading";
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
 const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
@@ -38,17 +39,17 @@ const Router = createBrowserRouter([
   {
     path: "/",
     element: (
-      // <Suspense fallback={<div>loading</div>} >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Home />
         </Wrapper>
-      // </Suspense>
+     </Suspense>
     ),
   },
   {
     path: "/contact",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Contact />
         </Wrapper>
@@ -58,7 +59,7 @@ const Router = createBrowserRouter([
   {
     path: "/careers",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Careers />
         </Wrapper>
@@ -68,7 +69,7 @@ const Router = createBrowserRouter([
   {
     path: "/about",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <About />
         </Wrapper>
@@ -78,7 +79,7 @@ const Router = createBrowserRouter([
   {
     path: "/blog",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Blog />
         </Wrapper>
@@ -88,7 +89,7 @@ const Router = createBrowserRouter([
   {
     path: "/blog/:id",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <BlogDetailed />
         </Wrapper>
@@ -98,7 +99,7 @@ const Router = createBrowserRouter([
   {
     path: "/works",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Works />
         </Wrapper>
@@ -108,7 +109,7 @@ const Router = createBrowserRouter([
   {
     path: "/works/:id",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <WorkDetailed />
         </Wrapper>
@@ -118,7 +119,7 @@ const Router = createBrowserRouter([
   {
     path: "/terms",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <TermsOfUse />
         </Wrapper>
@@ -128,7 +129,7 @@ const Router = createBrowserRouter([
   {
     path: "/services",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Services />
         </Wrapper>
@@ -138,7 +139,7 @@ const Router = createBrowserRouter([
   {
     path: "/privacy",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <PrivacyPolicy />
         </Wrapper>
@@ -148,7 +149,7 @@ const Router = createBrowserRouter([
   {
     path: "/culture",
     element: (
-      <Suspense >
+      <Suspense fallback={<Loading />} >
         <Wrapper>
           <Culture />
         </Wrapper>
