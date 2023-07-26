@@ -32,7 +32,7 @@ const Contact = () => {
             </h1>
           </div>
         </div>
-        <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 ">
+        <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 mb-10 ">
           <div className="md:w-[400px] xxl:w-full">
             <h1 className="mt-5 md:mt-0 lg:text-xl font-bold">
               4th floor <br />
@@ -53,7 +53,7 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-        <div className="md:px-16 xxl:px-28 mt-20 lg:mb-16  ">
+        {/* <div className="md:px-16 xxl:px-28 mt-20 lg:mb-16  ">
           <div className="lg:border border-black h-96 rounded-ss-3xl rounded-ee-3xl ">
             <div className="flex flex-col items-center text-center justify-around align-middle">
               <h1 className="text-3xl mb-4 mt-4">our services</h1>
@@ -80,7 +80,7 @@ const Contact = () => {
             </div>
           
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
