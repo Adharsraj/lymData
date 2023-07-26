@@ -38,7 +38,7 @@ const Router = createBrowserRouter([
   {
     path: "/",
     element: (
-      // <Suspense fallback={<div>loading</div>}>
+      // <Suspense fallback={<div>loading</div>} >
         <Wrapper>
           <Home />
         </Wrapper>
@@ -48,7 +48,7 @@ const Router = createBrowserRouter([
   {
     path: "/contact",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <Contact />
         </Wrapper>
@@ -58,7 +58,7 @@ const Router = createBrowserRouter([
   {
     path: "/careers",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <Careers />
         </Wrapper>
@@ -68,7 +68,7 @@ const Router = createBrowserRouter([
   {
     path: "/about",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <About />
         </Wrapper>
@@ -78,7 +78,7 @@ const Router = createBrowserRouter([
   {
     path: "/blog",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <Blog />
         </Wrapper>
@@ -88,7 +88,7 @@ const Router = createBrowserRouter([
   {
     path: "/blog/:id",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <BlogDetailed />
         </Wrapper>
@@ -98,7 +98,7 @@ const Router = createBrowserRouter([
   {
     path: "/works",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <Works />
         </Wrapper>
@@ -108,7 +108,7 @@ const Router = createBrowserRouter([
   {
     path: "/works/:id",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <WorkDetailed />
         </Wrapper>
@@ -118,7 +118,7 @@ const Router = createBrowserRouter([
   {
     path: "/terms",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <TermsOfUse />
         </Wrapper>
@@ -128,7 +128,7 @@ const Router = createBrowserRouter([
   {
     path: "/services",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <Services />
         </Wrapper>
@@ -138,7 +138,7 @@ const Router = createBrowserRouter([
   {
     path: "/privacy",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <PrivacyPolicy />
         </Wrapper>
@@ -148,7 +148,7 @@ const Router = createBrowserRouter([
   {
     path: "/culture",
     element: (
-      <Suspense fallback={<div>loading</div>}>
+      <Suspense >
         <Wrapper>
           <Culture />
         </Wrapper>
