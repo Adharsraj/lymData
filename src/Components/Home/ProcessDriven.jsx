@@ -5,7 +5,7 @@ const ProcessDrivendhn = () => {
  
   return (
     <div className="bg-[#BCBCBC] relative">
-      <div className="max-w-[1640px] relative bg-[#BCBCBC]   mx-auto p-4 font-dm  md:text-xl  ">
+      <div className="max-w-[1640px] relative bg-[#BCBCBC]   mx-auto p-4 font-dm  md:text-xl overflow-hidden ">
         <div className="">
 
         <div className="  flex flex-between">
@@ -24,7 +24,7 @@ const ProcessDrivendhn = () => {
         <div className="">
           
   <div
-    className=" hidden md:flex absolute top-0 left-0 scale-90 w-full h-full mt-6 z-0"
+    className=" hidden  md:flex absolute top-0 left-0 scale-90 w-full h-full mt-6 z-0"
     style={{
       backgroundImage:
         'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690288787/WhatsApp_Image_2023-07-25_at_6.00.10_PM_wfnksq.jpg")',

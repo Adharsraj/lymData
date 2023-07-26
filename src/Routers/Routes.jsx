@@ -1,9 +1,10 @@
 import { createBrowserRouter, useLocation } from "react-router-dom";
-import { useLayoutEffect } from "react";
+import {lazy, Suspense, useLayoutEffect } from "react";
 import BlogDetailed from '../Components/Blog/BlogDetailed'
 import WorkDetailed from "../Components/Works/WorkDetailed";
 import About from "../Pages/About";
-import Blog from "../Pages/Blog";
+// import Blog from "../Pages/Blog";
+const Blog=lazy(()=>import("../Pages/Blog"))
 import Careers from "../Pages/Careers";
 import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
@@ -24,7 +25,9 @@ const Wrapper = ({ children }) => {
 const Router = createBrowserRouter([
   {
     path: "/",
-    element: <Wrapper><Home /></Wrapper>,
+    element: <Wrapper>
+      <Home />
+      </Wrapper>,
   },
   {
     path: "/contact",
@@ -40,7 +43,12 @@ const Router = createBrowserRouter([
   },
   {
     path: "/blog",
-    element: <Wrapper><Blog /></Wrapper>,
+    element: 
+      <Suspense fallback={<div>loading</div>}>
+    <Wrapper>
+      <Blog />
+      </Wrapper>
+      </Suspense>
   },
   {
     path: "/blog/:id",
