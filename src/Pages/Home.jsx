@@ -7,7 +7,7 @@ import Marque from "../Components/Home/Marque";
 import ProcessDrivendhn from "../Components/Home/ProcessDriven";
 import ProcessDrivenFive from "../Components/Home/ProcessDrivenFive";
 import Within7Industriesdhn from "../Components/Home/Within7Industries";
-import Loading from "../Components/Loading";
+// import Loading from "../Components/Loading";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
@@ -18,7 +18,7 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-    <Loading/>
+    {/* <Loading/> */}
       <HowweThinkdhn />
       <ProcessDrivendhn />
       <ProcessDrivenFive />
