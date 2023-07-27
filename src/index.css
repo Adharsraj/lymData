@@ -294,14 +294,14 @@ span.two {
   z-index: 2
 }
 
-.rlr-logos-slider__items:after {
+.rlr-logos-slider__itemss:after {
   background: -webkit-gradient(linear, right top, left top, from(var(--white)), to(#fff0));
   background: -o-linear-gradient(right, var(--white), #fff0);
   background: linear-gradient(to left, var(--white), #fff0);
   top: 0
 }
 
-.rlr-logos-slider__items:before {
+.rlr-logos-slider__itemss:before {
   background: -webkit-gradient(linear, left top, right top, from(var(--white)), to(#fff0));
   background: -o-linear-gradient(left, var(--white), #fff0);
   background: linear-gradient(to right, var(--white), #fff0);
