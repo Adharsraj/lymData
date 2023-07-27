@@ -121,15 +121,17 @@ const Within7Industriesdhn = () => {
         </h1>
 
         <div className="carousel-container">
-          <div className="carousel-slide flex flex-col justify-center ">
-            <div className="w-[260px] h-[500px] mx-auto   text-center border-r border-l">
+          <div className="carousel-slide flex  flex-col justify-center ">
+            <div className=" w-screen  h-[500px]  px-10   text-center ">
+              <div className="border-r border-l">
+
               <h1 className="mt-10 mb-20 text-left px-2 font-bold">
                 {carouselData[currentSlide].title}
               </h1>
               <h2 className="mt-3  h-60 px-2">
                 {carouselData[currentSlide].details}
               </h2>
-              <div className="flex xl:gap-1 gap-4 w-full mt-10 md:w-[200px] justify-center items-center xl:w-[560px]">
+              <div className="flex mb-5 pl-4 xl:gap-1 gap-4 w-full mt-10 md:w-[200px]  items-center xl:w-[560px]">
                 <h1 className="p-4 text-sm xl:w-[160px]  border rounded-full w-[140px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
                   Find out more
                 </h1>
@@ -141,8 +143,10 @@ const Within7Industriesdhn = () => {
                 </h1>
               </div>
             </div>
+            </div>
+
           </div>
-          <div className="carousel-buttons flex gap-5">
+          <div className="carousel-buttons flex justify-center gap-5">
             <button
               className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={prevSlide}

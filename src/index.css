@@ -233,11 +233,108 @@ span.two {
 
 
 
+:root {
+  --white: #fff;
+ 
+}
 
 
 
 
 
+
+
+
+@-webkit-keyframes scroll {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+  }
+  to {
+      -webkit-transform: translateX(-1500px);
+      transform: translateX(-1500px)
+  }
+}
+
+@keyframes scroll {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+  }
+  to {
+      -webkit-transform: translateX(-1500px);
+      transform: translateX(-1500px)
+  }
+}
+
+.rlr-logos-slider {
+  padding: var(--spacing-2) 0
+}
+
+.rlr-logos-slider__title {
+  color: var(--gray-06);
+  margin-bottom: var(--spacing-8);
+  text-align: center
+}
+
+.rlr-logos-slider__items {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto
+}
+
+.rlr-logos-slider__items:after,
+.rlr-logos-slider__items:before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 400px;
+  z-index: 2
+}
+
+.rlr-logos-slider__items:after {
+  background: -webkit-gradient(linear, right top, left top, from(var(--white)), to(#fff0));
+  background: -o-linear-gradient(right, var(--white), #fff0);
+  background: linear-gradient(to left, var(--white), #fff0);
+  top: 0
+}
+
+.rlr-logos-slider__items:before {
+  background: -webkit-gradient(linear, left top, right top, from(var(--white)), to(#fff0));
+  background: -o-linear-gradient(left, var(--white), #fff0);
+  background: linear-gradient(to right, var(--white), #fff0);
+  left: 0;
+  top: 0
+}
+
+.rlr-logos-slider__items .slide-track {
+  -webkit-animation: scroll 25s linear infinite;
+  animation: scroll 25s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3000px
+}
+
+.rlr-logos-slider__items .slide {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  width: 300px
+}
+
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -292,9 +389,12 @@ span.two {
 
   @font-face {
     font-family: "Helvetica Now Display";
-    font-weight: 700; /* Bold */
+    font-weight: 700; 
     src: url("/fonts/HelveticaNowDisplay-Bold.f0b7416.woff2") format("woff2"),
   }
 
   
 }
+
+
+

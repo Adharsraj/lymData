@@ -9,15 +9,15 @@ const HowweThinkdhn = () => {
 
       <div className="md:hidden">
         <div className="flex justify-between align-middle items-center">
-          <h1>How we think</h1>
-          <img className=" hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
+          <h1 className="mt-10 ">How we think</h1>
+          <img className=" hover:animate-spin w-10" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 
-        <div className="text-[25px] leading-10 some-element ">
+        <div className="text-[25px] mt-5 some-element ">
           <h1>We're challengers at heart and</h1>
           <h1>builders by nature.</h1>
         </div>
-        <div className="text-[25px]  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-10  mb-16">
+        <div className="text-[25px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-16">
         <h1>LYM Data Labs is a collective brain,
         formed by a diverse group of
         people who bring years of

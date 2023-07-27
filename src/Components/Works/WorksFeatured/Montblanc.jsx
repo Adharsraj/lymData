@@ -58,31 +58,7 @@ const Montblanc = () => {
               text or analogue hands to suit their personal style
             </h4>
           </div>
-          {/* <img
-              className="mt-8 mb-8 md:w-[600px] lg:w-[800px]"
-              src={img3}
-              alt="img3"
-            />
-
-            <h3 className="text-4xl mt-4 md:text-left  md:w-[600px] lg:w-[800px]">
-              Creating compelling content
-            </h3>
-            <h4 className="mt-4 md:w-[600px] lg:w-[800px]">
-              Then, working with Mailchimp’s partner, design and marketing
-              teams, we produced that content on a rolling basis. From
-              wireframes to animated GIFs, we mapped out content production and
-              learner interaction. This included testing content on real-world
-              learners to gain feedback and iterate rapidly to meet their needs.
-            </h4>
-            <h4 className="mt-4 md:w-[600px] lg:w-[800px]">
-              By using agile methodologies and maintaining our product mindset,
-              we worked at pace to keep up with product releases and updates.
-              And we continued to view Mailchimp Academy as a standalone product
-              – applying development principles to set the programme up for
-              scalable success.
-            </h4>
-            <img className="mt-8" src={img4} alt="" />
-          </div> */}
+       
           <img className="mt-8 mb-8 " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img3.4_r4zkvt.webp" alt="img3" />
           <div>
             <div className="grid md:grid-cols-2 md:gap-8">
