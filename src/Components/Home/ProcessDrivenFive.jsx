@@ -9,10 +9,10 @@ const ProcessDrivenFive = () => {
           {productDrivenDesign.map((m) => (
             <div
               key={m.id}
-              className="w-full md:flex-grow mb-10 md:mb-0 z-10 group cursor-pointer relative"
+              className="w-full md:flex-grow  md:mb-0 z-10 group cursor-pointer relative"
             >
               <div className="text-gray-800 md:border-r md:p-2 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-x-100">
-                <div className="border md:border-transparent p-2 md:p-0   h-96 flex flex-col justify-around">
+                <div className="border md:border-transparent p-2 md:p-0 h-[430px]  md:h-96 flex flex-col justify-around">
                   <h1 className="text-lg uppercase mx-auto text-white group-hover:text-black font-semibold   lg:w-4/5 ">{m.head1}</h1>
                   <div className="w-4/5  mx-auto">
                   <h1 className="p-3 md:invisible     mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-8 xl:w-[50px] bg-[#282728]">

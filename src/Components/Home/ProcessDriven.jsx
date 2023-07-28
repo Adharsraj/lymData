@@ -9,7 +9,7 @@ const ProcessDrivendhn = () => {
         <div className="">
 
         <div className="  flex flex-between">
-          <h1 className="md:hidden font-mono py-1">Fields of expertise</h1>
+          <h1 className="md:hidden z-10  text-sm font-mono py-1">Fields of expertise</h1>
           <div className="hidden  md:flex md:flex-col w-[200px] ml-auto mr-16 text-white text-sm">
             <h1 className=" z-10  mt-5 mb-1">
               We are enthusiastic about empowering businesses to build amazing
@@ -24,7 +24,16 @@ const ProcessDrivendhn = () => {
         <div className="">
           
   <div
-    className=" hidden  md:flex absolute top-0 left-0 scale-90 w-full h-full mt-6 z-0"
+    className=" hidden md:block   absolute top-0 left-0 md:scale-90  md:w-full md:h-full mt-6 z-0"
+    style={{
+      backgroundImage:
+        'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690288787/WhatsApp_Image_2023-07-25_at_6.00.10_PM_wfnksq.jpg")',
+      backgroundPosition: 'center',
+      opacity: 0.8, 
+    }}
+  ></div>
+  <div
+    className=" md:hidden   absolute top-0 left-0 md:scale-90  md:w-full md:h-full mt-6 z-0"
     style={{
       backgroundImage:
         'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690288787/WhatsApp_Image_2023-07-25_at_6.00.10_PM_wfnksq.jpg")',
@@ -72,15 +81,15 @@ const ProcessDrivendhn = () => {
         </Link>
           </div>
 
-        <div className="md:hidden text-white text-7xl">
+        <div className="md:hidden font-helvetica relative text-white text-6xl">
           <h1>
             <span className="text-6xl">D</span>
             ata
           </h1>
-          <div className=" md: items-center flex justify-between">
+          <div className=" md: items-center flex gap-2 justify-center">
             {/* <img src={star} alt="imgsmallviewstar"  /> */}
             <img
-              className="hover:animate-spin"
+              className="hover:animate-spin w-10"
               src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
               alt="imgsmallviewstar "
               style={{ animationDuration: "3s" }}
@@ -90,12 +99,12 @@ const ProcessDrivendhn = () => {
           <h1>design</h1>
         </div>
 
-        <div className=" relative md:hidden md:flex-col w-[200px]  mr-16 text-white  text-sm">
-          <h1 className=" mt-5 w-[300px] mb-5 py-5">
+        <div className=" relative md:hidden md:flex-col w-[200px] mx-auto mr-16 text-white  text-sm">
+          <h1 className=" mt-5 w-[200px]  mb-5 py-5">
             We are enthusiastic about empowering businesses to build amazing
             user experiences through data-driven design.
           </h1>
-          <h1 className="w-[300px]">
+          <h1 className="w-[200px]">
             {" "}
             Our strategy centres on utilising data and insights to
             create successfully engage, delight, and convert people.
