@@ -33,10 +33,10 @@ const ProcessDrivendhn = () => {
     }}
   ></div>
   <div
-    className=" md:hidden   absolute top-0 left-0 md:scale-90  md:w-full md:h-full mt-6 z-0"
+    className=" md:hidden   absolute top-[-90px] left-0 scale-150  w-full h-full mt-6 z-0"
     style={{
       backgroundImage:
-        'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690288787/WhatsApp_Image_2023-07-25_at_6.00.10_PM_wfnksq.jpg")',
+        'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690525823/Screen_Shot_2023-07-28_at_11.25.27_AM_j1lsiv.png")',
       backgroundPosition: 'center',
       opacity: 0.8, 
     }}

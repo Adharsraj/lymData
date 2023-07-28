@@ -17,14 +17,24 @@ const HowweThinkdhn = () => {
           <h1>We're challengers at heart and</h1>
           <h1>builders by nature.</h1>
         </div>
-        <div className="text-[25px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-16">
+        <div className="text-[25px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-4">
         <h1>LYM Data Labs is a collective brain,
         formed by a diverse group of
         people who bring years of
         experience, dedication and
         commitment to our daily work.</h1>
-
       </div>
+        <Link to="/culture">
+
+<div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[560px]  lg:mb-7">
+<h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+Dive into our culture
+</h1>
+<h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
+<img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_49_lb3zxr.svg" />
+</h1>
+</div>
+</Link>
       </div>
 
       <div className="hidden md:block mt-20 relative">
@@ -36,7 +46,7 @@ const HowweThinkdhn = () => {
 
 
 
-      <div className="text-[42px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
+      <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[40px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
         <h1>LYM Data Labs is a collective brain,
         formed by a diverse group of
         people who bring years of
@@ -46,8 +56,8 @@ const HowweThinkdhn = () => {
       </div>
 <Link to="/culture">
 
-      <div className="flex group hover:cursor-pointer gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[560px] mx-auto lg:mb-7">
-  <h1 className="p-2 mt-10 rounded-full w-[220px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+      <div className="flex  group hover:cursor-pointer gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[560px] mx-auto lg:mb-7">
+  <h1 className="p-2 flex  items-center justify-center mt-10 rounded-full w-[220px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
     Dive into our culture
   </h1>
   <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
