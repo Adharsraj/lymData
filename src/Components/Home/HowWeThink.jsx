@@ -40,13 +40,13 @@ Dive into our culture
       <div className="hidden md:block mt-20 relative">
         <div className="flex justify-between xl:px-5  align-middle items-center">
           <h1>How we think</h1>
-          <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element xxl:w-[610px]  lg:w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
+          <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element  xl:w-[610px]  lg:w-[600px] leading-10">We're challengers at heart and <br />builders by nature.</h1>
           <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
         </div>
 
 
 
-      <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[40px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
+      <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[40px] xl:w-[570px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
         <h1>LYM Data Labs is a collective brain,
         formed by a diverse group of
         people who bring years of
@@ -56,7 +56,7 @@ Dive into our culture
       </div>
 <Link to="/culture">
 
-      <div className="flex  group hover:cursor-pointer gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[560px] mx-auto lg:mb-7">
+      <div className="flex  group hover:cursor-pointer gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
   <h1 className="p-2 flex  items-center justify-center mt-10 rounded-full w-[220px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
     Dive into our culture
   </h1>

@@ -3,7 +3,7 @@ import React from 'react'
 const Marque = () => {
   return (
     <>
-    <div className='overflow-hidden mt-5 mb-5'>
+    <div className='overflow-hidden mt-20 mb-20'>
 
     <div className=" center-container"> 
 

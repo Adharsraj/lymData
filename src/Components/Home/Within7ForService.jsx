@@ -19,7 +19,7 @@ const Within7ForService = () => {
           <div
             key={m.id}
             id={m.id}
-            className={`md:flex group md:px-8 m hover:cursor-pointer lg:text-lg lg:py-8 xl:py-16 border-b ${
+            className={`md:flex group md:px-8 w-full md:h-[320px] hover:cursor-pointer lg:text-lg lg:py-8 xl:py-16 border-b ${
               hoveredId === m.id ? "bg-image" : ""
             }`}
             onMouseEnter={() => handleMouseEnter(m.id)}
