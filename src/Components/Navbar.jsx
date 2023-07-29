@@ -7,7 +7,7 @@ import { Link, useLocation } from "react-router-dom";
 import gsap from "gsap";
 import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
 
-const NavbarNew = () => {
+const NavbarNew = React.memo(() => {
   const location = useLocation();
 
   const navigationItems = [
@@ -213,6 +213,6 @@ const NavbarNew = () => {
       </div>
     </>
   );
-};
+});
 
 export default NavbarNew;

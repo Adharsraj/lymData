@@ -1,6 +1,5 @@
 import React from 'react'
 import AllBlogs from '../Components/Blog/AllBlogs'
-import BlogFeatured from '../Components/Blog/BlogFeatured'
 import Footer from '../Components/Footer'
 import Navbar from '../Components/Navbar'
 import UseDocumentTitle from '../Hooks/UseDocumentTitle'
@@ -10,10 +9,9 @@ const Blog = () => {
  
   return (
     <>
-     <div className="App">
-      <div className="App-inner">
+    <div className="App">
+    <div className="App-inner">
     <Navbar/>
-    <BlogFeatured/>
     <AllBlogs/>
     <Footer/>
     </div></div>

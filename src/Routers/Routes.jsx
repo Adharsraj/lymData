@@ -1,6 +1,8 @@
 import { createBrowserRouter, useLocation } from "react-router-dom";
 import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/Loading";
+import SkeltonLoader from "../Components/loaders/SkeltonLoader";
+const TestskeltandLoader= lazy(()=>import("../Pages/TestskeltandLoader")) ;
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
 const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
@@ -14,18 +16,7 @@ const Works = lazy(() => import("../Pages/Works"));
 const PrivacyPolicy = lazy(() => import("../Pages/PrivacyPolicy"));
 const Culture = lazy(() => import("../Pages/Culture"));
 
-// import WorkDetailed from "../Components/Works/WorkDetailed";
-// import About from "../Pages/About";
-// import BlogDetailed from "../Components/Blog/BlogDetailed";
-// import Blog from "../Pages/Blog";
-// import Careers from "../Pages/Careers";
-// import Contact from "../Pages/Contact";
-// import Home from "../Pages/Home";
-// import Services from "../Pages/Services";
-// import TermsOfUse from "../Pages/TermsOfUse";
-// import Works from "../Pages/Works";
-// import PrivacyPolicy from "../Pages/PrivacyPolicy";
-// import Culture from "../Pages/Culture";
+
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -76,15 +67,17 @@ const Router = createBrowserRouter([
       </Suspense>
     ),
   },
+  
   {
     path: "/blog",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<SkeltonLoader />} >
         <Wrapper>
-          <Blog />
+          <Blog  />
         </Wrapper>
       </Suspense>
     ),
+
   },
   {
     path: "/blog/:id",
@@ -155,6 +148,22 @@ const Router = createBrowserRouter([
         </Wrapper>
       </Suspense>
     ),
+  },
+  {
+    path: "/test",
+    loader({params,request}){
+     console.log(params)
+     console.log(request)
+     return "i am data from loader"
+    },
+    element: (
+      <Suspense fallback={<Loading />} >
+        <Wrapper>
+          <TestskeltandLoader />
+        </Wrapper>
+      </Suspense>
+    ),
+    
   },
 ]);
 

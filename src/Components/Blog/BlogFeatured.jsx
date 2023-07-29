@@ -1,4 +1,5 @@
 import React from "react";
+
 const BlogFeatured = () => {
   return (
     <div className="max-w-[1640px]  mx-auto p-4   font-roboto ">
