@@ -4,8 +4,8 @@ import styled from "styled-components";
 
 const ProcessDrivendhn = () => {
   return (
-    <div className="bg-[#BCBCBC] relative">
-      <div className="max-w-[1640px] relative bg-[#BCBCBC]   mx-auto  font-dm  md:text-xl overflow-hidden ">
+    <div className="bg-[#BEBDBE] relative">
+      <div className="max-w-[1640px] relative bg-[#BEBDBE]   mx-auto  font-dm  md:text-xl overflow-hidden ">
        
       <div class="absolute inset-0 flex items-center justify-center">
     <video className="scale-110" src="https://res.cloudinary.com/db5gkedee/video/upload/v1690813223/globeball_bw7ogt.mp4" autoPlay
