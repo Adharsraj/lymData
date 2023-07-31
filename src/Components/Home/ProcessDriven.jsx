@@ -10,7 +10,7 @@ const ProcessDrivendhn = () => {
   return (
     <div className="bg-[#BCBCBC] relative">
       <div className="max-w-[1640px] relative bg-[#BCBCBC]   mx-auto  font-dm  md:text-xl overflow-hidden ">
-        <div className="absolute ">
+        {/* <div className="absolute ">
           <Wrapper className="ProcessDriven">
             <Canvas className="canvas">
               <OrbitControls enableZoom={false} />
@@ -21,7 +21,7 @@ const ProcessDrivendhn = () => {
               </Suspense>
             </Canvas>
           </Wrapper>
-        </div>
+        </div> */}
         <div className="">
           <div className="  flex flex-between">
             <h1 className="md:hidden z-10  text-sm font-mono py-1">
@@ -39,20 +39,8 @@ const ProcessDrivendhn = () => {
             </div>
           </div>
           <div className="">
-            {/* <div className="absolute ">
-    <Wrapper className="ProcessDriven">
-      
-      <Canvas className="canvas">
-        <OrbitControls enableZoom={false} />
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[-2, 5, 2]} intensity={1} />
-        <Suspense fallback={null}>
-          <Sphere />
-        </Suspense>
-        </Canvas>
-        </Wrapper>
-    </div> */}
-            {/* <div
+            
+            <div
     className=" hidden md:block   absolute top-0 left-0 md:scale-90  md:w-full md:h-full mt-6 z-0"
     style={{
       backgroundImage:
@@ -60,8 +48,8 @@ const ProcessDrivendhn = () => {
       backgroundPosition: 'center',
       opacity: 0.8, 
     }}
-  ></div> */}
-            {/* <div
+  ></div>
+            <div
     className=" md:hidden   absolute top-[-90px] left-0 scale-150  w-full h-full mt-6 z-0"
     style={{
       backgroundImage:
@@ -69,7 +57,7 @@ const ProcessDrivendhn = () => {
       backgroundPosition: 'center',
       opacity: 0.8, 
     }}
-  ></div> */}
+  ></div>
 
             {/* Text Content */}
             <div className="relative z-10">
