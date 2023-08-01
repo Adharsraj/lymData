@@ -7,6 +7,7 @@ import {
   SlSocialTwitter,
 } from "react-icons/sl";
 import { Link, useNavigate } from "react-router-dom";
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
 useNavigate;
 const FooterZipsy = () => {
@@ -22,7 +23,7 @@ const FooterZipsy = () => {
               Design capital from <br /> obscurity to scale
             </h1>
 
-            <div className="py-10 flex xl:gap-1 gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
+            {/* <div className="py-10 flex xl:gap-1 gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
               <input
                 type="email"
                 placeholder="lymdatalabs@gmail.com"
@@ -31,7 +32,17 @@ const FooterZipsy = () => {
                 <h1 className="p-2 cursor-pointer flex items-center rounded-full w-[35px] bg-white text-white">
                 <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_49_lb3zxr.svg" />
               </h1>
-            </div>
+            </div> */}
+            <div className="flex items-center mt-5 mb-5 justify-between border-b border-gray-500 rounded p-4">
+      <input
+        className="flex-1 bg-transparent text-2xl focus:outline-none"
+        type="text"
+        placeholder="Your email"
+      />
+      <div className="ml-[-40px]">
+        <HiArrowNarrowRight className="h-6 w-6 text-gray-500" />
+      </div>
+    </div>
           </div>
           <div>
             <div className="flex justify-between">
@@ -108,16 +119,16 @@ const FooterZipsy = () => {
               Design capital from <br /> obscurity to scale
             </h1>
 
-            <div className="py-10 flex xl:gap-1 gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
-              <input
-                type="email"
-                placeholder="lymdatalabs@gmail.com"
-                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
-              />
-                <h1 className="p-2 cursor-pointer flex items-center rounded-full w-[35px] bg-white text-white">
-                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_49_lb3zxr.svg" />
-              </h1>
-            </div>
+            <div className="flex items-center mt-10 mb-5 justify-between border-b border-gray-500 rounded p-4">
+      <input
+        className="flex-1 bg-transparent text-2xl focus:outline-none"
+        type="text"
+        placeholder="Your email"
+      />
+      <div className="">
+        <HiArrowNarrowRight className="h-6 w-6 text-gray-500" />
+      </div>
+    </div>
           </div>
           <div className="flex justify-around gap-36">
             <div className=" ">

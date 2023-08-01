@@ -1,17 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import { Suspense } from "react";
+import Sphere from "../../Components/Home/AnimatedSphere";
 
 const ProcessDrivendhn = () => {
   return (
     <div className="bg-[#BEBDBE] relative">
       <div className="max-w-[1640px] relative bg-[#BEBDBE]   mx-auto  font-dm  md:text-xl overflow-hidden ">
        
-      <div class="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center">
+          <Wrapper className="ProcessDriven">
+            <Canvas className="canvas">
+              <OrbitControls enableZoom={false} />
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[-2, 5, 2]} intensity={1} />
+              <Suspense fallback={null}>
+                <Sphere />
+              </Suspense>
+            </Canvas>
+          </Wrapper>
+        </div>
+
+      {/* <div class="absolute inset-0 flex items-center justify-center">
     <video className="scale-110" src="https://res.cloudinary.com/db5gkedee/video/upload/v1690813223/globeball_bw7ogt.mp4" autoPlay
           loop
           muted></video>
-</div>
+</div> */}
 
         <div className="">
           <div className="  flex flex-between">
