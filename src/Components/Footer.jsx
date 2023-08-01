@@ -39,8 +39,8 @@ const FooterZipsy = () => {
         type="text"
         placeholder="Your email"
       />
-      <div className="ml-[-40px]">
-        <HiArrowNarrowRight className="h-6 w-6 text-gray-500" />
+      <div className="ml-[-40px] cursor-pointer">
+        <HiArrowNarrowRight className="h-6 w-6 text-gray-500 hover:text-white"/>
       </div>
     </div>
           </div>
@@ -125,8 +125,8 @@ const FooterZipsy = () => {
         type="text"
         placeholder="Your email"
       />
-      <div className="">
-        <HiArrowNarrowRight className="h-6 w-6 text-gray-500" />
+      <div className="cursor-pointer ">
+        <HiArrowNarrowRight className="h-6 w-6 text-gray-500 hover:text-white" />
       </div>
     </div>
           </div>
