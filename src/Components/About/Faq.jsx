@@ -9,21 +9,21 @@ const Faq = () => {
   return (
     <div className="font-times max-w-[1640px]  mx-auto">
       <div className="lg:mx-36 mb-10  ">
-        <h1 className=" lg:text-8xl md:text-6xl text-4xl text-center mt-10 ">
-          Frequently Asked{" "}
+        <h1 className=" lg:text-7xl md:text-6xl text-4xl text-center mt-10 ">
+          Frequently <i>Asked</i> Questions
         </h1>
-        <h1 className="lg:text-8xl md:text-6xl text-4xl text-center mb-5 mt-2">
-          {" "}
-          Questions
-        </h1>
-        <h2 className="text-center text-3xl mb-10">The most common queries.</h2>
+        {/* <h1 className="lg:text-8xl md:text-6xl text-4xl text-center mb-5 mt-2">
+          
+          
+        </h1> */}
+        <h2 className="text-center text-3xl mb-10 py-14">The most common queries.</h2>
         {accordionData.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="hover:bg-black hover:text-white">
             <button
-              className="flex items-center justify-between w-full p-4  text-gray-700 font-semibold"
+              className="flex items-center justify-between w-full p-4  hover:bg-black hover:text-white font-semibold"
               onClick={() => toggleAccordion(index)}
             >
-              <span className="lg:text-xl md:text-lg text-left font-zuume">
+              <span className="lg:text-xl md:text-lg text-left font-zuume ">
                 {item.title}
               </span>
               <svg

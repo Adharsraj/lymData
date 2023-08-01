@@ -251,39 +251,39 @@ export const sevenIndustries = [
     id: 1,
     head1: "E-commerce  ",
      img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/E-commerce_fr8gu6.webp",
-    head2:"This industry involves buying and selling products or services over the internet. It encompasses online stores, payment gateways, customer support, and digital marketing to facilitate smooth online transactions."
+    head2:"Maximize your online sales and customer satisfaction with our data-driven solutions tailored for the ever-evolving e-commerce landscape."
   },
 
   {
     id: 2,
     head1: "Finance and Banking    ",
     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Finance_and_Banking_kssz3a.webp",
-    head2:" This sector deals with financial services, including banking, investments, loans, and asset management. Digital solutions in finance enable secure transactions, mobile banking, and personalized financial advice."
+    head2:" Drive informed decisions and gain a competitive edge in the financial world with our powerful data analytics tools and expertise."
   },
 
   {
     id: 3,
     head1: "Healthcare",
     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Healthcare_apc3ha.webp",
-    head2:"The healthcare industry focuses on providing medical services, treatment, and support to patients. Digital solutions in healthcare aim to improve patient care, enhance diagnostics, and streamline administrative processes."
+    head2:"Empower your healthcare organization with data-driven insights to enhance patient outcomes and streamline operations for a healthier future."
   },
   {
     id: 4,
     head1: "Travel and Hospitality     ",
     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Travel_and_Hospitality_zwmvvt.webp",
-    head2:"This sector revolves around travel services, such as hotels, airlines, tour operators, and travel agencies. Digital technologies play a significant role in online booking systems and personalized travel experiences."
+    head2:"Transform your travel business by harnessing the power of data to deliver personalized experiences and exceed customer expectations."
   },
   {
     id: 5,
     head1: "Retail",
     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Retail_xldndr.webp",
-    head2:"Retail involves the sale of goods directly to consumers, either through physical stores or online platforms. Digital solutions in retail include e-commerce platforms, inventory management, and customer analytics."
+    head2:"Stay ahead in the dynamic retail industry by unlocking valuable data-driven insights that fuel growth and foster lasting customer relationships."
   },
   {
     id: 6,
     head1: "Entertainment",
     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Entertainment_vbj4et.webp",
-    head2:"The entertainment industry encompasses various forms of media and entertainment, including movies, music, gaming, and digital content creation. Digital agencies in entertainment may focus on marketing, content production, and audience engagement."
+    head2:"Unleash the potential of data analytics to captivate audiences, optimize content, and revolutionize the entertainment experience."
   },
  
 ];

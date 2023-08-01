@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import ContactUs from "../Components/Contact/Contact";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
+import Faq from "../Components/About/Faq";
 const Contact = () => {
   UseDocumentTitle("LYM DATA | Contact");
 
@@ -10,6 +11,7 @@ const Contact = () => {
     <>
       <Navbar />
       <ContactUs />
+      <Faq />
       <Footer />
     </>
   );

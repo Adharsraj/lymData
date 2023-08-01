@@ -21,37 +21,37 @@ const Within7Industriesdhn = () => {
       id: 1,
       title: "E-commerce",
       details:
-        "This industry involves buying and selling products or services over the internet. It encompasses online stores, payment gateways, customer support, and digital marketing to facilitate smooth online transactions.",
+        "Maximize your online sales and customer satisfaction with our data-driven solutions tailored for the ever-evolving e-commerce landscape.",
     },
     {
       id: 2,
       title: "Finance and Banking",
       details:
-        "This sector deals with financial services, including banking, investments, loans, and asset management. Digital solutions in finance enable secure transactions, mobile banking, and personalized financial advice.",
+        "Drive informed decisions and gain a competitive edge in the financial world with our powerful data analytics tools and expertise.",
     },
     {
       id: 3,
       title: "Healthcare",
       details:
-        "The healthcare industry focuses on providing medical services, treatment, and support to patients. Digital solutions in healthcare aim to improve patient care, enhance diagnostics, and streamline administrative processes.",
+        "Empower your healthcare organization with data-driven insights to enhance patient outcomes and streamline operations for a healthier future.",
     },
     {
       id: 4,
       title: "Travel and Hospitality",
       details:
-        "This sector revolves around travel services, such as hotels, airlines, tour operators, and travel agencies. Digital technologies play a significant role in online booking systems and personalized travel experiences.",
+        "Transform your travel business by harnessing the power of data to deliver personalized experiences and exceed customer expectations.",
     },
     {
       id: 5,
       title: "Retail",
       details:
-        "Retail involves the sale of goods directly to consumers, either through physical stores or online platforms. Digital solutions in retail include e-commerce platforms, inventory management, and customer analytics.",
+        "Stay ahead in the dynamic retail industry by unlocking valuable data-driven insights that fuel growth and foster lasting customer relationships.",
     },
     {
       id: 6,
       title: "Entertainment",
       details:
-        "The entertainment industry encompasses various forms of media and entertainment, including movies, music, gaming, and digital content creation. Digital agencies in entertainment may focus on marketing, content production, and audience engagement.",
+        "Unleash the potential of data analytics to captivate audiences, optimize content, and revolutionize the entertainment experience.",
     },
   ];
 

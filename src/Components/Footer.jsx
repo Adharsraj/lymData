@@ -7,6 +7,7 @@ import {
   SlSocialTwitter,
 } from "react-icons/sl";
 import { Link, useNavigate } from "react-router-dom";
+
 useNavigate;
 const FooterZipsy = () => {
   const navigate = useNavigate();
@@ -21,15 +22,15 @@ const FooterZipsy = () => {
               Design capital from <br /> obscurity to scale
             </h1>
 
-            <div className="py-10">
+            <div className="py-10 flex xl:gap-1 gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
               <input
                 type="email"
                 placeholder="lymdatalabs@gmail.com"
-                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
+                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
               />
-              <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 p-2  rounded-md text-white md:w-auto w-full">
-                Subscribe
-              </button>
+                <h1 className="p-2 cursor-pointer flex items-center rounded-full w-[35px] bg-white text-white">
+                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_49_lb3zxr.svg" />
+              </h1>
             </div>
           </div>
           <div>
@@ -107,15 +108,15 @@ const FooterZipsy = () => {
               Design capital from <br /> obscurity to scale
             </h1>
 
-            <div className="py-10">
+            <div className="py-10 flex xl:gap-1 gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
               <input
                 type="email"
                 placeholder="lymdatalabs@gmail.com"
-                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
+                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
               />
-              <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 p-2  rounded-md text-white md:w-auto w-full">
-                Subscribe
-              </button>
+                <h1 className="p-2 cursor-pointer flex items-center rounded-full w-[35px] bg-white text-white">
+                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_49_lb3zxr.svg" />
+              </h1>
             </div>
           </div>
           <div className="flex justify-around gap-36">
