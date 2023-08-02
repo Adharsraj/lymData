@@ -13,7 +13,7 @@ const Within7ForService = () => {
   };
 
   return (
-    <div className="max-w-[1740px] mx-auto overflow-hidden  ">
+    <div id="withservices" className="max-w-[1740px] mx-auto overflow-hidden  ">
       <div>
         {sevenIndustries.map((m) => (
           <div

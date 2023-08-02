@@ -5,14 +5,15 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import Sphere from "../../Components/Home/AnimatedSphere";
-
+import MySpline3D from "./MySpline3D";
+import video from '../../assets/gif/NdKu.webp'
 const ProcessDrivendhn = () => {
   return (
     <div className="bg-[#BEBDBE] relative">
       <div className="max-w-[1640px] relative bg-[#BEBDBE]   mx-auto  font-dm  md:text-xl overflow-hidden ">
        
       <div className="absolute inset-0 flex items-center justify-center">
-          <Wrapper className="ProcessDriven">
+          {/* <Wrapper className="ProcessDriven">
             <Canvas className="canvas">
               <OrbitControls enableZoom={false} />
               <ambientLight intensity={0.5} />
@@ -21,8 +22,10 @@ const ProcessDrivendhn = () => {
                 <Sphere />
               </Suspense>
             </Canvas>
-          </Wrapper>
-        </div>
+          </Wrapper> */}
+{/* <MySpline3D/> */}
+<img src="https://media0.giphy.com/media/FmdBsEzxhbmlW/giphy.gif?cid=ecf05e47n43qccx2nxq7kkij71iweye2pzbkem4ncjjyx4f5&ep=v1_gifs_related&rid=giphy.gif&ct=s" className="scale-150"  />
+      </div>
 
       {/* <div class="absolute inset-0 flex items-center justify-center">
     <video className="scale-110" src="https://res.cloudinary.com/db5gkedee/video/upload/v1690813223/globeball_bw7ogt.mp4" autoPlay
@@ -46,7 +49,9 @@ const ProcessDrivendhn = () => {
               </h1>
             </div>
           </div>
+
           <div className="">
+
             {/* <div
     className=" hidden md:block   absolute top-0 left-0 md:scale-90  md:w-full md:h-full mt-6 z-0"
     style={{

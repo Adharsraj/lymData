@@ -2,13 +2,23 @@ import gsap from "gsap";
 import React, { useEffect } from "react";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from '../Home/Within7ForService';
+import { Link } from "react-router-dom";
 
 const ServicesLanding = () => {
-  const handleClicktoapproach = () => {
-    const component2Element = document.getElementById('approach');
-    if (component2Element) {
+  const handleClicktowithservices = () => {
+    const withservices = document.getElementById("withservices");
+    if (withservices) {
       window.scrollTo({
-        top: component2Element.offsetTop,
+        top: withservices.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  }
+  const handleClicktoapproach = () => {
+    const approach = document.getElementById('approach');
+    if (approach) {
+      window.scrollTo({
+        top: approach.offsetTop,
         behavior: 'smooth',
       })
     }
@@ -340,16 +350,16 @@ than 150 companies of all than 150 companies of allkinds and sizes.</h1>
 
   </div>
   </div>
-
+  <Link to="/contact">
   <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px">
 <h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-Lets  build together
+Dive into contact
 </h1>
 <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
 <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />
 </h1>
 </div>
-
+</Link>
   <div className="hidden md:block mt-20 relative">
     <div className="flex justify-between xl:px-16 lg:px-5  align-middle items-center">
       <h1 className="text-sm">approach</h1>
@@ -366,14 +376,16 @@ and delivered for  more
 than 150 companies of allkinds and sizes.</h1>
 
   </div>
+  <Link to="/contact">
   <div className="flex group hover:cursor-pointer gap-4 w-[600px] xl:w-[560px] mx-auto">
 <h1 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-Lets build together
+Dive into contact
 </h1>
 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
 <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />
 </h1>
 </div>
+</Link>
 <img className="hidden xl:flex absolute z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110 opacity-70 filter invert" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="img" />
 
 
@@ -404,7 +416,7 @@ Lets build together
           <span  className='text-[#424142] mb-10 '>we are experts in.
 </span> 
         </h1>
-        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
+        <img onClick={handleClicktowithservices} className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10 cursor-pointer' src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
 
       </div>
     </div>
