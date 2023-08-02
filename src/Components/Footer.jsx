@@ -36,24 +36,24 @@ const FooterZipsy = () => {
             <div className="flex justify-between">
               <div className="mt-4 ">
                 <Link to="/works">
-                  <h2 className="p-1">Works</h2>
+                  <h2 className="p-1 text-[#aea8a8] hover:text-white">Works</h2>
                 </Link>
                 <Link to="/about">
-                  <h2 className="p-1">About us</h2>
+                  <h2 className="p-1 text-[#aea8a8] hover:text-white">About us</h2>
                 </Link>
                 <Link to="/careers">
-                  <h2 className="p-1">Careers</h2>
+                  <h2 className="p-1 text-[#aea8a8] hover:text-white">Careers</h2>
                 </Link>
                 <Link to="/services">
-                  <h2 className="p-1">Services</h2>
+                  <h2 className="p-1 text-[#aea8a8] hover:text-white">Services</h2>
                 </Link>
               </div>
               <div className="mt-4">
                 <Link to="/privacy">
-                  <h2 className="p-1">Privacy Policy</h2>
+                  <h2 className="p-1 text-[#aea8a8] hover:text-white">Privacy Policy</h2>
                 </Link>
                 <Link to="/terms">
-                  <h2 className="p-1">Terms of Service</h2>
+                  <h2 className="p-1 text-[#aea8a8] hover:text-white">Terms of Service</h2>
                 </Link>
               </div>
             </div>
@@ -121,24 +121,24 @@ const FooterZipsy = () => {
           <div className="flex justify-around gap-36">
             <div className=" ">
               <Link to="/works">
-                <h2 className="p-1">Works</h2>
+                <h2 className="p-1 text-[#aea8a8] hover:text-white">Works</h2>
               </Link>
               <Link to="/about">
-                <h2 className="p-1">About us</h2>
+                <h2 className="p-1 text-[#aea8a8] hover:text-white">About us</h2>
               </Link>
               <Link to="/careers">
-                <h2 className="p-1">Careers</h2>
+                <h2 className="p-1 text-[#aea8a8] hover:text-white">Careers</h2>
               </Link>
               <Link to="/services">
-                <h2 className="p-1">Services</h2>
+                <h2 className="p-1 text-[#aea8a8] hover:text-white">Services</h2>
               </Link>
             </div>
             <div className="">
               <Link to="/privacy">
-                <h2 className="p-1">Privacy Policy</h2>
+                <h2 className="p-1  text-[#aea8a8] hover:text-white">Privacy Policy</h2>
               </Link>
               <Link to="/terms">
-                <h2 className="p-1">Terms of Service</h2>
+                <h2 className="p-1 text-[#aea8a8] hover:text-white">Terms of Service</h2>
               </Link>
             </div>
           </div>
