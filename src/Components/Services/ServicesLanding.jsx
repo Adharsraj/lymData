@@ -351,7 +351,7 @@ than 150 companies of all than 150 companies of allkinds and sizes.</h1>
   </div>
   </div>
   <Link to="/contact">
-  <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px">
+  <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px z-10">
 <h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
 Dive into contact
 </h1>

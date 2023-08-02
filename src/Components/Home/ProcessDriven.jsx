@@ -6,7 +6,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import Sphere from "../../Components/Home/AnimatedSphere";
 import MySpline3D from "./MySpline3D";
-import giff from '../../assets/gif/XSgq.webp'
+import giff from '../../assets/gif/ezgif.com-gif-maker.gif'
 const ProcessDrivendhn = () => {
   return (
     <div className="bg-[#BEBDBE] relative">
