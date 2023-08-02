@@ -2,16 +2,16 @@ import React from 'react'
 
 const TextLoading = () => {
   return (
-    <div className='elem'>
+    <div className='elem bg-black'>
       <div className="loading-container">
   <div className="loading-text">
     <span>L</span>
-    <span>O</span>
+    <span>Y</span>
+    <span>M</span>
+    {/* <span>D</span>
     <span>A</span>
-    <span>D</span>
-    <span>I</span>
-    <span>N</span>
-    <span>G</span>
+    <span>T</span>
+    <span>A</span> */}
   </div>
 </div>
 

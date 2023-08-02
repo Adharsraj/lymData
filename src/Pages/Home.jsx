@@ -25,11 +25,11 @@ const Home = () => {
       <Navbar />
       <Hero />
 
-      {/* <LoadingArches /> */}
-      {/* <TextLoading />
+      {/* <LoadingArches />
+       <TextLoading />
       <HexagonalLoader />
       <TrieLoader />
-      <SwingLoader /> */}
+      <SwingLoader />  */}
 
       <HowweThinkdhn />
       <ProcessDrivendhn />

@@ -3,8 +3,10 @@ import React, { useEffect } from "react";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from '../Home/Within7ForService';
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'; // Make sure to import the `navigate` function from the correct location
 
 const ServicesLanding = () => {
+  const navigate=useNavigate()
   const handleClicktowithservices = () => {
     const withservices = document.getElementById("withservices");
     if (withservices) {
@@ -102,7 +104,7 @@ const ServicesLanding = () => {
           </h1>
         </div>
 
-        <div className="text-white md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative ">
+        <div className="text-white  md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative ">
           
           <div onClick={handleClicktoapproach} className="inline-block hover:cursor-pointer mt-[-20px] mb-20"> 
 <button
@@ -154,8 +156,16 @@ const ServicesLanding = () => {
                 </h2>
               </div>
 
-              <div className="flex group hover:cursor-pointer gap-4 w-full   mx-auto">
+              <div className="md:flex hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
                 <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  see more
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                </h1>
+              </div>
+              <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
+                <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
@@ -200,8 +210,16 @@ const ServicesLanding = () => {
                 </h2>
               </div>
 
-              <div className="flex group hover:cursor-pointer gap-4 w-full   mx-auto">
+              <div className="hidden md:flex group hover:cursor-pointer gap-4 w-full   mx-auto">
                 <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  see more
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                </h1>
+              </div>
+              <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
+                <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
@@ -249,8 +267,16 @@ const ServicesLanding = () => {
                 </h2>
               </div>
 
-              <div id="" className="flex group hover:cursor-pointer gap-4 w-full   mx-auto">
+              <div id="" className="hidden md:flex group hover:cursor-pointer gap-4 w-full   mx-auto">
                 <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  see more
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                </h1>
+              </div>
+              <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
+                <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
@@ -287,8 +313,16 @@ const ServicesLanding = () => {
                 </h2>
               </div>
 
-              <div className="flex group hover:cursor-pointer gap-4 w-full   mx-auto">
+              <div className="hidden md:flex group hover:cursor-pointer gap-4 w-full   mx-auto">
                 <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  see more
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                </h1>
+              </div>
+              <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
+                <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
                   see more
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
@@ -326,7 +360,7 @@ const ServicesLanding = () => {
               </div>
             </div>
 
-            <div className="flex group hover:cursor-pointer gap-4 w-full   mx-auto">
+            <div className="hidden md:flex group hover:cursor-pointer gap-4 w-full   mx-auto">
               <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                 see more
               </h1>
@@ -334,6 +368,14 @@ const ServicesLanding = () => {
                 <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
               </h1>
             </div>
+            <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
+                <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
+                  see more
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                  <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                </h1>
+              </div>
           </div>
 
 
@@ -357,11 +399,7 @@ const ServicesLanding = () => {
       <h1>approach</h1>
       <img className="hover:animate-spin" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg" alt="" style={{ animationDuration: '3s' }} />
     </div>
-{/* 
-    <div className="text-[25px] hidden leading-10  ">
-      <h1>We're challengers at heart and</h1>
-      <h1>builders by nature.</h1>
-    </div> */}
+
     <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16">
     <h1>Our offering has evolved
 as a testament of theas a testament of the
@@ -369,18 +407,24 @@ work we have completedwork we have completed
 and delivered for moreand delivered for more
 than 150 companies of all than 150 companies of allkinds and sizes.</h1>
 
-  </div>
+<div
+  className="flex border"
+  
+>
+  <Link to='/contact'>
 
-<Link to="/contact">
-  <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px">
-<h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] text-center">
-Dive into contact
-</h1>
-<h1 className="p-2 md:mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
-<img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />
-</h1>
-</div>
+  <div className="p-1  mt-10  text-base flex justify-center items-center rounded-full w-[200px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+    Dive into contact
+  <div className="p-2    flex items-center rounded-full w-[40px] bg-[#282728]">
+    <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" alt="Contact Icon" />
+  </div>
+  </div>
 </Link>
+</div>
+
+
+  </div>
+  
   </div>
   
 
@@ -423,7 +467,7 @@ Dive into contact
 {/* industries and archieve */}
 <>
     
-    <div className='bg-[#F4F4F4]'>
+    <div className='bg-[#F4F4F4] '>
 
     <div id='industries' className="max-w-[1640px]  mx-auto p-4 font-dm  relative  md:text-xl bg-[#F4F4F4]  ">
       
@@ -432,7 +476,7 @@ Dive into contact
 
     <div className='xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20'>
       <div className='relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 '>
-      <img style={imageStyle}  className="mt-32" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="Sample Image" />
+      <img style={imageStyle}  className="mt-32 " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="Sample Image" />
       <h1 className='absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]'>
           <span onClick={handleClicktoservices} className='opacity-20 hover:opacity-50 hover:cursor-pointer'>services</span> 
           <span onClick={handleClicktoindustries} className="text-[#424142] ">/ industries / </span> 
