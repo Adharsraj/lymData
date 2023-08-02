@@ -24,8 +24,8 @@ const ProcessDrivendhn = () => {
             </Canvas>
           </Wrapper> */}
 {/* <MySpline3D/> */}
-{/* <img  src="https://media0.giphy.com/media/FmdBsEzxhbmlW/giphy.gif?cid=ecf05e47n43qccx2nxq7kkij71iweye2pzbkem4ncjjyx4f5&ep=v1_gifs_related&rid=giphy.gif&ct=s" className="scale-150 opacity-95"  /> */}
-<img src={giff} alt="gif" className="scale-150"  />
+<img  src="https://media0.giphy.com/media/FmdBsEzxhbmlW/giphy.gif?cid=ecf05e47n43qccx2nxq7kkij71iweye2pzbkem4ncjjyx4f5&ep=v1_gifs_related&rid=giphy.gif&ct=s" className="scale-150 opacity-60"  />
+{/* <img src={giff} alt="gif" className="scale-150"  /> */}
       </div>
 
       {/* <div class="absolute inset-0 flex items-center justify-center">

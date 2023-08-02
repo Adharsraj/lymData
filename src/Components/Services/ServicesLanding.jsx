@@ -351,7 +351,7 @@ than 150 companies of all than 150 companies of allkinds and sizes.</h1>
   </div>
   </div>
   <Link to="/contact">
-  <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px z-10">
+  <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px">
 <h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
 Dive into contact
 </h1>
@@ -444,7 +444,7 @@ Dive into contact
           <span onClick={handleClicktoarchieve} className="text-[#424142] cursor-pointer"> archive</span>  <br />{" "}
           <span   className='text-[#424142] mb-10 '>15+ years of solved challenges</span> 
         </h1>
-        <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
+        {/* <img className='absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10' src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" /> */}
 
       </div>
     </div>
