@@ -1,6 +1,6 @@
 import { createBrowserRouter, useLocation } from "react-router-dom";
 import { lazy, Suspense, useLayoutEffect } from "react";
-import Loading from "../Components/Loading";
+import Loading from "../Components/loaders/LoadingArches";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 const TestskeltandLoader= lazy(()=>import("../Pages/TestskeltandLoader")) ;
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));

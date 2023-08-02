@@ -11,6 +11,11 @@ import Within7Industriesdhn from "../Components/Home/Within7Industries";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
+import LoadingArches from "../Components/loaders/LoadingArches";
+import TextLoading from "../Components/loaders/TextLoading";
+import HexagonalLoader from "../Components/loaders/HexagonalLoader";
+import TrieLoader from "../Components/loaders/TrieLoader";
+import SwingLoader from "../Components/loaders/SwingLoader";
 
 const Home = () => {
   UseDocumentTitle("LYM DATA | Home");
@@ -19,12 +24,20 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
+
+      {/* <LoadingArches /> */}
+      {/* <TextLoading />
+      <HexagonalLoader />
+      <TrieLoader />
+      <SwingLoader /> */}
+
       <HowweThinkdhn />
       <ProcessDrivendhn />
       <ProcessDrivenFive />
       <IndustriesWeknowdhn />
       {/* <Marque /> */}
-      <Marque/>
+
+      <Marque />
       <Within7Industriesdhn />
       <Footer />
     </>

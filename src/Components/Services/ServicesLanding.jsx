@@ -122,7 +122,7 @@ const ServicesLanding = () => {
           <div className="md:mt-48">
             <div>
               <h1 className="text-3xl font-semibold mt-10 mb-10">
-                Product <br /> 
+                Product Discovery <br /> 
               </h1>  
               <div className="text-sm">
               <h2 className="lg:text-sm border-b border-b-[#464546] py-4">
