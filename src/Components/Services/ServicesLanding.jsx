@@ -122,30 +122,35 @@ const ServicesLanding = () => {
           <div className="md:mt-48">
             <div>
               <h1 className="text-3xl font-semibold mt-10 mb-10">
-                Product <br /> discovery
-              </h1>
-              <h2 className="mt-6 mb-6 lg:text-sm">
-                We set the right processes and methodologies to boost innovation
-                labs and digital product discoveries.
-              </h2>
+                Product <br /> 
+              </h1>  
               <div className="text-sm">
+              <h2 className="lg:text-sm border-b border-b-[#464546] py-4">
+              Client Strategy
+              </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Design thinking processes
+                Product Strategy
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital Innovation & transformation workshops
+                  Business Intelligence
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Blueprints for digital services & customer experiences
+                  User Research & Testing
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Proof of concepts
+                  Product Roadmapping
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital landscape, user and market research
+                  Technology Strategy
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital product ideation & implementation
+                  Content Strategy
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                  Data Strategy
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                  Optimization Strategy
                 </h2>
               </div>
 
@@ -160,30 +165,38 @@ const ServicesLanding = () => {
             </div>
             <div>
               <h1 className="text-3xl font-semibold mt-10 mb-10">
-                Product <br /> discovery
+                Design <br /> 
               </h1>
-              <h2 className="mt-6 mb-6 lg:text-sm">
-                We set the right processes and methodologies to boost innovation
-                labs and digital product discoveries.
-              </h2>
               <div className="text-sm">
+              <h2 className="lg:text-sm border-b border-b-[#464546] py-4">
+              User Experience Design
+              </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Design thinking processes
+                Information Architecture
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital Innovation & transformation workshops
+                Interaction Design
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Blueprints for digital services & customer experiences
+                Visual Design
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Proof of concepts
+                Prototyping
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital landscape, user and market research
+                Content
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital product ideation & implementation
+                Copywriting
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                Digital Branding
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                Video Production
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                Motion Graphics
                 </h2>
               </div>
 
@@ -201,30 +214,38 @@ const ServicesLanding = () => {
           <div className="">
             <div>
               <h1 className="text-3xl font-semibold mt-10 mb-10">
-                Product <br /> discovery
+                Technology <br /> 
               </h1>
-              <h2 className="mt-6 mb-6 lg:text-sm">
-                We set the right processes and methodologies to boost innovation
-                labs and digital product discoveries.
-              </h2>
               <div className="text-sm">
+              <h2 className="lg:text-sm border-b border-b-[#464546] py-4">
+              Technical Architecture
+              </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Design thinking processes
+                Web Development
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital Innovation & transformation workshops
+                Front End Interface Development
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Blueprints for digital services & customer experiences
+                Back End Development
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Proof of concepts
+                Mobile App Development
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital landscape, user and market research
+                API & CMS Development
                 </h2>
                 <h2 className="border-b border-b-[#464546] py-4">
-                  Digital product ideation & implementation
+                Manual & Automated QA
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                Voice Interfaces
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                Machine Learning
+                </h2>
+                <h2 className="border-b border-b-[#464546] py-4">
+                Augmented & Mixed Reality
                 </h2>
               </div>
 
@@ -349,10 +370,10 @@ and delivered for moreand delivered for more
 than 150 companies of all than 150 companies of allkinds and sizes.</h1>
 
   </div>
-  </div>
-  <Link to="/contact">
+
+<Link to="/contact">
   <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[200px] xl:w-[560px] md:mx-auto md:w-[600px">
-<h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+<h1 className="p-1 md:mt-10 text-white rounded-full w-[220px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] text-center">
 Dive into contact
 </h1>
 <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
@@ -360,6 +381,9 @@ Dive into contact
 </h1>
 </div>
 </Link>
+  </div>
+  
+
   <div className="hidden md:block mt-20 relative">
     <div className="flex justify-between xl:px-16 lg:px-5  align-middle items-center">
       <h1 className="text-sm">approach</h1>
