@@ -407,25 +407,22 @@ work we have completedwork we have completed
 and delivered for moreand delivered for more
 than 150 companies of all than 150 companies of allkinds and sizes.</h1>
 
-<div
-  className="flex border"
-  
->
-  <Link to='/contact'>
-
-  <div className="p-1  mt-10  text-base flex justify-center items-center rounded-full w-[200px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-    Dive into contact
-  <div className="p-2    flex items-center rounded-full w-[40px] bg-[#282728]">
-    <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" alt="Contact Icon" />
-  </div>
-  </div>
-</Link>
+<Link to="/contact">
+  <div className="flex group hover:cursor-pointer gap-4 w-[300px] xl:w-[560px] mx-auto">
+<h1 className="p-2 mt-10 flex justify-center text-base rounded-full w-[200px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+Dive into contact
+</h1>
+<h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
+<img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"  />
+</h1>
 </div>
+</Link>
 
 
   </div>
   
   </div>
+
   
 
   <div className="hidden md:block mt-20 relative">
@@ -471,12 +468,12 @@ Dive into contact
 
     <div id='industries' className="max-w-[1640px]  mx-auto p-4 font-dm  relative  md:text-xl bg-[#F4F4F4]  ">
       
-       <div className="relative mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
+       <div className="relative md:mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
 
 
-    <div className='xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20'>
+    <div className='xl:mt-[-150px] md:mt-[-130px]    mb-20'>
       <div className='relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 '>
-      <img style={imageStyle}  className="mt-32 " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="Sample Image" />
+      <img style={imageStyle}  className="mt-32 hidden md:flex " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png" alt="Sample Image" />
       <h1 className='absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]'>
           <span onClick={handleClicktoservices} className='opacity-20 hover:opacity-50 hover:cursor-pointer'>services</span> 
           <span onClick={handleClicktoindustries} className="text-[#424142] ">/ industries / </span> 
