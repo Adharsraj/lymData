@@ -15,6 +15,8 @@ const TermsOfUse = lazy(() => import("../Pages/TermsOfUse"));
 const Works = lazy(() => import("../Pages/Works"));
 const PrivacyPolicy = lazy(() => import("../Pages/PrivacyPolicy"));
 const Culture = lazy(() => import("../Pages/Culture"));
+const AlHubDemo = lazy(() => import("../Pages/AlHubDemo")); 
+
 
 
 
@@ -29,6 +31,16 @@ const Wrapper = ({ children }) => {
 const Router = createBrowserRouter([
   {
     path: "/",
+    element: (
+      <Suspense fallback={<Loading />} >
+        <Wrapper>
+          <Home />
+        </Wrapper>
+     </Suspense>
+    ),
+  },
+  {
+    path: "/wrk",
     element: (
       <Suspense fallback={<Loading />} >
         <Wrapper>
@@ -145,6 +157,16 @@ const Router = createBrowserRouter([
       <Suspense fallback={<Loading />} >
         <Wrapper>
           <Culture />
+        </Wrapper>
+      </Suspense>
+    ),
+  },
+  {
+    path: "/demo",
+    element: (
+      <Suspense fallback={<Loading />} >
+        <Wrapper>
+          <AlHubDemo />
         </Wrapper>
       </Suspense>
     ),

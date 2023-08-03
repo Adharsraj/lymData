@@ -214,7 +214,7 @@ export const allWorks = [
 export const productDrivenDesign = [
   {
     id: 1,
-    head1: "  User  Research  &   Analysis",
+    head1: "  User  Research  &  Analysis ",
     head2:
       "We set the right processes and methodologies to boost innovation     ",
   },
