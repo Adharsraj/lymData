@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { sevenIndustries } from "../../assets/Data/data";
 
 const Within7Industriesdhn = () => {
@@ -76,7 +77,7 @@ const Within7Industriesdhn = () => {
           <div
             key={m.id}
             id={m.id}
-            className={`md:flex group md:px-8 w-full h-[320px] m hover:cursor-pointer lg:text-lg lg:py-8 xl:py-16 ${
+            className={`md:flex group md:px-8 w-full h-[320px] m  lg:text-lg lg:py-8 xl:py-16 ${
               hoveredId === m.id ? "bg-image" : ""
             } ${index !== sevenIndustries.length - 1 ? "border-b" : ""}`}
             onMouseEnter={() => handleMouseEnter(m.id)}
@@ -98,17 +99,23 @@ const Within7Industriesdhn = () => {
             </div>
             <div>
               <h1 className="group-hover:text-white">{m.head2}</h1>
-              <div className="flex xl:gap-1 gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
-                <h1 className="p-4 xl:w-[160px] text-base border rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
+              
+              <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
+                <Link>
+                <div className="flex  group/item ">
+                <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
                   What we do
                 </h1>
-                <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+                <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
                   <img
                     className="lg:w-56"
                     src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
                     alt="Arrow Right"
                   />
                 </h1>
+                </div>
+                </Link>
+
               </div>
             </div>
           </div>

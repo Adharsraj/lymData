@@ -19,7 +19,7 @@ const AlHubDemo = () => {
       <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
         <div className="mt-32">
           <img src={Image1} alt="Image1" className='px-32'/>
-        <div className="grid grid-rows-3 grid-flow-col gap-4 item-center justify-center  px-32 mt-14">
+        <div className="grid  grid-flow-col gap-4 item-center justify-center  px-32 mt-14">
             <div className="font-bold text-6xl">Gouter
             <h2 className='text-2xl mt-5'>Simple to use online QR-code menu</h2>
             <h3 className='text-3xl mt-5'>Overview</h3>
@@ -124,20 +124,19 @@ const AlHubDemo = () => {
                 </div>
 
                
-                <div className='w-[700px] mt-7'>
+                <div className='w-[700px] '>
                 
-                <div className='w-[1200px] h-[500px] bg-gray-200 flex mt-14 gap-4 px-10'>
-                <div>
-                <h2 className='font-bold text-xl w-[350px] mt-20'>Engineering the end-to-end experience</h2>
-                </div>
+                <div className='w-[1200px] h-[500px] bg-gray-200  mt-14 gap-4 px-10'>
+                    <div className='flex gap-10 '>
 
-                <div className='mt-10'>
+                <h2 className='font-bold text-xl  '>Engineering the end-to-end experience</h2>
+
                 <h3 className='text-xl'>YML teams built the Obie app from scratch, along with the cloud and architecture, a machine-learning recommendation engine, a custom CMS, and an integration to sync users’ Apple HealthKit data for more comprehensive health recommendations. Our partnership transformed Obie's approach into a backend framework that iterates in sync with design — a modern, agile, empathetic approach to democratizing reproductive health.
                 </h3>
                 </div>
                 
-                </div>
                 <img src={Image10} alt="Image10" className=''/>
+                </div>
                 </div>
                 
                 
