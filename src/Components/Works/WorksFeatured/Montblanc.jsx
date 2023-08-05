@@ -145,7 +145,7 @@ const Montblanc = () => {
             </div>
           </div>
 
-          <img className="mt-8 mb-8" src={img8} alt="img8" />
+          {/* <img className="mt-8 mb-8" src={img8} alt="img8" /> */}
 
           <div>
             <div className="md:flex md:gap-10">

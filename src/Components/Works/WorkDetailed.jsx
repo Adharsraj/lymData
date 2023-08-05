@@ -11,8 +11,11 @@ import Montblanc from "./WorksFeatured/Montblanc";
 import AlHubDemo from "./WorksFeatured/AlHubDemo";
 
 const WorkDetailed = () => {
-  const { id } = useParams();
-  const selectedWork = worksData.find((o) => o.id === parseInt(id));
+  const { title } = useParams();
+  const selectedWork = worksData.find((o) => o.title === title);
+  console.log(selectedWork.title)
+  console.log(title)
+
   const [colors, setColours] = useState("white");
   const [tcolors, settColours] = useState("black");
 
@@ -26,9 +29,9 @@ const WorkDetailed = () => {
   return (
     <>
       <Navbar />
-      {selectedWork && selectedWork.id === 1 && <AlHubDemo /> }
-      {selectedWork && selectedWork.id === 2 && <Brompton />}
-      {selectedWork && selectedWork.id === 3 && <Montblanc />}
+      {selectedWork && selectedWork.title === "Al-Hub" && <AlHubDemo /> }
+      {selectedWork && selectedWork.title === "Brompton" && <Brompton />}
+      {selectedWork && selectedWork.title === "Montblanc" && <Montblanc />}
       <div style={{ background: colors, color: tcolors }}>
         <Footer />
       </div>

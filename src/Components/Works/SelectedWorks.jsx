@@ -17,7 +17,7 @@ const SelectedWorks = () => {
               {m.title}
             </span>
             <img className="w-[202px]" src={m.img} alt="chimp" />
-            <Link key={m.id} to={`/works/${m.id}`} onClick={handleLinkClick}>
+            <Link key={m.id} to={`/works/${m.title}`} onClick={handleLinkClick}>
             <div className="w-[132px] h-[63px]  mt-12 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform absolute top-[310px]">
               <span className="flex justify-end">
                 <BsArrowRight size={30} />
@@ -59,7 +59,7 @@ const SelectedWorks = () => {
               {m.title}
             </span>
             <img className="lg:w-[400px] lg:h-[480px]" src={m.img} alt="chimp" />
-            <Link key={m.id} to={`/works/${m.id}`} onClick={handleLinkClick}>
+            <Link key={m.id} to={`/works/${m.title}`} onClick={handleLinkClick}>
                 
             <div className="w-[132px] h-[63px] lg:w-[182px] lg:h-[84px] lg:text-lg mt-12 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform absolute top-[330px] md:top-[370px] lg:top-[560px]">
               <span className="flex justify-end">

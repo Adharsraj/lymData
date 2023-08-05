@@ -112,7 +112,7 @@ const Router = createBrowserRouter([
     ),
   },
   {
-    path: "/works/:id",
+    path: "/works/:title",
     element: (
       <Suspense fallback={<Loading />} >
         <Wrapper>
