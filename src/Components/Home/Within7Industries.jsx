@@ -102,7 +102,7 @@ const Within7Industriesdhn = () => {
               <h1 className="group-hover:text-white">{m.head2}</h1>
               
               <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
-                <div className="flex  group/item ">
+                <div className="flex  group/item hover:cursor-pointer ">
                 <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
                   What we do
                 </h1>
