@@ -129,7 +129,7 @@ export const worksData = [
     head2: "10+ interactive activities",
     mainhead: "How we created Mailchimp Academy to upskill Mailchimp users",
     head3: "2020 Platinum Hermes Creative Award winner",
-    title: "Mailchimp",
+    title: "Al-Hub",
   },
 
   {
