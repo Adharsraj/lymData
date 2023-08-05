@@ -2,6 +2,7 @@ import { createBrowserRouter, useLocation } from "react-router-dom";
 import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
+import PageNotFound from "../Pages/PageNotFound";
 const TestskeltandLoader= lazy(()=>import("../Pages/TestskeltandLoader")) ;
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
@@ -167,6 +168,16 @@ const Router = createBrowserRouter([
       <Suspense fallback={<Loading />} >
         <Wrapper>
           <AlHubDemo />
+        </Wrapper>
+      </Suspense>
+    ),
+  },
+  {
+    path: "*",
+    element: (
+      <Suspense fallback={<Loading />} >
+        <Wrapper>
+          <PageNotFound />
         </Wrapper>
       </Suspense>
     ),

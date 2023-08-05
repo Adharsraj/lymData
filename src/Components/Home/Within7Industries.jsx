@@ -95,13 +95,13 @@ const Within7Industriesdhn = () => {
             <div>
               <h1 className="mt-3 mb-3 group-hover:text-white md:w-[200px] lg:w-[320px] xl:w-[500px] font-semibold">
                 {m.head1}
+              
               </h1>
             </div>
             <div>
               <h1 className="group-hover:text-white">{m.head2}</h1>
               
               <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
-                <Link>
                 <div className="flex  group/item ">
                 <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
                   What we do
@@ -114,7 +114,6 @@ const Within7Industriesdhn = () => {
                   />
                 </h1>
                 </div>
-                </Link>
 
               </div>
             </div>
