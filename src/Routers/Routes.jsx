@@ -15,8 +15,7 @@ const Services = lazy(() => import("../Pages/Services"));
 const TermsOfUse = lazy(() => import("../Pages/TermsOfUse"));
 const Works = lazy(() => import("../Pages/Works"));
 const PrivacyPolicy = lazy(() => import("../Pages/PrivacyPolicy"));
-const Culture = lazy(() => import("../Pages/Culture"));
-const AlHubDemo = lazy(() => import("../Pages/AlHubDemo")); 
+const Culture = lazy(() => import("../Pages/Culture")); 
 
 
 
@@ -158,16 +157,6 @@ const Router = createBrowserRouter([
       <Suspense fallback={<Loading />} >
         <Wrapper>
           <Culture />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/demo",
-    element: (
-      <Suspense fallback={<Loading />} >
-        <Wrapper>
-          <AlHubDemo />
         </Wrapper>
       </Suspense>
     ),

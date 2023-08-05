@@ -8,6 +8,7 @@ import Navbar from "../Navbar";
 import Brompton from "./WorksFeatured/Brompton";
 import Mailchimp from "./WorksFeatured/Mailchimp";
 import Montblanc from "./WorksFeatured/Montblanc";
+import AlHubDemo from "./WorksFeatured/AlHubDemo";
 
 const WorkDetailed = () => {
   const { id } = useParams();
@@ -25,7 +26,7 @@ const WorkDetailed = () => {
   return (
     <>
       <Navbar />
-      {selectedWork && selectedWork.id === 1 && <Mailchimp />}
+      {selectedWork && selectedWork.id === 1 && <AlHubDemo /> }
       {selectedWork && selectedWork.id === 2 && <Brompton />}
       {selectedWork && selectedWork.id === 3 && <Montblanc />}
       <div style={{ background: colors, color: tcolors }}>

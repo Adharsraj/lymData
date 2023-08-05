@@ -1,23 +1,20 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-import Image1 from "../assets/Images/image1.jpg"
-import Image2 from "../assets/Images/image2.jpg"
-import Image3 from "../assets/Images/image3.jpg"
-import Image4 from "../assets/Images/image4.jpeg"
-import Image5 from "../assets/Images/image5.jpg"
-import Image6 from "../assets/Images/image6.jpg"
-import Image7 from "../assets/Images/image7.jpeg"
-import Image8 from "../assets/Images/image8.jpg"
-import Image9 from "../assets/Images/image9.jpg"
-import Image10 from "../assets/Images/image10.svg"
-import Image11 from "../assets/Images/image11.jpeg"
-import Image12 from "../assets/Images/image12.jpeg"
+import Image1 from "../../../assets/Images/image1.jpg"
+import Image2 from "../../../assets/Images/image2.jpg"
+import Image3 from "../../../assets/Images/image3.jpg"
+import Image4 from "../../../assets/Images/image4.jpeg"
+import Image5 from "../../../assets/Images/image5.jpg"
+import Image6 from "../../../assets/Images/image6.jpg"
+import Image7 from "../../../assets/Images/image7.jpeg"
+import Image8 from "../../../assets/Images/image8.jpg"
+import Image9 from "../../../assets/Images/image9.jpg"
+import Image10 from "../../../assets/Images/image10.svg"
+import Image11 from "../../../assets/Images/image11.jpeg"
+import Image12 from "../../../assets/Images/image12.jpeg"
 
 const AlHubDemo = () => {
   return (
     <>
-    <Navbar />
       <div className="max-w-screen-xl mx-auto p-4 font-dm mb-20 gap-8 ">
         <div className="mt-20 md:mt-32">
           <img src={Image1} alt="Image1" className='mx-auto md:w-2/3 lg:w-1/2" '/>
@@ -29,11 +26,6 @@ const AlHubDemo = () => {
               <p className='text-base md:text-lg lg:text-xl text-gray-500 mt-3'>
                 Gouter is a modern, simple to use Online QR-code Menu that allows customers to browse digital menu using their mobile devices. It gives possibility to guests not only to dine-in, but also reserve a table and make a pre-order.
               </p>
-              {/* <h3 className='text-base md:text-lg lg:text-xl mt-8 md:mt-10'>Project length &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 months</h3>
-              <h3 className='text-base md:text-lg lg:text-xl mt-3'>Sector &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Restaurant industry</h3>
-              <h3 className='text-base md:text-lg lg:text-xl mt-3'>Project Goal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create a product that will cover all processes of restaurant life cycle</h3>
-              <h3 className='text-base md:text-lg lg:text-xl mt-3'>Services &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              Product design, Brand strategy</h3> */}
 
               <div className='flex flex-wrap mt-10 md:mt-16 gap-6 md:gap-20'>
               <div className='font-bold text-xl md:text-2xl'>
@@ -250,7 +242,6 @@ const AlHubDemo = () => {
             
         </div>
         </div>
-      <Footer />
     </>
   )
 }
