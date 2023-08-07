@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { worksData } from "../../assets/Data/data";
 
 const SelectedWorks = () => {
-    const handleLinkClick = () => {
-        window.scrollTo(0, 0); // Scroll to the top of the page
-      };
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
   return (
     <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center  mb-20  gap-8 ">
       <h1 className="mt-10"></h1>
@@ -18,17 +18,15 @@ const SelectedWorks = () => {
             </span>
             <img className="w-[202px]" src={m.img} alt="chimp" />
             <Link key={m.id} to={`/works/${m.title}`} onClick={handleLinkClick}>
-            <div className="w-[132px] h-[63px]  mt-12 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform absolute top-[310px]">
-              <span className="flex justify-end">
-                <BsArrowRight size={30} />
-              </span>
-              <h1 className="flex justify-center">View Project</h1>
-            </div>
-
+              <div className="w-[132px] h-[63px]  mt-12 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform absolute top-[310px]">
+                <span className="flex justify-end">
+                  <BsArrowRight size={30} />
+                </span>
+                <h1 className="flex justify-center">View Project</h1>
+              </div>
             </Link>
-
           </div>
-          
+
           <div className="flex flex-col items-center justify-center">
             <h1 className="w-[290px] mt-14 mb-3 text-center  ">{m.mainhead}</h1>
             <h1 className="w-[290px] text-center border-b-2 border-b-slate-200">
@@ -43,7 +41,10 @@ const SelectedWorks = () => {
       ))}
 
       {worksData.map((m) => (
-        <div key={m.id} className="hidden md:grid md:grid-cols-3 font-times items-center ">
+        <div
+          key={m.id}
+          className="hidden md:grid md:grid-cols-3 font-times items-center "
+        >
           <div className="mt-24 w-[200px] lg:w-[300px] md:text-xl">
             <h1 className=" text-center border-b-2 border-b-slate-200 font-times ">
               {m.head1}
@@ -58,25 +59,33 @@ const SelectedWorks = () => {
             <span className="text-4xl mx-auto font-times mb-8 mt-10 lg:mt-20 lg:text-5xl">
               {m.title}
             </span>
-            <img className="lg:w-[400px] lg:h-[480px]" src={m.img} alt="chimp" />
+            <img
+              className="lg:w-[400px] lg:h-[480px]"
+              src={m.img}
+              alt="chimp"
+            />
             <Link key={m.id} to={`/works/${m.title}`} onClick={handleLinkClick}>
-                
-            {/* <div className="w-[132px] group hover:bg-gray-400 hover:text-black h-[63px] lg:w-[182px] lg:h-[84px] lg:text-lg mt-12 mb-6 bg-[#262626] text-white  transition-transform absolute top-[330px] md:top-[370px] lg:top-[560px]">
-              <span className="flex justify-end">
-                <BsArrowRight size={30} />
-              </span>
-              <h1 className="flex justify-center ">View Project</h1>
-            </div> */}
-             <div className='uibutton '>
+              <div className="w-[132px] group hover:bg-gray-400  lg:w-[182px] lg:h-[84px] lg:text-lg mt-12 mb-6 bg-[#262626] text-white  transition-transform absolute top-[330px] md:top-[370px] lg:top-[560px]">
+                <div className="uibutton ">
+                  <div className="coolBeans  " href="#">
+                    <span className="flex justify-end">
+                      <BsArrowRight size={30} />
+                    </span>
+                    <h1 className="flex justify-center text-lg ">
+                      View Project
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              {/* <div className='uibutton '>
 
 <div className="coolBeans  " href="#">
 <span className="flex justify-end">
                 <BsArrowRight size={30} />
               </span>
               <h1 className="flex justify-center text-lg ">View Project</h1></div>
-</div>
-                </Link>
-
+</div> */}
+            </Link>
           </div>
 
           <div>
@@ -86,7 +95,6 @@ const SelectedWorks = () => {
           </div>
         </div>
       ))}
-   
     </div>
   );
 };

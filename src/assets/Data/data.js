@@ -124,7 +124,7 @@ export const blogsData = [
 export const worksData = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/Images/works/new1_ueh680.webp",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1691392002/alhub_1_wvpdet.webp",
     head1: "5+ hours’ worth of educational content",
     head2: "10+ interactive activities",
     mainhead: "How we created Mailchimp Academy to upskill Mailchimp users",

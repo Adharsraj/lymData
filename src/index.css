@@ -588,13 +588,11 @@ span.two {
 }
 
 .coolBeans {
-  border: 2px solid currentColor;
   color: white;
   font-family: roboto;
-  font-size: 1rem;
   font-weight: 100;
   overflow: hidden;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2.3rem;
   position: relative;
   text-decoration: none;
   transition: 0.2s transform ease-in-out;
