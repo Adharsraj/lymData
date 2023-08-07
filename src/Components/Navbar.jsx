@@ -14,7 +14,7 @@ const NavbarNew = React.memo(() => {
     { path: "/", label: "Home" },
     { path: "/about", label: "About" },
     { path: "/blog", label: "Blogs" },
-    { path: "/careers", label: "Careers" },
+    // { path: "/careers", label: "Careers" },
     { path: "/works", label: "Works" },
     { path: "/services", label: "Services" },
     { path: "/culture", label: "Culture" },
