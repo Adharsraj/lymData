@@ -577,6 +577,62 @@ span.two {
 
 
 
+/* workspagebutton */
+
+.uibutton {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.coolBeans {
+  border: 2px solid currentColor;
+  color: white;
+  font-family: roboto;
+  font-size: 1rem;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+
+.coolBeans::after {
+  background-color: gray;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.coolBeans:hover::after {
+  transform: translate(0, 0);
+}
+
+.coolBeans:hover {
+  border: 2px solid transparent;
+  color: black;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+
+
+
+
 @layer base {
   @font-face {
     font-family: "Roboto";
