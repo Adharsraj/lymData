@@ -16,9 +16,9 @@ const SelectedWorks = () => {
             <span className="text-4xl mx-auto font-times mb-8 mt-10">
               {m.title}
             </span>
-            <img className="w-[202px]" src={m.img} alt="chimp" />
+            <img className="w-[202px] h-[280px]" src={m.img} alt="chimp" />
             <Link key={m.id} to={`/works/${m.title}`} onClick={handleLinkClick}>
-              <div className="w-[132px] h-[63px]  mt-12 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform absolute top-[310px]">
+              <div className="w-[132px] h-[63px]  mt-12 mb-6 bg-[#262626] text-white  transition-transform absolute top-[310px]">
                 <span className="flex justify-end">
                   <BsArrowRight size={30} />
                 </span>
