@@ -61,11 +61,11 @@ const SelectedWorks = () => {
             <img className="lg:w-[400px] lg:h-[480px]" src={m.img} alt="chimp" />
             <Link key={m.id} to={`/works/${m.title}`} onClick={handleLinkClick}>
                 
-            <div className="w-[132px] h-[63px] lg:w-[182px] lg:h-[84px] lg:text-lg mt-12 mb-6 bg-[#262626] text-white hover:-rotate-45 transition-transform absolute top-[330px] md:top-[370px] lg:top-[560px]">
+            <div className="w-[132px] group hover:bg-gray-400 hover:text-black h-[63px] lg:w-[182px] lg:h-[84px] lg:text-lg mt-12 mb-6 bg-[#262626] text-white  transition-transform absolute top-[330px] md:top-[370px] lg:top-[560px]">
               <span className="flex justify-end">
                 <BsArrowRight size={30} />
               </span>
-              <h1 className="flex justify-center">View Project</h1>
+              <h1 className="flex justify-center ">View Project</h1>
             </div>
                 </Link>
 
@@ -78,6 +78,7 @@ const SelectedWorks = () => {
           </div>
         </div>
       ))}
+   
     </div>
   );
 };

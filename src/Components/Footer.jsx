@@ -62,26 +62,26 @@ const FooterZipsy = () => {
               <div className="flex justify-between md:justify-around mt-8">
               <span
       onClick={() => window.open('https://www.facebook.com/lymdatalabs/', '_blank')}
-      className="border p-2 cursor-pointer hover:text-blue-800"
+      className="hover:border-blue-800 border p-2 cursor-pointer hover:text-blue-800"
     >
       <SlSocialFacebook />
     </span>
             <span
                   onClick={() => window.open('https://twitter.com/lymdata', '_blank')}
 
-            className="border p-2 cursor-pointer hover:text-blue-300">
+            className="hover:border-blue-300  border p-2 cursor-pointer hover:text-blue-300">
               <SlSocialTwitter />
             </span>
             <span
                   onClick={() => window.open('https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==', '_blank')}
 
-            className="border p-2 cursor-pointer hover:text-red-200">
+            className="hover:border-red-200 border p-2 cursor-pointer hover:text-red-200">
               <SlSocialInstagram />
             </span>
             <span
                   onClick={() => window.open('https://www.linkedin.com/company/lymdata-labs', '_blank')}
 
-            className="border p-2 cursor-pointer hover:text-blue-500">
+            className="hover:border-blue-500 border p-2 cursor-pointer hover:text-blue-500">
               <SlSocialLinkedin />
             </span>
               </div>
@@ -156,26 +156,26 @@ const FooterZipsy = () => {
           <div className="flex items-center gap-12">
           <span
       onClick={() => window.open('https://www.facebook.com/lymdatalabs/', '_blank')}
-      className="border p-2 cursor-pointer hover:text-blue-800"
+      className="hover:border-blue-800 border p-2 cursor-pointer hover:text-blue-800"
     >
       <SlSocialFacebook />
     </span>
             <span
                   onClick={() => window.open('https://twitter.com/lymdata', '_blank')}
 
-            className="border p-2 cursor-pointer hover:text-blue-300">
+            className="hover:border-blue-300  border p-2 cursor-pointer hover:text-blue-300">
               <SlSocialTwitter />
             </span>
             <span
                   onClick={() => window.open('https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==', '_blank')}
 
-            className="border p-2 cursor-pointer hover:text-red-200">
+            className="hover:border-red-200 border p-2 cursor-pointer hover:text-red-200">
               <SlSocialInstagram />
             </span>
             <span
                   onClick={() => window.open('https://www.linkedin.com/company/lymdata-labs', '_blank')}
 
-            className="border p-2 cursor-pointer hover:text-blue-500">
+            className="hover:border-blue-500 border p-2 cursor-pointer hover:text-blue-500">
               <SlSocialLinkedin />
             </span>
             {/* <span
