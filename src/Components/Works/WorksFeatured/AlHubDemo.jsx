@@ -17,22 +17,25 @@ import Vedio1 from "../../../assets/Images/vedio1.mp4"
 const AlHubDemo = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto p-4 font-dm mb-20 gap-8 ">
-        <div className="mt-20 md:mt-32">
+      <div className="font-dm">
+        <div className="">
+
 
         <div>
           <div className='flex justify-center '>
-            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-44    w-1/2 md:h-1/2 h-[200px]  "
+            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-72    w-1/2 md:h-1/2 h-[200px]  "
               autoPlay
               loop
               muted>
             </video>
-            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1691392824/WhatsApp_Image_2023-08-07_at_12.21.22_PM_xrwdwn.jpg" alt="Image14" className='mx-auto md:h-[60vh] md:w-4/5"'/>
+            <h1 className='absolute md:start-14 md:mt-32 mt-24 md:text-6xl text-3xl font-bold'>Obie</h1>
+            <h5 className='absolute md:mt-52 mt-36 md:start-14 md:text-2xl text-center'>Your personal, reproductive<br /> health coach</h5>
+            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1691392824/WhatsApp_Image_2023-08-07_at_12.21.22_PM_xrwdwn.jpg" alt="Image14" className='mx-auto md:h-[80vh] h-[60vh] md:w-screen'/>
 
           </div>
         </div>
 
-        <div className=" gap-4 item-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 mt-40 md:mt-24">
+        <div className=" gap-4 item-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 mt-24 md:mt-24">
             <div className='text-center md:text-left'>
               <div className="font-bold text-2xl md:text-4xl lg:text-6xl">Gouter</div>
               <h2 className='text-base md:text-xl lg:text-2xl mt-2'>Simple to use online QR-code menu</h2>
