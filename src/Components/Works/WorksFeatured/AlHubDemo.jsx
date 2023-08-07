@@ -177,7 +177,7 @@ const AlHubDemo = () => {
                 </div>
                 </div>
 
-                <div className='bg-gray-200 mt-14 p-4 sm:p-6 lg:p-8 my-14'>
+                <div className='bg-gray-200 mt-14 p-4 sm:p-6 lg:p-8 my-10'>
   <div className='max-w-screen-xl mx-auto '>
     <h2 className='font-bold text-xl mt-5 md:mt-5 md:text-2xl'>How we did it</h2>
     <div className='flex flex-col md:flex-row md:gap-10'>
