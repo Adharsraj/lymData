@@ -1,6 +1,4 @@
 import React from 'react'
-import Image1 from "../../../assets/Images/image1.jpg"
-import Image2 from "../../../assets/Images/image2.jpg"
 import Image3 from "../../../assets/Images/image3.jpg"
 import Image4 from "../../../assets/Images/image4.jpeg"
 import Image5 from "../../../assets/Images/image5.jpg"
@@ -11,8 +9,6 @@ import Image9 from "../../../assets/Images/image9.jpg"
 import Image10 from "../../../assets/Images/image10.svg"
 import Image11 from "../../../assets/Images/image11.jpeg"
 import Image12 from "../../../assets/Images/image12.jpeg"
-import Image14 from "../../../assets/Images/image14.jpg"
-import Vedio1 from "../../../assets/Images/vedio1.mp4"
  
 const AlHubDemo = () => {
   return (
@@ -23,7 +19,7 @@ const AlHubDemo = () => {
 
         <div>
           <div className='flex justify-center '>
-            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-72    w-1/2 md:h-1/2 h-[200px]  "
+            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-96  w-1/2 md:h-1/2 h-[200px]  "
               autoPlay
               loop
               muted>
@@ -37,7 +33,7 @@ const AlHubDemo = () => {
 
         <div className=" gap-4 item-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 mt-24 md:mt-24">
             <div className='text-center md:text-left'>
-              <div className="font-bold text-2xl md:text-4xl lg:text-6xl">Gouter</div>
+              <div className="font-bold text-2xl md:text-4xl lg:text-6xl">Al-Hub</div>
               <h2 className='text-base md:text-xl lg:text-2xl mt-2'>Simple to use online QR-code menu</h2>
               <h3 className='text-lg md:text-xl lg:text-2xl mt-3'>Overview</h3>
               <p className='text-base md:text-lg lg:text-xl text-gray-500 mt-3'>
@@ -63,14 +59,14 @@ const AlHubDemo = () => {
 
             
             <div className='mt-14 flex justify-center'>
-              <img src={Image2} alt="Image2" className='max-w-full h-auto' />
+              <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413400/LYMDATALABS/Pages/Works/image2_cijaav.jpg" alt="Image2" className='max-w-full h-auto' />
             </div>
 
             <div className='mt-14 text-center'>
                 <h2 className='font-bold text-2xl md:text-4xl lg:text-5xl'>Challenge</h2>
                 <h3 className='mt-5 text-xl md:text-2xl lg:text-2xl'>Improve the efficiency of the dining experience by allowing customers to view and order from the menu digitally, reducing the need for waitstaff and streamlining the order process.
                 </h3>
-                <img src={Image3} alt="Image3" className='mt-14'/>
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414147/LYMDATALABS/Pages/Works/image3_fra0my.jpg" alt="Image3" className='mt-14'/>
               
                 <div class="bg-gray-200 mt-14 p-4 sm:p-6 lg:p-8">
                 <div className='flex flex-col md:flex-row md:mt-7 md:gap-8'>
@@ -105,17 +101,17 @@ const AlHubDemo = () => {
                 </div>
                 
                 <div className='w-full md:w-[600px] mt-5 md:mt-0 md:order-2'>
-                <img src={Image4} alt="Image4" className='w-full h-[350px] object-cover'/>
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414148/LYMDATALABS/Pages/Works/image4_oamii7.jpg" alt="Image4" className='w-full h-[350px] object-cover'/>
                 </div>
                 </div>
               </div>
 
               <div className='flex flex-col lg:flex-row mt-14 gap-12 border-solid'>
                 <div className='lg:w-1/2'>
-                  <img src={Image5} alt="Image5" className='w-full' />
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414225/LYMDATALABS/Pages/Works/image5_da4to3.jpg" alt="Image5" className='w-full' />
                 </div>
                 <div className='lg:w-1/2'>
-                  <img src={Image6} alt="Image6" className='w-full' />
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414231/LYMDATALABS/Pages/Works/image6_xkzhfp.jpg" alt="Image6" className='w-full' />
                 </div>
               </div>
 
@@ -150,18 +146,18 @@ const AlHubDemo = () => {
                 </div>
                 
                 <div className='w-full md:w-[600px] mt-5 md:mt-0 md:order-2'>
-                <img src={Image7} alt="Image7" className='w-full h-[350px] object-cover'/>
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414237/LYMDATALABS/Pages/Works/image7_skfwjs.jpg" alt="Image7" className='w-full h-[350px] object-cover'/>
                 </div>
                 </div>
               </div>
               </div>
 
                 <div className='mt-14'>
-                  <img src={Image8} alt="Image8" />
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414244/LYMDATALABS/Pages/Works/image8_ufilz4.jpg" alt="Image8" />
                 </div>
 
                 <div className='mt-14'>
-                  <img src={Image9} alt="Image9" />
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414251/LYMDATALABS/Pages/Works/image9_v6kmnd.jpg" alt="Image9" />
                 </div>
 
                
@@ -176,13 +172,13 @@ const AlHubDemo = () => {
                 </h3>
                 </div>
                 
-                <img src={Image10} alt="Image10" className='mt-5 md:mt-10 w-full'/>
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414258/LYMDATALABS/Pages/Works/image10_auhtii.svg" alt="Image10" className='mt-5 md:mt-10 w-full'/>
                 </div>
                 </div>
                 </div>
 
-                <div className='bg-gray-200 mt-14 p-4 sm:p-6 lg:p-8'>
-  <div className='max-w-screen-xl mx-auto'>
+                <div className='bg-gray-200 mt-14 p-4 sm:p-6 lg:p-8 my-14'>
+  <div className='max-w-screen-xl mx-auto '>
     <h2 className='font-bold text-xl mt-5 md:mt-5 md:text-2xl'>How we did it</h2>
     <div className='flex flex-col md:flex-row md:gap-10'>
       <div className='md:w-1/2'>
@@ -238,7 +234,7 @@ const AlHubDemo = () => {
 </div>
 
                 
-                <div className='mt-16'>
+                {/* <div className='mt-16'>
                   <h2 className='font-bold text-4xl text-left'>Other projects</h2>
 
                   <div className='flex flex-col lg:flex-row mt-14 gap-12 border-solid'>
@@ -250,7 +246,7 @@ const AlHubDemo = () => {
                       <img src={Image12} alt="Image12" className='w-full'/>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
 
             </div>

@@ -14,10 +14,10 @@ const PageNotFound = () => {
     <h1 className='font-bold text-2xl md:text-4xl font-sans text-center'>Oops! Something went wrong.</h1>
     <h3 className='mt-5 text-lg md:text-xl text-center'>But don't worry, we've got you covered.</h3>
     
-    <img src={Image13} alt="Image13" className='mt-8 md:mt-16 w-full md:w-auto' />
+    <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg" alt="Image13" className='mt-8 md:mt-10 w-full md:w-auto' />
 
-    <Link to="/" className='mt-8'>
-      <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-full shadow mt-10">
+    <Link to="/" className='mt-5'>
+      <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-full shadow mt-5">
         JUST TAKE ME OUT OF HERE
       </button>
     </Link>

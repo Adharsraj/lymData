@@ -24,12 +24,28 @@ const FooterZipsy = () => {
             <div className="py-10">
               <input
                 type="email"
-                placeholder="lymdatalabs@gmail.com"
+                placeholder="email"
                 className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
               />
-              <button className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
+              {/* <button className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
                 Subscribe
-              </button>
+              </button> */}
+
+              <div className="flex xl:gap-1   gap-4 w-full md:w-[200px] items-center xl:w-[560px]">
+                <div className="flex  group/item hover:cursor-pointer ">
+                <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[100px] flex items-center h-10 bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br  transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
+                  Subscribe
+                </h1>
+                <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br ">
+                  <img
+                    className="lg:w-56"
+                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                    alt="Arrow Right"
+                  />
+                </h1>
+                </div>
+
+              </div>
             </div>
           </div>
           <div>
@@ -107,15 +123,25 @@ const FooterZipsy = () => {
               Design capital from <br /> obscurity to scale
             </h1>
 
-            <div className="py-10">
+            <div className="py-10 flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
               <input
                 type="email"
-                placeholder="lymdatalabs@gmail.com"
+                placeholder="email"
                 className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
               />
-              <button className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                Subscribe
-              </button>
+
+                <div className="flex  group/item hover:cursor-pointer ">
+                <h1 className="p-4 xl:w-[110px] text-base   rounded-full w-[120px] flex items-center h-10 bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
+                  Subscribe
+                </h1>
+                <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br">
+                  <img
+                    className="lg:w-56"
+                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                    alt="Arrow Right"
+                  />
+                </h1>
+                </div>
             </div>
           </div>
           <div className="flex justify-around gap-36">
