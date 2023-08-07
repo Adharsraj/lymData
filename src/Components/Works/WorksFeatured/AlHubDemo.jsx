@@ -11,14 +11,28 @@ import Image9 from "../../../assets/Images/image9.jpg"
 import Image10 from "../../../assets/Images/image10.svg"
 import Image11 from "../../../assets/Images/image11.jpeg"
 import Image12 from "../../../assets/Images/image12.jpeg"
-
+import Image14 from "../../../assets/Images/image14.jpg"
+import Vedio1 from "../../../assets/Images/vedio1.mp4"
+ 
 const AlHubDemo = () => {
   return (
     <>
       <div className="max-w-screen-xl mx-auto p-4 font-dm mb-20 gap-8 ">
         <div className="mt-20 md:mt-32">
-          <img src={Image1} alt="Image1" className='mx-auto md:w-2/3 lg:w-1/2" '/>
-        <div className=" gap-4 item-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 mt-8 md:mt-14">
+
+        <div>
+          <div className='flex justify-center '>
+            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-44    w-1/2 md:h-1/2 h-[200px]  "
+              autoPlay
+              loop
+              muted>
+            </video>
+            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1691392824/WhatsApp_Image_2023-08-07_at_12.21.22_PM_xrwdwn.jpg" alt="Image14" className='mx-auto md:h-[60vh] md:w-4/5"'/>
+
+          </div>
+        </div>
+
+        <div className=" gap-4 item-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 mt-40 md:mt-24">
             <div className='text-center md:text-left'>
               <div className="font-bold text-2xl md:text-4xl lg:text-6xl">Gouter</div>
               <h2 className='text-base md:text-xl lg:text-2xl mt-2'>Simple to use online QR-code menu</h2>
