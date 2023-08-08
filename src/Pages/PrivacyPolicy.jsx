@@ -1,7 +1,7 @@
 import React from "react";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import Footer from "../Components/FooterNew";
 
 const PrivacyPolicy = () => {
   UseDocumentTitle("LYM Data | PrivacyPolicy");

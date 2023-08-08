@@ -1,6 +1,6 @@
 import React from "react";
 import AllBlogs from "../Components/Blog/AllBlogs";
-import Footer from "../Components/Footer";
+import Footer from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 

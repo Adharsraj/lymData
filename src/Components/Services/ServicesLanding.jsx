@@ -85,8 +85,8 @@ const ServicesLanding = () => {
   return (
     <>
       {/* services */}
-      <div id="services" className="bg-[#282728]">
-        <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl mb-10 lg:mb-28 bg-[#282728] ">
+      <div id="services" className="bg-[#282728] overflow-hidden">
+        <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl mb-10 lg:mb-28 bg-[#282728] overflow-hidden ">
           <div className="mt-32  lg:mt-52 xl:mt-60 text-white text-5xl lg:text-6xl xl:w-full  xl:text-8xl  lg:mx-auto lg:w-[900px]">
             <h1>
               services
@@ -438,7 +438,7 @@ const ServicesLanding = () => {
               </div>
             </div>
 
-            <div className="hidden md:block mt-20 relative">
+            <div className="hidden md:block mt-20 relative overflow-hidden">
               <div className="flex justify-between xl:px-16 lg:px-5  align-middle items-center">
                 <h1 className="text-sm">approach</h1>
                 <h1 className="text-[38px] xl:text-[42px] hidden w-[600px] leading-10">
@@ -471,7 +471,7 @@ const ServicesLanding = () => {
                 </div>
               </Link>
               <img
-                className="hidden xl:flex absolute z-0 top-[240px] left-0 transform -translate-x-[160px] -translate-y-1/2 scale-110 opacity-70 filter invert"
+                className="hidden xl:flex absolute z-10 top-[150px] left-0 transform  scale-150 overflow-hidden   "
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
                 alt="img"
               />

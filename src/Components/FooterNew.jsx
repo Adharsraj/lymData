@@ -5,7 +5,7 @@ const FooterNew = () => {
 
   return (
     <>
-      <div className="hidden md:block max-w-[1640px]  mx-auto xl:px-32 md:px-16  font-dm  pb-10   md:text-xl bg-[#131313] text-white ">
+      <div className="hidden md:block max-w-[1640px]  mx-auto xl:px-32 md:px-16    pb-10   md:text-xl bg-[#131313] text-white ">
         <div className=" md:flex justify-between  border-b pb-10 pt-10">
           <div className="">
             <h3 className="mb-4">LymData</h3>
@@ -36,7 +36,7 @@ const FooterNew = () => {
                   type="text"
                   className="border rounded-sm md:rounded-full mb-2 p-2"
                 />
-                <button className="bg-gray-500 text-white rounded-sm md:rounded-full p-2">
+                <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-sm md:rounded-full p-2">
                   subscribe
                 </button>
               </div>
@@ -45,10 +45,10 @@ const FooterNew = () => {
           <div className="hidden lg:block">
       <label htmlFor="stay uptodate">Stay upto date</label>
       <div className="flex mt-3">
-        <div className="relative flex">
-          <input type="text" className="border rounded-full p-1 px-8" placeholder="Enter your email" />
+        <div className=" flex">
+          <input type="text" className="border text-black focus:outline-none rounded-full p-1 px-8" placeholder="Enter your email" />
           <button
-            className="bg-gray-500 w-28 text-white rounded-full p-1 ml-[-30px] relative overflow-hidden group"
+            className="bg-gradient-to-r from-indigo-400 to-cyan-400 w-28 text-white rounded-full p-1 ml-[-34px] border-1  overflow-hidden group"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
@@ -104,7 +104,7 @@ const FooterNew = () => {
                   type="text"
                   className="border rounded-full   md:rounded-full w-full mb-2 p-2"
                 />
-                <button className="bg-gray-500 text-white rounded-full md:rounded-full w-full p-2">
+                <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-full md:rounded-full w-full p-2">
                   subscribe
                 </button>
               </div>

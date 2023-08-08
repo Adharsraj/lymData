@@ -3,7 +3,7 @@ import BuildingTogether from "../Components/Culture/BuildingTogether";
 import Cultureandmore from "../Components/Culture/Cultureandmore";
 import FourCultures from "../Components/Culture/FourCultures";
 import Services from "../Components/Culture/Services";
-import FooterZipsy from "../Components/Footer";
+import FooterZipsy from "../Components/FooterNew";
 import NavbarNew from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 

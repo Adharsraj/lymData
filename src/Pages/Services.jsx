@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Footer from "../Components/Footer";
+import Footer from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import Approaches from "../Components/Services/Approaches";
 import ServicesEnd from "../Components/Services/ServicesEnd";

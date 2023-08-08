@@ -15,10 +15,10 @@ const NavbarNew = React.memo(() => {
   const navigationItems = [
     { path: "/", label: "Home" },
     // { path: "/about", label: "About" },
-    { path: "/culture", label: "About" },
-    { path: "/contact", label: "Contact" },
+    { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
     { path: "/works", label: "Works" },
+    { path: "/contact", label: "Contact" },
   ];
 
   const menuRef = useRef(null);
