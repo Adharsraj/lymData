@@ -12,45 +12,45 @@ const FooterNew = () => {
             <h3 className="mb-4 font-bold text-xl">LYMDATA</h3>
             <div className="md:flex gap-4 hidden ">
               <Link to="/about">
-                <h4 className="pb-1">About us</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
               </Link>
               <Link to="/works">
-                <h4 className="pb-1">Works</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
               </Link>
 
               <Link to="/careers">
-                <h4 className="pb-1">Careers</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
               </Link>
               <Link to="/services">
-                <h4 className="pb-1">Services</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
               </Link>
               <Link to="/blog">
-                <h4 className="pb-1">Blogs</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
               </Link>
             </div>
             <div className="md:hidden gap-4 flex justify-between ">
               <div>
                 <Link>
-                  <h4 className="pb-1">About us</h4>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
                 </Link>
                 <Link>
-                  <h4 className="pb-1">Works</h4>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
                 </Link>
               </div>
               <div>
                 <Link>
-                  <h4 className="pb-1">Careers</h4>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
                 </Link>
                 <Link>
-                  <h4 className="pb-1">Services</h4>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
                 </Link>
                 <Link to="/blgs">
-                  <h4 className="pb-1">Blogs</h4>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
                 </Link>
               </div>
             </div>
             <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
-              <label htmlFor="stay uptodate mb-5">Stay upto date</label>
+              <label htmlFor="stay uptodate mb-5" className="text-[#c1bfbf] ">Stay upto date</label>
               <div className="md:flex gap-3 mt-5">
                 <input
                   type="text"
@@ -63,7 +63,7 @@ const FooterNew = () => {
             </div>
           </div>
           <div className="hidden lg:block">
-            <label htmlFor="stay uptodate">Stay upto date</label>
+            <label htmlFor="stay uptodate" className=" ">Stay upto date</label>
             <div className="flex mt-3">
               <div className=" flex">
                 <input
@@ -85,28 +85,28 @@ const FooterNew = () => {
 
         <div className=" hidden md:flex justify-between lg:pt-10">
           <div>
-            <h3>2023 Lymdata.All rights reserved</h3>
+            <h3 className="text-[#c1bfbf] ">2023 Lymdata.All rights reserved</h3>
           </div>
           <div className="flex gap-10">
             <Link to="/terms">
-              <h4 className="pb-1">Terms</h4>
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Terms</h4>
             </Link>
             <Link to="/privacy">
-              <h4 className="pb-1">Privacy policy</h4>
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
             </Link>
           </div>
         </div>
         <div className="  md:hidden justify-between">
           <div className="flex gap-10">
             <Link to="/terms">
-              <h4 className="pb-1">Terms</h4>
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Terms</h4>
             </Link>
             <Link to="/privacy">
-              <h4 className="pb-1">Privacy policy</h4>
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
             </Link>
           </div>
           <div>
-            <h3 className="text mt-5">2023 Lymdata.All rights reserved</h3>
+            <h3 className="text mt-5 text-[#c1bfbf] ">2023 Lymdata.All rights reserved</h3>
           </div>
         </div>
       </div>
@@ -116,25 +116,25 @@ const FooterNew = () => {
           <div className="flex gap-28 mb-5 px-4">
             <div>
               <Link to="/about">
-                <h4 className="pb-1">About us</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
               </Link>
               <Link to="/works">
-                <h4 className="pb-1">Works</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
               </Link>
             </div>
             <div>
               <Link to="/careers">
-                <h4 className="pb-1">Careers</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
               </Link>
               <Link to="/services">
-                <h4 className="pb-1">Services</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
               </Link>
               <Link to="/blog">
-                <h4 className="pb-1">Blogs</h4>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
               </Link>
             </div>
           </div>
-          <label className="px-3 font-bold" htmlFor="sta ">
+          <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
             Stay upto date
           </label>
           <div className=" gap-3 mt-5 px-3 mb-5 border-b pb-6">
@@ -149,14 +149,14 @@ const FooterNew = () => {
           <div className=" justify-between px-3">
             <div className="flex gap-10">
               <Link to="/terms">
-                <h4>Terms</h4>
+                <h4 className="text-[#c1bfbf] hover:text-white">Terms</h4>
               </Link>
               <Link to="/privacy">
-                <h4>Privacy policy</h4>
+                <h4 className="text-[#c1bfbf] hover:text-white">Privacy policy</h4>
               </Link>
             </div>
             <div>
-              <h3 className="text mt-5 pb-5">
+              <h3 className="text mt-5 pb-5 text-[#c1bfbf] ">
                 2023 Lymdata.All rights reserved
               </h3>
             </div>
