@@ -1,14 +1,5 @@
 import React from 'react'
-import Image3 from "../../../assets/Images/image3.jpg"
-import Image4 from "../../../assets/Images/image4.jpeg"
-import Image5 from "../../../assets/Images/image5.jpg"
-import Image6 from "../../../assets/Images/image6.jpg"
-import Image7 from "../../../assets/Images/image7.jpeg"
-import Image8 from "../../../assets/Images/image8.jpg"
-import Image9 from "../../../assets/Images/image9.jpg"
-import Image10 from "../../../assets/Images/image10.svg"
-import Image11 from "../../../assets/Images/image11.jpeg"
-import Image12 from "../../../assets/Images/image12.jpeg"
+
  
 const AlHubDemo = () => {
   return (
@@ -18,15 +9,16 @@ const AlHubDemo = () => {
 
 
         <div>
-          <div className='flex justify-center '>
-            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-96  w-1/2 md:h-1/2 h-[200px]  "
+          <div className='flex justify-center   '>
+            <video src="https://res.cloudinary.com/db5gkedee/video/upload/v1691392819/WhatsApp_Video_2023-08-07_at_12.21.33_PM_idu7sn.mp4"  className="absolute md:right-10 md:top-72 top-72  border  md:w-1/2 md:h-1/2 h-[250px]  "
               autoPlay
               loop
               muted>
             </video>
             <h1 className='absolute md:start-14 md:mt-32 mt-24 md:text-6xl text-3xl font-bold'>Obie</h1>
             <h5 className='absolute md:mt-52 mt-36 md:start-14 md:text-2xl text-center'>Your personal, reproductive<br /> health coach</h5>
-            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1691392824/WhatsApp_Image_2023-08-07_at_12.21.22_PM_xrwdwn.jpg" alt="Image14" className='mx-auto md:h-[80vh] h-[60vh] md:w-screen'/>
+            <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1691392824/WhatsApp_Image_2023-08-07_at_12.21.22_PM_xrwdwn.jpg" alt="Image14" className='mx-auto hidden md:block md:h-[80vh] h-[60vh] md:w-screen'/>
+            <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691472934/LYMDATALABS/Pages/Works/M1-hero-image_1_w0j0hp.jpg" alt="imgsmall" className='md:hidden' />
 
           </div>
         </div>
@@ -34,7 +26,7 @@ const AlHubDemo = () => {
         <div className=" gap-4 item-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 mt-24 md:mt-24">
             <div className='text-center md:text-left'>
               <div className="font-bold text-2xl md:text-4xl lg:text-6xl">Al-Hub</div>
-              <h2 className='text-base md:text-xl lg:text-2xl mt-2'>Simple to use online QR-code menu</h2>
+              <h2 className='text-base md:text-xl lg:text-2xl mt-2'>Local Listing platform</h2>
               <h3 className='text-lg md:text-xl lg:text-2xl mt-3'>Overview</h3>
               <p className='text-base md:text-lg lg:text-xl text-gray-500 mt-3'>
                 Gouter is a modern, simple to use Online QR-code Menu that allows customers to browse digital menu using their mobile devices. It gives possibility to guests not only to dine-in, but also reserve a table and make a pre-order.
