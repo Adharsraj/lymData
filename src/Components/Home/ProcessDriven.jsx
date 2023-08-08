@@ -1,38 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import { Suspense } from "react";
-import Sphere from "../../Components/Home/AnimatedSphere";
-import MySpline3D from "./MySpline3D";
-import giff from '../../assets/gif/ezgif.com-gif-maker.gif'
+
 const ProcessDrivendhn = () => {
   return (
     <div className="bg-[#BEBDBE] relative">
       <div className="max-w-[1640px] relative bg-[#BEBDBE]   mx-auto  font-dm  md:text-xl overflow-hidden ">
-       
-      <div className="absolute inset-0 flex items-center justify-center">
-          {/* <Wrapper className="ProcessDriven">
-            <Canvas className="canvas">
-              <OrbitControls enableZoom={false} />
-              <ambientLight intensity={0.5} />
-              <directionalLight position={[-2, 5, 2]} intensity={1} />
-              <Suspense fallback={null}>
-                <Sphere />
-              </Suspense>
-            </Canvas>
-          </Wrapper> */}
-{/* <MySpline3D/> */}
-<img  src="https://media0.giphy.com/media/FmdBsEzxhbmlW/giphy.gif?cid=ecf05e47n43qccx2nxq7kkij71iweye2pzbkem4ncjjyx4f5&ep=v1_gifs_related&rid=giphy.gif&ct=s" className="scale-150 opacity-60"  />
-{/* <img src={giff} alt="gif" className="scale-150"  /> */}
-      </div>
-
-      {/* <div class="absolute inset-0 flex items-center justify-center">
-    <video className="scale-110" src="https://res.cloudinary.com/db5gkedee/video/upload/v1690813223/globeball_bw7ogt.mp4" autoPlay
-          loop
-          muted></video>
-</div> */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414521/LYMDATALABS/Pages/Home/giphy_2_udzb4u.webp"
+            className="scale-150 opacity-60"
+          />
+        </div>
 
         <div className="">
           <div className="  flex flex-between">
@@ -52,26 +30,6 @@ const ProcessDrivendhn = () => {
           </div>
 
           <div className="">
-
-            {/* <div
-    className=" hidden md:block   absolute top-0 left-0 md:scale-90  md:w-full md:h-full mt-6 z-0"
-    style={{
-      backgroundImage:
-        'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690288787/WhatsApp_Image_2023-07-25_at_6.00.10_PM_wfnksq.jpg")',
-      backgroundPosition: 'center',
-      opacity: 0.8, 
-    }}
-  ></div>
-            <div
-    className=" md:hidden   absolute top-[-90px] left-0 scale-150  w-full h-full mt-6 z-0"
-    style={{
-      backgroundImage:
-        'url("https://res.cloudinary.com/db5gkedee/image/upload/v1690525823/Screen_Shot_2023-07-28_at_11.25.27_AM_j1lsiv.png")',
-      backgroundPosition: 'center',
-      opacity: 0.8, 
-    }}
-  ></div> */}
-
             {/* Text Content */}
             <div className="relative z-10">
               <div className="hidden md:block text-white">
@@ -84,7 +42,7 @@ const ProcessDrivendhn = () => {
                 <div className="flex items-center justify-around text-[100px] xl:text-[200px] xl:mt-32 lg:text-[140px] mt-14 lg:mt-20 ">
                   <img
                     className="lg:w-20 hover:animate-spin"
-                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                     alt="imgsmallviewstar "
                     style={{ animationDuration: "3s" }}
                   />
@@ -97,23 +55,21 @@ const ProcessDrivendhn = () => {
 
           <div className="hidden relative   md:flex text-white mt-32 xl:ml-20  justify-between md:items-center w-[600px] xl:w-[900px] lg:mb-16 ">
             <h1 className="">Fields of expertise </h1>
-              <div className="flex   xl:gap-1  gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
-            <Link to="/services">
-              <div className="flex group">
-
-                <h1 className="p-4  xl:w-[160px] flex text-center items-center justify-center lg:w-[160px] lg:h-10 rounded-full w-[220px] bg-[#000] transition-all duration-300  transform group-hover:-translate-x-[-56px]">
-                  What we do
-                </h1>
-                <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#000]">
-                  <img
-                    className="lg:w-56"
-                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
-                  />
-                </h1>
+            <div className="flex   xl:gap-1  gap-4 w-[200px] justify-end md:w-[200px]  items-center xl:w-[560px] ">
+              <Link to="/services">
+                <div className="flex group">
+                  <h1 className="p-4  xl:w-[160px] flex text-center items-center justify-center lg:w-[160px] lg:h-10 rounded-full w-[220px] bg-[#000] transition-all duration-300  transform group-hover:-translate-x-[-56px]">
+                    What we do
+                  </h1>
+                  <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#000]">
+                    <img
+                      className="lg:w-56"
+                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                    />
+                  </h1>
                 </div>
-
-            </Link>
-              </div>
+              </Link>
+            </div>
           </div>
 
           <div className="md:hidden font-helvetica relative text-white text-6xl">
@@ -124,7 +80,7 @@ const ProcessDrivendhn = () => {
             <div className=" md: items-center flex gap-2 justify-center">
               <img
                 className="hover:animate-spin w-10"
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 alt="imgsmallviewstar "
                 style={{ animationDuration: "3s" }}
               />
@@ -144,21 +100,17 @@ const ProcessDrivendhn = () => {
               create successfully engage, delight, and convert people.
             </h1>
             <Link to="/services">
-
-
-            <div className="flex gap-4 w-[200px] xl:w-[560px] mx-auto">
-              <h1 className="text-center p-2 mt-10 rounded-full w-[220px] bg-[#000] transition-all ">
-                What we do
-              </h1>
-              <h1 className="p-2 mt-10 flex items-center rounded-full text-white w-[40px] bg-[#000]">
-                <img
-                  className=""
-                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
-                />
-              </h1>
-            </div>
+              <div className="flex gap-4 w-[200px] xl:w-[560px] mx-auto">
+                <h1 className="text-center p-2 mt-10 rounded-full w-[220px] bg-[#000] transition-all ">
+                  What we do
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full text-white w-[40px] bg-[#000]">
+                  <img
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                  />
+                </h1>
+              </div>
             </Link>
-
           </div>
 
           <div className="z-10 relative mx-0 md:mx-0 ">
@@ -176,13 +128,6 @@ const ProcessDrivendhn = () => {
   );
 };
 
-const Wrapper = styled.div`
-  position: relative;
-  background: #bcbcbc;
 
-  canvas {
-    height: 90vh;
-  }
-`;
 
 export default ProcessDrivendhn;

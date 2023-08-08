@@ -41,7 +41,7 @@ const ServicesEnd = () => {
                 </h1>
                 <img
                   className="absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10"
-                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg"
+                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
                   alt=""
                 />
               </div>
@@ -75,7 +75,7 @@ const ServicesEnd = () => {
               </h1>
               <img
                 className="absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10"
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
                 alt=""
               />
             </div>

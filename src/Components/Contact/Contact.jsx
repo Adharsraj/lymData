@@ -13,7 +13,7 @@ const Contact = () => {
                 Get in touch
               </h1>
               <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
-                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
               </h1>
             </div>
             <div></div>
@@ -53,34 +53,7 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-        {/* <div className="md:px-16 xxl:px-28 mt-20 lg:mb-16  ">
-          <div className="lg:border border-black h-96 rounded-ss-3xl rounded-ee-3xl ">
-            <div className="flex flex-col items-center text-center justify-around align-middle">
-              <h1 className="text-3xl mb-4 mt-4">our services</h1>
-              <h1 className="text-sm mb-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Necessitatibus, esse!
-              </h1>
-              <div className="flex w-full justify-between xxl:justify-center lg:px-2   gap-1 lg:gap-10 mt-10">
-              <div className=" bg-white  px-4 lg:p-12 lg:px-14 lg:rounded-3xl">
-                 <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690262029/digital-transformation_ui58a6.png" alt="" srcset="" />
-                  <h1>text for it </h1>
-                </div>
-                <div className=" bg-white  px-4 lg:p-12 lg:px-14 lg:rounded-3xl">
-                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690262029/business_solutions_gatadh.png" alt="" srcset="" />
-
-                  <h1>text for it </h1>
-                </div>
-                <div className=" bg-white  px-4 lg:p-12 lg:px-14 lg:rounded-3xl">
-                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690262029/design_engeniering_sjlecv.png" alt="" srcset="" />
-
-                  <h1>text for it </h1>
-                </div>
-              </div>
-            </div>
-          
-          </div>
-        </div> */}
+       
       </div>
     </div>
   );

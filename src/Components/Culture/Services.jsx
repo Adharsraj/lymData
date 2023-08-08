@@ -10,7 +10,7 @@ const Services = () => {
               <h1>services</h1>
               <img
                 className="hover:animate-spin"
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 alt=""
                 style={{ animationDuration: "3s" }}
               />
@@ -29,7 +29,7 @@ const Services = () => {
               Dive into our Services
             </h1>
             <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[50px] bg-[#282728]">
-              <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+              <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
             </h1>
           </div>
 
@@ -42,7 +42,7 @@ const Services = () => {
               </h1>
               <img
                 className="hover:animate-spin"
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 alt=""
                 style={{ animationDuration: "3s" }}
               />
@@ -60,12 +60,12 @@ const Services = () => {
                 Lets build together
               </h1>
               <h1 className="p-2  flex items-center rounded-full w-[40px] bg-[#282728] ">
-                <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
               </h1>
             </div>
             <img
               className="hidden xl:flex absolute -z-10 top-0 scale-150"
-              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187560/assets/assets%20%283%29/lines_rnz7i6.png"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418193/LYMDATALABS/Pages/Culture/lines_rnz7i6_ey9ikb.png"
               alt="img"
             />
           </div>

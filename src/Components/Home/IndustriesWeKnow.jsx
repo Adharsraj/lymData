@@ -28,7 +28,12 @@ const IndustriesWeknowdhn = () => {
           <h2 className="text-7xl lg:mb-10 lg:text-8xl xl:text-[190px] font-bold">
             experi <br /> ence
           </h2>
-          <img onClick={withinseven} className="lg:ml-20 cursor-pointer animate-bounce" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_41_bkjksi.svg" alt="" />
+          <img
+            onClick={withinseven}
+            className="lg:ml-20 cursor-pointer animate-bounce"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
+            alt=""
+          />
         </div>
 
         <div
@@ -37,7 +42,7 @@ const IndustriesWeknowdhn = () => {
         >
           <video
             className="w-full h-full object-cover filter"
-            src="https://res.cloudinary.com/db5gkedee/video/upload/v1690187577/assets/Videos/home-phones_gkoiuf.mp4"
+            src="https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1691413588/LYMDATALABS/Pages/Home/home-phones_gkoiuf_s03eip.mp4"
             autoPlay
             loop
             muted
@@ -48,7 +53,7 @@ const IndustriesWeknowdhn = () => {
         <div className="col-span-3 md:col-span-1">
           <img
             className="lg:mt-[-90px] lg:mb-20 hover:animate-spin"
-            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
             alt="star"
             style={{ animationDuration: "3s" }}
           />

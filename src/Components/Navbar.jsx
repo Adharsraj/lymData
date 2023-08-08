@@ -1,23 +1,24 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TimelineMax, Expo } from "gsap";
-import { BsFacebook } from "react-icons/bs";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaTwitter } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import gsap from "gsap";
-import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin, SlSocialTwitter } from "react-icons/sl";
+import {
+  SlSocialFacebook,
+  SlSocialInstagram,
+  SlSocialLinkedin,
+  SlSocialTwitter,
+} from "react-icons/sl";
 
 const NavbarNew = React.memo(() => {
   const location = useLocation();
 
   const navigationItems = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/blog", label: "Blogs" },
-    // { path: "/careers", label: "Careers" },
-    { path: "/works", label: "Works" },
+    // { path: "/about", label: "About" },
+    { path: "/culture", label: "About" },
+    { path: "/contact", label: "Contact" },
     { path: "/services", label: "Services" },
-    { path: "/culture", label: "Culture" },
+    { path: "/works", label: "Works" },
   ];
 
   const menuRef = useRef(null);
@@ -95,9 +96,6 @@ const NavbarNew = React.memo(() => {
     };
   }, []);
 
-
-
-
   const handleScroll = () => {
     if (window.scrollY > 0) {
       setScrolling(true);
@@ -109,8 +107,7 @@ const NavbarNew = React.memo(() => {
     setMenuopen(!menuopen);
   };
 
-  const navbarBgColor =
-    !menuopen && scrolling ? "bg-[#fff]" : "bg-transparent";
+  const navbarBgColor = !menuopen && scrolling ? "bg-[#fff]" : "bg-transparent";
 
   return (
     <>
@@ -125,7 +122,7 @@ const NavbarNew = React.memo(() => {
               <img
                 id="logo"
                 className="lg:w-[106px]    lg:h-[80px] md:w-16 w-24 "
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
                 alt="companylogo"
               />{" "}
             </Link>
@@ -139,7 +136,10 @@ const NavbarNew = React.memo(() => {
             onClick={menu}
             className="w-20  h-12     cursor-pointer  flex align-midde items-center  py-2 px-2 "
           >
-            <span  className="one px-2 mb-2 w-12   bg-gray-500" ref={oneRef}></span>
+            <span
+              className="one px-2 mb-2 w-12   bg-gray-500"
+              ref={oneRef}
+            ></span>
             <span className="two w-10  bg-gray-500" ref={twoRef}></span>
           </div>
         </div>
@@ -166,44 +166,61 @@ const NavbarNew = React.memo(() => {
               <div className="text-white md:text-2xl mt-10 px-10">
                 <ul>
                   <li className="lg:mb-5 text-[#646060] hover:text-white ">
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/blog">Blogs</Link>
                   </li>
                   <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/privacy">Privacy & legal</Link>
                   </li>
                   <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 text-[#646060] hover:text-white ">
-                    <Link className="lg:mb-5 mb-5" to="/terms">Terms & Conditions</Link>
-                    </li>
-<li>
-
+                    <Link className="lg:mb-5 mb-5" to="/terms">
+                      Terms & Conditions
+                    </Link>
+                  </li>
+                  <li>
                     <div className="flex gap-2 lg:gap-14">
-                    <span
-      onClick={() => window.open('https://www.facebook.com/lymdatalabs/', '_blank')}
-      className="  cursor-pointer text-[#646060] hover:text-white"
-    >
-      <SlSocialFacebook />
-    </span>
-            <span
-                  onClick={() => window.open('https://twitter.com/lymdata', '_blank')}
-
-            className="  cursor-pointer text-[#646060] hover:text-white">
-              <SlSocialTwitter />
-            </span>
-            <span
-                  onClick={() => window.open('https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==', '_blank')}
-
-            className="  cursor-pointer text-[#646060] hover:text-white">
-              <SlSocialInstagram />
-            </span>
-            <span
-                  onClick={() => window.open('https://www.linkedin.com/company/lymdata-labs', '_blank')}
-
-            className="  cursor-pointer text-[#646060] hover:text-white">
-              <SlSocialLinkedin />
-            </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.facebook.com/lymdatalabs/",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white"
+                      >
+                        <SlSocialFacebook />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open("https://twitter.com/lymdata", "_blank")
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white"
+                      >
+                        <SlSocialTwitter />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white"
+                      >
+                        <SlSocialInstagram />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.linkedin.com/company/lymdata-labs",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white"
+                      >
+                        <SlSocialLinkedin />
+                      </span>
                     </div>
-                    </li>
-
+                  </li>
                 </ul>
               </div>
             </div>

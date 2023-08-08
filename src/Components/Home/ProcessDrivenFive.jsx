@@ -18,7 +18,7 @@ const ProcessDrivenFive = () => {
                   <h1 className="md:text-lg text-2xl  mx-auto text-white group-hover:text-black font-semibold   lg:w-[78%] ">{m.head1}</h1>
                   <div className="w-4/5  mx-auto">
                   <h1 className="p-3 md:invisible     mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[40px] xl:h-8 xl:w-[50px] bg-[#282728]">
-                    <img className="lg:w-5 " src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg" />
+                    <img className="lg:w-5 " src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
                   </h1>
                   </div>
                   <h1 className=" w-4/5   mx-auto md:text-transparent group-hover:text-black">
@@ -47,7 +47,7 @@ const ProcessDrivenFive = () => {
                    <h1 className="p-2 md:invisible     mt-5 mb-5 group-hover:visible rounded-full text-white flex text-center items-center w-[33px] xl:h-8 xl:w-[50px] bg-[#E3E3E3]">
                   <h2 className="text-black"><BsArrowRight/></h2>
                    </h1>
-                   <h1 className="     mx-auto md:text-transparent group-hover:text-black">
+                   <h1 className="mx-auto md:text-transparent group-hover:text-black">
                      {m.head2}
                    </h1>
                    </div>

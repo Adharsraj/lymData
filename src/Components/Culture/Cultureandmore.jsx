@@ -41,7 +41,7 @@ const Cultureandmore = () => {
             <div className="flex justify-between align-middle items-center">
               <h1>Culture @ LYM</h1>
               <img
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 className="invisible"
                 alt=""
               />
@@ -74,7 +74,7 @@ const Cultureandmore = () => {
               </h1>
               <img
                 className=" hover:animate-spin invisible"
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 alt=""
                 style={{ animationDuration: "3s" }}
               />
@@ -84,21 +84,21 @@ const Cultureandmore = () => {
 
         <div className="md:grid md:mt-20 mt-10 md:grid-cols-2 ">
           <img
-            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_4_udsfcg.jpg"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417461/LYMDATALABS/Pages/Culture/asset_4_udsfcg_dzpltd.jpg"
             className="md:mt-40 md:ml-0 lg:h-[700px] md:w-[300px] lg:w-[400px] ml-20 lg:ml-12"
             alt=""
             srcset=""
           />
           <div className="">
             <img
-              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187565/assets/assets%20%283%29/asset_5_ierey2.jpg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417519/LYMDATALABS/Pages/Culture/asset_5_ierey2_cqluoa.jpg"
               className="mt-10 ml-[-30px] md:ml-10 "
               alt=""
               srcset=""
             />
             <div className=" md:ml-10 xxl:gap-6 lg:mt-14 lg:flex lg:gap-3 lg:items-center">
               <img
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187567/assets/assets%20%283%29/asset_33_b9ifoq.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417569/LYMDATALABS/Pages/Culture/asset_33_b9ifoq_asto4x.svg"
                 className="mt-10 mb-10 "
                 alt="gjj"
               />
@@ -110,7 +110,7 @@ const Cultureandmore = () => {
             </div>
             <div className="md:ml-10 lg:mt-14 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
               <img
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187575/assets/assets%20%283%29/asset_34_xw8ije.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417611/LYMDATALABS/Pages/Culture/asset_34_xw8ije_i7wiln.svg"
                 className="mb-10 mt-10"
                 alt=""
                 srcset=""
@@ -128,7 +128,7 @@ const Cultureandmore = () => {
           <div>
             <div className="lg:flex lg:gap-3 xxl:gap-6 lg:ml-10 lg:items-center lg:mt-52">
               <img
-                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187580/assets/assets%20%283%29/asset_35_rrxuyo.svg"
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417648/LYMDATALABS/Pages/Culture/asset_35_rrxuyo_ptdgpo.svg"
                 className="mb-10 mt-10"
                 alt=""
               />
@@ -158,9 +158,8 @@ const Cultureandmore = () => {
 
           <div>
             <img
-              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187556/assets/assets%20%283%29/asset_6_rq5v6i.jpg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417702/LYMDATALABS/Pages/Culture/asset_6_rq5v6i_rarnio.jpg"
               className="ml-14 lg:ml-10 md:ml-0 md:mt-40  mt-10"
-              alt=""
             />
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 import Blog1 from "../../Components/Blog/BlogComponents/Blog1";
 import Blog2 from "../../Components/Blog/BlogComponents/Blog2";
 import Blog3 from "../../Components/Blog/BlogComponents/Blog3";
@@ -58,7 +57,7 @@ export const whyLymData = [
 export const blogsData = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img1_zyhhcu.png",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416755/LYMDATALABS/Pages/Blog/img1_zyhhcu_tv2sns.png",
     Time: "7 min read",
     By: "Alex Bechor",
     more: Blog1,
@@ -69,7 +68,7 @@ export const blogsData = [
 
   {
     id: 2,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img7_fptpmq.png",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416755/LYMDATALABS/Pages/Blog/img7_fptpmq_jhpsq3.png",
     Time: "5 min read",
     By: "Ann Maria",
     more: Blog2,
@@ -80,7 +79,7 @@ export const blogsData = [
 
   {
     id: 3,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img3_j9rxo4.jpg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416755/LYMDATALABS/Pages/Blog/img3_j9rxo4_cl6vv3.jpg",
     Time: "2 min read",
     By: "Alexander Dimitri",
     more: Blog3,
@@ -91,7 +90,7 @@ export const blogsData = [
 
   {
     id: 4,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187558/assets/Images/blog%20img/img4_mo2z2e.jpg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416755/LYMDATALABS/Pages/Blog/img4_mo2z2e_b9awcx.jpg",
     Time: "8 min read",
     By: "Pablo john",
     more: Blog4,
@@ -101,7 +100,7 @@ export const blogsData = [
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187558/assets/Images/blog%20img/img5_bznh2i.jpg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416755/LYMDATALABS/Pages/Blog/img5_bznh2i_zm1svm.jpg",
     Time: "6 min read",
     By: "Roony elizabeth",
     more: Blog5,
@@ -111,7 +110,7 @@ export const blogsData = [
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187559/assets/Images/blog%20img/img7_fptpmq.png",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416755/LYMDATALABS/Pages/Blog/img7_fptpmq_jhpsq3.png",
     Time: "4 min read",
     By: "Alexander Williams",
     more: Blog6,
@@ -241,8 +240,7 @@ export const productDrivenDesign = [
   {
     id: 5,
     head1: "Conversion Rate Optimization",
-    head2:
-      "space to product development for outstanding digital experiences. ",
+    head2: "space to product development for outstanding digital experiences. ",
   },
 ];
 
@@ -250,79 +248,89 @@ export const sevenIndustries = [
   {
     id: 1,
     head1: "E-commerce  ",
-     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/E-commerce_fr8gu6.webp",
-    head2:"Maximize your online sales and customer satisfaction with our data-driven solutions tailored for the ever-evolving e-commerce landscape."
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/E-commerce_fr8gu6.webp",
+    head2:
+      "Maximize your online sales and customer satisfaction with our data-driven solutions tailored for the ever-evolving e-commerce landscape.",
   },
 
   {
     id: 2,
     head1: "Finance and Banking    ",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Finance_and_Banking_kssz3a.webp",
-    head2:" Drive informed decisions and gain a competitive edge in the financial world with our powerful data analytics tools and expertise."
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Finance_and_Banking_kssz3a.webp",
+    head2:
+      " Drive informed decisions and gain a competitive edge in the financial world with our powerful data analytics tools and expertise.",
   },
 
   {
     id: 3,
     head1: "Healthcare",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Healthcare_apc3ha.webp",
-    head2:"Empower your healthcare organization with data-driven insights to enhance patient outcomes and streamline operations for a healthier future."
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Healthcare_apc3ha.webp",
+    head2:
+      "Empower your healthcare organization with data-driven insights to enhance patient outcomes and streamline operations for a healthier future.",
   },
   {
     id: 4,
     head1: "Travel and Hospitality     ",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Travel_and_Hospitality_zwmvvt.webp",
-    head2:"Transform your travel business by harnessing the power of data to deliver personalized experiences and exceed customer expectations."
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Travel_and_Hospitality_zwmvvt.webp",
+    head2:
+      "Transform your travel business by harnessing the power of data to deliver personalized experiences and exceed customer expectations.",
   },
   {
     id: 5,
     head1: "Retail",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Retail_xldndr.webp",
-    head2:"Stay ahead in the dynamic retail industry by unlocking valuable data-driven insights that fuel growth and foster lasting customer relationships."
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690190509/webp/Retail_xldndr.webp",
+    head2:
+      "Stay ahead in the dynamic retail industry by unlocking valuable data-driven insights that fuel growth and foster lasting customer relationships.",
   },
   {
     id: 6,
     head1: "Entertainment",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Entertainment_vbj4et.webp",
-    head2:"Unleash the potential of data analytics to captivate audiences, optimize content, and revolutionize the entertainment experience."
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690190510/webp/Entertainment_vbj4et.webp",
+    head2:
+      "Unleash the potential of data analytics to captivate audiences, optimize content, and revolutionize the entertainment experience.",
   },
- 
 ];
 
-
- export const accordionData = [
+export const accordionData = [
   {
-    title: 'How much does it cost to build an app? ',
-    content: "It’s not possible to quote a single monetary amount. Building a mobile app depends on many factors, from scope to budget. To estimate costs, request a project estimation.    "
+    title: "How much does it cost to build an app? ",
+    content:
+      "It’s not possible to quote a single monetary amount. Building a mobile app depends on many factors, from scope to budget. To estimate costs, request a project estimation.    ",
   },
   {
-    title:"How long does a web development project take to complete? " ,
-    content: "That depends on the type and complexity of your project. Weeks 1-2 involve planning and organization. This is followed by the graphic design phase, which can take another two weeks. ",
+    title: "How long does a web development project take to complete? ",
+    content:
+      "That depends on the type and complexity of your project. Weeks 1-2 involve planning and organization. This is followed by the graphic design phase, which can take another two weeks. ",
   },
   {
-    title: "What essential features must a real estate website or app have?    ",
-    content: "Based on the analysis of top real estate websites, the core features should include a registration page, search filters, listings, maps, local infos, payments and a calendar.  ",
+    title:
+      "What essential features must a real estate website or app have?    ",
+    content:
+      "Based on the analysis of top real estate websites, the core features should include a registration page, search filters, listings, maps, local infos, payments and a calendar.  ",
   },
   {
-    title:"How long does it take to build a product?    " ,
-    content: "That depends on the complexity of your app and the structure and stage of your project. Each stage takes a different amount of time, so if you’ve already completed some stages, such as writing the project brief and conducting research, it’ll take less time. It can take anywhere between three and nine months to go from idea to launch, but with a team of full-stack developers and experts we can make sure you lose no time in getting your mobile app to market.    ",
+    title: "How long does it take to build a product?    ",
+    content:
+      "That depends on the complexity of your app and the structure and stage of your project. Each stage takes a different amount of time, so if you’ve already completed some stages, such as writing the project brief and conducting research, it’ll take less time. It can take anywhere between three and nine months to go from idea to launch, but with a team of full-stack developers and experts we can make sure you lose no time in getting your mobile app to market.    ",
   },
   {
-    title: "How much does it cost to hire a Artificial Intelligence portal development company?    ",
-    content: "The price depends on the complexity of the projects you want to see. A project with a unique design, custom layout and complex features may cost upwards around $50,000. A more straight forward application that includes everything from design to code may cost 23,000 - 25,000 USD.    ",
+    title:
+      "How much does it cost to hire a Artificial Intelligence portal development company?    ",
+    content:
+      "The price depends on the complexity of the projects you want to see. A project with a unique design, custom layout and complex features may cost upwards around $50,000. A more straight forward application that includes everything from design to code may cost 23,000 - 25,000 USD.    ",
   },
   {
-    title:"Why do I need a UX designer?" ,
-    content: "By hiring a UX specialist, you can avoid failed investments in developing features that are not relevant to your users and shift your efforts to developing only features that make sense for them. This allows you to limit costs and increase your profitability.    ",
+    title: "Why do I need a UX designer?",
+    content:
+      "By hiring a UX specialist, you can avoid failed investments in developing features that are not relevant to your users and shift your efforts to developing only features that make sense for them. This allows you to limit costs and increase your profitability.    ",
   },
-
 ];
-
 
 export const fourCultures = [
   {
     id: 1,
     head1: "Curiosity    ",
-     img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_38_yz6gqj.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_38_yz6gqj_kapx57.svg",
     head2:
       "Always on the lookout for what’s out there, what lies beyond, the reasons and workings behind things, curiosity is a core fiber in everyone at DH. We make it a point to nurture curiosity in our day to day, as it creates the conditions for innovation and helps us handle uncertainty and keep our inventiveness sharp.      ",
   },
@@ -330,7 +338,7 @@ export const fourCultures = [
   {
     id: 2,
     head1: "Adaptability   ",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_39_azl9yl.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_39_azl9yl_ip1mhx.svg",
     head2:
       "Light on our feet, we strive to be as nimble as possible, ready to pivot as we incorporate new information. That reflects on the freshness of the work we deliver, on how we organize our teams, and how we approach everything from hiring to exploring new spaces.      ",
   },
@@ -338,16 +346,15 @@ export const fourCultures = [
   {
     id: 3,
     head1: "  Collaboration ",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/assets%20%283%29/asset_40_bin1o9.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_40_bin1o9_udedo7.svg",
     head2:
       "Building great teams is at the heart of the way DH operates, and we have a long tradition of organizing our work around cooperation, partnerships and interdisciplinary exchange. Over years of exploring various industries, we have learned to incorporate diverse perspectives early on in everything we do.      ",
   },
   {
     id: 4,
     head1: " Sustainability  ",
-    img:"https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/assets%20%283%29/asset_41_hferql.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_41_hferql_lqmruu.svg",
     head2:
       "Before anything else, DH is an ecosystem. We have always had clarity about the fact that we are a part of something bigger, and that we nurture from it every bit as much as it is our responsibility to take good care of our surroundings. The only way to be consistent in our effort to co-create the future, is to also create the conditions for that future to be a better version of today.      ",
   },
- 
 ];

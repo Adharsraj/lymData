@@ -39,7 +39,7 @@ const FooterZipsy = () => {
                 <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br ">
                   <img
                     className="lg:w-56"
-                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419160/LYMDATALABS/Pages/asset_60_lqw1hz_1_pb14gi.svg"
                     alt="Arrow Right"
                   />
                 </h1>
@@ -108,7 +108,7 @@ const FooterZipsy = () => {
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg"
+                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
                   className="w-12 h-12"
                   alt="footer-logo"
                 />
@@ -117,13 +117,13 @@ const FooterZipsy = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex md:justify-around mt-20 mb-20">
+        <div className="hidden md:flex md:justify-around mt-10 ">
           <div>
             <h1 className="text-2xl md:text-4xl w-[250px] md:w-full mx-auto">
               Design capital from <br /> obscurity to scale
             </h1>
 
-            <div className="py-10 flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
+            <div className="py-10 flex xl:gap-1   gap-4 w-full  md:w-[200px] items-center xl:w-[560px]">
               <input
                 type="email"
                 placeholder="email"
@@ -137,7 +137,7 @@ const FooterZipsy = () => {
                 <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br">
                   <img
                     className="lg:w-56"
-                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187634/assets/assets/asset_60_lqw1hz.svg"
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
                     alt="Arrow Right"
                   />
                 </h1>
@@ -170,14 +170,14 @@ const FooterZipsy = () => {
           </div>
         </div>
 
-        <div className=" hidden md:flex justify-around mt-10 mb-20">
+        <div className=" hidden md:flex justify-around ">
           <div className="flex items-center">
             <img
-              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187573/assets/Logos/Companylogo_lok0s3.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
               className="w-12 h-12"
               alt="footer-logo"
             />
-            <h1>© 2023 lym, Inc. All rights reserved</h1>
+            <h1 className="text-sm">© 2023 lym, Inc. All rights reserved</h1>
           </div>
           <div className="flex items-center gap-12">
           <span
