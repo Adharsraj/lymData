@@ -151,7 +151,7 @@ const AlHubDemo = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col lg:flex-row mt-14 gap-12 border-solid">
+              {/* <div className="flex flex-col lg:flex-row mt-14 gap-12 border-solid">
                 <div className="lg:w-1/2">
                   <img
                     src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414225/LYMDATALABS/Pages/Works/image5_da4to3.jpg"
@@ -166,7 +166,7 @@ const AlHubDemo = () => {
                     className="w-full"
                   />
                 </div>
-              </div>
+              </div> */}
 
               <div className="bg-gray-200 mt-14 p-4 sm:p-6 lg:p-8">
                 <div className="max-w-screen-xl mx-auto">
@@ -215,12 +215,12 @@ const AlHubDemo = () => {
                 </div>
               </div>
 
-              <div className="mt-14">
+              {/* <div className="mt-14">
                 <img
                   src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414244/LYMDATALABS/Pages/Works/image8_ufilz4.jpg"
                   alt="Image8"
                 />
-              </div>
+              </div> */}
 
               <div className="mt-14">
                 <img

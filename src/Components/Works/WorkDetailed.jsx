@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { worksData } from "../../assets/Data/data";
-import Footer from "../Footer";
+import Footer from "../FooterNew";
 import Navbar from "../Navbar";
 import Brompton from "./WorksFeatured/Brompton";
 import Mailchimp from "./WorksFeatured/Mailchimp";
