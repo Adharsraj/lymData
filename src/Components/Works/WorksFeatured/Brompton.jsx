@@ -3,9 +3,17 @@ import React from "react";
 const Brompton = () => {
   return (
     <div>
-      <img className="w-full md:hidden" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img2.1_o9j3ax.webp" alt="imgbanner" />
+      <img
+        className="w-full md:hidden"
+        src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img2.1_o9j3ax.webp"
+        alt="imgbanner"
+      />
 
-      <img className="w-full hidden md:flex" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img2.1main_zuydvf.webp" alt="imgbanner" />
+      <img
+        className="w-full hidden md:flex"
+        src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img2.1main_zuydvf.webp"
+        alt="imgbanner"
+      />
       <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
         <div className="flex flex-col items-center md:items-start justify-center md:ml-8">
           <h1 className="text-5xl md:text-7xl md:w-[500px] md:text-left md:mt-5 lg:text-9xl lg:w-[900px]">
@@ -31,7 +39,10 @@ const Brompton = () => {
         </div>
 
         <div>
-          <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img2.2_znhojz.webp" alt="img1" />
+          <img
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img2.2_znhojz.webp"
+            alt="img1"
+          />
 
           <h1 className="mt-8 uppercase">INSIGHT /</h1>
           <h3 className="text-4xl mt-4">Unfold your story</h3>
@@ -47,7 +58,11 @@ const Brompton = () => {
             <div>
               <div className="grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img2.3_vpzwmw.webp" alt="img8" />
+                  <img
+                    className="mt-8 mb-8"
+                    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img2.3_vpzwmw.webp"
+                    alt="img8"
+                  />
                 </div>
                 <div className="md:mt-16 lg:text-2xl">
                   <h3 className="mt-3">
@@ -81,7 +96,11 @@ const Brompton = () => {
               </div>
             </div>
 
-            <img className="mt-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img2.4_pi4hm8.webp" alt="" />
+            <img
+              className="mt-8"
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img2.4_pi4hm8.webp"
+              alt=""
+            />
             <img
               className="mt-8 md:w-[600px] lg:w-[950px] lg:h-[500px]"
               src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img2.5_e0ypko.webp"
@@ -116,7 +135,11 @@ const Brompton = () => {
                 various models in real life.
               </h4>
             </div>
-            <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img2.7_c844w8.webp" alt="img7" />
+            <img
+              className="mt-8 mb-8"
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img2.7_c844w8.webp"
+              alt="img7"
+            />
           </div>
 
           <div>

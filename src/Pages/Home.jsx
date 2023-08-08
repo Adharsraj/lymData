@@ -17,13 +17,10 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-
-
       <HowweThinkdhn />
       <ProcessDrivendhn />
       <ProcessDrivenFive />
       <IndustriesWeknowdhn />
-
       <Marque />
       <Within7Industriesdhn />
       <Footer />

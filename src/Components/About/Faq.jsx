@@ -12,11 +12,10 @@ const Faq = () => {
         <h1 className=" lg:text-7xl md:text-6xl text-4xl text-center mt-10 ">
           Frequently <i>Asked</i> Questions
         </h1>
-        {/* <h1 className="lg:text-8xl md:text-6xl text-4xl text-center mb-5 mt-2">
-          
-          
-        </h1> */}
-        <h2 className="text-center text-3xl mb-10 py-14">The most common queries.</h2>
+
+        <h2 className="text-center text-3xl mb-10 py-14">
+          The most common queries.
+        </h2>
         {accordionData.map((item, index) => (
           <div key={index} className="hover:bg-black hover:text-white">
             <button
@@ -55,58 +54,3 @@ const Faq = () => {
 };
 
 export default Faq;
-
-// const Accordion = () => {
-//   const accordionData = [
-//     {
-//       title: 'Accordion Item 1',
-//       content: 'Content for Accordion Item 1',
-//     },
-//     {
-//       title: 'Accordion Item 2',
-//       content: 'Content for Accordion Item 2',
-//     },
-//     {
-//       title: 'Accordion Item 3',
-//       content: 'Content for Accordion Item 3',
-//     },
-//   ];
-
-//   const [activeIndex, setActiveIndex] = useState(null);
-
-//   const toggleAccordion = (index) => {
-//     setActiveIndex(index === activeIndex ? null : index);
-//   };
-
-//   return (
-//     <div>
-//       {accordionData.map((item, index) => (
-//         <div key={index}>
-//           <button
-//             className="flex items-center justify-between w-full p-4 bg-gray-200 text-gray-700 font-bold"
-//             onClick={() => toggleAccordion(index)}
-//           >
-//             <span>{item.title}</span>
-//             <svg
-//               className={`w-5 h-5 transition-transform ${
-//                 index === activeIndex ? 'transform rotate-180' : ''
-//               }`}
-//               viewBox="0 0 24 24"
-//               fill="none"
-//               stroke="currentColor"
-//             >
-//               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-//             </svg>
-//           </button>
-//           {index === activeIndex && (
-//             <div className="p-4 bg-white">
-//               <p>{item.content}</p>
-//             </div>
-//           )}
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Accordion;

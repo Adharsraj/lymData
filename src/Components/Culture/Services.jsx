@@ -24,16 +24,15 @@ const Services = () => {
               </h1>
             </div>
           </div>
-<Link to="/services">
-
-          <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[240px] xl:w-[560px] md:mx-auto md:w-[600px">
-            <h1 className="p-2 md:mt-10 text-white rounded-full w-[230px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-Lets build together
-            </h1>
-            <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[50px] bg-[#282728]">
-              <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
-            </h1>
-          </div>
+          <Link to="/services">
+            <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[240px] xl:w-[560px] md:mx-auto md:w-[600px">
+              <h1 className="p-2 md:mt-10 text-white rounded-full w-[230px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                Lets build together
+              </h1>
+              <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[50px] bg-[#282728]">
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+              </h1>
+            </div>
           </Link>
 
           <div className="hidden md:block mt-20 relative">
@@ -59,16 +58,14 @@ Lets build together
               </h1>
             </div>
             <Link to="/services">
-
-
-            <div className="flex group hover:cursor-pointer gap-4 w-[600px] xxl:w-[830px]  mx-auto lg:mb-40">
-              <h1 className="p-2  flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-                Lets build together
-              </h1>
-              <h1 className="p-2  flex items-center rounded-full w-[40px] bg-[#282728] ">
-                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
-              </h1>
-            </div>
+              <div className="flex group hover:cursor-pointer gap-4 w-[600px] xxl:w-[830px]  mx-auto lg:mb-40">
+                <h1 className="p-2  flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  Lets build together
+                </h1>
+                <h1 className="p-2  flex items-center rounded-full w-[40px] bg-[#282728] ">
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                </h1>
+              </div>
             </Link>
 
             <img

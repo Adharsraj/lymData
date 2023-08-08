@@ -18,10 +18,11 @@ const AllBlogs = () => {
         <h3 className="mb-6 lg:text-right lg:mt-[-40px] lg:text-lg lg:mr-8">
           We are happy that you are here.
         </h3>
-        {/* <h3 className="mb-2 text-gray-400 md:text-lg lg:ml-14">Featured</h3> */}
-        <img className="mx-auto" src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416490/LYMDATALABS/Pages/Blog/IMAGE_4_qugcon_qyutdm.png" alt="featured" />
-
-
+        <img
+          className="mx-auto"
+          src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691416490/LYMDATALABS/Pages/Blog/IMAGE_4_qugcon_qyutdm.png"
+          alt="featured"
+        />
       </div>
       <div className="flex justify-center">
         <div className="grid  md:grid-cols-2 gap-5">

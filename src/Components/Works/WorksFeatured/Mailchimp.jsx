@@ -3,9 +3,17 @@ import React from "react";
 const Mailchimp = () => {
   return (
     <div>
-      <img className="w-full md:hidden" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img1mini_nmnsuv.webp" alt="imgbanner" />
+      <img
+        className="w-full md:hidden"
+        src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img1mini_nmnsuv.webp"
+        alt="imgbanner"
+      />
 
-      <img className="w-full hidden md:flex" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img1_psgbfv.webp" alt="imgbanner" />
+      <img
+        className="w-full hidden md:flex"
+        src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187568/assets/Images/work%20detailed/img1_psgbfv.webp"
+        alt="imgbanner"
+      />
       <div className="max-w-[1640px] mx-auto p-4 font-dm grid justify-center mb-20  gap-8 ">
         <div className="flex flex-col items-center md:items-start justify-center md:ml-8">
           <h1 className="text-5xl md:text-7xl md:w-[500px] md:text-left md:mt-5 lg:text-9xl lg:w-[900px]">
@@ -31,7 +39,10 @@ const Mailchimp = () => {
         </div>
 
         <div>
-          <img src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img2_b0mlc4.webp" alt="img1" />
+          <img
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187572/assets/Images/work%20detailed/img2_b0mlc4.webp"
+            alt="img1"
+          />
 
           <h1 className="mt-8 uppercase">Idea /</h1>
           <h3 className="text-4xl mt-4">Bottling Mailchimp’s magic</h3>
@@ -74,7 +85,11 @@ const Mailchimp = () => {
               – applying development principles to set the programme up for
               scalable success.
             </h4>
-            <img className="mt-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img4_odhqi2.webp" alt="" />
+            <img
+              className="mt-8"
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img4_odhqi2.webp"
+              alt=""
+            />
             <img
               className="mt-8 md:w-[600px] lg:w-[950px] lg:h-[500px]"
               src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img5_htn9bn.webp"
@@ -101,7 +116,11 @@ const Mailchimp = () => {
                 made sense alongside Mailchimp’s overall brand identity.
               </h4>
             </div>
-            <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img7_pactia.webp" alt="img7" />
+            <img
+              className="mt-8 mb-8"
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187569/assets/Images/work%20detailed/img7_pactia.webp"
+              alt="img7"
+            />
           </div>
 
           <div>
@@ -128,7 +147,11 @@ const Mailchimp = () => {
           <div>
             <div className="grid md:grid-cols-2 md:gap-8">
               <div>
-                <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img8_xqa8li.webp" alt="img8" />
+                <img
+                  className="mt-8 mb-8"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187571/assets/Images/work%20detailed/img8_xqa8li.webp"
+                  alt="img8"
+                />
               </div>
               <div className="md:mt-16 lg:text-2xl">
                 <h3 className="mt-3">
@@ -146,7 +169,11 @@ const Mailchimp = () => {
               </div>
             </div>
 
-            <img className="mt-8 mb-8" src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img9_rvdvpz.webp" alt="img9" />
+            <img
+              className="mt-8 mb-8"
+              src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/Images/work%20detailed/img9_rvdvpz.webp"
+              alt="img9"
+            />
           </div>
 
           <div>

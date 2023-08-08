@@ -13,8 +13,8 @@ import AlHubDemo from "./WorksFeatured/AlHubDemo";
 const WorkDetailed = () => {
   const { title } = useParams();
   const selectedWork = worksData.find((o) => o.title === title);
-  console.log(selectedWork.title)
-  console.log(title)
+  console.log(selectedWork.title);
+  console.log(title);
 
   const [colors, setColours] = useState("white");
   const [tcolors, settColours] = useState("black");
@@ -29,7 +29,7 @@ const WorkDetailed = () => {
   return (
     <>
       <Navbar />
-      {selectedWork && selectedWork.title === "Al-Hub" && <AlHubDemo /> }
+      {selectedWork && selectedWork.title === "Al-Hub" && <AlHubDemo />}
       {selectedWork && selectedWork.title === "Brompton" && <Brompton />}
       {selectedWork && selectedWork.title === "Montblanc" && <Montblanc />}
       <div style={{ background: colors, color: tcolors }}>

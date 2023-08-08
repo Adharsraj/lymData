@@ -7,14 +7,14 @@ import SelectedWorks from "../Components/Works/SelectedWorks";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const Works = () => {
-  UseDocumentTitle("LYM DATA | Works")
+  UseDocumentTitle("LYM DATA | Works");
 
   return (
     <>
       <Navbar />
       <SelectedWorks />
-       <AllWork/>
-       <AllWorksListing/>
+      <AllWork />
+      <AllWorksListing />
       <Footer />
     </>
   );

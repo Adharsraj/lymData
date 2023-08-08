@@ -3,7 +3,7 @@ import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 import PageNotFound from "../Pages/PageNotFound";
-const TestskeltandLoader= lazy(()=>import("../Pages/TestskeltandLoader")) ;
+const TestskeltandLoader = lazy(() => import("../Pages/TestskeltandLoader"));
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
 const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
@@ -15,10 +15,7 @@ const Services = lazy(() => import("../Pages/Services"));
 const TermsOfUse = lazy(() => import("../Pages/TermsOfUse"));
 const Works = lazy(() => import("../Pages/Works"));
 const PrivacyPolicy = lazy(() => import("../Pages/PrivacyPolicy"));
-const Culture = lazy(() => import("../Pages/Culture")); 
-
-
-
+const Culture = lazy(() => import("../Pages/Culture"));
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -32,27 +29,27 @@ const Router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Home />
         </Wrapper>
-     </Suspense>
+      </Suspense>
     ),
   },
   {
     path: "/wrk",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Home />
         </Wrapper>
-     </Suspense>
+      </Suspense>
     ),
   },
   {
     path: "/contact",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Contact />
         </Wrapper>
@@ -62,7 +59,7 @@ const Router = createBrowserRouter([
   {
     path: "/careers",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Careers />
         </Wrapper>
@@ -72,29 +69,28 @@ const Router = createBrowserRouter([
   {
     path: "/about",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <About />
         </Wrapper>
       </Suspense>
     ),
   },
-  
+
   {
     path: "/blog",
     element: (
-      <Suspense fallback={<SkeltonLoader />} >
+      <Suspense fallback={<SkeltonLoader />}>
         <Wrapper>
-          <Blog  />
+          <Blog />
         </Wrapper>
       </Suspense>
     ),
-
   },
   {
     path: "/blog/:id",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <BlogDetailed />
         </Wrapper>
@@ -104,7 +100,7 @@ const Router = createBrowserRouter([
   {
     path: "/works",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Works />
         </Wrapper>
@@ -114,7 +110,7 @@ const Router = createBrowserRouter([
   {
     path: "/works/:title",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <WorkDetailed />
         </Wrapper>
@@ -124,7 +120,7 @@ const Router = createBrowserRouter([
   {
     path: "/terms",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <TermsOfUse />
         </Wrapper>
@@ -134,7 +130,7 @@ const Router = createBrowserRouter([
   {
     path: "/services",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Services />
         </Wrapper>
@@ -144,7 +140,7 @@ const Router = createBrowserRouter([
   {
     path: "/privacy",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <PrivacyPolicy />
         </Wrapper>
@@ -154,7 +150,7 @@ const Router = createBrowserRouter([
   {
     path: "/culture",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Culture />
         </Wrapper>
@@ -164,7 +160,7 @@ const Router = createBrowserRouter([
   {
     path: "*",
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <PageNotFound />
         </Wrapper>
@@ -173,19 +169,18 @@ const Router = createBrowserRouter([
   },
   {
     path: "/test",
-    loader({params,request}){
-     console.log(params)
-     console.log(request)
-     return "i am data from loader"
+    loader({ params, request }) {
+      console.log(params);
+      console.log(request);
+      return "i am data from loader";
     },
     element: (
-      <Suspense fallback={<Loading />} >
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <TestskeltandLoader />
         </Wrapper>
       </Suspense>
     ),
-    
   },
 ]);
 

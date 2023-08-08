@@ -15,7 +15,7 @@ const Approach = () => {
                 style={{ animationDuration: "3s" }}
               />
             </div>
-          
+
             <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16">
               <h1>
                 Our offering has evolved as a testament of theas a testament of

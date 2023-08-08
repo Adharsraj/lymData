@@ -105,9 +105,7 @@ const ProcessDrivendhn = () => {
                   What we do
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full text-white w-[40px] bg-[#000]">
-                  <img
-                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
-                  />
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
                 </h1>
               </div>
             </Link>
@@ -127,7 +125,5 @@ const ProcessDrivendhn = () => {
     </div>
   );
 };
-
-
 
 export default ProcessDrivendhn;

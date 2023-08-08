@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from "../Home/Within7ForService";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom"; // Make sure to import the `navigate` function from the correct location
+import { useNavigate } from "react-router-dom"; 
 
 const ServicesLanding = () => {
   const navigate = useNavigate();
@@ -81,7 +81,6 @@ const ServicesLanding = () => {
     marginLeft: "10px",
     transform: "scale(1.8)",
 
-    // Adjust the scale value as needed
   };
   return (
     <>

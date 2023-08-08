@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
             <h1 className="mt-5 mb-5">
               {" "}
-              you can also send us a plain email if you want too  <br />
+              you can also send us a plain email if you want too <br />
               info@dhnn.com
             </h1>
           </div>
@@ -53,7 +53,6 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-       
       </div>
     </div>
   );

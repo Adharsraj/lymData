@@ -54,8 +54,8 @@ const Cultureandmore = () => {
                 the onlyway to work things out.
               </h1>
               <h1 className="mt-6">
-              LYM Data Labs exists to transform our surroundings and ourselves through
-                design, empathy and a restless quest for quality
+                LYM Data Labs exists to transform our surroundings and ourselves
+                through design, empathy and a restless quest for quality
               </h1>
             </div>
           </div>
@@ -68,8 +68,9 @@ const Cultureandmore = () => {
                 couldn’t achieve by themselves. We work together because it’s
                 the onlyway to work things out.
                 <h1 className="mt-6">
-                  LYM Data Labs exists to transform our surroundings and ourselves
-                  through design, empathy and a restless quest for quality
+                  LYM Data Labs exists to transform our surroundings and
+                  ourselves through design, empathy and a restless quest for
+                  quality
                 </h1>
               </h1>
               <img
