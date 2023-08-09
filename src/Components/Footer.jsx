@@ -1,260 +1,172 @@
-import React from "react";
-import {
-  SlSocialDribbble,
-  SlSocialFacebook,
-  SlSocialInstagram,
-  SlSocialLinkedin,
-  SlSocialTwitter,
-} from "react-icons/sl";
-import { Link, useNavigate } from "react-router-dom";
-useNavigate;
-const FooterZipsy = () => {
-  const navigate = useNavigate();
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
+const Footer
+ = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <div className="bg-[#000]">
-      <div className="max-w-[1640px]  mx-auto p-2 text-white overflow-hidden ">
-        <div className="px-8 md:hidden mt-20 mb-20 ">
-          <div>
-            <h1 className="text-2xl md:text-4xl w-[250px] md:w-full mx-auto">
-              Design capital from <br /> obscurity to scale
-            </h1>
-
-            <div className="py-10">
-              <input
-                type="email"
-                placeholder="email"
-                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
-              />
-              {/* <button className="text-white bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                Subscribe
-              </button> */}
-
-              <div className="flex xl:gap-1   gap-4 w-full md:w-[200px] items-center xl:w-[560px]">
-                <div className="flex  group/item hover:cursor-pointer ">
-                  <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[100px] flex items-center h-10 bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br  transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
-                    Subscribe
-                  </h1>
-                  <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br ">
-                    <img
-                      className="lg:w-56"
-                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419160/LYMDATALABS/Pages/asset_60_lqw1hz_1_pb14gi.svg"
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex justify-between">
-              <div className="mt-4 ">
-                <Link to="/works">
-                  <h2 className="p-1 text-[#aea8a8] hover:text-white">Works</h2>
-                </Link>
-                <Link to="/about">
-                  <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                    About us
-                  </h2>
-                </Link>
-                <Link to="/careers">
-                  <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                    Careers
-                  </h2>
-                </Link>
-                <Link to="/services">
-                  <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                    Services
-                  </h2>
-                </Link>
-              </div>
-              <div className="mt-4">
-                <Link to="/privacy">
-                  <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                    Privacy Policy
-                  </h2>
-                </Link>
-                <Link to="/terms">
-                  <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                    Terms of Service
-                  </h2>
-                </Link>
-              </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between md:justify-around mt-8">
-                <span
-                  onClick={() =>
-                    window.open(
-                      "https://www.facebook.com/lymdatalabs/",
-                      "_blank"
-                    )
-                  }
-                  className="hover:border-blue-800 border p-2 cursor-pointer hover:text-blue-800"
-                >
-                  <SlSocialFacebook />
-                </span>
-                <span
-                  onClick={() =>
-                    window.open("https://twitter.com/lymdata", "_blank")
-                  }
-                  className="hover:border-blue-300  border p-2 cursor-pointer hover:text-blue-300"
-                >
-                  <SlSocialTwitter />
-                </span>
-                <span
-                  onClick={() =>
-                    window.open(
-                      "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
-                      "_blank"
-                    )
-                  }
-                  className="hover:border-red-200 border p-2 cursor-pointer hover:text-red-200"
-                >
-                  <SlSocialInstagram />
-                </span>
-                <span
-                  onClick={() =>
-                    window.open(
-                      "https://www.linkedin.com/company/lymdata-labs",
-                      "_blank"
-                    )
-                  }
-                  className="hover:border-blue-500 border p-2 cursor-pointer hover:text-blue-500"
-                >
-                  <SlSocialLinkedin />
-                </span>
-              </div>
-              <div>
-                <h1 className="text-sm mt-5 md:text-center">
-                  © 2023 Lym, Inc. All rights reserved
-                </h1>
-              </div>
-              <div>
-                <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
-                  className="w-12 h-12"
-                  alt="footer-logo"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="hidden md:flex md:justify-around mt-10 ">
-          <div>
-            <h1 className="text-2xl md:text-4xl w-[250px] md:w-full mx-auto">
-              Design capital from <br /> obscurity to scale
-            </h1>
-
-            <div className="py-10 flex xl:gap-1   gap-4 w-full  md:w-[200px] items-center xl:w-[560px]">
-              <input
-                type="email"
-                placeholder="email"
-                className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded-full px-2 focus:outline-none"
-              />
-
-              <div className="flex  group/item hover:cursor-pointer ">
-                <h1 className="p-4 xl:w-[110px] text-base   rounded-full w-[120px] flex items-center h-10 bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
-                  Subscribe
-                </h1>
-                <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-gradient-to-r from-indigo-400 to-cyan-400 hover:bg-gradient-to-br">
-                  <img
-                    className="lg:w-56"
-                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
-                    alt="Arrow Right"
-                  />
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-around gap-36">
-            <div className=" ">
-              <Link to="/works">
-                <h2 className="p-1 text-[#aea8a8] hover:text-white">Works</h2>
-              </Link>
+    <>
+      <div className="hidden md:block max-w-[1640px]  mx-auto xl:px-32 md:px-16    pb-10   md:text-xl bg-[#131313] text-white ">
+        <div className=" md:flex justify-between  border-b pb-10 pt-10">
+          <div className="">
+            <h3 className="mb-4 font-bold text-xl">LYMDATA</h3>
+            <div className="md:flex gap-4 hidden ">
               <Link to="/about">
-                <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                  About us
-                </h2>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
               </Link>
+              <Link to="/works">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
+              </Link>
+
               <Link to="/careers">
-                <h2 className="p-1 text-[#aea8a8] hover:text-white">Careers</h2>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
               </Link>
               <Link to="/services">
-                <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                  Services
-                </h2>
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
+              </Link>
+              <Link to="/blog">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
               </Link>
             </div>
-            <div className="">
-              <Link to="/privacy">
-                <h2 className="p-1  text-[#aea8a8] hover:text-white">
-                  Privacy Policy
-                </h2>
-              </Link>
-              <Link to="/terms">
-                <h2 className="p-1 text-[#aea8a8] hover:text-white">
-                  Terms of Service
-                </h2>
-              </Link>
+            <div className="md:hidden gap-4 flex justify-between ">
+              <div>
+                <Link>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
+                </Link>
+                <Link>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
+                </Link>
+              </div>
+              <div>
+                <Link>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
+                </Link>
+                <Link>
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
+                </Link>
+                <Link to="/blgs">
+                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
+                </Link>
+              </div>
+            </div>
+            <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
+              <label htmlFor="stay uptodate mb-5" className="text-[#c1bfbf] ">Stay upto date</label>
+              <div className="md:flex gap-3 mt-5">
+                <input
+                  type="text"
+                  className="border rounded-sm md:rounded-full mb-2 p-2"
+                />
+                <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-sm md:rounded-full p-2">
+                  subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="hidden lg:block">
+            <label htmlFor="stay uptodate" className=" ">Stay upto date</label>
+            <div className="flex mt-3">
+              <div className=" flex">
+                <input
+                  type="text"
+                  className="border text-black focus:outline-none rounded-full p-1 px-8"
+                  placeholder="Enter your email"
+                />
+                <button
+                  className="bg-gradient-to-r from-indigo-400 to-cyan-400 w-28 text-white rounded-full p-1 ml-[-34px] border-1  overflow-hidden group"
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
+                  {isHovered ? "➜" : "Subscribe"}
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className=" hidden md:flex justify-around ">
-          <div className="flex items-center">
-            <img
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
-              className="w-12 h-12"
-              alt="footer-logo"
-            />
-            <h1 className="text-sm">© 2023 lym, Inc. All rights reserved</h1>
+        <div className=" hidden md:flex justify-between lg:pt-10">
+          <div>
+            <h3 className="text-[#c1bfbf] ">2023 Lymdata.All rights reserved</h3>
           </div>
-          <div className="flex items-center gap-12">
-            <span
-              onClick={() =>
-                window.open("https://www.facebook.com/lymdatalabs/", "_blank")
-              }
-              className="hover:border-blue-800 border p-2 cursor-pointer hover:text-blue-800"
-            >
-              <SlSocialFacebook />
-            </span>
-            <span
-              onClick={() =>
-                window.open("https://twitter.com/lymdata", "_blank")
-              }
-              className="hover:border-blue-300  border p-2 cursor-pointer hover:text-blue-300"
-            >
-              <SlSocialTwitter />
-            </span>
-            <span
-              onClick={() =>
-                window.open(
-                  "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
-                  "_blank"
-                )
-              }
-              className="hover:border-red-200 border p-2 cursor-pointer hover:text-red-200"
-            >
-              <SlSocialInstagram />
-            </span>
-            <span
-              onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/company/lymdata-labs",
-                  "_blank"
-                )
-              }
-              className="hover:border-blue-500 border p-2 cursor-pointer hover:text-blue-500"
-            >
-              <SlSocialLinkedin />
-            </span>
+          <div className="flex gap-10">
+            <Link to="/terms">
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Terms</h4>
+            </Link>
+            <Link to="/privacy">
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
+            </Link>
+          </div>
+        </div>
+        <div className="  md:hidden justify-between">
+          <div className="flex gap-10">
+            <Link to="/terms">
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Terms</h4>
+            </Link>
+            <Link to="/privacy">
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
+            </Link>
+          </div>
+          <div>
+            <h3 className="text mt-5 text-[#c1bfbf] ">2023 Lymdata.All rights reserved</h3>
           </div>
         </div>
       </div>
-    </div>
+      <div className="md:hidden bg-[#131313] text-white">
+        <div className="">
+          <h1 className="px-2 mt-5 mb-5 font-bold text-xl">LymData</h1>
+          <div className="flex gap-28 mb-5 px-4">
+            <div>
+              <Link to="/about">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
+              </Link>
+              <Link to="/works">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
+              </Link>
+            </div>
+            <div>
+              <Link to="/careers">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
+              </Link>
+              <Link to="/services">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
+              </Link>
+              <Link to="/blog">
+                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
+              </Link>
+            </div>
+          </div>
+          <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
+            Stay upto date
+          </label>
+          <div className=" gap-3 mt-5 px-3 mb-5 border-b pb-6">
+            <input
+              type="text"
+              className="border rounded-full   md:rounded-full w-full mb-2 p-2"
+            />
+            <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-full md:rounded-full w-full p-2">
+              subscribe
+            </button>
+          </div>
+          <div className=" justify-between px-3">
+            <div className="flex gap-10">
+              <Link to="/terms">
+                <h4 className="text-[#c1bfbf] hover:text-white">Terms</h4>
+              </Link>
+              <Link to="/privacy">
+                <h4 className="text-[#c1bfbf] hover:text-white">Privacy policy</h4>
+              </Link>
+            </div>
+            <div>
+              <h3 className="text mt-5 pb-5 text-[#c1bfbf] ">
+                2023 Lymdata.All rights reserved
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
-export default FooterZipsy;
+export default Footer
+;

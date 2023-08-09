@@ -3,7 +3,6 @@ import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 import PageNotFound from "../Pages/PageNotFound";
-const TestskeltandLoader = lazy(() => import("../Pages/TestskeltandLoader"));
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
 const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
@@ -28,16 +27,6 @@ const Wrapper = ({ children }) => {
 const Router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Home />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/wrk",
     element: (
       <Suspense fallback={<Loading />}>
         <Wrapper>
@@ -167,21 +156,7 @@ const Router = createBrowserRouter([
       </Suspense>
     ),
   },
-  {
-    path: "/test",
-    loader({ params, request }) {
-      console.log(params);
-      console.log(request);
-      return "i am data from loader";
-    },
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <TestskeltandLoader />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
+ 
 ]);
 
 export default Router;
