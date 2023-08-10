@@ -1,5 +1,14 @@
 import React from "react";
 const Contact = () => {
+  const handleContactClick = () => {
+    const toAddress = 'example@example.com'; 
+    const subject = 'Contact Us';
+
+    const gmailLink = `https://mail.google.com/mail/u/0/?view=cm&to=${toAddress}&su=${encodeURIComponent(subject)}`;
+
+    window.open(gmailLink);
+  };
+
   return (
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] ">
@@ -8,14 +17,15 @@ const Contact = () => {
             <h1 className="text-5xl mt-32  lg:text-8xl xxl:text-9xl ">
               ready when <br /> you are—It’s time <br /> to accelerate{" "}
             </h1>
-            <div className="flex group   hover:cursor-pointer gap-4 top-[270px] lg:top-[500px] xl:top-[370px] w-full mb-10 md:mt-5   mx-auto">
-              <h1 className="p-1  mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+            <div className="flex group hover:cursor-pointer gap-4 top-[270px] lg:top-[500px] xl:top-[370px] w-full mb-10  md:mt-5 mx-auto">
+              <a  className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]" onClick={handleContactClick}>
                 Get in touch
-              </h1>
-              <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
-                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
-              </h1>
+              </a>
+              <a  className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
+                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="Contact Icon" onClick={handleContactClick}/>
+              </a>
             </div>
+
             <div></div>
             <div className="  flex gap-3 ">
               <h2 className="w-10 h-10  rounded-full border flex items-center justify-center border-black">
@@ -28,7 +38,7 @@ const Contact = () => {
             <h1 className="mt-5 mb-5">
               {" "}
               you can also send us a plain email if you want too <br />
-              info@dhnn.com
+              info@lymdata.com
             </h1>
           </div>
         </div>
