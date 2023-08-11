@@ -3,6 +3,7 @@ import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 import PageNotFound from "../Pages/PageNotFound";
+import SiteMap from "../Pages/SiteMap";
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
 const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
@@ -41,6 +42,16 @@ const Router = createBrowserRouter([
       <Suspense fallback={<Loading />}>
         <Wrapper>
           <Contact />
+        </Wrapper>
+      </Suspense>
+    ),
+  },
+  {
+    path: "/sitemap",
+    element: (
+      <Suspense fallback={<Loading />}>
+        <Wrapper>
+          <SiteMap />
         </Wrapper>
       </Suspense>
     ),
