@@ -18,6 +18,7 @@ const Footer
               <Link to="/works">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
               </Link>
+              
 
               <Link to="/careers">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
@@ -45,7 +46,7 @@ const Footer
                 <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
                 </Link>
-                <Link to="/blgs">
+                <Link to="/blogs">
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
                 </Link>
               </div>
@@ -94,6 +95,9 @@ const Footer
             </Link>
             <Link to="/privacy">
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
+            </Link>
+            <Link to="/sitemap">
+              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Sitemap</h4>
             </Link>
           </div>
         </div>
@@ -154,6 +158,9 @@ const Footer
               </Link>
               <Link to="/privacy">
                 <h4 className="text-[#c1bfbf] hover:text-white">Privacy policy</h4>
+              </Link>
+              <Link to="/sitemap">
+                <h4 className="text-[#c1bfbf] hover:text-white">Sitemap</h4>
               </Link>
             </div>
             <div>
