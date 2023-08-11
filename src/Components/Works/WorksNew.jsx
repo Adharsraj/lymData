@@ -20,12 +20,14 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start mt-8">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644001/LYMDATALABS/Pages/Works/work1_j1n22u.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <div className=" w-full h-full">
             <h3 className="text-5xl font-bold px-5">Al-Hub</h3>
             <div className="hidden lg:grid grid-cols-2  w-full h-full items-end mt-[-50px] ">
               <div>
+       
+       
                 <h3 className="px-5 text-xl">2023</h3>
               </div>
               <div className="flex justify-end  group hover:cursor-pointer">
@@ -33,7 +35,7 @@ export const WorksNew = () => {
                     view more
                   </a>
                   <a href="/works/Al-Hub" className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" className="" />
                   </a>
             </div>
             </div>
@@ -60,7 +62,7 @@ export const WorksNew = () => {
           </div>
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644008/LYMDATALABS/Pages/Works/work2_vboqnx.jpg"
-            className="mt-8 lg:mt-0 hidden lg:block  "
+            className="mt-8 lg:mt-0 hidden lg:block bg-black  "
           />
         </div>
         {/* 3 */}
@@ -68,7 +70,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start mt-10">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644013/LYMDATALABS/Pages/Works/work3_r282ao.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <div className=" w-full h-full">
             <h3 className="text-5xl font-bold px-5">SERGIO</h3>
@@ -108,7 +110,7 @@ export const WorksNew = () => {
           </div>
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644018/LYMDATALABS/Pages/Works/work4_spzagb.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
         </div>
         {/* 5 */}
@@ -116,7 +118,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start mt-10">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644034/LYMDATALABS/Pages/Works/work5_o8ei7z.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <div className=" w-full h-full">
             <h3 className="px-5 text-5xl font-bold">YOKKAICHI HARBOR ONOE BESSO</h3>
@@ -156,7 +158,7 @@ export const WorksNew = () => {
           </div>
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644052/LYMDATALABS/Pages/Works/work6_dhveap.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0  bg-black "
           />
         </div>
         {/* 7 */}
@@ -164,7 +166,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start mt-10">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644059/LYMDATALABS/Pages/Works/work7_pa7lj1.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <div className=" w-full h-full">
             <h3 className="px-5 text-5xl font-bold">FUSION DE TROISA</h3>
@@ -204,7 +206,7 @@ export const WorksNew = () => {
           </div>
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644072/LYMDATALABS/Pages/Works/work8_eptznq.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
         </div>
         {/* 9 */}
@@ -212,7 +214,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start mt-10">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644079/LYMDATALABS/Pages/Works/work9_a0npgk.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <div className=" w-full h-full">
             <h3 className="px-5 text-5xl font-bold">Yamai pottery Co., Ltd.</h3>
@@ -252,7 +254,7 @@ export const WorksNew = () => {
           </div>
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644088/LYMDATALABS/Pages/Works/work10_su8uvr.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
         </div>
       </div>
@@ -261,7 +263,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644001/LYMDATALABS/Pages/Works/work1_j1n22u.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <h3 className="text-2xl font-bold">Al-Hub</h3>
           <h3>2023</h3>
@@ -269,7 +271,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644008/LYMDATALABS/Pages/Works/work2_vboqnx.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <h3 className="text-2xl font-bold">GARDEN RESTAURANT TOKUGAWAEN</h3>
           <h3>2023</h3>
@@ -277,7 +279,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644013/LYMDATALABS/Pages/Works/work3_r282ao.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <h3 className="text-2xl font-bold">SERGIO</h3>
           <h3>2022</h3>
@@ -285,7 +287,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644018/LYMDATALABS/Pages/Works/work4_spzagb.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <h3 className="text-2xl font-bold">Arimatsu SDGs Project</h3>
           <h3>2022</h3>
@@ -293,7 +295,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644034/LYMDATALABS/Pages/Works/work5_o8ei7z.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <h3 className="text-2xl font-bold">YOKKAICHI HARBOR ONOE BESSO</h3>
           <h3>2022</h3>
@@ -301,7 +303,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644052/LYMDATALABS/Pages/Works/work6_dhveap.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <h3 className="text-2xl font-bold">BISHO EN - SHIKEMICHI KIMONO STUDIO</h3>
           <h3>2022</h3>
@@ -309,7 +311,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644059/LYMDATALABS/Pages/Works/work7_pa7lj1.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black  "
           />
           <h3 className="text-2xl font-bold">FUSION DE TROISA</h3>
           <h3>2022</h3>
@@ -317,7 +319,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644072/LYMDATALABS/Pages/Works/work8_eptznq.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <h3 className="text-2xl font-bold">Anouk | dress shop</h3>
           <h3>2022</h3>
@@ -325,7 +327,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644079/LYMDATALABS/Pages/Works/work9_a0npgk.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <h3 className="text-2xl font-bold">Yamai pottery Co., Ltd.</h3>
           <h3>2022</h3>
@@ -333,7 +335,7 @@ export const WorksNew = () => {
         <div className="lg:grid lg:grid-cols-2 items-start">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644088/LYMDATALABS/Pages/Works/work10_su8uvr.jpg"
-            className="mt-8 lg:mt-0  "
+            className="mt-8 lg:mt-0 bg-black "
           />
           <h3 className="text-2xl font-bold">Gero Onsen Yunoshimakan</h3>
           <h3>2022</h3>
