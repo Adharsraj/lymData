@@ -261,10 +261,12 @@ export const WorksNew = () => {
       <div className="lg:hidden">
       <h1 className="mt-20 text-4xl text-center font-bold">ALL WORKS</h1>
         <div className="lg:grid lg:grid-cols-2 items-start">
+          <a href="/works/Al-Hub">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644001/LYMDATALABS/Pages/Works/work1_j1n22u.jpg"
             className="mt-8 lg:mt-0 bg-black "
           />
+          </a>
           <h3 className="text-2xl font-bold">Al-Hub</h3>
           <h3>2023</h3>
         </div>
