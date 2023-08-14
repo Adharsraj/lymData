@@ -30,14 +30,16 @@ export const WorksNew = () => {
        
                 <h3 className="px-5 text-xl">2023</h3>
               </div>
+              <Link to="/works/Al-Hub">
               <div className="flex justify-end  group hover:cursor-pointer">
-                  <a href="/works/Al-Hub" className="p-1 justify-end rounded-full w-[120px] text-white text-center bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  <h2 className="p-1 justify-end rounded-full w-[120px] text-white text-center bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                     view more
-                  </a>
-                  <a href="/works/Al-Hub" className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
+                  </h2>
+                  <h2 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
                     <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" className="" />
-                  </a>
+                  </h2>
             </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -261,12 +263,12 @@ export const WorksNew = () => {
       <div className="lg:hidden">
       <h1 className="mt-20 text-4xl text-center font-bold">ALL WORKS</h1>
         <div className="lg:grid lg:grid-cols-2 items-start">
-        <a href="/works/Al-Hub">
+        <Link to="/works/Al-Hub">
         <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691644001/LYMDATALABS/Pages/Works/work1_j1n22u.jpg"
             className="mt-8 lg:mt-1 bg-black "
           />
-        </a>
+        </Link>
           <h3 className="text-2xl font-bold">Al-Hub</h3>
           <h3>2023</h3>
         </div>

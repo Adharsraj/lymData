@@ -27,7 +27,7 @@ const HowweThinkdhn = () => {
                 commitment to our daily work.
               </h1>
             </div>
-            <Link to="/culture">
+            <Link to="/about">
               <div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[560px]  lg:mb-7">
                 <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all ">
                   Dive into our culture
@@ -63,7 +63,7 @@ const HowweThinkdhn = () => {
             </div>
 
             <div className="flex      gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
-              <Link to="/culture">
+              <Link to="/about">
                 <div className="flex  group  gap-2 ">
                   <h1 className="p-2 flex border  items-center justify-center mt-10 rounded-full w-[220px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                     Dive into our culture
