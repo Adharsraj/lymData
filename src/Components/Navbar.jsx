@@ -19,6 +19,7 @@ const NavbarNew = React.memo(() => {
     { path: "/services", label: "Services" },
     { path: "/works", label: "Works" },
     { path: "/contact", label: "Contact" },
+    { path: "/login", label: "Login" },
   ];
 
   const menuRef = useRef(null);
@@ -127,6 +128,7 @@ const NavbarNew = React.memo(() => {
               />{" "}
             </Link>
           </div>
+      
           <div className="w-full h-20">
             <Link className="cursor-default" to="#">
               <div className=" w-full h-20"></div>

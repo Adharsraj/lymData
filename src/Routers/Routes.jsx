@@ -4,6 +4,7 @@ import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 import PageNotFound from "../Pages/PageNotFound";
 import SiteMap from "../Pages/SiteMap";
+import Login  from "../Components/Home/Login";
 const BlogDetailed = lazy(() => import("../Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("../Pages/Blog"));
 const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
@@ -153,6 +154,16 @@ const Router = createBrowserRouter([
       <Suspense fallback={<Loading />}>
         <Wrapper>
           <Culture />
+        </Wrapper>
+      </Suspense>
+    ),
+  },
+  {
+    path: "/login",
+    element: (
+      <Suspense fallback={<Loading />}>
+        <Wrapper>
+          <Login />
         </Wrapper>
       </Suspense>
     ),
