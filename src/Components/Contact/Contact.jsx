@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  SlSocialFacebook,
+  SlSocialInstagram,
+  SlSocialLinkedin,
+  SlSocialTwitter,
+} from "react-icons/sl";
+
 const Contact = () => {
   const handleContactClick = () => {
     const toAddress = 'example@example.com'; 
@@ -14,7 +21,97 @@ const Contact = () => {
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] ">
         <div className="  md:px-20">
           <div className="mt-10 lg:mt-16   ">
-            <h1 className="text-5xl mt-32  lg:text-8xl xxl:text-9xl ">
+          <h1 className="text-5xl mt-32 font-bold lg:text-8xl xxl:text-9xl ">
+              Let's talk
+            </h1>
+            <ul>
+            <li>
+                    <div className="flex gap-5 text-xl lg:gap-14 mt-5 px-5 lg:mt-10 lg:px-32 lg:text-2xl">
+                    <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.linkedin.com/company/lymdata-labs",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-black"
+                      >
+                        <SlSocialLinkedin />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.facebook.com/lymdatalabs/",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-black"
+                      >
+                        <SlSocialFacebook />
+                      </span>
+                
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-black"
+                      >
+                        <SlSocialInstagram />
+                      </span>
+                      
+                    </div>
+                  </li>
+            </ul>
+
+            <div className="flex justify-center items-center h-screen">
+      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 rounded shadow-md">
+        <h2 className="text-4xl font-bold mb-12">How can I help you?</h2>
+        <form>
+          <div className="mb-4">
+            <label className="block mb-1 font-semibold">Name</label>
+            <input
+              type="text"
+              className="w-full border rounded py-2 px-3"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block mb-1 font-semibold">Company</label>
+            <input
+              type="text"
+              className="w-full border rounded py-2 px-3"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block mb-1 font-semibold">Email</label>
+            <input
+              type="email"
+              className="w-full border rounded py-2 px-3"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block mb-1 font-semibold">Please, tell me what you're after</label>
+            <textarea
+              className="w-full border rounded py-2 px-3 h-32"
+            />
+          </div>
+          {/* <button
+            type="submit"
+            className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white py-2 px-4 rounded w-full"
+          >
+            Submit
+          </button> */}
+          <a  className="p-3 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#282728] hover:bg-orange-600 cursor-pointer" >
+                Submit
+              </a>
+        </form>
+      </div>
+    </div>
+
+
+            <h1 className="text-5xl mt-12  lg:text-8xl xxl:text-9xl ">
               ready when <br /> you are—It’s time <br /> to accelerate{" "}
             </h1>
             <div className="flex group hover:cursor-pointer gap-4 top-[270px] lg:top-[500px] xl:top-[370px] w-full mb-10  md:mt-5 mx-auto">

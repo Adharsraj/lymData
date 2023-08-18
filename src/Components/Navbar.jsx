@@ -20,6 +20,7 @@ const NavbarNew = React.memo(() => {
     { path: "/works", label: "Works" },
     { path: "/contact", label: "Contact" },
     { path: "/login", label: "Login" },
+    { path: "/signup", label: "Sign Up" },
   ];
 
   const menuRef = useRef(null);
