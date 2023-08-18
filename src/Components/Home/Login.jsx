@@ -18,7 +18,7 @@ const Login = () => {
               <label className="block mb-1">Username</label>
               <input
                 type="text"
-                className="w-full border rounded py-2 px-3"
+                className="w-full border rounded-full py-2 px-3"
                 placeholder="Enter your username"
               />
             </div>
@@ -26,13 +26,13 @@ const Login = () => {
               <label className="block mb-1">Password</label>
               <input
                 type="password"
-                className="w-full border rounded py-2 px-3"
+                className="w-full border rounded-full py-2 px-3"
                 placeholder="Enter your password"
               />
             </div>
             <button
               type="submit"
-              className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white py-2 px-4 rounded w-full hover:bg-blue-600"
+              className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white py-2 px-4 rounded-full w-full hover:bg-blue-600"
             >
               Log in
             </button>

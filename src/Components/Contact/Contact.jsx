@@ -20,13 +20,13 @@ const Contact = () => {
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] ">
         <div className="  md:px-20">
-          <div className="mt-10 lg:mt-16   ">
-          <h1 className="text-5xl mt-32 font-bold lg:text-8xl xxl:text-9xl ">
-              Let's talk
+          <div className="mt-10 md:mt-80 lg:mt-80 xxl:mt-96 ">
+          <h1 className="text-5xl mt-80 font-bold font-sans md:text-8xl lg:text-9xl xxl:text-9xl ">
+              Let's talk..!
             </h1>
             <ul>
             <li>
-                    <div className="flex gap-5 text-xl lg:gap-14 mt-5 px-5 lg:mt-10 lg:px-32 lg:text-2xl">
+                    <div className="flex gap-5 text-2xl lg:gap-14 mt-7 mb-48 lg:mb-72 px-5 lg:mt-10 lg:px-32 lg:text-4xl">
                     <span
                         onClick={() =>
                           window.open(
@@ -67,8 +67,8 @@ const Contact = () => {
             </ul>
 
             <div className="flex justify-center items-center h-screen">
-      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 rounded shadow-md">
-        <h2 className="text-4xl font-bold mb-12">How can I help you?</h2>
+      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 mt-48 md:mt-80 lg:mt-96 rounded shadow-md">
+        <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form>
           <div className="mb-4">
             <label className="block mb-1 font-semibold">Name</label>
@@ -103,7 +103,7 @@ const Contact = () => {
           >
             Submit
           </button> */}
-          <a  className="p-3 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#282728] hover:bg-orange-600 cursor-pointer" >
+          <a  className="p-3 mt-8 flex justify-center rounded-full w-[120px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 Submit
               </a>
         </form>
@@ -111,7 +111,7 @@ const Contact = () => {
     </div>
 
 
-            <h1 className="text-5xl mt-12  lg:text-8xl xxl:text-9xl ">
+            <h1 className="text-5xl mt-32 md:mt-20 lg:mt-0 xxl:mt-40 lg:text-8xl xxl:text-9xl ">
               ready when <br /> you are—It’s time <br /> to accelerate{" "}
             </h1>
             <div className="flex group hover:cursor-pointer gap-4 top-[270px] lg:top-[500px] xl:top-[370px] w-full mb-10  md:mt-5 mx-auto">

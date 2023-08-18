@@ -6,6 +6,7 @@ import Navbar from "../Components/Navbar";
 import SelectedWorks from "../Components/Works/SelectedWorks";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 import WorksNew from "../Components/Works/WorksNew";
+import { WorksHome } from "../Components/Works/WorksHome";
 const Works = () => {
   UseDocumentTitle("LYM DATA | Works");
   return (
@@ -14,7 +15,8 @@ const Works = () => {
       {/* <SelectedWorks />
       <AllWork />
       <AllWorksListing /> */}
-      <WorksNew />
+      {/* <WorksNew /> */}
+      <WorksHome />
       <Footer />
     </>
   );
