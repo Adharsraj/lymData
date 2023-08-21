@@ -18,15 +18,18 @@ const Contact = () => {
 
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] ">
-        <div className="  md:px-20">
-          <div className="mt-10 md:mt-80 lg:mt-80 xxl:mt-96 ">
-          <h1 className="text-5xl mt-80 font-bold font-sans md:text-8xl lg:text-9xl xxl:text-9xl ">
-              Let's talk..!
+      <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
+        <div className=" md:px-20">
+          <div className=" ">
+            <div className="min-h-screen mt-10 md:mt-80 lg:mt-0 xxl:mt-0">
+          
+          <h1 className="text-6xl mt-80 md:mt-96 lg:mt-72 font-bold font-sans md:text-8xl lg:text-[150px] animate-slide-up "
+          style={{ fontFamily: "'PP Neue Montreal', sans-serif" }}>
+              Let's talk
             </h1>
             <ul>
             <li>
-                    <div className="flex gap-5 text-2xl lg:gap-14 mt-7 mb-48 lg:mb-72 px-5 lg:mt-10 lg:px-32 lg:text-4xl">
+                    <div className="flex item-center gap-5 text-2xl lg:gap-14 mt-7 mb-48 lg:mb-20 px-1 lg:mt-10 lg:px-5 lg:text-4xl animate-slide-up">
                     <span
                         onClick={() =>
                           window.open(
@@ -34,7 +37,7 @@ const Contact = () => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-black"
+                        className="  cursor-pointer text-white bg-black"
                       >
                         <SlSocialLinkedin />
                       </span>
@@ -45,7 +48,7 @@ const Contact = () => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-black"
+                        className="  cursor-pointer text-white bg-black rounded-full"
                       >
                         <SlSocialFacebook />
                       </span>
@@ -65,9 +68,10 @@ const Contact = () => {
                     </div>
                   </li>
             </ul>
+            </div>
 
             <div className="flex justify-center items-center h-screen">
-      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 mt-48 md:mt-80 lg:mt-96 rounded shadow-md">
+      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 mt-48 md:mt-80 lg:mt-0 rounded shadow-md">
         <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form>
           <div className="mb-4">

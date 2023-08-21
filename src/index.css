@@ -696,3 +696,19 @@ span.two {
     src: url("/fonts/HelveticaNowDisplay-Bold.f0b7416.woff2") format("woff2");
   }
 }
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.5s ease-in-out forwards;
+}
+

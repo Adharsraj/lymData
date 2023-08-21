@@ -260,6 +260,7 @@ export const WorksNew = () => {
           />
         </div>
       </div>
+      
       <div className="lg:hidden">
       <h1 className="mt-20 text-4xl text-center font-bold">ALL WORKS</h1>
         <div className="lg:grid lg:grid-cols-2 items-start">
