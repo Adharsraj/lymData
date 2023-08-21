@@ -1,8 +1,10 @@
 import React from "react";
-import Image1 from "../../assets/Images/image1.webp"
-import Image2 from "../../assets/Images/image2.webp"
-import Image3 from "../../assets/Images/image3.webp"
-import Image4 from "../../assets/Images/image4.webp"
+import Image1 from "../../assets/Images/image1.png"
+import Image2 from "../../assets/Images/image2.png"
+import Image3 from "../../assets/Images/image3.png"
+import Image4 from "../../assets/Images/image4.png"
+import Image5 from "../../assets/Images/image5.png"
+import Image6 from "../../assets/Images/image6.png"
 
 export const WorksHome = () => {
 
@@ -49,25 +51,56 @@ export const WorksHome = () => {
               </h3>
 
           </div>
-          <div className="relative flex justify-end px-52">
-          <img
-            src={Image1}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[550px] h-[600px] rounded-3xl"
-          />
-          <img
-            src={Image2}
-            className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
-          <img
-            src={Image4}
-            alt="Overlay"
-            className="absolute top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block bg-black w-[150px] h-[100px]"
-          />
-          <img
-            src={Image3}
-            className="absolute top-52 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
-          </div>
+          <div className="flex">
+  <img
+    src={Image1}
+    className="mt-8 lg:mt-0 hidden lg:block bg-black w-[450px] h-[700px]"
+  />
+  {/* <img
+    src={Image2}
+    className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
+  />
+  <img
+    src={Image4}
+    alt="Overlay"
+    className="absolute top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block bg-black w-[150px] h-[100px]"
+  />
+  <img
+    src={Image3}
+    className="absolute top-52 left-[calc(40% - 65px)] transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
+  /> */}
+</div>
+
+{/* <div className="relative flex justify-end px-52">
+      <img
+        src={Image1}
+        loading="eager"
+        alt=""
+        className="project-image-phone-main"
+      />
+      <img
+        src={Image2}
+        loading="eager"
+        alt=""
+        className="absolute project-image-floating"
+        style={{ transform: 'translate3d(0px, 19.8664%, 0px)' }}
+      />
+      <img
+        src={Image4}
+        loading="eager"
+        alt=""
+        className="absolute project-image-floating"
+        style={{ transform: 'translate3d(0px, 22.5022%, 0px)' }}
+      />
+      <img
+        src={Image3}
+        loading="eager"
+        alt=""
+        className="absolute project-image-floating"
+        style={{ transform: 'translate(0px, 25%)' }}
+      />
+    </div> */}
+
           
         </div>
         
@@ -103,12 +136,12 @@ export const WorksHome = () => {
               </h3>
 
           </div>
-          <div className="relative flex justify-end px-52">
+          <div className="flex">
           <img
-            src={Image1}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[550px] h-[600px] rounded-3xl"
+            src={Image2}
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[750px] h-[750px]"
           />
-          <img
+          {/* <img
             src={Image2}
             className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
           />
@@ -120,7 +153,7 @@ export const WorksHome = () => {
           <img
             src={Image3}
             className="absolute top-52 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
+          /> */}
           </div>
           
         </div>
@@ -157,12 +190,12 @@ export const WorksHome = () => {
               </h3>
 
           </div>
-          <div className="relative flex justify-end px-52">
+          <div className="flex justify-end px-0">
           <img
-            src={Image1}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[550px] h-[600px] rounded-3xl"
+            src={Image3}
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1500px] h-[650px] "
           />
-          <img
+          {/* <img
             src={Image2}
             className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
           />
@@ -174,7 +207,7 @@ export const WorksHome = () => {
           <img
             src={Image3}
             className="absolute top-52 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
+          /> */}
           </div>
           
         </div>
@@ -212,12 +245,12 @@ export const WorksHome = () => {
               </h3>
 
           </div>
-          <div className="relative flex justify-end px-52">
+          <div className="flex">
           <img
-            src={Image1}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[550px] h-[600px] rounded-3xl"
+            src={Image4}
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[450px] h-[750px]"
           />
-          <img
+          {/* <img
             src={Image2}
             className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
           />
@@ -229,7 +262,7 @@ export const WorksHome = () => {
           <img
             src={Image3}
             className="absolute top-52 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
+          /> */}
           </div>
           
         </div>
@@ -267,12 +300,12 @@ export const WorksHome = () => {
               </h3>
 
           </div>
-          <div className="relative flex justify-end px-52">
+          <div className="flex justify-end">
           <img
-            src={Image1}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[550px] h-[600px] rounded-3xl"
+            src={Image5}
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
           />
-          <img
+          {/* <img
             src={Image2}
             className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
           />
@@ -284,7 +317,7 @@ export const WorksHome = () => {
           <img
             src={Image3}
             className="absolute top-52 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
+          /> */}
           </div>
           
         </div>
@@ -322,12 +355,12 @@ export const WorksHome = () => {
               </h3>
 
           </div>
-          <div className="relative flex justify-end px-52">
+          <div className="flex justify-end">
           <img
-            src={Image1}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[550px] h-[600px] rounded-3xl"
+            src={Image6}
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
           />
-          <img
+          {/* <img
             src={Image2}
             className="absolute top-3/4 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
           />
@@ -339,7 +372,7 @@ export const WorksHome = () => {
           <img
             src={Image3}
             className="absolute top-52 left-2/5 transform -translate-x-1/4 -translate-y-1/3 hidden lg:block bg-black w-[130px] h-[80px]"
-          />
+          /> */}
           </div>
         </div>
       </div>
@@ -385,12 +418,12 @@ export const WorksHome = () => {
                 View on Behance
               </h3>
 
-              <div className="relative flex flex-col items-center mt-10">
+              <div className="flex flex-col items-center mt-10">
                 <img
                     src={Image1}
-                    className="mt-8 mb-4 bg-black w-[150px] h-[300px] rounded-3xl"
+                    className="mt-8 mb-4 bg-black w-[250px] h-[400px]"
                 />
-                <img
+                {/* <img
                     src={Image2}
                     className="hidden md:absolute md:top-3/4 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
                 />
@@ -402,7 +435,7 @@ export const WorksHome = () => {
                 <img
                     src={Image3}
                     className="hidden md:absolute md:top-52 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
-                />
+                /> */}
             </div>
 
         </div>
@@ -439,12 +472,12 @@ export const WorksHome = () => {
                 View on Behance
               </h3>
 
-              <div className="relative flex flex-col items-center mt-10">
+              <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image1}
-                    className="mt-8 mb-4 bg-black w-[150px] h-[300px] rounded-3xl"
+                    src={Image2}
+                    className="mt-8 mb-4 bg-black w-[300px] h-[400px] rounded-3xl"
                 />
-                <img
+                {/* <img
                     src={Image2}
                     className="hidden md:absolute md:top-3/4 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
                 />
@@ -456,7 +489,7 @@ export const WorksHome = () => {
                 <img
                     src={Image3}
                     className="hidden md:absolute md:top-52 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
-                />
+                /> */}
             </div>
 
         </div>
@@ -493,12 +526,12 @@ export const WorksHome = () => {
                 View on Behance
               </h3>
 
-              <div className="relative flex flex-col items-center mt-10">
+              <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image1}
-                    className="mt-8 mb-4 bg-black w-[150px] h-[300px] rounded-3xl"
+                    src={Image3}
+                    className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
-                <img
+                {/* <img
                     src={Image2}
                     className="hidden md:absolute md:top-3/4 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
                 />
@@ -510,7 +543,7 @@ export const WorksHome = () => {
                 <img
                     src={Image3}
                     className="hidden md:absolute md:top-52 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
-                />
+                /> */}
             </div>
 
         </div>
@@ -548,12 +581,12 @@ export const WorksHome = () => {
                 View on Behance
               </h3>
 
-              <div className="relative flex flex-col items-center mt-10">
+              <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image1}
-                    className="mt-8 mb-4 bg-black w-[150px] h-[300px] rounded-3xl"
+                    src={Image4}
+                    className="mt-8 mb-4 bg-black w-[230px] h-[400px] rounded-3xl"
                 />
-                <img
+                {/* <img
                     src={Image2}
                     className="hidden md:absolute md:top-3/4 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
                 />
@@ -565,7 +598,7 @@ export const WorksHome = () => {
                 <img
                     src={Image3}
                     className="hidden md:absolute md:top-52 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
-                />
+                /> */}
             </div>
 
         </div>
@@ -604,12 +637,12 @@ export const WorksHome = () => {
                 View on Behance
               </h3>
 
-              <div className="relative flex flex-col items-center mt-10">
+              <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image1}
-                    className="mt-8 mb-4 bg-black w-[150px] h-[300px] rounded-3xl"
+                    src={Image5}
+                    className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
-                <img
+                {/* <img
                     src={Image2}
                     className="hidden md:absolute md:top-3/4 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
                 />
@@ -621,7 +654,7 @@ export const WorksHome = () => {
                 <img
                     src={Image3}
                     className="hidden md:absolute md:top-52 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
-                />
+                /> */}
             </div>
 
         </div>
@@ -660,12 +693,12 @@ export const WorksHome = () => {
                 View on Behance
               </h3>
 
-              <div className="relative flex flex-col items-center mt-10">
+              <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image1}
-                    className="mt-8 mb-4 bg-black w-[150px] h-[300px] rounded-3xl"
+                    src={Image6}
+                    className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
-                <img
+                {/* <img
                     src={Image2}
                     className="hidden md:absolute md:top-3/4 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
                 />
@@ -677,7 +710,7 @@ export const WorksHome = () => {
                 <img
                     src={Image3}
                     className="hidden md:absolute md:top-52 md:left-2/5 md:transform md:-translate-x-1/4 md:-translate-y-1/3 bg-black md:block w-[130px] h-[80px]"
-                />
+                /> */}
             </div>
 
         </div>
