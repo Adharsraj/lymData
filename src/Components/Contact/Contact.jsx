@@ -21,13 +21,13 @@ const Contact = () => {
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
         <div className=" md:px-20">
           <div className=" ">
-            <div className="min-h-screen mt-10 md:mt-80 lg:mt-0 relative border ">
-            <div class="text-[200px] md:text-[300px] lg:text-[500px] font-extrabold absolute lg:mt-0 mt-48 md:mt-52">
-  <span class="bg-clip-text text-transparent bg-gray-200 ">
+            <div className="min-h-screen mt-10 md:mt-0 lg:mt-0 relative border border-transparent ">
+            <div className="text-[200px] md:text-[350px] lg:text-[500px] font-extrabold absolute lg:mt-0 mt-48 md:mt-40 ml-[-30px] md:ml-[-130px] lg:ml-[-130px]">
+  <span className="bg-clip-text text-transparent bg-gray-200 ">
     Hello 
   </span>
 </div>
-          <h1 className="text-6xl mt-80 md:mt-96 lg:mt-72 font-bold font-sans md:text-8xl lg:text-[150px] animate-slide-up "
+          <h1 className="text-5xl mt-80 md:mt-96 lg:mt-72 font-extrabold font-sans md:text-8xl lg:text-[150px] animate-slide-up "
           style={{ fontFamily: "'PP Neue Montreal', sans-serif" }}>
               Let's talk
             </h1>
@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
 
             <div className="flex justify-center items-center h-screen">
-      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 mt-48 md:mt-80 lg:mt-0 rounded shadow-md">
+      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 mt-0 md:mt-0 lg:mt-0 rounded shadow-md ">
         <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form>
           <div className="mb-4">
@@ -81,12 +81,7 @@ const Contact = () => {
               className="w-full border rounded py-2 px-3 h-32"
             />
           </div>
-          {/* <button
-            type="submit"
-            className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white py-2 px-4 rounded w-full"
-          >
-            Submit
-          </button> */}
+        
           <a  className="p-3 mt-8 flex justify-center rounded-full w-[120px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 Submit
               </a>
@@ -95,7 +90,7 @@ const Contact = () => {
     </div>
 
 
-            <h1 className="text-5xl mt-32 md:mt-20 lg:mt-0 xxl:mt-40 lg:text-8xl xxl:text-9xl ">
+            <h1 className="text-5xl mt-10 md:mt-0 lg:mt-0 xxl:mt-40 lg:text-8xl xxl:text-9xl ">
               ready when <br /> you are—It’s time <br /> to accelerate{" "}
             </h1>
             <div className="flex group hover:cursor-pointer gap-4 top-[270px] lg:top-[500px] xl:top-[370px] w-full mb-10  md:mt-5 mx-auto">

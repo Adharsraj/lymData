@@ -18,7 +18,7 @@ const Login = () => {
               <label className="block mb-1">Username</label>
               <input
                 type="text"
-                className="w-full border rounded-full py-2 px-3"
+                className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your username"
               />
             </div>
@@ -26,7 +26,7 @@ const Login = () => {
               <label className="block mb-1">Password</label>
               <input
                 type="password"
-                className="w-full border rounded-full py-2 px-3"
+                className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your password"
               />
             </div>

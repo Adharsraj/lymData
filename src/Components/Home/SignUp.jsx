@@ -18,7 +18,7 @@ const SignUp = () => {
               <label className="block mb-1">Username</label>
               <input
                 type="text"
-                className="w-full border rounded-full py-2 px-3"
+                className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your username"
               />
             </div>
@@ -26,7 +26,7 @@ const SignUp = () => {
               <label className="block mb-1">Email</label>
               <input
                 type="email"
-                className="w-full border rounded-full py-2 px-3"
+                className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your email"
               />
             </div>
@@ -34,7 +34,7 @@ const SignUp = () => {
               <label className="block mb-1">Password</label>
               <input
                 type="password"
-                className="w-full border rounded-full py-2 px-3"
+                className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your password"
               />
             </div>
@@ -42,7 +42,7 @@ const SignUp = () => {
               <label className="block mb-1">Confirm Password</label>
               <input
                 type="password"
-                className="w-full border rounded-full py-2 px-3"
+                className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Confirm password"
               />
             </div>
