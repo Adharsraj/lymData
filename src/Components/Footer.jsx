@@ -145,7 +145,8 @@ const Footer
           <div className=" gap-3 mt-5 px-3 mb-5 border-b pb-6">
             <input
               type="text"
-              className="border rounded-full   md:rounded-full w-full mb-2 p-2"
+              className="border rounded-full   md:rounded-full w-full mb-2 p-2 px-5"
+              placeholder="Enter your email"
             />
             <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-full md:rounded-full w-full p-2">
               subscribe

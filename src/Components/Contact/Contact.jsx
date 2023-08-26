@@ -20,7 +20,7 @@ const Contact = () => {
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
         <div className=" md:px-20">
-          <div className=" ">
+          {/* <div className=" "> */}
             <div className="min-h-screen mt-10 md:mt-0 lg:mt-0 relative border border-transparent ">
             <div className="text-[200px] md:text-[350px] lg:text-[500px] font-extrabold absolute lg:mt-0 mt-48 md:mt-40 ml-[-30px] md:ml-[-130px] lg:ml-[-130px]">
   <span className="bg-clip-text text-transparent bg-gray-200 ">
@@ -90,7 +90,7 @@ const Contact = () => {
     </div>
 
 
-            <h1 className="text-5xl mt-10 md:mt-0 lg:mt-0 xxl:mt-40 lg:text-8xl xxl:text-9xl ">
+            {/* <h1 className="text-5xl mt-10 md:mt-0 lg:mt-0 xxl:mt-40 lg:text-8xl xxl:text-9xl ">
               ready when <br /> you are—It’s time <br /> to accelerate{" "}
             </h1>
             <div className="flex group hover:cursor-pointer gap-4 top-[270px] lg:top-[500px] xl:top-[370px] w-full mb-10  md:mt-5 mx-auto">
@@ -115,12 +115,12 @@ const Contact = () => {
               {" "}
               you can also send us a plain email if you want too <br />
               info@lymdata.com
-            </h1>
-          </div>
+            </h1> */}
+          {/* </div> */}
         </div>
         <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 mb-10 ">
           <div className="md:w-[400px] xxl:w-full">
-            <h1 className="mt-5 md:mt-0 lg:text-xl font-bold">
+            <h1 className="mt-7 md:mt-0 lg:mt-0 xxl:mt-0 lg:text-xl font-bold">
               4th floor <br />
               Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}

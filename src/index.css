@@ -1,10 +1,20 @@
 @tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind components;
 @tailwind utilities;
 
 /* Loading arches */
 :root {
   --sp: 2.5s; /* change speed */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 .content {
