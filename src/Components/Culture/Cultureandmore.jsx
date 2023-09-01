@@ -78,7 +78,7 @@ const Cultureandmore = () => {
 
         <div className="md:grid md:mt-20 mt-10 md:grid-cols-2 ">
           <img
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417461/LYMDATALABS/Pages/Culture/asset_4_udsfcg_dzpltd.jpg"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1693569038/LYMDATALABS/Pages/Culture/nrd-c3tNiAb098I-unsplash_abn3dy.jpg"
             className="md:mt-40 md:ml-0 lg:h-[700px] md:w-[300px] lg:w-[400px] ml-20 lg:ml-12"
             alt=""
             srcset=""
