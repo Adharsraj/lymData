@@ -51,15 +51,16 @@ const Contact = () => {
             </div>
 
             <div className="flex justify-center items-center h-screen">
-      <div className="w-full sm:w-96 lg:w-[700px] bg-gray-100 p-8 mt-0 md:mt-0 lg:mt-0 rounded shadow-md ">
+      <div className="w-full sm:w-full lg:w-full bg-gray-100 p-8 mt-0 md:mt-0 lg:mt-0 rounded shadow-md ">
         <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form>
           <div className="mb-4">
-            <label className="block mb-1 font-semibold">Name</label>
+            <label className="block mb-1 font-semibold">Name <span className="text-red-500 text-md">*</span></label>
             <input
               type="text"
-              className="w-full border rounded py-2 px-3"
+              className="w-full border rounded py-2 px-3" required
             />
+            {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
           </div>
           <div className="mb-4">
             <label className="block mb-1 font-semibold">Company</label>
@@ -69,9 +70,17 @@ const Contact = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-semibold">Email</label>
+            <label className="block mb-1 font-semibold">Email <span className="text-red-500 text-md">*</span> </label>
             <input
               type="email"
+              className="w-full border rounded py-2 px-3" required
+            />
+            {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+          </div>
+          <div className="mb-4">
+            <label className="block mb-1 font-semibold">Phone Number</label>
+            <input
+              type="number"
               className="w-full border rounded py-2 px-3"
             />
           </div>

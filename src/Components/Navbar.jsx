@@ -17,7 +17,7 @@ const NavbarNew = React.memo(() => {
     // { path: "/about", label: "About" },
     { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
-    { path: "/works", label: "Works" },
+    // { path: "/works", label: "Works" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -169,9 +169,9 @@ const NavbarNew = React.memo(() => {
                 <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/login">Login</Link>
                   </li>
-                  <li className="lg:mb-5 text-[#646060] hover:text-white ">
+                  {/* <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/blog">Blogs</Link>
-                  </li>
+                  </li> */}
                   <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/privacy">Privacy & legal</Link>
                   </li>
