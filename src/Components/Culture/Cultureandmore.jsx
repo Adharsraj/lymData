@@ -49,13 +49,10 @@ const Cultureandmore = () => {
 
             <div className="text-[25px] leading-10  ">
               <h1>
-                Organizations exist to carry out things that individuals
-                couldn’t achieve by themselves. We work together because it’s
-                the onlyway to work things out.
+              We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients. 
               </h1>
               <h1 className="mt-6">
-                LYM Data Labs exists to transform our surroundings and ourselves
-                through design, empathy and a restless quest for quality
+              The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
               </h1>
             </div>
           </div>
@@ -64,13 +61,9 @@ const Cultureandmore = () => {
             <div className="flex justify-between xl:px-5  align-middle ">
               <h1 className="text-sm">Culture @ LYM</h1>
               <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10">
-                Organizations exist to carry out things that individuals
-                couldn’t achieve by themselves. We work together because it’s
-                the onlyway to work things out.
+              We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
                 <h1 className="mt-6">
-                  LYM Data Labs exists to transform our surroundings and
-                  ourselves through design, empathy and a restless quest for
-                  quality
+                The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
                 </h1>
               </h1>
               <img
@@ -104,9 +97,7 @@ const Cultureandmore = () => {
                 alt="gjj"
               />
               <h1 className="">
-                Our craft is a combination of robust methodology, an open
-                mindset and a collaborative spirit that brings out the best in
-                every person in our team.
+              The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
               </h1>
             </div>
             <div className="md:ml-10 lg:mt-14 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
@@ -117,9 +108,7 @@ const Cultureandmore = () => {
                 srcset=""
               />
               <h1>
-                DHNN™ is best thought of as a collective brain, formed by a
-                diverse group of people who bring years of experience,
-                dedication and commitment to our daily work.
+              The collective brain of LYMDATA LABS is comprised of a varied group of individuals who possess extensive experience, unwavering dedication, and a strong commitment to our daily tasks. 
               </h1>
             </div>
           </div>
@@ -135,9 +124,7 @@ const Cultureandmore = () => {
               />
 
               <h1 className="lg:w-[350px] xxl:w-[500px]">
-                We have invested a lot of time and effort into assembling the
-                greatest possible team of humans, whose superpowers are the best
-                way to define what we’re all about:
+              Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
               </h1>
             </div>
             <div

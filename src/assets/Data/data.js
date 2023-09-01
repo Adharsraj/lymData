@@ -332,7 +332,7 @@ export const fourCultures = [
     head1: "Curiosity    ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_38_yz6gqj_kapx57.svg",
     head2:
-      "Always on the lookout for what’s out there, what lies beyond, the reasons and workings behind things, curiosity is a core fiber in everyone at DH. We make it a point to nurture curiosity in our day to day, as it creates the conditions for innovation and helps us handle uncertainty and keep our inventiveness sharp.      ",
+      "Curiosity is an integral part of our being as we are constantly seeking to explore the unknown and understand the intricacies of the world. We prioritize the development of our curiosity daily as it fosters innovation, enables us to navigate uncertain situations, and enhances our creativity.",
   },
 
   {
@@ -340,7 +340,7 @@ export const fourCultures = [
     head1: "Adaptability   ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_39_azl9yl_ip1mhx.svg",
     head2:
-      "Light on our feet, we strive to be as nimble as possible, ready to pivot as we incorporate new information. That reflects on the freshness of the work we deliver, on how we organize our teams, and how we approach everything from hiring to exploring new spaces.      ",
+      "We aim to be agile and adaptable, always prepared to adjust our strategies based on new insights. This mindset is evident in the quality of our output, our team structure, and our approach to recruitment and innovation.  ",
   },
 
   {
@@ -348,13 +348,13 @@ export const fourCultures = [
     head1: "  Collaboration ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_40_bin1o9_udedo7.svg",
     head2:
-      "Building great teams is at the heart of the way DH operates, and we have a long tradition of organizing our work around cooperation, partnerships and interdisciplinary exchange. Over years of exploring various industries, we have learned to incorporate diverse perspectives early on in everything we do.      ",
+      "Our approach revolves around fostering excellent teams, and they have a rich history of structuring their operations around collaboration, alliances, and cross-disciplinary interaction. Through years of venturing into different sectors, they have grasped the importance of incorporating a wide range of viewpoints from the outset in all their endeavours.    ",
   },
   {
     id: 4,
     head1: " Sustainability  ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_41_hferql_lqmruu.svg",
     head2:
-      "Before anything else, DH is an ecosystem. We have always had clarity about the fact that we are a part of something bigger, and that we nurture from it every bit as much as it is our responsibility to take good care of our surroundings. The only way to be consistent in our effort to co-create the future, is to also create the conditions for that future to be a better version of today.      ",
+      "It has always been evident to us that we are a component of a larger entity, and we derive sustenance from it just as much as it is our obligation to maintain our environment. The sole approach to maintaining our commitment to jointly shaping the future is to cultivate an environment that enables the future to be an improved rendition of the present.    ",
   },
 ];

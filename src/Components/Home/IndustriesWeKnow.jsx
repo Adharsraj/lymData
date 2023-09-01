@@ -61,8 +61,7 @@ const IndustriesWeknowdhn = () => {
             We know what we're doing
           </h1>
           <h2>
-            We have spent 15+ years creating and re-creating digital solutions
-            and learned what makes great businesses stay in business.
+          we have dedicated ourselves to developing and refining digital solutions, gaining valuable insights into the key factors that contribute to the long-term success of businesses.
           </h2>
         </div>
       </div>
