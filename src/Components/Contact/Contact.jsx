@@ -55,7 +55,7 @@ const Contact = () => {
                   </label> */}
                   <input
                     type="text"
-                    className="w-full border-b border-gray-500 bg-transparent py-4 px-3"
+                    className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                     placeholder="Name *"
                     required
                   />
@@ -65,7 +65,7 @@ const Contact = () => {
                   {/* <label className="block mb-1 font-semibold">Company</label> */}
                   <input
                     type="text"
-                    className="w-full border-b  border-gray-500 bg-transparent py-4 px-3"
+                    className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
                     placeholder="Company"
                   />
                 </div>
@@ -75,7 +75,7 @@ const Contact = () => {
                   </label> */}
                   <input
                     type="email"
-                    className="w-full border-b  border-gray-500 bg-transparent py-4 px-3"
+                    className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
                     placeholder="Email *"
                     required
                   />
@@ -90,7 +90,7 @@ const Contact = () => {
                   </label> */}
                   <input
                     type="number"
-                    className="w-full border-b  border-gray-500 bg-transparent py-4 px-3"
+                    className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
                     placeholder="Phone Number"
                   />
                 </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                   {/* <label className="block mb-1 font-semibold">
                     Please, tell me what you're after
                   </label> */}
-                  <textarea className="w-full border-b  border-gray-500 bg-transparent py-4 px-3 h-32" 
+                  <textarea className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3 h-32" 
                   placeholder="Please, tell me what you're after" />
                 </div>
                 </div>
