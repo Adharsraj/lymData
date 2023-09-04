@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
 
             <div className="flex justify-center items-center h-screen">
-      <div className="w-full sm:w-full lg:w-full bg-gray-100 p-8 mt-14 md:mt-0 lg:mt-0 rounded shadow-md ">
+      <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 rounded ">
         <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form className="">
                 <div className="grid md:grid-cols-2 gap-5">
