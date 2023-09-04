@@ -46,34 +46,37 @@ const Contact = () => {
       <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 rounded ">
         <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form className="">
-                <div className="grid md:grid-cols-2 gap-5">
+                <div className="grid md:grid-cols-2 gap-16">
 <div>
 
                 <div className="mb-4">
-                  <label className="block mb-1 font-semibold">
+                  {/* <label className="block mb-1 font-semibold">
                     Name <span className="text-red-500 text-md">*</span>
-                  </label>
+                  </label> */}
                   <input
                     type="text"
-                    className="w-full border rounded py-2 px-3"
+                    className="w-full border-b border-gray-500 bg-transparent py-4 px-3"
+                    placeholder="Name *"
                     required
                   />
                   {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                 </div>
                 <div className="mb-4">
-                  <label className="block mb-1 font-semibold">Company</label>
+                  {/* <label className="block mb-1 font-semibold">Company</label> */}
                   <input
                     type="text"
-                    className="w-full border rounded py-2 px-3"
+                    className="w-full border-b  border-gray-500 bg-transparent py-4 px-3"
+                    placeholder="Company"
                   />
                 </div>
                 <div className="mb-4">
-                  <label className="block mb-1 font-semibold">
+                  {/* <label className="block mb-1 font-semibold">
                     Email <span className="text-red-500 text-md">*</span>{" "}
-                  </label>
+                  </label> */}
                   <input
                     type="email"
-                    className="w-full border rounded py-2 px-3"
+                    className="w-full border-b  border-gray-500 bg-transparent py-4 px-3"
+                    placeholder="Email *"
                     required
                   />
                   {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
@@ -82,19 +85,21 @@ const Contact = () => {
 <div>
 
                 <div className="mb-4">
-                  <label className="block mb-1 font-semibold">
+                  {/* <label className="block mb-1 font-semibold">
                     Phone Number
-                  </label>
+                  </label> */}
                   <input
                     type="number"
-                    className="w-full border rounded py-2 px-3"
+                    className="w-full border-b  border-gray-500 bg-transparent py-4 px-3"
+                    placeholder="Phone Number"
                   />
                 </div>
                 <div className="mb-4">
-                  <label className="block mb-1 font-semibold">
+                  {/* <label className="block mb-1 font-semibold">
                     Please, tell me what you're after
-                  </label>
-                  <textarea className="w-full border rounded py-2 px-3 h-32" />
+                  </label> */}
+                  <textarea className="w-full border-b  border-gray-500 bg-transparent py-4 px-3 h-32" 
+                  placeholder="Please, tell me what you're after" />
                 </div>
                 </div>
                 </div>
