@@ -190,7 +190,7 @@ const NavbarNew = React.memo(() => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white hover:border rounded-full p-2"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialFacebook />
                       </span>
@@ -198,7 +198,7 @@ const NavbarNew = React.memo(() => {
                         onClick={() =>
                           window.open("https://twitter.com/lymdata", "_blank")
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white hover:border rounded-full p-2"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialTwitter />
                       </span>
@@ -209,7 +209,7 @@ const NavbarNew = React.memo(() => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white hover:border rounded-full p-2"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialInstagram />
                       </span>
@@ -220,7 +220,7 @@ const NavbarNew = React.memo(() => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white hover:border rounded-full p-2"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialLinkedin />
                       </span>
