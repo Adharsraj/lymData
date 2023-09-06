@@ -154,7 +154,7 @@ const NavbarNew = React.memo(() => {
                       return (
                         <li
                           key={item.path}
-                          className="lg:mb-8 hover:text-amber-500"
+                          className="lg:mb-8 text-white text-transparent bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400"
                         >
                           <Link to={item.path}>{item.label}</Link>
                         </li>
@@ -169,6 +169,7 @@ const NavbarNew = React.memo(() => {
                 <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/login">Login</Link>
                   </li>
+                  
                   {/* <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/blog">Blogs</Link>
                   </li> */}
@@ -181,7 +182,7 @@ const NavbarNew = React.memo(() => {
                     </Link>
                   </li>
                   <li>
-                    <div className="flex gap-2 lg:gap-14">
+                    <div className="flex gap-2 lg:gap-10">
                       <span
                         onClick={() =>
                           window.open(
@@ -189,7 +190,7 @@ const NavbarNew = React.memo(() => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white"
+                        className="  cursor-pointer text-[#646060] hover:text-white border rounded-full p-2"
                       >
                         <SlSocialFacebook />
                       </span>
@@ -197,7 +198,7 @@ const NavbarNew = React.memo(() => {
                         onClick={() =>
                           window.open("https://twitter.com/lymdata", "_blank")
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white"
+                        className="  cursor-pointer text-[#646060] hover:text-white border rounded-full p-2"
                       >
                         <SlSocialTwitter />
                       </span>
@@ -208,7 +209,7 @@ const NavbarNew = React.memo(() => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white"
+                        className="  cursor-pointer text-[#646060] hover:text-white border rounded-full p-2"
                       >
                         <SlSocialInstagram />
                       </span>
@@ -219,7 +220,7 @@ const NavbarNew = React.memo(() => {
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white"
+                        className="  cursor-pointer text-[#646060] hover:text-white border rounded-full p-2"
                       >
                         <SlSocialLinkedin />
                       </span>

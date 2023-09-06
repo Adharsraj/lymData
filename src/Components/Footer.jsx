@@ -15,40 +15,40 @@ const Footer
               <Link to="/about">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
               </Link>
-              <Link to="/works">
+              {/* <Link to="/works">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-              </Link>
+              </Link> */}
               
 
-              <Link to="/careers">
+              {/* <Link to="/careers">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-              </Link>
+              </Link> */}
               <Link to="/services">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
               </Link>
-              <Link to="/blog">
+              {/* <Link to="/blog">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-              </Link>
+              </Link> */}
             </div>
             <div className="md:hidden gap-4 flex justify-between ">
               <div>
                 <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
                 </Link>
-                <Link>
+                {/* <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-                </Link>
+                </Link> */}
               </div>
               <div>
-                <Link>
+                {/* <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-                </Link>
+                </Link> */}
                 <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
                 </Link>
-                <Link to="/blogs">
+                {/* <Link to="/blogs">
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
@@ -123,20 +123,20 @@ const Footer
               <Link to="/about">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
               </Link>
-              <Link to="/works">
+              {/* <Link to="/works">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-              </Link>
+              </Link> */}
             </div>
             <div>
-              <Link to="/careers">
+              {/* <Link to="/careers">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-              </Link>
+              </Link> */}
               <Link to="/services">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
               </Link>
-              <Link to="/blog">
+              {/* <Link to="/blog">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
