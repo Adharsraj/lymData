@@ -18,7 +18,7 @@ const Login = () => {
       </div>
       <div className="flex-1 flex items-center justify-center p-8">
         <div className="max-w-md w-full bg-gray-100 p-14 shadow-2xl">
-          <h2 className="text-3xl font-semibold mb-4 text-center">Email Login</h2>
+          <h2 className="text-3xl font-semibold mb-4 text-center">Login</h2>
           <form>
             <div className="mb-4">
               <label className="block mb-1">Username</label>
@@ -44,16 +44,16 @@ const Login = () => {
             </button>
 
             <div className='flex justify-between mt-3 text-gray-500'>
-          <h3>Create account</h3>
+          {/* <h3>Create account</h3> */}
           <h3>Forgot password?</h3>
           </div>
 
-          <h3 className='text-center mt-7 text-gray-500'>OR</h3>
+          {/* <h3 className='text-center mt-7 text-gray-500'>OR</h3>
 
           <div className='flex justify-center items-center gap-3 mt-7'>
             <img src={Icon} alt="google" className='w-7 h-7'/>
             <h3>Sign in with Google</h3>
-          </div>
+          </div> */}
           </form>
            
         </div>

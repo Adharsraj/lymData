@@ -106,9 +106,10 @@ const Contact = () => {
               
                 <div className=" flex justify-center items-center">
 
-                  <a className="p-3 mt-8 flex justify-center rounded-full w-[180px] border text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 duration-[400ms,700ms] transition-[color,box-shadow]">
+                  <a className="p-3 mt-8 flex justify-center rounded-full w-[180px] border text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400">
                     Submit
                   </a>
+
                 </div>
 
 
