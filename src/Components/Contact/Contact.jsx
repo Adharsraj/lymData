@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { FaLongArrowAltDown } from "react-icons/fa";
+import Image from "../../assets/Images/Contact.jpg"
 
 const Contact = () => {
   const handleClicktoform = () => {
@@ -58,6 +59,51 @@ const Contact = () => {
     window.open(gmailLink);
   };
 
+
+  // const [text, setText] = useState('');
+  const sentences = ["ddrive conversion", "bbuild to scale", "iinspire action"];
+  const [text, setText] = useState('');
+  const [showCursor, setShowCursor] = useState(true);
+  // const sentences = ["How can I help you?", "Here's more text.", "This is additional text."];
+  let sentenceIndex = 0;
+  let charIndex = 0;
+
+  useEffect(() => {
+    const typeText = () => {
+      if (sentenceIndex < sentences.length) {
+        if (charIndex < sentences[sentenceIndex].length) {
+          setText((prevText) => prevText + sentences[sentenceIndex].charAt(charIndex));
+          charIndex++;
+          setTimeout(typeText, 40); // Adjust typing speed (in milliseconds)
+        } else {
+          setTimeout(() => {
+            setShowCursor(false);
+            setTimeout(eraseText, 500); // Delay before erasing (in milliseconds)
+          }, 1000); // Delay after typing complete (in milliseconds)
+        }
+      } else {
+        sentenceIndex = 0;
+        setTimeout(typeText, 0); // Start typing the first sentence again immediately
+      }
+    };
+
+    const eraseText = () => {
+      if (charIndex > 0) {
+        setText((prevText) => prevText.slice(0, -1));
+        charIndex--;
+        setTimeout(eraseText, 20); // Adjust erasing speed (in milliseconds)
+      } else {
+        setShowCursor(true);
+        sentenceIndex++;
+        setTimeout(typeText, 500); // Delay before typing the next sentence (in milliseconds)
+      }
+    };
+
+    typeText();
+  }, []); // Only run this effect once
+
+
+
   return (
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
@@ -107,7 +153,13 @@ const Contact = () => {
 
             <div id="form" className="flex justify-center items-center h-screen">
       <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 rounded ">
-        <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
+        <h2 className="text-4xl font-bold mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]"> How can we <br /> help  
+      <span className="text-[#233BD6]  ml-3">
+
+      {text}{showCursor && '|'}
+      </span>
+
+</h2>
         <form className="">
                 <div className="grid md:grid-cols-2 gap-16">
 <div>
@@ -190,7 +242,7 @@ const Contact = () => {
 
         
         </div>
-        <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 mb-10 ">
+        {/* <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 mb-10 ">
           <div className="md:w-[400px] xxl:w-full">
             <h1 className="mt-24 md:mt-0 lg:mt-0 xxl:mt-0 lg:text-xl font-bold">
               4th floor <br />
@@ -210,6 +262,10 @@ const Contact = () => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+        </div> */}
+
+        <div>
+          <img src={Image} alt="image" className="md:mt-40 md:ml-0 lg:h-[700px] md:w-[300px] lg:w-[400px] ml-20 lg:ml-12" />
         </div>
       </div>
     </div>
