@@ -467,7 +467,7 @@ const ServicesLanding = () => {
               </div>
 
               <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#000]   mb-16">
-                <h1 className="lg:text-4xl font-extrabold lg:leading-[70px]  font-helvetica some-element text-[#282728]  lg:w-[690px] ">
+                <h1 className="lg:text-4xl font-extrabold lg:leading-[55px]  font-helvetica some-element text-[#282728]  lg:w-[690px] ">
                 Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
               </div>
