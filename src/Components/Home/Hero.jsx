@@ -2,6 +2,7 @@ import gsap from "gsap";
 import React, { useEffect } from "react";
 import giphy from "../../assets/gif/giphy.webp";
 import { FaLongArrowAltDown } from "react-icons/fa";
+import Popup from "./Popup";
 
 const Hero = () => {
   const handleClicktohowethink = () => {
@@ -51,6 +52,7 @@ const Hero = () => {
 
   return (
     <>
+      <Popup />
       <div className=" bg-black text-white ">
         <div className="max-w-[1640px] mx-auto  mt-[-10px]     md:mt-[-16px] lg:mt-0  overflow-hidden ">
           <div className="">
