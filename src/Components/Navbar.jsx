@@ -109,6 +109,10 @@ const NavbarNew = React.memo(() => {
 
   const navbarBgColor = !menuopen && scrolling ? "bg-[#fff]" : "bg-transparent";
 
+  const handleClose = () => {
+    localStorage.clear();
+  };
+
   return (
     <>
       <div className=" ">
@@ -179,6 +183,11 @@ const NavbarNew = React.memo(() => {
                   <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 text-[#646060] hover:text-white ">
                     <Link className="lg:mb-5 mb-5" to="/terms">
                       Terms & Conditions
+                    </Link>
+                  </li>
+                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 text-[#646060] hover:text-white " onClick={handleClose}>
+                    <Link className="lg:mb-5 mb-5" to="/">
+                      Close
                     </Link>
                   </li>
                   <li>

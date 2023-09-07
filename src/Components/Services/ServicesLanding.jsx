@@ -289,52 +289,7 @@ const ServicesLanding = () => {
                   </h1>
                 </div>
               </div>
-              <div>
-                <h1 className="text-3xl font-semibold mt-10 mb-10">
-                  Product <br /> discovery
-                </h1>
-                <h2 className="mt-6 mb-6 lg:text-sm">
-                  We set the right processes and methodologies to boost
-                  innovation labs and digital product discoveries.
-                </h2>
-                <div className="text-sm">
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Design thinking processes
-                  </h2>
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Digital Innovation & transformation workshops
-                  </h2>
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Blueprints for digital services & customer experiences
-                  </h2>
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Proof of concepts
-                  </h2>
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Digital landscape, user and market research
-                  </h2>
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Digital product ideation & implementation
-                  </h2>
-                </div>
-
-                <div className="hidden md:flex group hover:cursor-pointer gap-4 w-full   mx-auto">
-                  <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-                    see more
-                  </h1>
-                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
-                  </h1>
-                </div>
-                <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
-                  <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
-                    see more
-                  </h1>
-                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
-                  </h1>
-                </div>
-              </div>
+              
               <div>
                 <h1 className="text-3xl font-semibold mt-10 mb-10">
                   Product <br /> discovery
@@ -381,6 +336,67 @@ const ServicesLanding = () => {
                   <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
                 </h1>
               </div>
+
+              <div>
+                <h1 className="text-3xl font-semibold mt-10 mb-10">
+                  Growth, Marketing <br /> & Sales 
+                </h1>
+                <div className="text-sm">
+                  <h2 className="lg:text-sm border-b border-b-[#464546] py-4">
+                  Branding 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Consumer & Shopper Insights
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Customer Experience 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Customer Lifecycle Management 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Digital Marketing 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Green Growth 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Insights & Analytics 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Marketing Return on Investment 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  NeXT Commerce 
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Organization & Capabilities  
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Pricing  
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Sales & Channel Management
+                  </h2>
+                </div>
+
+                <div className="hidden md:flex group hover:cursor-pointer gap-4 w-full   mx-auto">
+                  <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                    see more
+                  </h1>
+                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                  </h1>
+                </div>
+                <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
+                  <h1 className="p-1 mt-10 flex justify-center rounded-full w-[120px] text-white bg-[#7B7B7B] transition-all ">
+                    see more
+                  </h1>
+                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -417,12 +433,9 @@ const ServicesLanding = () => {
                 />
               </div>
 
-              <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16">
+              <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left font-bold leading-10  text-[#000]  mt-10  mb-16">
                 <h1>
-                  Our offering has evolved as a testament of theas a testament
-                  of the work we have completedwork we have completed and
-                  delivered for moreand delivered for more than 150 companies of
-                  all than 150 companies of allkinds and sizes.
+                Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
 
                 <Link to="/contact">
@@ -454,10 +467,8 @@ const ServicesLanding = () => {
               </div>
 
               <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#000]   mb-16">
-                <h1 className="lg:text-5xl  lg:leading-[70px]  font-helvetica some-element text-[#282728]  lg:w-[670px] ">
-                  Our offering has evolved as a testament of work we have
-                  completed and delivered for more than 150 companies of
-                  allkinds and sizes.
+                <h1 className="lg:text-4xl font-extrabold lg:leading-[70px]  font-helvetica some-element text-[#282728]  lg:w-[690px] ">
+                Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
               </div>
               <Link to="/contact">
@@ -569,7 +580,7 @@ const ServicesLanding = () => {
                   </span>{" "}
                   <br />{" "}
                   <span className="text-[#424142] mb-10 ">
-                    15+ years of solved challenges
+                  Leading the way in digital design & innovation.
                   </span>
                 </h1>
               </div>

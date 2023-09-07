@@ -1,12 +1,54 @@
-import React from "react";
-import {
-  SlSocialFacebook,
-  SlSocialInstagram,
-  SlSocialLinkedin,
-  SlSocialTwitter,
-} from "react-icons/sl";
+import React, { useEffect } from "react";
+import gsap from "gsap";
+import { FaLongArrowAltDown } from "react-icons/fa";
 
 const Contact = () => {
+  const handleClicktoform = () => {
+    const component2Element = document.getElementById("form");
+    if (component2Element) {
+      window.scrollTo({
+        top: component2Element.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  useEffect(() => {
+    gsap.fromTo(
+      "#arrowbottom",
+      {
+        x: 0,
+        y: 70,
+        rotate: 0,
+      },
+      {
+        x: 0,
+        y: 100,
+        rotate: 0,
+        delay: 1,
+        duration: 1.5,
+        repeat: -1,
+        yoyo: true,
+      }
+    );
+
+    gsap.from("h6 div", 1.5, {
+      yPercent: 100,
+      ease: "power4.inOut",
+      stagger: {
+        amount: 0.5,
+      },
+    });
+
+    gsap.to("h6", 1.5, {
+      clipPath: "polygon(0 0,100% 0,100% 100%,0% 100%)",
+      ease: "power4.inOut",
+      stagger: {
+        amount: 0.5,
+      },
+    });
+  }, []);
+
   const handleContactClick = () => {
     const toAddress = 'example@example.com'; 
     const subject = 'Contact Us';
@@ -40,9 +82,30 @@ const Contact = () => {
                     <svg className="z-10" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor"><path fill-rule="evenodd" d="M16 8.81a7.2 7.2 0 1 0 0 14.38 7.2 7.2 0 0 0 0-14.38Zm0 11.85a4.67 4.67 0 1 1 0-9.33 4.67 4.67 0 0 1 0 9.33Z" clip-rule="evenodd"></path><path d="M25.14 8.52a1.68 1.68 0 1 1-3.35 0 1.68 1.68 0 0 1 3.35 0Z"></path><path fill-rule="evenodd" d="M16 2c-3.8 0-4.28.02-5.78.08-1.49.07-2.5.3-3.4.65-.91.36-1.7.84-2.47 1.62a6.94 6.94 0 0 0-1.62 2.48c-.34.89-.58 1.9-.65 3.4C2.02 11.72 2 12.2 2 16s.02 4.28.08 5.77c.07 1.49.3 2.5.65 3.4.36.92.84 1.7 1.62 2.48a6.94 6.94 0 0 0 2.48 1.62c.89.34 1.9.58 3.4.65 1.5.06 1.96.08 5.77.08 3.8 0 4.28-.02 5.77-.08 1.5-.07 2.5-.3 3.4-.65.92-.36 1.7-.84 2.48-1.62a6.94 6.94 0 0 0 1.62-2.48c.34-.89.58-1.9.65-3.4.06-1.5.08-1.97.08-5.77s-.02-4.28-.08-5.78c-.07-1.49-.3-2.5-.65-3.4a6.82 6.82 0 0 0-1.62-2.48 6.94 6.94 0 0 0-2.48-1.61c-.89-.35-1.9-.59-3.4-.65C20.27 2.02 19.8 2 16 2Zm0 2.52c3.73 0 4.17.02 5.65.09 1.37.06 2.1.28 2.6.48.66.26 1.12.56 1.61 1.04.49.5.8.96 1.05 1.62.18.49.42 1.23.48 2.6.07 1.47.08 1.91.08 5.65s-.01 4.18-.08 5.66a7.64 7.64 0 0 1-.48 2.6 4.34 4.34 0 0 1-1.05 1.61c-.49.49-.95.8-1.61 1.05-.5.18-1.23.42-2.6.48-1.48.07-1.92.08-5.66.08-3.73 0-4.17-.01-5.65-.08a7.64 7.64 0 0 1-2.6-.48 4.34 4.34 0 0 1-1.61-1.05c-.5-.49-.8-.95-1.05-1.61a7.78 7.78 0 0 1-.48-2.6A97.15 97.15 0 0 1 4.52 16c0-3.74.01-4.18.08-5.65.06-1.37.29-2.11.48-2.6.26-.66.56-1.13 1.05-1.62.49-.48.95-.8 1.6-1.04.5-.19 1.24-.42 2.6-.48A92.1 92.1 0 0 1 16 4.52Z" clip-rule="evenodd"></path></svg>
                       
                   </h2>
-            </div>
 
-            <div className="flex justify-center items-center h-screen">
+            
+            </div>
+            <div className=" md:flex absolute ">
+            <div
+              onClick={handleClicktoform}
+              className="inline-block hover:cursor-pointer mt-[-85px] mb-20"
+            >
+              <button
+                id="arrowcontainer"
+                className="md:h-12 h-10 w-6 bg-gradient-to-r from-indigo-400 to-cyan-400  flex items-end justify-center rounded-full"
+              ></button>
+              <h1
+                id="arrowbottom"
+                className="md:h-16 h-32 mt-[-115px] w-6 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
+              >
+                <FaLongArrowAltDown color="black" size={38} />
+              </h1>
+            </div>
+            </div>
+           
+            
+
+            <div id="form" className="flex justify-center items-center h-screen">
       <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 rounded ">
         <h2 className="text-4xl font-bold mb-8 ">How can I help you?</h2>
         <form className="">
@@ -112,7 +175,7 @@ const Contact = () => {
 
                   <button
               type="submit"
-              className="p-3 mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
+              className="p-3 mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r from-indigo-400 to-cyan-400"
             >
               Submit
             </button>

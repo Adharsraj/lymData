@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import {
+  SlSocialFacebook,
+  SlSocialInstagram,
+  SlSocialLinkedin,
+  SlSocialTwitter,
+} from "react-icons/sl";
 
 const Footer
  = () => {
@@ -51,7 +57,7 @@ const Footer
                 </Link> */}
               </div>
             </div>
-            <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
+            {/* <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
               <label htmlFor="stay uptodate mb-5" className="text-[#c1bfbf] ">Stay upto date</label>
               <div className="md:flex gap-3 mt-5">
                 <input
@@ -62,9 +68,9 @@ const Footer
                   subscribe
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className="hidden lg:block">
+          {/* <div className="hidden lg:block">
             <label htmlFor="stay uptodate" className=" ">Stay upto date</label>
             <div className="flex mt-3">
               <div className=" flex">
@@ -82,14 +88,12 @@ const Footer
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className=" hidden md:flex justify-between lg:pt-10">
-          <div>
-            <h3 className="text-[#c1bfbf] ">2023 Lymdata.All rights reserved</h3>
-          </div>
-          <div className="flex gap-10">
+            
+            <div className="flex gap-10">
             <Link to="/terms">
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Terms</h4>
             </Link>
@@ -100,7 +104,64 @@ const Footer
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Sitemap</h4>
             </Link>
           </div>
+          
+          <div className="flex lg:gap-3">
+          <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
+          <ul>
+            <li>
+                    <div className="flex gap-2 lg:gap-10">
+                      
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.facebook.com/lymdatalabs/",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialFacebook />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open("https://twitter.com/lymdata", "_blank")
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialTwitter />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialInstagram />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.linkedin.com/company/lymdata-labs",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialLinkedin />
+                      </span>
+                    </div>
+                  </li>
+            </ul>
+            </div>
         </div>
+
+        <div className="hidden md:flex justify-center lg:pt-2">
+              <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata.All rights reserved</h3>
+        </div>
+
         <div className="  md:hidden justify-between">
           <div className="flex gap-10">
             <Link to="/terms">
@@ -110,8 +171,58 @@ const Footer
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
             </Link>
           </div>
+          <div className="flex lg:gap-3">
+          <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
+          <ul>
+            <li>
+                    <div className="flex gap-2 lg:gap-10">
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.facebook.com/lymdatalabs/",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialFacebook />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open("https://twitter.com/lymdata", "_blank")
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialTwitter />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialInstagram />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.linkedin.com/company/lymdata-labs",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialLinkedin />
+                      </span>
+                    </div>
+                  </li>
+            </ul>
+          </div>
           <div>
-            <h3 className="text mt-5 text-[#c1bfbf] ">2023 Lymdata.All rights reserved</h3>
+            <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata.All rights reserved</h3>
           </div>
         </div>
       </div>
@@ -139,7 +250,7 @@ const Footer
               </Link> */}
             </div>
           </div>
-          <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
+          {/* <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
             Stay upto date
           </label>
           <div className=" gap-3 mt-5 px-3 mb-5 border-b pb-6">
@@ -151,7 +262,7 @@ const Footer
             <button className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-full md:rounded-full w-full p-2">
               subscribe
             </button>
-          </div>
+          </div> */}
           <div className=" justify-between px-3">
             <div className="flex gap-10">
               <Link to="/terms">
@@ -164,9 +275,59 @@ const Footer
                 <h4 className="text-[#c1bfbf] hover:text-white">Sitemap</h4>
               </Link>
             </div>
+            <div className="justify-between px-3 mt-7 flex lg:gap-3">
+          <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
+            <ul>
+            <li>
+                    <div className="flex gap-4 lg:gap-10">
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.facebook.com/lymdatalabs/",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialFacebook />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open("https://twitter.com/lymdata", "_blank")
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialTwitter />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialInstagram />
+                      </span>
+                      <span
+                        onClick={() =>
+                          window.open(
+                            "https://www.linkedin.com/company/lymdata-labs",
+                            "_blank"
+                          )
+                        }
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
+                      >
+                        <SlSocialLinkedin />
+                      </span>
+                    </div>
+                  </li>
+            </ul>
+            </div>
             <div>
               <h3 className="text mt-5 pb-5 text-[#c1bfbf] ">
-                2023 Lymdata.All rights reserved
+              ©2023 Lymdata.All rights reserved
               </h3>
             </div>
           </div>

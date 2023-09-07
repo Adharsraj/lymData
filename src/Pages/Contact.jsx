@@ -11,7 +11,7 @@ const Contact = () => {
     <>
       <Navbar />
       <ContactUs />
-      <Faq />
+      {/* <Faq /> */}
       <Footer />
     </>
   );
