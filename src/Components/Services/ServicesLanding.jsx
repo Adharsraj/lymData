@@ -500,7 +500,7 @@ const ServicesLanding = () => {
           >
             <div className="relative md:mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
               <div className="xl:mt-[-150px] md:mt-[-130px]    mb-20">
-                <div className="relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 ">
+                <div className="relative overflow-hidden md:h-[400px] h-[400px] lg:h-[500px] mb-10 ">
                   <img
                     style={imageStyle}
                     className="mt-32 hidden md:flex "

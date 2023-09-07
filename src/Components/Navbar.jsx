@@ -160,7 +160,9 @@ const NavbarNew = React.memo(() => {
                           key={item.path}
                           className="lg:mb-8 hover:text-cyan-400"
                         >
-                          <Link to={item.path}>{item.label}</Link>
+                          {/* <Link to={item.path}> */}
+                            {item.label}
+                            {/* </Link> */}
                         </li>
                       );
                     }
