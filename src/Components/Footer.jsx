@@ -18,43 +18,44 @@ const Footer
           <div className="">
             <h3 className="mb-4 font-bold text-xl">LYMDATA LABS PVT. LTD</h3>
             <div className="md:flex gap-4 hidden ">
-              {/* <Link to="/about"> */}
+              <Link to="/about">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
-              {/* </Link> */}
-              {/* <Link to="/works">
-                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-              </Link> */}
+              </Link>
               
 
-              {/* <Link to="/careers">
-                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-              </Link> */}
-              {/* <Link to="/services"> */}
+              <Link to="/services">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
-              {/* </Link> */}
-              {/* <Link to="/blog">
-                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-              </Link> */}
+              </Link>
+              {/* <Link to="/careers"> */}
+                <h4 className="pb-1 text-gray-600 ">Careers</h4>
+              {/* </Link>  */}
+               {/* <Link to="/blog"> */}
+                <h4 className="pb-1 text-gray-600 ">Blogs</h4>
+              {/* </Link>  */}
+              {/* <Link to="/works"> */}
+                <h4 className="pb-1 text-gray-600 ">Works</h4>
+              {/* </Link>  */}
+              
             </div>
             <div className="md:hidden gap-4 flex justify-between ">
               <div>
-                {/* <Link> */}
+                 <Link> 
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
-                {/* </Link> */}
-                {/* <Link>
+                </Link>
+                 <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-                </Link> */}
+                </Link> 
               </div>
               <div>
-                {/* <Link>
+                <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-                </Link> */}
-                {/* <Link> */}
+                </Link>
+                <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
-                {/* </Link> */}
-                {/* <Link to="/blogs">
+                </Link>
+                <Link to="/blogs">
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-                </Link> */}
+                </Link>
               </div>
             </div>
             {/* <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
@@ -94,15 +95,15 @@ const Footer
         <div className=" hidden md:flex justify-between lg:pt-10">
             
             <div className="flex gap-10">
-            {/* <Link to="/terms"> */}
+            <Link to="/terms">
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Terms</h4>
-            {/* </Link>
-            <Link to="/privacy"> */}
+             </Link>
+            <Link to="/privacy"> 
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
-            {/* </Link>
-            <Link to="/sitemap"> */}
+             </Link>
+            <Link to="/sitemap"> 
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Sitemap</h4>
-            {/* </Link> */}
+             </Link> 
           </div>
           
           <div className="flex lg:gap-3">
@@ -231,23 +232,23 @@ const Footer
           <h1 className="px-2 mt-5 mb-5 font-bold text-xl">LYMDATA LABS PVT. LTD</h1>
           <div className="flex gap-8 mb-5 px-4">
             <div>
-              {/* <Link to="/about"> */}
+              <Link to="/about">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
-              {/* </Link> */}
-              {/* <Link to="/works">
+              </Link>
+              <Link to="/works">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-              </Link> */}
+              </Link>
             </div>
             <div>
-              {/* <Link to="/careers">
+              <Link to="/careers">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-              </Link> */}
-              {/* <Link to="/services"> */}
+              </Link>
+              <Link to="/services">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
-              {/* </Link> */}
-              {/* <Link to="/blog">
+              </Link>
+              <Link to="/blog">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-              </Link> */}
+              </Link>
             </div>
           </div>
           {/* <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
@@ -265,15 +266,15 @@ const Footer
           </div> */}
           <div className=" justify-between px-3">
             <div className="flex gap-10">
-              {/* <Link to="/terms"> */}
+              <Link to="/terms">
                 <h4 className="text-[#c1bfbf] hover:text-white">Terms</h4>
-              {/* </Link>
-              <Link to="/privacy"> */}
+              </Link>
+              <Link to="/privacy">
                 <h4 className="text-[#c1bfbf] hover:text-white">Privacy policy</h4>
-              {/* </Link>
-              <Link to="/sitemap"> */}
+              </Link>
+              <Link to="/sitemap">
                 <h4 className="text-[#c1bfbf] hover:text-white">Sitemap</h4>
-              {/* </Link> */}
+              </Link>
             </div>
             <div className="justify-between px-3 mt-7 flex lg:gap-3">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>

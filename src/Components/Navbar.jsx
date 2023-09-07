@@ -17,8 +17,11 @@ const NavbarNew = React.memo(() => {
     // { path: "/about", label: "About" },
     { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
-    // { path: "/works", label: "Works" },
     { path: "/contact", label: "Contact" },
+    { path: "/d", label: "Works" },
+    { path: "/m", label: "Blogs" },
+    { path: "/p", label: "Careers" },
+
   ];
 
   const menuRef = useRef(null);
@@ -153,21 +156,22 @@ const NavbarNew = React.memo(() => {
             <div className="w-screen lg:flex lg:flex-end lg:items-center   justify-around">
               <div className="text-white md:flex md:flex-col md:gap-6  text-4xl md:text-6xl px-10 md:mt-24 lg:mt-0">
                 <ul>
-                  {navigationItems.map((item) => {
-                    if (location.pathname !== item.path) {
-                      return (
-                        <li
-                          key={item.path}
-                          className="lg:mb-8 hover:text-cyan-400"
-                        >
-                          {/* <Link to={item.path}> */}
-                            {item.label}
-                            {/* </Link> */}
-                        </li>
-                      );
-                    }
-                    return null;
-                  })}
+                {navigationItems.map((item) => {
+  if (location.pathname !== item.path) {
+    const isDisabled = ['Blogs', 'Careers', 'Works'].includes(item.label);
+    return (
+      <li
+        key={item.path}
+        className={`lg:mb-8 ${isDisabled ? 'text-gray-400' : 'hover:text-cyan-400'}`}
+      >
+        <Link to={isDisabled ? '#' : item.path} disabled={isDisabled} style={{ color: isDisabled ? 'gray' : 'inherit' }}>
+          {item.label}
+        </Link>
+      </li>
+    );
+  }
+  return null;
+})}
                 </ul>
               </div>
               <div className="text-white md:text-2xl mt-10 px-10">
@@ -187,11 +191,11 @@ const NavbarNew = React.memo(() => {
                       Terms & Conditions
                     </Link>
                   </li>
-                  <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 text-[#646060] hover:text-white " onClick={handleClose}>
+                  {/* <li className="flex lg:flex-col justify-between items-center lg:items-start gap-2 text-[#646060] hover:text-white " onClick={handleClose}>
                     <Link className="lg:mb-5 mb-5" to="/">
                       Close
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <div className="flex gap-2 lg:gap-10">
                       <span
