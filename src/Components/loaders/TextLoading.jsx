@@ -5,7 +5,7 @@ const TextLoading = () => {
   const [cycleCount, setCycleCount] = useState(5);
   const [cycleCurrent, setCycleCurrent] = useState(0);
   const [chars] = useState(
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()-_=+{}|[]\\;':\"<>?,./`~".split("")
+    "10".split("")
   );
   const [letterCount, setLetterCount] = useState(0);
   const [letterCurrent, setLetterCurrent] = useState(0);
