@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios'; // Import Axios for making HTTP requests
+import emailjs from "emailjs-com"
 
 const Popup = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    mobileNumber: '',
+    companyName: '',
+    message: '',
+  });
 
   useEffect(() => {
     // Delay showing the popup for 3 seconds
@@ -22,16 +31,36 @@ const Popup = () => {
     localStorage.setItem('popupShown', 'true');
   };
 
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+        // Send the email using Email.js
+        await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID');
+  
+        // Handle success (you can also close the popup here)
+        console.log('Email sent successfully');
+      } catch (error) {
+        console.error('Error sending email:', error);
+        // Handle error (e.g., display an error message to the user)
+      }
+    };
+
   return (
     <>
       {isVisible && (
-        <div className="fixed inset-0 z-50 md:pt-[90px] mt-24 md:mt-20  flex justify-center items-center backdrop-blur-lg">
-          <div className="absolute bg-white shadow-lg p-3 rounded-lg w-full sm:w-full lg:w-[500px]">
-          
-            <div className='flex items-center'>
-            <h2 className="text-4xl font-bold mb-4 text-black">Get a Free Consultation</h2>
-              <button
-              className="absolute top-5  right-4 text-gray-600 hover:text-gray-800"
+        <div className="fixed inset-0 z-50 md:mt-20 mt-24 flex justify-center items-center backdrop-blur-lg">
+          <div className="absolute bg-white shadow-lg p-6 rounded-lg w-full sm:w-full lg:w-[500px]">
+            <button
+              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
               onClick={handleCloseClick}
             >
               {/* Close SVG icon */}
@@ -50,55 +79,70 @@ const Popup = () => {
                 />
               </svg>
             </button>
-            </div>
+            <h2 className="text-4xl font-bold mb-4 text-black">Get a Free Consultation</h2>
             <h3>Let's discover the possibilities of working together.</h3>
             <h3>Schedule an introductory call.</h3>
-            <form className="">
-              <div className="mb-1">
+            <form onSubmit={handleSubmit}>
+              <div className="mb-2">
                 <input
                   type="text"
+                  name="fullName"
+                  value={formData.fullName}
+                  onChange={handleInputChange}
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Full Name *"
                   required
                 />
               </div>
-              <div className="mb-1">
+              <div className="mb-2">
                 <input
                   type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Email *"
                   required
                 />
               </div>
-              <div className="mb-1">
+              <div className="mb-2">
                 <input
                   type="number"
+                  name="mobileNumber"
+                  value={formData.mobileNumber}
+                  onChange={handleInputChange}
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Mobile Number *"
                 />
               </div>
-              <div className="mb-1">
+              <div className="mb-2">
                 <input
                   type="text"
+                  name="companyName"
+                  value={formData.companyName}
+                  onChange={handleInputChange}
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Company Name *"
                 />
               </div>
-              <div className="mb-1">
+              <div className="mb-2">
                 <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Message *"
                 />
               </div>
+              <div className="flex justify-center items-center">
+                <button
+                  type="submit"
+                  className="p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
-            <div className="flex justify-center items-center">
-              <button
-                type="submit"
-                className="p-3 md:mt-3 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
-              >
-                Submit
-              </button>
-            </div>
           </div>
         </div>
       )}

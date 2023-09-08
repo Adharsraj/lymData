@@ -101,9 +101,9 @@ const Footer
             <Link to="/privacy"> 
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
              </Link>
-            <Link to="/sitemap"> 
-              <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Sitemap</h4>
-             </Link> 
+            {/* <Link to="/sitemap">  */}
+              <h4 className="pb-1 text-gray-600">Sitemap</h4>
+             {/* </Link>  */}
           </div>
           
           <div className="flex lg:gap-3">
@@ -272,9 +272,9 @@ const Footer
               <Link to="/privacy">
                 <h4 className="text-[#c1bfbf] hover:text-white">Privacy policy</h4>
               </Link>
-              <Link to="/sitemap">
-                <h4 className="text-[#c1bfbf] hover:text-white">Sitemap</h4>
-              </Link>
+              {/* <Link to="/sitemap"> */}
+                <h4 className="text-gray-600">Sitemap</h4>
+              {/* </Link> */}
             </div>
             <div className="justify-between px-3 mt-7 flex lg:gap-3">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
