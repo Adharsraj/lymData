@@ -113,14 +113,14 @@ const Contact = () => {
     transform: "rotate(180deg)", // Rotate the text 180 degrees to start from the bottom
   };
 
-  const [weatherData, setWeatherData] = useState({});
-  const apiKey = "6a52d261df06839eb8e33a439c651d09 ";
-  const city = "Thiruvananthapuram";
+  const apiKey ="6a52d261df06839eb8e33a439c651d09";
+  const city = 'Ernakulam';
+  const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`
       )
       .then((response) => {
         console.log(response);
@@ -130,6 +130,7 @@ const Contact = () => {
         console.error("Error fetching weather data:", error);
       });
   }, []);
+
 
 
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -387,8 +388,7 @@ const Contact = () => {
         <div className="flex flex-col justify-around ">
           <div className="pl-4">
             <h1 className="text-[12px]  absolute    " style={verticalTextStyle}>
-              37°29'16.25"N 122°14'10.01"W
-            </h1>
+            10.017596° N 76.302559° E             </h1>
           </div>
 
           <div className="invisible">
@@ -396,8 +396,8 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-              60°F
-            </h1>
+{weatherData?.main?.temp}   
+         </h1>
           </div>
 
           <div className="flex flex-col gap-10 pl-4">
@@ -405,7 +405,7 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-              60°F
+             {weatherData?.main?.temp}°F
             </h1>
             <h1
               className="text-[12px] border border-transparent"
@@ -425,6 +425,7 @@ const Contact = () => {
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
               <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
             </h1>
+   
           </div>
         </div>
         <div className=" mt-[-160px] ">
@@ -451,8 +452,8 @@ const Contact = () => {
                 className="text-[12px]   border-transparent "
                 style={verticalTextStyle}
               >
-                60°F
-              </h1>
+             {weatherData?.main?.temp}°F
+            </h1>
               <h1
                 className="text-[12px]  border border-transparent"
                 style={verticalTextStyle}
