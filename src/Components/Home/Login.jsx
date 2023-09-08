@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from "../../assets/Images/icon.png"
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -54,6 +54,15 @@ const Login = () => {
             <img src={Icon} alt="google" className='w-7 h-7'/>
             <h3>Sign in with Google</h3>
           </div> */}
+
+
+          <div className='px-24 mt-7'>
+          <Link to="/" className="mt-5">
+            <button className="bg-white  hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-full shadow mt-5">
+              Back to Home?
+            </button>
+          </Link>
+          </div>
           </form>
            
         </div>

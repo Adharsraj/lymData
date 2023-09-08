@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import img from "../../assets/Images/contact.jpeg";
+import axios from "axios";
 
 const Contact = () => {
   const handleClicktoform = () => {
@@ -111,6 +112,24 @@ const Contact = () => {
     whiteSpace: "nowrap", // Prevents text from wrapping
   };
 
+  const [weatherData, setWeatherData] = useState({});
+  const apiKey = "6a52d261df06839eb8e33a439c651d09 "
+  const city = 'Thiruvananthapuram';
+
+  useEffect(() => {
+    axios
+      .get(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+      )
+      .then((response) => {
+        console.log(response)
+        setWeatherData(response.data);
+      })
+      .catch((error) => {
+        console.error('Error fetching weather data:', error);
+      });
+  }, []);
+
   return (
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
@@ -123,7 +142,14 @@ const Contact = () => {
               Let's talk
             </h1>
 
-            <h2 className="flex  w-full gap-4 animate-slide-up xl:px-3 xl:mt-2">
+            <h2 className="flex  z-10   w-full gap-4 animate-slide-up xl:px-3 xl:mt-2">
+              <div className=" z-10 "  onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/company/lymdata-labs",
+                    "_blank"
+                  )
+                }>
+
               <svg
                 onClick={() =>
                   window.open(
@@ -144,6 +170,10 @@ const Contact = () => {
                   clip-rule="evenodd"
                 ></path>
               </svg>
+              </div>
+<div className="z-10" onClick={() =>
+                  window.open("https://www.facebook.com/lymdatalabs/", "_blank")
+                }>
 
               <svg
                 onClick={() =>
@@ -158,6 +188,13 @@ const Contact = () => {
               >
                 <path d="M16 2C8.27 2 2 8.3 2 16.09 2 23.12 7.12 28.94 13.81 30v-9.84h-3.55v-4.07h3.55v-3.1c0-3.54 2.1-5.49 5.3-5.49 1.52 0 3.12.28 3.12.28v3.46h-1.76c-1.74 0-2.28 1.09-2.28 2.2v2.65h3.88l-.62 4.07h-3.26V30A14.06 14.06 0 0 0 30 16.09C30 8.3 23.73 2 16 2Z"></path>
               </svg>
+              </div>
+<div className="z-10" onClick={() =>
+                  window.open(
+                    "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                    "_blank"
+                  )
+                }>
 
               <svg
                 onClick={() =>
@@ -185,6 +222,8 @@ const Contact = () => {
                   clip-rule="evenodd"
                 ></path>
               </svg>
+              </div>
+
             </h2>
           </div>
           <div className=" md:flex absolute ">
@@ -207,18 +246,18 @@ const Contact = () => {
 
           <div id="form" className="flex justify-center items-center h-screen">
             <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 lg:mb-14 rounded ">
-              <h2 className="text-4xl font-bold mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]">
+              <h2 className="text-4xl font-bold md:mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]">
                 {" "}
-                How can we <br /> help
-                <span className="text-[#233BD6]  ml-3">
-                  {text}
-                  {showCursor && "|"}
-                </span>
+                How can we <br /> help 
+                <span className="relative ml-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
+    {text}
+  </span>
+  {showCursor && <span className="ml-1">|</span>}
               </h2>
               <form className="">
-                <div className="grid md:grid-cols-2 gap-16">
+                <div className="grid md:grid-cols-2 md:gap-16">
                   <div>
-                    <div className="mb-4 mt-14">
+                    <div className="mb-4 md:mt-14">
                       {/* <label className="block mb-1 font-semibold">
                     Name <span className="text-red-500 text-md">*</span>
                   </label> */}
@@ -252,7 +291,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="mb-4 mt-14">
+                    <div className="mb-4 md:mt-14">
                       {/* <label className="block mb-1 font-semibold">
                     Phone Number
                   </label> */}
@@ -267,14 +306,14 @@ const Contact = () => {
                     Please, tell me what you're after
                   </label> */}
                       <textarea
-                        className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3 h-32"
+                        className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3 md:h-32 h-10"
                         placeholder="Please, tell me what you're after"
                       />
                     </div>
                   </div>
                 </div>
 
-                <div className="flex   justify-center items-center   gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
+                <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
                   <div className="flex  group  gap-2 ">
                     <button
                       type="submit"
@@ -360,7 +399,7 @@ const Contact = () => {
             {/* <h1>Ernakulam</h1> */}
           </div>
           <div className="  w-full pl-10 text-[18px]">
-          <h1 className="  w-1/2 p-2 font-times">
+          <h1 className="  w-1/2 p-2 font-times ">
               4th floor <br />
               Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
@@ -373,21 +412,39 @@ const Contact = () => {
         </div>
       </div>
       <div className="md:hidden flex flex-col gap-5 ">
-        <img src={img} className="h-full p-8" />
-        <div className="border w-full pl-10">
-          <h1> Silicon Valley</h1>
-          <h1>Atlanta</h1>
+        <h3 className="px-10 text-4xl font-bold font-times">Our <br/> locations</h3>
+        <div className="flex">
+        <img src={img} className="h-full p-8 overflow-hidden" />
+        <div className="flex flex-col justify-around ">
+        
 
-          <h1>Indianapolis</h1>
-          <h1> New York City</h1>
-          <h1>Bengaluru</h1>
+          <div>
+            <h1
+              className="text-[12px] border border-transparent"
+              style={verticalTextStyle}
+            >
+              60°F
+            </h1>
+          </div>
+
+          <div>
+            <h1
+              className="text-[12px] border border-transparent"
+              style={verticalTextStyle}
+            >
+              4:47 AM
+            </h1>
+          </div>
         </div>
-        <div className="border w-full pl-10">
-          <h1> 255 Shoreline Dr, </h1>
-          <h1>Redwood City, 94065</h1>
+        </div>
 
-          <h1>California</h1>
-          <h1> (415) 839-8584</h1>
+        <div className=" w-full pl-5">
+        <h1 className="  p-2 font-times text-[18px]">
+              4th floor <br />
+              Dotspace Business Center <br />
+              Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
+              <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
+            </h1>
         </div>
       </div>
     </div>
