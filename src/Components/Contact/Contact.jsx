@@ -107,14 +107,15 @@ const Contact = () => {
   }, []); // Only run this effect once
 
   const verticalTextStyle = {
-    writingMode: "vertical-rl", // Vertical text from right to left
-    textOrientation: "upright", // Keeps the text upright
+    writingMode: "vertical-lr", // Vertical text from left to right
+    textOrientation: "mixed", // Text flows vertically and writes upwards
     whiteSpace: "nowrap", // Prevents text from wrapping
+    transform: "rotate(180deg)", // Rotate the text 180 degrees to start from the bottom
   };
 
   const [weatherData, setWeatherData] = useState({});
-  const apiKey = "6a52d261df06839eb8e33a439c651d09 "
-  const city = 'Thiruvananthapuram';
+  const apiKey = "6a52d261df06839eb8e33a439c651d09 ";
+  const city = "Thiruvananthapuram";
 
   useEffect(() => {
     axios
@@ -122,11 +123,11 @@ const Contact = () => {
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
       )
       .then((response) => {
-        console.log(response)
+        console.log(response);
         setWeatherData(response.data);
       })
       .catch((error) => {
-        console.error('Error fetching weather data:', error);
+        console.error("Error fetching weather data:", error);
       });
   }, []);
 
@@ -143,87 +144,95 @@ const Contact = () => {
             </h1>
 
             <h2 className="flex  z-10   w-full gap-4 animate-slide-up xl:px-3 xl:mt-2">
-              <div className=" z-10 "  onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/company/lymdata-labs",
-                    "_blank"
-                  )
-                }>
-
-              <svg
+              <div
+                className=" z-10 "
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/company/lymdata-labs",
                     "_blank"
                   )
                 }
-                className="z-10 cursor-pointer"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                fill="currentColor"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M27.83 2H4.09C2.93 2 2 2.93 2 4.02v23.96C2 29.07 2.93 30 4.1 30h23.8c1.17 0 2.1-.93 2.1-2.02V4.02A2.2 2.2 0 0 0 27.83 2ZM6.1 12.5h4.11v13.38h-4.1V12.5Zm2.1-6.61c1.31 0 2.4 1.09 2.4 2.41a2.42 2.42 0 0 1-2.4 2.41A2.42 2.42 0 0 1 5.8 8.3c0-1.4 1.09-2.41 2.4-2.41Zm8.6 6.61h-3.95v13.22h4.19v-6.6c0-1.72.3-3.43 2.48-3.43 2.17 0 2.17 2.02 2.17 3.58v6.53h4.11v-7.31c0-3.58-.77-6.38-4.96-6.38a4.34 4.34 0 0 0-3.96 2.18h-.08V12.5Z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
+                <svg
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/company/lymdata-labs",
+                      "_blank"
+                    )
+                  }
+                  className="z-10 cursor-pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M27.83 2H4.09C2.93 2 2 2.93 2 4.02v23.96C2 29.07 2.93 30 4.1 30h23.8c1.17 0 2.1-.93 2.1-2.02V4.02A2.2 2.2 0 0 0 27.83 2ZM6.1 12.5h4.11v13.38h-4.1V12.5Zm2.1-6.61c1.31 0 2.4 1.09 2.4 2.41a2.42 2.42 0 0 1-2.4 2.41A2.42 2.42 0 0 1 5.8 8.3c0-1.4 1.09-2.41 2.4-2.41Zm8.6 6.61h-3.95v13.22h4.19v-6.6c0-1.72.3-3.43 2.48-3.43 2.17 0 2.17 2.02 2.17 3.58v6.53h4.11v-7.31c0-3.58-.77-6.38-4.96-6.38a4.34 4.34 0 0 0-3.96 2.18h-.08V12.5Z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
               </div>
-<div className="z-10" onClick={() =>
-                  window.open("https://www.facebook.com/lymdatalabs/", "_blank")
-                }>
-
-              <svg
+              <div
+                className="z-10"
                 onClick={() =>
                   window.open("https://www.facebook.com/lymdatalabs/", "_blank")
                 }
-                className="z-10 cursor-pointer"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                fill="currentColor"
               >
-                <path d="M16 2C8.27 2 2 8.3 2 16.09 2 23.12 7.12 28.94 13.81 30v-9.84h-3.55v-4.07h3.55v-3.1c0-3.54 2.1-5.49 5.3-5.49 1.52 0 3.12.28 3.12.28v3.46h-1.76c-1.74 0-2.28 1.09-2.28 2.2v2.65h3.88l-.62 4.07h-3.26V30A14.06 14.06 0 0 0 30 16.09C30 8.3 23.73 2 16 2Z"></path>
-              </svg>
+                <svg
+                  onClick={() =>
+                    window.open(
+                      "https://www.facebook.com/lymdatalabs/",
+                      "_blank"
+                    )
+                  }
+                  className="z-10 cursor-pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="currentColor"
+                >
+                  <path d="M16 2C8.27 2 2 8.3 2 16.09 2 23.12 7.12 28.94 13.81 30v-9.84h-3.55v-4.07h3.55v-3.1c0-3.54 2.1-5.49 5.3-5.49 1.52 0 3.12.28 3.12.28v3.46h-1.76c-1.74 0-2.28 1.09-2.28 2.2v2.65h3.88l-.62 4.07h-3.26V30A14.06 14.06 0 0 0 30 16.09C30 8.3 23.73 2 16 2Z"></path>
+                </svg>
               </div>
-<div className="z-10" onClick={() =>
+              <div
+                className="z-10"
+                onClick={() =>
                   window.open(
                     "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
                     "_blank"
                   )
-                }>
-
-              <svg
-                onClick={() =>
-                  window.open(
-                    "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
-                    "_blank"
-                  )
                 }
-                className="z-10 cursor-pointer"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                fill="currentColor"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M16 8.81a7.2 7.2 0 1 0 0 14.38 7.2 7.2 0 0 0 0-14.38Zm0 11.85a4.67 4.67 0 1 1 0-9.33 4.67 4.67 0 0 1 0 9.33Z"
-                  clip-rule="evenodd"
-                ></path>
-                <path d="M25.14 8.52a1.68 1.68 0 1 1-3.35 0 1.68 1.68 0 0 1 3.35 0Z"></path>
-                <path
-                  fill-rule="evenodd"
-                  d="M16 2c-3.8 0-4.28.02-5.78.08-1.49.07-2.5.3-3.4.65-.91.36-1.7.84-2.47 1.62a6.94 6.94 0 0 0-1.62 2.48c-.34.89-.58 1.9-.65 3.4C2.02 11.72 2 12.2 2 16s.02 4.28.08 5.77c.07 1.49.3 2.5.65 3.4.36.92.84 1.7 1.62 2.48a6.94 6.94 0 0 0 2.48 1.62c.89.34 1.9.58 3.4.65 1.5.06 1.96.08 5.77.08 3.8 0 4.28-.02 5.77-.08 1.5-.07 2.5-.3 3.4-.65.92-.36 1.7-.84 2.48-1.62a6.94 6.94 0 0 0 1.62-2.48c.34-.89.58-1.9.65-3.4.06-1.5.08-1.97.08-5.77s-.02-4.28-.08-5.78c-.07-1.49-.3-2.5-.65-3.4a6.82 6.82 0 0 0-1.62-2.48 6.94 6.94 0 0 0-2.48-1.61c-.89-.35-1.9-.59-3.4-.65C20.27 2.02 19.8 2 16 2Zm0 2.52c3.73 0 4.17.02 5.65.09 1.37.06 2.1.28 2.6.48.66.26 1.12.56 1.61 1.04.49.5.8.96 1.05 1.62.18.49.42 1.23.48 2.6.07 1.47.08 1.91.08 5.65s-.01 4.18-.08 5.66a7.64 7.64 0 0 1-.48 2.6 4.34 4.34 0 0 1-1.05 1.61c-.49.49-.95.8-1.61 1.05-.5.18-1.23.42-2.6.48-1.48.07-1.92.08-5.66.08-3.73 0-4.17-.01-5.65-.08a7.64 7.64 0 0 1-2.6-.48 4.34 4.34 0 0 1-1.61-1.05c-.5-.49-.8-.95-1.05-1.61a7.78 7.78 0 0 1-.48-2.6A97.15 97.15 0 0 1 4.52 16c0-3.74.01-4.18.08-5.65.06-1.37.29-2.11.48-2.6.26-.66.56-1.13 1.05-1.62.49-.48.95-.8 1.6-1.04.5-.19 1.24-.42 2.6-.48A92.1 92.1 0 0 1 16 4.52Z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
+                <svg
+                  onClick={() =>
+                    window.open(
+                      "https://instagram.com/lymdatalabs?igshid=MzRlODBiNWFlZA==",
+                      "_blank"
+                    )
+                  }
+                  className="z-10 cursor-pointer"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16 8.81a7.2 7.2 0 1 0 0 14.38 7.2 7.2 0 0 0 0-14.38Zm0 11.85a4.67 4.67 0 1 1 0-9.33 4.67 4.67 0 0 1 0 9.33Z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path d="M25.14 8.52a1.68 1.68 0 1 1-3.35 0 1.68 1.68 0 0 1 3.35 0Z"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M16 2c-3.8 0-4.28.02-5.78.08-1.49.07-2.5.3-3.4.65-.91.36-1.7.84-2.47 1.62a6.94 6.94 0 0 0-1.62 2.48c-.34.89-.58 1.9-.65 3.4C2.02 11.72 2 12.2 2 16s.02 4.28.08 5.77c.07 1.49.3 2.5.65 3.4.36.92.84 1.7 1.62 2.48a6.94 6.94 0 0 0 2.48 1.62c.89.34 1.9.58 3.4.65 1.5.06 1.96.08 5.77.08 3.8 0 4.28-.02 5.77-.08 1.5-.07 2.5-.3 3.4-.65.92-.36 1.7-.84 2.48-1.62a6.94 6.94 0 0 0 1.62-2.48c.34-.89.58-1.9.65-3.4.06-1.5.08-1.97.08-5.77s-.02-4.28-.08-5.78c-.07-1.49-.3-2.5-.65-3.4a6.82 6.82 0 0 0-1.62-2.48 6.94 6.94 0 0 0-2.48-1.61c-.89-.35-1.9-.59-3.4-.65C20.27 2.02 19.8 2 16 2Zm0 2.52c3.73 0 4.17.02 5.65.09 1.37.06 2.1.28 2.6.48.66.26 1.12.56 1.61 1.04.49.5.8.96 1.05 1.62.18.49.42 1.23.48 2.6.07 1.47.08 1.91.08 5.65s-.01 4.18-.08 5.66a7.64 7.64 0 0 1-.48 2.6 4.34 4.34 0 0 1-1.05 1.61c-.49.49-.95.8-1.61 1.05-.5.18-1.23.42-2.6.48-1.48.07-1.92.08-5.66.08-3.73 0-4.17-.01-5.65-.08a7.64 7.64 0 0 1-2.6-.48 4.34 4.34 0 0 1-1.61-1.05c-.5-.49-.8-.95-1.05-1.61a7.78 7.78 0 0 1-.48-2.6A97.15 97.15 0 0 1 4.52 16c0-3.74.01-4.18.08-5.65.06-1.37.29-2.11.48-2.6.26-.66.56-1.13 1.05-1.62.49-.48.95-.8 1.6-1.04.5-.19 1.24-.42 2.6-.48A92.1 92.1 0 0 1 16 4.52Z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
               </div>
-
             </h2>
           </div>
           <div className=" md:flex absolute ">
@@ -248,11 +257,11 @@ const Contact = () => {
             <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 lg:mb-14 rounded ">
               <h2 className="text-4xl font-bold md:mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]">
                 {" "}
-                How can we <br /> help 
+                How can we <br /> help
                 <span className="relative ml-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
-    {text}
-  </span>
-  {showCursor && <span className="ml-1">|</span>}
+                  {text}
+                </span>
+                {showCursor && <span className="ml-1">|</span>}
               </h2>
               <form className="">
                 <div className="grid md:grid-cols-2 md:gap-16">
@@ -355,22 +364,22 @@ const Contact = () => {
       </div>
 
       <div className=" hidden md:flex  h-screen relative overflow-hidden">
-      <img
-                className="hidden xl:flex absolute z- top-[150px] left-0 transform  scale-150 overflow-hidden   "
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
-                alt="img"
-              />
+        <img
+          className="hidden xl:flex absolute  top-[150px] left-0 transform  scale-150 overflow-hidden   "
+          src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
+          alt="img"
+        />
         <div className="flex flex-col justify-around ">
-          <div>
+          <div className="pl-4">
             <h1
-              className="text-[12px] border border-transparent"
+              className="text-[12px]  absolute    "
               style={verticalTextStyle}
             >
               37°29'16.25"N 122°14'10.01"W
             </h1>
           </div>
 
-          <div>
+          <div className="invisible">
             <h1
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
@@ -379,7 +388,13 @@ const Contact = () => {
             </h1>
           </div>
 
-          <div>
+          <div className="flex flex-col gap-10 pl-4">
+            <h1
+              className="text-[12px] border border-transparent"
+              style={verticalTextStyle}
+            >
+              60°F
+            </h1>
             <h1
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
@@ -390,16 +405,9 @@ const Contact = () => {
         </div>
 
         <div className="border border-transparent w-1/2 flex flex-col gap-10 justify-center items-center text-left  ">
-          <div className="border border-transparent w-full pl-10 text-[22px]">
-            {/* <h1> Silicon Valley</h1>
-            <h1>Atlanta</h1>
-
-            <h1>Indianapolis</h1>
-            <h1> New York City</h1> */}
-            {/* <h1>Ernakulam</h1> */}
-          </div>
+          <div className="border border-transparent w-full pl-10 text-[22px]"></div>
           <div className="  w-full pl-10 text-[18px]">
-          <h1 className="  w-1/2 p-2 font-times ">
+            <h1 className="  w-1/2 p-2 font-times ">
               4th floor <br />
               Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
@@ -407,44 +415,47 @@ const Contact = () => {
             </h1>
           </div>
         </div>
-        <div>
-          <img src={img} className="h-full p-16   absolute " />
+        <div className=" mt-[-160px] ">
+          <h1
+            style={verticalTextStyle}
+            className="absolute  h-[97%] uppercase font-times text-sm"
+          >
+            Ernakulam,kerala
+          </h1>
+          <img src={img} className="h-full xl:w-[600px]  px-10   absolute " />
         </div>
       </div>
-      <div className="md:hidden flex flex-col gap-5 ">
-        <h3 className="px-10 text-4xl font-bold font-times">Our <br/> locations</h3>
+      <div className="md:hidden flex flex-col gap-5  ">
         <div className="flex">
-        <img src={img} className="h-full p-8 overflow-hidden" />
-        <div className="flex flex-col justify-around ">
-        
+          <img src={img} className="h-full   p-8 overflow-hidden" />
+          <div className="flex flex-col justify-around ">
+            <div>
+              <h1
+                className="text-[12px] border border-transparent "
+                style={verticalTextStyle}
+              >
+                60°F
+              </h1>
+            </div>
 
-          <div>
-            <h1
-              className="text-[12px] border border-transparent"
-              style={verticalTextStyle}
-            >
-              60°F
-            </h1>
+            <div>
+              <h1
+                className="text-[12px] border border-transparent"
+                style={verticalTextStyle}
+              >
+                4:47 AM
+              </h1>
+            </div>
           </div>
-
-          <div>
-            <h1
-              className="text-[12px] border border-transparent"
-              style={verticalTextStyle}
-            >
-              4:47 AM
-            </h1>
-          </div>
-        </div>
         </div>
 
         <div className=" w-full pl-5">
-        <h1 className="  p-2 font-times text-[18px]">
-              4th floor <br />
-              Dotspace Business Center <br />
-              Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
-              <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
-            </h1>
+          <h1 className="  p-2 font-times text-[18px]">
+            4th floor <br />
+            Dotspace Business Center <br />
+            Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
+            <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
+          </h1>
         </div>
       </div>
     </div>
