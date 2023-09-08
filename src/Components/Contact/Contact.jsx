@@ -131,6 +131,21 @@ const Contact = () => {
       });
   }, []);
 
+
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000); // Update the time every second
+
+    return () => {
+      clearInterval(interval); // Clean up the interval when the component unmounts
+    };
+  }, []);
+
+  const formattedTime = currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
   return (
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
@@ -371,10 +386,7 @@ const Contact = () => {
         />
         <div className="flex flex-col justify-around ">
           <div className="pl-4">
-            <h1
-              className="text-[12px]  absolute    "
-              style={verticalTextStyle}
-            >
+            <h1 className="text-[12px]  absolute    " style={verticalTextStyle}>
               37°29'16.25"N 122°14'10.01"W
             </h1>
           </div>
@@ -399,7 +411,7 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-              4:47 AM
+      {formattedTime}
             </h1>
           </div>
         </div>
@@ -407,7 +419,7 @@ const Contact = () => {
         <div className="border border-transparent w-1/2 flex flex-col gap-10 justify-center items-center text-left  ">
           <div className="border border-transparent w-full pl-10 text-[22px]"></div>
           <div className="  w-full pl-10 text-[18px]">
-            <h1 className="  w-1/2 p-2 font-times ">
+            <h1 className="  w-1/2 p-2 font-times font-light ">
               4th floor <br />
               Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
@@ -425,20 +437,31 @@ const Contact = () => {
           <img src={img} className="h-full xl:w-[600px]  px-10   absolute " />
         </div>
       </div>
-      <div className="md:hidden flex flex-col gap-5  ">
+      <div className="md:hidden flex   flex-col ">
+        <h1 className="flex  text-4xl mb-8 px-6 font-bold  ">
+          Our <br /> locations
+        </h1>
         <div className="flex">
-          <img src={img} className="h-full   p-8 overflow-hidden" />
-          <div className="flex flex-col justify-around ">
-            <div>
+          <img src={img} className="h-full  pl-5   overflow-hidden" />
+          <h1 className=" py-5 text-sm uppercase  font-light" style={verticalTextStyle}>            Ernakulam,kerala
+</h1>
+          <div className="flex flex-col  justify-around font-light ">
+            <div className="flex flex-col gap-8 pr-1 ">
               <h1
-                className="text-[12px] border border-transparent "
+                className="text-[12px]   border-transparent "
                 style={verticalTextStyle}
               >
                 60°F
               </h1>
+              <h1
+                className="text-[12px]  border border-transparent"
+                style={verticalTextStyle}
+              >
+      {formattedTime}
+              </h1>
             </div>
 
-            <div>
+            <div className="invisible">
               <h1
                 className="text-[12px] border border-transparent"
                 style={verticalTextStyle}
@@ -449,8 +472,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className=" w-full pl-5">
-          <h1 className="  p-2 font-times text-[18px]">
+        <div className=" w-full px-6 mt-8 ">
+          <h1 className="  p-2 font- font-light text-[18px]">
             4th floor <br />
             Dotspace Business Center <br />
             Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
