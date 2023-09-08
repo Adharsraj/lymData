@@ -42,20 +42,20 @@ const Footer
                  <Link> 
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
                 </Link>
-                 <Link>
-                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-                </Link> 
+                 {/* <Link> */}
+                  <h4 className="pb-1 text-gray-600">Works</h4>
+                {/* </Link>  */}
               </div>
               <div>
-                <Link>
-                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-                </Link>
+                {/* <Link> */}
+                  <h4 className="pb-1 text-gray-600">Careers</h4>
+                {/* </Link> */}
                 <Link>
                   <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
                 </Link>
-                <Link to="/blogs">
-                  <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-                </Link>
+                {/* <Link to="/blogs"> */}
+                  <h4 className="pb-1 text-gray-600">Blogs</h4>
+                {/* </Link> */}
               </div>
             </div>
             {/* <div className="lg:hidden md:pb-10 pt-10  w-[280px]">
@@ -235,20 +235,20 @@ const Footer
               <Link to="/about">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">About us</h4>
               </Link>
-              <Link to="/works">
-                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Works</h4>
-              </Link>
+              {/* <Link to="/works"> */}
+                <h4 className="pb-1 text-gray-600">Works</h4>
+              {/* </Link> */}
             </div>
             <div>
-              <Link to="/careers">
-                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Careers</h4>
-              </Link>
+              {/* <Link to="/careers"> */}
+                <h4 className="pb-1 text-gray-600">Careers</h4>
+              {/* </Link> */}
               <Link to="/services">
                 <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Services</h4>
               </Link>
-              <Link to="/blog">
-                <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Blogs</h4>
-              </Link>
+              {/* <Link to="/blog"> */}
+                <h4 className="pb-1 text-gray-600">Blogs</h4>
+              {/* </Link> */}
             </div>
           </div>
           {/* <label className="px-3 font-bold text-[#c1bfbf] " htmlFor="sta ">
