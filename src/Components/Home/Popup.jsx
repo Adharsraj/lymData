@@ -25,10 +25,13 @@ const Popup = () => {
   return (
     <>
       {isVisible && (
-        <div className="fixed inset-0 z-50 md:mt-20 mt-24  flex justify-center items-center backdrop-blur-lg">
-          <div className="absolute bg-white shadow-lg p-6 rounded-lg w-full sm:w-full lg:w-[500px]">
-            <button
-              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
+        <div className="fixed inset-0 z-50 md:pt-[90px] mt-24 md:mt-20  flex justify-center items-center backdrop-blur-lg">
+          <div className="absolute bg-white shadow-lg p-3 rounded-lg w-full sm:w-full lg:w-[500px]">
+          
+            <div className='flex items-center'>
+            <h2 className="text-4xl font-bold mb-4 text-black">Get a Free Consultation</h2>
+              <button
+              className="absolute top-5  right-4 text-gray-600 hover:text-gray-800"
               onClick={handleCloseClick}
             >
               {/* Close SVG icon */}
@@ -47,11 +50,11 @@ const Popup = () => {
                 />
               </svg>
             </button>
-            <h2 className="text-4xl font-bold mb-4 text-black">Get a Free Consultation</h2>
+            </div>
             <h3>Let's discover the possibilities of working together.</h3>
             <h3>Schedule an introductory call.</h3>
             <form className="">
-              <div className="mb-2">
+              <div className="mb-1">
                 <input
                   type="text"
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
@@ -59,7 +62,7 @@ const Popup = () => {
                   required
                 />
               </div>
-              <div className="mb-2">
+              <div className="mb-1">
                 <input
                   type="email"
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
@@ -67,21 +70,21 @@ const Popup = () => {
                   required
                 />
               </div>
-              <div className="mb-2">
+              <div className="mb-1">
                 <input
                   type="number"
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Mobile Number *"
                 />
               </div>
-              <div className="mb-2">
+              <div className="mb-1">
                 <input
                   type="text"
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Company Name *"
                 />
               </div>
-              <div className="mb-2">
+              <div className="mb-1">
                 <textarea
                   className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                   placeholder="Message *"
@@ -91,7 +94,7 @@ const Popup = () => {
             <div className="flex justify-center items-center">
               <button
                 type="submit"
-                className="p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
+                className="p-3 md:mt-3 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
               >
                 Submit
               </button>

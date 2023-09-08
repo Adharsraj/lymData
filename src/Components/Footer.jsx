@@ -160,7 +160,7 @@ const Footer
         </div>
 
         <div className="hidden md:flex justify-center lg:pt-2">
-              <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata.All rights reserved</h3>
+              <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata Labs. All rights reserved</h3>
         </div>
 
         <div className="  md:hidden justify-between">
@@ -223,7 +223,7 @@ const Footer
             </ul>
           </div>
           <div>
-            <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata.All rights reserved</h3>
+            <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata Labs. All rights reserved</h3>
           </div>
         </div>
       </div>
@@ -328,7 +328,7 @@ const Footer
             </div>
             <div>
               <h3 className="text mt-5 pb-5 text-[#c1bfbf] ">
-              ©2023 Lymdata.All rights reserved
+              ©2023 Lymdata Labs. All rights reserved
               </h3>
             </div>
           </div>
