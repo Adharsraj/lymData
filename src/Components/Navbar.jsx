@@ -21,7 +21,6 @@ const NavbarNew = React.memo(() => {
     { path: "/d", label: "Works" },
     { path: "/m", label: "Blogs" },
     { path: "/p", label: "Careers" },
-
   ];
 
   const menuRef = useRef(null);
@@ -116,6 +115,24 @@ const NavbarNew = React.memo(() => {
     localStorage.clear();
   };
 
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const [isMediumWidth, setIsMediumWidth] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerHeight <= 600);
+      setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1350);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
       <div className=" ">
@@ -134,7 +151,7 @@ const NavbarNew = React.memo(() => {
               />{" "}
             </Link>
           </div>
-      
+
           <div className="w-full h-20">
             <Link className="cursor-default" to="#">
               <div className=" w-full h-20"></div>
@@ -154,32 +171,79 @@ const NavbarNew = React.memo(() => {
         <div className="menu w-screen  h-screen " ref={menuRef}>
           <div className="flex justify-center items-center h-screen">
             <div className="w-screen lg:flex lg:flex-end lg:items-center   justify-around">
-              <div className="text-white md:flex md:flex-col md:gap-6  text-4xl md:text-6xl px-10 md:mt-24 lg:mt-0">
-                <ul>
-                {navigationItems.map((item) => {
-  if (location.pathname !== item.path) {
-    const isDisabled = ['Blogs', 'Careers', 'Works'].includes(item.label);
-    return (
-      <li
-        key={item.path}
-        className={`lg:mb-8 ${isDisabled ? 'text-gray-400' : 'hover:text-cyan-400'}`}
-      >
-        <Link to={isDisabled ? '#' : item.path} disabled={isDisabled} style={{ color: isDisabled ? 'gray' : 'inherit' }}>
-          {item.label}
-        </Link>
-      </li>
-    );
-  }
-  return null;
-})}
-                </ul>
-              </div>
+              {isSmallScreen && isMediumWidth ? (
+                <div className="text-white md:flex md:flex-col md:gap-6  text-4xl  px-10 md:mt-24 ">
+                  <ul>
+                    {navigationItems.map((item) => {
+                      if (location.pathname !== item.path) {
+                        const isDisabled = [
+                          "Blogs",
+                          "Careers",
+                          "Works",
+                        ].includes(item.label);
+                        return (
+                          <li
+                            key={item.path}
+                            className={`lg:mb-8 ${
+                              isDisabled
+                                ? "text-gray-400"
+                                : "hover:text-cyan-400"
+                            }`}
+                          >
+                            <Link
+                              to={isDisabled ? "#" : item.path}
+                              disabled={isDisabled}
+                              style={{ color: isDisabled ? "gray" : "inherit" }}
+                            >
+                              {item.label}
+                            </Link>
+                          </li>
+                        );
+                      }
+                      return null;
+                    })}
+                  </ul>
+                </div>
+              ) : (
+                <div className="text-white md:flex md:flex-col md:gap-6  text-4xl md:text-6xl px-10 md:mt-24 lg:mt-10">
+                  <ul>
+                    {navigationItems.map((item) => {
+                      if (location.pathname !== item.path) {
+                        const isDisabled = [
+                          "Blogs",
+                          "Careers",
+                          "Works",
+                        ].includes(item.label);
+                        return (
+                          <li
+                            key={item.path}
+                            className={`lg:mb-8 ${
+                              isDisabled
+                                ? "text-gray-400"
+                                : "hover:text-cyan-400"
+                            }`}
+                          >
+                            <Link
+                              to={isDisabled ? "#" : item.path}
+                              disabled={isDisabled}
+                              style={{ color: isDisabled ? "gray" : "inherit" }}
+                            >
+                              {item.label}
+                            </Link>
+                          </li>
+                        );
+                      }
+                      return null;
+                    })}
+                  </ul>
+                </div>
+              )}
               <div className="text-white md:text-2xl mt-10 px-10">
                 <ul>
-                <li className="lg:mb-5 text-[#646060] hover:text-white ">
+                  <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/login">Login</Link>
                   </li>
-                  
+
                   {/* <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/blog">Blogs</Link>
                   </li> */}

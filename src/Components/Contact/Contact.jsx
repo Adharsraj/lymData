@@ -124,14 +124,22 @@ const Contact = () => {
       )
       .then((response) => {
         console.log(response);
-        setWeatherData(response.data);
+        // Convert temperature from Fahrenheit to Celsius
+        const celsiusTemp = (((response.data.main.temp - 32) * 5) / 9).toFixed(2);
+        // Create a new object with Celsius temperature
+        const updatedWeatherData = {
+          ...response.data,
+          main: {
+            ...response.data.main,
+            temp: celsiusTemp,
+          },
+        };
+        setWeatherData(updatedWeatherData);
       })
       .catch((error) => {
         console.error("Error fetching weather data:", error);
       });
   }, []);
-
-
 
   const [currentTime, setCurrentTime] = useState(new Date());
 
@@ -396,7 +404,7 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-{weatherData?.main?.temp}   
+             {weatherData?.main?.temp}°C
          </h1>
           </div>
 
@@ -405,7 +413,7 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-             {weatherData?.main?.temp}°F
+             {weatherData?.main?.temp}°C
             </h1>
             <h1
               className="text-[12px] border border-transparent"
@@ -452,7 +460,7 @@ const Contact = () => {
                 className="text-[12px]   border-transparent "
                 style={verticalTextStyle}
               >
-             {weatherData?.main?.temp}°F
+             {weatherData?.main?.temp}°C
             </h1>
               <h1
                 className="text-[12px]  border border-transparent"

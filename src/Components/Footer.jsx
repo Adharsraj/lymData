@@ -102,7 +102,7 @@ const Footer
               <h4 className="pb-1 text-[#c1bfbf] hover:text-white">Privacy policy</h4>
              </Link>
             {/* <Link to="/sitemap">  */}
-              <h4 className="pb-1 text-gray-600">Sitemap</h4>
+              <h4 className="pb-1 text-gray-600 ">Sitemap</h4>
              {/* </Link>  */}
           </div>
           
@@ -160,7 +160,7 @@ const Footer
         </div>
 
         <div className="hidden md:flex justify-center lg:pt-2">
-              <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata Labs. All rights reserved</h3>
+              <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata.All rights reserved</h3>
         </div>
 
         <div className="  md:hidden justify-between">
@@ -223,7 +223,7 @@ const Footer
             </ul>
           </div>
           <div>
-            <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata Labs. All rights reserved</h3>
+            <h3 className="text mt-5 text-[#c1bfbf] ">©2023 Lymdata.All rights reserved</h3>
           </div>
         </div>
       </div>
@@ -273,7 +273,7 @@ const Footer
                 <h4 className="text-[#c1bfbf] hover:text-white">Privacy policy</h4>
               </Link>
               {/* <Link to="/sitemap"> */}
-                <h4 className="text-gray-600">Sitemap</h4>
+                <h4 className="text-gray-600 ">Sitemap</h4>
               {/* </Link> */}
             </div>
             <div className="justify-between px-3 mt-7 flex lg:gap-3">
@@ -328,7 +328,7 @@ const Footer
             </div>
             <div>
               <h3 className="text mt-5 pb-5 text-[#c1bfbf] ">
-              ©2023 Lymdata Labs. All rights reserved
+              ©2023 Lymdata.All rights reserved
               </h3>
             </div>
           </div>

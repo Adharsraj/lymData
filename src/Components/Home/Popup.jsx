@@ -54,12 +54,120 @@ const Popup = () => {
       }
     };
 
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+    const [isMediumWidth, setIsMediumWidth] = useState(false);
+  
+    useEffect(() => {
+      const handleResize = () => {
+        setIsSmallScreen(window.innerHeight <= 600);
+        setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1350);
+      };
+  
+      window.addEventListener("resize", handleResize);
+  
+      handleResize();
+  
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
+
   return (
     <>
       {isVisible && (
-        <div className="fixed inset-0 z-50 md:mt-20 mt-24 flex justify-center items-center backdrop-blur-lg">
+        <div className="fixed inset-0 z-50 md:mt-14 mt-24 flex justify-center items-center backdrop-blur-lg">
           <div className="absolute bg-white shadow-lg p-6 rounded-lg w-full sm:w-full lg:w-[500px]">
-            <button
+
+          {isSmallScreen && isMediumWidth ? (
+                <div>
+                    <button
+                className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
+                onClick={handleCloseClick}
+              >
+                {/* Close SVG icon */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+              <h2 className="text-2xl font-bold mb-0 text-black">Get a Free Consultation</h2>
+              <h3>Let's discover the possibilities of working together.</h3>
+              <h3>Schedule an introductory call.</h3>
+              <form onSubmit={handleSubmit}>
+                <div className="mb-2">
+                  <input
+                    type="text"
+                    name="fullName"
+                    value={formData.fullName}
+                    onChange={handleInputChange}
+                    className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
+                    placeholder="Full Name *"
+                    required
+                  />
+                </div>
+                <div className="mb-1">
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
+                    placeholder="Email *"
+                    required
+                  />
+                </div>
+                <div className="mb-1">
+                  <input
+                    type="number"
+                    name="mobileNumber"
+                    value={formData.mobileNumber}
+                    onChange={handleInputChange}
+                    className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
+                    placeholder="Mobile Number *"
+                  />
+                </div>
+                <div className="mb-1">
+                  <input
+                    type="text"
+                    name="companyName"
+                    value={formData.companyName}
+                    onChange={handleInputChange}
+                    className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
+                    placeholder="Company Name *"
+                  />
+                </div>
+                <div className="mb-1">
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
+                    placeholder="Message *"
+                  />
+                </div>
+                <div className="flex justify-center items-center">
+                  <button
+                    type="submit"
+                    className="p-2 md:mt-4 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+                </div>
+            ) : (
+                <div>
+                    <button
               className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
               onClick={handleCloseClick}
             >
@@ -143,6 +251,8 @@ const Popup = () => {
                 </button>
               </div>
             </form>
+                </div>
+            )}           
           </div>
         </div>
       )}
