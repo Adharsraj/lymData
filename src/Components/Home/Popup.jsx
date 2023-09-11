@@ -314,7 +314,7 @@ const Popup = () => {
                     />
                   </div>
                   <div className="flex justify-center items-center">
-    {!sucess ? (
+    {sucess ? (
       <h2 className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white text-center w-[300px] p-2">
         Mail sent successfully, our team will get in touch with you soon
       </h2>
