@@ -13,8 +13,8 @@ const Footer
 
   return (
     <>
-      <div className="hidden md:block max-w-[1640px]  mx-auto      md:text-xl bg-[#131313] text-white ">
-        <div className="xl:px-32 md:px-16">
+      <div className="hidden md:block max-w-[1640px]  mx-auto   xl:px-32 md:px-16 pb-5  md:text-xl bg-[#131313] text-white ">
+        <div className="">
         <div className=" md:flex justify-between  border-b pb-10   pt-10">
           <div className="">
             <h3 className="mb-4 font-bold text-xl">LYMDATA LABS PVT. LTD</h3>
@@ -101,7 +101,7 @@ const Footer
 
         </div>
 
-        <div className=" hidden md:flex justify-between xl:px-32 md:px-16  lg:pt-10">
+        <div className=" hidden md:flex justify-between   lg:pt-10">
             
             <div className="flex gap-10">
             <Link to="/terms">
@@ -169,7 +169,7 @@ const Footer
         </div>
 
         <div className="hidden md:flex justify-center lg:pt-2">
-              <h3 className=" mt-5 bg-white w-full text-black text-center text-base ">©2023 Lymdata Labs. All rights reserved</h3>
+              <h3 className=" mt-5  text-white text-center text-base ">©2023 Lymdata Labs. All rights reserved</h3>
         </div>
 
         <div className="  md:hidden justify-between">
@@ -276,7 +276,7 @@ const Footer
               subscribe
             </button>
           </div> */}
-          <div className=" justify-between ">
+          <div className=" justify-between pb-3">
             <div className="flex gap-10 px-3">
               <Link to="/terms">
                 <h4 className="text-[#c1bfbf] hover:text-white">Terms</h4>
@@ -339,7 +339,7 @@ const Footer
             </ul>
             </div>
             <div>
-              <h3 className="text mt-5  bg-white text-black text-center ">
+              <h3 className="text mt-5  text-white text-center ">
               ©2023 Lymdata Labs. All rights reserved
               </h3>
             </div>
