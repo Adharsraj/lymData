@@ -194,13 +194,13 @@ const Popup = () => {
                   </div>
                   <div className="flex justify-center items-center">
     {sucess ? (
-      <h2 className="bg-green-400 p-2">
-        Mail sent successfully, our team will get in touch with you soon
-      </h2>
+       <h2 className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white text-center w-[300px] p-2">
+       Mail sent successfully, our team will get in touch with you soon
+     </h2>
     ) : (
       <button
         type="submit"
-        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r ${
+        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r from-indigo-400 to-cyan-400  ${
           loading ? "bg-black" : "hover:from-indigo-400 hover:to-cyan-400"
         }`}
         disabled={loading}
@@ -314,8 +314,8 @@ const Popup = () => {
                     />
                   </div>
                   <div className="flex justify-center items-center">
-    {sucess ? (
-      <h2 className="bg-green-400 p-2">
+    {!sucess ? (
+      <h2 className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white text-center w-[300px] p-2">
         Mail sent successfully, our team will get in touch with you soon
       </h2>
     ) : (
