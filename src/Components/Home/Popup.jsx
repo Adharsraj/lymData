@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; // Import Axios for making HTTP requests
-import emailjs from "emailjs-com"
+import emailjs from '@emailjs/browser';
 
 const Popup = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,6 +12,9 @@ const Popup = () => {
     message: '',
   });
 
+// template_fbloykc
+// service_lg0sfcn
+// K7UCOY8ZVCrNGalrE
   useEffect(() => {
     // Delay showing the popup for 3 seconds
     const delay = setTimeout(() => {
@@ -41,10 +44,22 @@ const Popup = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+ console.log(formData)
     try {
         // Send the email using Email.js
-        await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID');
+        await emailjs.send('service_lg0sfcn', 'template_fbloykc', 
+        {
+          from_name:formData.fullName,
+          to_name:"Adarsh",
+          from_email:formData.email,
+          to_email:"3301ad@gmail.com",
+          message:formData.message
+        },
+        "K7UCOY8ZVCrNGalrE"
+        
+        ).then(()=>{
+          alert("mail sent thank you")
+        })
   
         // Handle success (you can also close the popup here)
         console.log('Email sent successfully');
