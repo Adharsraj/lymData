@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { FaLongArrowAltDown } from "react-icons/fa";
-import img from "../../assets/Images/contact.jpeg";
+import img from "../../assets/Images/contact.avif";
 import axios from "axios";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [showform, setshowform] = useState(true);
   const handleClicktoform = () => {
     const component2Element = document.getElementById("form");
     if (component2Element) {
@@ -113,8 +115,8 @@ const Contact = () => {
     transform: "rotate(180deg)", // Rotate the text 180 degrees to start from the bottom
   };
 
-  const apiKey ="6a52d261df06839eb8e33a439c651d09";
-  const city = 'Ernakulam';
+  const apiKey = "6a52d261df06839eb8e33a439c651d09";
+  const city = "Ernakulam";
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
@@ -125,7 +127,9 @@ const Contact = () => {
       .then((response) => {
         console.log(response);
         // Convert temperature from Fahrenheit to Celsius
-        const celsiusTemp = (((response.data.main.temp - 32) * 5) / 9).toFixed(2);
+        const celsiusTemp = (((response.data.main.temp - 32) * 5) / 9).toFixed(
+          2
+        );
         // Create a new object with Celsius temperature
         const updatedWeatherData = {
           ...response.data,
@@ -153,7 +157,61 @@ const Contact = () => {
     };
   }, []);
 
-  const formattedTime = currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  const formattedTime = currentTime.toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+
+  const [formData, setFormData] = useState({
+    name: "",
+    company: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
+
+  const resetForm = () => {
+    setFormData({
+      name: "",
+      company: "",
+      email: "",
+      phoneNumber: "",
+      message: "",
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(formData);
+    try {
+      await emailjs.send(
+        "service_lg0sfcn",
+        "template_fbloykc",
+        {
+          from_name: formData.name,
+          to_name: "Adarsh",
+          from_email: formData.email,
+          to_email: "3301ad@gmail.com",
+          message: formData.message,
+        },
+        "K7UCOY8ZVCrNGalrE"
+      );
+
+      resetForm();
+      setshowform(false);
+      console.log("Form submitted successfully");
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
   return (
     <div className="bg-[#F4F4F4]">
@@ -287,7 +345,9 @@ const Contact = () => {
                 </span>
                 {showCursor && <span className="ml-1">|</span>}
               </h2>
-              <form className="">
+              {showform?
+              
+              <form onSubmit={handleSubmit} className="">
                 <div className="grid md:grid-cols-2 md:gap-16">
                   <div>
                     <div className="mb-4 md:mt-14">
@@ -296,6 +356,9 @@ const Contact = () => {
                   </label> */}
                       <input
                         type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleInputChange}
                         className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                         placeholder="Name *"
                         required
@@ -306,6 +369,9 @@ const Contact = () => {
                       {/* <label className="block mb-1 font-semibold">Company</label> */}
                       <input
                         type="text"
+                        name="company"
+                        value={formData.company}
+                        onChange={handleInputChange}
                         className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
                         placeholder="Company"
                       />
@@ -316,6 +382,9 @@ const Contact = () => {
                   </label> */}
                       <input
                         type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleInputChange}
                         className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
                         placeholder="Email *"
                         required
@@ -330,6 +399,9 @@ const Contact = () => {
                   </label> */}
                       <input
                         type="number"
+                        name="phoneNumber"
+                        value={formData.phoneNumber}
+                        onChange={handleInputChange}
                         className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
                         placeholder="Phone Number"
                       />
@@ -339,6 +411,9 @@ const Contact = () => {
                     Please, tell me what you're after
                   </label> */}
                       <textarea
+                        name="message"
+                        value={formData.message}
+                        onChange={handleInputChange}
                         className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3 md:h-32 h-10"
                         placeholder="Please, tell me what you're after"
                       />
@@ -361,30 +436,20 @@ const Contact = () => {
                   </div>
                 </div>
               </form>
+:
+<div className="flex items-center justify-center pt-10">
+  <div className=" border rounded-lg p-8 shadow-lg bg-white text-center">
+    <h1 className="text-2xl font-semibold mb-4">Thank you for contacting</h1>
+    <h2 className="text-lg">Our team will get in touch with you soon</h2>
+  </div>
+</div>
+
+
+}
             </div>
           </div>
         </div>
-        {/* <div className="md:flex justify-around items-center md:bg-[#262626] md:text-white  lg:rounded-3xl md:px-10 xxl:px-16 mb-10 ">
-          <div className="md:w-[400px] xxl:w-full">
-            <h1 className="mt-24 md:mt-0 lg:mt-0 xxl:mt-0 lg:text-xl font-bold">
-              4th floor <br />
-              Dotspace Business Center <br />
-              Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
-              <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
-            </h1>
-          </div>
-          <div>
-            <iframe
-              className=" w-full lg:w-[600px] lg:rounded-3xl xxl:w-[800px] md:h-[400px] h-[300px] lg:mt-16  mt-10 mb-10 "
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.991079733446!2d76.29998647382259!3d10.017594172734224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d2e430b5527%3A0x19cf2b36ac16c7f8!2sDotspace%20Edapally!5e0!3m2!1sen!2sin!4v1689835845317!5m2!1sen!2sin"
-              width="600"
-              height="300"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div> */}
+       
       </div>
 
       <div className=" hidden md:flex  h-screen relative overflow-hidden">
@@ -396,7 +461,8 @@ const Contact = () => {
         <div className="flex flex-col justify-around ">
           <div className="pl-4">
             <h1 className="text-[12px]  absolute    " style={verticalTextStyle}>
-            10.017596° N 76.302559° E             </h1>
+              10.017596° N 76.302559° E{" "}
+            </h1>
           </div>
 
           <div className="invisible">
@@ -404,8 +470,8 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-             {weatherData?.main?.temp}°C
-         </h1>
+              {weatherData?.main?.temp}°C
+            </h1>
           </div>
 
           <div className="flex flex-col gap-10 pl-4">
@@ -413,13 +479,13 @@ const Contact = () => {
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-             {weatherData?.main?.temp}°C
+              {weatherData?.main?.temp}°C
             </h1>
             <h1
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
-      {formattedTime}
+              {formattedTime}
             </h1>
           </div>
         </div>
@@ -433,7 +499,6 @@ const Contact = () => {
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
               <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
             </h1>
-   
           </div>
         </div>
         <div className=" mt-[-160px] ">
@@ -443,30 +508,35 @@ const Contact = () => {
           >
             Ernakulam,kerala
           </h1>
-          <img src={img} className="h-full xl:w-[600px]  px-10   absolute " />
+          <img src={img} className="h-full xl:w-[600px] px-10 absolute filter grayscale" />
         </div>
       </div>
-      <div className="md:hidden flex   flex-col ">
+      <div className="md:hidden flex pt-3  flex-col ">
         <h1 className="flex  text-4xl mb-8 px-6 font-bold  ">
           Our <br /> locations
         </h1>
         <div className="flex">
-          <img src={img} className="h-full  pl-5   overflow-hidden" />
-          <h1 className=" py-5 text-sm uppercase  font-light" style={verticalTextStyle}>            Ernakulam,kerala
-</h1>
+          <img src={img} className="  pl-5 filter grayscale  overflow-hidden" />
+          <h1
+            className=" py-5 text-sm uppercase  font-light"
+            style={verticalTextStyle}
+          >
+            {" "}
+            Ernakulam,kerala
+          </h1>
           <div className="flex flex-col  justify-around font-light ">
             <div className="flex flex-col gap-8 pr-1 ">
               <h1
                 className="text-[12px]   border-transparent "
                 style={verticalTextStyle}
               >
-             {weatherData?.main?.temp}°C
-            </h1>
+                {weatherData?.main?.temp}°C
+              </h1>
               <h1
                 className="text-[12px]  border border-transparent"
                 style={verticalTextStyle}
               >
-      {formattedTime}
+                {formattedTime}
               </h1>
             </div>
 
