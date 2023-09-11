@@ -7,6 +7,8 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [showform, setshowform] = useState(true);
+  const [loading, setLoading] = useState(false);
+
   const handleClicktoform = () => {
     const component2Element = document.getElementById("form");
     if (component2Element) {
@@ -182,6 +184,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     console.log(formData);
     try {
       await emailjs.send(
@@ -196,7 +199,7 @@ const Contact = () => {
         },
         "K7UCOY8ZVCrNGalrE"
       );
-
+      setLoading(false);
       resetForm();
       setshowform(false);
       console.log("Form submitted successfully");
@@ -345,111 +348,139 @@ const Contact = () => {
                 </span>
                 {showCursor && <span className="ml-1">|</span>}
               </h2>
-              {showform?
-              
-              <form onSubmit={handleSubmit} className="">
-                <div className="grid md:grid-cols-2 md:gap-16">
-                  <div>
-                    <div className="mb-4 md:mt-14">
-                      {/* <label className="block mb-1 font-semibold">
+              {showform ? (
+                <form onSubmit={handleSubmit} className="">
+                  <div className="grid md:grid-cols-2 md:gap-16">
+                    <div>
+                      <div className="mb-4 md:mt-14">
+                        {/* <label className="block mb-1 font-semibold">
                     Name <span className="text-red-500 text-md">*</span>
                   </label> */}
-                      <input
-                        type="text"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
-                        placeholder="Name *"
-                        required
-                      />
-                      {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
-                    </div>
-                    <div className="mb-4">
-                      {/* <label className="block mb-1 font-semibold">Company</label> */}
-                      <input
-                        type="text"
-                        name="company"
-                        value={formData.company}
-                        onChange={handleInputChange}
-                        className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
-                        placeholder="Company"
-                      />
-                    </div>
-                    <div className="mb-4">
-                      {/* <label className="block mb-1 font-semibold">
+                        <input
+                          type="text"
+                          name="name"
+                          value={formData.name}
+                          onChange={handleInputChange}
+                          className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
+                          placeholder="Name *"
+                          required
+                        />
+                        {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                      </div>
+                      <div className="mb-4">
+                        {/* <label className="block mb-1 font-semibold">Company</label> */}
+                        <input
+                          type="text"
+                          name="company"
+                          value={formData.company}
+                          onChange={handleInputChange}
+                          className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
+                          placeholder="Company"
+                        />
+                      </div>
+                      <div className="mb-4">
+                        {/* <label className="block mb-1 font-semibold">
                     Email <span className="text-red-500 text-md">*</span>{" "}
                   </label> */}
-                      <input
-                        type="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
-                        placeholder="Email *"
-                        required
-                      />
-                      {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                        <input
+                          type="email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleInputChange}
+                          className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
+                          placeholder="Email *"
+                          required
+                        />
+                        {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <div className="mb-4 md:mt-14">
-                      {/* <label className="block mb-1 font-semibold">
+                    <div>
+                      <div className="mb-4 md:mt-14">
+                        {/* <label className="block mb-1 font-semibold">
                     Phone Number
                   </label> */}
-                      <input
-                        type="number"
-                        name="phoneNumber"
-                        value={formData.phoneNumber}
-                        onChange={handleInputChange}
-                        className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
-                        placeholder="Phone Number"
-                      />
-                    </div>
-                    <div className="mb-4">
-                      {/* <label className="block mb-1 font-semibold">
+                        <input
+                          type="number"
+                          name="phoneNumber"
+                          value={formData.phoneNumber}
+                          onChange={handleInputChange}
+                          className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3"
+                          placeholder="Phone Number"
+                        />
+                      </div>
+                      <div className="mb-4">
+                        {/* <label className="block mb-1 font-semibold">
                     Please, tell me what you're after
                   </label> */}
-                      <textarea
-                        name="message"
-                        value={formData.message}
-                        onChange={handleInputChange}
-                        className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3 md:h-32 h-10"
-                        placeholder="Please, tell me what you're after"
-                      />
+                        <textarea
+                          name="message"
+                          value={formData.message}
+                          onChange={handleInputChange}
+                          className="w-full border-b  border-gray-500 bg-transparent outline-none py-4 px-3 md:h-32 h-10"
+                          placeholder="Please, tell me what you're after"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
-                  <div className="flex  group  gap-2 ">
-                    <button
-                      type="submit"
-                      className="p-2 flex border  items-center justify-center mt-10 rounded-full w-[200px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]"
-                    >
-                      Submit
-                    </button>
+                  <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
+                    <div className="flex  group  gap-2 ">
+                      <button
+                        type="submit"
+                        className={`p-2 flex border items-center justify-center mt-10 rounded-full w-[200px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 ${
+                          loading
+                            ? "opacity-50 cursor-wait"
+                            : "transform group-hover:-translate-x-[-56px]"
+                        }`}
+                        disabled={loading}
+                      >
+                        {loading ? (
+                          <svg
+                            className="animate-spin h-5 w-5 mr-3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                          >
+                            <circle
+                              className="opacity-25"
+                              cx="12"
+                              cy="12"
+                              r="10"
+                              stroke="currentColor"
+                              strokeWidth="4"
+                            ></circle>
+                            <path
+                              className="opacity-75"
+                              fill="#333"
+                              d="M4 12a8 8 0 018-8V2.83a1 1 0 00-1.7-.7l-4 4a1 1 0 00-.3.7V12"
+                            ></path>
+                          </svg>
+                        ) : (
+                          "Submit"
+                        )}
+                      </button>
 
-                    <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
-                      <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
+                      <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
+                        <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
+                      </h1>
+                    </div>
+                  </div>
+                </form>
+              ) : (
+                <div className="flex items-center justify-center pt-10">
+                  <div className=" border rounded-lg p-8 shadow-lg bg-white text-center">
+                    <h1 className="text-2xl font-semibold mb-4">
+                      Thank you for contacting
                     </h1>
+                    <h2 className="text-lg">
+                      Our team will get in touch with you soon
+                    </h2>
                   </div>
                 </div>
-              </form>
-:
-<div className="flex items-center justify-center pt-10">
-  <div className=" border rounded-lg p-8 shadow-lg bg-white text-center">
-    <h1 className="text-2xl font-semibold mb-4">Thank you for contacting</h1>
-    <h2 className="text-lg">Our team will get in touch with you soon</h2>
-  </div>
-</div>
-
-
-}
+              )}
             </div>
           </div>
         </div>
-       
       </div>
 
       <div className=" hidden md:flex  h-screen relative overflow-hidden">
@@ -508,7 +539,10 @@ const Contact = () => {
           >
             Ernakulam,kerala
           </h1>
-          <img src={img} className="h-full xl:w-[600px] px-10 absolute filter grayscale" />
+          <img
+            src={img}
+            className="h-full xl:w-[600px] px-10 absolute filter grayscale"
+          />
         </div>
       </div>
       <div className="md:hidden flex pt-3  flex-col ">

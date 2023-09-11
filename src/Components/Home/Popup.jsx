@@ -11,6 +11,8 @@ const Popup = () => {
     companyName: "",
     message: "",
   });
+  const [loading, setLoading] = useState(false);
+
   const [sucess, setsucess] = useState(false);
 
   // template_fbloykc
@@ -55,6 +57,7 @@ const Popup = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       // Send the email using Email.js
@@ -70,6 +73,7 @@ const Popup = () => {
         },
         "K7UCOY8ZVCrNGalrE"
       );
+      setLoading(false);
 
       setsucess(true);
       resetForm(); // Reset the form fields
@@ -189,20 +193,45 @@ const Popup = () => {
                     />
                   </div>
                   <div className="flex justify-center items-center">
-                    {sucess ? (
-                      <h2 className="bg-green-400  p-2">
-                        Mail sent sucessfully,our team will get in touch with u
-                        soon
-                      </h2>
-                    ) : (
-                      <button
-                        type="submit"
-                        className="p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
-                      >
-                        Submit
-                      </button>
-                    )}
-                  </div>
+    {sucess ? (
+      <h2 className="bg-green-400 p-2">
+        Mail sent successfully, our team will get in touch with you soon
+      </h2>
+    ) : (
+      <button
+        type="submit"
+        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r ${
+          loading ? "bg-black" : "hover:from-indigo-400 hover:to-cyan-400"
+        }`}
+        disabled={loading}
+      >
+        {loading ? (
+           <svg
+           className="animate-spin h-5 w-5 text-black mx-auto"
+           xmlns="http://www.w3.org/2000/svg"
+           fill="none"
+           viewBox="0 0 24 24"
+         >
+           <circle
+             className="opacity-25"
+             cx="12"
+             cy="12"
+             r="10"
+             stroke="currentColor"
+             strokeWidth="4"
+           ></circle>
+           <path
+             className="opacity-75"
+             fill="currentColor"
+             d="M4 12a8 8 0 018-8V2.83a1 1 0 00-1.7-.7l-4 4a1 1 0 00-.3.7V12"
+           ></path>
+         </svg>
+        ) : (
+          "Submit"
+        )}
+      </button>
+    )}
+  </div>
                 </form>
               </div>
             ) : (
@@ -285,20 +314,45 @@ const Popup = () => {
                     />
                   </div>
                   <div className="flex justify-center items-center">
-                    {sucess ? (
-                      <h2 className="bg-green-400  p-2">
-                        Mail sent sucessfully,our team will get in touch with u
-                        soon
-                      </h2>
-                    ) : (
-                      <button
-                        type="submit"
-                        className="p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r bg-black hover:from-indigo-400 hover:to-cyan-400"
-                      >
-                        Submit
-                      </button>
-                    )}
-                  </div>
+    {sucess ? (
+      <h2 className="bg-green-400 p-2">
+        Mail sent successfully, our team will get in touch with you soon
+      </h2>
+    ) : (
+      <button
+        type="submit"
+        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r from-indigo-400 to-cyan-400 ${
+          loading ? "bg-black" : "hover:from-indigo-400 hover:to-cyan-400"
+        }`}
+        disabled={loading}
+      >
+        {loading ? (
+           <svg
+           className="animate-spin h-5 w-5 text-black mx-auto"
+           xmlns="http://www.w3.org/2000/svg"
+           fill="none"
+           viewBox="0 0 24 24"
+         >
+           <circle
+             className="opacity-25"
+             cx="12"
+             cy="12"
+             r="10"
+             stroke="currentColor"
+             strokeWidth="4"
+           ></circle>
+           <path
+             className="opacity-75"
+             fill="currentColor"
+             d="M4 12a8 8 0 018-8V2.83a1 1 0 00-1.7-.7l-4 4a1 1 0 00-.3.7V12"
+           ></path>
+         </svg>
+        ) : (
+          "Submit"
+        )}
+      </button>
+    )}
+  </div>
                 </form>
               </div>
             )}
