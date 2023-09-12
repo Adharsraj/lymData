@@ -549,10 +549,10 @@ const ServicesLanding = () => {
             <div className="xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20">
               <div className="relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 ">
                 <img
-                  style={imageStyle}
-                  className="mt-32"
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
-                  alt="Sample Image"
+                  // style={imageStyle}
+                  className="mt-80"
+                  // src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
+                  // alt="Sample Image"
                 />
                 <h1 className="absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
                   <span
