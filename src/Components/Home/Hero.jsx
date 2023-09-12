@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import giphy from "../../assets/gif/giphy.webp";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Popup from "./Popup";
-
+import img from '../../assets/Images/ardwn.png'
 const Hero = () => {
   const handleClicktohowethink = () => {
     const component2Element = document.getElementById("howethink");
@@ -129,8 +129,8 @@ const Hero = () => {
             >
               <img
             onClick={handleClicktohowethink}
-            className="lg:ml-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
+            className="lg:ml-10 w-10 h-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
+            src={img}
             alt=""
           />
               
