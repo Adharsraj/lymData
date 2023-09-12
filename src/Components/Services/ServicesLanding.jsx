@@ -114,7 +114,7 @@ const ServicesLanding = () => {
             >
               <img
             onClick={handleClicktoapproach}
-            className="lg:ml-10 rounded-full bg-gradient-to-r from-indigo-400 to-cyan-400 cursor-pointer animate-bounce"
+            className="lg:ml-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
             alt=""
           />

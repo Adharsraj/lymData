@@ -129,11 +129,11 @@ const Cultureandmore = () => {
             </div>
             <div
               
-              className=" hidden lg:inline-block absolute ml-0  top-[2100px] left-0 px-1 "
+              className=" hidden lg:inline-block absolute ml-0  top-[2100px] left-0 px-0 "
             >
               <img
             onClick={handleClicktofourculture}
-            className="lg:ml-0 cursor-pointer animate-bounce"
+            className="lg:ml-0 w-[65px] cursor-pointer animate-bounce"
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
             alt=""
           />
