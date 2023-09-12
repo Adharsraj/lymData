@@ -4,6 +4,8 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 import img from "../../assets/Images/contact.avif";
 import axios from "axios";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [showform, setshowform] = useState(true);
@@ -201,7 +203,10 @@ const Contact = () => {
       );
       setLoading(false);
       resetForm();
-      setshowform(false);
+      // setshowform(false);
+      toast.success("Form submitted successfully", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
       console.log("Form submitted successfully");
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -478,6 +483,7 @@ const Contact = () => {
                   </div>
                 </div>
               )}
+              <ToastContainer />
             </div>
           </div>
         </div>

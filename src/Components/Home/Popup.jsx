@@ -95,7 +95,7 @@ const Popup = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerHeight <= 600);
+      setIsSmallScreen(window.innerHeight <= 615);
       setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1350);
     };
 
