@@ -171,6 +171,7 @@ const Popup = () => {
                       onChange={handleInputChange}
                       className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
                       placeholder="Mobile Number *"
+                      required
                     />
                   </div>
                   <div className="mb-1">
@@ -180,7 +181,7 @@ const Popup = () => {
                       value={formData.companyName}
                       onChange={handleInputChange}
                       className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
-                      placeholder="Company Name *"
+                      placeholder="Company Name"
                     />
                   </div>
                   <div className="mb-1">
@@ -189,7 +190,7 @@ const Popup = () => {
                       value={formData.message}
                       onChange={handleInputChange}
                       className="w-full border-b border-gray-500 bg-transparent outline-none py-2 px-3"
-                      placeholder="Message *"
+                      placeholder="Message"
                     />
                   </div>
                   <div className="flex justify-center items-center">
@@ -292,6 +293,7 @@ const Popup = () => {
                       onChange={handleInputChange}
                       className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
                       placeholder="Mobile Number *"
+                      required
                     />
                   </div>
                   <div className="mb-2">
@@ -301,7 +303,7 @@ const Popup = () => {
                       value={formData.companyName}
                       onChange={handleInputChange}
                       className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
-                      placeholder="Company Name *"
+                      placeholder="Company Name"
                     />
                   </div>
                   <div className="mb-2">
@@ -310,7 +312,7 @@ const Popup = () => {
                       value={formData.message}
                       onChange={handleInputChange}
                       className="w-full border-b border-gray-500 bg-transparent outline-none py-4 px-3"
-                      placeholder="Message *"
+                      placeholder="Message"
                     />
                   </div>
                   <div className="flex justify-center items-center">
