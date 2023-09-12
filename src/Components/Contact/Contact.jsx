@@ -10,6 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const [showform, setshowform] = useState(true);
   const [loading, setLoading] = useState(false);
+  const [sucess, setsucess] = useState(false);
 
   const handleClicktoform = () => {
     const component2Element = document.getElementById("form");
@@ -202,11 +203,12 @@ const Contact = () => {
         "K7UCOY8ZVCrNGalrE"
       );
       setLoading(false);
+      setsucess(true);
       resetForm();
       // setshowform(false);
-      toast.success("Form submitted successfully", {
-        position: toast.POSITION.TOP_RIGHT,
-      });
+      // toast.success("Form submitted successfully", {
+      //   position: toast.POSITION.TOP_RIGHT,
+      // });
       console.log("Form submitted successfully");
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -326,20 +328,15 @@ const Contact = () => {
             </h2>
           </div>
           <div className=" md:flex absolute ">
-            <div
-              onClick={handleClicktoform}
+            <div      
               className="inline-block hover:cursor-pointer mt-[-85px] mb-20"
             >
-              <button
-                id="arrowcontainer"
-                className="md:h-12 h-10 w-6 bg-gradient-to-r from-indigo-400 to-cyan-400  flex items-end justify-center rounded-full"
-              ></button>
-              <h1
-                id="arrowbottom"
-                className="md:h-16 h-32 mt-[-115px] w-6 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
-              >
-                <FaLongArrowAltDown color="black" size={38} />
-              </h1>
+              <img
+            onClick={handleClicktoform}
+            className="lg:ml-10 w-[80px] cursor-pointer animate-bounce"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
+            alt=""
+          />
             </div>
           </div>
 
@@ -430,7 +427,48 @@ const Contact = () => {
 
                   <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
                     <div className="flex  group  gap-2 ">
-                      <button
+
+                    {sucess ? (
+       <h2 className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white text-center w-[300px] p-2">
+       Mail sent successfully, our team will get in touch with you soon
+     </h2>
+    ) : (
+      <button
+        type="submit"
+        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r from-indigo-400 to-cyan-400  ${
+          loading ? "bg-black" : "hover:from-indigo-400 hover:to-cyan-400"
+        }`}
+        disabled={loading}
+      >
+        {loading ? (
+           <svg
+           className="animate-spin h-5 w-5 text-black mx-auto"
+           xmlns="http://www.w3.org/2000/svg"
+           fill="none"
+           viewBox="0 0 24 24"
+         >
+           <circle
+             className="opacity-25"
+             cx="12"
+             cy="12"
+             r="10"
+             stroke="currentColor"
+             strokeWidth="4"
+           ></circle>
+           <path
+             className="opacity-75"
+             fill="currentColor"
+             d="M4 12a8 8 0 018-8V2.83a1 1 0 00-1.7-.7l-4 4a1 1 0 00-.3.7V12"
+           ></path>
+         </svg>
+        ) : (
+          "Submit"
+        )}
+      </button>
+    )}
+
+    
+                      {/* <button
                         type="submit"
                         className={`p-2 flex border items-center justify-center mt-10 rounded-full w-[200px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 ${
                           loading
@@ -463,11 +501,11 @@ const Contact = () => {
                         ) : (
                           "Submit"
                         )}
-                      </button>
+                      </button> */}
 
-                      <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
+                      {/* <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
                         <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
-                      </h1>
+                      </h1> */}
                     </div>
                   </div>
                 </form>
@@ -483,7 +521,7 @@ const Contact = () => {
                   </div>
                 </div>
               )}
-              <ToastContainer />
+              {/* <ToastContainer /> */}
             </div>
           </div>
         </div>

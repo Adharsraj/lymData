@@ -124,19 +124,16 @@ const Hero = () => {
             </div>
 
             <div
-              onClick={handleClicktohowethink}
-              className="hidden hover:cursor-pointer lg:inline-block top-1/2 absolute px-10 my-60"
+              
+              className="hidden hover:cursor-pointer lg:inline-block top-1/2 absolute px-0 my-60"
             >
-              <button
-                id="arrowcontainer"
-                className="md:h-12 h-10 w-5   bg-gradient-to-r from-indigo-400 to-cyan-400  flex items-end justify-center rounded-full"
-              ></button>
-              <h1
-                id="arrowbottom"
-                className="md:h-16 h-32 mt-[-115px] w-5 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
-              >
-                <FaLongArrowAltDown color="black" size={38} />
-              </h1>
+              <img
+            onClick={handleClicktohowethink}
+            className="lg:ml-10 rounded-full bg-gradient-to-r from-indigo-400 to-cyan-400 cursor-pointer animate-bounce"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
+            alt=""
+          />
+              
             </div>
           </div>
         </div>

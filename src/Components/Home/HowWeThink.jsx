@@ -65,11 +65,12 @@ const HowweThinkdhn = () => {
             <div className="flex      gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
               <Link to="/about">
                 <div className="flex  group  gap-2 ">
-                  <h1 className="p-2 flex border  items-center justify-center mt-10 rounded-full w-[220px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  <h1 className="p-2 flex border  items-center justify-center mt-10 rounded-full w-[220px] bg-black text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                     Dive into our culture
                   </h1>
-                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
+                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-black text-white">
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                      alt="Arrow Right" />
                   </h1>
                 </div>
               </Link>

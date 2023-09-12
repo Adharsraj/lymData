@@ -109,20 +109,16 @@ const ServicesLanding = () => {
           </div>
 
           <div className="text-white  md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative ">
-            <div
-              onClick={handleClicktoapproach}
+            <div 
               className="inline-block hover:cursor-pointer mt-[-20px] mb-20"
             >
-              <button
-                id="arrowcontainer"
-                className="md:h-12 h-10 w-5   bg-gradient-to-r from-indigo-400 to-cyan-400  flex items-end justify-center rounded-full"
-              ></button>
-              <h1
-                id="arrowbottom"
-                className="md:h-16 h-32 mt-[-115px] w-5 bg-gradient-to-r from-indigo-400 to-cyan-400 z-50 rounded-full flex items-end justify-center"
-              >
-                <FaLongArrowAltDown color="black" size={38} />
-              </h1>
+              <img
+            onClick={handleClicktoapproach}
+            className="lg:ml-10 rounded-full bg-gradient-to-r from-indigo-400 to-cyan-400 cursor-pointer animate-bounce"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
+            alt=""
+          />
+              
             </div>
 
             <div className="md:mt-48">
@@ -433,7 +429,7 @@ const ServicesLanding = () => {
                 />
               </div>
 
-              <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left font-bold leading-10  text-[#000]  mt-10  mb-16">
+              <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left font-helvetica leading-10  text-[#7b7b7b]  mt-10  mb-16">
                 <h1>
                 Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
@@ -443,7 +439,7 @@ const ServicesLanding = () => {
                     <h1 className="p-2 mt-10 flex justify-center text-base rounded-full w-[200px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                       Dive into contact
                     </h1>
-                    <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
+                    <h1 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">
                       <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
                     </h1>
                   </div>
@@ -466,8 +462,8 @@ const ServicesLanding = () => {
                 />
               </div>
 
-              <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#000]   mb-16">
-                <h1 className="lg:text-4xl font-extrabold lg:leading-[55px]  font-helvetica some-element text-[#282728]  lg:w-[690px] ">
+              <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#7b7b7b]   mb-16">
+                <h1 className="lg:text-4xl  lg:leading-[44px]  font-helvetica some-element text-[#7b7b7b]  lg:w-[690px] ">
                 Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
               </div>
@@ -476,7 +472,7 @@ const ServicesLanding = () => {
                   <h1 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                     Dive into contact
                   </h1>
-                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
+                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">
                     <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
                   </h1>
                 </div>
@@ -502,12 +498,12 @@ const ServicesLanding = () => {
               <div className="xl:mt-[-150px] md:mt-[-130px]    mb-20">
                 <div className="relative overflow-hidden md:h-[400px] h-[400px] lg:h-[500px] mb-10 ">
                   <img
-                    style={imageStyle}
-                    className="mt-32 hidden md:flex "
-                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
-                    alt="Sample Image"
+                    // style={imageStyle}
+                    className="mt-80 hidden md:flex "
+                    // src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
+                    // alt="Sample Image"
                   />
-                  <h1 className="absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
+                  <h1 className="absolute mt-32 xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
                     <span
                       onClick={handleClicktoservices}
                       className="opacity-20 hover:opacity-50 hover:cursor-pointer"
