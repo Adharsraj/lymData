@@ -289,30 +289,29 @@ const ServicesLanding = () => {
               
               <div>
                 <h1 className="text-3xl font-semibold mt-10 mb-10">
-                  Product <br /> discovery
+                Web & Mobile Development
                 </h1>
-                <h2 className="mt-6 mb-6 lg:text-sm">
-                  We set the right processes and methodologies to boost
-                  innovation labs and digital product discoveries.
-                </h2>
                 <div className="text-sm">
-                  <h2 className="border-b border-b-[#464546] py-4">
-                    Design thinking processes
+                  <h2 className="lg:text-sm border-b border-b-[#464546] py-4">
+                  Web Application Development
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
-                    Digital Innovation & transformation workshops
+                  E-commerce
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
-                    Blueprints for digital services & customer experiences
+                  Content Management System
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
-                    Proof of concepts
+                  B2B Platforms
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
-                    Digital landscape, user and market research
+                  ERP /CRM
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
-                    Digital product ideation & implementation
+                  Backend Solutions
+                  </h2>
+                  <h2 className="border-b border-b-[#464546] py-4">
+                  Mobile App Development
                   </h2>
                 </div>
               </div>
