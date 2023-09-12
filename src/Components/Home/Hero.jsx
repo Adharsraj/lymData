@@ -129,7 +129,7 @@ const Hero = () => {
             >
               <img
             onClick={handleClicktohowethink}
-            className="lg:ml-10 w-10 h-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
+            className="lg:ml-10 w-14 h-14 rounded-full bg-gray-400 cursor-pointer animate-bounce"
             src={img}
             alt=""
           />

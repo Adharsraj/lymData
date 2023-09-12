@@ -4,6 +4,7 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from "../Home/Within7ForService";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom"; 
+import img from '../../assets/Images/ardwn.png'
 
 const ServicesLanding = () => {
   const navigate = useNavigate();
@@ -112,13 +113,13 @@ const ServicesLanding = () => {
             <div 
               className="inline-block hover:cursor-pointer mt-[-20px] mb-20"
             >
-              <img
+            <img
             onClick={handleClicktoapproach}
-            className="lg:ml-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
+            className="lg:ml-10 w-14 h-14 rounded-full bg-gray-400 cursor-pointer animate-bounce"
+            src={img}
             alt=""
           />
-              
+             
             </div>
 
             <div className="md:mt-48">
