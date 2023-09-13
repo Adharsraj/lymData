@@ -198,6 +198,8 @@ const Contact = () => {
           to_name: "LYMData",
           from_email: formData.email,
           to_email: "info@lymdata.com",
+          company_name: formData.companyName,
+          phone_number: formData.mobileNumber,
           message: formData.message,
         },
         "_h7dmU_ZWC9dc_ISz"
