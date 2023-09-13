@@ -437,7 +437,7 @@ const Contact = () => {
     ) : (
       <button
         type="submit"
-        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r from-indigo-400 to-cyan-400  ${
+        className={`p-3 md:mt-8 flex justify-center rounded-full w-[180px] border cursor-pointer text-white bg-gradient-to-r from-indigo-400 to-cyan-400 hover:from-cyan-400 hover:to-indigo-400 ${
           loading ? "bg-black" : "hover:from-indigo-400 hover:to-cyan-400"
         }`}
         disabled={loading}
