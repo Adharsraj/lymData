@@ -191,16 +191,16 @@ const Contact = () => {
     console.log(formData);
     try {
       await emailjs.send(
-        "service_lg0sfcn",
-        "template_fbloykc",
+        "service_w4ox98s",
+        "template_95dbo87",
         {
           from_name: formData.name,
-          to_name: "Adarsh",
+          to_name: "LYMData",
           from_email: formData.email,
-          to_email: "3301ad@gmail.com",
+          to_email: "info@lymdata.com",
           message: formData.message,
         },
-        "K7UCOY8ZVCrNGalrE"
+        "_h7dmU_ZWC9dc_ISz"
       );
       setLoading(false);
       setsucess(true);
