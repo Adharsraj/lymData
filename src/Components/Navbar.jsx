@@ -18,7 +18,7 @@ const NavbarNew = React.memo(() => {
     { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
     { path: "/contact", label: "Contact" },
-    { path: "/d", label: "Works" },
+    { path: "/works", label: "Works" },
     { path: "/m", label: "Blogs" },
     { path: "/p", label: "Careers" },
   ];
@@ -180,7 +180,6 @@ const NavbarNew = React.memo(() => {
                         const isDisabled = [
                           "Blogs",
                           "Careers",
-                          "Works",
                         ].includes(item.label);
                         return (
                           <li
@@ -213,7 +212,6 @@ const NavbarNew = React.memo(() => {
                         const isDisabled = [
                           "Blogs",
                           "Careers",
-                          "Works",
                         ].includes(item.label);
                         return (
                           <li
