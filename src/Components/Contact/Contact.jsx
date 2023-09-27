@@ -189,18 +189,24 @@ const Contact = () => {
  
 
     const [captchaValue, setCaptchaValue] = useState(null);
+    const [errorMessage, setErrorMessage] = useState('');
 
     const handleCaptchaChange = (value) => {
       setCaptchaValue(value);
+      setErrorMessage('');
     };
 
 
   // emailjs credentials
     const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!formData.name || !formData.email) {
+      setErrorMessage('Please fill out all required fields.');
+      return;
+    }
     if (!captchaValue) {
        
-      alert('Please complete the CAPTCHA.');
+      setErrorMessage('Please complete the CAPTCHA.');
       return;
     }
     setLoading(true);
@@ -443,10 +449,19 @@ const Contact = () => {
                         />
                       </div>
                     </div>
+                    <div>
+                    {formData.name && formData.email && (
                     <ReCAPTCHA
-        sitekey="6Ldai1goAAAAADOPDbiPjjxMkX9kFld10SVriUG7"
+        sitekey="6Le7tVQoAAAAACoFnHjOhLzdl_xUSP_HMDh1g5xe"
         onChange={handleCaptchaChange}
       />
+      )}
+      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+                    </div>
+
+{/* 6Ldai1goAAAAADOPDbiPjjxMkX9kFld10SVriUG7 - test key */}
+{/* 6Le7tVQoAAAAACoFnHjOhLzdl_xUSP_HMDh1g5xe -localhost key */}
+
                   </div>
 
                   <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
