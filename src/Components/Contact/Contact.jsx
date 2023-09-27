@@ -452,7 +452,7 @@ const Contact = () => {
                     <div>
                     {formData.name && formData.email && (
                     <ReCAPTCHA
-        sitekey="6Le7tVQoAAAAACoFnHjOhLzdl_xUSP_HMDh1g5xe"
+        sitekey="6Ldai1goAAAAADOPDbiPjjxMkX9kFld10SVriUG7"
         onChange={handleCaptchaChange}
       />
       )}
