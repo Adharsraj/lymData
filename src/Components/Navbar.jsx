@@ -121,7 +121,7 @@ const NavbarNew = React.memo(() => {
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerHeight <= 615);
-      setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1350);
+      setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1370);
     };
 
     window.addEventListener("resize", handleResize);
@@ -135,17 +135,18 @@ const NavbarNew = React.memo(() => {
 
   return (
     <>
-      <div className=" ">
+      <div className="z-50 navbar">
+        <div className="navbar-content">
         <h1 id="navh1 " className=""></h1>
         <div
           id="menu"
-          className={`toggle-btn w-full  ${navbarBgColor}    flex items-center   justify-between px-10 align-middle`}
+          className={`toggle-btn w-full  ${navbarBgColor}    flex items-center   justify-between px-10  align-middle`}
         >
           <div className="">
             <Link to="/">
               <img
                 id="logo"
-                className="lg:w-[106px]    lg:h-[80px] md:w-16 w-24 "
+                className="lg:w-[106px] lg:h-[80px] md:w-16 w-24 logo"
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
                 alt="companylogo"
               />{" "}
@@ -159,7 +160,7 @@ const NavbarNew = React.memo(() => {
           </div>
           <div
             onClick={menu}
-            className="w-20  h-12     cursor-pointer  flex align-midde items-center  py-2 px-2 "
+            className="w-20  h-12 cursor-pointer  flex align-midde items-center  py-2 px-2 menu-toggle"
           >
             <span
               className="one px-2 mb-2 w-12   bg-gray-500"
@@ -170,7 +171,7 @@ const NavbarNew = React.memo(() => {
         </div>
         <div className="menu w-screen  h-screen " ref={menuRef}>
           <div className="flex justify-center items-center h-screen">
-            <div className="w-screen lg:flex lg:flex-end lg:items-center   justify-around">
+            <div className="w-screen lg:flex lg:flex-end lg:items-center   justify-around menu-items">
               {isSmallScreen && isMediumWidth ? (
                 <div className="text-white md:flex md:flex-col md:gap-6  text-4xl  px-10 md:mt-24 ">
                   <ul>
@@ -309,6 +310,7 @@ const NavbarNew = React.memo(() => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </>

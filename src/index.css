@@ -783,3 +783,48 @@ span.two {
   right: 0;
   top: 0;
 }
+
+
+
+
+/* .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: transparent; /* Adjust background color as needed */
+  /* z-index: 1000; Ensure the navbar is on top */
+/* } */
+
+/* .navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px; */
+/* }  */
+
+.logo {
+  /* max-width: 100px; Adjust logo size as needed */
+}
+
+.menu-toggle {
+  /* cursor: pointer; */
+  /* Add your menu toggle icon styling here */
+}
+
+.menu-items {
+  /* display: none; Initially hide the menu items */
+}
+
+/* .menu-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+} */
+
+.menu-items li {
+  /* margin-right: 1rem;  */
+}

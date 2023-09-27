@@ -6,6 +6,7 @@ const Faq = () => {
   const toggleAccordion = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
+  
   return (
     <div className="font-times max-w-[1640px]  mx-auto">
       <div className="lg:mx-36 mb-10  ">

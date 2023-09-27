@@ -6,6 +6,7 @@ import axios from "axios";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
   const [showform, setshowform] = useState(true);
@@ -185,8 +186,23 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
+ 
+
+    const [captchaValue, setCaptchaValue] = useState(null);
+
+    const handleCaptchaChange = (value) => {
+      setCaptchaValue(value);
+    };
+
+
+  // emailjs credentials
+    const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!captchaValue) {
+       
+      alert('Please complete the CAPTCHA.');
+      return;
+    }
     setLoading(true);
     console.log(formData);
     try {
@@ -224,6 +240,8 @@ const Contact = () => {
       [name]: value,
     });
   };
+
+  
 
   return (
     <div className="bg-[#F4F4F4]">
@@ -425,6 +443,10 @@ const Contact = () => {
                         />
                       </div>
                     </div>
+                    <ReCAPTCHA
+        sitekey="6Le7tVQoAAAAACoFnHjOhLzdl_xUSP_HMDh1g5xe"
+        onChange={handleCaptchaChange}
+      />
                   </div>
 
                   <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">

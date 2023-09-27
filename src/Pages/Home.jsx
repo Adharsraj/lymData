@@ -10,20 +10,21 @@ import Within7Industriesdhn from "../Components/Home/Within7Industries";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
+
 const Home = () => {
   UseDocumentTitle("LYM DATA | Home");
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <HowweThinkdhn />
-      <ProcessDrivendhn />
-      <ProcessDrivenFive />
-      <IndustriesWeknowdhn />
-      <Marque />
-      <Within7Industriesdhn />
-      <Footer />
+        <Navbar />
+        <Hero />
+        <HowweThinkdhn />
+        <ProcessDrivendhn />
+        <ProcessDrivenFive />
+        <IndustriesWeknowdhn />
+        <Marque />
+        <Within7Industriesdhn />
+        <Footer />  
     </>
   );
 };

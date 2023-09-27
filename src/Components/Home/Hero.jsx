@@ -56,7 +56,7 @@ const Hero = () => {
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerHeight <= 615);
-      setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1350);
+      setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1370);
     };
 
     window.addEventListener("resize", handleResize);
@@ -71,7 +71,7 @@ const Hero = () => {
   return (
     <>
       <Popup />
-      <div className=" bg-black text-white ">
+      <div className=" bg-black text-white hero">
         <div className="max-w-[1640px] mx-auto  mt-[-10px]     md:mt-[-16px] lg:mt-0  overflow-hidden ">
           <div className="">
             <div className=" ">

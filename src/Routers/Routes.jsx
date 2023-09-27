@@ -28,167 +28,324 @@ const Wrapper = ({ children }) => {
 };
 
 const Router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Home />
-        </Wrapper>
-      </Suspense>
-    ),
+  // {
+    // path: "/",
+    // element: <Wrapper/>,
+    // children : [
+      {
+          path: "/",
+          element: (
+            <Suspense fallback={<SkeltonLoader />}>
+              <Wrapper>
+                <Home />
+              </Wrapper>
+            </Suspense>
+          ),
+        },
+        {
+            path: "/contact",
+            element: (
+              <Suspense fallback={<Loading />}>
+                <Wrapper>
+                  <Contact />
+                </Wrapper>
+              </Suspense>
+            ),
+        },
+        {
+          path: "/sitemap",
+          element: (
+            <Suspense fallback={<Loading />}>
+              <Wrapper>
+                <SiteMap />
+              </Wrapper>
+            </Suspense>
+          ),
+      },
+      {
+        path: "/careers",
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Wrapper>
+              <Careers />
+            </Wrapper>
+          </Suspense>
+        ),
+    },
+    {
+      path: "/ab",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <Wrapper>
+            <About />
+          </Wrapper>
+        </Suspense>
+      ),
   },
-  {
-    path: "/contact",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Contact />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/sitemap",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <SiteMap />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/careers",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Careers />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/ab",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <About />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-
   {
     path: "/blog",
     element: (
-      <Suspense fallback={<SkeltonLoader />}>
+      <Suspense fallback={<Loading />}>
         <Wrapper>
           <Blog />
         </Wrapper>
       </Suspense>
     ),
-  },
-  {
-    path: "/blog/:id",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <BlogDetailed />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/works",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Works />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/works/:title",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <WorkDetailed />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/terms",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <TermsOfUse />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/services",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Services />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/privacy",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <PrivacyPolicy />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/about",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Culture />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/login",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <Login />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "/signup",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <SignUp />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
-  {
-    path: "*",
-    element: (
-      <Suspense fallback={<Loading />}>
-        <Wrapper>
-          <PageNotFound />
-        </Wrapper>
-      </Suspense>
-    ),
-  },
+},
+{
+  path: "/blog/:id",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <BlogDetailed />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/works",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <Works />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/works/:title",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <WorkDetailed/>
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/terms",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <TermsOfUse />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/services",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <Services />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/privacy",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <PrivacyPolicy />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/about",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <Culture />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/login",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <Login />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "/signup",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <SignUp />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+{
+  path: "*",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <PageNotFound />
+      </Wrapper>
+    </Suspense>
+  ),
+},
+  
+
+  // },
+  // {
+  //   path: "/contact",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <Contact />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/sitemap",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <SiteMap />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/careers",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <Careers />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/ab",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <About />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+
+  // {
+  //   path: "/blog",
+  //   element: (
+  //     <Suspense fallback={<SkeltonLoader />}>
+  //       <Wrapper>
+  //         <Blog />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/blog/:id",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <BlogDetailed />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/works",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <Works />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/works/:title",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <WorkDetailed />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/terms",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <TermsOfUse />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/services",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <Services />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/privacy",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <PrivacyPolicy />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/about",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <Culture />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/login",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <Login />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "/signup",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <SignUp />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "*",
+  //   element: (
+  //     <Suspense fallback={<Loading />}>
+  //       <Wrapper>
+  //         <PageNotFound />
+  //       </Wrapper>
+  //     </Suspense>
+  //   ),
+  // },
  
 ]);
 
