@@ -1,6 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react';
+import axiosInstance from '../../Configs/axiosInstance';
 
 const SignUp = () => {
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(formData);
+
+    try {
+      // Make an API call to your backend here
+      const response = await axiosInstance.post('/api/user/register', formData);
+
+      // Handle the response as needed (e.g., show a success message or redirect)
+      console.log('API Response:', response.data);
+    } catch (error) {
+      // Handle errors (e.g., show an error message)
+      console.error('API Error:', error);
+    }
+  };
+
+
   return (
     <div className="flex flex-col md:flex-row h-screen">
       <div className="md:flex-1 bg-black p-8 md:pt-56 hidden md:block">
@@ -13,11 +43,14 @@ const SignUp = () => {
       <div className="flex-1 bg-gray-100 flex items-center justify-center p-8">
         <div className="max-w-md w-full">
           <h2 className="text-3xl font-semibold mb-4">Sign Up</h2>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label className="block mb-1">Username</label>
               <input
                 type="text"
+                name="username"
+                value={formData.username}
+                onChange={handleChange}
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your username"
               />
@@ -26,6 +59,9 @@ const SignUp = () => {
               <label className="block mb-1">Email</label>
               <input
                 type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your email"
               />
@@ -34,6 +70,9 @@ const SignUp = () => {
               <label className="block mb-1">Password</label>
               <input
                 type="password"
+                name="password"
+                value={formData.password}
+                onChange={handleChange}
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your password"
               />
@@ -42,6 +81,9 @@ const SignUp = () => {
               <label className="block mb-1">Confirm Password</label>
               <input
                 type="password"
+                name="confirmPassword"
+                value={formData.confirmPassword}
+                onChange={handleChange}
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Confirm password"
               />

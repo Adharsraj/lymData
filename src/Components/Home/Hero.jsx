@@ -52,12 +52,18 @@ const Hero = () => {
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [isMediumWidth, setIsMediumWidth] = useState(false);
+  const [isExtraSmallScreen, setIsExtraSmallScreen] = useState(false);
+  const [isExtraMediumWidth, setIsExtraMediumWidth] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerHeight <= 615);
-      setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1370);
-    };
+const handleResize = () => {
+  const screenHeight = window.innerHeight;
+  console.log(screenHeight > 500)
+  console.log(screenHeight <=615)
+
+  setIsSmallScreen(screenHeight > 540 && screenHeight <= 615);
+  setIsMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1370);
+};
 
     window.addEventListener("resize", handleResize);
 
@@ -67,6 +73,28 @@ const Hero = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+
+  useEffect(() => {
+    console.log("object")
+    const handleExtraResize = () => {
+      console.log("object")
+
+      setIsExtraSmallScreen(window.innerHeight <= 540);
+      setIsExtraMediumWidth(window.innerWidth >= 1200 && window.innerWidth <= 1370);
+    };
+
+    window.addEventListener("resize", handleExtraResize);
+
+    handleExtraResize();
+    console.log("object")
+
+    return () => {
+      window.removeEventListener("resize", handleExtraResize);
+    };
+  }, []);
+
+
 
   return (
     <>
@@ -86,25 +114,18 @@ const Hero = () => {
                 <div className="clip-text-video__text layer lg:h-screen flex items-center text-center z-0 ">
                   <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px]">
                     <div className="col  ">
-                      {isSmallScreen && isMediumWidth ? (
+                      {isSmallScreen && isMediumWidth && (
                         <>
-                          <h6 className="md:text-left    xl:w-full lg:whitespace-nowrap lg:text-8xl md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
-                            <div>Data-driven</div>
-                          </h6>
-                          <h6 className="md:text-left text-center  lg:whitespace-nowrap  xl:w-full lg:text-8xl md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
-                            <div>Solutions</div>
-                          </h6>
-                          <h6 className="md:text-left text-center   lg:whitespace-nowrap  xl:w-full lg:text-8xl md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
-                            <div> Shaping your</div>
-                          </h6>
-                          <h6 className="md:text-left text-center lg:whitespace-nowrap   xl:w-full lg:text-8xl w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
-                            <div>digital Success</div>
-                          </h6>
+                        <h1 className="text-[98px] leading-[100px]">
+
+                        data driven solutions shaping your digital sucess
+                        </h1>
                         </>
-                      ) : (
+                        )}
+                      {!isSmallScreen && !isExtraSmallScreen &&    (
                         <>
                           <h6 className="md:text-left  xl:text-9xl  xl:w-full lg:whitespace-nowrap lg:text-8xl md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
-                            <div>Data-driven</div>
+                          <div>Data-driven</div>
                           </h6>
                           <h6 className="md:text-left text-center xl:text-9xl lg:whitespace-nowrap  xl:w-full lg:text-8xl md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
                             <div>Solutions</div>
@@ -116,6 +137,26 @@ const Hero = () => {
                             <div>digital Success</div>
                           </h6>
                         </>
+                                         )}
+
+                    {isExtraSmallScreen && isExtraMediumWidth && (
+                        <>
+                          {/* <h6 className="md:text-left xl:w-full lg:whitespace-nowrap lg:text-6xl md:text-5xl text-4xl md:w-full w-[300px] mx-auto md:ml-0">
+                            <div>Data-driven</div>
+                          </h6>
+                          <h6 className="md:text-left text-center lg:whitespace-nowrap xl:w-full lg:text-6xl md:text-5xl text-4xl md:w-full w-[300px] md:ml-0">
+                            <div>Solutions</div>
+                          </h6>
+                          <h6 className="md:text-left text-center lg:whitespace-nowrap xl:w-full lg:text-6xl md:text-5xl text-4xl md:w-full w-[300px] md:ml-0">
+                            <div> Shaping your</div>
+                          </h6>
+                          <h6 className="md:text-left text-center lg:whitespace-nowrap xl:w-full lg:text-6xl w-[300px] mx-auto md:text-5xl text-4xl md:w-full md:ml-0">
+                            <div>digital Success</div>
+                          </h6> */}
+  <h1 className="text-[90px] leading-[80px]">
+
+data driven <br /> solutions shaping  <br />your digital sucess
+</h1>                        </>
                       )}
                     </div>
                   </div>

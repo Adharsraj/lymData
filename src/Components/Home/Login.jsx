@@ -1,7 +1,46 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import axiosInstance from '../../Configs/axiosInstance';
 
 const Login = () => {
+  const [formData, setFormData] = useState({
+    username: '',
+    password: '',
+  });
+
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(formData);
+    setErrorMessage('');
+
+    try {
+      // Make an API call to your backend here
+      const response = await axiosInstance.post('/api/user/login', formData);
+
+      // Handle the response as needed (e.g., show a success message or redirect)
+      console.log('API Response:', response.data);
+    } catch (error) {
+      // Handle errors (e.g., show an error message)
+      console.error('API Error:', error);
+      if (error.response) {
+        // If the server responds with an error message, set it in the state
+        setErrorMessage(error.response.data.message);
+      } else {
+        // Handle other types of errors
+        setErrorMessage('Invalid username or password');
+      }
+    }
+  };
+
+
+
   return (
     <div className="flex flex-col md:flex-row h-screen">
       <div className="md:flex-1 bg-white p-8 md:pt-56 hidden md:block">
@@ -19,11 +58,14 @@ const Login = () => {
       <div className="flex-1 flex items-center justify-center p-8">
         <div className="max-w-md w-full bg-gray-100 p-14 shadow-2xl">
           <h2 className="text-3xl font-semibold mb-4 text-center">Login</h2>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label className="block mb-1">Username</label>
               <input
                 type="text"
+                name="username" 
+                value={formData.username}
+                onChange={handleChange}                                      
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your username"
               />
@@ -32,10 +74,16 @@ const Login = () => {
               <label className="block mb-1">Password</label>
               <input
                 type="password"
+                name="password"
+                value={formData.password}
+                onChange={handleChange}
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your password"
               />
             </div>
+            {errorMessage && (
+              <p className="text-red-500 text-center mb-4">{errorMessage}</p>
+            )}
             <button
               type="submit"
               className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white py-2 px-4 rounded-full w-full hover:bg-blue-600"
