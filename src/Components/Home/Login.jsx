@@ -68,6 +68,7 @@ const Login = () => {
                 onChange={handleChange}                                      
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your username"
+                required
               />
             </div>
             <div className="mb-4">
@@ -79,6 +80,7 @@ const Login = () => {
                 onChange={handleChange}
                 className="w-full border border-gray-500 rounded-full py-2 px-3"
                 placeholder="Enter your password"
+                required
               />
             </div>
             {errorMessage && (
