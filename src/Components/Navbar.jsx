@@ -9,7 +9,7 @@ import {
   SlSocialTwitter,
 } from "react-icons/sl";
 
-const NavbarNew = React.memo(() => {
+const NavbarNew = React.memo(({ onMenuClose }) => {
   const location = useLocation();
 
   const navigationItems = [
@@ -107,7 +107,19 @@ const NavbarNew = React.memo(() => {
   };
   const menu = () => {
     setMenuopen(!menuopen);
+  
+    // Scroll down by 100 pixels relative to the current scroll position when closing the menu
+    if (!menuopen) {
+      setTimeout(() => {
+        const currentScrollPosition = window.scrollY;
+        const targetScrollPosition = currentScrollPosition + 0;
+        window.scrollTo({ top: targetScrollPosition, behavior: "smooth" });
+        onMenuClose(); // Call the function to trigger image appearance
+
+      }, 800); // 1000 milliseconds (1 second)
+    }
   };
+  
 
   const navbarBgColor = !menuopen && scrolling ? "bg-[#fff]" : "bg-transparent";
 
@@ -136,7 +148,7 @@ const NavbarNew = React.memo(() => {
   return (
     <>
       <div className="z-50 navbar">
-        <div className="navbar-content">
+        <div className="navbar-content ">
         <h1 id="navh1 " className=""></h1>
         <div
           id="menu"
@@ -146,7 +158,7 @@ const NavbarNew = React.memo(() => {
             <Link to="/">
               <img
                 id="logo"
-                className="lg:w-[106px] lg:h-[80px] md:w-16 w-24 logo"
+                className="lg:w-[106px] lg:h-[80px] md:w-16 w-24 logo mt-4"
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
                 alt="companylogo"
               />{" "}
@@ -160,7 +172,7 @@ const NavbarNew = React.memo(() => {
           </div>
           <div
             onClick={menu}
-            className="w-20  h-12 cursor-pointer  flex align-midde items-center  py-2 px-2 menu-toggle"
+            className="w-20  h-12 cursor-pointer  flex align-midde items-center  py-2 px-2 menu-toggle mt-4"
           >
             <span
               className="one px-2 mb-2 w-12   bg-gray-500"

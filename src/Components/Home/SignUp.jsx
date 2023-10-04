@@ -16,6 +16,8 @@ const SignUp = () => {
     confirmPassword: '',
   });
 
+  const [usernameAvailable, setUsernameAvailable] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -62,11 +64,13 @@ const SignUp = () => {
     e.preventDefault();
 
     if (validateForm()) {
-      console.log(formData);
-
       try {
         // Make an API call to your backend here
         const response = await axiosInstance.post('/api/user/register', formData);
+
+        if (response.status === 400) {
+          setUsernameAvailable('Username already exists');
+        }
 
         // Handle the response as needed (e.g., show a success message or redirect)
         console.log('API Response:', response.data);
@@ -103,6 +107,12 @@ const SignUp = () => {
                 }`}
                 placeholder="Enter your username"
               />
+              {/* {usernameAvailable ? (
+                <p className="text-green-500 text-xs mt-1">Username is available</p>
+              ) : (
+                <p className="text-red-500 text-xs mt-1">Username is not available</p>
+              )} */}
+               {usernameAvailable && <p className="text-red-500 text-xs mt-1">{usernameAvailable}</p>}
               {errors.username && (
                 <p className="text-red-500 text-xs mt-1">{errors.username}</p>
               )}
