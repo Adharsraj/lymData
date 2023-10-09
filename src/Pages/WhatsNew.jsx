@@ -52,7 +52,7 @@ function WhatsNew() {
             alt="companylogo"
           />
         </div>
-        <div className="App">
+        {/* <div className="App">
           <div style={{ marginRight: circleMarginHorizontal }}>
             <CountdownCircleTimer
               {...timerProps}
@@ -118,7 +118,7 @@ function WhatsNew() {
               )}
             </CountdownCircleTimer>
           </div>
-        </div>
+        </div> */}
       </div>
       <div id="page-content" className="page-content">
         <main role="main" aria-label="Page Content">

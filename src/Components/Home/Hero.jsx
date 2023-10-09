@@ -200,8 +200,8 @@ const Hero = ({ showImage }) => {
 
   return (
     <>
-      <div className=" bg-black text-white">
-        <div className=" mx-auto  mt-[-10px]    md:mt-[-16px] lg:mt-[-16px]  ">
+      <div className=" bg-black text-white h-screen">
+        <div className=" mx-auto h-screen  ">
           <div className="">
             {/* <h3
               className="flex justify-center items-center 
@@ -237,22 +237,22 @@ const Hero = ({ showImage }) => {
               <section className="clip-text-video  ">
                 {showImage ? (
                   <img
-                    className="xl:h-[1024px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
+                    className="h-screen z-0"
                     id="running"
                     src={giphy}
                     alt="GIF"
                   />
                 ) : (
                   <img
-                    className="xl:h-[1024px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
+                    className="h-screen  z-0"
                     id="running"
                     src={giphy}
                     alt="GIF"
                   />
                 )}
 
-                <div className="clip-text-video__text layer flex items-center text-center z-0 ">
-                  <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px]">
+                <div className="clip-text-video__text layer flex items-center text-center z-0 h-screen ">
+                  <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px] h-screen">
                     <div className="col  ">
                     <h6 className="md:text-left xl:w-full xl:text-[15vh] lg:text-[10vh] md:text-7xl text-[4vh] md:w-full w-[30vh] md:ml-0">
   <div>Data-driven</div>
