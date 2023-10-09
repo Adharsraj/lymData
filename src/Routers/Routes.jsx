@@ -185,16 +185,16 @@ const Router = createBrowserRouter([
     </Suspense>
   ),
 },
-{
-  path: "/comingsoon",
-  element: (
-    <Suspense fallback={<Loading />}>
-      <Wrapper>
-        <ComingSoon />
-      </Wrapper>
-    </Suspense>
-  ),
-},
+// {
+//   path: "/comingsoon",
+//   element: (
+//     <Suspense fallback={<Loading />}>
+//       <Wrapper>
+//         <ComingSoon />
+//       </Wrapper>
+//     </Suspense>
+//   ),
+// },
 {
   path: "/comingnew",
   element: (

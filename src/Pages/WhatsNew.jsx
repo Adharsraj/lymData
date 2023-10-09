@@ -16,8 +16,8 @@ const circleMarginHorizontal = "20px";
 const renderTime = (dimension, time) => {
   return (
     <div className="time-wrapper">
-      <div className="time">{time}</div>
-      <div>{dimension}</div>
+      <div className="time" style={{ color: 'white' }}>{time}</div>
+      <div style={{ color: 'white' }}>{dimension}</div>
     </div>
   );
 };
@@ -42,7 +42,7 @@ function WhatsNew() {
       };
 
   return (
-    <div className="main-container min-h-screen">
+    <div className="main-container max-h-screen">
       <div className='flex justify-between'>
         <div className="md:ml-9 ml-3 mt-0">
           <img
@@ -158,6 +158,7 @@ function WhatsNew() {
                   </svg>
                 </a>
               </div>
+              
             </div>
             <div className="iphone-single iphone-single--hero">
               <div className="iphone-single__container">

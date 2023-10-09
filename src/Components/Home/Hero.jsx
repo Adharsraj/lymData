@@ -237,14 +237,14 @@ const Hero = ({ showImage }) => {
               <section className="clip-text-video  ">
                 {showImage ? (
                   <img
-                    className="xl:h-[620px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
+                    className="xl:h-[1024px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
                     id="running"
                     src={giphy}
                     alt="GIF"
                   />
                 ) : (
                   <img
-                    className="xl:h-[520px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
+                    className="xl:h-[1024px] xl:mt-[125px] opacity-80 lg:h-[390px]  md:mt-[90px] md:h-[280px]   h-[280px] mt-[88px]   w-full px-6  z-0"
                     id="running"
                     src={giphy}
                     alt="GIF"
