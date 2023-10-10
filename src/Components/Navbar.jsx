@@ -148,7 +148,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
   return (
     <>
       <div className="z-50 navbar">
-        <div className="navbar-content ">
+        <div className="navbar-content">
         <h1 id="navh1 " className=""></h1>
         <div
           id="menu"
@@ -158,7 +158,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
             <Link to="/">
               <img
                 id="logo"
-                className="lg:w-[106px] lg:h-[80px] md:w-16 w-24 logo mt-4"
+                className="lg:w-[106px] lg:h-[80px] md:w-16 w-24 logo"
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
                 alt="companylogo"
               />{" "}
@@ -172,7 +172,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
           </div>
           <div
             onClick={menu}
-            className="w-20  h-12 cursor-pointer  flex align-midde items-center  py-2 px-2 menu-toggle mt-4"
+            className="w-20  h-12 cursor-pointer  flex align-midde items-center  py-2 px-2 menu-toggle"
           >
             <span
               className="one px-2 mb-2 w-12   bg-gray-500"

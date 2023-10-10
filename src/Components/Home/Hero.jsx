@@ -1,8 +1,19 @@
 import gsap from "gsap";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import giphy from "../../assets/gif/giphy.webp";
 import img from '../../assets/Images/ardwn.png'
+
 const Hero = ({ showImage }) => {
+  const handleClicktohowethink = () => {
+    const component2Element = document.getElementById("howethink");
+    if (component2Element) {
+      window.scrollTo({
+        top: component2Element.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+
   useEffect(() => {
     var tl = gsap.timeline();
 
@@ -70,9 +81,9 @@ const Hero = ({ showImage }) => {
       }
     );
 
-    // const box = document.getElementById("box");
-    // const box1 = document.getElementById("box1");
-    // const box2 = document.getElementById("box2");
+    const box = document.getElementById("box");
+    const box1 = document.getElementById("box1");
+    const box2 = document.getElementById("box2");
 
     // box.addEventListener("mouseenter", () => {
     //   gsap.to("#box", {
@@ -187,91 +198,92 @@ const Hero = ({ showImage }) => {
     }, 1000);
   }, [showImage]);
 
-  const handleClicktohowethink = () => {
-    const component2Element = document.getElementById("howethink");
-    if (component2Element) {
-      window.scrollTo({
-        top: component2Element.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-  
+  const [showWowText, setShowWowText] = useState(false);
+
+  useEffect(() => {
+    const checkScreenHeight = () => {
+      const screenHeight = window.innerHeight;
+
+      // Check if the screen height is greater than 1000
+      if (screenHeight > 1000) {
+        setShowWowText(true);
+      } else {
+        setShowWowText(false);
+      }
+    };
+
+    // Check the screen height when the component mounts
+    checkScreenHeight();
+
+    // Add an event listener to check when the window is resized
+    window.addEventListener('resize', checkScreenHeight);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', checkScreenHeight);
+    };
+  }, []);
 
   return (
     <>
-      <div className=" bg-black text-white h-screen">
-        <div className=" mx-auto h-screen  ">
+      <div className=" bg-black text-white">
+        <div className="max-w-[1640px] mx-auto ">
           <div className="">
-            {/* <h3
-              className="flex justify-center items-center 
-            border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px]
-             rounded-full bg-grey hover:text-2xl duration-200 absolute md:top-[-50px] md:left-[-160px] 
-             lg:top-6 lg:left-6 z-50 text-white left-[-210px] top-[10px] w-[85px] h-[85px]"
-              id="box"
-            >
-              Home
-            </h3>
-
-            <h3
-              className="flex justify-center items-center 
-             border md:w-[150px] md:h-[150px] lg:w-[200px]  lg:h-[200px] rounded-full bg-grey
-              md:flex  hover:text-2xl duration-200 absolute lg:top-60 lg:left-[386px] md:top-[100px]
-               md:left-[180px] z-50 text-white left-[-50px] w-[85px] h-[85px]"
-              id="box1"
-            >
-              About
-            </h3>
-
-            <h3
-              className=" flex text-center  left-[-210px] top-[180px] 
-             border md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-full bg-grey md:flex
-              justify-center items-center hover:text-2xl duration-200 absolute lg:top-[380px] 
-              lg:left-[-100px] md:top-[160px] md:left-[-110px] z-50 text-white w-[85px] h-[85px]"
-              id="box2"
-            >
-              Works
-            </h3> */}
-
-<div className=" lg:h-screen  ">
-              <section className="clip-text-video  ">
-                {showImage ? (
-                  <img
-                    className="h-screen z-0"
-                    id="running"
-                    src={giphy}
-                    alt="GIF"
-                  />
-                ) : (
-                  <img
-                    className="h-screen  z-0"
-                    id="running"
-                    src={giphy}
-                    alt="GIF"
-                  />
-                )}
-
-                <div className="clip-text-video__text layer flex items-center text-center z-0 h-screen ">
-                  <div className="overlay  flex flex-col md:justify-center font-aeonic uppercase text-[134px] h-screen">
+            <div className=" ">
+            {showWowText ?(
+                  <section className="max-w-[1640px] ">
+               
+               <div className=" flex items-center text-center z-0 ">
+                  <div className="  flex flex-col md:justify-center font-aeonic uppercase text-[134px] mx-auto">
                     <div className="col  ">
-                    <h6 className="md:text-left xl:w-full xl:text-[15vh] lg:text-[10vh] md:text-7xl text-[4vh] md:w-full w-[30vh] md:ml-0">
-  <div>Data-driven</div>
-</h6>
-<h6 className="md:text-left text-center xl:w-full xl:text-[15vh] lg:text-[10vh] md:text-7xl text-[4vh] md:w-full w-[30vh] md:ml-0">
-  <div>Solutions</div>
-</h6>
-<h6 className="md:text-left whitespace-nowrap  text-center xl:w-full xl:text-[15vh]  lg:text-[10vh] md:text-6xl text-[4vh] md:w-full w-[30vh] md:ml-0">
-  <div> Shaping your</div>
-</h6>
-<h6 className="md:text-left text-center xl:w-full  xl:text-[15vh] lg:text-[10vh] w-[30vh] mx-auto md:text-5xl text-[4vh] md:w-full md:ml-0">
-  <div>digital Success</div>
-</h6>
-
+                      <h6 className="md:text-left whitespace-nowrap   xl:w-full xl:text-[134px] lg:text-[100px]  md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
+                        <div>Data-driven</div>
+                      </h6>
+                      <h6 className="md:text-left text-center whitespace-nowrap  xl:w-full xl:text-[134px] lg:text-[100px] md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
+                        <div>Solutions</div>
+                      </h6>
+                      <h6 className="md:text-left text-center whitespace-nowrap   xl:w-[1000px] xl:text-[134px] lg:text-[80px] md:text-6xl text-4xl md:w-full  w-[300px]  md:ml-0">
+                        <div> Shaping your</div>
+                      </h6>
+                      <h6 className="md:text-left text-center xl:w-full  whitespace-nowrap  xl:text-[134px]   lg:text-[83px] w-[300px]   mx-auto md:text-5xl text-4xl  md:w-full   md:ml-0">
+                        <div>digital Success</div>
+                      </h6>
                     </div>
-                  
+                    {/* <div className="col">
+                      <h6>
+                        <div>
+                          <span>click</span>anywhere to continue
+                        </div>
+                      </h6>
+                    </div> */}
                   </div>
                 </div>
+                  
+                                </section>
+                ):
+              <section className="max-w-[1640px] ">
+               
+<div className="  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
+  <div className=" flex flex-col md:justify-center font-aeonic uppercase text-  mx-auto">
+    <div className="col">
+      <h6 className="md:text-left xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
+        <div>Data-driven</div>
+      </h6>
+      <h6 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full md:ml-0">
+        <div>Solutions</div>
+      </h6>
+      <h6 className="md:text-left whitespace-nowrap text-center  xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full md:ml-0">
+        <div> Shaping your</div>
+      </h6>
+      <h6 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] w-full mx-auto md:text-7xl text-4xl md:w-full md:ml-0">
+        <div>digital Success</div>
+      </h6>
+    </div>
+  </div>
+</div>
+
               </section>
+}
             </div>
             <div
               
