@@ -9,6 +9,9 @@ import Marque from "../Components/Home/Marque";
 import Within7Industriesdhn from "../Components/Home/Within7Industries";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
+import DataSlide1 from "../Components/Home/DataSlide1";
+import Services from "../Components/Home/Services";
+import Insights from "../Components/Home/Insights";
 
 
 const Home = () => {
@@ -23,11 +26,14 @@ const Home = () => {
          <Navbar onMenuClose={handleMenuClose} />
       <Hero showImage={showImage} />
         <HowweThinkdhn />
-        <ProcessDrivendhn />
-        <ProcessDrivenFive />
-        <IndustriesWeknowdhn />
+        <DataSlide1 />
+        {/* <ProcessDrivendhn /> */}
+        {/* <ProcessDrivenFive /> */}
+        {/* <IndustriesWeknowdhn /> */}
         <Marque />
-        <Within7Industriesdhn />
+        <Services />
+        <Insights />
+        {/* <Within7Industriesdhn /> */}
         <Footer />  
     </>
   );

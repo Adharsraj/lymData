@@ -786,7 +786,16 @@ span.two {
 
 
 
-
+.hidden-h1 {
+    display: none;
+  }
+  .line {
+    width: 0px;
+    margin-top: -42px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+  }
 
 
 

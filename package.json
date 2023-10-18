@@ -14,6 +14,7 @@
     "@react-three/drei": "^9.80.0",
     "@react-three/fiber": "^8.13.6",
     "@splinetool/runtime": "^0.9.409",
+    "antd": "^5.10.0",
     "axios": "^1.5.1",
     "emailjs-com": "^3.2.0",
     "esbuild": "^0.18.17",

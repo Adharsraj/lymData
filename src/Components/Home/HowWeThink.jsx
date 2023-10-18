@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const HowweThinkdhn = () => {
   return (
-    <div id="howethink" className="bg-[#F8FAFC] overflow-hidden ">
+    <div id="howethink" className="bg-[#F8FAFC] overflow-hidden min-h-screen">
       <div className="max-w-[1640px]  mx-auto p-4 font-helvetica  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
           <div className="md:hidden">
@@ -29,10 +29,10 @@ const HowweThinkdhn = () => {
             </div>
             <Link to="/about">
               <div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[560px]  lg:mb-7">
-                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all ">
+                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all ">
                   Dive into our culture
                 </h1>
-                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white">
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white">
                   <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
                 </h1>
               </div>

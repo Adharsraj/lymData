@@ -121,7 +121,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
   };
   
 
-  const navbarBgColor = !menuopen && scrolling ? "bg-[#fff]" : "bg-transparent";
+  const navbarBgColor = !menuopen && scrolling ? "bg-transparent" : "bg-transparent";
 
   const handleClose = () => {
     localStorage.clear();
