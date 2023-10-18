@@ -26,7 +26,8 @@ const Home = () => {
          <Navbar onMenuClose={handleMenuClose} />
       <Hero showImage={showImage} />
         <HowweThinkdhn />
-        <DataSlide1 />
+{/* <LocomotiveScroll/> */}
+        {/* <DataSlide1 /> */}
         {/* <ProcessDrivendhn /> */}
         {/* <ProcessDrivenFive /> */}
         {/* <IndustriesWeknowdhn /> */}
