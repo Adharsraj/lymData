@@ -1,115 +1,34 @@
 import React from 'react'
 import img from '../../assets/Images/Services.png'
 import arrow from '../../assets/Images/right_arrow.png'
+import { servv } from '../../assets/Data/data'
 
 const Services = () => {
   return (
-    <div className='bg-black min-h-screen'>
-        <div className=' pt-5 px-20'>
-            <h2 className='text-white text-[80px]'>Services</h2>
+  <>
+    <div  className="max-w-[1640px] mx-auto  border bg-black min-h-screen">
+  <h1 className='lg:text-[70px] text-[35px] font-bold lg:px-28 text-white'>Services</h1>
+  <div className='grid  p-5  gap-7 md:grid-cols-2 lg:grid-cols-3 lg:px-28'>
 
-            <div className='flex justify-between items-center flex-col md:flex-row'>
-            <div className='bg-white h-[220px] w-[300px]'>
-                <img src={img} alt="img" className='h-[60px] w-[300px]'/>
-                <h2 className='font-bold pt-5 px-5'>UI/UX</h2>
-                <p className='pt-3 px-5 text-xs'>Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow</p>
-                <div className='flex px-5 pt-5 gap-3'>
-                <h2 className='text-sm '>Learn More</h2>
-                <h1 className="w-[16px] pt-1">
-                    <img
-                      className=""
-                      src={arrow}
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-            </div>
+  {servv.map((m, index) => (
+    <div className='w-full lg:w-[348px]  h-[229px] bg-white mx-auto'>
 
-            <div className='bg-white h-[220px] w-[300px]'>
-                <img src={img} alt="img" className='h-[60px] w-[300px]'/>
-                <h2 className='font-bold pt-5 px-5'>UI/UX</h2>
-                <p className='pt-3 px-5 text-xs'>Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow</p>
-                <div className='flex px-5 pt-5 gap-3'>
-                <h2 className='text-sm '>Learn More</h2>
-                <h1 className="w-[16px] pt-1">
-                    <img
-                      className=""
-                      src={arrow}
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-            </div>
+  <img src={m.img} className='h-[56px] w-full' alt="" />
+  <div className='flex flex-col justify-between h-[160px] lg:px-5 px-3 pt-2 lg:pt-3'>
+  <h1 className='font-bold'>{m.title}</h1>
+  <h2 className='lg:text-[14px] text-[12px]'>{m.desc}</h2>
+  <div className='flex gap-2'>
+  <h2> Learn More</h2>
+  <img src={arrow} alt="arrow" className='w-[16px]'/>
+  </div>
 
-            <div className='bg-white h-[220px] w-[300px]'>
-                <img src={img} alt="img" className='h-[60px] w-[300px]'/>
-                <h2 className='font-bold pt-5 px-5'>UI/UX</h2>
-                <p className='pt-3 px-5 text-xs'>Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow</p>
-                <div className='flex px-5 pt-5 gap-3'>
-                <h2 className='text-sm '>Learn More</h2>
-                <h1 className="w-[16px] pt-1">
-                    <img
-                      className=""
-                      src={arrow}
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-            </div>
-            </div>
-
-
-            <div className='flex justify-between items-center pt-10 pb-10 flex-col md:flex-row'>
-            <div className='bg-white h-[220px] w-[300px]'>
-                <img src={img} alt="img" className='h-[60px] w-[300px]'/>
-                <h2 className='font-bold pt-5 px-5'>UI/UX</h2>
-                <p className='pt-3 px-5 text-xs'>Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow</p>
-                <div className='flex px-5 pt-5 gap-3'>
-                <h2 className='text-sm '>Learn More</h2>
-                <h1 className="w-[16px] pt-1">
-                    <img
-                      className=""
-                      src={arrow}
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-            </div>
-
-            <div className='bg-white h-[220px] w-[300px]'>
-                <img src={img} alt="img" className='h-[60px] w-[300px]'/>
-                <h2 className='font-bold pt-5 px-5'>UI/UX</h2>
-                <p className='pt-3 px-5 text-xs'>Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow</p>
-                <div className='flex px-5 pt-5 gap-3'>
-                <h2 className='text-sm '>Learn More</h2>
-                <h1 className="w-[16px] pt-1">
-                    <img
-                      className=""
-                      src={arrow}
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-            </div>
-
-            <div className='bg-white h-[220px] w-[300px]'>
-                <img src={img} alt="img" className='h-[60px] w-[300px]'/>
-                <h2 className='font-bold pt-5 px-5'>UI/UX</h2>
-                <p className='pt-3 px-5 text-xs'>Creating unique designs that are centered around the mindset of your target segment and ensuring seamless flow</p>
-                <div className='flex px-5 pt-5 gap-3'>
-                <h2 className='text-sm '>Learn More</h2>
-                <h1 className="w-[16px] pt-1">
-                    <img
-                      className=""
-                      src={arrow}
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-            </div>
-            </div>
-        </div>
+  </div>
     </div>
+  ))}
+    </div>
+
+  </div>
+  </>
   )
 }
 

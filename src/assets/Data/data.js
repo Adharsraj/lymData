@@ -5,17 +5,64 @@ import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 
+export const servv = [
+
+  {
+    id: 1,
+    title: "UI/UX",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    desc: "Creatng unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
+  },
+
+  {
+    id: 2,
+    title: "UI/UX",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    desc: "Creatng unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
+  },
+
+  {
+    id: 3,
+    title: "UI/UX",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+
+    desc: "Creatng unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
+  },
+
+  {
+    id: 4,
+    title: "UI/UX",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    desc: "Creatng unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
+  },
+
+  {
+    id: 5,
+    title: "UI/UX",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    desc: "Creatng unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
+  },
+
+  {
+    id: 6,
+    title: "UI/UX",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    desc: "Creatng unique designs that are centred around the mindset of your target segment and ensuring seamless flow",
+  },
+];
+
+
 export const ourValues = [
   {
     id: 1,
     title: "Team player",
-    desc: "We value individuals who prioritize team goals ahead of personal interests, contributing to ideas & insights that may push the field forward. We value respect & collaboration, the only way we know can push our agency forward to higher success.",
+    desc: "We value individuals",
   },
 
   {
     id: 2,
     title: "Work Ethic",
-    desc: "We love individuals who chime their own path forward. At Stead, our members consistently demonstrate reliability, punctuality, and a strong sense of responsibility. We maintain a positive attitude, embrace challenges, & put in the effort to get success.",
+    desc: "We love t Stead, our mtrong sense of responsibility. We maintain a positive attitude, embrace challenges, & put in the effort to get success.",
   },
 
   {
