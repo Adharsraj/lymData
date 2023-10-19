@@ -200,7 +200,7 @@ const Hero = ({ showImage }) => {
             </div>
             <div
               
-              className="hidden hover:cursor-pointer lg:inline-block top-1/2 absolute px-0 my-60"
+              className="pb-10"
             >
               <img
             onClick={handleClicktohowethink}

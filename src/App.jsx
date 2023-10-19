@@ -4,7 +4,6 @@ import Loading from "./Components/loaders/TextLoading";
 import { RouterProvider, createBrowserRouter, useLocation } from 'react-router-dom';
 import SkeltonLoader from './Components/loaders/SkeltonLoader';
 import PageNotFound from "./Pages/PageNotFound";
-import SiteMap from "./Pages/SiteMap";
 import Login  from "./Components/Home/Login";
 import SignUp from "./Components/Home/SignUp";
 const BlogDetailed = lazy(() => import("./Components/Blog/BlogDetailed"));
@@ -52,16 +51,6 @@ const router = createBrowserRouter([
             </Suspense>
           ),
       },
-      {
-        path: "/sitemap",
-        element: (
-          <Suspense fallback={<Loading />}>
-            <Wrapper>
-              <SiteMap />
-            </Wrapper>
-          </Suspense>
-        ),
-    },
     {
       path: "/careers",
       element: (

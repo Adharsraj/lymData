@@ -3,7 +3,6 @@ import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 import PageNotFound from "../Pages/PageNotFound";
-import SiteMap from "../Pages/SiteMap";
 import Login  from "../Components/Home/Login";
 import SignUp from "../Components/Home/SignUp";
 import ComingSoon from "../Pages/ComingSoon";
@@ -55,16 +54,6 @@ const Router = createBrowserRouter([
               </Suspense>
             ),
         },
-        {
-          path: "/sitemap",
-          element: (
-            <Suspense fallback={<Loading />}>
-              <Wrapper>
-                <SiteMap />
-              </Wrapper>
-            </Suspense>
-          ),
-      },
       {
         path: "/careers",
         element: (
