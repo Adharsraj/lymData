@@ -150,13 +150,13 @@ html.has-scroll-smooth {
   .hidden-h1 {
     display: none;
   }
-  .line {
+  /* .line {
     width: 0px;
     margin-top: -42px;
     height: 5px;
     background-color: black;
     position: absolute;
-  }
+  } */
 
 
 
@@ -954,13 +954,13 @@ span.two {
 .hidden-h1 {
     display: none;
   }
-  .line {
+  /* .line {
     width: 0px;
     margin-top: -42px;
     height: 5px;
     background-color: black;
     position: absolute;
-  }
+  } */
 
 
 
@@ -1200,8 +1200,8 @@ span.two {
 
 .textSliderContainer_slider_slide_colRight_textCont_text {
     color: white;
-    font-family: aeonic;
-    font-size: 14px;
+    font-family: Sohne;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30px
 }
