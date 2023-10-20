@@ -1290,8 +1290,6 @@ span.two {
 
 .textSliderContainer_slider_sliderIndicatiors_indicator-active {
     background: linear-gradient(45deg, #00FFFF, #4B0082);
-  background-clip: text;
-  -webkit-background-clip: text; /* For older versions of Webkit browsers */
   color: transparent;
     height: 1px;
     width: 60px
