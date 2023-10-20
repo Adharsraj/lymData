@@ -27,7 +27,7 @@ const Home = () => {
       <Hero showImage={showImage} />
         <HowweThinkdhn />
 {/* <LocomotiveScroll/> */}
-        {/* <DataSlide1 /> */}
+        <DataSlide1 />
         {/* <ProcessDrivendhn /> */}
         {/* <ProcessDrivenFive /> */}
         {/* <IndustriesWeknowdhn /> */}

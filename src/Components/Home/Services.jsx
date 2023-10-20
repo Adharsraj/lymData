@@ -7,7 +7,7 @@ const Services = () => {
   return (
   <>
     <div  className="max-w-[1640px] mx-auto  border bg-black min-h-screen">
-  <h1 className='lg:text-[70px] text-[35px] font-bold lg:px-28 text-white'>Services</h1>
+  <h1 className='lg:text-[70px] text-[35px] font-bold lg:px-28 text-white p-5'>Services</h1>
   <div className='grid  p-5  gap-7 md:grid-cols-2 lg:grid-cols-3 lg:px-28'>
 
   {servv.map((m, index) => (
