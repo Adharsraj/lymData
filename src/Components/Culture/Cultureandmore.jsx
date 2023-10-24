@@ -38,7 +38,7 @@ const Cultureandmore = () => {
       <div className="max-w-[1640px] p-4 overflow-hidden  mx-auto  font-dm  md:text-xl ">
         <div className="lg:mt-20">
           <div className="md:hidden">
-            <div className="flex justify-between align-middle items-center">
+            <div className="flex justify-between align-middle items-center some-element">
               <h1>Culture @ LYM</h1>
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
@@ -47,7 +47,7 @@ const Cultureandmore = () => {
               />
             </div>
 
-            <div className="text-[25px] leading-10  ">
+            <div className="text-[25px] leading-10  some-element">
               <h1>
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients. 
               </h1>
@@ -58,7 +58,7 @@ const Cultureandmore = () => {
           </div>
 
           <div className="hidden md:block mt-20 relative">
-            <div className="flex justify-between xl:px-5  align-middle ">
+            <div className="flex justify-between xl:px-5  align-middle some-element">
               <h1 className="text-sm">Culture @ LYM</h1>
               <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10">
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
@@ -96,7 +96,7 @@ const Cultureandmore = () => {
                 className="mt-10 mb-10 "
                 alt="gjj"
               />
-              <h1 className="">
+              <h1 className="some-element">
               The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
               </h1>
             </div>
@@ -107,7 +107,7 @@ const Cultureandmore = () => {
                 alt=""
                 srcset=""
               />
-              <h1>
+              <h1 className="some-element">
               The collective brain of LYMDATA LABS is comprised of a varied group of individuals who possess extensive experience, unwavering dedication, and a strong commitment to our daily tasks. 
               </h1>
             </div>
@@ -123,7 +123,7 @@ const Cultureandmore = () => {
                 alt=""
               />
 
-              <h1 className="lg:w-[350px] xxl:w-[500px]">
+              <h1 className="lg:w-[350px] xxl:w-[500px] some-element">
               Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
               </h1>
             </div>

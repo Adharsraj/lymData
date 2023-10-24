@@ -253,7 +253,7 @@ const Contact = () => {
     <div className="bg-[#F4F4F4]">
       <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
         <div className=" md:px-20">
-          <div className="relative flex flex-col justify-center items-center h-screen xl:mt-[-40px] ">
+          <div className="relative flex flex-col justify-center items-center h-screen xl:mt-[-40px] font-aeonic">
             <span className=" text-gray-300 opacity-50 font-extrabold absolute xl:text-[700px] xl:ml-48  md:text-[400px] text-[200px]  overflow-hidden  ">
               Hello
             </span>
@@ -367,7 +367,7 @@ const Contact = () => {
           </div>
 
           <div id="form" className="flex justify-center items-center h-screen">
-            <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 lg:mb-14 rounded ">
+            <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 lg:mb-14 rounded some-element">
               <h2 className="text-4xl font-bold md:mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]">
                 {" "}
                 How can we <br /> help
@@ -566,7 +566,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className=" hidden md:flex  h-screen relative overflow-hidden">
+      <div className=" hidden md:flex  h-screen relative overflow-hidden some-element">
         <img
           className="hidden xl:flex absolute  top-[150px] left-0 transform  scale-150 overflow-hidden   "
           src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
@@ -607,7 +607,7 @@ const Contact = () => {
         <div className="border border-transparent w-1/2 flex flex-col gap-10 justify-center items-center text-left  ">
           <div className="border border-transparent w-full pl-10 text-[22px]"></div>
           <div className="  w-full pl-10 text-[18px]">
-            <h1 className="  w-1/2 p-2 font-times font-light ">
+            <h1 className="  w-1/2 p-2 font-light ">
               4th floor <br />
               Dotspace Business Center <br />
               Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
@@ -618,7 +618,7 @@ const Contact = () => {
         <div className=" mt-[-160px] ">
           <h1
             style={verticalTextStyle}
-            className="absolute  h-[97%] uppercase font-times text-sm"
+            className="absolute  h-[97%] uppercase text-sm"
           >
             Ernakulam,kerala
           </h1>
@@ -628,7 +628,7 @@ const Contact = () => {
           />
         </div>
       </div>
-      <div className="md:hidden flex pt-3  flex-col ">
+      <div className="md:hidden flex pt-3  flex-col some-element">
         <h1 className="flex  text-4xl mb-8 px-6 font-bold  ">
           Our <br /> locations
         </h1>
@@ -669,7 +669,7 @@ const Contact = () => {
         </div>
 
         <div className=" w-full px-6 mt-8 ">
-          <h1 className="  p-2 font- font-light text-[18px]">
+          <h1 className="  p-2 font-light text-[18px]">
             4th floor <br />
             Dotspace Business Center <br />
             Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}

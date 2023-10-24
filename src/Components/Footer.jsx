@@ -14,7 +14,7 @@ const Footer= () => {
   return (
     <div className="max-w-[1640px] mx-auto bg-black text-white md:p-3 md:pt-7">
       <div className="md:hidden   md:items-center" >
-        <div className="px-7 pt-7">
+        <div className="px-7 pt-7 some-element">
       <h1 className="font-semibold text-[32px]">
         Get started now!
       </h1>
@@ -25,7 +25,7 @@ I t takes less than a minute of your time.
         </div>
 
       <div className='h-10 w-[300px]  mx-auto text-center flex justify-center items-center  pt-10 pb-14'>
-  <button className="bg-blue-600 flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap">
+  <button className="bg-blue-600 flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-element">
   Request a quote
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
@@ -40,17 +40,17 @@ I t takes less than a minute of your time.
 </div>
       </div>
       <div className="hidden md:flex justify-between px-24"> 
-      <div className="">
+      <div className="some-element">
       <h1 className="md:text-[50px]">
         Get started now!
       </h1>
       <h1 className="md:text-[20px]">
-It takes less than a minuteof your time.
+It takes less than a minute of your time.
       </h1>
 
         </div>
         <div className=''>
-  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap">
+  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-element">
     Request a quote
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
@@ -65,7 +65,7 @@ It takes less than a minuteof your time.
 </div>
       </div>
      
-      <div className="grid grid-cols-2 md:grid-cols-3 px-10 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 px-10 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5 some-element">
         <div className="lg:px-10">
           <ul className="md:py-10 text-bold md:text-[24px] py-5 text-[20px]">Company</ul>
           <li className="">About</li>
@@ -125,7 +125,7 @@ It takes less than a minuteof your time.
 
       </div>
       </div>
-      <div  className="lg:hidden" >
+      <div  className="lg:hidden some-element" >
     <h1 className="text-[20px] pt-7 px-5">Connect</h1>
     <div className="flex flex-col gap-0 ">
 <div className="grid grid-cols-2 px-5 pt-3">
@@ -201,7 +201,7 @@ It takes less than a minuteof your time.
     
       </div>
       
-<div className="lg:hidden pt-10">
+<div className="lg:hidden pt-10 some-element">
     <div className=" text-center">
     Privacy Policy|Terms & Conditions
     </div>
@@ -210,7 +210,7 @@ It takes less than a minuteof your time.
     </div>
 
 </div>
-<div className="hidden lg:flex justify-around lg:pt-10">
+<div className="hidden lg:flex justify-around lg:pt-10 some-element">
   <h1>WAC © 2023 All rights reserved</h1>
   <h1>Privacy Policy|Terms & Conditions</h1>
   <div className="flex lg:gap-3">

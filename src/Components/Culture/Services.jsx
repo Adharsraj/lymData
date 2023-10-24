@@ -7,7 +7,7 @@ const Services = () => {
       <div className="max-w-[1640px]   mx-auto p-4 font-dm  md:text-xl overflow-hidden  ">
         <div className="lg:mt-20">
           <div className="md:hidden">
-            <div className="flex justify-between align-middle items-center">
+            <div className="flex justify-between align-middle items-center some-element">
               <h1>services</h1>
               <img
                 className="hover:animate-spin"
@@ -17,7 +17,7 @@ const Services = () => {
               />
             </div>
 
-            <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16">
+            <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16 some-element">
               <h1>
                 We’re challengers and problem solvers.See what this amazing team
                 is capable of.See what this amazing team is capable of.
@@ -26,7 +26,7 @@ const Services = () => {
           </div>
           <Link to="/services">
             <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[240px] xl:w-[560px] md:mx-auto md:w-[600px">
-              <h1 className="p-2 md:mt-10 text-white rounded-full w-[230px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+              <h1 className="p-2 md:mt-10 text-white rounded-full w-[230px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
                 Lets build together
               </h1>
               <h1 className="p-2 md:mt-10 flex items-center rounded-full w-[50px] bg-[#282728]">
@@ -37,8 +37,8 @@ const Services = () => {
 
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-16 lg:px-5  align-middle items-center">
-              <h1 className="text-sm">services</h1>
-              <h1 className="text-[38px] xl:text-[42px] hidden w-[600px]  leading-10">
+              <h1 className="text-sm some-element">services</h1>
+              <h1 className="text-[38px] xl:text-[42px] hidden w-[600px]  leading-10 some-element">
                 We're challengers at heart and <br />
                 builders by nature.
               </h1>
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
 
             <div className="text-[42px] lg:mt-[-40px] lg:text-[3px]  w-[600px] xl:text-[42px] xxl:w-[820px]  mx-auto text-left    leading-10   text-[#000]    mb-16">
-              <h1 className="lg:text-4xl  lg:w-[670px] z-10 xxl:w-[940px] xxl:text-5xl">
+              <h1 className="lg:text-4xl  lg:w-[670px] z-10 xxl:w-[940px] xxl:text-5xl some-element">
                 We’re challengers and problem solvers.
                 <br />
                 See what this amazing team is capable of.
@@ -59,7 +59,7 @@ const Services = () => {
             </div>
             <Link to="/services">
               <div className="flex group hover:cursor-pointer gap-4 w-[600px] xxl:w-[830px]  mx-auto lg:mb-40">
-                <h1 className="p-2  flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                <h1 className="p-2  flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
                   Lets build together
                 </h1>
                 <h1 className="p-2  flex items-center rounded-full w-[40px] bg-[#282728] ">

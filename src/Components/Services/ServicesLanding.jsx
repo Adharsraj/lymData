@@ -88,7 +88,7 @@ const ServicesLanding = () => {
       {/* services */}
       <div id="services" className="bg-[#282728] overflow-hidden">
         <div className="max-w-[1640px]  mx-auto p-4 font-dm  md:text-xl mb-10 lg:mb-28 bg-[#282728] overflow-hidden ">
-          <div className="mt-32  lg:mt-52 xl:mt-60 text-white text-5xl lg:text-6xl xl:w-full  xl:text-8xl  lg:mx-auto lg:w-[900px]">
+          <div className="mt-32  lg:mt-52 xl:mt-60 text-white text-5xl lg:text-6xl xl:w-full  xl:text-8xl  lg:mx-auto lg:w-[900px] font-aeonic">
             <h1>
               services
               <span className="text-[#7b7b7b]  ">
@@ -122,7 +122,7 @@ const ServicesLanding = () => {
              
             </div>
 
-            <div className="md:mt-48">
+            <div className="md:mt-48 some-element">
               <div>
                 <h1 className="text-3xl font-semibold mt-10 mb-10">
                   Product Discovery <br />
@@ -228,7 +228,7 @@ const ServicesLanding = () => {
               </div>
             </div>
 
-            <div className="">
+            <div className="some-element">
               <div>
                 <h1 className="text-3xl font-semibold mt-10 mb-10">
                   Technology <br />
@@ -419,7 +419,7 @@ const ServicesLanding = () => {
         >
           <div className="lg:mt-20">
             <div className="md:hidden">
-              <div className="flex justify-between align-middle items-center">
+              <div className="flex justify-between align-middle items-center some-element">
                 <h1>approach</h1>
                 <img
                   className="hover:animate-spin"
@@ -429,14 +429,14 @@ const ServicesLanding = () => {
                 />
               </div>
 
-              <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left font-helvetica leading-10  text-[#7b7b7b]  mt-10  mb-16">
+              <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left leading-10  text-[#7b7b7b]  mt-10  mb-16 some-element">
                 <h1>
                 Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
 
                 <Link to="/contact">
                   <div className="flex group hover:cursor-pointer gap-4 w-[300px] xl:w-[560px] mx-auto">
-                    <h1 className="p-2 mt-10 flex justify-center text-base rounded-full w-[200px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                    <h1 className="p-2 mt-10 flex justify-center text-base rounded-full w-[200px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
                       Dive into contact
                     </h1>
                     <h1 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">
@@ -449,8 +449,8 @@ const ServicesLanding = () => {
 
             <div className="hidden md:block mt-20 relative overflow-hidden">
               <div className="flex justify-between xl:px-16 lg:px-5  align-middle items-center">
-                <h1 className="text-sm">approach</h1>
-                <h1 className="text-[38px] xl:text-[42px] hidden w-[600px] leading-10">
+                <h1 className="text-sm some-element">approach</h1>
+                <h1 className="text-[38px] xl:text-[42px] hidden w-[600px] leading-10 some-element">
                   We're challengers at heart and <br />
                   builders by nature.
                 </h1>
@@ -463,13 +463,13 @@ const ServicesLanding = () => {
               </div>
 
               <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#7b7b7b]   mb-16">
-                <h1 className="lg:text-4xl  lg:leading-[44px]  font-helvetica some-element text-[#7b7b7b]  lg:w-[690px] ">
+                <h1 className="lg:text-4xl  lg:leading-[44px] some-element text-[#7b7b7b]  lg:w-[690px] some-element">
                 Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
                 </h1>
               </div>
               <Link to="/contact">
                 <div className="flex group hover:cursor-pointer gap-4 w-[600px] xl:w-[560px] mx-auto">
-                  <h1 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  <h1 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
                     Dive into contact
                   </h1>
                   <h1 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">

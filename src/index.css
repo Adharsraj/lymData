@@ -975,7 +975,7 @@ span.two {
 
 .outcomes_cont_textCont h2 {
     color: #fff;
-    font-family: Sohne;
+    font-family: "Helvetica Now Display", sans-serif;
     font-size: 110px;
     font-weight: 500;
     line-height: 100%;
@@ -1090,7 +1090,7 @@ span.two {
 
 .textSliderContainer_slider_slide_colLeft_crossedText .crossText {
     color: white;
-    font-family: Sohne;
+    font-family: "Helvetica Now Display", sans-serif;
     font-size: 100px;
     font-weight: 500;
     line-height: 90px;
@@ -1151,7 +1151,7 @@ span.two {
   background-clip: text;
   -webkit-background-clip: text; /* For older versions of Webkit browsers */
   color: transparent;
-    font-family: Sohne;
+    font-family: "Helvetica Now Display", sans-serif;
     font-size: 100px;
     font-weight: 500;
     line-height: 90px;
@@ -1200,7 +1200,7 @@ span.two {
 
 .textSliderContainer_slider_slide_colRight_textCont_text {
     color: white;
-    font-family: Sohne;
+    font-family: "Helvetica Now Display", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px
@@ -1231,7 +1231,7 @@ span.two {
 
 .textSliderContainer_slider_slide_colRight_list li {
     color: white;
-    font-family: Sohne;
+    font-family: "Helvetica Now Display", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 60px

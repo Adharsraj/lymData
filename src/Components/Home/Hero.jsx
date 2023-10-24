@@ -139,7 +139,7 @@ const Hero = ({ showImage }) => {
 
   return (
     <>
-      <div className=" bg-black text-white">
+      <div className=" bg-black text-white relative">
         <div className="max-w-[1640px] mx-auto overflow-hidden">
           <div className="">
             <div className=" ">
@@ -200,7 +200,7 @@ const Hero = ({ showImage }) => {
             </div>
             <div
               
-              className="pb-10"
+              className="absolte top-50% left-0% border"
             >
               <img
             onClick={handleClicktohowethink}

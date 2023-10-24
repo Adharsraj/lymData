@@ -432,7 +432,7 @@ const DataSlide1 = (props) => {
         onChange={(inView) => handleViewPortVisibility(inView)}
       >
         <div
-          className="textSliderContainer"
+          className="textSliderContainer some-element"
           onClick={switchSlide}
           {...handlers}
           ref={refPassthrough}
@@ -441,7 +441,7 @@ const DataSlide1 = (props) => {
           onMouseEnter={(e) => !isMobile && showButton(e)}
         >
           <ContentWrapper>
-            <div className="textSliderContainer_slider">
+            <div className="textSliderContainer_slider some-element">
               {" "}
               {slides.map((slide, index) => {
                 return (
