@@ -10,7 +10,7 @@ const Insights = () => {
         <div className="flex lg:flex-col    gap-2 ">
           <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-black h-20">
             <img src={img} alt="img"/>
-            <div className='hidden flex justify-between items-center md:px-2 md:pt-1'>
+            <div className='hidden lg:flex justify-between items-center md:px-2 md:pt-1'>
                 <h2 className='lg:text-[14px] lg:font-bold text-white'>Blog . <span className='font-light'>11 min read</span></h2>
                 <h2 className='lg:text-[14px] text-white'>October 04 2023</h2>
             </div>
@@ -23,7 +23,7 @@ const Insights = () => {
         <div className="flex lg:flex-col     gap-2 ">
         <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-black h-20">
             <img src={img} alt="img"/>
-            <div className='hidden flex justify-between items-center md:px-2 md:pt-1'>
+            <div className='hidden lg:flex justify-between items-center md:px-2 md:pt-1'>
                 <h2 className='lg:text-[14px] lg:font-bold text-white'>Blog . <span className='font-light'>11 min read</span></h2>
                 <h2 className='lg:text-[14px] text-white'>October 04 2023</h2>
             </div>
@@ -36,7 +36,7 @@ const Insights = () => {
         <div className="flex lg:flex-col   gap-2 ">
         <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-black h-20">
             <img src={img} alt="img"/>
-            <div className='hidden flex justify-between items-center md:px-2 md:pt-1'>
+            <div className='hidden lg:flex justify-between items-center md:px-2 md:pt-1'>
                 <h2 className='lg:text-[14px] lg:font-bold text-white'>Blog . <span className='font-light'>11 min read</span></h2>
                 <h2 className='lg:text-[14px] text-white'>October 04 2023</h2>
             </div>
