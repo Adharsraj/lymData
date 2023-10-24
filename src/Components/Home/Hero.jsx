@@ -200,7 +200,7 @@ const Hero = ({ showImage }) => {
             </div>
             <div
               
-              className="absolte top-50% left-0% border"
+              className="absolte top-50% left-0% mt-[-8vh]"
             >
               <img
             onClick={handleClicktohowethink}
