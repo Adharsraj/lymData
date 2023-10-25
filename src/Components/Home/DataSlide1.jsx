@@ -26,7 +26,7 @@ const slides = [
     ],
   },
   {
-    crossText: ["Instead of", "designing", "screens", "without", "purpose."],
+    crossText: ["Instead of", "designing", "without", "purpose."],
     mainText: ["Mindfully", "structured", "design", "systems."],
     leftText: {
       part1: "Our approach",

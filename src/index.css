@@ -1182,7 +1182,8 @@ span.two {
 
 @media(max-width:600px) {
     .textSliderContainer_slider_slide_colRight {
-        margin-top: 86px
+        margin-top: 86px;
+        padding-bottom: 250px;
     }
 }
 
@@ -1240,7 +1241,8 @@ span.two {
 @media(max-width:600px) {
     .textSliderContainer_slider_slide_colRight_list li {
         font-size: 16px;
-        line-height: 40px
+        padding-top: 70px;
+        line-height: 0px
     }
 }
 

@@ -608,10 +608,10 @@ const Contact = () => {
           <div className="border border-transparent w-full pl-10 text-[22px]"></div>
           <div className="  w-full pl-10 text-[18px]">
             <h1 className="  w-1/2 p-2 font-light ">
-              4th floor <br />
-              Dotspace Business Center <br />
-              Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
-              <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
+              Smart Business Center  <br />
+              First floor, Thapasya Building  <br />
+              Thapasya Rd, InfoPark Campus  <br /> Infopark, Kochi{" "}
+              <br /> Kerala, India <br /> 682030
             </h1>
           </div>
         </div>
@@ -670,10 +670,10 @@ const Contact = () => {
 
         <div className=" w-full px-6 mt-8 ">
           <h1 className="  p-2 font-light text-[18px]">
-            4th floor <br />
-            Dotspace Business Center <br />
-            Total Tower Near Devankulangara <br /> Behind Changapuzha Park{" "}
-            <br /> Elamakara, Edappally, Kochi, Kerala <br /> 682024
+          Smart Business Center <br />
+          First floor, Thapasya Building <br />
+          Thapasya Rd, InfoPark Campus  <br /> Infopark, Kochi{" "}
+            <br /> Kerala, India <br /> 682030
           </h1>
         </div>
       </div>
