@@ -1188,7 +1188,7 @@ span.two {
 
 .textSliderContainer_slider_slide_colRight_textCont {
     margin-top: 7px;
-    max-width: 412px
+    max-width: 612px
 }
 
 @media(max-width:600px) {
@@ -1234,7 +1234,7 @@ span.two {
     font-family: "Helvetica Now Display", sans-serif;
     font-size: 18px;
     font-weight: 500;
-    line-height: 60px
+    line-height: 45px
 }
 
 @media(max-width:600px) {
