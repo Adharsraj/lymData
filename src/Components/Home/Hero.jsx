@@ -198,18 +198,15 @@ const Hero = ({ showImage }) => {
               </section>
 }
             </div>
-            <div
-              
-              className="absolte top-50% left-0% mt-[-8vh]"
-            >
-              <img
-            onClick={handleClicktohowethink}
-            className="lg:ml-10 w-14 h-14 rounded-full bg-gray-400 cursor-pointer animate-bounce"
-            src={img}
-            alt=""
-          />
-              
-            </div>
+            <div className="absolute left-0 bottom-0">
+  <img
+    onClick={handleClicktohowethink}
+    className="w-14 h-14 ml-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
+    src={img}
+    alt=""
+  />
+</div>
+
           </div>
         </div>
       </div>
