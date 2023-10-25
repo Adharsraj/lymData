@@ -58,7 +58,7 @@ const HowweThinkdhn = () => {
               </h1>
             </div>
 
-            <div className="flex      gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
+            <div className="flex  gap-4 w-[600px] lg:ml-10 xl:mx-auto  xl:w-[700px] mx-auto lg:mb-7">
               <Link to="/about">
                 <div className="flex  group  gap-2 ">
                   <h1 className="p-2 flex border  items-center justify-center mt-7 rounded-full w-[220px] bg-black text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">

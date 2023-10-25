@@ -578,10 +578,10 @@ const DataSlide1 = (props) => {
             {lines}{" "}
           </div>{" "}
           <div className="textSliderContainer_sliderButton" ref={sliderButton}>
-            <img
+            {/* <img
               src={arrowDirection == "RIGHT" ? rightArrow : leftArrow}
               alt={"icon of arrow shape directing to right"}
-            />{" "}
+            />{" "} */}
           </div>{" "}
         </div>{" "}
       </InView>{" "}
