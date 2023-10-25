@@ -98,18 +98,18 @@ It takes less than a minute of your time.
     <div className="flex flex-col gap-1">
 <div className="grid grid-cols-2">
     <h1>Email</h1>
-    <h1>:info@webandcrafts.com</h1>
+    <h1>:  info@lymdata.com</h1>
     <h1 className="md:pt-1">General Enquiry</h1>
-    <h1 className="md:pt-1">:+91 480 2733 111</h1>
+    <h1 className="md:pt-1">:  +91 9446 054 134</h1>
 
     <h1 className="md:pt-1">Sales Enquiry</h1>
-    <h1 className="md:pt-1">:+91 480 2733 555</h1>
+    <h1 className="md:pt-1">:  +91 9446 054 134</h1>
 
     <h1 className="md:pt-1">HR Enquiry</h1>
-    <h1 className="md:pt-1">:+91 480 2733 999</h1>
+    <h1 className="md:pt-1">:  +91 7034 588 388</h1>
 
-    <h1 className="md:pt-1">Whatsapp</h1>
-    <h1 className="md:pt-1">:+91 8606 483 399</h1>
+    {/* <h1 className="md:pt-1">Whatsapp</h1>
+    <h1 className="md:pt-1">:+91 8606 483 399</h1> */}
 
 
 
@@ -130,18 +130,18 @@ It takes less than a minute of your time.
     <div className="flex flex-col gap-0 ">
 <div className="grid grid-cols-2 px-5 pt-3">
 <h1>Email</h1>
-    <h1>:info@weband.com</h1>
+    <h1>:info@lymdata.com</h1>
     <h1 className="pt-1">General Enquiry</h1>
-    <h1 className="pt-1">:+91 480 2733 111</h1>
+    <h1 className="pt-1">: +91 9446 054 134</h1>
 
     <h1 className="pt-1">Sales Enquiry</h1>
-    <h1 className="pt-1">:+91 480 2733 555</h1>
+    <h1 className="pt-1">: +91 9446 054 134</h1>
 
     <h1 className="pt-1">HR Enquiry</h1>
-    <h1 className="pt-1">:+91 480 2733 999</h1>
+    <h1 className="pt-1">: +91 7034 588 388</h1>
 
-    <h1 className="pt-1">Whatsapp</h1>
-    <h1 className="pt-1">:+91 8606 483 399</h1>
+    {/* <h1 className="pt-1">Whatsapp</h1>
+    <h1 className="pt-1">:+91 8606 483 399</h1> */}
 
 </div>
 <div className="flex lg:gap-3 pt-14 gap-5 px-5">
@@ -206,12 +206,12 @@ It takes less than a minute of your time.
     Privacy Policy|Terms & Conditions
     </div>
     <div className="w-[300px] mx-auto text-center pt-5 pb-5">
-    WAC © 2023 All rights reserved
+    LYMDATA © 2023 All rights reserved
     </div>
 
 </div>
 <div className="hidden lg:flex justify-around lg:pt-10 some-element">
-  <h1>WAC © 2023 All rights reserved</h1>
+  <h1>LYMDATA © 2023 All rights reserved</h1>
   <h1>Privacy Policy|Terms & Conditions</h1>
   <div className="flex lg:gap-3">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>

@@ -10,7 +10,7 @@ import { useSwipeable } from "react-swipeable";
 
 const slides = [
   {
-    crossText: ["Instead of", "abstract", "plans and", "promises."],
+    crossText: ["Instead of", "presenting", "dull design", "proposals."],
     mainText: ["Great", "minimum", "viable", "products."],
     leftText: {
       part1: "Our company specializes",
@@ -26,7 +26,7 @@ const slides = [
     ],
   },
   {
-    crossText: ["Instead of", "aimlessly", "designed", "screens."],
+    crossText: ["Instead of", "designing", "screens", "without", "purpose."],
     mainText: ["Mindfully", "structured", "design", "systems."],
     leftText: {
       part1: "Our approach",
@@ -42,7 +42,7 @@ const slides = [
     ],
   },
   {
-    crossText: ["Instead of", "boring", "design", "pitches."],
+    crossText: ["Instead of", "haphazardly", "designed", "screens."],
     mainText: ["Beautiful", "interactive", "design", "prototypes."],
     leftText: {
       part1: "Our clickable",

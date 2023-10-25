@@ -239,9 +239,6 @@ const ServicesLanding = () => {
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
                     Web Development
-                    <h2 className="py-3">
-                    Our team specializes in designing web experiences that prioritize the needs of users and drive business success.
-                    </h2>  
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4 ">
                     Front End Interface Development
@@ -251,9 +248,6 @@ const ServicesLanding = () => {
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
                     Mobile App Development
-                    <h2 className="py-3">
-                  We have a proven track record of creating highly popular and widely used apps. By combining data insights with the principles of behavioural science.  
-                  </h2>
                   </h2>
                   
                   <h2 className="border-b border-b-[#464546] py-4">
