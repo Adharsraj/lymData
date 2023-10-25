@@ -49,8 +49,8 @@ It takes less than a minute of your time.
       </h1>
 
         </div>
-        <div className=''>
-  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-element">
+        <div className='pt-9'>
+  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-">
     Request a quote
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
@@ -75,14 +75,14 @@ It takes less than a minute of your time.
           <li className="md:pt-1 pt-1">Careers</li>
           <li className="md:pt-1 pt-1">Contact</li>
         </div>
-        <div>
+        {/* <div>
           <ul className="md:py-10 md:text-bold md:text-[24px] py-5 text-[20px]">Services</ul>
           <li className="">Branding</li>
           <li className="md:pt-1 pt-1">Experience Design</li>
           <li className="md:pt-1 pt-1">Technology</li>
           <li className="md:pt-1 pt-1">Digital Marketing</li>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <ul className="md:py-10 md:text-bold md:text-[24px] py-5 text-[20px]">Other</ul>
           <li className="">Partnership</li>
           <li className="md:pt-1 pt-1 whitespace-nowrap">Awards and Recognitions</li>
@@ -92,7 +92,7 @@ It takes less than a minute of your time.
           <li className="md:pt-1 pt-1">Testimonials</li>
           <li className="md:pt-1 pt-1">Our Clients</li>
           <li className="md:pt-1 pt-1 whitespace-nowrap">Submit feedback to our CEO</li>
-        </div>
+        </div> */}
         <div  className="hidden lg:block">
     <h1 className="md:py-10 md:text-bold md:text-[24px]">Connect</h1>
     <div className="flex flex-col gap-1">
@@ -211,8 +211,8 @@ It takes less than a minute of your time.
 
 </div>
 <div className="hidden lg:flex justify-around lg:pt-10 some-element">
-  <h1>LYMDATA © 2023 All rights reserved</h1>
-  <h1>Privacy Policy|Terms & Conditions</h1>
+  <h1 className="font-light">LYMDATA © 2023 All rights reserved</h1>
+  <h1 className="font-light">Privacy Policy | Terms & Conditions</h1>
   <div className="flex lg:gap-3">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
           <ul>
