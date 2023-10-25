@@ -67,8 +67,8 @@ const Within7ForService = () => {
 
   return (
     <div id="withservices" className="max-w-[1840px] mx-auto overflow-hidden border">
-      <div className=" hidden md:block">
-        <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">
+      <div className=" hidden md:block some-element">
+        <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10 ">
           Within these 7 industries
         </h1>
 
@@ -118,7 +118,7 @@ const Within7ForService = () => {
         ))}
       </div>
 
-      <div className="  md:hidden">
+      <div className="  md:hidden some-element">
         <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">
           Within these 7 industries
         </h1>

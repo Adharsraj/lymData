@@ -239,8 +239,11 @@ const ServicesLanding = () => {
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
                     Web Development
+                    <h2 className="py-3">
+                    Our team specializes in designing web experiences that prioritize the needs of users and drive business success.
+                    </h2>  
                   </h2>
-                  <h2 className="border-b border-b-[#464546] py-4">
+                  <h2 className="border-b border-b-[#464546] py-4 ">
                     Front End Interface Development
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
@@ -248,7 +251,11 @@ const ServicesLanding = () => {
                   </h2>
                   <h2 className="border-b border-b-[#464546] py-4">
                     Mobile App Development
+                    <h2 className="py-3">
+                  We have a proven track record of creating highly popular and widely used apps. By combining data insights with the principles of behavioural science.  
                   </h2>
+                  </h2>
+                  
                   <h2 className="border-b border-b-[#464546] py-4">
                     API & CMS Development
                   </h2>
@@ -415,7 +422,7 @@ const ServicesLanding = () => {
       <>
         <div
           id="approach"
-          className="max-w-[1640px]   mx-auto p-4  md:text-xl  "
+          className="max-w-[1640px]   mx-auto p-4  md:text-xl min-h-screen "
         >
           <div className="lg:mt-20">
             <div className="md:hidden">
@@ -496,7 +503,7 @@ const ServicesLanding = () => {
           >
             <div className="relative md:mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
               <div className="xl:mt-[-150px] md:mt-[-130px]    mb-20">
-                <div className="relative overflow-hidden md:h-[400px] h-[400px] lg:h-[500px] mb-10 ">
+                <div className="relative overflow-hidden md:h-[400px] h-[400px] lg:h-[500px] mb-10 some-element">
                   <img
                     // style={imageStyle}
                     className="mt-80 hidden md:flex "
@@ -547,7 +554,7 @@ const ServicesLanding = () => {
         >
           <div className="relative mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
             <div className="xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20">
-              <div className="relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 ">
+              <div className="relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 some-element">
                 <img
                   // style={imageStyle}
                   className="mt-80"

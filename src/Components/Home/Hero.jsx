@@ -2,16 +2,12 @@ import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import giphy from "../../assets/gif/giphy.webp";
 import img from '../../assets/Images/ardwn.png'
+import LocomotiveScroll from 'locomotive-scroll';
 
 const Hero = ({ showImage }) => {
-  const handleClicktohowethink = () => {
-    const component2Element = document.getElementById("howethink");
-    if (component2Element) {
-      window.scrollTo({
-        top: component2Element.offsetTop,
-        behavior: "smooth",
-      });
-    }
+  const scrollToTarget = () => {
+    const target =  document.querySelector('#howethink');
+    scroll.current.scrollTo(target);
   };
 
   useEffect(() => {
@@ -200,7 +196,7 @@ const Hero = ({ showImage }) => {
             </div>
             <div className="absolute left-0 bottom-0">
   <img
-    onClick={handleClicktohowethink}
+    onClick={scrollToTarget}
     className="w-14 h-14 ml-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
     src={img}
     alt=""
