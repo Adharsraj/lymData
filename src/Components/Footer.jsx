@@ -25,7 +25,7 @@ I t takes less than a minute of your time.
         </div>
 
       <div className='h-10 w-[300px]  mx-auto text-center flex justify-center items-center  pt-10 pb-14'>
-  <button className="bg-blue-600 flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-element">
+  <button className="bg-blue-600 flex text-white w-[180px] p-3 gap-4 whitespace-nowrap some-element">
   Request a quote
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>

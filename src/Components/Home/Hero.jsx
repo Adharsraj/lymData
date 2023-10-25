@@ -194,14 +194,14 @@ const Hero = ({ showImage }) => {
               </section>
 }
             </div>
-            <div className="absolute left-0 bottom-0">
+            {/* <div className="absolute left-0 bottom-0">
   <img
     onClick={scrollToTarget}
     className="w-14 h-14 ml-10 rounded-full bg-gray-400 cursor-pointer animate-bounce"
     src={img}
     alt=""
   />
-</div>
+</div> */}
 
           </div>
         </div>

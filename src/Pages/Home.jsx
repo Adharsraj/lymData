@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../Components/Footer";
 import Hero from "../Components/Home/Hero";
-import HowweThinkdhn from "../Components/Home/HowweThink";
+import HowweThinkdhn from "../Components/Home/HowWeThink";
 import IndustriesWeknowdhn from "../Components/Home/IndustriesWeknow";
 import ProcessDrivendhn from "../Components/Home/ProcessDriven";
 import ProcessDrivenFive from "../Components/Home/ProcessDrivenFive";
@@ -31,10 +31,10 @@ const Home = () => {
         {/* <ProcessDrivendhn /> */}
         {/* <ProcessDrivenFive /> */}
         {/* <IndustriesWeknowdhn /> */}
-        <Marque />
         <Services />
         <Insights />
         {/* <Within7Industriesdhn /> */}
+        <Marque />
         <Footer />  
     </>
   );

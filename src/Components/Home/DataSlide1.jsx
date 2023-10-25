@@ -11,56 +11,50 @@ import { useSwipeable } from "react-swipeable";
 const slides = [
   {
     crossText: ["Instead of", "abstract", "plans and", "promises."],
-    mainText: ["Awesome", "minimum", "viable", "products."],
+    mainText: ["Great", "minimum", "viable", "products."],
     leftText: {
-      part1: "We build awesome",
-      highlited: "minimum viable products",
+      part1: "Our company specializes",
+      highlited: "in creating exceptional",
       part2:
-        "that can be presented to investors, shared with partners, tested with real customers and become the proof of concept for your fully functional product buildout.",
+        "minimum viable products that can be showcased to potential investors, distributed to partners, tested with genuine customers, and serve as a concrete demonstration of the concept for your fully functional product development.",
     },
     textItems: [
-      "Winning Stakeholder.",
-      "Testing Business Concepts.",
+      "Testing Business Concepts. ",
       "Verifying Market Demand.",
       "Developing a Monetization Strategy.",
       "Cost-Efficiency.",
-      "Etc.",
     ],
   },
   {
     crossText: ["Instead of", "aimlessly", "designed", "screens."],
     mainText: ["Mindfully", "structured", "design", "systems."],
     leftText: {
-      part1: "We create",
-      highlited: "design systems",
+      part1: "Our approach",
+      highlited: "involves developing",
       part2:
-        "using custom premade UI components so teams can continue to use the same elements over and over, reducing the need to reinvent the wheel and thus risking inconsistency.",
+        "design systems that utilize custom premade UI components. This enables teams to consistently utilize the same elements, reducing the need to reinvent the wheel and avoiding inconsistencies.",
     },
     textItems: [
       "Scalability",
       "Maintainability",
       "Productivity",
       "Consistency",
-      "Improved code and design quality",
-      "Etc.",
     ],
   },
   {
     crossText: ["Instead of", "boring", "design", "pitches."],
-    mainText: ["Lovely", "clickable", "design", "prototypes."],
+    mainText: ["Beautiful", "interactive", "design", "prototypes."],
     leftText: {
-      part1: "We deliver",
-      highlited: "clickable design prototypes",
+      part1: "Our clickable",
+      highlited: "design prototypes enable",
       part2:
-        "so you can move quickly, test your ideas, answer critical questions and create a solid foundation for your product before you go full-speed into a costly implementation.",
+        "you to swiftly test your ideas, address crucial questions, and establish a strong foundation for your product before embarking on expensive implementation.",
     },
     textItems: [
-      "Early discovery of design problems.",
-      "Estimation of production costs, time and requirements.",
-      "Select the right framework required for production.",
-      "Receive feedback from your customers and end users.",
-      "Test your ideas quickly and identify improvements.",
-      "Etc.",
+      "Estimation of production costs.",
+      "Select the right framework.",
+      "Receive feedback from your users.",
+      "Test your ideas quickly.",
     ],
   },
 ];

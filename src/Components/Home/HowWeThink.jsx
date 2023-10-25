@@ -20,11 +20,9 @@ const HowweThinkdhn = () => {
               <h1>We're challengers at heart and</h1>
               <h1>builders by nature.</h1>
             </div>
-            <div className="text-[25px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-4">
+            <div className="text-[20px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-4">
               <h1>
-                LYM Data Labs is a collective brain, formed by a diverse group
-                of people who bring years of experience, dedication and
-                commitment to our daily work.
+              At LYM Data Labs, we are constantly learning and evolving. We invest in the latest tools and technologies and encourage our team members to stay up to date with industry trends and best practices. This ensures that we are always delivering the most innovative and effective solutions to our clients.  We take the time to understand their needs and goals and work closely with them to develop customized solutions that meet their specific requirements. We believe in building long-term relationships with our clients, based on trust, transparency, and open communication. 
               </h1>
             </div>
             <Link to="/about">
@@ -42,7 +40,7 @@ const HowweThinkdhn = () => {
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle items-center">
               <h1>How we think</h1>
-              <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element  xl:w-[610px]  lg:w-[600px] leading-10">
+              <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element  xl:w-[700px]  lg:w-[600px] leading-10">
                 We're challengers at heart and <br />
                 builders by nature.
               </h1>
@@ -54,21 +52,19 @@ const HowweThinkdhn = () => {
               />
             </div>
 
-            <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[40px] xl:w-[570px] mx-auto text-left   leading-10  text-[#7b7b7b]  mt-20 mb-16 lg:mb-10">
+            <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[30px] xl:w-[700px] mx-auto text-left   leading-9  text-[#7b7b7b]  mt-16 mb-14 lg:mb-10">
               <h1>
-                LYM Data Labs is a collective brain, formed by a diverse group
-                of people who bring years of experience, dedication and
-                commitment to our daily work
+              At LYM Data Labs, we are constantly learning and evolving. We invest in the latest tools and technologies and encourage our team members to stay up to date with industry trends and best practices. This ensures that we are always delivering the most innovative and effective solutions to our clients.  We take the time to understand their needs and goals and work closely with them to develop customized solutions that meet their specific requirements. 
               </h1>
             </div>
 
             <div className="flex      gap-4 w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
               <Link to="/about">
                 <div className="flex  group  gap-2 ">
-                  <h1 className="p-2 flex border  items-center justify-center mt-10 rounded-full w-[220px] bg-black text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                  <h1 className="p-2 flex border  items-center justify-center mt-7 rounded-full w-[220px] bg-black text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                     Dive into our culture
                   </h1>
-                  <h1 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-black text-white">
+                  <h1 className="p-2 mt-7 flex items-center rounded-full w-[45px] bg-black text-white">
                     <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
                       alt="Arrow Right" />
                   </h1>
