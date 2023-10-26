@@ -71,7 +71,7 @@ const Cultureandmore = () => {
               </h1>
               <img
               src={img1}
-              className="mt-10 ml-[-30px] md:ml-10 "
+              className="mt-10 ml-[-30px] md:ml-10 md:mt-32 md:w-[400px] md:h-[400px]"
               alt=""
               srcset=""
             />  
@@ -82,7 +82,7 @@ const Cultureandmore = () => {
         <div className="md:grid md:mt-20 mt-10 md:grid-cols-2 ">
           <img
             src={img2}
-            className="md:mt-0 md:ml-0 lg:h-[600px] md:w-[300px] lg:w-[630px] ml-20 lg:ml-12"
+            className="md:mt-20 md:ml-10 lg:h-[400px] md:w-[300px] lg:w-[450px] ml-20 lg:ml-12"
             alt=""
             srcset=""
           />
@@ -142,7 +142,7 @@ const Cultureandmore = () => {
           <div>
             <img
               src={img3}
-              className="ml-14 lg:ml-10 md:ml-0 md:mt-30 md:mb-44  mt-10"
+              className="ml-14 lg:ml-52 md:ml-0 md:mt-30 md:mb-44  mt-10 md:w-[400px] md:h-[400px]"
             />
           </div>
         </div>

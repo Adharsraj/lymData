@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: (
-          <Suspense fallback={<SkeltonLoader />}>
+          <Suspense fallback={<Loading />}>
             <Wrapper>
               <Home />
             </Wrapper>
