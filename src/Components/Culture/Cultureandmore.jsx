@@ -2,6 +2,9 @@ import React from "react";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import { useEffect } from "react";
 import gsap from "gsap";
+import img1 from "../../assets/Images/About1.png"
+import img2 from "../../assets/Images/About2.png"
+import img3 from "../../assets/Images/About3.png"
 
 const Cultureandmore = () => {
   const handleClicktofourculture = () => {
@@ -60,36 +63,31 @@ const Cultureandmore = () => {
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle some-element">
               <h1 className="text-sm">Culture @ LYM</h1>
-              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10">
+              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10 mt-20">
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
                 <h1 className="mt-6">
                 The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
                 </h1>
               </h1>
               <img
-                className=" hover:animate-spin invisible"
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
-                alt=""
-                style={{ animationDuration: "3s" }}
-              />
+              src={img1}
+              className="mt-10 ml-[-30px] md:ml-10 "
+              alt=""
+              srcset=""
+            />  
             </div>
           </div>
         </div>
 
         <div className="md:grid md:mt-20 mt-10 md:grid-cols-2 ">
           <img
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1693569038/LYMDATALABS/Pages/Culture/nrd-c3tNiAb098I-unsplash_abn3dy.jpg"
-            className="md:mt-40 md:ml-0 lg:h-[700px] md:w-[300px] lg:w-[400px] ml-20 lg:ml-12"
+            src={img2}
+            className="md:mt-0 md:ml-0 lg:h-[600px] md:w-[300px] lg:w-[650px] ml-20 lg:ml-12"
             alt=""
             srcset=""
           />
           <div className="">
-            <img
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417519/LYMDATALABS/Pages/Culture/asset_5_ierey2_cqluoa.jpg"
-              className="mt-10 ml-[-30px] md:ml-10 "
-              alt=""
-              srcset=""
-            />
+            
             <div className=" md:ml-10 xxl:gap-6 lg:mt-14 lg:flex lg:gap-3 lg:items-center">
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417569/LYMDATALABS/Pages/Culture/asset_33_b9ifoq_asto4x.svg"
@@ -143,8 +141,8 @@ const Cultureandmore = () => {
 
           <div>
             <img
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417702/LYMDATALABS/Pages/Culture/asset_6_rq5v6i_rarnio.jpg"
-              className="ml-14 lg:ml-10 md:ml-0 md:mt-40  mt-10"
+              src={img3}
+              className="ml-14 lg:ml-10 md:ml-0 md:mt-30 md:mb-44  mt-10"
             />
           </div>
         </div>
