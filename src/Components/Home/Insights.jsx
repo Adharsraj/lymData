@@ -61,11 +61,11 @@ const Insights = () => {
   </button>
 </div> */}
 
-<div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[230px]  lg:mb-7 pt-5 items-center justify-center">
-                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-white text-black transition-all transform hover:translate-x-12">
+<div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px]  lg:mb-7 pt-5 items-center justify-center">
+                <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[500px] bg-white text-black font-bold transition-all transform hover:translate-x-14">
                 Explore all insights
                 </h1>
-                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-white text-black">
+                <h1 className="p-3 mt-10 flex items-center rounded-full w-[70px] bg-white text-black">
                   <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
                 </h1>
               </div>

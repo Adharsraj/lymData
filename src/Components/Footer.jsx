@@ -80,14 +80,15 @@ It takes less than a minute of your time.
   </button>
 </div> */}
 
-<div className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7">
-                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
+<div className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[290px]  lg:mb-7">
+                <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[300px] bg-black text-white transition-all border transform hover:translate-x-16">
                 Request a quote
                 </h1>
-                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
+                <h1 className="p-3 mt-10 flex items-center rounded-full w-[60px] bg-black text-white border fill-current">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
         <path
+        className="w-[760px]"
           d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
           data-name="Right"
         />
