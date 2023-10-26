@@ -11,7 +11,7 @@ const Services = () => {
   <div className='grid  p-5  gap-7 md:grid-cols-2 lg:grid-cols-3 lg:px-28'>
 
   {servv.map((m, index) => (
-    <div className='w-full lg:w-[348px]  h-[229px] bg-white border border-gray-400 mx-auto shadow-2xl'>
+    <div className='w-full lg:w-[348px]  h-[229px] bg-white mx-auto shadow-2xl'>
 
   <img src={m.img} className='h-[56px] w-full' alt="" />
   <div className='flex flex-col justify-between h-[160px] lg:px-5 px-3 pt-2 lg:pt-3 some-element'>

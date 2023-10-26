@@ -50,8 +50,8 @@ const Insights = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center pt-20'>
-  <button className="bg-white flex text-gray-800 font-semibold border border-gray-400 w-[210px] p-3 mb-12 gap-4 some-ele">
+      {/* <div className='flex justify-center items-center pt-20'>
+  <button className="bg-white flex text-gray-800 font-semibold border border-gray-400 w-[210px] p-3 mb-12 gap-4 some-ele rounded-full">
     Explore all insights
     <img
       className="w-[16px] pt-1"
@@ -59,7 +59,16 @@ const Insights = () => {
       alt="Arrow Right"
     />
   </button>
-</div>
+</div> */}
+
+<div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[230px]  lg:mb-7 pt-5 items-center justify-center">
+                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-white text-black transition-all transform hover:translate-x-12">
+                Explore all insights
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-white text-black">
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
+                </h1>
+              </div>
 
     </div>
   )

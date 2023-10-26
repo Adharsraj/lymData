@@ -24,7 +24,7 @@ I t takes less than a minute of your time.
 
         </div>
 
-      <div className='h-10 w-[300px]  mx-auto text-center flex justify-center items-center  pt-10 pb-14'>
+      {/* <div className='h-10 w-[300px]  mx-auto text-center flex justify-center items-center  pt-10 pb-14'>
   <button className="bg-blue-600 flex text-white w-[180px] p-3 gap-4 whitespace-nowrap some-ele">
   Request a quote
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
@@ -37,9 +37,25 @@ I t takes less than a minute of your time.
       </g>
     </svg>
   </button>
-</div>
+</div> */}
+
+<div className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
+                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-blue-600 text-white transition-all border transform hover:translate-x-12">
+                Request a quote
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-blue-600 text-white border fill-current">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+      <g transform={`scale(${scale})`}>
+        <path
+          d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
+          data-name="Right"
+        />
+      </g>
+    </svg>
+                </h1>
+              </div>
       </div>
-      <div className="hidden md:flex gap-[550px] px-24"> 
+      <div className="hidden md:flex justify-between gap-[500px] px-24"> 
       <div className="some-ele font-light">
       <h1 className="md:text-[50px]">
         Get started now!
@@ -49,7 +65,7 @@ It takes less than a minute of your time.
       </h1>
 
         </div>
-        <div className='pt-9'>
+        {/* <div className='pt-9'>
   <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-ele font-light">
     Request a quote
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
@@ -62,7 +78,23 @@ It takes less than a minute of your time.
       </g>
     </svg>
   </button>
-</div>
+</div> */}
+
+<div className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7">
+                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
+                Request a quote
+                </h1>
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+      <g transform={`scale(${scale})`}>
+        <path
+          d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
+          data-name="Right"
+        />
+      </g>
+    </svg>
+                </h1>
+              </div>
       </div>
      
       <div className="grid grid-cols-2 md:grid-cols-3 px-10 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5 some-ele font-light">
@@ -76,19 +108,19 @@ It takes less than a minute of your time.
           <li className="md:pt-1 pt-1">Contact</li>
         </div>
         <div>
-          <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Services</ul>
+          <ul className="md:py-10 md:text-[24px] py-5 text-[16px]">Services</ul>
           <li className="">Web Development</li>
-          <li className="md:pt-1 pt-1">Mobile App Development</li>
-          <li className="md:pt-1 pt-1">Performance Marketing</li>
-          <li className="md:pt-1 pt-1">Custom Software Development</li>
-          <li className="md:pt-1 pt-1">Data Engineering</li>
-          <li className="md:pt-1 pt-1">Data Engineering</li>
+          <li className="md:pt-1 pt-1 ">Mobile App Development</li>
+          <li className="md:pt-1 pt-1 ">Performance Marketing</li>
+          <li className="md:pt-1 pt-1 ">Custom Software Development</li>
+          <li className="md:pt-1 pt-1 ">Data Engineering</li>
+          <li className="md:pt-1 pt-1">Metaverse</li>
         </div>
         <div>
           <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Insights</ul>
           <li className="">The Power of Predictive Analytics</li>
           <li className="md:pt-1 pt-1 whitespace-nowrap">Data Privacy in the Digital Age</li>
-          <li className="md:pt-1 pt-1">Data Analytics for E-commerce</li>
+          <li className="md:pt-1 pt-1 whitespace-nowrap">Data Analytics for E-commerce</li>
         </div>
         <div  className="hidden lg:block">
     <h1 className="md:py-10 md:text-[24px]">Connect</h1>
