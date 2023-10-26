@@ -529,6 +529,10 @@ span.two {
   font-weight: 700; /* Use the appropriate font weight for your use case */
 }
 
+.some-ele {
+    font-family: "Helvetica Now Display", sans-serif;
+}
+
 .preloader {
   display: flex;
   justify-content: center;

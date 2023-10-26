@@ -14,8 +14,8 @@ const Footer= () => {
   return (
     <div className="max-w-[1640px] mx-auto bg-black text-white md:p-3 md:pt-7">
       <div className="md:hidden   md:items-center" >
-        <div className="px-7 pt-7 some-element">
-      <h1 className="font-semibold text-[32px]">
+        <div className="px-7 pt-7 some-ele">
+      <h1 className="font-light text-[32px]">
         Get started now!
       </h1>
       <h1 className="">
@@ -25,7 +25,7 @@ I t takes less than a minute of your time.
         </div>
 
       <div className='h-10 w-[300px]  mx-auto text-center flex justify-center items-center  pt-10 pb-14'>
-  <button className="bg-blue-600 flex text-white w-[180px] p-3 gap-4 whitespace-nowrap some-element">
+  <button className="bg-blue-600 flex text-white w-[180px] p-3 gap-4 whitespace-nowrap some-ele">
   Request a quote
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
@@ -39,8 +39,8 @@ I t takes less than a minute of your time.
   </button>
 </div>
       </div>
-      <div className="hidden md:flex justify-between px-24"> 
-      <div className="some-element">
+      <div className="hidden md:flex gap-[550px] px-24"> 
+      <div className="some-ele font-light">
       <h1 className="md:text-[50px]">
         Get started now!
       </h1>
@@ -50,7 +50,7 @@ It takes less than a minute of your time.
 
         </div>
         <div className='pt-9'>
-  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-">
+  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-ele font-light">
     Request a quote
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
@@ -65,9 +65,9 @@ It takes less than a minute of your time.
 </div>
       </div>
      
-      <div className="grid grid-cols-2 md:grid-cols-3 px-10 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5 some-element">
+      <div className="grid grid-cols-2 md:grid-cols-3 px-10 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5 some-ele font-light">
         <div className="lg:px-10">
-          <ul className="md:py-10 text-bold md:text-[24px] py-5 text-[20px]">Company</ul>
+          <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Company</ul>
           <li className="">About</li>
           <li className="md:pt-1 pt-1">Services</li>
           <li className="md:pt-1 pt-1">Industries</li>
@@ -75,26 +75,23 @@ It takes less than a minute of your time.
           <li className="md:pt-1 pt-1">Careers</li>
           <li className="md:pt-1 pt-1">Contact</li>
         </div>
-        {/* <div>
-          <ul className="md:py-10 md:text-bold md:text-[24px] py-5 text-[20px]">Services</ul>
-          <li className="">Branding</li>
-          <li className="md:pt-1 pt-1">Experience Design</li>
-          <li className="md:pt-1 pt-1">Technology</li>
-          <li className="md:pt-1 pt-1">Digital Marketing</li>
-        </div> */}
-        {/* <div>
-          <ul className="md:py-10 md:text-bold md:text-[24px] py-5 text-[20px]">Other</ul>
-          <li className="">Partnership</li>
-          <li className="md:pt-1 pt-1 whitespace-nowrap">Awards and Recognitions</li>
-          <li className="md:pt-1 pt-1">Blogs</li>
-          <li className="md:pt-1 pt-1 whitespace-nowrap">Resource Augmentation</li>
-          <li className="md:pt-1 pt-1"></li>
-          <li className="md:pt-1 pt-1">Testimonials</li>
-          <li className="md:pt-1 pt-1">Our Clients</li>
-          <li className="md:pt-1 pt-1 whitespace-nowrap">Submit feedback to our CEO</li>
-        </div> */}
+        <div>
+          <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Services</ul>
+          <li className="">Web Development</li>
+          <li className="md:pt-1 pt-1">Mobile App Development</li>
+          <li className="md:pt-1 pt-1">Performance Marketing</li>
+          <li className="md:pt-1 pt-1">Custom Software Development</li>
+          <li className="md:pt-1 pt-1">Data Engineering</li>
+          <li className="md:pt-1 pt-1">Data Engineering</li>
+        </div>
+        <div>
+          <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Insights</ul>
+          <li className="">The Power of Predictive Analytics</li>
+          <li className="md:pt-1 pt-1 whitespace-nowrap">Data Privacy in the Digital Age</li>
+          <li className="md:pt-1 pt-1">Data Analytics for E-commerce</li>
+        </div>
         <div  className="hidden lg:block">
-    <h1 className="md:py-10 md:text-bold md:text-[24px]">Connect</h1>
+    <h1 className="md:py-10 md:text-[24px]">Connect</h1>
     <div className="flex flex-col gap-1">
 <div className="grid grid-cols-2">
     <h1>Email</h1>
@@ -125,7 +122,7 @@ It takes less than a minute of your time.
 
       </div>
       </div>
-      <div  className="lg:hidden some-element" >
+      <div  className="lg:hidden some-ele" >
     <h1 className="text-[20px] pt-7 px-5">Connect</h1>
     <div className="flex flex-col gap-0 ">
 <div className="grid grid-cols-2 px-5 pt-3">
@@ -201,7 +198,7 @@ It takes less than a minute of your time.
     
       </div>
       
-<div className="lg:hidden pt-10 some-element">
+<div className="lg:hidden pt-10 some-ele">
     <div className=" text-center">
     Privacy Policy|Terms & Conditions
     </div>
@@ -210,7 +207,7 @@ It takes less than a minute of your time.
     </div>
 
 </div>
-<div className="hidden lg:flex justify-around lg:pt-10 some-element">
+<div className="hidden lg:flex justify-around lg:pt-10 some-ele">
   <h1 className="font-light">LYMDATA © 2023 All rights reserved</h1>
   <h1 className="font-light">Privacy Policy | Terms & Conditions</h1>
   <div className="flex lg:gap-3">
