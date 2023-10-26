@@ -1,7 +1,7 @@
 import React from 'react'
 import insight1 from '../../assets/Images/Insights1.png'
 import insight2 from '../../assets/Images/Insights2.png'
-import insight3 from '../../assets/Images/Insights3.webp'
+import insight3 from '../../assets/Images/Insights3.jpg'
 import arrow from '../../assets/Images/right_arrow.png'
 
 const Insights = () => {

@@ -10,42 +10,42 @@ export const servv = [
   {
     id: 1,
     title: "Web Development",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299446/Web_Development_skerke.jpg",
     desc: "Our team specializes in designing web experiences that prioritize the needs of users and drive business success.",
   },
 
   {
     id: 2,
     title: "Mobile App Development",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299412/Mobile_App_Development_nzp0uf.jpg",
     desc: "We have a proven track record of creating highly popular and widely used apps. By combining data insights with the principles of behavioural science.",
   },
 
   {
     id: 3,
     title: "Performance Marketing",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299412/Performance_Marketing_uggdut.jpg",
     desc: "We specialize in data-driven marketing and offer a range of services including SEO, PPC, social media, and email marketing.",
   },
 
   {
     id: 4,
     title: "Custom Software Development",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299432/Custom_Software_Development_w4gjyv.jpg",
     desc: "Our team specializes in developing tailor-made software solutions that align with your unique business needs and objectives.",
   },
 
   {
     id: 5,
     title: "Data Engineering",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299432/Data_Engineering_om8okj.jpg",
     desc: "Our company recognizes the significant impact that data-driven insights can have on businesses. With advanced analytics techniques.",
   },
 
   {
     id: 6,
     title: "Metaverse",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1697699059/Services_pqdhom.png",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299412/Metaverse_ucydif.jpg",
     desc: "Explore the abundant possibilities offered by the captivating world of the Metaverse, the one that you must experience.",
   },
 ];
