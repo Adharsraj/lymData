@@ -63,7 +63,7 @@ const Cultureandmore = () => {
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle some-ele">
               <h1 className="text-sm whitespace-nowrap">Culture @ LYM</h1>
-              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-[30px] leading-10">
+              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-[30px] leading-10 text-[#7b7b7b] font-thin">
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
                 <h1 className="mt-6 text-[#7b7b7b] lg:text-[30px] font-thin">
                 The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
@@ -94,7 +94,7 @@ const Cultureandmore = () => {
                 className="mt-0 mb-0 "
                 alt="gjj"
               />
-              <h1 className="some-ele">
+              <h1 className="some-ele text-[#7b7b7b]">
               The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
               </h1>
             </div>
@@ -105,7 +105,7 @@ const Cultureandmore = () => {
                 alt=""
                 srcset=""
               />
-              <h1 className="some-ele">
+              <h1 className="some-ele text-[#7b7b7b]">
               The collective brain of LYMDATA LABS is comprised of a varied group of individuals who possess extensive experience, unwavering dedication, and a strong commitment to our daily tasks. 
               </h1>
             </div>
@@ -121,7 +121,7 @@ const Cultureandmore = () => {
                 alt=""
               />
 
-              <h1 className="lg:w-[350px] xxl:w-[500px] some-ele">
+              <h1 className="lg:w-[350px] xxl:w-[500px] some-ele text-[#7b7b7b]">
               Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
               </h1>
             </div>
