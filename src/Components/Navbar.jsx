@@ -19,8 +19,8 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
     { path: "/services", label: "Services" },
     { path: "/contact", label: "Contact" },
     { path: "/works", label: "Works" },
-    { path: "/m", label: "Blogs" },
-    { path: "/p", label: "Careers" },
+    { path: "/blog", label: "Blogs" },
+    { path: "/careers", label: "Careers" },
   ];
 
   const menuRef = useRef(null);
@@ -223,7 +223,6 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
                       if (location.pathname !== item.path) {
                         const isDisabled = [
                           "Blogs",
-                          "Careers",
                         ].includes(item.label);
                         return (
                           <li
