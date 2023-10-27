@@ -575,7 +575,7 @@ const Contact = () => {
         <div className="flex flex-col justify-around ">
           <div className="pl-4">
             <h1 className="text-[12px]  absolute    " style={verticalTextStyle}>
-              10.017596° N 76.302559° E{" "}
+            10.010900672433708° N 76.36072005340284° E{" "}
             </h1>
           </div>
 

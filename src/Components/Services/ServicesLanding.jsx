@@ -109,18 +109,18 @@ const ServicesLanding = () => {
             </h1>
           </div>
 
-          <div className="text-white  md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative ">
-            {/* <div 
-              className="inline-block hover:cursor-pointer mt-[-20px] mb-20"
+          <div className="text-white  md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative lg:ml-32">
+            <div 
+              className="inline-block hover:cursor-pointer mt-[-20px] mb-20 "
             >
-            <img
+            {/* <img
             onClick={handleClicktoapproach}
             className="lg:ml-10 w-14 h-14 rounded-full bg-gray-400 cursor-pointer animate-bounce"
             src={img}
             alt=""
-          />
+          /> */}
              
-            </div> */}
+            </div>
 
             <div className="md:mt-48 some-element">
               <div>
