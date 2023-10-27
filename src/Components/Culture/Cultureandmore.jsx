@@ -63,7 +63,7 @@ const Cultureandmore = () => {
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle some-element">
               <h1 className="text-sm whitespace-nowrap">Culture @ LYM</h1>
-              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10 mt-20">
+              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10">
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
                 <h1 className="mt-6">
                 The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
@@ -71,7 +71,7 @@ const Cultureandmore = () => {
               </h1>
               <img
               src={img1}
-              className="mt-10 ml-[-30px] md:ml-10 md:mt-32 md:w-[400px] md:h-[400px]"
+              className="mt-10 ml-[-30px] md:ml-10 md:mt-20 md:w-[400px] md:h-[400px]"
               alt=""
               srcset=""
             />  
@@ -79,26 +79,26 @@ const Cultureandmore = () => {
           </div>
         </div>
 
-        <div className="md:grid md:mt-20 mt-10 md:grid-cols-2 ">
+        <div className="md:grid md:mt-10 mt-10 md:grid-cols-2 ">
           <img
             src={img2}
-            className="md:mt-20 md:ml-10 lg:h-[400px] md:w-[300px] lg:w-[450px] ml-20 lg:ml-12"
+            className="md:mt-0 md:ml-10 lg:h-[350px] md:w-[300px] lg:w-[450px] ml-20 lg:ml-12"
             alt=""
             srcset=""
           />
           <div className="">
             
-            <div className=" md:ml-10 xxl:gap-6 lg:mt-14 lg:flex lg:gap-3 lg:items-center">
+            <div className=" md:ml-10 xxl:gap-6 lg:mt-4 lg:flex lg:gap-3 lg:items-center">
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417569/LYMDATALABS/Pages/Culture/asset_33_b9ifoq_asto4x.svg"
-                className="mt-10 mb-10 "
+                className="mt-0 mb-0 "
                 alt="gjj"
               />
               <h1 className="some-element">
               The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
               </h1>
             </div>
-            <div className="md:ml-10 lg:mt-14 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
+            <div className="md:ml-10 lg:mt-0 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417611/LYMDATALABS/Pages/Culture/asset_34_xw8ije_i7wiln.svg"
                 className="mb-10 mt-10"
@@ -114,7 +114,7 @@ const Cultureandmore = () => {
 
         <div className="grid md:grid-cols-2   ">
           <div>
-            <div className="lg:flex lg:gap-3 xxl:gap-6 lg:ml-10 lg:items-center lg:mt-52">
+            <div className="lg:flex lg:gap-3 xxl:gap-6 lg:ml-10 lg:items-center lg:mt-20">
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417648/LYMDATALABS/Pages/Culture/asset_35_rrxuyo_ptdgpo.svg"
                 className="mb-10 mt-10"
@@ -125,7 +125,7 @@ const Cultureandmore = () => {
               Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
               </h1>
             </div>
-            <div
+            {/* <div
               
               className=" hidden lg:inline-block absolute ml-0  top-[2100px] left-0 px-0 "
             >
@@ -136,13 +136,13 @@ const Cultureandmore = () => {
             alt=""
           />
               
-            </div>
+            </div> */}
           </div>
 
           <div>
             <img
               src={img3}
-              className="ml-14 lg:ml-52 md:ml-0 md:mt-30 md:mb-44  mt-10 md:w-[400px] md:h-[400px]"
+              className="ml-14 lg:ml-52 md:ml-0 md:mt-0 md:mb-44  mt-10 md:w-[350px] md:h-[350px]"
             />
           </div>
         </div>

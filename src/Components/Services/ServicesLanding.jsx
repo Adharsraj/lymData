@@ -110,7 +110,7 @@ const ServicesLanding = () => {
           </div>
 
           <div className="text-white  md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative ">
-            <div 
+            {/* <div 
               className="inline-block hover:cursor-pointer mt-[-20px] mb-20"
             >
             <img
@@ -120,7 +120,7 @@ const ServicesLanding = () => {
             alt=""
           />
              
-            </div>
+            </div> */}
 
             <div className="md:mt-48 some-element">
               <div>

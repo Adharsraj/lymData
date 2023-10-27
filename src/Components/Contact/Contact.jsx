@@ -354,7 +354,7 @@ const Contact = () => {
             </h2>
           </div>
           <div className=" md:flex absolute ">
-            <div      
+            {/* <div      
               className="inline-block hover:cursor-pointer mt-[-85px] mb-20"
             >
               <img
@@ -363,7 +363,7 @@ const Contact = () => {
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
             alt=""
           />
-            </div>
+            </div> */}
           </div>
 
           <div id="form" className="flex justify-center items-center h-screen">
