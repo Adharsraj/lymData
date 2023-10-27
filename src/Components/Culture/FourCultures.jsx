@@ -8,7 +8,7 @@ const FourCultures = () => {
         <h2 className=" invisible mt-40 mb-32">gh</h2>
         <div className="mb-32 md:hidden ">
           {fourCultures.map((m) => (
-            <div id={m.id} className="mb-16 some-element">
+            <div id={m.id} className="mb-16 some-ele">
               <img src={m.img} alt="star1" className="" />
               <h2 className="text-4xl mt-4 mb-4 border-t pt-5">
                 {" "}
@@ -23,7 +23,7 @@ const FourCultures = () => {
           {fourCultures.map((m) => (
             <div
               id={m.id}
-              className="mb-16 flex gap-6 lg:grid lg:grid-cols-3 lg:px-3 xxl:px-24 xxl:mb-28 some-element"
+              className="mb-16 flex gap-6 lg:grid lg:grid-cols-3 lg:px-3 xxl:px-24 xxl:mb-28 some-ele"
             >
               <h2 className="text-2xl  lg:text-3xl xxl:text-4xl  mb-4 mt-[-20px]  border-spacing-3 pt-5 w-64 lg:w-96  ">
                 <span className="border-t  pt-2">

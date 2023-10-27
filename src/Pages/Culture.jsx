@@ -8,7 +8,7 @@ import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 
 const Culture = () => {
-  UseDocumentTitle("LYM DATA | Culture");
+  UseDocumentTitle("LYM DATA | About");
 
   return (
     <>

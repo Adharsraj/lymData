@@ -41,7 +41,7 @@ const Cultureandmore = () => {
       <div className="max-w-[1640px] p-4 overflow-hidden  mx-auto  font-dm  md:text-xl ">
         <div className="lg:mt-20">
           <div className="md:hidden">
-            <div className="flex justify-between align-middle items-center some-element">
+            <div className="flex justify-between align-middle items-center some-ele">
               <h1>Culture @ LYM</h1>
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
@@ -50,22 +50,22 @@ const Cultureandmore = () => {
               />
             </div>
 
-            <div className="text-[25px] leading-10  some-element">
+            <div className="text-[25px] leading-10  some-ele">
               <h1>
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients. 
               </h1>
-              <h1 className="mt-6">
+              <h1 className="mt-6 text-[#7b7b7b]">
               The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
               </h1>
             </div>
           </div>
 
           <div className="hidden md:block mt-20 relative">
-            <div className="flex justify-between xl:px-5  align-middle some-element">
+            <div className="flex justify-between xl:px-5  align-middle some-ele">
               <h1 className="text-sm whitespace-nowrap">Culture @ LYM</h1>
-              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-3xl leading-10">
+              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-[30px] leading-10">
               We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
-                <h1 className="mt-6">
+                <h1 className="mt-6 text-[#7b7b7b] lg:text-[30px] font-thin">
                 The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
                 </h1>
               </h1>
@@ -94,7 +94,7 @@ const Cultureandmore = () => {
                 className="mt-0 mb-0 "
                 alt="gjj"
               />
-              <h1 className="some-element">
+              <h1 className="some-ele">
               The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
               </h1>
             </div>
@@ -105,7 +105,7 @@ const Cultureandmore = () => {
                 alt=""
                 srcset=""
               />
-              <h1 className="some-element">
+              <h1 className="some-ele">
               The collective brain of LYMDATA LABS is comprised of a varied group of individuals who possess extensive experience, unwavering dedication, and a strong commitment to our daily tasks. 
               </h1>
             </div>
@@ -121,7 +121,7 @@ const Cultureandmore = () => {
                 alt=""
               />
 
-              <h1 className="lg:w-[350px] xxl:w-[500px] some-element">
+              <h1 className="lg:w-[350px] xxl:w-[500px] some-ele">
               Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
               </h1>
             </div>

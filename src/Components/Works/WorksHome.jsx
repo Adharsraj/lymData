@@ -9,12 +9,12 @@ import Image6 from "../../assets/Images/image6.png"
 export const WorksHome = () => {
 
   return (
-    <div className="max-w-[1640px] mx-auto p-4 font-dm  mb-20   gap-8 overflow-hidden">
+    <div className="max-w-[1640px] mx-auto p-4 some-ele  mb-20   gap-8 overflow-hidden">
       <div className="hidden lg:block">
-        <h1 className="mt-20 xxl:text-9xl font-sans font-extrabold px-32 animate-slide-up">I craft digital<br/>
+        <h1 className="mt-20 xxl:text-9xl font-aeonic font-extrabold px-32 animate-slide-up">I craft digital<br/>
             experiences<br/>
             for humans</h1>
-        <h1 className="mt-10 text-xl  px-32">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1>
+        {/* <h1 className="mt-10 text-xl  px-32">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
         <h1 className="mt-32 text-xl text-right px-10">
             Helping startups and tech companies building <br/>
             or scaling digital experiences leveraging design</h1>
@@ -22,7 +22,7 @@ export const WorksHome = () => {
             {/* 1 */}
             <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 font-sans mt-24">ShoreTrade</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">ShoreTrade</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -107,7 +107,7 @@ export const WorksHome = () => {
         {/* 2 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 font-sans mt-24">Hello Coach</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Hello Coach</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -161,7 +161,7 @@ export const WorksHome = () => {
         {/* 3 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 font-sans mt-24">Milray Park</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Milray Park</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -215,7 +215,7 @@ export const WorksHome = () => {
         {/* 4 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 font-sans mt-24">Pollie</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Pollie</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -270,7 +270,7 @@ export const WorksHome = () => {
         {/* 5 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 font-sans mt-24">AiWorld <br/> Magazine</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">AiWorld <br/> Magazine</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -325,7 +325,7 @@ export const WorksHome = () => {
         {/* 6 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 font-sans mt-24">Wear United</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Wear United</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -378,17 +378,17 @@ export const WorksHome = () => {
       </div>
 
       <div className="lg:hidden">
-      <h1 className="mt-32 text-4xl text-center font-sans font-extrabold animate-slide-up">I craft digital<br/>
+      <h1 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">I craft digital<br/>
             experiences<br/>
             for humans</h1>
-        <h1 className="mt-10">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1>
+        {/* <h1 className="mt-10">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
         <h1 className="mt-32 text-xl ">
             Helping startups and tech companies building
             or scaling digital experiences leveraging design</h1>
 
         {/* 1 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold font-sans mt-32 lg:mt-0">ShoreTrade</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">ShoreTrade</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -442,7 +442,7 @@ export const WorksHome = () => {
 
         {/* 2 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold font-sans mt-32 lg:mt-0">Hello Coach</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Hello Coach</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -496,7 +496,7 @@ export const WorksHome = () => {
 
         {/* 3 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold font-sans mt-32 lg:mt-0">Milray Park</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Milray Park</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -550,7 +550,7 @@ export const WorksHome = () => {
 
         {/* 4 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold font-sans mt-32 lg:mt-0">Pollie</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Pollie</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -606,7 +606,7 @@ export const WorksHome = () => {
 
         {/* 5 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold font-sans mt-32 lg:mt-0">AiWorld Magazine</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">AiWorld Magazine</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -662,7 +662,7 @@ export const WorksHome = () => {
 
         {/* 6 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-6xl font-bold font-sans mt-32 lg:mt-0">Wear United</h3>
+          <h3 className="text-6xl font-bold some-ele mt-32 lg:mt-0">Wear United</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
