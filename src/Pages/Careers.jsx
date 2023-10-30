@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import JobListing from "../Components/Careers/JobListing";
 import Navbar from "../Components/Navbar";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
+import Carousel from "../Components/Careers/Carousel";
 
 const Careers = () => {
   UseDocumentTitle("LYM DATA | Careers");
@@ -12,6 +13,7 @@ const Careers = () => {
     <>
       <Navbar />
       <CareerIntro />
+      <Carousel />
       <JobListing />
       <Footer />
     </>
