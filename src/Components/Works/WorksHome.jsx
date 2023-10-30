@@ -54,7 +54,7 @@ export const WorksHome = () => {
           <div className="flex">
   <img
     src={Image1}
-    className="mt-8 lg:mt-0 hidden lg:block bg-black w-[450px] h-[700px]"
+    className="mt-8 lg:mt-0 hidden lg:block bg-black w-[450px] h-[650px]"
   />
   {/* <img
     src={Image2}
