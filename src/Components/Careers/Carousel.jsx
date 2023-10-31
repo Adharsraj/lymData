@@ -163,7 +163,10 @@ const Carousel = () => {
                 <img src={img2} alt="img2"/>
               </div>
               <div className=" flex flex-col justify-around some-ele">
-                <h1 className="font-bold text-9xl">01<span className="font-light text-[20px] mt-[-550px] border border-black h-[100px]">/05</span></h1>
+                <div className="flex">
+                <h1 className="font-bold text-9xl">01</h1>
+                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                </div>
                 <h1 className="font-semibold text-2xl">People <br/>Meeting</h1>
                 <h1>of publishers say thay mobile <br/>content boosted their positive <br/>feedback.</h1>
 
@@ -176,7 +179,10 @@ const Carousel = () => {
                <img src={img1} alt="img1"/>
               </div>
               <div className=" flex flex-col justify-around some-ele">
-              <h1 className="font-bold text-9xl">02<span className="font-light text-[20px] mt-[-550px]">/05</span></h1>
+              <div className="flex">
+                <h1 className="font-bold text-9xl">02</h1>
+                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                </div>
                 <h1 className="font-semibold text-2xl">Meeting our People <br/>& Culture team</h1>
                 <h1>Introductions, getting to know each <br/>other and getting acquainted with <br/>the process.</h1>
 
@@ -189,7 +195,10 @@ const Carousel = () => {
                 <img src={img5} alt="img5"/>
               </div>
               <div className="flex flex-col justify-around some-ele">
-              <h1 className="font-bold text-9xl">03<span className="font-light text-[20px] mt-[-550px]">/05</span></h1>
+              <div className="flex">
+                <h1 className="font-bold text-9xl">03</h1>
+                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                </div>
                 <h1 className="font-semibold text-2xl">DHNN Challenge</h1>
                 <h1>Interviews are good for you to tell <br/>us about yourself, but we much <br/>rather see you in action.</h1>
 
@@ -202,7 +211,10 @@ const Carousel = () => {
                 <img src={img4} alt="img4"/>
               </div>
               <div className="flex flex-col justify-around some-ele">
-              <h1 className="font-bold text-9xl">04<span className="font-light text-[20px] mt-[-550px]">/05</span></h1>
+              <div className="flex">
+                <h1 className="font-bold text-9xl">04</h1>
+                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                </div>
                 <h1 className="font-semibold text-2xl">Meeting your <br/>future Lead</h1>
                 <h1>In this stage, you get to share your <br/>interests and ideas with the area's <br/>lead.</h1>
 
@@ -215,7 +227,10 @@ const Carousel = () => {
               <img src={img3} alt="img3"/>
               </div>
               <div className="flex flex-col justify-around some-ele">
-              <h1 className="font-bold text-9xl">05<span className="font-light text-[20px] mt-[-550px]">/05</span></h1>
+              <div className="flex">
+                <h1 className="font-bold text-9xl">05</h1>
+                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                </div>
                 <h1 className="font-semibold text-2xl">DHNN Proposal</h1>
                 <h1>Finally, we'll send a proposal that <br/>we crafted specially for you. We <br/>hope you say yes!</h1>
               </div>
