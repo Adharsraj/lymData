@@ -43,19 +43,19 @@ const Carousel = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden ">
+            <div className="border flex flex-col justify-around  rounded-full min-h-[17rem] overflow-hidden some-ele">
 
-              <div className="flex pt-10 justify-center ">
+              <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[-10px]  text-5xl">number</h1>
-            <h1 className="text-center">/number</h1>
+            <h1 className="text-center mt-[0px]  text-5xl font-bold">01</h1>
+            <h1 className="text-center">/05</h1>
               </div>
               <div>
-              <h1 className="text-left pl-10">dhnn</h1>
+              <h1 className="text-left pl-10 font-semibold text-2xl">People <br/>Meeting</h1>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">text here</h1>
+              <h1 className="text-left pl-10">of publishers say thay mobile content boosted their positive feedback.</h1>
 
               </div>
 
@@ -64,19 +64,19 @@ const Carousel = () => {
 
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden ">
+            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden some-ele">
 
-              <div className="flex pt-10 justify-center ">
+              <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[-10px]  text-5xl">number</h1>
-            <h1 className="text-center">/number</h1>
+            <h1 className="text-center mt-[0px]  text-5xl font-bold">02</h1>
+            <h1 className="text-center">/05</h1>
               </div>
               <div>
-              <h1 className="text-left pl-10">dhnn</h1>
+              <h1 className="text-left pl-10 font-semibold text-2xl">Meeting our People <br/>& Culture team</h1>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">text here</h1>
+              <h1 className="text-left pl-10">Introductions, getting to know each other and getting acquainted with <br/>the process.</h1>
 
               </div>
 
@@ -85,19 +85,19 @@ const Carousel = () => {
 
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden ">
+            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden some-ele">
 
-              <div className="flex pt-10 justify-center ">
+              <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[-10px]  text-5xl">number</h1>
-            <h1 className="text-center">/number</h1>
+            <h1 className="text-center mt-[0px]  text-5xl font-bold">03</h1>
+            <h1 className="text-center">/05</h1>
               </div>
               <div>
-              <h1 className="text-left pl-10">dhnn</h1>
+              <h1 className="text-left pl-10 font-semibold text-2xl">DHNN Challenge</h1>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">text here</h1>
+              <h1 className="text-left pl-10">Interviews are good for you to tell <br/>us about yourself, but we much <br/>rather see you in action.</h1>
 
               </div>
 
@@ -106,19 +106,19 @@ const Carousel = () => {
 
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden ">
+            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden some-ele">
 
-              <div className="flex pt-10 justify-center ">
+              <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[-10px]  text-5xl">number</h1>
-            <h1 className="text-center">/number</h1>
+            <h1 className="text-center mt-[0px]  text-5xl font-bold">04</h1>
+            <h1 className="text-center">/05</h1>
               </div>
               <div>
-              <h1 className="text-left pl-10">dhnn</h1>
+              <h1 className="text-left pl-10 font-semibold text-2xl">Meeting your <br/>future Lead</h1>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">text here</h1>
+              <h1 className="text-left pl-10">In this stage, you get to share your <br/>interests and ideas with the area's <br/>lead.</h1>
 
               </div>
 
@@ -127,19 +127,19 @@ const Carousel = () => {
 
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden ">
+            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden some-ele">
 
-              <div className="flex pt-10 justify-center ">
+              <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[-10px]  text-5xl">number</h1>
-            <h1 className="text-center">/number</h1>
+            <h1 className="text-center mt-[0px]  text-5xl font-bold">05</h1>
+            <h1 className="text-center">/05</h1>
               </div>
               <div>
-              <h1 className="text-left pl-10">dhnn</h1>
+              <h1 className="text-left pl-10 font-semibold text-2xl">DHNN Proposal</h1>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">text here</h1>
+              <h1 className="text-left pl-10">Finally, we'll send a proposal that <br/>we crafted specially for you. We <br/>hope you say yes!</h1>
 
               </div>
 
