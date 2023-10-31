@@ -127,7 +127,7 @@ const Carousel = () => {
 
           </SwiperSlide>
           <SwiperSlide>
-            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden some-ele">
+            <div className="border flex flex-col justify-around    rounded-full min-h-[17rem] overflow-hidden some-ele mb-10">
 
               <div className="flex pt-0 justify-center ">
 
@@ -238,7 +238,7 @@ const Carousel = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="flex gap-20 p-2 justify-center lg:ml-[-470px] lg:gap-3 lg:mb-10 lg:mt-10 ">
+      <div className="flex gap-20 p-2 justify-center lg:ml-[-470px] lg:gap-3 lg:mb-10 lg:mt-10 mb-7">
         <button
           onClick={goPrev}
           className="bg-black flex justify-center items-center w-14 h-14 rounded-full"

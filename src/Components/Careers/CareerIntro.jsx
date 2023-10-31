@@ -79,7 +79,7 @@ const CareerIntro = () => {
         <h1 className="mt-10 mb-10 text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] xl:mt-24 mx-auto leading-7">
         As a living, breathing, thriving company, we are constantly on the look for people who like to test their hands at exciting new challenges. 
         </h1>
-        <h1 className="text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] mx-auto leading-7">
+        <h1 className="text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] mx-auto leading-7 mb-10">
         Are you one of them? <br />
         Reach out and let’s get to know each other.
         </h1>
