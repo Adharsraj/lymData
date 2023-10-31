@@ -9,9 +9,9 @@ const Insights = () => {
     <div className="max-w-[1640px] mx-auto min-h-screen bg-black">
       <h1 className='lg:text-[70px] lg:p-12 lg:px-28 text-[35px] p-3 some-ele text-white'>Insights </h1>
       <div className="flex flex-col lg:flex-row lg:px-28 lg:justify-center gap-4 p-2 lg:gap-16">
-        <div className="flex lg:flex-col    gap-5 shadow-2xl">
-          <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-white h-20">
-            <img src={insight3} alt="img" className='md:h-[200px] md:w-[348px] w-[140px] h-[75px]'/>
+        <div className="flex lg:flex-col    gap-5 shadow-2xl ">
+          <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-white h-20 rounded-3xl">
+            <img src={insight3} alt="img" className='md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-3xl'/>
             <div className='hidden lg:flex justify-between items-center md:px-2 md:pt-1 some-ele'>
                 <h2 className='lg:text-[14px] lg:font-bold text-black'>Blog . <span className='font-light'>11 min read</span></h2>
                 <h2 className='lg:text-[14px] text-black'>October 04 2023</h2>
@@ -23,8 +23,8 @@ const Insights = () => {
           </div>
         </div>
         <div className="flex lg:flex-col     gap-5 shadow-2xl">
-        <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-white h-20">
-            <img src={insight2} alt="img" className='md:h-[200px] md:w-[348px] w-[140px] h-[75px]'/>
+        <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-white h-20 rounded-3xl">
+            <img src={insight2} alt="img" className='md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-3xl'/>
             <div className='hidden lg:flex justify-between items-center md:px-2 md:pt-1 some-ele'>
                 <h2 className='lg:text-[14px] lg:font-bold text-black'>Blog . <span className='font-light'>11 min read</span></h2>
                 <h2 className='lg:text-[14px] text-black'>October 04 2023</h2>
@@ -36,8 +36,8 @@ const Insights = () => {
           </div>
         </div>
         <div className="flex lg:flex-col   gap-5 shadow-2xl">
-        <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-white h-20">
-            <img src={insight1} alt="img" className='md:h-[200px] md:w-[348px] w-[140px] h-[75px]'/>
+        <div className="w-40 md:w-[348px]  md:h-[229px]  lg:bg-white h-20 rounded-3xl">
+            <img src={insight1} alt="img" className='md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-3xl'/>
             <div className='hidden lg:flex justify-between items-center md:px-2 md:pt-1 some-ele'>
                 <h2 className='lg:text-[14px] lg:font-bold text-black'>Blog . <span className='font-light'>11 min read</span></h2>
                 <h2 className='lg:text-[14px] text-black'>October 04 2023</h2>
