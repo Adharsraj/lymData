@@ -14,7 +14,7 @@ const Careers = () => {
       <Navbar />
       <CareerIntro />
       <Carousel />
-      <JobListing />
+      {/* <JobListing /> */}
       <Footer />
     </>
   );

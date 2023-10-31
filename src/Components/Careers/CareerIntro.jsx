@@ -56,17 +56,19 @@ const CareerIntro = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4  pt-20 text-[#040404] overflow-hidden ">
       <div className="text-center relative mt-20 md:mt-7">
-        <div className="absolute top-[-20%] md:top-[20%] border w-full text-8xl md:text-9xl md:leading-[80px]">
-          <h1 className="whitespace-nowrap"> join the </h1>
-          <h1 className="whitespace-nowrap pl-14">-team</h1>
+        <div className="absolute top-[-20%] md:top-[20%] w-full text-8xl md:text-9xl md:leading-[80px] font-aeonic">
+        <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-20 lg:text-[200px] xxl:text-[260px] md:text-8xl mt-24 lg:mt-14 font-bold absolute">
+            Join the
+            <h1 className="lg:ml-20 lg:leading-0">—team</h1>
+          </h2>
         </div>
-        <img className="pt-10 md:w-[500px] xl:w-[720px] lg:w-[520px] mx-auto" src={img} alt="" srcset="" />
+        <img className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[890px] lg:w-[520px] mx-auto" src={img} alt="" srcset="" />
       </div>
-      <div>
-        <h1 className="mt-10 mb-10 text-2xl md:w-[500px] xl:w-[720px]  mx-auto leading-7">
+      <div className="some-ele font-bold">
+        <h1 className="mt-10 mb-10 text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] xl:mt-24 mx-auto leading-7">
         As a living, breathing, thriving company, we are constantly on the look for people who like to test their hands at exciting new challenges. 
         </h1>
-        <h1 className="text-2xl md:w-[500px] xl:w-[720px] mx-auto leading-7">
+        <h1 className="text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] mx-auto leading-7">
         Are you one of them? <br />
         Reach out and let’s get to know each other.
         </h1>
