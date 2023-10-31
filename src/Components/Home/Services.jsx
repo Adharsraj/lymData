@@ -1,5 +1,4 @@
 import React from 'react'
-import img from '../../assets/Images/Services.png'
 import arrow from '../../assets/Images/right_arrow.png'
 import { servv } from '../../assets/Data/data'
 

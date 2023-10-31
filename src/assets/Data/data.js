@@ -50,6 +50,25 @@ export const servv = [
   },
 ];
 
+export const blogCards = [
+
+  {
+    id: 1,
+    title: "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
+    desc: "Press Release • 04 Oct, 2023",
+  },
+  {
+    id: 2,
+    title: "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
+    desc: "Press Release • 04 Oct, 2023",
+  },
+  {
+    id: 3,
+    title: "Data Analytics for E-commerce: Boosting Sales and Customer Engagement",
+    desc: "Press Release • 04 Oct, 2023",
+  },
+];
+
 
 export const ourValues = [
   {
