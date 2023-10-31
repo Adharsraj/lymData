@@ -54,16 +54,27 @@ import React from "react";
 import img from "../../assets/Career.jpeg";
 const CareerIntro = () => {
   return (
-    <div className="max-w-[1640px] mx-auto p-4  pt-20 text-[#040404] overflow-hidden ">
-      <div className="text-center relative mt-20 md:mt-7">
-        <div className="absolute top-[-20%] md:top-[20%] w-full text-8xl md:text-9xl md:leading-[80px] font-aeonic">
-        <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-20 lg:text-[200px] xxl:text-[260px] md:text-8xl mt-24 lg:mt-14 font-bold absolute">
+    <div className="max-w-[1640px] mx-auto p-4 text-[#040404] overflow-hidden ">
+      <div className="text-center relative mt-10">
+        <div className="absolute top-[-20%] md:top-[10%] w-full text-8xl md:text-9xl md:leading-[10px] font-aeonic">
+        <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-40 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-24 lg:mt-10 font-bold absolute">
             Join the
-            <h1 className="lg:ml-20 lg:leading-0">—team</h1>
+            <h1 className="lg:ml-20">—team</h1>
           </h2>
         </div>
-        <img className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[890px] lg:w-[520px] mx-auto" src={img} alt="" srcset="" />
+        <img className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[600px] lg:w-[520px] mx-auto" src={img} alt="" srcset="" />
       </div>
+      {/* <div className="relative overflow-hidden text-center">
+          <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-10 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-24 lg:mt-14 font-bold absolute">
+            Join the
+            <h1 className="lg:ml-20">—team</h1>
+          </h2>
+          <img
+            src={img}
+            className=" w-full top-0 h-[300px] xl:w-[700px] lg:h-[600px] scale-x-150 lg:px-[-100px]"
+            alt="imgrotate"
+          />
+        </div> */}
       <div className="some-ele font-bold">
         <h1 className="mt-10 mb-10 text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] xl:mt-24 mx-auto leading-7">
         As a living, breathing, thriving company, we are constantly on the look for people who like to test their hands at exciting new challenges. 
