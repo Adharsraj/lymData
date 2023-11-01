@@ -308,7 +308,7 @@ export const WorksHome = () => {
           <div className="flex justify-end">
           <img
             src={wnew5}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
+            className="mt-8 lg:mt-0 hidden lg:block bg-black"
           />
           {/* <img
             src={Image2}
@@ -363,7 +363,7 @@ export const WorksHome = () => {
           <div className="flex justify-end">
           <img
             src={wnew6}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
+            className="mt-8 lg:mt-0 hidden lg:block bg-black"
           />
           {/* <img
             src={Image2}
