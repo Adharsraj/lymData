@@ -54,17 +54,25 @@ export const blogCards = [
 
   {
     id: 1,
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698831108/Insights3_k2ntua.jpg",
     title: "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
     desc: "Press Release • 04 Oct, 2023",
   },
   {
     id: 2,
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698831297/Insights2_pjb4uu.jpg",
     title: "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
     desc: "Press Release • 04 Oct, 2023",
   },
   {
     id: 3,
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698831307/Insights1_cvev2w.jpg",
     title: "Data Analytics for E-commerce: Boosting Sales and Customer Engagement",
+    desc: "Press Release • 04 Oct, 2023",
+  },
+  {
+    id: 4,
+    title: "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
   },
 ];

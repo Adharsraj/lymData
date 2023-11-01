@@ -5,7 +5,7 @@ const BlogCards = () => {
   return (
     <>
     <div  className="max-w-[1640px] mx-auto bg-white min-h-screen">
-  <div className='grid  p-5  gap-7 md:grid-cols-2 lg:grid-cols-3 lg:px-28'>
+  <div className='grid  p-5  gap-7 md:grid-cols-2 lg:grid-cols-4 lg:px-10'>
 
   {blogCards.map((m, index) => (
     <div className='w-full lg:w-[300px] lg:mt-10 h-[250px] bg-white cursor-pointer rounded-3xl mx-auto shadow-2xl'>
