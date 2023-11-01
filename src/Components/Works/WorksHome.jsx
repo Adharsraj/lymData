@@ -9,6 +9,7 @@ import wnew1 from "../../assets/Images/wnew1.jpg"
 import wnew2 from "../../assets/Images/wnew2.jpg"
 import wnew3 from "../../assets/Images/wnew3.jpg"
 import wnew5 from "../../assets/Images/wnew5.jpg"
+import wnew6 from "../../assets/Images/wnew6.jpg"
 
 export const WorksHome = () => {
 
@@ -361,7 +362,7 @@ export const WorksHome = () => {
           </div>
           <div className="flex justify-end">
           <img
-            src={Image6}
+            src={wnew6}
             className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
           />
           {/* <img
