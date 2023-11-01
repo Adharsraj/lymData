@@ -18,7 +18,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
     { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
     { path: "/contact", label: "Contact" },
-    // { path: "/works", label: "Works" },
+    { path: "/works", label: "Works" },
     { path: "/blog", label: "Blogs" },
     { path: "/careers", label: "Careers" },
   ];
