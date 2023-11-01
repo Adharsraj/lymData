@@ -5,6 +5,7 @@ import Image3 from "../../assets/Images/image3.png"
 import Image4 from "../../assets/Images/image4.png"
 import Image5 from "../../assets/Images/image5.png"
 import Image6 from "../../assets/Images/image6.png"
+import wnew1 from "../../assets/Images/wnew1.jpg"
 
 export const WorksHome = () => {
 
@@ -192,7 +193,7 @@ export const WorksHome = () => {
           </div>
           <div className="flex justify-end px-0">
           <img
-            src={Image3}
+            src={wnew1}
             className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1500px] h-[650px] "
           />
           {/* <img
