@@ -55,9 +55,10 @@ I t takes less than a minute of your time.
                 </h1>
               </div>
       </div>
-      <div className="hidden md:flex justify-between gap-[500px] px-24"> 
+
+      <div className="hidden lg:hidden md:flex justify-between gap-[100px] px-10"> 
       <div className="some-ele font-light">
-      <h1 className="md:text-[50px]">
+      <h1 className="md:text-[40px]">
         Get started now!
       </h1>
       <h1 className="md:text-[20px]">
@@ -65,22 +66,7 @@ It takes less than a minute of your time.
       </h1>
 
         </div>
-        {/* <div className='pt-9'>
-  <button className="bg-black flex text-white border border-gray-400 w-[180px] p-3 gap-4 whitespace-nowrap some-ele font-light">
-    Request a quote
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
-      <g transform={`scale(${scale})`}>
-        <path
-          className="fill-current text-white pt-8"
-          d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
-          data-name="Right"
-        />
-      </g>
-    </svg>
-  </button>
-</div> */}
-
-<div className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[290px]  lg:mb-7">
+<div className="flex  group hover:cursor-pointer gap-2 w-[200px]">
                 <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[300px] bg-black text-white transition-all border transform hover:translate-x-16">
                 Request a quote
                 </h1>
@@ -89,6 +75,35 @@ It takes less than a minute of your time.
       <g transform={`scale(${scale})`}>
         <path
         className="w-[760px]"
+          d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
+          data-name="Right"
+        />
+      </g>
+    </svg>
+                </h1>
+              </div>
+      </div>
+
+
+      <div className="hidden md:hidden lg:flex justify-between border gap-[200px] "> 
+      <div className="some-ele font-light px-24">
+      <h1 className="lg:text-[50px]">
+        Get started now!
+      </h1>
+      <h1 className="lg:text-[20px]">
+It takes less than a minute of your time.
+      </h1>
+
+        </div>
+<div className="flex  group hover:cursor-pointer gap-2 pr-[5%] border w-[200px] xl:mx-auto  xl:w-[290px]  lg:mb-7">
+                <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[300px] bg-black text-white transition-all border transform hover:translate-x-16">
+                Request a quote
+                </h1>
+                <h1 className="p-3 mt-10 flex items-center rounded-full w-[60px] bg-black text-white border fill-current">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+      <g transform={`scale(${scale})`}>
+        <path
+        className="w-[960px]"
           d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
           data-name="Right"
         />
