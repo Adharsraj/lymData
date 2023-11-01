@@ -9,8 +9,8 @@ const BlogNew = () => {
 
       <div className="relative overflow-hidden ">
         <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-10 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-24 lg:mt-14 font-bold absolute">
-          building
-          <h1 className="lg:ml-20">—together</h1>
+        Featured
+          <h1 className="lg:ml-20">—articles</h1>
         </h2>
         <img
           src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417363/LYMDATALABS/Pages/Culture/asset_3_gtyaon_aqutmr.png"
