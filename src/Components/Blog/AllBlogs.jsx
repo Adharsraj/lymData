@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { blogsData } from "../../assets/Data/data";
+// import { blogsData } from "../../assets/Data/data";
 
 const AllBlogs = () => {
   return (
@@ -26,7 +26,7 @@ const AllBlogs = () => {
       </div>
       <div className="flex justify-center">
         <div className="grid  md:grid-cols-2 gap-5">
-          {blogsData.map((m) => (
+          {/* {blogsData.map((m) => (
             <Link key={m.id} to={`/blog/${m.id}`}>
               <div>
                 <img src={m.img} alt="Featured" />
@@ -37,7 +37,7 @@ const AllBlogs = () => {
                 <h3 className="text-gray-500 text-sm mb-6">{m.Time}</h3>
               </div>
             </Link>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

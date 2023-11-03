@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { blogsData } from "../../assets/Data/data";
+import { blogCards } from "../../assets/Data/data";
 
 const SkeltonLoader = () => {
   return (
@@ -20,22 +20,17 @@ const SkeltonLoader = () => {
       </div>
       <div className="flex justify-center">
         <div className="grid  md:grid-cols-2 gap-5">
-          {blogsData.map((m) => (
-            <Link key={m.id} to={`/blog/${m.id}`}>
-              <div>
-                <div className="h-[400px] w-[800px]  bg-gray-200"></div>
-                <h3 className="uppercase bg-gray-200 text-transparent mt-4 lg:text-lg">
-                  {m.title}
-                </h3>
-                <h3 className="mt-4 bg-gray-200  text-transparent ">
-                  {m.Date}
-                </h3>
-                <h3 className="bg-gray-200 text-transparent">{m.Genere}</h3>
-                <h3 className="bg-gray-200 text-transparent text-sm mb-6">
-                  {m.Time}
-                </h3>
-              </div>
-            </Link>
+          {blogCards.map((m) => (
+             <Link key={m.id} to={`/blog/${m.id}`}>
+             <div className='w-full lg:w-[300px] lg:mt-10 h-[450px] bg-white cursor-pointer rounded-3xl mx-auto shadow-2xl'>
+           <img src={m.img} className='h-[200px] w-full rounded-t-3xl' alt="" />
+           <div className='flex flex-col justify-between h-[160px] lg:px-5 px-3 pt-2 lg:pt-3 some-element'>
+           <h1 className='font-bold lg:mt-5'>{m.title}</h1>
+           <h2 className='lg:text-[14px] text-[12px] lg:mt-20'>{m.desc}</h2>
+         
+           </div>
+             </div>
+             </Link>
           ))}
         </div>
       </div>

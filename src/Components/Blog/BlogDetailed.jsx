@@ -1,28 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { blogsData } from "../../assets/Data/data";
+import { blogCards } from '../../assets/Data/data';
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 
 const BlogDetailed = () => {
   const { id } = useParams();
-  const [blogData, setBlogData] = useState(null);
+  const [blogCards, setBlogCards] = useState(0);
   const [combinedData, setCombinedData] = useState([]);
 
   useEffect(() => {
-    const m = blogsData.find((o) => o.id === parseInt(id));
+    const m = blogCards.find((o) => o.id === parseInt(id));
     if (parseInt(id) < 4) {
-      const n = blogsData.find((o) => o.id === parseInt(id) + 1);
-      const o = blogsData.find((o) => o.id === parseInt(id) + 2);
+      const n = blogCards.find((o) => o.id === parseInt(id) + 1);
+      const o = blogCards.find((o) => o.id === parseInt(id) + 2);
       const newData = [...(n ? [n] : []), ...(o ? [o] : [])];
       setCombinedData(newData);
     } else {
-      const n = blogsData.find((o) => o.id === parseInt(id) - 1);
-      const o = blogsData.find((o) => o.id === parseInt(id) - 2);
+      const n = blogCards.find((o) => o.id === parseInt(id) - 1);
+      const o = blogCards.find((o) => o.id === parseInt(id) - 2);
       const newData = [...(n ? [n] : []), ...(o ? [o] : [])];
       setCombinedData(newData);
     }
-    setBlogData(m);
+    setBlogCards(m);
     console.log(combinedData);
   }, [id]);
 
@@ -30,21 +30,21 @@ const BlogDetailed = () => {
     <>
       <Navbar />
       <div>
-        {blogData && (
+        {blogCards && (
           <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-4 ">
             <div className=" mx-3 mt-32">
               <h2 className="uppercase text-2xl md:text-4xl font-bold w-[230px] md:w-[600px] mt-10 ">
-                {blogData.title}
+                {blogCards.title}
               </h2>
               <div className="mt-6 text-gray-400 md:text-lg font-dm">
                 <span>
-                  By:{blogData.By} | {blogData.Date} | {blogData.Genere} |{" "}
-                  {blogData.Time}
+                  {/* By:{blogCards.By} | {blogCards.Date} | {blogCards.Genere} |{" "} */}
+                  {blogCards.desc}
                 </span>
               </div>
             </div>
-            <img className="mt-6 w-full" src={blogData.img} alt="image" />
-            <div>{<blogData.more />}</div>
+            <img className="mt-6 w-full" src={blogCards.img} alt="image" />
+            <div>{<blogCards.more />}</div>
           </div>
         )}
         {combinedData && (
@@ -63,13 +63,14 @@ const BlogDetailed = () => {
               <div className="grid md:grid-cols-2 gap-5">
                 {combinedData.map((m) => (
                   <Link key={m.id} to={`/blog/${m.id}`}>
-                    <div>
-                      <img src={m.img} alt="Featured" />
-                      <h3 className="uppercase mt-4 lg:text-lg">{m.title}</h3>
-                      <h3 className="mt-4 text-gray-500">{m.Date}</h3>
-                      <h3 className="text-gray-500">{m.Genere}</h3>
-                      <h3 className="text-gray-500 text-sm mb-6">{m.Time}</h3>
-                    </div>
+                    <div className='w-full lg:w-[300px] lg:mt-10 h-[450px] bg-white cursor-pointer rounded-3xl mx-auto shadow-2xl'>
+  <img src={m.img} className='h-[200px] w-full rounded-t-3xl' alt="" />
+  <div className='flex flex-col justify-between h-[160px] lg:px-5 px-3 pt-2 lg:pt-3 some-element'>
+  <h1 className='font-bold lg:mt-5'>{m.title}</h1>
+  <h2 className='lg:text-[14px] text-[12px] lg:mt-20'>{m.desc}</h2>
+
+  </div>
+    </div>
                   </Link>
                 ))}
               </div>
