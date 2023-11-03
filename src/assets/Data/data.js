@@ -72,6 +72,7 @@ export const blogCards = [
   },
   {
     id: 4,
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698995813/Vr_blog_img_348_x_200_oaf3bw.jpg",
     title: "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
   },

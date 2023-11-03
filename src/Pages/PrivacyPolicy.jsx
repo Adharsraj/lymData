@@ -18,21 +18,9 @@ const PrivacyPolicy = () => {
               INTRODUCTION
             </h1>
             <h2 className="mt-20 lg:w-[1000px] md:text-lg">
-              LYMData, has created this privacy policy (this “Privacy Policy”)
-              to demonstrate its commitment to user, visitor and customer
-              privacy with regard to LYMData.com site at (the “Website”).
-              Privacy on the Website is of great importance to us. Because we
-              gather important information from our users, visitors and
-              customers (collectively “Customers” or “you” or “your”), we have
-              established this Privacy Policy as a means to communicate our
-              information gathering and dissemination practices. By accessing
-              this Website,{" "}
-              <strong>
-                <u>you acknowledge and agree</u>
-              </strong>{" "}
-              to this Privacy of the Website
+            LYMDATA LABS PRIVATE LIMITED (referred to as "we," "us," or "our") is committed to safeguarding the privacy and security of your personal information. This Privacy Policy explains how we collect, use, and protect your personal data in accordance with the laws and regulations applicable in India.
             </h2>
-            <h2 className="mt-7 lg:w-[1000px] md:text-lg">
+            {/* <h2 className="mt-7 lg:w-[1000px] md:text-lg">
               LYMData reserves the right to modify this Privacy Policy to adapt
               it to new legislation or jurisprudence. In such cases, LYMData
               will announce the changes introduced on this website reasonably in
@@ -75,44 +63,75 @@ const PrivacyPolicy = () => {
               to design our services with privacy as a top priority. You’ll find
               our official Privacy Policy below this section, but we hope you’ll
               find this summary of our principles helpful.
-            </h2>
+            </h2> */}
             <div className="mt-7 lg:w-[1000px] md:text-lg">
               <ul>
-                <li className="mt-3 lg:w-[1000px] md:text-lg">
-                  <strong>CONFIDENTIALITY: </strong>
-                  Personal data will not be disclosed, made available to third
-                  parties, or used for purposes other than those for which they
-                  were collected, except with the consent of the individual.
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>1. Information We Collect </strong>
+                  <h2 className="mt-3">We may collect the following categories of information:</h2>
+                  <h2 className="mt-3">Personal Information: This includes your name, email address, postal address, phone number, and any other data you provide when contacting us or using our services.</h2>
+                  <h2 className="mt-3">Sensitive Personal Data or Information (SPDI): We may collect certain sensitive data like financial information, biometric information, and passwords, subject to your consent.</h2>
+                  <h2 className="mt-3">
+                  Usage Information: We may collect information about your interactions with our website, such as your IP address, browser type, and pages visited.
+                  </h2>
                 </li>
-                <li className="mt-3 lg:w-[1000px] md:text-lg">
-                  <strong>LIMITATION AND MINIMIZATION OF DATA: </strong>
-                  We practice data minimization, which means that we take steps
-                  to avoid collecting or storing information that we don’t need
-                  to provide our services.
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>2. Purpose of Data Collection</strong>
+                  <h2 className="mt-3">We use your information for the following purposes:</h2>
+                  <h2 className="mt-3">Providing and improving our services.</h2>
+                  <h2 className="mt-3">Responding to your inquiries and requests.</h2>
+                  <h2 className="mt-3">Sending you updates and marketing communications (if you have opted in).</h2>
                 </li>
-                <li className="mt-3 lg:w-[1000px] md:text-lg">
-                  <strong>WE DO NOT RENT OR SELL PERSONAL DATA: </strong>
-                  No LYMData viewer can access another LYMData viewer’s end-user
-                  data. And we are not in the business of renting or selling any
-                  customer’s or viewer’s end-user data to anyone else.
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>3. Information Sharing </strong>
+                  <h2 className="mt-3">We do not sell, trade, or share your personal information with third parties without your consent. However, we may share your information with trusted service providers and partners who assist us in delivering our services.</h2>
                 </li>
-                <li className="mt-3 lg:w-[1000px] md:text-lg">
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
                   <strong>
-                    ACCESS, RECTIFICATION, CANCELLATION, OPPOSITION and
-                    PORTABILITY:{" "}
+                  4. Data Security
                   </strong>
-                  LYMData wants to provide you with as much control as possible
-                  over the information that identifies you (Personal
-                  Information). Upon your request, LYMData will (a) allow you
-                  access to your Personal Information; (b) remove your Personal
-                  Information from our database; and, (c) correct Personal
-                  Information that you have told LYMData is inaccurate. This
-                  Privacy Policy does not apply to other websites that may be
-                  accessed through links on the LYMData website.
+                  <h2 className="mt-3">We employ reasonable security measures to protect your personal information. While we strive to safeguard your data, no online platform can guarantee absolute security.</h2>
+                </li>
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>
+                  5. Cookies and Tracking
+                  </strong>
+                  <h2 className="mt-3">We may use cookies and similar tracking technologies to enhance your experience on our website. You can manage your cookie preferences in your browser settings.</h2>
+                </li>
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>
+                  6. Your Rights and Choices
+                  </strong>
+                  <h2 className="mt-3">You have the right to access, correct, or delete your personal information. You may also opt out of receiving marketing communications from us.</h2>
+                </li>
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>
+                  7. Third-Party Links
+                  </strong>
+                  <h2 className="mt-3">Our website may contain links to third-party websites. We are not responsible for their privacy practices, and we recommend that you review their privacy policies.</h2>
+                </li>
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>
+                  8. Changes to this Policy
+                  </strong>
+                  <h2 className="mt-3">We may update this Privacy Policy to reflect changes in our practices or legal requirements. Please review this policy periodically for updates.</h2>
+                </li>
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>
+                  9. Anti-Spam Policy
+                  </strong>
+                  <h2 className="mt-3">LYMData subscribes to an Anti-Spam policy for all its communication protocols. This means that we do not condone unsolicited email messages, notifications, alerts, or any message that you may receive from someone who should not have your email address.</h2>
+                </li>
+                <li className="mt-10 lg:w-[1000px] md:text-lg">
+                  <strong>
+                  10. Contact Us
+                  </strong>
+                  <h2 className="mt-3">If you have questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at:</h2>
+                  <h2 className="mt-3">info@lymdata.com</h2>
                 </li>
               </ul>
             </div>
-            <h2 className="mt-7 lg:w-[1000px] md:text-lg">
+            {/* <h2 className="mt-7 lg:w-[1000px] md:text-lg">
               Beyond these principles stated above, LYMData will continue to
               find ways to design our services to respect end user privacy.
               We’re committed to making sure our customers understand how we use
@@ -303,7 +322,7 @@ const PrivacyPolicy = () => {
               opportunity. If you have any objections to us retaining your
               information for these purposes, please contact us to this email
               info@lymdata.com
-            </h2>
+            </h2> */}
           </div>
         </div>
       </div>
