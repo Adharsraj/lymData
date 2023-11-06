@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import giphy from "../../assets/gif/giphy.webp";
 import img from '../../assets/Images/ardwn.png'
 import LocomotiveScroll from 'locomotive-scroll';
+import Popup from "./Popup";
 
 const Hero = ({ showImage }) => {
   const scrollToTarget = () => {
@@ -135,6 +136,7 @@ const Hero = ({ showImage }) => {
 
   return (
     <>
+    <Popup />
       <div className=" bg-black text-white relative">
         <div className="max-w-[1640px] mx-auto overflow-hidden">
           <div className="">
