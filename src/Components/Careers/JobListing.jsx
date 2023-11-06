@@ -43,18 +43,62 @@ import React from "react";
 const JobListing = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 text-[#040404] mb-10">
-      <div className="lg:flex">
+      <div className="lg:flex flex flex-col">
 
       <div className="lg:w-[300px]">
-        <h1>Are you ready for exciting new challenges?</h1>
-        <h1>open positions</h1>
+        <h1 className="lg:px-24 font-bold text-3xl some-ele lg:mb-5">Engineering</h1>
       </div>
-      <div className="flex lg:w-full lg:pl-20 justify-between gap-5 mt-5 border-t pt-3 border ">
-        <div className="flex gap-5">
-        <h1>01</h1>
-        <h2>Product Design Lead - proyectos de Blockchain 🚀</h2>
+
+      {/* 1 */}
+      <div className="px-24">
+      <div className="flex justify-between lg:w-full lg:pl-20 gap-5 mt-5 border-t p-10 rounded-3xl border some-ele ">
+        <div>
+        <h1 className="font-bold text-2xl">Backend Engineer (Senior)</h1>
+        <div className="flex gap-7 mt-7">
+        <h1 className=" rounded-full p-3 bg-blue-100">Engineering</h1>
+        <h1 className="rounded-full p-3 bg-gray-100">Remote</h1>
+        <h1 className=" rounded-full p-3 bg-gray-100">Los Angeles</h1>
         </div>
-        <h1>+</h1>
+        </div>
+        <div className="pr-7 mt-5">
+        <h1 className=" bg-black text-white rounded-full p-3 w-[150px] text-center cursor-pointer">Apply Now</h1>
+      </div>
+      </div>
+      </div>
+
+
+      {/* 2 */}
+      <div className="px-24">
+      <div className="flex justify-between lg:w-full lg:pl-20  gap-5 mt-5 border-t p-10 rounded-3xl border some-ele ">
+        <div>
+        <h1 className="font-bold text-2xl">Backend Engineer (Staff/Principal/Lead/Architect)</h1>
+        <div className="flex gap-7 mt-7">
+        <h1 className=" rounded-full p-3 bg-blue-100">Engineering</h1>
+        <h1 className=" rounded-full p-3 bg-gray-100">Remote</h1>
+        <h1 className="rounded-full p-3 bg-gray-100">Los Angeles</h1>
+        </div>
+        </div>
+        <div className="pr-7 mt-5">
+        <h1 className="bg-black text-white rounded-full p-3 w-[150px] text-center cursor-pointer">Apply Now</h1>
+      </div>
+      </div>
+      </div>
+
+      {/* 3 */}
+      <div className="px-24">
+      <div className="flex justify-between lg:w-full lg:pl-20  gap-5 mt-5 border-t p-10 rounded-3xl border some-ele ">
+        <div>
+        <h1 className="font-bold text-2xl">iOS Engineer (Senior)</h1>
+        <div className="flex gap-7 mt-7">
+        <h1 className="rounded-full p-3 bg-blue-100">Engineering</h1>
+        <h1 className="rounded-full p-3 bg-gray-100">Remote</h1>
+        <h1 className=" rounded-full p-3 bg-gray-100">Los Angeles</h1>
+        </div>
+        </div>
+        <div className="pr-7 mt-5">
+        <h1 className=" bg-black text-white rounded-full p-3 w-[150px] text-center cursor-pointer">Apply Now</h1>
+      </div>
+      </div>
       </div>
       </div>
 
