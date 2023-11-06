@@ -6,7 +6,7 @@ import Navbar from "../Navbar";
 
 const BlogDetailed = () => {
   const { id } = useParams();
-  const [blogCards, setBlogCards] = useState(0);
+  const [blogCardss, setBlogCards] = useState(0);
   const [combinedData, setCombinedData] = useState([]);
 
   useEffect(() => {
@@ -30,21 +30,21 @@ const BlogDetailed = () => {
     <>
       <Navbar />
       <div>
-        {blogCards && (
+        {blogCardss && (
           <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-4 ">
             <div className=" mx-3 mt-32">
               <h2 className="uppercase text-2xl md:text-4xl font-bold w-[230px] md:w-[600px] mt-10 ">
-                {blogCards.title}
+                {blogCardss.title}
               </h2>
               <div className="mt-6 text-gray-400 md:text-lg font-dm">
                 <span>
                   {/* By:{blogCards.By} | {blogCards.Date} | {blogCards.Genere} |{" "} */}
-                  {blogCards.desc}
+                  {blogCardss.desc}
                 </span>
               </div>
             </div>
-            <img className="mt-6 w-full" src={blogCards.img} alt="image" />
-            <div>{<blogCards.more />}</div>
+            <img className="mt-6 w-full" src={blogCardss.img} alt="image" />
+            <div>{<blogCardss.more />}</div>
           </div>
         )}
         {combinedData && (
