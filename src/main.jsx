@@ -5,6 +5,7 @@ import "./index.css";
 import Router from "./Routers/Routes.jsx";
 import App from "./App";
 import LocomotiveScroll from "locomotive-scroll";
+import Popup from "./Components/Home/Popup";
 
 function InitLocomotiveScroll({ children }) {
 
@@ -27,6 +28,7 @@ function InitLocomotiveScroll({ children }) {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
+{/* <Popup/> */}
 <InitLocomotiveScroll>
 <App />
 </InitLocomotiveScroll>  

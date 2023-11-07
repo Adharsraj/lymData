@@ -5,6 +5,37 @@ import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 
+
+export const jobCards = [
+
+  {
+    id: 1,
+    post: "Digital Marketing Lead",
+    stream: "Department- sales & Marketing ",
+    workway: "Hybrid",
+    place: "Kochi",
+  },
+  {
+    id: 2,
+    post: "Business Development.   Executive",
+    stream: "Department - sales & Marketing",
+    workway: "Hybrid",
+    place: "Kochi",
+  },  {
+    id: 3,
+    post: "React Native Developer",
+    stream: "Department - Engineering",
+    workway: "Hybrid",
+    place: "Kochi",
+  },  {
+    id: 4,
+    post: "Sales executive Intern ",
+    stream: "Department- Sales & Marketing ",
+    workway: "Hybrid",
+    place: "Kochi",
+  },
+];
+
 export const servv = [
 
   {
