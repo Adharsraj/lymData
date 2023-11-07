@@ -85,28 +85,28 @@ export const blogCards = [
 
   {
     id: 1,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698831108/Insights3_k2ntua.jpg",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699350882/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9.jpg",
     title: "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog1,
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698831297/Insights2_pjb4uu.jpg",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699349966/Banner_Image_1920_x_1080_Blog_Data_Privacy_zmr6po.jpg",
     title: "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog2,
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698831307/Insights1_cvev2w.jpg",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699350203/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp.jpg",
     title: "Data Analytics for E-commerce: Boosting Sales and Customer Engagement",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog3,
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698995813/Vr_blog_img_348_x_200_oaf3bw.jpg",
+    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699349934/Banner_Image_1920_x_1080_Blog_Vr_vn3erz.jpg",
     title: "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog4,
