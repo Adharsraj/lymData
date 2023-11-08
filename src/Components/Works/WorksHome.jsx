@@ -30,7 +30,7 @@ export const WorksHome = () => {
             {/* 1 */}
             <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 some-ele mt-24">ShoreTrade</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Al-Hub</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -115,7 +115,7 @@ export const WorksHome = () => {
         {/* 2 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Hello Coach</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Hotel Ware</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -169,7 +169,7 @@ export const WorksHome = () => {
         {/* 3 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Milray Park</h3>
+            <h3 className="text-6xl font-bold px-5 some-ele mt-24">EDUCAS GLOBAL</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -223,7 +223,7 @@ export const WorksHome = () => {
         {/* 4 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Pollie</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Aquaguard</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -278,7 +278,7 @@ export const WorksHome = () => {
         {/* 5 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 some-ele mt-24">AiWorld <br/> Magazine</h3>
+            <h3 className="text-6xl font-bold px-5 some-ele mt-24">Farmfed Tourism</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -333,7 +333,7 @@ export const WorksHome = () => {
         {/* 6 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
-            <h3 className="text-7xl font-bold px-5 some-ele mt-24">Wear United</h3>
+            <h3 className="text-7xl font-bold px-5 some-ele mt-24">PappaBoo</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction

@@ -215,7 +215,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
                   </ul>
                 </div>
               ) : (
-                <div className="text-white md:flex md:flex-col md:gap-6  text-4xl md:text-6xl px-10 md:mt-24 lg:mt-10">
+                <div className="text-white md:flex md:flex-col md:gap-6  text-3xl md:text-[45px] px-10 md:mt-24 lg:mt-10">
                   <ul>
                     {navigationItems.map((item) => {
                       if (location.pathname !== item.path) {
