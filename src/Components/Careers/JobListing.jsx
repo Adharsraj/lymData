@@ -42,6 +42,16 @@ import React from "react";
 import { jobCards } from "../../assets/Data/data";
 
 const JobListing = () => {
+  const handleClick = () => {
+    const emailTo = 'careers@lymdata.com';
+    const subject = 'Job Application'; 
+
+    const emailLink = `mailto:${emailTo}?subject=${encodeURIComponent(subject)}`;
+
+    window.location.href = emailLink;
+  };
+
+
   return (
     // <div className="max-w-[1640px] mx-auto p-4 text-[#040404] mb-10">
     //   <div className="lg:flex flex flex-col">
@@ -117,15 +127,16 @@ const JobListing = () => {
         <div>
         <h1 className="font-bold md:text-2xl text-xl">{m.post}</h1>
         <div className="flex justify-around flex-col md:flex-row gap-7 mt-7">
-          <p className="rounded-full p-3 bg-blue-100 w-[220px] text-center">{m.stream}</p>
-          <p className="rounded-full p-3 bg-gray-100 w-[120px] text-center md:pt-6">{m.workway}</p>
-          <p className="hidden md:flex rounded-full p-3 bg-gray-100 w-[120px] md:px-10 pt-6">{m.place}</p>
+          <p className="rounded-3xl p-3 bg-blue-100  text-center">{m.stream}</p>
+          <p className="rounded-full p-3 w-[100px] bg-gray-100  text-center">{m.workway}</p>
+          <p className="hidden md:flex rounded-full p-3 bg-gray-100  md:px-10 ">{m.place}</p>
 
         </div>
 
         </div>
         <div>
-          <button className="bg-black text-white rounded-full p-3 w-[150px] text-center cursor-pointer mt-5">Apply now</button>
+          <button className="bg-black text-white rounded-full p-3 w-[150px] text-center cursor-pointer mt-5" 
+          onClick={handleClick}>Apply now</button>
         </div>
       </div>
       </div>
