@@ -147,7 +147,7 @@ export const WorksHome = () => {
           <div className="flex">
           <img
             src={wnew8}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[600px] h-[600px]"
           />
           {/* <img
             src={Image2}
@@ -201,7 +201,7 @@ export const WorksHome = () => {
           <div className="flex justify-end px-0">
           <img
             src={wnew3}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1500px] h-[650px] "
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[600px] h-[650px] "
           />
           {/* <img
             src={Image2}
@@ -256,7 +256,7 @@ export const WorksHome = () => {
           <div className="flex">
           <img
             src={wnew7}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[1000px] h-[600px]"
+            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[600px] h-[600px]"
           />
           {/* <img
             src={Image2}
@@ -396,7 +396,7 @@ export const WorksHome = () => {
 
         {/* 1 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">ShoreTrade</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Al-Hub</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -428,8 +428,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image1}
-                    className="mt-8 mb-4 bg-black w-[250px] h-[400px]"
+                    src={wnew9}
+                    className="mt-8 mb-4 w-[250px] h-[400px]"
                 />
                 {/* <img
                     src={Image2}
@@ -450,7 +450,7 @@ export const WorksHome = () => {
 
         {/* 2 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Hello Coach</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Hotel Ware</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -482,7 +482,7 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image2}
+                    src={wnew8}
                     className="mt-8 mb-4 bg-black w-[300px] h-[400px] rounded-3xl"
                 />
                 {/* <img
@@ -504,7 +504,7 @@ export const WorksHome = () => {
 
         {/* 3 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Milray Park</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">EDUCAS GLOBAL</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -536,7 +536,7 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image3}
+                    src={wnew3}
                     className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
                 {/* <img
@@ -558,7 +558,7 @@ export const WorksHome = () => {
 
         {/* 4 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Pollie</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Aquaguard</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -591,7 +591,7 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image4}
+                    src={wnew7}
                     className="mt-8 mb-4 bg-black w-[230px] h-[400px] rounded-3xl"
                 />
                 {/* <img
@@ -614,7 +614,7 @@ export const WorksHome = () => {
 
         {/* 5 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">AiWorld Magazine</h3>
+          <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Farmfed Tourism</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -647,7 +647,7 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image5}
+                    src={wnew5}
                     className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
                 {/* <img
@@ -670,7 +670,7 @@ export const WorksHome = () => {
 
         {/* 6 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
-          <h3 className="text-6xl font-bold some-ele mt-32 lg:mt-0">Wear United</h3>
+          <h3 className="text-6xl font-bold some-ele mt-32 lg:mt-0">PappaBoo</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
           Direction
@@ -703,7 +703,7 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={Image6}
+                    src={wnew6}
                     className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
                 {/* <img
