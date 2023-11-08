@@ -77,11 +77,10 @@ const CareerIntro = () => {
         </div> */}
       <div className="some-ele font-bold">
         <h1 className="mt-10 mb-10 text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] xl:mt-24 mx-auto leading-7">
-        As a living, breathing, thriving company, we are constantly on the look for people who like to test their hands at exciting new challenges. 
+        At our company, we are always seeking individuals who are eager to take on new and thrilling challenges.
         </h1>
         <h1 className="text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] mx-auto leading-7 mb-10">
-        Are you one of them? <br />
-        Reach out and let’s get to know each other.
+        Let's connect and introduce ourselves to each other. We are forward to getting to know you better.
         </h1>
       </div>
     </div>

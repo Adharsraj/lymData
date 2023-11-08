@@ -28,7 +28,7 @@ function InitLocomotiveScroll({ children }) {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-{/* <Popup/> */}
+<Popup/>
 <InitLocomotiveScroll>
 <App />
 </InitLocomotiveScroll>  
