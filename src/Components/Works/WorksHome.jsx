@@ -54,9 +54,9 @@ export const WorksHome = () => {
                 Marketplace that allows sale of seafood direct<br/>
                 from fishery to wholesaler</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
           </div>
           <div className="flex">
@@ -139,9 +139,9 @@ export const WorksHome = () => {
                 for your body, mind and soul withone-to-one<br/>
                 coaching from the best in the business</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
           </div>
           <div className="flex">
@@ -193,9 +193,9 @@ export const WorksHome = () => {
                 Your one-on-one online interior designer<br/>
                 service</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
           </div>
           <div className="flex justify-end px-0">
@@ -248,9 +248,9 @@ export const WorksHome = () => {
                 starting with polycystic ovarian syndrome<br/>
                 (PCOS).</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
           </div>
           <div className="flex">
@@ -303,9 +303,9 @@ export const WorksHome = () => {
                 wide range of topics, from climate change to<br/>
                 education and technology.</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
           </div>
           <div className="flex justify-end">
@@ -358,9 +358,9 @@ export const WorksHome = () => {
                 independent brands and boutiques, all in one<br/>
                 place.</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
           </div>
           <div className="flex justify-end">
@@ -422,9 +422,9 @@ export const WorksHome = () => {
                 Marketplace that allows sale of seafood direct
                 from fishery to wholesaler</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
               <div className="flex flex-col items-center mt-10">
                 <img
@@ -476,9 +476,9 @@ export const WorksHome = () => {
             for your body, mind and soul withone-to-one
             coaching from the best in the business</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
               <div className="flex flex-col items-center mt-10">
                 <img
@@ -530,9 +530,9 @@ export const WorksHome = () => {
             Your one-on-one online interior designer
             service</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
               <div className="flex flex-col items-center mt-10">
                 <img
@@ -585,9 +585,9 @@ export const WorksHome = () => {
             starting with polycystic ovarian syndrome
             (PCOS).</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
               <div className="flex flex-col items-center mt-10">
                 <img
@@ -641,9 +641,9 @@ export const WorksHome = () => {
             wide range of topics, from climate change to
             education and technology.</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
               <div className="flex flex-col items-center mt-10">
                 <img
@@ -697,9 +697,9 @@ export const WorksHome = () => {
             independent brands and boutiques, all in one
             place.</h3>
 
-                <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
+                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
-              </h3>
+              </h3> */}
 
               <div className="flex flex-col items-center mt-10">
                 <img
