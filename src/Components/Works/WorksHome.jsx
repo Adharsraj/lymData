@@ -33,26 +33,27 @@ export const WorksHome = () => {
             <h3 className="text-7xl font-bold px-5 some-ele mt-24">Al-Hub</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Direction
+          Branding
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-         Branding
+        Mobile App
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-         UX & UI Design
+        Web App
         </button>
           </div>
           <div className=" mt-3 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Website Design
+          Performance Marketing
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
         Motion
         </button>
+        <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
+        UI/UX
+        </button>
           </div>
-          <h3 className="text-xl px-5 mt-20">ShoreTrade is a B2B Online Trading <br/>
-                Marketplace that allows sale of seafood direct<br/>
-                from fishery to wholesaler</h3>
+          <h3 className="text-xl px-5 mt-12">AL HUB serves as a virtual guide that assists you in locating<br/> the coolest hangouts this amazing country has to offer.<br/> Our App not only caters to the needs of citizens but also <br/>businesses and tourists. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -118,26 +119,24 @@ export const WorksHome = () => {
             <h3 className="text-7xl font-bold px-5 some-ele mt-24">Hotel Ware</h3>
             <div className=" mt-7 px-5">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Direction
+          Branding
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-         Branding
-        </button>
-        <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-         UX & UI Design
-        </button>
-          </div>
-          <div className=" mt-3 px-5">
-          <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Website Design
+        Performance Marketing
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-20">Create your best life with powerful solutions<br/>
-                for your body, mind and soul withone-to-one<br/>
-                coaching from the best in the business</h3>
+          <div className=" mt-3 px-5">
+          <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
+          UI/UX Design
+        </button>
+        <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
+        Website Design
+        </button>
+          </div>
+          <h3 className="text-xl px-5 mt-12">Ultimate destination for premium hotel wares and cutlery. <br/>Elevate your dining experience with our meticulously <br/>crafted pieces that blend style, functionality, and <br/>timeless beauty.  </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -189,9 +188,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-20">Interior Design & Furniture Shopping Service.<br/>
-                Your one-on-one online interior designer<br/>
-                service</h3>
+          <h3 className="text-xl px-5 mt-12">Dedicated to providing top-notch educational services to<br/> help you reach your academic and career goals. From <br/>distance education to study abroad admission guidance<br/> and assistance to students. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -399,28 +396,29 @@ export const WorksHome = () => {
           <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Al-Hub</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Direction
+          Branding
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-         Branding
+        Mobile App
         </button>
         <div className="mt-2">
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-2 border border-gray-100 rounded">
-         UX & UI Design
+         Web App
         </button> 
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Website Design
+          Performance Marketing
         </button>
         </div>
         <div className="mt-2">
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
         Motion
         </button>
+        <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
+        UI/UX 
+        </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">ShoreTrade is a B2B Online Trading
-                Marketplace that allows sale of seafood direct
-                from fishery to wholesaler</h3>
+          <h3 className="text-xl mt-20">AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer. Our App not only caters to the needs of citizens but also businesses and tourists. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -453,28 +451,26 @@ export const WorksHome = () => {
           <h3 className="text-5xl font-bold some-ele mt-32 lg:mt-0">Hotel Ware</h3>
           <div className=" mt-7 px-0">
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Direction
+          Branding
         </button>
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-         Branding
+        Performance Marketing
         </button>
         <div className="mt-2">
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-2 border border-gray-100 rounded">
-         UX & UI Design
+        Motion
         </button> 
           <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-          Website Design
+          UI/UX Design 
         </button>
         </div>
         <div className="mt-2">
         <button className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-gray-100 rounded">
-        Motion
+        Website Design
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Create your best life with powerful solutions
-            for your body, mind and soul withone-to-one
-            coaching from the best in the business</h3>
+          <h3 className="text-xl mt-20">Ultimate destination for premium hotel wares and cutlery. Elevate your dining experience with our meticulously crafted pieces that blend style, functionality, and timeless beauty.</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -526,9 +522,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Interior Design & Furniture Shopping Service.
-            Your one-on-one online interior designer
-            service</h3>
+          <h3 className="text-xl mt-20">Dedicated to providing top-notch educational services to help you reach your academic and career goals. From distance education to study abroad admission guidance and assistance to students. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
