@@ -37,10 +37,10 @@ const Login = () => {
 <div className='flex w-full justify-around mt-5'>
   <div className='flex justify-center items-center'>
 <input type="checkbox" name="" id="" />
-<h1 className='text-[10px]'>Remember for 30 days </h1>
+<h1 className='text-[12px]'>Remember for 30 days </h1>
   </div>
   <div>
-    <h1 className='text-[10px] '>Forgot password ?</h1>
+    <h1 className='text-[12px] '>Forgot password ?</h1>
   </div>
 </div>
 <div>
@@ -53,7 +53,7 @@ const Login = () => {
 
 
       <div className='hidden md:flex'>
-<img src={img} className=' w-[600px] h-screen md:p-3  rounded-3xl' alt="" srcset="" />
+<img src={img} className=' w-[550px] h-screen md:p-3  rounded-3xl' alt="" srcset="" />
       </div>
     </div>
   )
