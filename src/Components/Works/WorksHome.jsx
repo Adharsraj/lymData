@@ -240,10 +240,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-20">We're making it easier for menstruating people<br/>
-                to manage their complex chronic conditions,<br/>
-                starting with polycystic ovarian syndrome<br/>
-                (PCOS).</h3>
+          <h3 className="text-xl px-5 mt-12">AquaGuard has delivered water purification & water filtration <br/>processes to domestic consumers, businesses and large <br/>organizations throughout Asia & UAE. Reliable and durable<br/> equipment with scalable technology and solutions to provide<br/> safe and healthy water. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -295,10 +292,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-20">Ai World Magazine is a platform collecting<br/>
-                news and information worldwide, covering a<br/>
-                wide range of topics, from climate change to<br/>
-                education and technology.</h3>
+          <h3 className="text-xl px-5 mt-12">Farmfed Tourism is an Initiative of Southern Green Farming <br/>and marketing Multi-State Co-Operative Society Limited <br/>(FARMFED) with 16 years of experience. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -350,10 +344,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-20">WEAR United is a fashion e-commerce<br/>
-                platform that unites Australia’s best<br/>
-                independent brands and boutiques, all in one<br/>
-                place.</h3>
+          <h3 className="text-xl px-5 mt-12">Website design is a living illustration of this insight. It stands<br/> out not for shiny animations or other design techniques, <br/>but for its focus on the customer journey for busy<br/> moms and dads. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -574,10 +565,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">We're making it easier for menstruating people
-            to manage their complex chronic conditions,
-            starting with polycystic ovarian syndrome
-            (PCOS).</h3>
+          <h3 className="text-xl mt-20">AquaGuard has delivered water purification & water filtration processes to domestic consumers, businesses and large organizations throughout Asia & UAE. Reliable and durable equipment with scalable technology and solutions to provide safe and healthy water. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -630,10 +618,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Ai World Magazine is a platform collecting
-            news and information worldwide, covering a
-            wide range of topics, from climate change to
-            education and technology.</h3>
+          <h3 className="text-xl mt-20">Farmfed Tourism is an Initiative of Southern Green Farming and marketing Multi-State Co-Operative Society Limited (FARMFED) with 16 years of experience. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -686,10 +671,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">WEAR United is a fashion e-commerce
-            platform that unites Australia’s best
-            independent brands and boutiques, all in one
-            place.</h3>
+          <h3 className="text-xl mt-20">Website design is a living illustration of this insight. It stands out not for shiny animations or other design techniques, but for its focus on the customer journey for busy moms and dads. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
