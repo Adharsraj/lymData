@@ -19,7 +19,7 @@ export const WorksHome = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 some-ele  mb-20   gap-8 overflow-hidden">
       <div className="hidden lg:block">
-        <h1 className="mt-20 xxl:text-9xl font-aeonic font-extrabold px-32 animate-slide-up">I craft digital<br/>
+        <h1 className="mt-20 xxl:text-9xl font-aeonic font-extrabold px-32 animate-slide-up">We craft digital<br/>
             experiences<br/>
             for humans</h1>
         {/* <h1 className="mt-10 text-xl  px-32">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
@@ -374,7 +374,7 @@ export const WorksHome = () => {
       </div>
 
       <div className="lg:hidden">
-      <h1 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">I craft digital<br/>
+      <h1 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">We craft digital<br/>
             experiences<br/>
             for humans</h1>
         {/* <h1 className="mt-10">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
