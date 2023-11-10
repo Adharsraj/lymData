@@ -136,7 +136,7 @@ It takes less than a minute of your time.
     <h1>Email</h1>
     <h1 onClick={handleClick} className="cursor-pointer">:  info@lymdata.com</h1>
     <h1 className="md:pt-1">General Enquiry</h1>
-    {/* <h1 className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1> */}
+    {/* <h1 onClick={handleCall} className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1> */}
     <a href="tel:+919946633752">: +91 99466 33752</a>
 
     <h1 className="md:pt-1">Sales Enquiry</h1>
@@ -169,7 +169,8 @@ It takes less than a minute of your time.
 <h1>Email</h1>
     <h1 onClick={handleClick} className="cursor-pointer">:info@lymdata.com</h1>
     <h1 className="pt-1">General Enquiry</h1>
-    <h1 className="pt-1">: +91 9446 054 134</h1>
+    <h1 onClick={handleCall} className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1>
+    {/* <a href="tel:+919946633752">: +91 99466 33752</a> */}
 
     <h1 className="pt-1">Sales Enquiry</h1>
     <h1 className="pt-1">: +91 9446 054 134</h1>
