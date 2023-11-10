@@ -419,7 +419,7 @@ const DataSlide1 = (props) => {
   }
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <InView
         as="div"
         threshold={!isMobile ? "0.7" : "0.3"}

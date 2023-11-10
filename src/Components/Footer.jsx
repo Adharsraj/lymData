@@ -136,7 +136,8 @@ It takes less than a minute of your time.
     <h1>Email</h1>
     <h1 onClick={handleClick} className="cursor-pointer">:  info@lymdata.com</h1>
     <h1 className="md:pt-1">General Enquiry</h1>
-    <h1 onClick={handleCall} className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1>
+    {/* <h1 className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1> */}
+    <a href="tel:+919946633752">: +91 99466 33752</a>
 
     <h1 className="md:pt-1">Sales Enquiry</h1>
     <h1 className="md:pt-1">:  +91 9446 054 134</h1>
@@ -180,7 +181,7 @@ It takes less than a minute of your time.
     <h1 className="pt-1">:+91 8606 483 399</h1> */}
 
 </div>
-<div className="flex lg:gap-3 pt-14 gap-3 px-7">
+<div className="flex lg:gap-3 pt-14 gap-3 px-7 items-center">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
           <ul>
             <li>
@@ -238,8 +239,9 @@ It takes less than a minute of your time.
       </div>
       
 <div className="lg:hidden pt-10 some-ele">
-    <div className=" text-center">
-    Privacy Policy|Terms & Conditions
+    <div className=" text-center flex items-center px-10">
+    <Link to="/privacy"><h1>Privacy Policy </h1></Link>
+  <Link to="/terms"><h1> | Terms & Conditions </h1></Link>
     </div>
     <div className="w-[300px] mx-auto text-center pt-5 pb-5">
     LYMDATA © 2023 All rights reserved
@@ -248,9 +250,12 @@ It takes less than a minute of your time.
 </div>
 <div className="hidden lg:flex justify-around lg:pt-10 some-ele">
   <h1 className="font-light">LYMDATA © 2023 All rights reserved</h1>
-  <h1 className="font-light">Privacy Policy | Terms & Conditions</h1>
-  <div className="flex lg:gap-3">
-          <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
+  <div className="flex">
+  <Link to="/privacy"><h1 className="font-light">Privacy Policy </h1></Link>
+  <Link to="/terms"><h1 className="font-light"> | Terms & Conditions </h1></Link>
+  </div>
+  <div className="flex lg:gap-3 items-center">
+          <h3 className="pb-1 text-[#c1bfbf] hover:text-white ">Follow us :</h3>
           <ul>
             <li>
                     <div className="flex gap-2 lg:gap-5">
