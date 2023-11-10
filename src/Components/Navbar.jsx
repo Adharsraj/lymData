@@ -17,10 +17,11 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
     // { path: "/about", label: "About" },
     { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
-    { path: "/contact", label: "Contact" },
     { path: "/works", label: "Works" },
     { path: "/blog", label: "Blogs" },
     { path: "/careers", label: "Careers" },
+    { path: "/contact", label: "Contact" },
+    
   ];
 
   const menuRef = useRef(null);
@@ -248,9 +249,9 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
               )}
               <div className="text-white md:text-2xl mt-10 px-10">
                 <ul>
-                  <li className="lg:mb-5 text-[#646060] hover:text-white ">
+                  {/* <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/login">Login</Link>
-                  </li>
+                  </li> */}
 
                   {/* <li className="lg:mb-5 text-[#646060] hover:text-white ">
                     <Link to="/blog">Blogs</Link>

@@ -142,7 +142,7 @@ const Cultureandmore = () => {
           <div>
             <img
               src={img3}
-              className="ml-14 lg:ml-52 md:ml-0 md:mt-0 md:mb-44  mt-10 md:w-[350px] md:h-[350px]"
+              className="ml-14 lg:ml-52 md:ml-0 md:mt-0 md:mb-44 mb-36 mt-10 md:w-[350px] md:h-[350px]"
             />
           </div>
         </div>

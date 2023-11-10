@@ -10,6 +10,20 @@ import {
 
 const Footer= () => {
   const scale = 0.9; 
+
+  const handleClick = () => {
+    const emailTo = 'info@lymdata.com';
+    const subject = 'Enquiry'; 
+
+    const emailLink = `mailto:${emailTo}?subject=${encodeURIComponent(subject)}`;
+
+    window.location.href = emailLink;
+  };
+
+
+  const handleCall = () => {
+    window.location.href = `tel:${phoneNumber.replace(/ /g, '')}`;
+  };
   
   return (
     <div className="max-w-[1640px] mx-auto bg-black text-white md:p-3 md:pt-7">
@@ -39,11 +53,12 @@ I t takes less than a minute of your time.
   </button>
 </div> */}
 
+<Link to="/contact">
 <div className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
-                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-blue-600 text-white transition-all border transform hover:translate-x-12">
+                <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
                 Request a quote
                 </h1>
-                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-blue-600 text-white border fill-current">
+                <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
       <g transform={`scale(${scale})`}>
         <path
@@ -54,8 +69,9 @@ I t takes less than a minute of your time.
     </svg>
                 </h1>
               </div>
+</Link>
       </div>
-      <div className="hidden  lg:px-[6%] md:flex justify-between "> 
+      <div className="hidden  lg:px-[5%] md:flex justify-between "> 
       <div className="some-ele font-light">
       <h1 className="md:text-[50px]">
         Get started now!
@@ -67,7 +83,8 @@ It takes less than a minute of your time.
         </div>
    
 
-<div className="flex  group hover:cursor-pointer gap-2   lg:mb-7">
+    <Link to="/contact">
+    <div className="flex  group hover:cursor-pointer gap-2   lg:mb-7">
                 <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[300px] bg-black text-white transition-all border transform hover:translate-x-16">
                 Request a quote
                 </h1>
@@ -83,17 +100,18 @@ It takes less than a minute of your time.
     </svg>
                 </h1>
               </div>
+    </Link>
       </div>
      
-      <div className="grid grid-cols-2 md:grid-cols-3 px-10 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5 some-ele font-light">
+      <div className="grid grid-cols-2 md:grid-cols-3 px-7 lg:px-16 lg:grid-cols-4 gap-5 lg:justify-between list-none md:p-5 some-ele font-light">
         <div className="lg:px-10">
           <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Company</ul>
-          <li className="">About</li>
-          <li className="md:pt-1 pt-1">Services</li>
-          <li className="md:pt-1 pt-1">Industries</li>
-          <li className="md:pt-1 pt-1">Works</li>
-          <li className="md:pt-1 pt-1">Careers</li>
-          <li className="md:pt-1 pt-1">Contact</li>
+          <Link to="/about"><li className="">About</li></Link>
+          <Link to="/services"><li className="md:pt-1 pt-1">Services</li></Link>
+          <Link to="/works"><li className="md:pt-1 pt-1">Works</li></Link>
+          <Link to="/blog"><li className="md:pt-1 pt-1">Blogs</li></Link>
+          <Link to="/careers"><li className="md:pt-1 pt-1">Careers</li></Link>
+          <Link to="/contact"><li className="md:pt-1 pt-1">Contact</li></Link>
         </div>
         <div>
           <ul className="md:py-10 md:text-[24px] py-5 text-[16px]">Services</ul>
@@ -106,18 +124,19 @@ It takes less than a minute of your time.
         </div>
         <div>
           <ul className="md:py-10 md:text-[24px] py-5 text-[20px]">Insights</ul>
-          <li className="">The Power of Predictive Analytics</li>
-          <li className="md:pt-1 pt-1 whitespace-nowrap">Data Privacy in the Digital Age</li>
-          <li className="md:pt-1 pt-1 whitespace-nowrap">Data Analytics for E-commerce</li>
+          <Link to="/blog/1"><li className="md:pt-1 pt-1 whitespace-nowrap">The Power of Predictive Analytics</li></Link>
+          <Link to="/blog/2"><li className="md:pt-1 pt-1 whitespace-nowrap">Data Privacy in the Digital Age</li></Link>
+          <Link to="/blog/3"><li className="md:pt-1 pt-1 whitespace-nowrap">Data Analytics for E-commerce</li></Link>
+          <Link to="/blog/4"><li className="md:pt-1 pt-1 whitespace-nowrap">Reimagining reality as we know it</li></Link>
         </div>
         <div  className="hidden lg:block">
     <h1 className="md:py-10 md:text-[24px]">Connect</h1>
     <div className="flex flex-col gap-1">
 <div className="grid grid-cols-2">
     <h1>Email</h1>
-    <h1>:  info@lymdata.com</h1>
+    <h1 onClick={handleClick} className="cursor-pointer">:  info@lymdata.com</h1>
     <h1 className="md:pt-1">General Enquiry</h1>
-    <h1 className="md:pt-1">:  +91 9446 054 134</h1>
+    <h1 onClick={handleCall} className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1>
 
     <h1 className="md:pt-1">Sales Enquiry</h1>
     <h1 className="md:pt-1">:  +91 9446 054 134</h1>
@@ -143,11 +162,11 @@ It takes less than a minute of your time.
       </div>
       </div>
       <div  className="lg:hidden some-ele" >
-    <h1 className="text-[20px] pt-7 px-5">Connect</h1>
+    <h1 className="text-[20px] pt-7 px-7">Connect</h1>
     <div className="flex flex-col gap-0 ">
-<div className="grid grid-cols-2 px-5 pt-3">
+<div className="grid grid-cols-2 px-7 pt-3">
 <h1>Email</h1>
-    <h1>:info@lymdata.com</h1>
+    <h1 onClick={handleClick} className="cursor-pointer">:info@lymdata.com</h1>
     <h1 className="pt-1">General Enquiry</h1>
     <h1 className="pt-1">: +91 9446 054 134</h1>
 
@@ -161,7 +180,7 @@ It takes less than a minute of your time.
     <h1 className="pt-1">:+91 8606 483 399</h1> */}
 
 </div>
-<div className="flex lg:gap-3 pt-14 gap-5 px-5">
+<div className="flex lg:gap-3 pt-14 gap-3 px-7">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
           <ul>
             <li>
@@ -234,7 +253,7 @@ It takes less than a minute of your time.
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white">Follow us :</h3>
           <ul>
             <li>
-                    <div className="flex gap-2 lg:gap-10">
+                    <div className="flex gap-2 lg:gap-5">
                       
                       <span
                         onClick={() =>
@@ -243,7 +262,7 @@ It takes less than a minute of your time.
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialFacebook />
                       </span>
@@ -251,7 +270,7 @@ It takes less than a minute of your time.
                         onClick={() =>
                           window.open("https://twitter.com/lymdata", "_blank")
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialTwitter />
                       </span>
@@ -262,7 +281,7 @@ It takes less than a minute of your time.
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full "
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialInstagram />
                       </span>
@@ -273,7 +292,7 @@ It takes less than a minute of your time.
                             "_blank"
                           )
                         }
-                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full"
+                        className="  cursor-pointer text-[#646060] hover:text-white border border-black hover:border-white rounded-full p-2"
                       >
                         <SlSocialLinkedin />
                       </span>

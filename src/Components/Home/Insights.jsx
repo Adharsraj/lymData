@@ -2,11 +2,12 @@ import React from 'react'
 import insight1 from '../../assets/Images/Insights1.png'
 import insight2 from '../../assets/Images/Insights2.png'
 import insight3 from '../../assets/Images/Insights3.jpg'
+import { Link } from "react-router-dom";
 import arrow from '../../assets/Images/right_arrow.png'
 
 const Insights = () => {
   return (
-    <div className="max-w-[1640px] mx-auto min-h-screen bg-black">
+    <div className="max-w-[1640px] mx-auto md:min-h-screen bg-black">
       <h1 className='lg:text-[70px] lg:p-12 lg:px-28 text-[35px] p-3 some-ele text-white'>Insights </h1>
       <div className="flex flex-col lg:flex-row lg:px-28 lg:justify-center gap-4 p-2 lg:gap-16">
         <div className="flex lg:flex-col    gap-5 shadow-2xl ">
@@ -61,7 +62,8 @@ const Insights = () => {
   </button>
 </div> */}
 
-<div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px]  lg:mb-7 pt-5 items-center justify-center">
+      <Link to="/blog">
+      <div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px]  lg:mb-7 pb-10 px-5 items-center justify-center">
                 <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[500px] bg-white text-black font-bold transition-all transform hover:translate-x-14">
                 Explore all insights
                 </h1>
@@ -69,6 +71,7 @@ const Insights = () => {
                   <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
                 </h1>
               </div>
+      </Link>
 
     </div>
   )

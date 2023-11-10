@@ -5,8 +5,8 @@ const FourCultures = () => {
   return (
     <div id="fourculture" className="bg-[#282728]">
       <div className="max-w-[1640px] mt-[-150px] text-white  mx-auto p-2  ">
-        <h2 className=" invisible mt-40 mb-32">gh</h2>
-        <div className="mb-32 md:hidden ">
+        <h2 className=" invisible mt-10 mb-10">gh</h2>
+        <div className="mb-12 md:hidden ">
           {fourCultures.map((m) => (
             <div id={m.id} className="mb-16 some-ele">
               <img src={m.img} alt="star1" className="" />
