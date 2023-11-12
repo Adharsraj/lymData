@@ -244,7 +244,7 @@ It takes less than a minute of your time.
       </div>
       
 <div className="lg:hidden pt-10 some-ele">
-    <div className=" text-center flex items-center px-10">
+    <div className=" text-center flex justify-center mx-auto">
     <Link to="/privacy"><h1>Privacy Policy </h1></Link>
   <Link to="/terms"><h1> | Terms & Conditions </h1></Link>
     </div>

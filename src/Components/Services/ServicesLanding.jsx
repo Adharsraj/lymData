@@ -546,7 +546,7 @@ const ServicesLanding = () => {
           id="archieve"
           className="max-w-[1640px]  mx-auto p-4 font-dm  relative  md:text-xl bg-[#F4F4F4]  "
         >
-          <div className="relative mt-20   xl:mt-40 text-[#000] text-5xl lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
+          <div className="relative mt-5   xl:mt-40 text-[#000] text-[30px] lg:text-6xl xl:w-full   xl:text-8xl  lg:mx-auto lg:w-[900px]">
             <div className="xl:mt-[-150px] md:mt-[-130px] mt-[-200px]  mb-20">
               <div className="relative overflow-hidden md:h-[400px] h-[550px] lg:h-[500px] mb-10 some-element">
                 <img

@@ -140,9 +140,9 @@ const Hero = ({ showImage }) => {
           <div className="">
             <div className=" ">
             {showWowText ?(
-                  <section className="max-w-[1640px] ">
+                  <section className="max-w-[1640px]">
                
-               <div className=" flex items-center text-center z-0 ">
+               <div className=" flex items-center text-center z-0">
                   <div className="  flex flex-col md:justify-center font-aeonic uppercase text-[134px] mx-auto">
                     <div className="col  ">
                       <h6 className="md:text-left whitespace-nowrap   xl:w-full xl:text-[134px] lg:text-[100px]  md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">

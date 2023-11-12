@@ -127,7 +127,7 @@ const JobListing = () => {
         <div>
         <h1 className="font-bold md:text-2xl text-xl">{m.post}</h1>
         <div className="flex justify-around flex-col md:flex-row gap-7 mt-7">
-          <p className="rounded-3xl p-3 bg-blue-100  text-center">{m.stream}</p>
+          <p className="rounded-3xl p-3 bg-blue-100  w-[150px] text-center">{m.stream}</p>
           <p className="rounded-full p-3 w-[100px] bg-gray-100  text-center">{m.workway}</p>
           <p className="hidden md:flex rounded-full p-3 bg-gray-100  md:px-10 ">{m.place}</p>
 
