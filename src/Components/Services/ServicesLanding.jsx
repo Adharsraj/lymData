@@ -529,12 +529,12 @@ const ServicesLanding = () => {
                       we are experts in.
                     </span>
                   </h1>
-                  <img
+                  {/* <img
                     onClick={handleClicktowithservices}
                     className="absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10 cursor-pointer"
                     src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
                     alt=""
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

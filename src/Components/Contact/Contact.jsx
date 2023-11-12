@@ -9,6 +9,8 @@ import "react-toastify/dist/ReactToastify.css";
 import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
+  const scale = 0.9; 
+  
   const [showform, setshowform] = useState(true);
   const [loading, setLoading] = useState(false);
   const [sucess, setsucess] = useState(false);
@@ -467,7 +469,7 @@ const Contact = () => {
                   <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
                     <div className="flex  group  gap-2 ">
 
-                    {sucess ? (
+                    {/* {sucess ? (
        <h2 className="bg-black  text-white text-center w-[300px] p-2">
        Mail sent successfully, our team will get in touch with you soon
      </h2>
@@ -504,6 +506,28 @@ const Contact = () => {
           "Submit"
         )}
       </button>
+    )} */}
+
+{sucess ? (
+       <h2 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
+       Mail sent successfully, our team will get in touch with you soon
+     </h2>
+    ) : (
+      <div onClick={handleSubmit} className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
+      <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-14">
+      Submit
+      </h1>
+      <h1 className="p-3 mt-10 flex items-center rounded-full w-[45px] bg-black text-white border fill-current">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+<g transform={`scale(${scale})`}>
+<path
+d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
+data-name="Right"
+/>
+</g>
+</svg>
+      </h1>
+    </div>
     )}
 
     

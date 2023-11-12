@@ -138,13 +138,14 @@ It takes less than a minute of your time.
     <h1 className="md:pt-1">General Enquiry</h1>
     {/* <h1 onClick={handleCall} className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1> */}
     {/* <a href="tel:+919946633752">: +91 99466 33752</a> */}
-    <Link to="tel:+919946633752">: +91 99466 33752</Link>
+    <Link to="tel:+91 9446 054 134">: +91 9446 054 134</Link>
 
     <h1 className="md:pt-1">Sales Enquiry</h1>
-    <h1 className="md:pt-1">:  +91 9446 054 134</h1>
+    <Link to="tel:+91 9446 054 134">: +91 9446 054 134</Link>
 
     <h1 className="md:pt-1">HR Enquiry</h1>
-    <h1 className="md:pt-1">:  +91 7034 588 388</h1>
+    {/* <h1 className="md:pt-1">:  +91 7034 588 388</h1> */}
+    <Link to="tel:+91 7034 588 388">: +91 7034 588 388</Link>
 
     {/* <h1 className="md:pt-1">Whatsapp</h1>
     <h1 className="md:pt-1">:+91 8606 483 399</h1> */}
@@ -172,13 +173,14 @@ It takes less than a minute of your time.
     <h1 className="pt-1">General Enquiry</h1>
     {/* <h1 onClick={handleCall} className="md:pt-1 cursor-pointer">:  +91 9446 054 134</h1> */}
     {/* <a href="tel:+919946633752">: +91 99466 33752</a> */}
-    <Link to="tel:+919946633752">: +91 99466 33752</Link>
+    <Link to="tel:+91 9446 054 134">: +91 9446 054 134</Link>
 
     <h1 className="pt-1">Sales Enquiry</h1>
-    <h1 className="pt-1">: +91 9446 054 134</h1>
+    <Link to="tel:+91 9446 054 134">: +91 9446 054 134</Link>
 
     <h1 className="pt-1">HR Enquiry</h1>
-    <h1 className="pt-1">: +91 7034 588 388</h1>
+    {/* <h1 className="pt-1">: +91 7034 588 388</h1> */}
+    <Link to="tel:+91 7034 588 388">: +91 7034 588 388</Link>
 
     {/* <h1 className="pt-1">Whatsapp</h1>
     <h1 className="pt-1">:+91 8606 483 399</h1> */}

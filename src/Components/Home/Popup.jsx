@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 const Popup = () => {
+  const scale = 0.9; 
+
   const [isVisible, setIsVisible] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
@@ -53,6 +55,46 @@ const Popup = () => {
     });
   };
 
+  // const validateForm = () => {
+  //   let valid = true;
+  //   const updatedErrors = {
+  //     fullName: "",
+  //     email: "",
+  //     mobileNumber: "",
+  //     companyName: "",
+  //     message: "",
+  //   };
+
+  //   if (!/^[a-zA-Z0-9_]+$/.test(formData.fullName)) {
+  //     updatedErrors.fullName = 'Name can only contain letters, numbers, and underscores';
+  //     valid = false;
+  //   }
+
+  //   // Email validation: a simple regex for basic email format
+  //   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+  //     updatedErrors.email = 'Invalid email address';
+  //     valid = false;
+  //   }
+
+  //   if (!/^[0-9-]+$/.test(formData.mobileNumber)) {
+  //     updatedErrors.mobileNumber = 'Invalid phone number';
+  //     valid = false;
+  //   }
+
+  //   if (!/^(http|https):\/\/[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+$/.test(formData.companyName)) {
+  //     updatedErrors.companyName = 'Invalid company URL';
+  //     valid = false;
+  //   }
+
+  //   if (formData.message.trim() === '') {
+  //     updatedErrors.message = 'Message cannot be empty';
+  //     valid = false;
+  //   }
+
+  //   setErrors(updatedErrors);
+  //   return valid;
+  // };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
@@ -91,7 +133,7 @@ const Popup = () => {
     }
   };
 
-  // console.log("formdata", formData);
+  
 
   return (
     <>
@@ -179,16 +221,16 @@ const Popup = () => {
             placeholder="What ae your biggest website pain points?"
           />
         {/* <h1 className="mt-5 bg-green-300 p-4 w-[200px]  text-center text-xl  ">submit</h1> */}
-        <div className="flex justify-center items-center ">
+        {/* <div className="flex justify-center items-center ">
     {sucess ? (
-       <h2 className="bg-gradient-to-r from-indigo-400 to-cyan-400 text-white text-center w-[300px] p-2">
+       <h2 className="bg-black text-white text-center w-[300px] p-2 rounded-full">
        Mail sent successfully, our team will get in touch with you soon
      </h2>
     ) : (
       <button
         onClick={handleSubmit}
         type="submit"
-        className={`mt-5 bg-green-300 p-4 w-[200px]  text-center text-xl  ${
+        className={`mt-5 bg-black border p-2 w-[200px] rounded-full text-center text-xl  ${
           loading ? "bg-black" : "hover:from-indigo-400 hover:to-cyan-400"
         }`}
         disabled={loading}
@@ -219,7 +261,33 @@ const Popup = () => {
         )}
       </button>
     )}
-  </div>
+  </div> */}
+
+{sucess ? (
+       <h2 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
+       Mail sent successfully, our team will get in touch with you soon
+     </h2>
+    ) : (
+      <div onClick={handleSubmit} className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
+      <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
+      Submit
+      </h1>
+      <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+<g transform={`scale(${scale})`}>
+<path
+d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
+data-name="Right"
+/>
+</g>
+</svg>
+      </h1>
+    </div>
+    )}
+
+
+
+
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ const Services = () => {
               </h1>
             </div>
           </div>
-          <Link to="/services">
+          <Link to="/contact">
             <div className="flex md:hidden group hover:cursor-pointer gap-4 w-[240px] xl:w-[560px] md:mx-auto md:w-[600px">
               <h1 className="p-2 md:mt-10 text-white rounded-full w-[230px] bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
                 Lets build together
@@ -57,7 +57,7 @@ const Services = () => {
                 See what this amazing team is capable of.
               </h1>
             </div>
-            <Link to="/services">
+            <Link to="/contact">
               <div className="flex group hover:cursor-pointer gap-4 w-[600px] xxl:w-[830px]  mx-auto lg:mb-40">
                 <h1 className="p-2  flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
                   Lets build together
