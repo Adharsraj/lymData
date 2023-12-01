@@ -12,6 +12,7 @@ import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 import DataSlide1 from "../Components/Home/DataSlide1";
 import Services from "../Components/Home/Services";
 import Insights from "../Components/Home/Insights";
+import DhnnScroller from "../Components/Home/DhnnScroller";
 
 
 const Home = () => {
@@ -24,7 +25,8 @@ const Home = () => {
   return (
     <>
          <Navbar onMenuClose={handleMenuClose} />
-      <Hero showImage={showImage} />
+      {/* <Hero showImage={showImage} /> */}
+      <DhnnScroller />
         <HowweThinkdhn />
 {/* <LocomotiveScroll/> */}
         <DataSlide1 />
