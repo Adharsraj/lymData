@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const HowweThinkdhn = () => {
   return (
-    <div id="howethink" className="bg-[#F8FAFC] overflow-hidden min-h-screen">
+    <div id="howethink" className="bg-[#F8FAFC] overflow-hidden textSliderContainerd  min-h-screen">
       <div className="max-w-[1640px]  mx-auto p-4 font-helvetica  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
           <div className="md:hidden">

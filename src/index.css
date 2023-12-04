@@ -5,9 +5,24 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-//smoothscrolll
+.imBackground{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664438942574-e56510dc5ce5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.here{
+    font-weight: 900;
+    font-size: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media2.giphy.com/media/HkEDr0jVekaZO/giphy.gif?cid=790b76115151ed408a9cae4539eb6351baba5d85998ab783&ct=g&rid=giphy.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.9;
+  }
 
 /*! locomotive-scroll v3.6.1 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
 html.has-scroll-smooth {
@@ -516,12 +531,23 @@ span.two {
   margin-top: 7px;
   margin-left: 10px;
 }
+.headerz{
+    z-index: 1; 
+
+    /* other css properties below */
+}
+
+.imzindex{
+  z-index: 900; /* Set a high z-index to ensure it's on top of other elements */
+
+}
 
 .menu {
   position: fixed;
   background: #000;
   top: -100%;
   z-index: 500; /* Set a high z-index to ensure it's on top of other elements */
+
 }
 
 .some-element {
@@ -993,6 +1019,17 @@ span.two {
     }
 }
 
+.highzindex{
+    z-index: 999;
+
+}
+.textSliderContainerd{
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    z-index: 2
+}
 .textSliderContainer {
     align-items: flex-start;
     background-color: black;
