@@ -13,6 +13,7 @@ import DataSlide1 from "../Components/Home/DataSlide1";
 import Services from "../Components/Home/Services";
 import Insights from "../Components/Home/Insights";
 import DhnnScroller from "../Components/Home/DhnnScroller";
+import Within7ForService from "../Components/Home/Within7ForService";
 
 
 const Home = () => {
@@ -33,9 +34,10 @@ const Home = () => {
         {/* <ProcessDrivendhn /> */}
         {/* <ProcessDrivenFive /> */}
         {/* <IndustriesWeknowdhn /> */}
-        <Services />
+        {/* <Services /> */}
+        <Within7Industriesdhn />
         <Insights />
-        {/* <Within7Industriesdhn /> */}
+        {/* <Within7ForService/> */}
         <Marque />
         <Footer />  
     </>

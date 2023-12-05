@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { sevenIndustries } from "../../assets/Data/data";
+import { servv, sevenIndustries } from "../../assets/Data/data";
 
 const Within7Industriesdhn = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -66,13 +66,12 @@ const Within7Industriesdhn = () => {
   };
 
   return (
-    <div id="withinseven" className="max-w-[1840px] mx-auto overflow-hidden">
+    <div id="withinseven" className="max-w-[1840px] textSliderContainerd mx-auto overflow-hidden">
       <div className=" hidden md:block">
-        <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">
-          Within these 7 industries
-        </h1>
+      <h1 className='lg:text-[70px] text-[35px] font-bold lg:px-28 text-black px-5 some-element'>Services</h1>
 
-        {sevenIndustries.map((m, index) => (
+
+        {/* {sevenIndustries.map((m, index) => (
           <div
             key={m.id}
             id={m.id}
@@ -115,7 +114,57 @@ const Within7Industriesdhn = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
+   {/* Replace the existing div */}
+{servv.map((m, index) => (
+   <div
+      key={m.id}
+      id={m.id}
+      className={`md:flex group md:px-8 w-full h-[320px]   lg:text-lg lg:py-8 xl:py-16 ${
+         hoveredId === m.id ? "bg-image" : ""
+      } ${index !== sevenIndustries.length - 1 ? "border-b" : ""}`}
+      onMouseEnter={() => handleMouseEnter(m.id)}
+      onMouseLeave={handleMouseLeave}
+   >
+      {/* Add a conditional rendering for video or image */}
+      {hoveredId === m.id ? (
+         <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+            src={m.img} // Replace 'm.video' with the path to your video
+         />
+      ) : (
+        null
+      )}
+     <div>
+              <h1 className="mt-3 mb-3 textSliderContainerd group-hover:text-white  md:w-[200px] lg:w-[320px] xl:w-[500px] font-semibold">
+                {m.title}
+              </h1>
+            </div>
+            <div>
+              <h1 className=" textSliderContainerd group-hover:text-white">{m.desc}</h1>
+
+              <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
+                <div className="flex  group/item hover:cursor-pointer ">
+                  <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
+                    What we do
+                  </h1>
+                  <h1 className="p-4 rounded-full textSliderContainerd  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+                    <img
+                      className="lg:w-56"
+                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                      alt="Arrow Right"
+                    />
+                  </h1>
+                </div>
+              </div>
+            </div>   </div>
+))}
+
+
       </div>
 
       <div className="  md:hidden">

@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+.bg-image {
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .bg-image video {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ 
 html {
   scroll-behavior: smooth;
 }

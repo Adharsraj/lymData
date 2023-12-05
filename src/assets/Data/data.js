@@ -41,42 +41,42 @@ export const servv = [
   {
     id: 1,
     title: "Web Development",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299446/Web_Development_skerke.jpg",
+    img: "https://player.vimeo.com/external/528744165.sd.mp4?s=9ca8f47189d01e2dc77feb565f9e211aa8518fd4&profile_id=164&oauth2_token_id=57447761",
     desc: "Our team specializes in designing web experiences that prioritize the needs of users and drive business success.",
   },
 
   {
     id: 2,
     title: "Mobile App Development",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299412/Mobile_App_Development_nzp0uf.jpg",
+    img: "https://player.vimeo.com/external/451919864.sd.mp4?s=b1c305a681a31868b221683ed1bbc80f33c9e85b&profile_id=164&oauth2_token_id=57447761",
     desc: "We have a proven track record of creating highly popular and widely used apps. By combining data insights with the principles of behavioural science.",
   },
 
   {
     id: 3,
     title: "Performance Marketing",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299412/Performance_Marketing_uggdut.jpg",
+    img: "https://player.vimeo.com/external/533386598.sd.mp4?s=89c3d004e8d9e70e94292ae802cf5ef926bcda3c&profile_id=164&oauth2_token_id=57447761",
     desc: "We specialize in data-driven marketing and offer a range of services including SEO, PPC, social media, and email marketing.",
   },
 
   {
     id: 4,
     title: "Custom Software Development",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299432/Custom_Software_Development_w4gjyv.jpg",
+    img: "https://player.vimeo.com/external/553360392.sd.mp4?s=7b5a04145b0adab7892780d13ffa60fc26080cd3&profile_id=165&oauth2_token_id=57447761",
     desc: "Our team specializes in developing tailor-made software solutions that align with your unique business needs and objectives.",
   },
 
   {
     id: 5,
     title: "Data Engineering",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299432/Data_Engineering_om8okj.jpg",
+    img: "https://player.vimeo.com/external/368789132.sd.mp4?s=90efbe5a51f1331fd9b4ef2851928ddaefee2023&profile_id=164&oauth2_token_id=57447761",
     desc: "Our company recognizes the significant impact that data-driven insights can have on businesses. With advanced analytics techniques.",
   },
 
   {
     id: 6,
     title: "Metaverse",
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1698299412/Metaverse_ucydif.jpg",
+    img: "https://cdn.pixabay.com/vimeo/703067747/metaverse-115034.mp4?width=640&hash=53f9be70501cfb4782d903d1453281340d58946d",
     desc: "Explore the abundant possibilities offered by the captivating world of the Metaverse, the one that you must experience.",
   },
 ];
