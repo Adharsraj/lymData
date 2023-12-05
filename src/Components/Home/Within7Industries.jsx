@@ -68,7 +68,6 @@ const Within7Industriesdhn = () => {
   return (
     <div id="withinseven" className="max-w-[1840px] textSliderContainerd mx-auto overflow-hidden">
       <div className=" hidden md:block">
-      <h1 className='lg:text-[70px] text-[35px] font-bold lg:px-28 text-black px-5 some-element'>Services</h1>
 
 
         {/* {sevenIndustries.map((m, index) => (
@@ -140,12 +139,12 @@ const Within7Industriesdhn = () => {
         null
       )}
      <div>
-              <h1 className="mt-3 mb-3 textSliderContainerd group-hover:text-white  md:w-[200px] lg:w-[320px] xl:w-[500px] font-semibold">
+              <h1 className="mt-3 mb-8 h-10 textSliderContainerd  group-hover:text-white  md:w-[200px] lg:w-[320px] xl:w-[500px] font-semibold lg:text-xl xl:text-[30px]">
                 {m.title}
               </h1>
             </div>
             <div>
-              <h1 className=" textSliderContainerd group-hover:text-white">{m.desc}</h1>
+              <h1 className=" textSliderContainerd group-hover:text-white text-xl">{m.desc}</h1>
 
               <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
                 <div className="flex  group/item hover:cursor-pointer ">
