@@ -167,7 +167,7 @@ const Within7Industriesdhn = () => {
 
       </div>
 
-      <div className="  md:hidden">
+      <div className="  md:hidden textSliderContainerd">
         <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">
           Within these 7 industries
         </h1>
