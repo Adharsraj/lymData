@@ -14,7 +14,7 @@ const DhnnScroller = ({ showImage }) => {
     useGSAP(()=>{
         const vh = (value) => `${value * window.innerHeight / 100}px`;
 
-        gsap.to('.here', {
+        gsap.to('.hider', {
           opacity: 0, // Start with opacity 0
           ease: 'power2.inOut', // Easing function for a smoother effect
 
@@ -318,10 +318,10 @@ const DhnnScroller = ({ showImage }) => {
      {/* <div className='here'>
                 <h1> im here</h1>
                </div> */}
-<div className='fixed headerz top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 text-gray-400'>
+<div className='fixed headerz top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 text-400 text-gray-300'>
         <div className="max-w-[1640px] mx-auto overflow-hidden">
           <div className="">
-            <div className=" ">
+            <div className=" hider">
             {showWowText ?(
                   <section className="max-w-[1640px]">
                
@@ -355,11 +355,11 @@ const DhnnScroller = ({ showImage }) => {
                 ):
               <section className="max-w-[1640px]  ">
                
-<div className="  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
+<div className=" hider  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
   <div className=" flex  flex-col md:justify-center font-aeonic uppercase   mx-auto">
-    <div className=" here">
+    <div className=" ">
       <h5 className="md:text-left  xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
-        <div>Data-driven</div>
+        <div><span className='driven'>Data-</span><span className='data'>driven</span></div>
       </h5>
       <h5 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full md:ml-0">
         <div>Solutions</div>
@@ -368,7 +368,7 @@ const DhnnScroller = ({ showImage }) => {
         <div> Shaping your</div>
       </h5>
       <h5 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] w-full mx-auto md:text-7xl text-4xl md:w-full md:ml-0">
-        <div>digital Success</div>
+        <div> <span className='digital'>digital</span>   Success</div>
       </h5>
     </div>
   </div>
@@ -411,22 +411,22 @@ const DhnnScroller = ({ showImage }) => {
       />
     </div>
     <div className='mt-20  w-full  flex justify-center ml-5'>
-      <img
-        src={years}
-        alt="dhnn"
+      {/* <img
+        // src={years}
+        // alt="dhnn"
         className='rounded-3xl h-[250px] w-[250px]'
 
-      />
+      /> */}
     </div>
 
-    <div className='mt-20  w-full pb-10 '>
+    {/* <div className='mt-20  w-full pb-10 '>
       <img
               src={offices}
               className='rounded-3xl h-[400px] w-[300px] ml-[-100px]'
 
         alt="dhnn"
       />
-    </div>
+    </div> */}
 
   </div> 
 
