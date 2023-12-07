@@ -358,8 +358,8 @@ const DhnnScroller = ({ showImage }) => {
 <div className=" hider  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
   <div className=" flex  flex-col md:justify-center font-aeonic uppercase   mx-auto">
     <div className=" ">
-      <h5 className="md:text-left  xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
-        <div><span className='driven'>Data-</span><span className='data'>driven</span></div>
+      <h5 className="md:text-left driven  xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
+        <div><span className=''>Data-</span><span className=''>driven</span></div>
       </h5>
       <h5 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full md:ml-0">
         <div>Solutions</div>
@@ -368,7 +368,7 @@ const DhnnScroller = ({ showImage }) => {
         <div> Shaping your</div>
       </h5>
       <h5 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] w-full mx-auto md:text-7xl text-4xl md:w-full md:ml-0">
-        <div> <span className='digital'>digital</span>   Success</div>
+        <div> <span className='driven'>digital</span>   Success</div>
       </h5>
     </div>
   </div>
