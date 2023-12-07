@@ -62,6 +62,7 @@ const DhnnScroller = ({ showImage }) => {
         scaleY:0,
         scaleX:0.2,
         opacity:0,
+        x:500,
         scrollTrigger: {
         trigger:".img1count",
         start:"top 0px",
@@ -357,8 +358,8 @@ const DhnnScroller = ({ showImage }) => {
                
 <div className=" hider  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
   <div className=" flex  flex-col md:justify-center font-aeonic uppercase   mx-auto">
-    <div className=" ">
-      <h5 className="md:text-left driven  xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
+    <div className=" driven">
+      <h5 className="md:text-left   xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
         <div><span className=''>Data-</span><span className=''>driven</span></div>
       </h5>
       <h5 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full md:ml-0">
@@ -368,7 +369,7 @@ const DhnnScroller = ({ showImage }) => {
         <div> Shaping your</div>
       </h5>
       <h5 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] w-full mx-auto md:text-7xl text-4xl md:w-full md:ml-0">
-        <div> <span className='driven'>digital</span>   Success</div>
+        <div> <span className=''>digital</span>   Success</div>
       </h5>
     </div>
   </div>
@@ -442,11 +443,11 @@ const DhnnScroller = ({ showImage }) => {
          
 
 
-    <div class="flex   flex-col justify-center ml-[-500px] items-center">
+    <div class="flex  ml-5 flex-col justify-start   items-start">
       <img
         src={experts}
         alt="dhnn"
-        class=" img2 object-cover h-[350px]  rounded-xl home-weare-card-img"
+        class=" img2  object-cover h-[390px]  rounded-xl home-weare-card-img"
         data-v-15ca7abc=""
       />
       <h1 class="img2count"></h1>

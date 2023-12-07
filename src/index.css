@@ -8,7 +8,10 @@
 
 
 /* services css */
-
+.imtranslate {
+    /* transform: translateY(100%); */
+    --transform-translate-y: 100%;
+  }
 
 .bg-image {
     position: relative;

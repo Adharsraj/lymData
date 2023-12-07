@@ -70,51 +70,6 @@ const Within7Industriesdhn = () => {
       <div className=" hidden md:block">
 
 
-        {/* {sevenIndustries.map((m, index) => (
-          <div
-            key={m.id}
-            id={m.id}
-            className={`md:flex group md:px-8 w-full h-[320px] m  lg:text-lg lg:py-8 xl:py-16 ${
-              hoveredId === m.id ? "bg-image" : ""
-            } ${index !== sevenIndustries.length - 1 ? "border-b" : ""}`}
-            onMouseEnter={() => handleMouseEnter(m.id)}
-            onMouseLeave={handleMouseLeave}
-            style={
-              hoveredId === m.id
-                ? {
-                    backgroundImage: `url(${m.img})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }
-                : null
-            }
-          >
-            <div>
-              <h1 className="mt-3 mb-3 group-hover:text-white md:w-[200px] lg:w-[320px] xl:w-[500px] font-semibold">
-                {m.head1}
-              </h1>
-            </div>
-            <div>
-              <h1 className="group-hover:text-white">{m.head2}</h1>
-
-              <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
-                <div className="flex  group/item hover:cursor-pointer ">
-                  <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
-                    What we do
-                  </h1>
-                  <h1 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
-                    <img
-                      className="lg:w-56"
-                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))} */}
-   {/* Replace the existing div */}
 {servv.map((m, index) => (
    <div
       key={m.id}
@@ -126,18 +81,15 @@ const Within7Industriesdhn = () => {
       onMouseLeave={handleMouseLeave}
    >
       {/* Add a conditional rendering for video or image */}
-      {hoveredId === m.id ? (
-         <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-            src={m.img} // Replace 'm.video' with the path to your video
-         />
-      ) : (
-        null
-      )}
+  <video
+    autoPlay
+    loop
+    muted
+    // transform hover:-translate-y-full
+    className={`w-full h-full  ${hoveredId === m.id ?"visible":"hidden"} object-cover duration-100`}
+    src={m.img} // Replace 'm.video' with the path to your video
+  />
+
      <div>
               <h1 className="mt-3 mb-8 h-10 textSliderContainerd  group-hover:text-white  md:w-[200px] lg:w-[320px] xl:w-[500px] font-semibold lg:text-xl xl:text-[30px]">
                 {m.title}
