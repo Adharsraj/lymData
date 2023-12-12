@@ -52,11 +52,11 @@ const Cultureandmore = () => {
 
             <div className="text-[25px] leading-10  some-ele">
               <h1>
-              We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients. 
+              Our philosophy is centered around the importance of user-focused web design, which is the cornerstone for creating outstanding online experiences. We delve into the genuine needs and desires of individuals, sculpting websites that seamlessly blend intuition, engagement, and user-friendliness.With expertise in Digital Marketing, Branding, Web Designing, Web Development, and Mobile Apps, we turn online interactions into meaningful connections. 
               </h1>
-              <h1 className="mt-6 text-[#7b7b7b]">
+              {/* <h1 className="mt-6 text-[#7b7b7b]">
               The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
-              </h1>
+              </h1> */}
             </div>
           </div>
 
@@ -64,10 +64,10 @@ const Cultureandmore = () => {
             <div className="flex justify-between xl:px-5  align-middle some-ele">
               <h1 className="text-sm whitespace-nowrap">Culture @ LYM</h1>
               <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-[30px] leading-10 text-[#7b7b7b] font-thin">
-              We believe that a human-centric approach to web design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
-                <h1 className="mt-6 text-[#7b7b7b] lg:text-[30px] font-thin">
+              Our philosophy is centered around the importance of user-focused web design, which is the cornerstone for creating outstanding online experiences. We delve into the genuine needs and desires of individuals, sculpting websites that seamlessly blend intuition, engagement, and user-friendliness.With expertise in Digital Marketing, Branding, Web Designing, Web Development, and Mobile Apps, we turn online interactions into meaningful connections. 
+                {/* <h1 className="mt-6 text-[#7b7b7b] lg:text-[30px] font-thin">
                 The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
-                </h1>
+                </h1> */}
               </h1>
               <img
               src={img1}
@@ -95,7 +95,7 @@ const Cultureandmore = () => {
                 alt="gjj"
               />
               <h1 className="some-ele text-[#7b7b7b]">
-              The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
+              At the core of our work lies a robust methodology, an openness to fresh ideas, and a team culture that fuels peak performance. We not only embrace innovation but thrive on it. 
               </h1>
             </div>
             <div className="md:ml-10 lg:mt-0 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
@@ -106,7 +106,7 @@ const Cultureandmore = () => {
                 srcset=""
               />
               <h1 className="some-ele text-[#7b7b7b]">
-              The collective brain of LYMDATA LABS is comprised of a varied group of individuals who possess extensive experience, unwavering dedication, and a strong commitment to our daily tasks. 
+              At LYMDATA LABS, our dynamic team embodies a diverse fusion of expertise, unwavering dedication, and a steadfast commitment to our daily endeavors. Our collective brilliance thrives on a spectrum of talents, each member contributing significantly. 
               </h1>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Cultureandmore = () => {
               />
 
               <h1 className="lg:w-[350px] xxl:w-[500px] some-ele text-[#7b7b7b]">
-              Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
+              Discover the essence of our exceptional team, carefully crafted with individuals possessing distinct superpowers that align seamlessly with our mission. The journey to assemble this remarkable group required dedication and hard work, resulting in a powerhouse ready to amplify your digital presence. Ranging from Digital Marketing, to Mobile App expertise, each team member contributes unique strengths to fulfill our commitment to excellence.
               </h1>
             </div>
             {/* <div

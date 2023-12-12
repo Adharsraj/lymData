@@ -19,8 +19,8 @@ const Services = () => {
 
             <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16 some-element">
               <h1>
-                We’re challengers and problem solvers.See what this amazing team
-                is capable of.See what this amazing team is capable of.
+              We're not just problem solvers; we're architects of extraordinary solutions.Join us while we reshape possibilities and rewrite success stories!
+
               </h1>
             </div>
           </div>
@@ -52,9 +52,8 @@ const Services = () => {
 
             <div className="text-[42px] lg:mt-[-40px] lg:text-[3px]  w-[600px] xl:text-[42px] xxl:w-[820px]  mx-auto text-left    leading-10   text-[#000]    mb-16">
               <h1 className="lg:text-4xl  lg:w-[670px] z-10 xxl:w-[940px] xxl:text-5xl some-element">
-                We’re challengers and problem solvers.
-                <br />
-                See what this amazing team is capable of.
+              We're not just problem solvers,we're architects of extraordinary solutions. <br />Join us while we reshape possibilities and rewrite success stories!
+
               </h1>
             </div>
             <Link to="/contact">

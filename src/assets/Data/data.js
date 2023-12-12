@@ -5,6 +5,136 @@ import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 
+export const OurTechStack=[
+  {
+    id: 1,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"node.js    ",
+    description:"Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine.    "
+  },
+  {
+    id: 2,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"PHP",
+    description:"PHP is a general-purpose scripting language for web development    "
+  },
+  {
+    id: 3,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"React",
+    description:"React is a JavaScript-based UI development library.    "
+  },
+  {
+    id: 4,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"Gatsby",
+    description:"Gatsby is a React-based open source framework.    "
+  },
+  {
+    id: 5,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"Next.js    ",
+    description:"Next.js is a React framework that gives you building blocks to create web applications.    "
+  },
+  {
+    id: 6,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"HTML",
+    description:"HTML is the standard markup language for Web pages.    "
+  },
+  {
+    id: 7,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"CSS",
+    description:"CSS is the language we use to style an HTML document.    "
+  },
+  {
+    id: 8,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"WordPress",
+    description:"WordPress is a content management system based on PHP.    "
+  },
+  {
+    id: 9,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"TypeScript    ",
+    description:"TypeScript is JavaScript with syntax for types.    "
+  },
+  {
+    id: 10,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"JavaScript",
+    description:"JavaScript is the programming language of the Web.    "
+  },
+  {
+    id: 11,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"Contentful",
+    description:"API-first composable content platform to create, manage and publish content.    "
+  },
+  {
+    id: 12,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"MySQL",
+    description:"MySQL is a widely used relational database management system (RDBMS).    "
+  },
+  {
+    id: 13,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"PostgreSQL",
+    description:"PostgreSQL is a powerful, open source object-relational database system.    "
+  },
+  {
+    id: 14,
+    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title:"MongoDB    ",
+    description:"MongoDB is a source-available cross-platform document-oriented database program.    "
+  },
+]
+
+export const fullstackcard=[
+  {
+    id: 1,
+    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title:"Websites",
+    description:"From a static Gatsby site to a dynamic WordPress site, we can do it all to present your business in the best manner possible."
+  },
+  {
+    id: 2,
+    img:"https://www.brucira.com/assets/img/services/icons/saas_apps.svg",
+    title:"SaaS applications",
+    description:"Choose us to design future-ready SaaS products and deploy them with our end-to-end support. "
+  },
+  {
+    id: 3,
+    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title:"Quality Assurance ",
+    description:"Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance."
+  },
+  {
+    id: 4,
+    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title:"Cloud-based applications",
+    description:"Keeping the tech trends in mind, we develop robust, fast and scalable cloud-based software for your business.    "
+  },
+  {
+    id: 5,
+    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title:"Enterprise applications    ",
+    description:"Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    "
+  },
+  {
+    id: 6,
+    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title:"Content Management System    ",
+    description:"Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    "
+  },
+]
+
+
+
+
+
 
 export const jobCards = [
 
@@ -42,42 +172,42 @@ export const servv = [
     id: 1,
     title: "Web Development",
     img: "https://player.vimeo.com/external/528744165.sd.mp4?s=9ca8f47189d01e2dc77feb565f9e211aa8518fd4&profile_id=164&oauth2_token_id=57447761",
-    desc: "Our team specializes in designing web experiences that prioritize the needs of users and drive business success.",
+    desc: "Boost your online visibility with the assistance of our specialized web development services. Our team excels in crafting user-centric web experiences that prioritize the needs of your audience. From seamless navigation to visually stunning designs, we ensure every detail contributes to business success, creating a powerful online presence that leaves a lasting impression.    ",
   },
 
   {
     id: 2,
     title: "Mobile App Development",
     img: "https://player.vimeo.com/external/451919864.sd.mp4?s=b1c305a681a31868b221683ed1bbc80f33c9e85b&profile_id=164&oauth2_token_id=57447761",
-    desc: "We have a proven track record of creating highly popular and widely used apps. By combining data insights with the principles of behavioural science.",
+    desc: "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.",
   },
 
   {
     id: 3,
     title: "Performance Marketing",
     img: "https://player.vimeo.com/external/533386598.sd.mp4?s=89c3d004e8d9e70e94292ae802cf5ef926bcda3c&profile_id=164&oauth2_token_id=57447761",
-    desc: "We specialize in data-driven marketing and offer a range of services including SEO, PPC, social media, and email marketing.",
+    desc: "Enhance your digital presence with reliability by utilizing our performance marketing services. Specializing in data-driven strategies, we offer a comprehensive range of solutions including SEO, PPC, social media, and email marketing. By aligning our efforts with your business objectives, we ensure every marketing initiative contributes to measurable success, driving growth and visibility.",
   },
 
   {
     id: 4,
     title: "Custom Software Development",
     img: "https://player.vimeo.com/external/553360392.sd.mp4?s=7b5a04145b0adab7892780d13ffa60fc26080cd3&profile_id=165&oauth2_token_id=57447761",
-    desc: "Our team specializes in developing tailor-made software solutions that align with your unique business needs and objectives.",
+    desc: "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.",
   },
 
   {
     id: 5,
     title: "Data Engineering",
     img: "https://player.vimeo.com/external/368789132.sd.mp4?s=90efbe5a51f1331fd9b4ef2851928ddaefee2023&profile_id=164&oauth2_token_id=57447761",
-    desc: "Our company recognizes the significant impact that data-driven insights can have on businesses. With advanced analytics techniques.",
+    desc: "Recognizing the transformative power of data-driven insights, our Data Engineering services employ advanced analytics methodologies to achieve significant outcomes.Whether it's uncovering hidden trends, optimizing processes, or making informed decisions, our team harnesses the potential of data to propel your business forward. Experience the difference that data-driven intelligence can make for your organization.",
   },
 
   {
     id: 6,
     title: "Metaverse",
     img: "https://cdn.pixabay.com/vimeo/703067747/metaverse-115034.mp4?width=640&hash=53f9be70501cfb4782d903d1453281340d58946d",
-    desc: "Explore the abundant possibilities offered by the captivating world of the Metaverse, the one that you must experience.",
+    desc: "With the aid of our all-encompassing services, you can immerse yourself in the world of the Metaverse. Explore abundant possibilities and redefine the way you engage with your audience. From virtual experiences to innovative interactions, our Metaverse solutions open new avenues for creativity, collaboration, and connection. Don't just witness the future – be a part of it in this captivating digital realm you must experience.",
   },
 ];
 
@@ -441,7 +571,7 @@ export const fourCultures = [
     head1: "Curiosity    ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_38_yz6gqj_kapx57.svg",
     head2:
-      "Curiosity is an integral part of our being as we are constantly seeking to explore the unknown and understand the intricacies of the world. We prioritize the development of our curiosity daily as it fosters innovation, enables us to navigate uncertain situations, and enhances our creativity.",
+      "Curiosity fuels our relentless pursuit of the unknown, enriching our understanding of the world's intricacies. This daily commitment to curiosity is the catalyst for innovation, guiding us through uncertainty and elevating our creativity.      ",
   },
 
   {
@@ -449,7 +579,7 @@ export const fourCultures = [
     head1: "Adaptability   ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_39_azl9yl_ip1mhx.svg",
     head2:
-      "We aim to be agile and adaptable, always prepared to adjust our strategies based on new insights. This mindset is evident in the quality of our output, our team structure, and our approach to recruitment and innovation.  ",
+      "Agility defines our approach,we are always prepared to adapt strategies based on fresh insights. This mindset echoes in our output quality, team dynamics, and innovative recruitment strategies.      ",
   },
 
   {
@@ -457,13 +587,13 @@ export const fourCultures = [
     head1: "  Collaboration ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_40_bin1o9_udedo7.svg",
     head2:
-      "Our approach revolves around fostering excellent teams, and they have a rich history of structuring their operations around collaboration, alliances, and cross-disciplinary interaction. Through years of venturing into different sectors, they have grasped the importance of incorporating a wide range of viewpoints from the outset in all their endeavours.    ",
+      "Our methodology centers around cultivating exceptional teams with a storied history of collaborative excellence, alliances, and cross-disciplinary interactions. Over years of venturing into diverse sectors, we've embraced a wealth of perspectives from the outset, enhancing our problem-solving prowess.      ",
   },
   {
     id: 4,
     head1: " Sustainability  ",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_41_hferql_lqmruu.svg",
     head2:
-      "It has always been evident to us that we are a component of a larger entity, and we derive sustenance from it just as much as it is our obligation to maintain our environment. The sole approach to maintaining our commitment to jointly shaping the future is to cultivate an environment that enables the future to be an improved rendition of the present.    ",
+      "It's inherent that we are part of a larger entity, drawing sustenance and recognizing our obligation to preserve the environment. Our commitment to shaping the future lies in fostering an environment that propels an enhanced rendition of the present.      ",
   },
 ];

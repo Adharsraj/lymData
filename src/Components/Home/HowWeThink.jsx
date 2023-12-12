@@ -17,12 +17,12 @@ const HowweThinkdhn = () => {
             </div>
 
             <div className="text-[25px] mt-5 some-element ">
-              <h1>We're challengers at heart and</h1>
-              <h1>builders by nature.</h1>
+              <h1>Pioneers in Innovation,</h1>
+              <h1>Masters in Execution.</h1>
             </div>
             <div className="text-[20px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-4">
               <h1>
-              At LYM Data Labs, we are constantly learning and evolving. We invest in the latest tools and technologies and encourage our team members to stay up to date with industry trends and best practices. This ensures that we are always delivering the most innovative and effective solutions to our clients.  We take the time to understand their needs and goals and work closely with them to develop customized solutions that meet their specific requirements. We believe in building long-term relationships with our clients, based on trust, transparency, and open communication. 
+              At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies, empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps. Join us on a journey where innovation meets expertise, and your digital success takes center stage.
               </h1>
             </div>
             <Link to="/about">
@@ -41,8 +41,8 @@ const HowweThinkdhn = () => {
             <div className="flex justify-between xl:px-5  align-middle items-center">
               <h1>How we think</h1>
               <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element  xl:w-[700px]  lg:w-[600px] leading-10">
-                We're challengers at heart and <br />
-                builders by nature.
+              Pioneers in Innovation, Masters in Execution
+
               </h1>
               <img
                 className="hover:animate-spin"
@@ -54,7 +54,7 @@ const HowweThinkdhn = () => {
 
             <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[30px] xl:w-[700px] mx-auto text-left   leading-9  text-[#7b7b7b]  mt-16 mb-14 lg:mb-10">
               <h1>
-              At LYM Data Labs, we are constantly learning and evolving. We invest in the latest tools and technologies and encourage our team members to stay up to date with industry trends and best practices. This ensures that we are always delivering the most innovative and effective solutions to our clients.  We take the time to understand their needs and goals and work closely with them to develop customized solutions that meet their specific requirements. 
+              At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies, empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps. Join us on a journey where innovation meets expertise, and your digital success takes center stage.
               </h1>
             </div>
 

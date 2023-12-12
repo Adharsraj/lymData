@@ -19,13 +19,11 @@ export const WorksHome = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 some-ele  mb-20   gap-8 overflow-hidden">
       <div className="hidden lg:block">
-        <h1 className="mt-20 xxl:text-9xl font-aeonic font-extrabold px-32 animate-slide-up">We craft digital<br/>
-            experiences<br/>
-            for humans</h1>
+        <h1 className="mt-20 xxl:text-9xl lg:text-7xl  font-aeonic font-extrabold px-32 animate-slide-up">Artisanal Crafters of Digital Experiences Tailored for Human Interaction.
+</h1>
         {/* <h1 className="mt-10 text-xl  px-32">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
-        <h1 className="mt-32 text-xl text-right px-10">
-            Helping startups and tech companies building <br/>
-            or scaling digital experiences leveraging design</h1>
+        <h1 className="mt-32 text-xl w-[300px] lg:w-[600px]  px-10 ml-auto">
+        Asisisting startups and tech firms in crafting and scaling digital experiences through effective design strategies.</h1>
 
             {/* 1 */}
             <div className="lg:grid lg:grid-cols-2 items-start mt-32">
@@ -53,7 +51,8 @@ export const WorksHome = () => {
         UI/UX
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">AL HUB serves as a virtual guide that assists you in locating<br/> the coolest hangouts this amazing country has to offer.<br/> Our App not only caters to the needs of citizens but also <br/>businesses and tourists. </h3>
+          <h3 className="text-xl px-5 mt-12">AL HUB is Your Exclusive Passport to UAE's Hidden Gems.The app is designed to cater not just to locals but also businesses and tourists, ensuring everyone enjoys a seamless and delightful experience.
+ </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -136,7 +135,8 @@ export const WorksHome = () => {
         Website Design
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">Ultimate destination for premium hotel wares and cutlery. <br/>Elevate your dining experience with our meticulously <br/>crafted pieces that blend style, functionality, and <br/>timeless beauty.  </h3>
+          <h3 className="text-xl px-5 mt-12">The epitome of sophistication in hotel wares and cutlery.Upgrade your dining experience with their meticulously crafted pieces, seamlessly blending style, functionality, and timeless beauty.
+ </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -188,7 +188,8 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">Dedicated to providing top-notch educational services to<br/> help you reach your academic and career goals. From <br/>distance education to study abroad admission guidance<br/> and assistance to students. </h3>
+          <h3 className="text-xl px-5 mt-12">Committed to delivering exceptional educational services, they are devoted to assisting you in achieving your academic and career aspirations. Their comprehensive offerings include distance education, study abroad admission guidance, and dedicated support for students.
+ </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -240,7 +241,8 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">AquaGuard has delivered water purification & water filtration <br/>processes to domestic consumers, businesses and large <br/>organizations throughout Asia & UAE. Reliable and durable<br/> equipment with scalable technology and solutions to provide<br/> safe and healthy water. </h3>
+          <h3 className="text-xl px-5 mt-12">Experience AquaGuard's innovation in water purification across homes, businesses, and major organizations in Asia and the UAE. Their dependable equipment, coupled with adaptable technology, guarantees a steady supply of pure and wholesome water.
+</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -292,7 +294,8 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">Farmfed Tourism is an Initiative of Southern Green Farming <br/>and marketing Multi-State Co-Operative Society Limited <br/>(FARMFED) with 16 years of experience. </h3>
+          <h3 className="text-xl px-5 mt-12">FarmFed Tourism is recognised as the best travel agency in Kochi, Kerala where they present a diverse range of domestic and international tour packages tailored to meet all your wanderlust desires. 
+</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -344,7 +347,8 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">Website design is a living illustration of this insight. It stands<br/> out not for shiny animations or other design techniques, <br/>but for its focus on the customer journey for busy<br/> moms and dads. </h3>
+          <h3 className="text-xl px-5 mt-12">At Pappaboo, they acknowledge the extraordinary expedition of parenthood, brimming with love, joy, and countless cherished moments. Pappaboo is committed to delivering top-notch diapering solutions, ensuring to stand by as a steadfast companion throughout every phase of this incredible journey.
+</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -374,13 +378,11 @@ export const WorksHome = () => {
       </div>
 
       <div className="lg:hidden">
-      <h1 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">We craft digital<br/>
-            experiences<br/>
-            for humans</h1>
+      <h1 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">Artisanal Crafters of Digital Experiences Tailored for Human Interaction.
+</h1>
         {/* <h1 className="mt-10">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
         <h1 className="mt-32 text-xl ">
-            Helping startups and tech companies building
-            or scaling digital experiences leveraging design</h1>
+        Asisisting startups and tech firms in crafting and scaling digital experiences through effective design strategies.</h1>
 
         {/* 1 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
@@ -409,7 +411,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer. Our App not only caters to the needs of citizens but also businesses and tourists. </h3>
+          <h3 className="text-xl mt-20">AL HUB is Your Exclusive Passport to UAE's Hidden Gems.The app is designed to cater not just to locals but also businesses and tourists, ensuring everyone enjoys a seamless and delightful experience. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -461,7 +463,8 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Ultimate destination for premium hotel wares and cutlery. Elevate your dining experience with our meticulously crafted pieces that blend style, functionality, and timeless beauty.</h3>
+          <h3 className="text-xl mt-20">The epitome of sophistication in hotel wares and cutlery.Upgrade your dining experience with their meticulously crafted pieces, seamlessly blending style, functionality, and timeless beauty.
+</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -513,7 +516,8 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Dedicated to providing top-notch educational services to help you reach your academic and career goals. From distance education to study abroad admission guidance and assistance to students. </h3>
+          <h3 className="text-xl mt-20">Committed to delivering exceptional educational services, they are devoted to assisting you in achieving your academic and career aspirations. Their comprehensive offerings include distance education, study abroad admission guidance, and dedicated support for students.
+ </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -565,7 +569,8 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">AquaGuard has delivered water purification & water filtration processes to domestic consumers, businesses and large organizations throughout Asia & UAE. Reliable and durable equipment with scalable technology and solutions to provide safe and healthy water. </h3>
+          <h3 className="text-xl mt-20">Experience AquaGuard's innovation in water purification across homes, businesses, and major organizations in Asia and the UAE. Their dependable equipment, coupled with adaptable technology, guarantees a steady supply of pure and wholesome water.
+</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -618,7 +623,8 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Farmfed Tourism is an Initiative of Southern Green Farming and marketing Multi-State Co-Operative Society Limited (FARMFED) with 16 years of experience. </h3>
+          <h3 className="text-xl mt-20">FarmFed Tourism is recognised as the best travel agency in Kochi, Kerala where they present a diverse range of domestic and international tour packages tailored to meet all your wanderlust desires. 
+</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -671,7 +677,8 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Website design is a living illustration of this insight. It stands out not for shiny animations or other design techniques, but for its focus on the customer journey for busy moms and dads. </h3>
+          <h3 className="text-xl mt-20">At Pappaboo, they acknowledge the extraordinary expedition of parenthood, brimming with love, joy, and countless cherished moments. Pappaboo is committed to delivering top-notch diapering solutions, ensuring to stand by as a steadfast companion throughout every phase of this incredible journey.
+ </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance

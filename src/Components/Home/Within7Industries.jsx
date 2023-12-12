@@ -19,39 +19,39 @@ const Within7Industriesdhn = () => {
   const carouselData = [
     {
       id: 1,
-      title: "E-commerce",
+      title: "Web Development",
       details:
-        "Maximize your online sales and customer satisfaction with our data-driven solutions tailored for the ever-evolving e-commerce landscape.",
+        "Boost your online visibility with the assistance of our specialized web development services. Our team excels in crafting user-centric web experiences that prioritize the needs of your audience. From seamless navigation to visually stunning designs, we ensure every detail contributes to business success, creating a powerful online presence that leaves a lasting impression.        ",
     },
     {
       id: 2,
-      title: "Finance and Banking",
+      title: "Mobile App Development      ",
       details:
-        "Drive informed decisions and gain a competitive edge in the financial world with our powerful data analytics tools and expertise.",
+        "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.        ",
     },
     {
       id: 3,
-      title: "Healthcare",
+      title: "Performance Marketing      ",
       details:
-        "Empower your healthcare organization with data-driven insights to enhance patient outcomes and streamline operations for a healthier future.",
+        "Enhance your digital presence with reliability by utilizing our performance marketing services. Specializing in data-driven strategies, we offer a comprehensive range of solutions including SEO, PPC, social media, and email marketing. By aligning our efforts with your business objectives, we ensure every marketing initiative contributes to measurable success, driving growth and visibility.        ",
     },
     {
       id: 4,
-      title: "Travel and Hospitality",
+      title: "Custom Software Development      ",
       details:
-        "Transform your travel business by harnessing the power of data to deliver personalized experiences and exceed customer expectations.",
+        "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.        ",
     },
     {
       id: 5,
-      title: "Retail",
+      title: "Data Engineering      ",
       details:
-        "Stay ahead in the dynamic retail industry by unlocking valuable data-driven insights that fuel growth and foster lasting customer relationships.",
+        "Recognizing the transformative power of data-driven insights, our Data Engineering services employ advanced analytics methodologies to achieve significant outcomes.Whether it's uncovering hidden trends, optimizing processes, or making informed decisions, our team harnesses the potential of data to propel your business forward. Experience the difference that data-driven intelligence can make for your organization.        ",
     },
     {
       id: 6,
-      title: "Entertainment",
+      title: "Metaverse",
       details:
-        "Unleash the potential of data analytics to captivate audiences, optimize content, and revolutionize the entertainment experience.",
+        "With the aid of our all-encompassing services, you can immerse yourself in the world of the Metaverse. Explore abundant possibilities and redefine the way you engage with your audience. From virtual experiences to innovative interactions, our Metaverse solutions open new avenues for creativity, collaboration, and connection. Don't just witness the future – be a part of it in this captivating digital realm you must experience.        ",
     },
   ];
 
