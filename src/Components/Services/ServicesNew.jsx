@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import stickyimg from "../../assets/brucira/asset 12.jpeg";
 import { OurTechStack, fullstackcard } from "../../assets/Data/data";
+import Scene from "./ServicesGsap";
+import ServiceCarousel from "./ServiceCarousel";
+import TopClients from "./TopClients";
+import FaqServices from "./FaqServices";
 
 const ServicesNew = () => {
   const [showh3, setshowh3] = useState("");
@@ -129,7 +133,7 @@ const ServicesNew = () => {
                 alt="images"
               />
               <h1 className="h-10 mt-10 font-bold">{m.title}</h1>
-              <p className="text-center h-[200px] md:h-[150px]">
+              <p className="text-center h-[200px] lg:h-[150px] md:h-[230px]">
                 {m.description}
               </p>
             </div>
@@ -139,7 +143,7 @@ const ServicesNew = () => {
 
       {/* 5th div */}
 
-      <div className="  px-2 bg-[#F7F7F7] pt-10">
+      <div className="  px-2 bg-[#F7F7F7] pt-10 min-h-screen">
         <div className="max-w-[1150px] md:hidden mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold md:pt-24 md:leading-[60px] pb-10">
             Proven-Process. <br /> Strategy-led Approach.
@@ -280,13 +284,29 @@ const ServicesNew = () => {
         </div>
 
         <div className="max-w-[1150px] hidden md:block mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold md:pt-24 md:leading-[60px] pb-10">
-            Proven-Process. <br /> Strategy-led Approach.
-          </h1>
-          
+         
+          <Scene />
           </div>
 
+     
+
+
       </div>
+          <ServiceCarousel />
+
+      <div className="bg-black  text-white h-[450px] max-w-[1150px] md:mx-auto md:h-[200px] mb-10 mx-2 py-5 mt-10 ">
+  <div className="flex flex-col md:flex-row h-full justify-around items-center">
+    <img  className="w-24 h-24 lg:w-[134px] lg:h-[134px] p-2  bg-white rounded-full" src="https://www.brucira.com/assets/img/bulb.svg" alt="" srcset="" />
+    <h1 className="text-2xl text-center w-[250px] md:w-[400px] lg:w-[500px] leading-10 font-bold">
+
+We have more awesome stuff to show</h1>
+    <h2 className="bg-yellow-500 w-16 h-16 rounded-full flex justify-center items-center"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+</svg></h2>
+  </div>
+</div>
+<TopClients/>
+<FaqServices/>
     </>
   );
 };

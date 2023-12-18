@@ -14,84 +14,135 @@ export const OurTechStack=[
   },
   {
     id: 2,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/php.svg",
     title:"PHP",
     description:"PHP is a general-purpose scripting language for web development    "
   },
   {
     id: 3,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/react.svg",
     title:"React",
     description:"React is a JavaScript-based UI development library.    "
   },
   {
     id: 4,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/gatsby.svg",
     title:"Gatsby",
     description:"Gatsby is a React-based open source framework.    "
   },
   {
     id: 5,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/gatsby.svg",
     title:"Next.js    ",
     description:"Next.js is a React framework that gives you building blocks to create web applications.    "
   },
   {
     id: 6,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/html.svg",
     title:"HTML",
     description:"HTML is the standard markup language for Web pages.    "
   },
   {
     id: 7,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/css.svg",
     title:"CSS",
     description:"CSS is the language we use to style an HTML document.    "
   },
   {
     id: 8,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/wordpress.svg",
     title:"WordPress",
     description:"WordPress is a content management system based on PHP.    "
   },
   {
     id: 9,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/typescript.svg",
     title:"TypeScript    ",
     description:"TypeScript is JavaScript with syntax for types.    "
   },
   {
     id: 10,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/javascript.svg",
     title:"JavaScript",
     description:"JavaScript is the programming language of the Web.    "
   },
   {
     id: 11,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/contentful.svg",
     title:"Contentful",
     description:"API-first composable content platform to create, manage and publish content.    "
   },
   {
     id: 12,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/mysql.svg",
     title:"MySQL",
     description:"MySQL is a widely used relational database management system (RDBMS).    "
   },
   {
     id: 13,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/postgresql.svg",
     title:"PostgreSQL",
     description:"PostgreSQL is a powerful, open source object-relational database system.    "
   },
   {
     id: 14,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    img:"https://www.brucira.com/assets/img/services/tech/mongodb.svg",
     title:"MongoDB    ",
     description:"MongoDB is a source-available cross-platform document-oriented database program.    "
   },
 ]
 
+export const OurTopClients=[
+  {
+    id: 1,
+    img:"https://www.brucira.com/assets/img/clients/google.svg",
+    title:"Google    ",
+    description:"Illustration library for world’s biggest data scientist platform kaggle.    "
+  },
+  {
+    id: 2,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"Disney+ Hotstar    ",
+    description:"Created Regional versions of the title posters of most successfull disney movies.    "
+  },
+  {
+    id: 3,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"Oppo    ",
+    description:"Handling entire digital marketing for oppo theme store, app store and browser.    "
+  },
+  {
+    id: 4,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"IBM    ",
+    description:"Animated isometric illustration designs and development for the website.    "
+  },
+  {
+    id: 5,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"Zepto    ",
+    description:"Acting as extended design partners, creating customer side app and illustrations    "
+  },
+  {
+    id: 6,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"Vedantu    ",
+    description:"Revamped entire brand along with website design and development    "
+  },
+  {
+    id: 7,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"Razorpay",
+    description:"Designed illustrations for RazorpayX and developed the FTX'21 website    "
+  },
+  {
+    id: 8,
+    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
+    title:"Slice    ",
+    description:"Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+  
+]
 export const fullstackcard=[
   {
     id: 1,
