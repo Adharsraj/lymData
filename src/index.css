@@ -1300,19 +1300,23 @@ span.two {
   @font-face {
     font-family: "Roboto";
     font-weight: 400;
+    font-display:swap;
     src: url("/fonts/Roboto-Regular.woff2") format("woff2"),
       url("/fonts/Roboto-Regular.woff") format("woff");
+
   }
 
   @font-face {
     font-family: "DM Sans";
     font-weight: 400;
+    font-display:swap;
     src: url("/fonts/DMSans-Regular.woff2") format("woff2"),
       url("/fonts/DMSans-Regular.woff") format("woff");
   }
   @font-face {
     font-family: "Times";
     font-weight: 400;
+    font-display:swap;
     src: url("/fonts/unicode.timesu.woff2") format("woff2"),
       url("/fonts/unicode.timesu.woff") format("woff");
   }
@@ -1320,6 +1324,7 @@ span.two {
   @font-face {
     font-family: "Zuume";
     font-weight: 900;
+    font-display:swap;
     src: url("Zuume ExtraBold.woff2") format("woff2"),
       url("Zuume ExtraBold.woff") format("woff");
   }
@@ -1327,6 +1332,7 @@ span.two {
   @font-face {
     font-family: "Aeonic";
     font-weight: 900;
+    font-display:swap;
     src: url("/fonts/AeonikTRIAL-Bold.woff2") format("woff2"),
       url("/fonts/AeonikTRIAL-Bold.woff") format("woff");
   }
@@ -1334,18 +1340,22 @@ span.two {
   @font-face {
     font-family: "Helvetica Now Display";
     font-weight: 400;
+    font-display:swap;
     src: url("/fonts/HelveticaNowDisplay-Regular.5e3876e.woff2") format("woff2");
   }
 
   @font-face {
     font-family: "Helvetica Now Display";
     font-weight: 500; /* Medium */
+    font-display:swap;
+
     src: url("/fonts/HelveticaNowDisplay-Medium.cfbcf6c.woff2") format("woff2");
   }
 
   @font-face {
     font-family: "Helvetica Now Display";
     font-weight: 700;
+    font-display:swap;
     src: url("/fonts/HelveticaNowDisplay-Bold.f0b7416.woff2") format("woff2");
   }
 }
