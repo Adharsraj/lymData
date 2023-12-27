@@ -7,17 +7,19 @@ import ServicesLanding from "../Components/Services/ServicesLanding";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 import ServicesNew from "../Components/Services/ServicesNew";
 
-const Services = () => {
+const InsideServices = () => {
   UseDocumentTitle("LYM DATA | Services");
-
+useEffect(()=>{
+    window.scrollTo(0, 0);
+},[])
   return (
     <>
       <Navbar />
-      <ServicesLanding />
-      {/* <ServicesNew/> */}
+      {/* <ServicesLanding /> */}
+      <ServicesNew/>
       <Footer />
     </>
   );
 };
 
-export default Services;
+export default InsideServices;

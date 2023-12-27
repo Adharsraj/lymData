@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { servv, sevenIndustries } from "../../assets/Data/data";
+import { Link } from "react-router-dom";
 
 const Within7Industriesdhn = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -97,7 +98,7 @@ const Within7Industriesdhn = () => {
             </div>
             <div>
               <h1 className=" textSliderContainerd group-hover:text-white text-xl">{m.desc}</h1>
-
+              <Link to="/inside-services">
               <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
                 <div className="flex  group/item hover:cursor-pointer ">
                   <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
@@ -112,6 +113,7 @@ const Within7Industriesdhn = () => {
                   </h1>
                 </div>
               </div>
+</Link>
             </div>   </div>
 ))}
 

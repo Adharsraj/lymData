@@ -7,6 +7,7 @@ import PageNotFound from "./Pages/PageNotFound";
 import Login  from "./Components/Home/Login";
 import SignUp from "./Components/Home/SignUp";
 import WhatsNew from "./Pages/WhatsNew";
+const InsideServices = lazy(() => import("./Pages/InsideServices"));
 const BlogDetailed = lazy(() => import("./Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("./Pages/Blog"));
 const WorkDetailed = lazy(() => import("./Components/Works/WorkDetailed"));
@@ -132,6 +133,16 @@ element: (
   </Suspense>
 ),
 },
+{
+  path: "/inside-services",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+        <InsideServices />
+      </Wrapper>
+    </Suspense>
+  ),
+  },
 {
 path: "/privacy",
 element: (
