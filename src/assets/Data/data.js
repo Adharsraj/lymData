@@ -228,7 +228,7 @@ export const servv = [
 
   {
     id: 2,
-    title: "Mobile App Development",
+    title: "App Development",
     img: "https://player.vimeo.com/external/451919864.sd.mp4?s=b1c305a681a31868b221683ed1bbc80f33c9e85b&profile_id=164&oauth2_token_id=57447761",
     desc: "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.",
   },
@@ -242,7 +242,7 @@ export const servv = [
 
   {
     id: 4,
-    title: "Custom Software Development",
+    title: "Software Development",
     img: "https://player.vimeo.com/external/553360392.sd.mp4?s=7b5a04145b0adab7892780d13ffa60fc26080cd3&profile_id=165&oauth2_token_id=57447761",
     desc: "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.",
   },

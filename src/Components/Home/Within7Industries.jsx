@@ -26,7 +26,7 @@ const Within7Industriesdhn = () => {
     },
     {
       id: 2,
-      title: "Mobile App Development      ",
+      title: "App Development      ",
       details:
         "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.        ",
     },
@@ -38,7 +38,7 @@ const Within7Industriesdhn = () => {
     },
     {
       id: 4,
-      title: "Custom Software Development      ",
+      title: "Software Development      ",
       details:
         "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.        ",
     },
