@@ -9,7 +9,7 @@ const TopClients = () => {
           {OurTopClients.map((m) => (
             <div className=" bg-white p-2 md:px-8 flex flex-col justify-center items-center ">
               <img
-                className="w-20 h-14 mt-10 md:mt-24  md:w-[126px] md:h-[78px]"
+                className="w-20 h-14 mt-10 md:mt-24  md:w-[140px] md:h-[85px]"
                 src={m.img}
                 alt="images"
               />

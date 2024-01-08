@@ -49,10 +49,10 @@ function ServiceCarousel() {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-white md:min-h-screen pb-20">
 
     <div className="carousel hidden md:block   max-w-[1150px] mx-auto lg:pb-10   md:min-h-screen">
-<h1 className="text-5xl font-bold pt-10 pb-10 lg:pt-36 lg:pb-20">Case Studies
+<h1 className="text-5xl font-bold pt-10 pb-10 lg:pt-20 lg:pb-20">Case Studies
 </h1>
       <div className="carousel-inner flex relative min-h-[500px] ">
       <button onClick={handlePrevious} className="carousel-button absolute top-[50%] left-[-2%] previous bg-yellow-200 rounded-full flex justify-center items-center h-10 w-10 my-auto">

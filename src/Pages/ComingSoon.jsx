@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img from "../assets/Images/coming.jpg"
+// import img from "../assets/Images/coming.jpg"
 
 class ComingSoon extends Component {
   constructor(props) {
@@ -87,7 +87,7 @@ class ComingSoon extends Component {
           <h2 className="lg:text-[200px] text-[45px] md:text-[100px] text-gray-300 mt-[360px] font-extrabold opacity-20 z-0 shadow-transparent">
             LYMData Labs
           </h2>
-          <img src={img} alt="image" className='lg:w-[300px] lg:h-[450px] h-[362px] w-[200px] absolute mt-[360px] rounded-t-3xl' />
+          {/* <img src={img} alt="image" className='lg:w-[300px] lg:h-[450px] h-[362px] w-[200px] absolute mt-[360px] rounded-t-3xl' /> */}
           <div className="absolute top-0 right-0 m-4 text-white font-bold">
             <span>Timer: {this.formatTime(time)}</span>
           </div>

@@ -22,12 +22,12 @@ const IndustriesWeknowdhn = () => {
     <div className="max-w-[1640px] mx-auto p-4 overflow-hidden">
       <div className="grid md:flex md:items-center gap-4">
         <div className="col-span-3 md:col-span-1">
-          <h1 className="font-mono lg:mb-20 text-sm">
+          <h4 className="font-mono lg:mb-20 text-sm">
             Industries we know <br /> and understand
-          </h1>
-          <h2 className="text-7xl lg:mb-10 lg:text-8xl xl:text-[190px] font-bold">
+          </h4>
+          <h5 className="text-7xl lg:mb-10 lg:text-8xl xl:text-[190px] font-bold">
             experi <br /> ence
-          </h2>
+          </h5>
           <img
             onClick={withinseven}
             className="lg:ml-20 cursor-pointer animate-bounce"
@@ -57,12 +57,12 @@ const IndustriesWeknowdhn = () => {
             alt="star"
             style={{ animationDuration: "3s" }}
           />
-          <h1 className="font-semibold text-2xl mt-2 mb-2 lg:mb-10">
+          <h4 className="font-semibold text-2xl mt-2 mb-2 lg:mb-10">
             We know what we're doing
-          </h1>
-          <h2>
+          </h4>
+          <h5>
           we have dedicated ourselves to developing and refining digital solutions, gaining valuable insights into the key factors that contribute to the long-term success of businesses.
-          </h2>
+          </h5>
         </div>
       </div>
     </div>

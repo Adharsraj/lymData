@@ -40,7 +40,7 @@ const OurValues = () => {
       </div>
       <div className="flex flex-col justify-center items-center text-center mb-16">
         <h1 className="text-sm text-gray-400 mb-4 md:text-lg lg:text-xl">
-          Our Values
+          Our Values & Culture
         </h1>
         <span className="mb-10 text-3xl md:text-6xl">
           Weaving a culture, despite the distance

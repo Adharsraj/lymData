@@ -25,7 +25,7 @@ const ServicesEnd = () => {
                   src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png"
                   alt="Sample Image"
                 />
-                <h1 className="absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
+                <h4 className="absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
                   <span className="opacity-20 hover:opacity-50 hover:cursor-pointer">
                     services
                   </span>
@@ -38,7 +38,7 @@ const ServicesEnd = () => {
                   <span className="text-[#424142] mb-10 ">
                     we are experts in.
                   </span>
-                </h1>
+                </h4>
                 <img
                   className="absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10"
                   src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"
@@ -61,7 +61,7 @@ const ServicesEnd = () => {
                 src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187629/assets/assets/lines2_tfqf81.png"
                 alt="Sample Image"
               />
-              <h1 className="absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
+              <h4 className="absolute xl:mt-[-200px] md:mt-[-100px] lg:mt-[-150px]">
                 <span className="opacity-20 hover:opacity-50 hover:cursor-pointer">
                   services
                 </span>
@@ -72,7 +72,7 @@ const ServicesEnd = () => {
                 <span className="text-[#424142] mb-10 ">
                   15+ years of solved challenges
                 </span>
-              </h1>
+              </h4>
               <img
                 className="absolute lg:ml-20 mt-80 md:mt-28 animate-bounce mb-10"
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691413112/LYMDATALABS/Pages/Home/asset_41_bkjksi_gvzx8a.svg"

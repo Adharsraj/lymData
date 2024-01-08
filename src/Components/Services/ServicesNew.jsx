@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import stickyimg from "../../assets/brucira/asset 12.jpeg";
+import stickyimg from "../../assets/images/asset 12.jpeg";
 import { OurTechStack, fullstackcard } from "../../assets/Data/data";
 import Scene from "./ServicesGsap";
 import ServiceCarousel from "./ServiceCarousel";
@@ -20,8 +20,10 @@ const ServicesNew = () => {
     <>
       <div className="pt-20 p-2 max-w-[1640px] lg:max-w-[1150px] mx-auto">
         {/* 1st div */}
-        <div className="md:grid md:grid-cols-2 md:min-h-[70vh] md:justify-center md:items-center mx-auto">
-          <div className="md:h-[300px]">
+        <div className="md:min-h-screen md:flex md:flex-col md:justify-center">
+
+        <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
+          <div className="md:h-[300px] ">
             <p className="lg:text-7xl text-5xl font-bold">
               Web <br /> Development
             </p>
@@ -32,15 +34,15 @@ const ServicesNew = () => {
           </div>
 
           <p className="text-xl leading-9  md:h-[300px] md:px-10 font-medium">
-            We understand the nuances of websites and apps owing to our focus on
-            user-centric design and development. 150+ businesses have trusted us
-            for creating high-quality digital products.
+          Our focus on user experience and customer satisfaction has helped our clients to achieve their digital goals. By understanding the unique needs of each business, we have delivered tailored solutions that drive success and growth in the digital space.
           </p>
         </div>
+        </div>
+
         {/* 2nd div */}
         <div className="md:grid-cols-2 md:grid">
           <img
-            className="md:sticky md:top-0 h-screen pb-10 pt-1"
+            className="md:sticky md:top-0 md:pb-20 md:pr-20 pb-10 pt-1"
             src={stickyimg}
             alt="typing img"
           />
@@ -74,7 +76,7 @@ const ServicesNew = () => {
       <div className="bg-black md:min-h-[100vh] flex justify-center items-center text-white">
         <div className="max-w-[1150px] mx-auto px-4">
           <h2 className="text-4xl md:w-[500px] md:text-6xl lg:text-7xl font-bold  pt-16">
-            Values that Makes Brucira
+            Values that Makes LYM
           </h2>
           <div className="md:flex md:justify-between md:items-center ">
             <h2 className="text-4xl md:text-6xl  lg:text-7xl">#1</h2>
@@ -294,7 +296,7 @@ const ServicesNew = () => {
       </div>
           <ServiceCarousel />
 
-      <div className="bg-black  text-white h-[450px] max-w-[1150px] md:mx-auto md:h-[200px] mb-10 mx-2 py-5 mt-10 ">
+      {/* <div className="bg-black  text-white h-[450px] max-w-[1150px] md:mx-auto md:h-[200px] mb-10 mx-2 py-5 mt-10 ">
   <div className="flex flex-col md:flex-row h-full justify-around items-center">
     <img  className="w-24 h-24 lg:w-[134px] lg:h-[134px] p-2  bg-white rounded-full" src="https://www.brucira.com/assets/img/bulb.svg" alt="" srcset="" />
     <h1 className="text-2xl text-center w-[250px] md:w-[400px] lg:w-[500px] leading-10 font-bold">
@@ -304,7 +306,7 @@ We have more awesome stuff to show</h1>
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
 </svg></h2>
   </div>
-</div>
+</div> */}
 <TopClients/>
 <FaqServices/>
     </>

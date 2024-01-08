@@ -1,4 +1,3 @@
-// rafce
 import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -13,6 +12,15 @@ const Popup = () => {
     companyName: "",
     message: "",
   });
+
+  const [errors, setErrors] = useState({
+    fullName: "",
+    email: "",
+    mobileNumber: "",
+    companyName: "",
+    message: "",
+  });
+
 
   const [loading, setLoading] = useState(false);
 
@@ -43,6 +51,7 @@ const Popup = () => {
       ...formData,
       [name]: value,
     });
+    setErrors({ ...errors, [name]: '' });
   };
 
   const resetForm = () => {
@@ -55,81 +64,83 @@ const Popup = () => {
     });
   };
 
-  // const validateForm = () => {
-  //   let valid = true;
-  //   const updatedErrors = {
-  //     fullName: "",
-  //     email: "",
-  //     mobileNumber: "",
-  //     companyName: "",
-  //     message: "",
-  //   };
+  const validateForm = () => {
+    let valid = true;
+    const updatedErrors = {
+      fullName: "",
+      email: "",
+      mobileNumber: "",
+      companyName: "",
+      message: "",
+    };
 
-  //   if (!/^[a-zA-Z0-9_]+$/.test(formData.fullName)) {
-  //     updatedErrors.fullName = 'Name can only contain letters, numbers, and underscores';
-  //     valid = false;
-  //   }
+    if (!/^[a-zA-Z0-9_]+$/.test(formData.fullName)) {
+      updatedErrors.fullName = 'Name can only contain letters, numbers, and underscores';
+      valid = false;
+    }
 
-  //   // Email validation: a simple regex for basic email format
-  //   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-  //     updatedErrors.email = 'Invalid email address';
-  //     valid = false;
-  //   }
+    // Email validation: a simple regex for basic email format
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      updatedErrors.email = 'Invalid email address';
+      valid = false;
+    }
 
-  //   if (!/^[0-9-]+$/.test(formData.mobileNumber)) {
-  //     updatedErrors.mobileNumber = 'Invalid phone number';
-  //     valid = false;
-  //   }
+    if (!/^[0-9-]+$/.test(formData.mobileNumber)) {
+      updatedErrors.mobileNumber = 'Invalid phone number';
+      valid = false;
+    }
 
-  //   if (!/^(http|https):\/\/[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+$/.test(formData.companyName)) {
-  //     updatedErrors.companyName = 'Invalid company URL';
-  //     valid = false;
-  //   }
+    if (!/^(http|https):\/\/[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+$/.test(formData.companyName)) {
+      updatedErrors.companyName = 'Invalid company URL';
+      valid = false;
+    }
 
-  //   if (formData.message.trim() === '') {
-  //     updatedErrors.message = 'Message cannot be empty';
-  //     valid = false;
-  //   }
+    if (formData.message.trim() === '') {
+      updatedErrors.message = 'Message cannot be empty';
+      valid = false;
+    }
 
-  //   setErrors(updatedErrors);
-  //   return valid;
-  // };
+    setErrors(updatedErrors);
+    return valid;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     
     setLoading(true);
 
-    try {
-      // Send the email using Email.js
-      await emailjs.send(
-        "service_w4ox98s",
-        "template_95dbo87",
-        {
-          from_name: formData.fullName,
-          to_name: "LYMData",
-          from_email: formData.email,
-          to_email: "info@lymdata.com",
-          company_name: formData.companyName,
-          phone_number: formData.mobileNumber,
-          message: formData.message,
-        },
-        "_h7dmU_ZWC9dc_ISz"
-      );
-      setLoading(false);
-
-      setsucess(true);
-      resetForm(); // Reset the form fields
-      const delay = setTimeout(() => {
-        setIsVisible(false);
-        localStorage.setItem("popupShown", "true");
-
-      }, 2000);
-
-      console.log("Email sent successfully");
-    } catch (error) {
-      console.error("Error sending email:", error);
-      // Handle error (e.g., display an error message to the user)
+    if (validateForm()) {
+      try {
+        // Send the email using Email.js
+        await emailjs.send(
+          "service_w4ox98s",
+          "template_95dbo87",
+          {
+            from_name: formData.fullName,
+            to_name: "LYMData",
+            from_email: formData.email,
+            to_email: "info@lymdata.com",
+            company_name: formData.companyName,
+            phone_number: formData.mobileNumber,
+            message: formData.message,
+          },
+          "_h7dmU_ZWC9dc_ISz"
+        );
+        setLoading(false);
+  
+        setsucess(true);
+        resetForm(); // Reset the form fields
+        const delay = setTimeout(() => {
+          setIsVisible(false);
+          localStorage.setItem("popupShown", "true");
+  
+        }, 2000);
+  
+        console.log("Email sent successfully");
+      } catch (error) {
+        console.error("Error sending email:", error);
+        // Handle error (e.g., display an error message to the user)
+      }
     }
   };
 
@@ -171,16 +182,19 @@ const Popup = () => {
                 </button>
         </div>
 
-        <h1 className="text-4xl md:w-[300px] font-bold">Unlock Your Free Homepage Audit</h1>
-        <h1 className="lg:w-[300px]">
+        <h3 className="text-4xl md:w-[300px] font-bold">Unlock Your Free Homepage Audit</h3>
+        <h3 className="lg:w-[300px]">
           Let our friendly web experts curate a personalized list of
           improvements that will help enhance the online presence of your brand.
-        </h1>
+        </h3>
         </div>
 
-        <div className="flex  flex-col gap-10 mt-10 lg:w-[500px]">
+        <div className={`flex  flex-col ${errors.fullName ? 'gap-5' : 'gap-10'} mt-10 lg:w-[500px]`}>
+          <div>
           <input
-            className="w-full  border-b bg-black"
+            className={`w-full  border-b bg-black ${
+              errors.fullName ? 'border-red-500' : ''
+            }`}
             type="text"
             name="fullName"
             value={formData.fullName}
@@ -188,30 +202,59 @@ const Popup = () => {
             placeholder="Name *"
             required
           />
+          {errors.fullName && (
+                <p className="text-red-500 text-xs">{errors.fullName}</p>
+          )}
+          </div>
+          <div>
           <input
-            className="w-full  border-b bg-black"
+            className={`w-full  border-b bg-black ${
+              errors.email ? 'border-red-500' : ''
+            }`}
             type="email"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
             placeholder="Email Address *"
+            required
           />
+          {errors.email && (
+                <p className="text-red-500 text-xs">{errors.email}</p>
+          )}
+          </div>
+          <div>
           <input
-            className="w-full  border-b bg-black"
+            className={`w-full  border-b bg-black ${
+              errors.mobileNumber ? 'border-red-500' : ''
+            }`}
             type="number"
             name="mobileNumber"
             value={formData.mobileNumber}
             onChange={handleInputChange}
             placeholder="Mobile Phone *"
+            required
           />
+          {errors.mobileNumber && (
+                <p className="text-red-500 text-xs">{errors.mobileNumber}</p>
+          )}
+          </div>
+          <div>
           <input
-            className="w-full  border-b bg-black"
+            className={`w-full  border-b bg-black ${
+              errors.companyName ? 'border-red-500' : ''
+            }`}
             type="text"
             name="companyName"
             value={formData.companyName}
             onChange={handleInputChange}
             placeholder="Your Website URL *"
+            required
           />
+          {errors.companyName && (
+                <p className="text-red-500 text-xs">{errors.companyName}</p>
+          )}
+          </div>
+          <div>
           <input
             className="w-full  border-b bg-black"
             type="text"
@@ -220,6 +263,10 @@ const Popup = () => {
             onChange={handleInputChange}
             placeholder="What ae your biggest website pain points?"
           />
+          {errors.message && (
+                <p className="text-red-500 text-xs">{errors.message}</p>
+          )}
+          </div>
         {/* <h1 className="mt-5 bg-green-300 p-4 w-[200px]  text-center text-xl  ">submit</h1> */}
         {/* <div className="flex justify-center items-center ">
     {sucess ? (
@@ -264,15 +311,15 @@ const Popup = () => {
   </div> */}
 
 {sucess ? (
-       <h2 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
+       <h5 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
        Mail sent successfully, our team will get in touch with you soon
-     </h2>
+     </h5>
     ) : (
       <div onClick={handleSubmit} className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
-      <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
+      <h3 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
       Submit
-      </h1>
-      <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
+      </h3>
+      <h3 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
 <g transform={`scale(${scale})`}>
 <path
@@ -281,7 +328,7 @@ data-name="Right"
 />
 </g>
 </svg>
-      </h1>
+      </h3>
     </div>
     )}
 

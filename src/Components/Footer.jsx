@@ -79,10 +79,8 @@ I t takes less than a minute of your time.
       <h1 className="md:text-[20px]">
 It takes less than a minute of your time.
       </h1>
-
         </div>
    
-
     <Link to="/contact">
     <div className="flex  group hover:cursor-pointer gap-2   lg:mb-7">
                 <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[300px] bg-black text-white transition-all border transform hover:translate-x-16">
@@ -249,12 +247,12 @@ It takes less than a minute of your time.
   <Link to="/terms"><h1> | Terms & Conditions </h1></Link>
     </div>
     <div className="w-[300px] mx-auto text-center pt-5 pb-5">
-    LYMDATA © 2023 All rights reserved
+    LYMDATA © 2024 All rights reserved
     </div>
 
 </div>
 <div className="hidden lg:flex justify-around lg:pt-10 some-ele">
-  <h1 className="font-light">LYMDATA © 2023 All rights reserved</h1>
+  <h1 className="font-light">LYMDATA © 2024 All rights reserved</h1>
   <div className="flex">
   <Link to="/privacy"><h1 className="font-light">Privacy Policy </h1></Link>
   <Link to="/terms"><h1 className="font-light"> | Terms & Conditions </h1></Link>

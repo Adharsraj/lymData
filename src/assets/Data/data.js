@@ -5,180 +5,418 @@ import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 
-export const OurTechStack=[
+export const OurTechStack = [
   {
     id: 1,
-    img:"https://www.brucira.com/assets/img/services/tech/nodejs.svg",
-    title:"node.js    ",
-    description:"Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine.    "
+    img: "https://www.brucira.com/assets/img/services/tech/nodejs.svg",
+    title: "node.js    ",
+    description: "Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine.    "
   },
   {
     id: 2,
-    img:"https://www.brucira.com/assets/img/services/tech/php.svg",
-    title:"PHP",
-    description:"PHP is a general-purpose scripting language for web development    "
+    img: "https://www.brucira.com/assets/img/services/tech/php.svg",
+    title: "PHP",
+    description: "PHP is a general-purpose scripting language for web development    "
   },
   {
     id: 3,
-    img:"https://www.brucira.com/assets/img/services/tech/react.svg",
-    title:"React",
-    description:"React is a JavaScript-based UI development library.    "
+    img: "https://www.brucira.com/assets/img/services/tech/react.svg",
+    title: "React",
+    description: "React is a JavaScript-based UI development library.    "
   },
   {
     id: 4,
-    img:"https://www.brucira.com/assets/img/services/tech/gatsby.svg",
-    title:"Gatsby",
-    description:"Gatsby is a React-based open source framework.    "
+    img: "https://www.brucira.com/assets/img/services/tech/gatsby.svg",
+    title: "Gatsby",
+    description: "Gatsby is a React-based open source framework.    "
   },
   {
     id: 5,
-    img:"https://www.brucira.com/assets/img/services/tech/gatsby.svg",
-    title:"Next.js    ",
-    description:"Next.js is a React framework that gives you building blocks to create web applications.    "
+    img: "https://www.brucira.com/assets/img/services/tech/gatsby.svg",
+    title: "Next.js    ",
+    description: "Next.js is a React framework that gives you building blocks to create web applications.    "
   },
   {
     id: 6,
-    img:"https://www.brucira.com/assets/img/services/tech/html.svg",
-    title:"HTML",
-    description:"HTML is the standard markup language for Web pages.    "
+    img: "https://www.brucira.com/assets/img/services/tech/html.svg",
+    title: "HTML",
+    description: "HTML is the standard markup language for Web pages.    "
   },
   {
     id: 7,
-    img:"https://www.brucira.com/assets/img/services/tech/css.svg",
-    title:"CSS",
-    description:"CSS is the language we use to style an HTML document.    "
+    img: "https://www.brucira.com/assets/img/services/tech/css.svg",
+    title: "CSS",
+    description: "CSS is the language we use to style an HTML document.    "
   },
   {
     id: 8,
-    img:"https://www.brucira.com/assets/img/services/tech/wordpress.svg",
-    title:"WordPress",
-    description:"WordPress is a content management system based on PHP.    "
+    img: "https://www.brucira.com/assets/img/services/tech/wordpress.svg",
+    title: "WordPress",
+    description: "WordPress is a content management system based on PHP.    "
   },
   {
     id: 9,
-    img:"https://www.brucira.com/assets/img/services/tech/typescript.svg",
-    title:"TypeScript    ",
-    description:"TypeScript is JavaScript with syntax for types.    "
+    img: "https://www.brucira.com/assets/img/services/tech/typescript.svg",
+    title: "TypeScript    ",
+    description: "TypeScript is JavaScript with syntax for types.    "
   },
   {
     id: 10,
-    img:"https://www.brucira.com/assets/img/services/tech/javascript.svg",
-    title:"JavaScript",
-    description:"JavaScript is the programming language of the Web.    "
+    img: "https://www.brucira.com/assets/img/services/tech/javascript.svg",
+    title: "JavaScript",
+    description: "JavaScript is the programming language of the Web.    "
   },
   {
     id: 11,
-    img:"https://www.brucira.com/assets/img/services/tech/contentful.svg",
-    title:"Contentful",
-    description:"API-first composable content platform to create, manage and publish content.    "
+    img: "https://www.brucira.com/assets/img/services/tech/contentful.svg",
+    title: "Contentful",
+    description: "API-first composable content platform to create, manage and publish content.    "
   },
   {
     id: 12,
-    img:"https://www.brucira.com/assets/img/services/tech/mysql.svg",
-    title:"MySQL",
-    description:"MySQL is a widely used relational database management system (RDBMS).    "
+    img: "https://www.brucira.com/assets/img/services/tech/mysql.svg",
+    title: "MySQL",
+    description: "MySQL is a widely used relational database management system (RDBMS).    "
   },
   {
     id: 13,
-    img:"https://www.brucira.com/assets/img/services/tech/postgresql.svg",
-    title:"PostgreSQL",
-    description:"PostgreSQL is a powerful, open source object-relational database system.    "
+    img: "https://www.brucira.com/assets/img/services/tech/postgresql.svg",
+    title: "PostgreSQL",
+    description: "PostgreSQL is a powerful, open source object-relational database system.    "
   },
   {
     id: 14,
-    img:"https://www.brucira.com/assets/img/services/tech/mongodb.svg",
-    title:"MongoDB    ",
-    description:"MongoDB is a source-available cross-platform document-oriented database program.    "
+    img: "https://www.brucira.com/assets/img/services/tech/mongodb.svg",
+    title: "MongoDB    ",
+    description: "MongoDB is a source-available cross-platform document-oriented database program.    "
   },
 ]
 
-export const OurTopClients=[
+
+export const OurWorks = [
   {
     id: 1,
-    img:"https://www.brucira.com/assets/img/clients/google.svg",
-    title:"Google    ",
-    description:"Illustration library for world’s biggest data scientist platform kaggle.    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
+    title: "Al-Hub",
+    features: ["Branding", "Mobile App", "WebApp",
+      "Performance Marketing", "Motion", "UI/UX"],
+    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 2,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"Disney+ Hotstar    ",
-    description:"Created Regional versions of the title posters of most successfull disney movies.    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
+    title: "Hotel Ware",
+    features: ["Branding", "Mobile App", "WebApp",
+      "Performance Marketing", "Motion", "UI/UX"],
+    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 3,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"Oppo    ",
-    description:"Handling entire digital marketing for oppo theme store, app store and browser.    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
+    title: "EDUCAS GLOBAL    ",
+    features: ["Branding", "Mobile App", "WebApp",
+      "Performance Marketing", "Motion", "UI/UX"],
+    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 4,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"IBM    ",
-    description:"Animated isometric illustration designs and development for the website.    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
+    title: "Aquaguard    ",
+    features: ["Branding", "Mobile App", "WebApp",
+      "Performance Marketing", "Motion", "UI/UX"],
+    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 5,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"Zepto    ",
-    description:"Acting as extended design partners, creating customer side app and illustrations    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
+    title: "Farmfed Tourism    ",
+    features: ["Branding", "Mobile App", "WebApp",
+      "Performance Marketing", "Motion", "UI/UX"],
+    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 6,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"Vedantu    ",
-    description:"Revamped entire brand along with website design and development    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
+    title: "PappaBoo",
+    features: ["Branding", "Mobile App", "WebApp",
+      "Performance Marketing", "Motion", "UI/UX"],
+    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+  },
+
+
+]
+
+
+
+
+{/* <div className="slide-track">
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/wayanad_adobe_express_lcbaed.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/homeborn_adobe_express_frbg9x.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/pappaboo_adobe_express_pgppg6.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/farmfed_fisheries_adobe_express_rydpdl.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/educus_global_adobe_express_fnwpdc.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/farmfed_tourism_adobe_express_siwiei.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272252/alhub_adobe_express_rpvubr.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272252/Artboard_1_adobe_express_fbvzl0.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272252/famfed_nature_adobe_express_um7n58.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272253/aquaquarduae_adobe_express_smgvbq.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272253/acon_printing_press_adobe_express_oyqrxs.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/educus_global_adobe_express_fnwpdc.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272250/farmfed_tourism_adobe_express_siwiei.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+<div className="slide">
+  <img
+    data-sizes="auto"
+    className="lazyload"
+    src="https://res.cloudinary.com/db5gkedee/image/upload/v1690272252/alhub_adobe_express_rpvubr.svg"
+    width={187}
+    height={64}
+    alt="partner logo"
+  />
+</div>
+</div> */}
+
+
+
+export const OurTopClients = [
+  {
+    id: 1,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Alhub_Logo_Vector_kxtp71.svg",
+    title: "Al-Hub",
+    description: "Illustration library for world’s biggest data scientist platform kaggle.    "
+  },
+  {
+    id: 2,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368021/LYMDATALABS/Pages/client%20logos%20png/vector/Ayursatva_vector_logo_q89f8o.svg",
+    title: "Ayur Satva",
+    description: "Created Regional versions of the title posters of most successfull disney movies.    "
+  },
+  {
+    id: 3,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368007/LYMDATALABS/Pages/client%20logos%20png/vector/Miracle_Gold_And_Diamonds_p6amro.svg",
+    title: "Miracle",
+    description: "Handling entire digital marketing for oppo theme store, app store and browser.    "
+  },
+  {
+    id: 4,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368010/LYMDATALABS/Pages/client%20logos%20png/vector/Quarinto_Logo_w3brqs.svg",
+    title: "Quarinto",
+    description: "Animated isometric illustration designs and development for the website.    "
+  },
+  {
+    id: 5,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704369516/LYMDATALABS/Pages/client%20logos%20png/2aUNxSKevS2lfwlLEdAT5x6GuKk_jaudg1.svg",
+    title: "Unique",
+    description: "Acting as extended design partners, creating customer side app and illustrations    "
+  },
+  {
+    id: 6,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368013/LYMDATALABS/Pages/client%20logos%20png/vector/GokulOttupura_Logo_vector_v96gqx.svg",
+    title: "Gokul Ootupura",
+    description: "Revamped entire brand along with website design and development    "
   },
   {
     id: 7,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"Razorpay",
-    description:"Designed illustrations for RazorpayX and developed the FTX'21 website    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368017/LYMDATALABS/Pages/client%20logos%20png/vector/Hussain_Al_Shemsi_Vector_awu5oy.svg",
+    title: "Hussain-Al-shemsi",
+    description: "Designed illustrations for RazorpayX and developed the FTX'21 website    "
   },
   {
     id: 8,
-    img:"https://www.brucira.com/assets/img/clients/disney+.svg",
-    title:"Slice    ",
-    description:"Covered UI and designed 3D graphics for the fintech start-up    "
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704347180/LYMDATALABS/Pages/client%20logos%20png/CaseMax_Vector_fdhj5v.svg",
+    title: "Case max",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
   },
-  
+  {
+    id: 9,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368005/LYMDATALABS/Pages/client%20logos%20png/vector/Educus_Global_Vector_vptqbo.svg",
+    title: "Educus Global",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+  {
+    id: 10,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704367999/LYMDATALABS/Pages/client%20logos%20png/vector/2aTd4AJCyTT9E6oC8TG5Mo3oMoX_tzfdxc.svg",
+    title: "acon",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+  {
+    id: 11,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368009/LYMDATALABS/Pages/client%20logos%20png/vector/Sidhah_Logo_Vector_oknnlt.svg",
+    title: "Sidhah",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+  {
+    id: 12,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368011/LYMDATALABS/Pages/client%20logos%20png/vector/United_ndt_vector_nzfktt.svg",
+    title: "United",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+  {
+    id: 13,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704691830/LYMDATALABS/Pages/client%20logos%20png/vector/Unisex_Saloon_Vector_2_kgs1gy.svg",
+    title: "LE",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+  {
+    id: 14,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Farmfed_Fisheries_Vector_qlpk2b.svg",
+    title: "Farmfed",
+    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+  },
+
 ]
-export const fullstackcard=[
+export const fullstackcard = [
   {
     id: 1,
-    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
-    title:"Websites",
-    description:"From a static Gatsby site to a dynamic WordPress site, we can do it all to present your business in the best manner possible."
+    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title: "Websites",
+    description: "From a static Gatsby site to a dynamic WordPress site, we can do it all to present your business in the best manner possible."
   },
   {
     id: 2,
-    img:"https://www.brucira.com/assets/img/services/icons/saas_apps.svg",
-    title:"SaaS applications",
-    description:"Choose us to design future-ready SaaS products and deploy them with our end-to-end support. "
+    img: "https://www.brucira.com/assets/img/services/icons/saas_apps.svg",
+    title: "SaaS applications",
+    description: "Choose us to design future-ready SaaS products and deploy them with our end-to-end support. "
   },
   {
     id: 3,
-    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
-    title:"Quality Assurance ",
-    description:"Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance."
+    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title: "Quality Assurance ",
+    description: "Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance."
   },
   {
     id: 4,
-    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
-    title:"Cloud-based applications",
-    description:"Keeping the tech trends in mind, we develop robust, fast and scalable cloud-based software for your business.    "
+    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title: "Cloud-based applications",
+    description: "Keeping the tech trends in mind, we develop robust, fast and scalable cloud-based software for your business.    "
   },
   {
     id: 5,
-    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
-    title:"Enterprise applications    ",
-    description:"Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    "
+    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title: "Enterprise applications    ",
+    description: "Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    "
   },
   {
     id: 6,
-    img:"https://www.brucira.com/assets/img/services/icons/website2.svg",
-    title:"Content Management System    ",
-    description:"Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    "
+    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    title: "Content Management System    ",
+    description: "Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    "
   },
 ]
 
@@ -202,13 +440,13 @@ export const jobCards = [
     stream: "Sales & Marketing",
     workway: "Hybrid",
     place: "Kochi",
-  },  {
+  }, {
     id: 3,
     post: "React Native Developer",
     stream: "Engineering",
     workway: "Hybrid",
     place: "Kochi",
-  },  {
+  }, {
     id: 4,
     post: "Sales executive Intern ",
     stream: "Sales & Marketing ",
@@ -263,31 +501,34 @@ export const servv = [
 ];
 
 export const blogCards = [
-
   {
     id: 1,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699350882/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9.jpg",
+    name: "ThePowerofPredictiveAnalytics",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp",
     title: "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog1,
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699349966/Banner_Image_1920_x_1080_Blog_Data_Privacy_zmr6po.jpg",
+    name: "DataPrivacyintheDigitalAge",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp",
     title: "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog2,
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699350203/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp.jpg",
+    name: "DataAnalyticsforE-commerce",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp",
     title: "Data Analytics for E-commerce: Boosting Sales and Customer Engagement",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog3,
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/dfoikkuug/image/upload/v1699349934/Banner_Image_1920_x_1080_Blog_Vr_vn3erz.jpg",
+    name: "Reimaginingrealityasweknowit",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Vr_1_dybul9_1_eqgiq2.webp",
     title: "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog4,

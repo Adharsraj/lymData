@@ -36,7 +36,7 @@ export const WorksNew = () => {
                     view more
                   </h2>
                   <h2 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" className="" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" className="" alt="arrow"/>
                   </h2>
             </div>
               </Link>
@@ -57,7 +57,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -75,7 +75,7 @@ export const WorksNew = () => {
             className="mt-8 lg:mt-0 bg-black  "
           />
           <div className=" w-full h-full">
-            <h3 className="text-5xl font-bold px-5">SERGIO</h3>
+            <h3 className="text-5xl font-bold px-6">SERGIO</h3>
             <div className="hidden lg:grid grid-cols-2  w-full h-full items-end mt-[-50px] ">
               <div>
                 <h3 className="px-5 text-xl">2022</h3>
@@ -85,7 +85,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -104,8 +104,8 @@ export const WorksNew = () => {
                   <h1 className="p-1 justify-end rounded-full w-[120px] text-white text-center bg-[#7B7B7B] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
                     view more
                   </h1>
-                  <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                  <h1 className="p-2 justify-end rounded-full w-[41px] bg-[#7B7B7B]">
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -133,7 +133,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -153,7 +153,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -181,7 +181,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -201,7 +201,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -229,7 +229,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>
@@ -249,7 +249,7 @@ export const WorksNew = () => {
                     view more
                   </h1>
                   <h1 className="p-2 justify-end rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
                   </h1>
             </div>
             </div>

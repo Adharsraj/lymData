@@ -22,7 +22,7 @@ const HowweThinkdhn = () => {
             </div>
             <div className="text-[20px] some-element  xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10  text-[#7b7b7b] mt-14  mb-4">
               <h1>
-              At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies, empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps. Join us on a journey where innovation meets expertise, and your digital success takes center stage.
+              At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies, empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps. 
               </h1>
             </div>
             <Link to="/about">
@@ -40,7 +40,7 @@ const HowweThinkdhn = () => {
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle items-center">
               <h1>How we think</h1>
-              <h1 className="text-[35px]  xl:text-[42px]  ml-[-20px] some-element  xl:w-[700px]  lg:w-[600px] leading-10">
+              <h1 className="text-[35px]  xl:text-[42px]  some-element  xl:w-[750px]  lg:w-[600px] leading-10">
               Pioneers in Innovation, Masters in Execution
 
               </h1>
@@ -54,7 +54,7 @@ const HowweThinkdhn = () => {
 
             <div className="text-[40px] w-[600px]  lg:ml-56 xl:mx-auto  xl:text-[30px] xl:w-[700px] mx-auto text-left   leading-9  text-[#7b7b7b]  mt-16 mb-14 lg:mb-10">
               <h1>
-              At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies, empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps. Join us on a journey where innovation meets expertise, and your digital success takes center stage.
+              At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies, empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps. 
               </h1>
             </div>
 

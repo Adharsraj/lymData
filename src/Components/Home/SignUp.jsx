@@ -93,7 +93,7 @@ const SignUp = () => {
       </div>
       <div className="flex-1 bg-gray-100 flex items-center justify-center p-8">
         <div className="max-w-md w-full">
-          <h2 className="text-3xl font-semibold mb-4">Sign Up</h2>
+          <h5 className="text-3xl font-semibold mb-4">Sign Up</h5>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label className="block mb-1">Username</label>

@@ -2,9 +2,7 @@ import React from "react";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import { useEffect } from "react";
 import gsap from "gsap";
-import img1 from "../../assets/Images/About1.png"
-import img2 from "../../assets/Images/About2.png"
-import img3 from "../../assets/Images/About3.png"
+
 
 const Cultureandmore = () => {
   const handleClicktofourculture = () => {
@@ -42,37 +40,37 @@ const Cultureandmore = () => {
         <div className="lg:mt-20">
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center some-ele">
-              <h1>Culture @ LYM</h1>
+              <h3>Culture @ LYM</h3>
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 className="invisible"
-                alt=""
+                alt="image1"
               />
             </div>
 
             <div className="text-[25px] leading-10  some-ele">
-              <h1>
-              Our philosophy is centered around the importance of user-focused web design, which is the cornerstone for creating outstanding online experiences. We delve into the genuine needs and desires of individuals, sculpting websites that seamlessly blend intuition, engagement, and user-friendliness.With expertise in Digital Marketing, Branding, Web Designing, Web Development, and Mobile Apps, we turn online interactions into meaningful connections. 
-              </h1>
-              {/* <h1 className="mt-6 text-[#7b7b7b]">
+              <h3>
+              We believe that a human-centric approach to digital design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients. 
+              </h3>
+              {/* <h3 className="mt-6 text-[#7b7b7b]">
               The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
-              </h1> */}
+              </h3> */}
             </div>
           </div>
 
           <div className="hidden md:block mt-20 relative">
             <div className="flex justify-between xl:px-5  align-middle some-ele">
-              <h1 className="text-sm whitespace-nowrap">Culture @ LYM</h1>
-              <h1 className="text-[38px] font-extrabold  w-[600px] lg:w-[640px] lg:text-[30px] leading-10 text-[#7b7b7b] font-thin">
-              Our philosophy is centered around the importance of user-focused web design, which is the cornerstone for creating outstanding online experiences. We delve into the genuine needs and desires of individuals, sculpting websites that seamlessly blend intuition, engagement, and user-friendliness.With expertise in Digital Marketing, Branding, Web Designing, Web Development, and Mobile Apps, we turn online interactions into meaningful connections. 
-                {/* <h1 className="mt-6 text-[#7b7b7b] lg:text-[30px] font-thin">
+              <h3 className="text-sm whitespace-nowrap">Culture @ LYM</h3>
+              <h3 className="text-[38px]  w-[600px] lg:w-[640px] lg:text-[30px] leading-10 text-[#7b7b7b] font-thin">
+              We believe that a human-centric approach to digital design is essential for creating successful online experiences. By focusing on the needs and desires of real people, we can create websites that are intuitive, engaging, and easy to use. This not only leads to happier users, but also drives business results for our clients.
+                {/* <h3 className="mt-6 text-[#7b7b7b] lg:text-[30px] font-thin">
                 The objective of LYM Data Labs is to bring about a change in our environment and individuals by means of design, understanding, and an unwavering pursuit of excellence. 
-                </h1> */}
-              </h1>
+                </h3> */}
+              </h3>
               <img
-              src={img1}
-              className="mt-10 ml-[-30px] md:ml-10 md:mt-20 md:w-[400px] md:h-[400px]"
-              alt=""
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172905/LYMDATALABS/Pages/webp/About1_o5ssaf.webp"
+              className="mt-10 ml-[-30px] md:ml-10 md:mt-10 md:w-[350px] md:h-[350px]"
+              alt="img1"
               srcset=""
             />  
             </div>
@@ -81,9 +79,9 @@ const Cultureandmore = () => {
 
         <div className="md:grid md:mt-10 mt-10 md:grid-cols-2 ">
           <img
-            src={img2}
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172900/LYMDATALABS/Pages/webp/about2_xauwks.webp"
             className="md:mt-0 md:ml-10 lg:h-[350px] md:w-[300px] lg:w-[450px] ml-20 lg:ml-12"
-            alt=""
+            alt="img2"
             srcset=""
           />
           <div className="">
@@ -94,20 +92,20 @@ const Cultureandmore = () => {
                 className="mt-0 mb-0 "
                 alt="gjj"
               />
-              <h1 className="some-ele text-[#7b7b7b]">
-              At the core of our work lies a robust methodology, an openness to fresh ideas, and a team culture that fuels peak performance. We not only embrace innovation but thrive on it. 
-              </h1>
+              <h3 className="some-ele text-[#7b7b7b]">
+              The approach we take in our work involves utilizing a strong methodology, being receptive to new ideas, and fostering a team environment that encourages everyone to perform at their highest level. 
+              </h3>
             </div>
             <div className="md:ml-10 lg:mt-0 xxl:gap-6 lg:flex lg:items-center lg:gap-3">
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417611/LYMDATALABS/Pages/Culture/asset_34_xw8ije_i7wiln.svg"
                 className="mb-10 mt-10"
-                alt=""
+                alt="image"
                 srcset=""
               />
-              <h1 className="some-ele text-[#7b7b7b]">
-              At LYMDATA LABS, our dynamic team embodies a diverse fusion of expertise, unwavering dedication, and a steadfast commitment to our daily endeavors. Our collective brilliance thrives on a spectrum of talents, each member contributing significantly. 
-              </h1>
+              <h3 className="some-ele text-[#7b7b7b]">
+              The collective brain of LYMDATA LABS is comprised of a varied group of individuals who possess extensive experience, unwavering dedication, and a strong commitment to our daily tasks. 
+              </h3>
             </div>
           </div>
         </div>
@@ -118,12 +116,12 @@ const Cultureandmore = () => {
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417648/LYMDATALABS/Pages/Culture/asset_35_rrxuyo_ptdgpo.svg"
                 className="mb-10 mt-10"
-                alt=""
+                alt="image1"
               />
 
-              <h1 className="lg:w-[350px] xxl:w-[500px] some-ele text-[#7b7b7b]">
-              Discover the essence of our exceptional team, carefully crafted with individuals possessing distinct superpowers that align seamlessly with our mission. The journey to assemble this remarkable group required dedication and hard work, resulting in a powerhouse ready to amplify your digital presence. Ranging from Digital Marketing, to Mobile App expertise, each team member contributes unique strengths to fulfill our commitment to excellence.
-              </h1>
+              <h3 className="lg:w-[350px] xxl:w-[500px] some-ele text-[#7b7b7b]">
+              Our team of exceptional individuals has been meticulously curated, with each member possessing unique superpowers that perfectly embody our mission. This has required a significant amount of dedication and hard work on our part. 
+              </h3>
             </div>
             {/* <div
               
@@ -141,7 +139,8 @@ const Cultureandmore = () => {
 
           <div>
             <img
-              src={img3}
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172900/LYMDATALABS/Pages/webp/about3_vhvwwj.webp"
+              alt="img3"
               className="ml-14 lg:ml-52 md:ml-0 md:mt-0 md:mb-44 mb-36 mt-10 md:w-[350px] md:h-[350px]"
             />
           </div>

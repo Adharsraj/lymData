@@ -370,14 +370,14 @@ const Contact = () => {
 
           <div id="form" className="flex justify-center items-center h-screen">
             <div className="w-full sm:w-full lg:w-full p-8 mt-14 md:mt-0 lg:mt-0 lg:mb-14 rounded some-element">
-              <h2 className="text-4xl font-bold md:mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]">
+              <h4 className="text-4xl font-bold md:mb-8 border border-transparent lg:leading-[70px] h-36 lg:text-[71px]">
                 {" "}
                 How can we <br /> help
                 <span className="relative ml-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
                   {text}
                 </span>
                 {showCursor && <span className="ml-1">|</span>}
-              </h2>
+              </h4>
               {showform ? (
                 <form onSubmit={handleSubmit} className="">
                   <div className="grid md:grid-cols-2 md:gap-16">
@@ -454,7 +454,7 @@ const Contact = () => {
                     <div>
                     {formData.name && formData.email && (
                     <ReCAPTCHA
-        sitekey="6Ldai1goAAAAADOPDbiPjjxMkX9kFld10SVriUG7"
+        sitekey="6LfClQ4pAAAAAH9desXouDRgOTgpf1s-crTYaBeT"
         onChange={handleCaptchaChange}
       />
       )}
@@ -509,15 +509,15 @@ const Contact = () => {
     )} */}
 
 {sucess ? (
-       <h2 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
+       <h4 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
        Mail sent successfully, our team will get in touch with you soon
-     </h2>
+     </h4>
     ) : (
       <div onClick={handleSubmit} className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
-      <h1 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-14">
+      <h3 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-14">
       Submit
-      </h1>
-      <h1 className="p-3 mt-10 flex items-center rounded-full w-[45px] bg-black text-white border fill-current">
+      </h3>
+      <h3 className="p-3 mt-10 flex items-center rounded-full w-[45px] bg-black text-white border fill-current">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
 <g transform={`scale(${scale})`}>
 <path
@@ -526,7 +526,7 @@ data-name="Right"
 />
 </g>
 </svg>
-      </h1>
+      </h3>
     </div>
     )}
 
@@ -575,12 +575,12 @@ data-name="Right"
               ) : (
                 <div className="flex items-center justify-center pt-10">
                   <div className=" border rounded-lg p-8 shadow-lg bg-white text-center">
-                    <h1 className="text-2xl font-semibold mb-4">
+                    <h3 className="text-2xl font-semibold mb-4">
                       Thank you for contacting
-                    </h1>
-                    <h2 className="text-lg">
+                    </h3>
+                    <h4 className="text-lg">
                       Our team will get in touch with you soon
-                    </h2>
+                    </h4>
                   </div>
                 </div>
               )}
@@ -598,107 +598,108 @@ data-name="Right"
         />
         <div className="flex flex-col justify-around ">
           <div className="pl-4">
-            <h1 className="text-[12px]  absolute    " style={verticalTextStyle}>
+            <h3 className="text-[12px]  absolute    " style={verticalTextStyle}>
             10.010900672433708° N 76.36072005340284° E{" "}
-            </h1>
+            </h3>
           </div>
 
           <div className="invisible">
-            <h1
+            <h3
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
               {weatherData?.main?.temp}°C
-            </h1>
+            </h3>
           </div>
 
           <div className="flex flex-col gap-10 pl-4">
-            <h1
+            <h3
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
               {weatherData?.main?.temp}°C
-            </h1>
-            <h1
+            </h3>
+            <h3
               className="text-[12px] border border-transparent"
               style={verticalTextStyle}
             >
               {formattedTime}
-            </h1>
+            </h3>
           </div>
         </div>
 
         <div className="border border-transparent w-1/2 flex flex-col gap-10 justify-center items-center text-left  ">
           <div className="border border-transparent w-full pl-10 text-[22px]"></div>
           <div className="  w-full pl-10 text-[18px]">
-            <h1 className="  w-1/2 p-2 font-light ">
+            <h3 className="  w-1/2 p-2 font-light ">
               Smart Business Center  <br />
               First floor, Thapasya Building  <br />
               Thapasya Rd, InfoPark Campus  <br /> Infopark, Kochi{" "}
               <br /> Kerala, India <br /> 682030
-            </h1>
+            </h3>
           </div>
         </div>
         <div className=" mt-[-160px] ">
-          <h1
+          <h3
             style={verticalTextStyle}
             className="absolute  h-[97%] uppercase text-sm"
           >
             Ernakulam,kerala
-          </h1>
+          </h3>
           <img
             src={img}
+            alt="img1"
             className="h-full xl:w-[600px] px-10 absolute filter grayscale"
           />
         </div>
       </div>
       <div className="md:hidden flex pt-3  flex-col some-element">
-        <h1 className="flex  text-4xl mb-8 px-6 font-bold  ">
+        <h3 className="flex  text-4xl mb-8 px-6 font-bold  ">
           Our <br /> locations
-        </h1>
+        </h3>
         <div className="flex">
-          <img src={img} className="  pl-5 filter grayscale  overflow-hidden" />
-          <h1
+          <img src={img} alt="img2" className="  pl-5 filter grayscale  overflow-hidden" />
+          <h3
             className=" py-5 text-sm uppercase  font-light"
             style={verticalTextStyle}
           >
             {" "}
             Ernakulam,kerala
-          </h1>
+          </h3>
           <div className="flex flex-col  justify-around font-light ">
             <div className="flex flex-col gap-8 pr-1 ">
-              <h1
+              <h3
                 className="text-[12px]   border-transparent "
                 style={verticalTextStyle}
               >
                 {weatherData?.main?.temp}°C
-              </h1>
-              <h1
+              </h3>
+              <h3
                 className="text-[12px]  border border-transparent"
                 style={verticalTextStyle}
               >
                 {formattedTime}
-              </h1>
+              </h3>
             </div>
 
             <div className="invisible">
-              <h1
+              <h3
                 className="text-[12px] border border-transparent"
                 style={verticalTextStyle}
               >
                 4:47 AM
-              </h1>
+              </h3>
             </div>
           </div>
         </div>
 
         <div className=" w-full px-6 mt-8 ">
-          <h1 className="  p-2 font-light text-[18px]">
+          <h3 className="  p-2 font-light text-[18px]">
           Smart Business Center <br />
           First floor, Thapasya Building <br />
           Thapasya Rd, InfoPark Campus  <br /> Infopark, Kochi{" "}
             <br /> Kerala, India <br /> 682030
-          </h1>
+          </h3>
         </div>
       </div>
     </div>

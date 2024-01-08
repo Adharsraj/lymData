@@ -419,7 +419,7 @@ const DataSlide1 = (props) => {
   }
 
   return (
-    <div className="overflow-hidden">
+    <div className=" overflow-hidden">
       <InView
         as="div"
         threshold={!isMobile ? "0.7" : "0.3"}
@@ -511,11 +511,11 @@ const DataSlide1 = (props) => {
                             {" "}
                             {slide.mainText[1]}{" "}
                           </span>{" "}
-                          <span ref={mainTextLine3.current[index]}>
+                          <span className="-mt-1 pb-3 " ref={mainTextLine3.current[index]}>
                             {" "}
                             {slide.mainText[2]}{" "}
                           </span>{" "}
-                          <span ref={mainTextLine4.current[index]}>
+                          <span className=" -mt-3 pb-3" ref={mainTextLine4.current[index]}>
                             {" "}
                             {slide.mainText[3]}{" "}
                           </span>{" "}

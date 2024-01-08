@@ -4,7 +4,7 @@ import gsap from 'gsap';
 const ReplaceEffect = () => {
   useEffect(() => {
     const paragraphs = document.querySelectorAll(".hidden-p");
-    const headers = document.querySelectorAll(".hidden-h1");
+    const headers = document.querySelectorAll(".hidden-h4");
     const line = document.querySelectorAll(".line");
 
     gsap.to(line, {
@@ -44,22 +44,22 @@ const ReplaceEffect = () => {
 
   return (
     <div>
-      <h1 className="hidden-p">Paragraph 1</h1>
+      <h4 className="hidden-p">Paragraph 1</h4>
       <div className="line"></div>
 
-      <h1 className="hidden-p">Paragraph 2</h1>
+      <h4 className="hidden-p">Paragraph 2</h4>
       <div className="line"></div>
 
-      <h1 className="hidden-p">Paragraph 3</h1>
+      <h4 className="hidden-p">Paragraph 3</h4>
       <div className="line"></div>
 
-      <h1 className="hidden-p">Paragraph 4</h1>
+      <h4 className="hidden-p">Paragraph 4</h4>
       <div className="line"></div>
 
-      <h1 className="hidden-h1">Header 1</h1>
-      <h1 className="hidden-h1">Header 2</h1>
-      <h1 className="hidden-h1">Header 3</h1>
-      <h1 className="hidden-h1">Header 4</h1>
+      <h4 className="hidden-h4">Header 1</h4>
+      <h4 className="hidden-h4">Header 2</h4>
+      <h4 className="hidden-h4">Header 3</h4>
+      <h4 className="hidden-h4">Header 4</h4>
     </div>
   );
 };

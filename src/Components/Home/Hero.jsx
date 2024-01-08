@@ -144,8 +144,8 @@ const Hero = ({ showImage }) => {
                
                <div className=" flex items-center text-center z-0">
                   <div className="  flex flex-col md:justify-center font-aeonic uppercase text-[134px] mx-auto">
-                    <div className="col  ">
-                      <h6 className="md:text-left whitespace-nowrap   xl:w-full xl:text-[134px] lg:text-[100px]  md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 ">
+                    <div className="col ">
+                      <h6 className="md:text-left whitespace-nowrap   xl:w-full xl:text-[134px] lg:text-[100px]  md:text-7xl  text-4xl md:w-full  w-[300px] mx-auto md:ml-0 mt-16">
                         <div>Data-driven</div>
                       </h6>
                       <h6 className="md:text-left text-center whitespace-nowrap  xl:w-full xl:text-[134px] lg:text-[100px] md:text-7xl text-4xl md:w-full  w-[300px]  md:ml-0">
@@ -175,7 +175,7 @@ const Hero = ({ showImage }) => {
 <div className="  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
   <div className=" flex flex-col md:justify-center font-aeonic uppercase text-  mx-auto">
     <div className="col">
-      <h6 className="md:text-left xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0">
+      <h6 className="md:text-left xl:w-full whitespace-nowrap xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full mx-auto md:ml-0 mt-16">
         <div>Data-driven</div>
       </h6>
       <h6 className="md:text-left text-center whitespace-nowrap xl:w-full xl:text-[16vh] lg:text-[8vh] md:text-7xl text-4xl md:w-full w-full md:ml-0">

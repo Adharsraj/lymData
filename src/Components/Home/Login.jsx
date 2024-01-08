@@ -11,18 +11,18 @@ const Login = () => {
       <div className=' w-[300px] mx-auto some-ele'>
 <div className='flex flex-col  min-h-screen  items-center justify-center'>
   <div className='flex'>
-  <h1 className='font-bold text-4xl'>Welcome  Back</h1>
+  <h3 className='font-bold text-4xl'>Welcome  Back</h3>
   <img src={hand} alt="" className='w-10 h-10'/>
   </div>
-  <h1 className='mt-7'>Please enter your details.</h1>
-{/* <h1 className='flex bg-red-200 rounded-full'>
+  <h3 className='mt-7'>Please enter your details.</h3>
+{/* <h3 className='flex bg-red-200 rounded-full'>
   <img src="" alt="logo" />
-  <h1>login with apple</h1>
-</h1> */}
+  <h3>login with apple</h3>
+</h3> */}
 <div className='flex justify-between items-center px-2  w-full'>
-  {/* <h1 className='w-14 h-1 mt-5 bg-red-200'></h1>
-  <h1 className='mt-5'> or</h1>
-  <h1 className='w-14 h-1 mt-5 bg-red-200'></h1> */}
+  {/* <h3 className='w-14 h-1 mt-5 bg-red-200'></h3>
+  <h3 className='mt-5'> or</h3>
+  <h3 className='w-14 h-1 mt-5 bg-red-200'></h3> */}
 </div>
 <div className='flex relative mt-10'>
 <input className=' rounded-full border border-gray-300 w-[250px] px-2 pt-1 pb-1' type="email" placeholder='Email' />
@@ -37,16 +37,16 @@ const Login = () => {
 <div className='flex w-full justify-around mt-5'>
   <div className='flex justify-center items-center'>
 <input type="checkbox" name="" id="" />
-<h1 className='text-[12px]'>Remember for 30 days </h1>
+<h3 className='text-[12px]'>Remember for 30 days </h3>
   </div>
   <div>
-    <h1 className='text-[12px] '>Forgot password ?</h1>
+    <h3 className='text-[12px] '>Forgot password ?</h3>
   </div>
 </div>
 <div>
-  <h1 className='bg-red-200 mt-10 w-[180px] p-2 text-center text-sm rounded-full'>Log In</h1>
+  <h3 className='bg-red-200 mt-10 w-[180px] p-2 text-center text-sm rounded-full'>Log In</h3>
 </div>
-<h1 className='mt-10'>Don't have an account? <strong>Sign Up</strong></h1>
+<h3 className='mt-10'>Don't have an account? <strong>Sign Up</strong></h3>
 </div>
       </div>
 

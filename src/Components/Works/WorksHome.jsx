@@ -1,31 +1,19 @@
 import React from "react";
-import Image1 from "../../assets/Images/image1.png"
-import Image2 from "../../assets/Images/image2.png"
-import Image3 from "../../assets/Images/image3.png"
-import Image4 from "../../assets/Images/image4.png"
-import Image5 from "../../assets/Images/image5.png"
-import Image6 from "../../assets/Images/image6.png"
-import wnew1 from "../../assets/Images/wnew1.jpg"
-import wnew2 from "../../assets/Images/wnew2.jpg"
-import wnew3 from "../../assets/Images/wnew3.jpg"
-import wnew5 from "../../assets/Images/wnew5.jpg"
-import wnew6 from "../../assets/Images/wnew6.jpg"
-import wnew7 from "../../assets/Images/wnew7.jpg"
-import wnew8 from "../../assets/Images/wnew8.jpg"
-import wnew9 from "../../assets/Images/wnew9.png"
-
 export const WorksHome = () => {
 
   return (
     <div className="max-w-[1640px] mx-auto p-4 some-ele  mb-20   gap-8 overflow-hidden">
       <div className="hidden lg:block">
-        <h1 className="mt-20 xxl:text-9xl lg:text-7xl  font-aeonic font-extrabold px-32 animate-slide-up">Artisanal Crafters of Digital Experiences Tailored for Human Interaction.
-</h1>
-        {/* <h1 className="mt-10 text-xl  px-32">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
-        <h1 className="mt-32 text-xl w-[300px] lg:w-[600px]  px-10 ml-auto">
-        Asisisting startups and tech firms in crafting and scaling digital experiences through effective design strategies.</h1>
+        <h1 className="mt-20 xxl:text-9xl font-aeonic font-extrabold px-32 animate-slide-up">We craft digital<br/>
+            experiences<br/>
+            for humans</h1>
+        {/* <h4 className="mt-10 text-xl  px-32">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h4> */}
+        <h4 className="mt-32 text-xl text-right px-10">
+            Helping startups and tech companies building <br/>
+            or scaling digital experiences leveraging design</h4>
 
             {/* 1 */}
+            
             <div className="lg:grid lg:grid-cols-2 items-start mt-32">
           <div className=" w-full h-full">
             <h3 className="text-7xl font-bold px-5 some-ele mt-24">Al-Hub</h3>
@@ -51,18 +39,16 @@ export const WorksHome = () => {
         UI/UX
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">AL HUB is Your Exclusive Passport to UAE's Hidden Gems.The app is designed to cater not just to locals but also businesses and tourists, ensuring everyone enjoys a seamless and delightful experience.
- </h3>
+          <h3 className="text-xl px-5 mt-12">AL HUB serves as a virtual guide that assists you in locating<br/> the coolest hangouts this amazing country has to offer.<br/> Our App not only caters to the needs of citizens but also <br/>businesses and tourists. </h3>
 
-                {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
-                View on Behance
-              </h3> */}
+             
 
           </div>
           <div className="flex">
   <img
-    src={wnew9}
-    className="mt-8 lg:mt-0 hidden lg:block w-[450px] h-[650px]"
+    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp"
+    alt="work9"
+    className="mt-8 lg:mt-0 hidden mx-auto lg:block w-[450px] h-[650px]"
   />
   {/* <img
     src={Image2}
@@ -111,6 +97,10 @@ export const WorksHome = () => {
 
           
         </div>
+
+
+
+
         
         {/* 2 */}
         <div className="lg:grid lg:grid-cols-2 items-start mt-32">
@@ -135,8 +125,7 @@ export const WorksHome = () => {
         Website Design
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">The epitome of sophistication in hotel wares and cutlery.Upgrade your dining experience with their meticulously crafted pieces, seamlessly blending style, functionality, and timeless beauty.
- </h3>
+          <h3 className="text-xl px-5 mt-12">Ultimate destination for premium hotel wares and cutlery. <br/>Elevate your dining experience with our meticulously <br/>crafted pieces that blend style, functionality, and <br/>timeless beauty.  </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -145,8 +134,9 @@ export const WorksHome = () => {
           </div>
           <div className="flex">
           <img
-            src={wnew8}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[600px] h-[600px]"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew8_etxhl5.webp"
+            alt="work8"
+            className="mt-8 lg:mt-0 hidden mx-auto  lg:block bg-black w-[600px] h-[600px]"
           />
           {/* <img
             src={Image2}
@@ -188,8 +178,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">Committed to delivering exceptional educational services, they are devoted to assisting you in achieving your academic and career aspirations. Their comprehensive offerings include distance education, study abroad admission guidance, and dedicated support for students.
- </h3>
+          <h3 className="text-xl px-5 mt-12">Dedicated to providing top-notch educational services to<br/> help you reach your academic and career goals. From <br/>distance education to study abroad admission guidance<br/> and assistance to students. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -198,8 +187,9 @@ export const WorksHome = () => {
           </div>
           <div className="flex justify-end px-0">
           <img
-            src={wnew3}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[600px] h-[650px] "
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew3_icwhke.webp"
+            alt="work3"
+            className="mt-8 lg:mt-0 hidden mx-auto lg:block bg-black w-[600px] h-[650px] "
           />
           {/* <img
             src={Image2}
@@ -241,8 +231,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">Experience AquaGuard's innovation in water purification across homes, businesses, and major organizations in Asia and the UAE. Their dependable equipment, coupled with adaptable technology, guarantees a steady supply of pure and wholesome water.
-</h3>
+          <h3 className="text-xl px-5 mt-12">AquaGuard has delivered water purification & water filtration <br/>processes to domestic consumers, businesses and large <br/>organizations throughout Asia & UAE. Reliable and durable<br/> equipment with scalable technology and solutions to provide<br/> safe and healthy water. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -251,8 +240,9 @@ export const WorksHome = () => {
           </div>
           <div className="flex">
           <img
-            src={wnew7}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black w-[600px] h-[600px]"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew7_qdc21m.webp"
+            alt="work7"
+            className="mt-8 lg:mt-0 hidden mx-auto lg:block bg-black w-[600px] h-[600px]"
           />
           {/* <img
             src={Image2}
@@ -294,8 +284,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">FarmFed Tourism is recognised as the best travel agency in Kochi, Kerala where they present a diverse range of domestic and international tour packages tailored to meet all your wanderlust desires. 
-</h3>
+          <h3 className="text-xl px-5 mt-12">Farmfed Tourism is an Initiative of Southern Green Farming <br/>and marketing Multi-State Co-Operative Society Limited <br/>(FARMFED) with 16 years of experience. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -304,8 +293,9 @@ export const WorksHome = () => {
           </div>
           <div className="flex justify-end">
           <img
-            src={wnew5}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172899/LYMDATALABS/Pages/webp/wnew5_femoxi.webp"
+            alt="work5"
+            className="mt-8 lg:mt-0 mx-auto hidden lg:block bg-black"
           />
           {/* <img
             src={Image2}
@@ -347,8 +337,7 @@ export const WorksHome = () => {
         Motion
         </button>
           </div>
-          <h3 className="text-xl px-5 mt-12">At Pappaboo, they acknowledge the extraordinary expedition of parenthood, brimming with love, joy, and countless cherished moments. Pappaboo is committed to delivering top-notch diapering solutions, ensuring to stand by as a steadfast companion throughout every phase of this incredible journey.
-</h3>
+          <h3 className="text-xl px-5 mt-12">Website design is a living illustration of this insight. It stands<br/> out not for shiny animations or other design techniques, <br/>but for its focus on the customer journey for busy<br/> moms and dads. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -357,8 +346,9 @@ export const WorksHome = () => {
           </div>
           <div className="flex justify-end">
           <img
-            src={wnew6}
-            className="mt-8 lg:mt-0 hidden lg:block bg-black"
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew6_yyb40q.webp"
+            alt="work6"
+            className="mt-8 lg:mt-0 mx-auto hidden lg:block bg-black"
           />
           {/* <img
             src={Image2}
@@ -378,11 +368,13 @@ export const WorksHome = () => {
       </div>
 
       <div className="lg:hidden">
-      <h1 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">Artisanal Crafters of Digital Experiences Tailored for Human Interaction.
-</h1>
-        {/* <h1 className="mt-10">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h1> */}
-        <h1 className="mt-32 text-xl ">
-        Asisisting startups and tech firms in crafting and scaling digital experiences through effective design strategies.</h1>
+      <h2 className="mt-32 text-4xl text-center font-aeonic font-extrabold animate-slide-up">We craft digital<br/>
+            experiences<br/>
+            for humans</h2>
+        {/* <h4 className="mt-10">🏆 Designer of the Year on CSS Design Awards + Digital Design Award</h4> */}
+        <h4 className="mt-32 text-xl ">
+            Helping startups and tech companies building
+            or scaling digital experiences leveraging design</h4>
 
         {/* 1 */}
         <div className="lg:grid lg:grid-cols-2 items-start">
@@ -411,7 +403,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">AL HUB is Your Exclusive Passport to UAE's Hidden Gems.The app is designed to cater not just to locals but also businesses and tourists, ensuring everyone enjoys a seamless and delightful experience. </h3>
+          <h3 className="text-xl mt-20">AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer. Our App not only caters to the needs of citizens but also businesses and tourists. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -419,7 +411,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={wnew9}
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp"
+                    alt="work9"
                     className="mt-8 mb-4 w-[250px] h-[400px]"
                 />
                 {/* <img
@@ -463,8 +456,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">The epitome of sophistication in hotel wares and cutlery.Upgrade your dining experience with their meticulously crafted pieces, seamlessly blending style, functionality, and timeless beauty.
-</h3>
+          <h3 className="text-xl mt-20">Ultimate destination for premium hotel wares and cutlery. Elevate your dining experience with our meticulously crafted pieces that blend style, functionality, and timeless beauty.</h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -472,7 +464,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={wnew8}
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew8_etxhl5.webp"
+                    alt="work8"
                     className="mt-8 mb-4 bg-black w-[300px] h-[400px] rounded-3xl"
                 />
                 {/* <img
@@ -516,8 +509,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Committed to delivering exceptional educational services, they are devoted to assisting you in achieving your academic and career aspirations. Their comprehensive offerings include distance education, study abroad admission guidance, and dedicated support for students.
- </h3>
+          <h3 className="text-xl mt-20">Dedicated to providing top-notch educational services to help you reach your academic and career goals. From distance education to study abroad admission guidance and assistance to students. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -525,7 +517,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={wnew3}
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew3_icwhke.webp"
+                    alt="work3"
                     className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
                 {/* <img
@@ -569,8 +562,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">Experience AquaGuard's innovation in water purification across homes, businesses, and major organizations in Asia and the UAE. Their dependable equipment, coupled with adaptable technology, guarantees a steady supply of pure and wholesome water.
-</h3>
+          <h3 className="text-xl mt-20">AquaGuard has delivered water purification & water filtration processes to domestic consumers, businesses and large organizations throughout Asia & UAE. Reliable and durable equipment with scalable technology and solutions to provide safe and healthy water. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -578,7 +570,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={wnew7}
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew7_qdc21m.webp"
+                    alt="work7"
                     className="mt-8 mb-4 bg-black w-[230px] h-[400px] rounded-3xl"
                 />
                 {/* <img
@@ -623,8 +616,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">FarmFed Tourism is recognised as the best travel agency in Kochi, Kerala where they present a diverse range of domestic and international tour packages tailored to meet all your wanderlust desires. 
-</h3>
+          <h3 className="text-xl mt-20">Farmfed Tourism is an Initiative of Southern Green Farming and marketing Multi-State Co-Operative Society Limited (FARMFED) with 16 years of experience. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -632,7 +624,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={wnew5}
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172899/LYMDATALABS/Pages/webp/wnew5_femoxi.webp"
+                    alt="work5"
                     className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
                 {/* <img
@@ -677,8 +670,7 @@ export const WorksHome = () => {
         </button>
         </div>
           </div>
-          <h3 className="text-xl mt-20">At Pappaboo, they acknowledge the extraordinary expedition of parenthood, brimming with love, joy, and countless cherished moments. Pappaboo is committed to delivering top-notch diapering solutions, ensuring to stand by as a steadfast companion throughout every phase of this incredible journey.
- </h3>
+          <h3 className="text-xl mt-20">Website design is a living illustration of this insight. It stands out not for shiny animations or other design techniques, but for its focus on the customer journey for busy moms and dads. </h3>
 
                 {/* <h3  className="p-3 mt-8 px-5 flex justify-center rounded-full w-[180px] text-white bg-[#282728] cursor-pointer hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-600 duration-[400ms,700ms] transition-[color,box-shadow]" >
                 View on Behance
@@ -686,7 +678,8 @@ export const WorksHome = () => {
 
               <div className="flex flex-col items-center mt-10">
                 <img
-                    src={wnew6}
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/wnew6_yyb40q.webp"
+                    alt="work6"
                     className="mt-8 mb-4 bg-black w-[550px] h-[300px] rounded-3xl"
                 />
                 {/* <img

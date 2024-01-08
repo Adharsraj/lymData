@@ -7,11 +7,11 @@ import PageNotFound from "./Pages/PageNotFound";
 import Login  from "./Components/Home/Login";
 import SignUp from "./Components/Home/SignUp";
 import WhatsNew from "./Pages/WhatsNew";
-const InsideServices = lazy(() => import("./Pages/InsideServices"));
 const BlogDetailed = lazy(() => import("./Components/Blog/BlogDetailed"));
 const Blog = lazy(() => import("./Pages/Blog"));
 const WorkDetailed = lazy(() => import("./Components/Works/WorkDetailed"));
 const About = lazy(() => import("./Pages/About"));
+const InsideServices = lazy(() => import("./Pages/InsideServices"));
 const Careers = lazy(() => import("./Pages/Careers"));
 const Contact = lazy(() => import("./Pages/Contact"));
 const Home = lazy(() => import("./Pages/Home"));
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: (
-          <Suspense fallback={<Loading />}>
+          <Suspense>
             <Wrapper>
               <Home />
             </Wrapper>
@@ -46,7 +46,7 @@ const router = createBrowserRouter([
       {
           path: "/contact",
           element: (
-            <Suspense fallback={<Loading />}>
+            <Suspense>
               <Wrapper>
                 <Contact />
               </Wrapper>
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
     {
       path: "/careers",
       element: (
-        <Suspense fallback={<Loading />}>
+        <Suspense>
           <Wrapper>
             <Careers />
           </Wrapper>
@@ -76,7 +76,7 @@ const router = createBrowserRouter([
 {
   path: "/blog",
   element: (
-    <Suspense fallback={<Loading />}>
+    <Suspense>
       <Wrapper>
         <Blog />
       </Wrapper>
@@ -84,9 +84,9 @@ const router = createBrowserRouter([
   ),
 },
 {
-path: "/blog/:id",
+path: "/blog/:name",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <BlogDetailed />
     </Wrapper>
@@ -96,7 +96,7 @@ element: (
 {
 path: "/works",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <Works />
     </Wrapper>
@@ -106,7 +106,7 @@ element: (
 {
 path: "/works/:title",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <WorkDetailed/>
     </Wrapper>
@@ -116,7 +116,7 @@ element: (
 {
 path: "/terms",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <TermsOfUse />
     </Wrapper>
@@ -126,7 +126,7 @@ element: (
 {
 path: "/services",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <Services />
     </Wrapper>
@@ -146,7 +146,7 @@ element: (
 {
 path: "/privacy",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <PrivacyPolicy />
     </Wrapper>
@@ -156,7 +156,7 @@ element: (
 {
 path: "/about",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <Culture />
     </Wrapper>
@@ -166,7 +166,7 @@ element: (
 {
 path: "/login",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <Login />
     </Wrapper>
@@ -176,7 +176,7 @@ element: (
 {
 path: "/signup",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <SignUp />
     </Wrapper>
@@ -196,7 +196,7 @@ element: (
 {
 path: "*",
 element: (
-  <Suspense fallback={<Loading />}>
+  <Suspense>
     <Wrapper>
       <PageNotFound />
     </Wrapper>
@@ -208,7 +208,6 @@ element: (
   
 
   return (
-    
       <RouterProvider router={router} />
     )
   

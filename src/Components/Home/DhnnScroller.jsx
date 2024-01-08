@@ -2,11 +2,6 @@ import React, { useEffect,useState } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import awards from '../../assets/scrollings/awards.jpg'
-import experts from '../../assets/scrollings/experts.png'
-import offices from '../../assets/scrollings/offices.jpg'
-import projects from '../../assets/scrollings/projects.png'
-import years from '../../assets/scrollings/years.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -393,19 +388,19 @@ const DhnnScroller = ({ showImage }) => {
 <div  className='overflow-hidden bg-black md:hidden'>
     <div  className='w-full  flex justify-end ml-10'>
       <img
-        src={awards}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261776/LYMDATALABS/Pages/webp/awards_b1qtuh.webp"
         className='h-[350px] rounded-3xl  '    />
     </div>
     <div className='mt-20  w-full ml-[-100px]'>
       <img
-        src={projects}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/projects_ukc1vw.webp"
         alt="dhnn"
         className='rounded-3xl'
       />
     </div>
     <div className='mt-20  w-full ml-16'>
         <img
-        src={experts}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/experts_sonvot.webp"
         className='rounded-3xl'
 
         alt="dhnn"
@@ -413,7 +408,7 @@ const DhnnScroller = ({ showImage }) => {
     </div>
     <div className='mt-20  w-full  flex justify-center ml-5'>
       {/* <img
-        // src={years}
+        // src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/years_vrspin.webp"
         // alt="dhnn"
         className='rounded-3xl h-[250px] w-[250px]'
 
@@ -422,7 +417,7 @@ const DhnnScroller = ({ showImage }) => {
 
     {/* <div className='mt-20  w-full pb-10 '>
       <img
-              src={offices}
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/offices_vx48lg.webp"
               className='rounded-3xl h-[400px] w-[300px] ml-[-100px]'
 
         alt="dhnn"
@@ -434,7 +429,7 @@ const DhnnScroller = ({ showImage }) => {
 <div class="bg-black text-white hidden md:block  ">
     <div class="flex flex-col   justify-center ml-[500px] items-center">
       <img
-        src={awards}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261776/LYMDATALABS/Pages/webp/awards_b1qtuh.webp"
         alt="dhnn"
         class="  img1 object-cover  rounded-xl flex justify-end w-[300px] h-[300px] home-weare-card-img img-mobile"
       />
@@ -445,7 +440,7 @@ const DhnnScroller = ({ showImage }) => {
 
     <div class="flex  ml-5 flex-col justify-start   items-start">
       <img
-        src={experts}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/experts_sonvot.webp"
         alt="dhnn"
         class=" img2  object-cover h-[390px]  rounded-xl home-weare-card-img"
         data-v-15ca7abc=""
@@ -455,7 +450,7 @@ const DhnnScroller = ({ showImage }) => {
     <div class="flex  flex-col justify-end items-end">
 <h1 class="im h-[20px] "></h1>
         <img
-        src={offices}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/offices_vx48lg.webp"
         alt="dhnn"
         class=" img3  rounded-xl object-cover h-[400px] mt-[-10vh] w-[350px] home-weare-card-img"
         data-v-15ca7abc=""
@@ -464,7 +459,7 @@ const DhnnScroller = ({ showImage }) => {
     </div>
     <div class="flex  flex-col justify-start ml-20 items-start">
       <img
-        src={projects}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/projects_ukc1vw.webp"
         alt="dhnn"
         class=" rounded-xl img4 mt-[-10vh] h-[400px] w-[350px] object-cover home-weare-card-img"
         data-v-15ca7abc=""
@@ -474,7 +469,7 @@ const DhnnScroller = ({ showImage }) => {
 
     <div class="flex  flex-col ml-40 justify-center items-center">
       <img
-        src={years}
+        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704261777/LYMDATALABS/Pages/webp/years_vrspin.webp"
         alt="dhnn"
         class=" rounded-xl w-[252px] h-[509px] img5 mt-[-70vh] object-cover home-weare-card-img"
         data-v-15ca7abc=""

@@ -1,39 +1,90 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { SlSocialDribbble, SlSocialLinkedin } from "react-icons/sl";
+import { FaHeart, FaComment } from 'react-icons/fa';
+
 const Blog1 = () => {
+  const [likes, setLikes] = useState(0);
+  const [showCommentInput, setShowCommentInput] = useState(false);
+  const [comments, setComments] = useState([]);
+  const [newComment, setNewComment] = useState('');
+
+  const handleLikeClick = () => {
+    setLikes(likes + 1);
+    // Add additional logic if needed, like making an API request.
+  };
+
+  const handleCommentClick = () => {
+    // setComments(comments + 1);
+    setShowCommentInput(!showCommentInput);
+  };
+
+  const handleCommentSubmit = (e) => {
+    e.preventDefault();
+    setComments([...comments, newComment]);
+    setNewComment('');
+    setShowCommentInput(false);
+  };
+
   return (
-    <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
+    <div className="max-w-[1640px] mx-auto md:px-12 lg:text-xl lg:max-w-[900px] some-ele ">
       <div>
-        {/* <h1 className="text-3xl font-bold mt-4">
-          This is how you create relevant content that your target audience will
-          love!
-        </h1> */}
-        <h3 className="mt-6 text-lg">
-        In today's fast-paced and highly competitive business environment, data has emerged as the lifeblood that fuels the engine of modern enterprises. The ability to harness, analyze, and derive meaningful insights from data is no longer just a competitive advantage; it's a necessity. Data-driven decision-making has become increasingly important for businesses, and at the forefront of this transformation is the remarkable power of predictive analytics. Predictive analytics, a subset of data analytics, is a potent tool that assists organizations in comprehending and forecasting customer behavior, thereby enabling them to make informed and strategic decisions. This article delves into the compelling influence of predictive analytics and how it is shaping the landscape of decision-making across various industries.
+        <h3 className="text-3xl font-bold mt-7">
+        Introduction
         </h3>
         <h3 className="mt-6 text-lg">
-        Predictive analytics involves the application of advanced statistical and analytical techniques to historical and current data to identify patterns, correlations, and trends. These insights are then used to predict future events, behaviors, or outcomes. By harnessing the power of predictive analytics, organizations can not only react to events as they happen but also proactively plan for the future, creating a distinct competitive edge.
+        In the dynamic realm of modern enterprises, data engineering has evolved into the driving force behind strategic decision-making. Predictive analytics, a subset of data analytics, emerges as a critical player in this landscape, empowering organizations to decipher customer behavior and make informed decisions.  This article explores the influential role of predictive analytics and its transformative impact on decision-making across diverse industries.
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Cognizance of Predictive Analytics
         </h3>
         <h3 className="mt-6 text-lg">
-        The strength of predictive analytics is exemplified by its capacity to offer organizations a comprehensive view of customer behavior. In the age of big data, businesses have access to an overwhelming amount of information. Predictive analytics can sift through this vast sea of data, extracting valuable insights and constructing detailed customer personas. These personas serve as a valuable tool for understanding the characteristics and preferences of target audiences. Armed with this knowledge, organizations can tailor their strategies, products, and services to better meet the needs of their customers.
+        Predictive analytics involves the application of advanced statistical techniques to historical and current data, unraveling patterns, correlations, and trends. This insightful exploration not only enables organizations to respond to events as they unfold but also empowers them to proactively plan for the future, establishing a distinct competitive advantage. 
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Holistic Customer Insight
         </h3>
         <h3 className="mt-6 text-lg">
-        By drawing data from multiple sources and scrutinizing it through the lens of predictive analytics, companies can uncover opportunities for growth that might have remained hidden otherwise. This comprehensive approach helps in identifying new markets, untapped customer segments, and innovative product or service offerings. By aligning their strategies with these data-backed insights, organizations can make informed decisions on how to allocate resources effectively. This not only maximizes their return on investment but also minimizes wastage of valuable resources, a key concern for any business.
+        The strength of predictive analytics lies in its ability to offer organizations a holistic view of customer behavior.Through adeptly traversing the expansive ocean of voluminous big data, predictive analytics discerns invaluable insights and meticulously assembles intricate customer personas. Armed with this knowledge, organizations can tailor their strategies, products, and services to precisely meet the needs of their diverse customer base.
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Identifying Growth Opportunities
         </h3>
         <h3 className="mt-6 text-lg">
-        Anticipating customer behavior is another crucial facet of predictive analytics. It goes beyond mere historical analysis and paves the way for the creation of predictive models that can forecast customer needs and preferences. These models rely on historical customer data, such as past purchases, browsing behavior, and interaction patterns. By dissecting these data points, predictive analytics can predict what products or services a customer is likely to be interested in, even before they express their preferences explicitly. This anticipatory approach not only enables companies to provide customers with what they desire but also creates more personalized and relevant experiences.
+        By drawing data from multiple sources and scrutinizing it through predictive analytics, companies can uncover hidden opportunities for growth. This inclusive approach aids in identifying new markets, untapped customer segments, and innovative product or service offerings. Aligning strategies with these data-backed insights allows organizations to maximize return on investment and minimize resource wastage.
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Predicting Customer Behavioral Patterns
         </h3>
         <h3 className="mt-6 text-lg">
-        Personalization is a cornerstone of modern marketing strategies, and predictive analytics plays a pivotal role in achieving this goal. With an intimate understanding of customer behavior and predictive models in place, organizations can craft highly personalized marketing campaigns. These campaigns are tailored to individual customers, delivering messages, offers, and content that resonate with their unique preferences. As a result, marketing becomes more effective, engagement rates increase, and customer loyalty strengthens. Personalization through predictive analytics not only boosts sales but also enhances the overall customer experience.
+        Predictive analytics goes beyond historical analysis, enabling the creation of models that forecast customer needs and preferences. By dissecting historical customer data, predictive analytics predicts products or services of interest to customers even before they express explicit preferences. This anticipatory approach enhances personalization and delivers more relevant customer experiences.
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Personalization for Enhanced Marketing
         </h3>
         <h3 className="mt-6 text-lg">
-        Moreover, predictive analytics is not just about identifying customer preferences; it also assists in automated decision-making. Traditional decision-making processes often involve complex analyses and subjective judgment. Predictive analytics streamlines this by providing data-driven, automated decision-making processes. For instance, in e-commerce, pricing optimization can be automated based on predictive analytics models that factor in demand, competitor pricing, and historical sales data. In healthcare, predictive analytics can automate patient risk assessments, facilitating quicker and more accurate medical decisions. The automation of decisions that were once manual not only saves time but also reduces the potential for human error, enhancing the quality of decisions.
+        Personalization, a cornerstone of modern marketing, is significantly influenced by predictive analytics. With an intimate understanding of customer behavior, organizations can craft highly personalized marketing campaigns. These campaigns, tailored to individual customers, boost effectiveness, increase engagement rates, and strengthen customer loyalty.
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Automated Decision-Making
         </h3>
         <h3 className="mt-6 text-lg">
-        In conclusion, predictive analytics is a formidable tool that empowers organizations to make data-driven decisions and gain a competitive edge. It enables businesses to comprehend customer behavior comprehensively, identify growth opportunities, create more personalized customer experiences, automate decision-making, and optimize their operations. In an era where data-driven decision-making is no longer a luxury but a necessity, predictive analytics stands as a powerful instrument that organizations can wield to their advantage. As the data-driven revolution continues to reshape the business landscape, those who harness the power of predictive analytics will find themselves well-positioned for success. The road to a brighter and more efficient future is paved with data, and predictive analytics is the guiding star illuminating the path.
+        Predictive analytics streamlines decision-making processes through data-driven automation. In e-commerce, pricing optimization can be automated based on predictive analytics models, considering demand, competitor pricing, and historical sales data. In healthcare, patient risk assessments can be automated, facilitating quicker and more accurate medical decisions. Automation not only saves time but also enhances decision quality.
+        </h3>
+
+        <h3 className="text-3xl font-bold mt-7">
+        Conclusion
+        </h3>
+        <h3 className="mt-6 text-lg">
+        In the era where data-driven decision-making is imperative, predictive analytics emerges as a formidable tool. Empowering organizations to comprehend customer behavior, identify growth opportunities, create personalized experiences, and automate decision-making, predictive analytics positions businesses for success in the data-driven revolution.  As organizations pave the way toward a brighter and more efficient future, predictive analytics stands as the guiding star illuminating the path.
         </h3>
       
         {/* <h2 className="text-xl mt-5 font-bold mb-5">
@@ -115,23 +166,108 @@ const Blog1 = () => {
             business, drop us a line!{" "}
           </p> */}
 
-          {/* <div className="flex gap-5 sm:mt-10 mt-10  md:ml-5 lg:ml-10">
-            <span>
-              <BsFacebook />
-            </span>
-            <span>
-              <AiFillInstagram />
-            </span>
-            <span>
-              <FaTwitter />
-            </span>
-            <span>
-              <SlSocialDribbble />
-            </span>
-            <span>
-              <SlSocialLinkedin />
-            </span>
-          </div> */}
+<div className="flex justify-between some-ele">
+    <div className="flex gap-5 sm:mt-10 mt-10 md:ml-5 lg:ml-0">
+      <span className="cursor-pointer text-red-600" onClick={handleLikeClick}>
+        <FaHeart />
+        {likes > 0 && <span className="ml-1 text-xs">{likes}</span>}
+      </span>
+      
+      <span className="cursor-pointer text-blue-500" onClick={handleCommentClick}>
+        <FaComment />
+        {comments.length > 0 && <span className="ml-1 text-xs">{comments.length}</span>}
+      </span>     
+    </div>
+
+  {/* <div className="flex gap-5 sm:mt-10 mt-10 md:ml-5 lg:ml-10">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <BsFacebook className="cursor-pointer" />
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <AiFillInstagram className="cursor-pointer" />
+      </a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        <FaTwitter className="cursor-pointer" />
+      </a>
+      <a href="https://www.dribbble.com" target="_blank" rel="noopener noreferrer">
+        <SlSocialDribbble className="cursor-pointer" />
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <SlSocialLinkedin className="cursor-pointer" />
+      </a>
+   </div> */}
+
+
+<div className="flex gap-5 sm:mt-10 mt-10 md:ml-5 lg:ml-10">
+  <a
+    href="https://www.facebook.com/sharer/sharer.php?u=https://www.lymdata.com/blog/ThePowerofPredictiveAnalytics"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <BsFacebook className="cursor-pointer" />
+  </a>
+  {/* <a
+  href="https://www.instagram.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <AiFillInstagram className="cursor-pointer" />
+</a> */}
+<a
+  href="https://twitter.com/intent/tweet?url=https://www.lymdata.com/blog/ThePowerofPredictiveAnalytics"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaTwitter className="cursor-pointer" />
+</a>
+{/* <a
+  href="https://dribbble.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <SlSocialDribbble className="cursor-pointer" />
+</a> */}
+<a
+  href="https://www.linkedin.com/shareArticle?url=https://www.lymdata.com/blog/ThePowerofPredictiveAnalytics"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <SlSocialLinkedin className="cursor-pointer" />
+</a>
+</div>
+</div>
+
+{showCommentInput && (
+        <div className="mt-3">
+          <form onSubmit={handleCommentSubmit}>
+            <div>
+            <textarea
+              type="text"
+              className="text-sm"
+              placeholder="Add a comment..."
+              value={newComment}
+              onChange={(e) => setNewComment(e.target.value)}
+            />
+            </div>
+            <div className="mt-2">
+            <button type="submit" className="text-sm p-1 px-5 cursor-pointer border bg-black text-white rounded-2xl">Submit</button>
+            </div>
+          </form>
+        </div>
+      )}
+
+      {/* Display existing comments */}
+      {comments.length > 0 && (
+        <div className="mt-5">
+          <h3 className="text-sm font-semibold">Comments :</h3>
+          <ul className="list-disc pl-7 text-sm">
+            {comments.map((comment, index) => (
+              <li key={index}>{comment}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
         </div>
       </div>
   );

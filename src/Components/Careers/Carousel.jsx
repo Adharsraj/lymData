@@ -47,15 +47,15 @@ const Carousel = () => {
 
               <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[0px]  text-5xl font-bold">01</h1>
-            <h1 className="text-center">/05</h1>
+            <h3 className="text-center mt-[0px]  text-5xl font-bold">01</h3>
+            <h3 className="text-center">/05</h3>
               </div>
               <div>
-              <h1 className="text-left pl-10 font-semibold text-2xl">First Glance<br/>Gateway</h1>
+              <h3 className="text-left pl-10 font-semibold text-2xl">First Glance<br/>Gateway</h3>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">Discuss their background, motivations, and alignment with your company's mission.</h1>
+              <h3 className="text-left pl-10">Discuss their background, motivations, and alignment with your company's mission.</h3>
 
               </div>
 
@@ -68,15 +68,15 @@ const Carousel = () => {
 
               <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[0px]  text-5xl font-bold">02</h1>
-            <h1 className="text-center">/05</h1>
+            <h3 className="text-center mt-[0px]  text-5xl font-bold">02</h3>
+            <h3 className="text-center">/05</h3>
               </div>
               <div>
-              <h1 className="text-left pl-10 font-semibold text-2xl">Technical <br/>Assessment</h1>
+              <h3 className="text-left pl-10 font-semibold text-2xl">Technical <br/>Assessment</h3>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">problem-solving exercises, or technical interviews to evaluate the candidate's proficiency in relevant technologies. </h1>
+              <h3 className="text-left pl-10">problem-solving exercises, or technical interviews to evaluate the candidate's proficiency in relevant technologies. </h3>
 
               </div>
 
@@ -89,15 +89,15 @@ const Carousel = () => {
 
               <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[0px]  text-5xl font-bold">03</h1>
-            <h1 className="text-center">/05</h1>
+            <h3 className="text-center mt-[0px]  text-5xl font-bold">03</h3>
+            <h3 className="text-center">/05</h3>
               </div>
               <div>
-              <h1 className="text-left pl-10 font-semibold text-2xl">Leadership Roundtable</h1>
+              <h3 className="text-left pl-10 font-semibold text-2xl">Leadership Roundtable</h3>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">assess how well they would collaborate within your startup's dynamic environment. </h1>
+              <h3 className="text-left pl-10">assess how well they would collaborate within your startup's dynamic environment. </h3>
 
               </div>
 
@@ -110,15 +110,15 @@ const Carousel = () => {
 
               <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[0px]  text-5xl font-bold">04</h1>
-            <h1 className="text-center">/05</h1>
+            <h3 className="text-center mt-[0px]  text-5xl font-bold">04</h3>
+            <h3 className="text-center">/05</h3>
               </div>
               <div>
-              <h1 className="text-left pl-10 font-semibold text-2xl">Onboarding</h1>
+              <h3 className="text-left pl-10 font-semibold text-2xl">Onboarding</h3>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">startup's culture and provide them with the necessary resources and information. </h1>
+              <h3 className="text-left pl-10">startup's culture and provide them with the necessary resources and information. </h3>
 
               </div>
 
@@ -131,15 +131,15 @@ const Carousel = () => {
 
               <div className="flex pt-0 justify-center ">
 
-            <h1 className="text-center mt-[0px]  text-5xl font-bold">05</h1>
-            <h1 className="text-center">/05</h1>
+            <h3 className="text-center mt-[0px]  text-5xl font-bold">05</h3>
+            <h3 className="text-center">/05</h3>
               </div>
               <div>
-              <h1 className="text-left pl-10 font-semibold text-2xl">Evaluate and Iterate</h1>
+              <h3 className="text-left pl-10 font-semibold text-2xl">Evaluate and Iterate</h3>
 
               </div>
               <div>
-              <h1 className="text-left pl-10">providing ongoing support and guidance. Encourage open communication to address any concerns or challenges early on </h1>
+              <h3 className="text-left pl-10">providing ongoing support and guidance. Encourage open communication to address any concerns or challenges early on </h3>
 
               </div>
 
@@ -150,6 +150,7 @@ const Carousel = () => {
         </Swiper>
       </div>
       <div className="hidden md:flex mt-20 w-full">
+        
         <Swiper
           ref={swiperRef}
           slidesPerView={2}
@@ -164,11 +165,11 @@ const Carousel = () => {
               </div>
               <div className=" flex flex-col justify-around some-ele">
                 <div className="flex">
-                <h1 className="font-bold text-9xl">01</h1>
-                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                <h3 className="font-bold text-9xl">01</h3>
+                <h3 className="font-light text-[20px] mt-3">/05</h3>
                 </div>
-                <h1 className="font-semibold text-2xl">First Glance <br/>Gateway</h1>
-                <h1>Discuss their background, motivations,<br/> and alignment with your company's <br/>mission. </h1>
+                <h3 className="font-semibold text-2xl">First Glance <br/>Gateway</h3>
+                <h3>Discuss their background, motivations,<br/> and alignment with your company's <br/>mission. </h3>
 
               </div>
             </div>
@@ -180,11 +181,11 @@ const Carousel = () => {
               </div>
               <div className=" flex flex-col justify-around some-ele">
               <div className="flex">
-                <h1 className="font-bold text-9xl">02</h1>
-                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                <h3 className="font-bold text-9xl">02</h3>
+                <h3 className="font-light text-[20px] mt-3">/05</h3>
                 </div>
-                <h1 className="font-semibold text-2xl">Technical <br/>Assessment</h1>
-                <h1>problem-solving exercises, or technical <br/>interviews to evaluate the candidate's <br/>proficiency in relevant technologies. </h1>
+                <h3 className="font-semibold text-2xl">Technical <br/>Assessment</h3>
+                <h3>problem-solving exercises, or technical <br/>interviews to evaluate the candidate's <br/>proficiency in relevant technologies. </h3>
 
               </div>
             </div>
@@ -196,11 +197,11 @@ const Carousel = () => {
               </div>
               <div className="flex flex-col justify-around some-ele">
               <div className="flex">
-                <h1 className="font-bold text-9xl">03</h1>
-                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                <h3 className="font-bold text-9xl">03</h3>
+                <h3 className="font-light text-[20px] mt-3">/05</h3>
                 </div>
-                <h1 className="font-semibold text-2xl">Leadership Roundtable</h1>
-                <h1>assess how well they would collaborate <br/>within your startup's dynamic <br/>environment. </h1>
+                <h3 className="font-semibold text-2xl">Leadership Roundtable</h3>
+                <h3>assess how well they would collaborate <br/>within your startup's dynamic <br/>environment. </h3>
 
               </div>
             </div>
@@ -212,11 +213,11 @@ const Carousel = () => {
               </div>
               <div className="flex flex-col justify-around some-ele">
               <div className="flex">
-                <h1 className="font-bold text-9xl">04</h1>
-                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                <h3 className="font-bold text-9xl">04</h3>
+                <h3 className="font-light text-[20px] mt-3">/05</h3>
                 </div>
-                <h1 className="font-semibold text-2xl">Onboarding</h1>
-                <h1>startup's culture and provide them with <br/>the necessary resources and <br/>information. </h1>
+                <h3 className="font-semibold text-2xl">Onboarding</h3>
+                <h3>startup's culture and provide them with <br/>the necessary resources and <br/>information. </h3>
 
               </div>
             </div>
@@ -228,17 +229,19 @@ const Carousel = () => {
               </div>
               <div className="flex flex-col justify-around some-ele">
               <div className="flex">
-                <h1 className="font-bold text-9xl">05</h1>
-                <h1 className="font-light text-[20px] mt-3">/05</h1>
+                <h3 className="font-bold text-9xl">05</h3>
+                <h3 className="font-light text-[20px] mt-3">/05</h3>
                 </div>
-                <h1 className="font-semibold text-2xl">Evaluate and Iterate</h1>
-                <h1>providing ongoing support and guidance. Encourage open communication to <br/>address any concerns or challenges<br/> early on </h1>
+                <h3 className="font-semibold text-2xl">Evaluate and Iterate</h3>
+                <h3>providing ongoing support and guidance. Encourage open communication to <br/>address any concerns or challenges<br/> early on </h3>
               </div>
             </div>
+            
           </SwiperSlide>
-        </Swiper>
+        </Swiper>       
       </div>
-      <div className="flex gap-20 p-2 justify-center lg:ml-[-470px] lg:gap-3 lg:mb-10 lg:mt-10 mb-7">
+      
+      <div className="hidden md:flex gap-20 p-2 justify-center lg:ml-[-470px] lg:gap-3 lg:mb-10 lg:mt-10 mb-7">
         <button
           onClick={goPrev}
           className="bg-black flex justify-center items-center w-14 h-14 rounded-full"
@@ -252,6 +255,7 @@ const Carousel = () => {
           <ArrowRightOutlined className="text-white" />
         </button>
       </div>
+      
     </>
   );
 };
