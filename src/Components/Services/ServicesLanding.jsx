@@ -4,7 +4,6 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from "../Home/Within7ForService";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom"; 
-import img from '../../assets/Images/ardwn.png'
 
 const ServicesLanding = () => {
   const navigate = useNavigate();

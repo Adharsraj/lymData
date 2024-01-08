@@ -99,9 +99,9 @@ const Within7Industriesdhn = () => {
             <div>
               <h1 className=" textSliderContainerd group-hover:text-white text-xl">{m.desc}</h1>
               {/* <Link to="/inside-services"> */}
-              <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center xl:w-[560px]">
-                <div className="flex  group/item hover:cursor-pointer ">
-                  <h1 className="p-4 xl:w-[160px] text-base   rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
+              <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center  xl:w-[560px]">
+                <div className="flex  group/item hover:cursor-pointer">
+                  <h1 className="p-4 xl:w-[160px] text-base  rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
                     What we do
                   </h1>
                   <h1 className="p-4 rounded-full textSliderContainerd  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">

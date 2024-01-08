@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { FaLongArrowAltDown } from "react-icons/fa";
-import img from "../../assets/Images/contact.avif";
 import axios from "axios";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
@@ -452,24 +451,24 @@ const Contact = () => {
                       </div>
                     </div>
                     <div>
-                    {formData.name && formData.email && (
-                    <ReCAPTCHA
-        sitekey="6LfClQ4pAAAAAH9desXouDRgOTgpf1s-crTYaBeT"
-        onChange={handleCaptchaChange}
-      />
-      )}
-      {errorMessage && <p className="text-red-500">{errorMessage}</p>}
+                      {formData.name && formData.email && (
+                        <ReCAPTCHA
+                          sitekey="6LfClQ4pAAAAAH9desXouDRgOTgpf1s-crTYaBeT"
+                          onChange={handleCaptchaChange}
+                        />
+                      )}
+                      {errorMessage && (
+                        <p className="text-red-500">{errorMessage}</p>
+                      )}
                     </div>
 
-{/* 6Ldai1goAAAAADOPDbiPjjxMkX9kFld10SVriUG7 - test key */}
-{/* 6Le7tVQoAAAAACoFnHjOhLzdl_xUSP_HMDh1g5xe -localhost key */}
-
+                    {/* 6Ldai1goAAAAADOPDbiPjjxMkX9kFld10SVriUG7 - test key */}
+                    {/* 6Le7tVQoAAAAACoFnHjOhLzdl_xUSP_HMDh1g5xe -localhost key */}
                   </div>
 
                   <div className="flex   justify-center items-center    gap-4 md:w-[600px] lg:ml-56 xl:mx-auto  xl:w-[570px] mx-auto lg:mb-7">
                     <div className="flex  group  gap-2 ">
-
-                    {/* {sucess ? (
+                      {/* {sucess ? (
        <h2 className="bg-black  text-white text-center w-[300px] p-2">
        Mail sent successfully, our team will get in touch with you soon
      </h2>
@@ -508,29 +507,35 @@ const Contact = () => {
       </button>
     )} */}
 
-{sucess ? (
-       <h4 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
-       Mail sent successfully, our team will get in touch with you soon
-     </h4>
-    ) : (
-      <div onClick={handleSubmit} className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center">
-      <h3 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-14">
-      Submit
-      </h3>
-      <h3 className="p-3 mt-10 flex items-center rounded-full w-[45px] bg-black text-white border fill-current">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
-<g transform={`scale(${scale})`}>
-<path
-d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
-data-name="Right"
-/>
-</g>
-</svg>
-      </h3>
-    </div>
-    )}
+                      {sucess ? (
+                        <h4 className="bg-black text-white text-center w-[300px] p-2 border rounded-full">
+                          Mail sent successfully, our team will get in touch
+                          with you soon
+                        </h4>
+                      ) : (
+                        <div
+                          onClick={handleSubmit}
+                          className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center"
+                        >
+                          <h3 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-14">
+                            Submit
+                          </h3>
+                          <h3 className="p-3 mt-10 flex items-center rounded-full w-[45px] bg-black text-white border fill-current">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 25 25"
+                            >
+                              <g transform={`scale(${scale})`}>
+                                <path
+                                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5"
+                                  data-name="Right"
+                                />
+                              </g>
+                            </svg>
+                          </h3>
+                        </div>
+                      )}
 
-    
                       {/* <button
                         type="submit"
                         className={`p-2 flex border items-center justify-center mt-10 rounded-full w-[200px] bg-gradient-to-r from-indigo-400 to-cyan-400 text-white transition-all duration-300 ${
@@ -599,7 +604,7 @@ data-name="Right"
         <div className="flex flex-col justify-around ">
           <div className="pl-4">
             <h3 className="text-[12px]  absolute    " style={verticalTextStyle}>
-            10.010900672433708° N 76.36072005340284° E{" "}
+              10.010900672433708° N 76.36072005340284° E{" "}
             </h3>
           </div>
 
@@ -632,10 +637,10 @@ data-name="Right"
           <div className="border border-transparent w-full pl-10 text-[22px]"></div>
           <div className="  w-full pl-10 text-[18px]">
             <h3 className="  w-1/2 p-2 font-light ">
-              Smart Business Center  <br />
-              First floor, Thapasya Building  <br />
-              Thapasya Rd, InfoPark Campus  <br /> Infopark, Kochi{" "}
-              <br /> Kerala, India <br /> 682030
+              Smart Business Center <br />
+              First floor, Thapasya Building <br />
+              Thapasya Rd, InfoPark Campus <br /> Infopark, Kochi <br /> Kerala,
+              India <br /> 682030
             </h3>
           </div>
         </div>
@@ -647,7 +652,7 @@ data-name="Right"
             Ernakulam,kerala
           </h3>
           <img
-            src={img}
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172893/LYMDATALABS/Pages/webp/contact_q4zo6u.webp"
             alt="img1"
             className="h-full xl:w-[600px] px-10 absolute filter grayscale"
           />
@@ -658,7 +663,11 @@ data-name="Right"
           Our <br /> locations
         </h3>
         <div className="flex">
-          <img src={img} alt="img2" className="  pl-5 filter grayscale  overflow-hidden" />
+          <img
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172893/LYMDATALABS/Pages/webp/contact_q4zo6u.webp"
+            alt="img2"
+            className="  pl-5 filter grayscale  overflow-hidden"
+          />
           <h3
             className=" py-5 text-sm uppercase  font-light"
             style={verticalTextStyle}
@@ -695,10 +704,10 @@ data-name="Right"
 
         <div className=" w-full px-6 mt-8 ">
           <h3 className="  p-2 font-light text-[18px]">
-          Smart Business Center <br />
-          First floor, Thapasya Building <br />
-          Thapasya Rd, InfoPark Campus  <br /> Infopark, Kochi{" "}
-            <br /> Kerala, India <br /> 682030
+            Smart Business Center <br />
+            First floor, Thapasya Building <br />
+            Thapasya Rd, InfoPark Campus <br /> Infopark, Kochi <br /> Kerala,
+            India <br /> 682030
           </h3>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import giphy from "../../assets/gif/giphy.webp";
-import img from '../../assets/Images/ardwn.png'
 import LocomotiveScroll from 'locomotive-scroll';
 
 const Hero = ({ showImage }) => {
