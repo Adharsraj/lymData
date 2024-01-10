@@ -3,6 +3,7 @@ import { lazy, Suspense, useLayoutEffect } from "react";
 import Loading from "../Components/loaders/TextLoading";
 import SkeltonLoader from "../Components/loaders/SkeltonLoader";
 import PageNotFound from "../Pages/PageNotFound";
+import InsideServices from "../Pages/InsideServices";
 import Login  from "../Components/Home/Login";
 import SignUp from "../Components/Home/SignUp";
 import ComingSoon from "../Pages/ComingSoon";
@@ -204,6 +205,17 @@ const Router = createBrowserRouter([
     </Suspense>
   ),
 },
+{
+  path: "/inside-services",
+  element: (
+    <Suspense fallback={<Loading />}>
+      <Wrapper>
+       <InsideServices></InsideServices>
+      </Wrapper>
+    </Suspense>
+  ),
+},
+
 {
   path: "*",
   element: (

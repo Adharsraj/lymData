@@ -9,7 +9,7 @@ const svg = [
   },
   {
     hand: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704700163/LYMDATALABS/Pages/webp/hand_nljaxu.svg",
-  },
+  }
 ];
 
 export default svg

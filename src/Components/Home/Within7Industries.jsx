@@ -98,7 +98,7 @@ const Within7Industriesdhn = () => {
             </div>
             <div>
               <h1 className=" textSliderContainerd group-hover:text-white text-xl">{m.desc}</h1>
-              {/* <Link to="/inside-services"> */}
+              <Link to="inside-services" state={{title:m.title}}>
               <div className="flex xl:gap-1   gap-4 w-full mt-5 md:w-[200px] items-center  xl:w-[560px]">
                 <div className="flex  group/item hover:cursor-pointer">
                   <h1 className="p-4 xl:w-[160px] text-base  rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
@@ -113,7 +113,7 @@ const Within7Industriesdhn = () => {
                   </h1>
                 </div>
               </div>
-{/* </Link> */}
+</Link>
             </div>   </div>
 ))}
 
@@ -135,17 +135,19 @@ const Within7Industriesdhn = () => {
                 <h2 className="mt-3  h-60 px-2">
                   {carouselData[currentSlide].details}
                 </h2>
-                <div className="flex mb-5 pl-4 xl:gap-1 gap-4 w-full mt-10 md:w-[200px]  items-center xl:w-[560px]">
-                  <h1 className="p-4 text-sm xl:w-[160px]  border rounded-full w-[140px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
-                    Find out more
-                  </h1>
-                  <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
-                    <img
-                      className="lg:w-56"
-                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
-                    />
-                  </h1>
-                </div>
+               <Link to={"/inside-services"}>
+                  <div className="flex mb-5 pl-4 xl:gap-1 gap-4 w-full mt-10 md:w-[200px]  items-center xl:w-[560px]">
+                    <h1 className="p-4 text-sm xl:w-[160px]  border rounded-full w-[140px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
+                      Find out more
+                    </h1>
+                    <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
+                      <img
+                        className="lg:w-56"
+                        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                      />
+                    </h1>
+                  </div>
+               </Link>
               </div>
             </div>
           </div>

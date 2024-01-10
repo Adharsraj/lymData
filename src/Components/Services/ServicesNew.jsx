@@ -5,7 +5,8 @@ import ServiceCarousel from "./ServiceCarousel";
 import TopClients from "./TopClients";
 import FaqServices from "./FaqServices";
 
-const ServicesNew = () => {
+const ServicesNew = (title) => {
+  
   const [showh3, setshowh3] = useState("");
   const setshow = (e) => {
     if (showh3 === e) {
@@ -23,7 +24,7 @@ const ServicesNew = () => {
           <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
             <div className="md:h-[300px] ">
               <p className="lg:text-7xl text-5xl font-bold">
-                Web <br /> Development
+               {title?.title}
               </p>
 
               <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">

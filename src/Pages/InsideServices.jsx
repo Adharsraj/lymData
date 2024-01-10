@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Approaches from "../Components/Services/Approaches";
@@ -7,12 +7,28 @@ import ServicesLanding from "../Components/Services/ServicesLanding";
 import UseDocumentTitle from "../Hooks/UseDocumentTitle";
 import ServicesNew from "../Components/Services/ServicesNew";
 import { Helmet } from "react-helmet";
+import { useLocation, useParams } from "react-router-dom";
 
 const InsideServices = () => {
+const location=useLocation()
+const title = location?.state?.title;
   UseDocumentTitle("LYM DATA | Services");
-useEffect(()=>{
-    window.scrollTo(0, 0);
-},[])
+// useEffect(() => {
+//   window.scrollTo(0, 0);
+// },[]);
+
+useEffect(() => {
+  const handleScrollTop = () => {
+    window.scrollTo({ top: 0 });
+    window.removeEventListener("scroll", handleScrollTop);
+  };
+  window.addEventListener("scroll", handleScrollTop);
+  return () => {
+    window.removeEventListener("scroll", handleScrollTop);
+  };
+}, []);
+
+
   return (
     <>
      <Helmet>
@@ -29,7 +45,7 @@ useEffect(()=>{
       </Helmet>
       <Navbar />
       {/* <ServicesLanding /> */}
-      <ServicesNew/>
+      <ServicesNew title={title}/>
       <Footer />
     </>
   );
