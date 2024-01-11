@@ -8,6 +8,7 @@ export default {
     extend: {
       screens: {
         'xxl': '1350px',
+        'xl':'1200px'
       },
 
       fontFamily: {

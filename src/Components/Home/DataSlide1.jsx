@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef, createRef } from "react";
 import { TweenMax as TM } from "gsap/all";
 import { InView } from "react-intersection-observer";
 import ContentWrapper from "../../ContentWrapper/ContentWrapper";
-import leftArrow from "../../assets/Images/arrowLeft.svg";
-import rightArrow from "../../assets/Images/arrowRight.svg";
 import $ from "jquery";
 import { isMobile, isTablet } from "react-device-detect";
 import { useSwipeable } from "react-swipeable";
@@ -120,6 +118,15 @@ const DataSlide1 = (props) => {
       fillLines();
     }, 500);
   }, []);
+
+//automatically changes slider after 6 second
+ useEffect(() => {
+   const autoSwipe = setTimeout(() => {
+     switchSlideViaSwipe("RIGHT");
+   }, 6000);
+
+   return () => clearTimeout(autoSwipe);
+ }, [currentStep, switchSlideViaSwipe]);
 
   function handleResize() {
     fillLines();

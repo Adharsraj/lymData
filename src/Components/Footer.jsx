@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import arrow from '../assets/Images/right_arrow.png';
 import { Link } from "react-router-dom";
 import {
   SlSocialFacebook,

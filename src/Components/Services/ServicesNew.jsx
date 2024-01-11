@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import stickyimg from "../../assets/images/asset 12.jpeg";
 import { OurTechStack, fullstackcard } from "../../assets/Data/data";
 import Scene from "./ServicesGsap";
 import ServiceCarousel from "./ServiceCarousel";
 import TopClients from "./TopClients";
 import FaqServices from "./FaqServices";
 
-const ServicesNew = () => {
+const ServicesNew = (title) => {
+  
   const [showh3, setshowh3] = useState("");
   const setshow = (e) => {
     if (showh3 === e) {
@@ -21,29 +21,31 @@ const ServicesNew = () => {
       <div className="pt-20 p-2 max-w-[1640px] lg:max-w-[1150px] mx-auto">
         {/* 1st div */}
         <div className="md:min-h-screen md:flex md:flex-col md:justify-center">
+          <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
+            <div className="md:h-[300px] ">
+              <p className="lg:text-7xl text-5xl font-bold">
+               {title?.title}
+              </p>
 
-        <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
-          <div className="md:h-[300px] ">
-            <p className="lg:text-7xl text-5xl font-bold">
-              Web <br /> Development
-            </p>
+              <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">
+                Get in touch
+              </p>
+            </div>
 
-            <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">
-              Get in touch
+            <p className="text-xl leading-9  md:h-[300px] md:px-10 font-medium">
+              Our focus on user experience and customer satisfaction has helped
+              our clients to achieve their digital goals. By understanding the
+              unique needs of each business, we have delivered tailored
+              solutions that drive success and growth in the digital space.
             </p>
           </div>
-
-          <p className="text-xl leading-9  md:h-[300px] md:px-10 font-medium">
-          Our focus on user experience and customer satisfaction has helped our clients to achieve their digital goals. By understanding the unique needs of each business, we have delivered tailored solutions that drive success and growth in the digital space.
-          </p>
-        </div>
         </div>
 
         {/* 2nd div */}
         <div className="md:grid-cols-2 md:grid">
           <img
             className="md:sticky md:top-0 md:pb-20 md:pr-20 pb-10 pt-1"
-            src={stickyimg}
+            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704697425/LYMDATALABS/Pages/webp/asset-12_ndmztw.webp"
             alt="typing img"
           />
 
@@ -286,15 +288,10 @@ const ServicesNew = () => {
         </div>
 
         <div className="max-w-[1150px] hidden md:block mx-auto">
-         
           <Scene />
-          </div>
-
-     
-
-
+        </div>
       </div>
-          <ServiceCarousel />
+      <ServiceCarousel />
 
       {/* <div className="bg-black  text-white h-[450px] max-w-[1150px] md:mx-auto md:h-[200px] mb-10 mx-2 py-5 mt-10 ">
   <div className="flex flex-col md:flex-row h-full justify-around items-center">
@@ -307,8 +304,8 @@ We have more awesome stuff to show</h1>
 </svg></h2>
   </div>
 </div> */}
-<TopClients/>
-<FaqServices/>
+      <TopClients />
+      <FaqServices />
     </>
   );
 };

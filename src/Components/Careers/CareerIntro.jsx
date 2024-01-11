@@ -51,18 +51,23 @@
 
 
 import React from "react";
-import img from "../../assets/Career.jpeg";
+// import img from "../../assets/Career.jpeg";
 const CareerIntro = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 text-[#040404] overflow-hidden ">
       <div className="text-center relative mt-10">
         <div className="absolute top-[-20%] md:top-[10%] w-full text-8xl md:text-9xl md:leading-[10px] font-aeonic">
-        <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-40 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-52 lg:mt-10 font-bold absolute">
+          <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-40 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-52 lg:mt-10 font-bold absolute">
             Join the
             <h1 className="lg:ml-20">—team</h1>
           </h2>
         </div>
-        <img className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[600px] lg:w-[520px] mx-auto" src={img} alt="career_image" srcset="" />
+        <img
+          className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[600px] lg:w-[520px] mx-auto"
+          src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Career_j1ebig.webp"
+          alt="career_image"
+          srcset=""
+        />
       </div>
       {/* <div className="relative overflow-hidden text-center">
           <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-10 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-24 lg:mt-14 font-bold absolute">
@@ -77,10 +82,12 @@ const CareerIntro = () => {
         </div> */}
       <div className="some-ele font-bold">
         <h3 className="mt-10 mb-10 text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] xl:mt-24 mx-auto leading-7">
-        At our company, we are always seeking individuals who are eager to take on new and thrilling challenges.
+          At our company, we are always seeking individuals who are eager to
+          take on new and thrilling challenges.
         </h3>
         <h3 className="text-2xl xl:text-3xl md:w-[500px] xl:w-[720px] mx-auto leading-7 mb-10">
-        Let's connect and introduce ourselves to each other. We are forward to getting to know you better.
+          Let's connect and introduce ourselves to each other. We are forward to
+          getting to know you better.
         </h3>
       </div>
     </div>
