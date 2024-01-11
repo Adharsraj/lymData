@@ -16,12 +16,11 @@ const Insights = () => {
         {insightsHeading}
         <Cursor cursorColor="white" cursorStyle="|"></Cursor>
       </h4>
-      <div className=" xl:flex flex-col lg:flex-row lg:px-28 lg:justify-around gap-4 p-2  ">
-      
-
+      <div className="flex flex-col lg:flex-row  lg:justify-around gap-2 p-2 lg:px-10">
+        {/* <div className=" flex flex-col lg:flex-row lg:justify-around gap-4 p-2  "> */}
         //1st card
         <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
-          <div className="relative w-40 md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
+          <div className="relative xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
             <img
               src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp"
               alt="img"
@@ -52,7 +51,7 @@ const Insights = () => {
         </div>
         //2nd card
         <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
-          <div className="relative w-40 md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
+          <div className="relative  xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
             <img
               src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp"
               alt="img"
@@ -81,10 +80,9 @@ const Insights = () => {
             </h4>
           </div>
         </div>
-
         //3rd card
         <div className="flex lg:flex-col   gap-1 shadow-2xl cursor-pointer">
-          <div className="relative w-40 md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
+          <div className="relative  xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
             <img
               src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp"
               alt="img"
@@ -127,17 +125,19 @@ const Insights = () => {
 </div> */}
 
       <Link to="/blog">
-        <div className="flex gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px]  lg:mb-7 pb-10 px-5 items-center justify-center">
-          <h4 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[500px] bg-white text-black font-bold transition-all transform hover:translate-x-14">
-            Explore all insights
-          </h4>
-          <h4 className="p-3 mt-10 flex items-center rounded-full w-[70px] bg-white text-black">
-            <img
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg"
-              alt="arrow"
-            />
-          </h4>
-        </div>
+      <div className='flex justify-center'>
+          <div className="flex gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px] mx-44  lg:mb-7 pb-10 px-5 items-center justify-center">
+            <h4 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[500px] bg-white text-black font-bold transition-all transform hover:translate-x-14">
+              Explore all insights
+            </h4>
+            <h4 className="p-3 mt-10 flex items-center rounded-full w-[70px] bg-white text-black">
+              <img
+                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg"
+                alt="arrow"
+              />
+            </h4>
+          </div>
+      </div>
       </Link>
     </div>
   );

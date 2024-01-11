@@ -151,7 +151,7 @@ const Within7Industriesdhn = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-buttons flex justify-center gap-5">
+          <div className="carousel-buttons mb-5 flex justify-center gap-5">
             <button
               className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={prevSlide}
