@@ -16,7 +16,7 @@ const Insights = () => {
         {insightsHeading}
         <Cursor cursorColor="white" cursorStyle="|"></Cursor>
       </h4>
-      <div className="flex flex-col lg:flex-row lg:px-28 lg:justify-around gap-4 p-2 ">
+      <div className=" xl:flex flex-col lg:flex-row lg:px-28 lg:justify-around gap-4 p-2  ">
       
 
         //1st card

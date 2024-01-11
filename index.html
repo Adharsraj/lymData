@@ -90,10 +90,14 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
 
 
 <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+<!-- <a href="#" id="open_preferences_center">
+<img class="w-12 displa rounded-full fixed bottom-7 z-[1000] left-4" loading="lazy" src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704967860/LYMDATALABS/Pages/webp/Cookie_logo_48_x_48_a9j8xk.webp" alt=""/>
+</a> -->
 
-<a href="#" id="open_preferences_center">
-  <img class="w-12 rounded-full fixed bottom-7 z-[1000] left-4" src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704867780/LYMDATALABS/Pages/webp/cookie-icon_wp2u7p.jpg" alt="">
-</a>
+ <div id="open_preferences_center" >
+      <div id="imageContainer" class="w-12 displa rounded-full overflow-hidden fixed bottom-7 z-[1000] left-4"></div>
+
+
 
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
@@ -125,7 +129,17 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
           "query-input": "required name=search_term_string"
         }
       }
+      
       </script>
-    
-  </body>
-</html>
+        <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var imageContainer = document.getElementById('imageContainer');
+        var image = new Image();
+        image.src = 'https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704967860/LYMDATALABS/Pages/webp/Cookie_logo_48_x_48_a9j8xk.webp';
+        image.alt = '';
+        image.className = 'lazy'; 
+        imageContainer.appendChild(image);
+      });
+    </script>
+    </body>
+    </html>

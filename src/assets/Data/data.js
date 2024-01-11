@@ -299,88 +299,108 @@ export const OurTopClients = [
     id: 1,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Alhub_Logo_Vector_kxtp71.svg",
     title: "Al-Hub",
-    description: "Illustration library for world’s biggest data scientist platform kaggle.    "
+    description:
+      "Illustration library for world’s biggest data scientist platform kaggle.    ",
   },
   {
     id: 2,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368021/LYMDATALABS/Pages/client%20logos%20png/vector/Ayursatva_vector_logo_q89f8o.svg",
     title: "Ayur Satva",
-    description: "Created Regional versions of the title posters of most successfull disney movies.    "
+    description:
+      "Created Regional versions of the title posters of most successfull disney movies.    ",
   },
   {
     id: 3,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368007/LYMDATALABS/Pages/client%20logos%20png/vector/Miracle_Gold_And_Diamonds_p6amro.svg",
     title: "Miracle",
-    description: "Handling entire digital marketing for oppo theme store, app store and browser.    "
+    description:
+      "Handling entire digital marketing for oppo theme store, app store and browser.    ",
   },
   {
     id: 4,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368010/LYMDATALABS/Pages/client%20logos%20png/vector/Quarinto_Logo_w3brqs.svg",
     title: "Quarinto",
-    description: "Animated isometric illustration designs and development for the website.    "
+    description:
+      "Animated isometric illustration designs and development for the website.    ",
   },
   {
     id: 5,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704369516/LYMDATALABS/Pages/client%20logos%20png/2aUNxSKevS2lfwlLEdAT5x6GuKk_jaudg1.svg",
     title: "Unique",
-    description: "Acting as extended design partners, creating customer side app and illustrations    "
+    description:
+      "Acting as extended design partners, creating customer side app and illustrations    ",
   },
   {
     id: 6,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368013/LYMDATALABS/Pages/client%20logos%20png/vector/GokulOttupura_Logo_vector_v96gqx.svg",
     title: "Gokul Ootupura",
-    description: "Revamped entire brand along with website design and development    "
+    description:
+      "Revamped entire brand along with website design and development    ",
   },
   {
     id: 7,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368017/LYMDATALABS/Pages/client%20logos%20png/vector/Hussain_Al_Shemsi_Vector_awu5oy.svg",
     title: "Hussain-Al-shemsi",
-    description: "Designed illustrations for RazorpayX and developed the FTX'21 website    "
+    description:
+      "Designed illustrations for RazorpayX and developed the FTX'21 website    ",
   },
   {
     id: 8,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704347180/LYMDATALABS/Pages/client%20logos%20png/CaseMax_Vector_fdhj5v.svg",
     title: "Case max",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 9,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368005/LYMDATALABS/Pages/client%20logos%20png/vector/Educus_Global_Vector_vptqbo.svg",
     title: "Educus Global",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 10,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704367999/LYMDATALABS/Pages/client%20logos%20png/vector/2aTd4AJCyTT9E6oC8TG5Mo3oMoX_tzfdxc.svg",
     title: "acon",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 11,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368009/LYMDATALABS/Pages/client%20logos%20png/vector/Sidhah_Logo_Vector_oknnlt.svg",
     title: "Sidhah",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 12,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368011/LYMDATALABS/Pages/client%20logos%20png/vector/United_ndt_vector_nzfktt.svg",
     title: "United",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 13,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704691830/LYMDATALABS/Pages/client%20logos%20png/vector/Unisex_Saloon_Vector_2_kgs1gy.svg",
     title: "LE",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 14,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Farmfed_Fisheries_Vector_qlpk2b.svg",
     title: "Farmfed",
-    description: "Covered UI and designed 3D graphics for the fintech start-up    "
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
-
-]
+  {
+    id: 14,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704966623/LYMDATALABS/Pages/client%20logos%20png/Curry_Crush_Svgs_1_c5myq4.webp",
+    title: "Curry Crush",
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
+  },
+];
 export const fullstackcard = [
   {
     id: 1,
