@@ -1,12 +1,16 @@
-import React, { useState } from "react";
-import { OurTechStack, fullstackcard } from "../../assets/Data/data";
+import React, { useContext, useState } from "react";
+import { OurTechStack, fullstackcard, insideServiceContent } from "../../assets/Data/data";
 import Scene from "./ServicesGsap";
 import ServiceCarousel from "./ServiceCarousel";
 import TopClients from "./TopClients";
 import FaqServices from "./FaqServices";
+import { showPopupContext } from "./ContextPopup";
+import GetInTouch from "./GetInTouch";
+
 
 const ServicesNew = (title) => {
-  
+  const  {showPopup, setShowPoup} = useContext(showPopupContext);
+  const description=insideServiceContent.filter(details=>details.title==title?.title)
   const [showh3, setshowh3] = useState("");
   const setshow = (e) => {
     if (showh3 === e) {
@@ -20,26 +24,32 @@ const ServicesNew = (title) => {
     <>
       <div className="pt-20 p-2 max-w-[1640px] lg:max-w-[1150px] mx-auto">
         {/* 1st div */}
+        {description?.map(data=>
         <div className="md:min-h-screen md:flex md:flex-col md:justify-center">
           <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
             <div className="md:h-[300px] ">
               <p className="lg:text-7xl text-5xl font-bold">
-               {title?.title}
+               {data?.title}
               </p>
 
-              <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">
-                Get in touch
+              <p>
+               <div className="cursor-pointer" onClick={()=>setShowPoup(true)}>
+                  <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">
+                    Get in touch
+                  </p>
+               </div>
+              {showPopup&&<GetInTouch></GetInTouch>}
+              
+                
               </p>
             </div>
 
             <p className="text-xl leading-9  md:h-[300px] md:px-10 font-medium">
-              Our focus on user experience and customer satisfaction has helped
-              our clients to achieve their digital goals. By understanding the
-              unique needs of each business, we have delivered tailored
-              solutions that drive success and growth in the digital space.
+              {data?.details}
             </p>
           </div>
         </div>
+          )}
 
         {/* 2nd div */}
         <div className="md:grid-cols-2 md:grid">
