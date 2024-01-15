@@ -328,7 +328,7 @@ export const OurTopClients = [
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704369516/LYMDATALABS/Pages/client%20logos%20png/2aUNxSKevS2lfwlLEdAT5x6GuKk_jaudg1.svg",
     title: "Unique",
     description:
-      "Acting as extended design partners, creating customer side app and illustrations    ",
+      "Delivering unique and premium hotel amenities,elevates visitor experiences with a carefully chosen collection of premium hospitality basics.",
   },
   {
     id: 6,
@@ -384,19 +384,54 @@ export const OurTopClients = [
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704691830/LYMDATALABS/Pages/client%20logos%20png/vector/Unisex_Saloon_Vector_2_kgs1gy.svg",
     title: "LE",
     description:
-      "Covered UI and designed 3D graphics for the fintech start-up    ",
+      "Offering professional hair and beauty services, L&E Unisex Salons in Kochi give customers of all genders an elegant grooming experience.",
   },
   {
     id: 14,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Farmfed_Fisheries_Vector_qlpk2b.svg",
-    title: "Farmfed",
+    title: "Farmfed Fisheries",
+    description:
+      "Farmfed Fishers, a prominent brand in Kochi, stands as a distinguished leader in the fisheries industry.",
+  },
+  {
+    id: 15,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047236/LYMDATALABS/Pages/client%20logos%20png/Farmfed_Tourism_llofho.svg",
+    title: "Farmfed Tourism",
+    description:
+      "Farmfed Tourism, a premier travel brand based in Kochi, offers curated global journeys,providing a unique and enriching perspective on travel.",
+  },
+  {
+    id: 16,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704966623/LYMDATALABS/Pages/client%20logos%20png/Curry_Crush_Svgs_1_c5myq4.webp",
+    title: "Curry Crush",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
-    id: 14,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704966623/LYMDATALABS/Pages/client%20logos%20png/Curry_Crush_Svgs_1_c5myq4.webp",
-    title: "Curry Crush",
+    id: 17,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047184/LYMDATALABS/Pages/client%20logos%20png/PappaBoo_mczc1f.svg",
+    title: "PappaBoo",
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
+  },
+  {
+    id: 18,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047176/LYMDATALABS/Pages/client%20logos%20png/Aquaguard_shanty.svg",
+    title: "AquaGuard",
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
+  },
+  {
+    id: 19,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047170/LYMDATALABS/Pages/client%20logos%20png/Wayanad_Logo_td8tej.svg",
+    title: "Wayanad village inn",
+    description:
+      "Covered UI and designed 3D graphics for the fintech start-up    ",
+  },
+  {
+    id: 20,
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047138/LYMDATALABS/Pages/client%20logos%20png/Southern_green_farming_Logo_ahwvff.svg",
+    title: "Souther green farming",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
@@ -404,41 +439,47 @@ export const OurTopClients = [
 export const fullstackcard = [
   {
     id: 1,
-    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
     title: "Websites",
-    description: "From a static Gatsby site to a dynamic WordPress site, we can do it all to present your business in the best manner possible."
+    description:
+      "Dynamic websites are designed with interactive features, real-time updates, and user-generated content. They may include forums, blogs, multimedia content, and e-commerce capabilities.",
   },
   {
     id: 2,
-    img: "https://www.brucira.com/assets/img/services/icons/saas_apps.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052193/LYMDATALABS/Pages/Services/saas_apps_lbavjb.svg",
     title: "SaaS applications",
-    description: "Choose us to design future-ready SaaS products and deploy them with our end-to-end support. "
+    description:
+      "Select our services to develop SaaS products that are ready for the future. We provide end-to-end support for deploying the products.  ",
   },
   {
     id: 3,
-    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
     title: "Quality Assurance ",
-    description: "Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance."
+    description:
+      "Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance.",
   },
   {
     id: 4,
-    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
     title: "Cloud-based applications",
-    description: "Keeping the tech trends in mind, we develop robust, fast and scalable cloud-based software for your business.    "
+    description:
+      "We develop robust, fast, and scalable cloud-based software for businesses, keeping up with the latest tech trends.",
   },
   {
     id: 5,
-    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
     title: "Enterprise applications    ",
-    description: "Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    "
+    description:
+      "Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    ",
   },
   {
     id: 6,
-    img: "https://www.brucira.com/assets/img/services/icons/website2.svg",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
     title: "Content Management System    ",
-    description: "Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    "
+    description:
+      "Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    ",
   },
-]
+];
 
 
 
@@ -907,5 +948,44 @@ export const fourCultures = [
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_41_hferql_lqmruu.svg",
     head2:
       "It's inherent that we are part of a larger entity, drawing sustenance and recognizing our obligation to preserve the environment. Our commitment to shaping the future lies in fostering an environment that propels an enhanced rendition of the present.      ",
+  },
+];
+
+export const insideServiceContent = [
+  {
+    id: 1,
+    title: "Web Development",
+    details:
+      "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
+  },
+  {
+    id: 2,
+    title: "App Development",
+    details:
+      "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
+  },
+  {
+    id: 3,
+    title: "Performance Marketing",
+    details:
+      "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
+  },
+  {
+    id: 4,
+    title: "Software Development",
+    details:
+      "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
+  },
+  {
+    id: 5,
+    title: "Data Engineering",
+    details:
+      "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
+  },
+  {
+    id: 6,
+    title: "Metaverse",
+    details:
+      "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
   },
 ];
