@@ -250,11 +250,12 @@ It takes less than a minute of your time.
     </div>
 
 </div>
-<div className="hidden lg:flex justify-around lg:pt-10 some-ele">
+<div className="hidden lg:flex justify-between px-[100px] lg:pt-10 some-ele">
   <h1 className="font-light">LYMDATA © 2024 All rights reserved</h1>
-  <div className="flex">
-  <Link to="/privacy"><h1 className="font-light">Privacy Policy </h1></Link>
-  <Link to="/terms"><h1 className="font-light"> | Terms & Conditions </h1></Link>
+  <div className="flex gap-4">
+  <Link to="/privacy"><h1 className="font-light">Privacy Policy</h1></Link>
+  <h1>|</h1>
+  <Link to="/terms"><h1 className="font-light">Terms & Conditions </h1></Link>
   </div>
   <div className="flex lg:gap-3 items-center">
           <h3 className="pb-1 text-[#c1bfbf] hover:text-white ">Follow us :</h3>

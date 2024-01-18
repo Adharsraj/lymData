@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import { motion } from "framer-motion";
+
 const HorizontalScroll = () => {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
@@ -59,15 +61,57 @@ const HorizontalScroll = () => {
     };
   }, []);
 
+  //get mouse position
+  const[isHovered,setIsHovered]=useState(false)
+  const size=isHovered?280:30
+const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+const updateMousePosition = (e)=>{
+setMousePosition ({x: e.clientX, y: e.clientY});
+}
+useEffect( () => {
+window.addEventListener("mousemove", updateMousePosition)
+return () => {
+window.removeEventListener("mousemove", updateMousePosition)
+}
+}, [])
   return (
     <>
       <section className="scroll-section-outer overflow-hidden">
         <div ref={triggerRef}>
           <div
             ref={sectionRef}
-            className="scoll-section-inner h-screen w-[400vw] flex flex-row relative"
+            className="scoll-section-inner h-screen w-[300vw]  flex flex-row relative"
           >
             <div className="scroll-section h-screen bg-black  w-screen flex justify-center items-center">
+              <section className="h-screen relative w-screen">
+                <motion.div
+                  animate={{
+                    WebkitMaskPosition: `${mousePosition.x - size / 2}px ${
+                      mousePosition.y - size / 2
+                    }px`,
+                    WebkitMaskSize: `${size}px`,
+                  }}
+                  transition={{ type: "tween", ease: "backOut" }}
+                  className="h-full w-full flex items-center justify-center text-white absolute mask"
+                  style={{ zIndex: 2, pointerEvents: "all" }}
+                >
+                  <p
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
+                    className="w-[800px] text-center text-white text-[64px] font-bold leading-[65px]"
+                  >
+                    We <span className="text-black">Create</span> extraordinary digital experiences.
+                  </p>
+                </motion.div>
+<div id="stars"></div>
+{/* <div id="stars"></div> */}
+
+                <div className="h-full w-full flex items-center justify-center  text-white absolute  ">
+                  <p className="w-[800px] text-center font-bold text-[64px] leading-[66px]">
+                    We <span className="text-[#34a4ff]">Create</span> extraordinary digital experiences.
+                  </p>
+                </div>
+              </section>
               <div className="fixed headerz top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 text-400 text-gray-300">
                 <div className="max-w-[1340px] mx-auto overflow-hidden">
                   <div className="">
@@ -129,12 +173,7 @@ const HorizontalScroll = () => {
             <div className="scroll-section h-screen bg-black w-screen flex justify-center items-center">
               <h3>
                 section2
-                <div className="bg-green-500 h-[600px] w-[1000px]">
-                  <img
-                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705302891/LYMDATALABS/Pages/Home/production_id_49748841080p-ezgif.com-optimize_antwe1.gif"
-                    alt=""
-                  />
-                </div>
+                <div className=" h-[600px] w-[1000px]"></div>
               </h3>
             </div>
             <div className="scroll-section h-screen bg-slate-600 w-screen flex justify-center items-center">

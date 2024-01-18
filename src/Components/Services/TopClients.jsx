@@ -1,43 +1,51 @@
-import React, { useRef, useState } from 'react'
-import {  OurTopClients } from '../../assets/Data/data'
+import React, { useRef, useState } from "react";
+import { OurTopClients } from "../../assets/Data/data";
 
 const TopClients = () => {
-  const [showAllClients,setShowAllClients]=useState(false)
-  const clientsData=showAllClients?OurTopClients:OurTopClients.slice(0,8)
-   const topClientsRef = useRef(null);
-    const scrollToTopClients = () => {
-      if (topClientsRef.current) {
-        topClientsRef.current.scrollIntoView();
-      }
-    };
+  const [showAllClients, setShowAllClients] = useState(false);
+  const clientsData = showAllClients
+    ? OurTopClients
+    : OurTopClients.slice(0, 8);
+  const topClientsRef = useRef(null);
+  const scrollToTopClients = () => {
+    if (topClientsRef.current) {
+      topClientsRef.current.scrollIntoView();
+    }
+  };
   return (
-    <div className='bg-[#F7F7F7]'>
-        <h1 ref={topClientsRef} className='p-4 text-3xl max-w-[1150px] font-bold md:text-center mx-auto md:pt-20 md:pb-20 md:text-5xl '>Top Clients</h1>
-        <div className=" grid  max-w-[1150px] mx-auto gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-5 pb-10 lg:px-0 mb-10">
-          {clientsData.map((m) => (
-            <div className=" bg-white p-2 md:px-8 flex flex-col justify-center items-center ">
-              <img
-                className="w-20 h-14 mt-10 md:mt-24  md:w-[140px] md:h-[85px]"
-                src={m.img}
-                alt="images"
-              />
-              <h1 className="h-10 mt-10 font-bold">{m.title}</h1>
-              <p className="text-center h-[200px] lg:h-[150px] md:h-[230px]">
-                {m.description}
-              </p>
+    <div>
+      <h1
+        ref={topClientsRef}
+        className="p-4 text-3xl max-w-[1150px] font-bold md:text-center mx-auto md:pt-10 md:pb-10 md:text-5xl "
+      >
+        Top Clients
+      </h1>
+      <div className="overflow-hidden mb-20">
+        <div className=" center-container">
+          <section id="features" className="rlr-section">
+            <div className="container">
+              <div className="rlr-logos-slider">
+                <div className="rlr-logos-slider__items rlr-logos-slider__itemss">
+                  <div className="slide-track flex gap-[150px] justify-center items-center">
+                    {OurTopClients?.map((client) => (
+                      <div className="slide flex flex-col items-center">
+                        <img
+                          data-sizes="auto"
+                          className="lazyload max-w-full h-auto image-style"
+                          src={client?.img}
+                          alt="partner logo"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
-          ))}
+          </section>
         </div>
-        {
-          showAllClients?
-
-          <h1 onClick={()=>{setShowAllClients(false);scrollToTopClients()}} className='w-[250px] cursor-pointer  border-2  mx-auto flex text-lg justify-center border-black items-center h-16 rounded-full font-bold p-5'> See only top clients</h1>
-          :
-        <h1 onClick={()=>setShowAllClients(true)} className='w-[200px] cursor-pointer  border-2  mx-auto flex text-lg justify-center border-black items-center h-16 rounded-full font-bold p-5'> See all clients</h1>
-        }
-        <div className='pb-10'></div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default TopClients
+export default TopClients;
