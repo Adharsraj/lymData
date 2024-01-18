@@ -517,46 +517,45 @@ export const jobCards = [
 ];
 
 export const servv = [
-
   {
     id: 1,
     title: "Web Development",
-    img: "https://player.vimeo.com/external/528744165.sd.mp4?s=9ca8f47189d01e2dc77feb565f9e211aa8518fd4&profile_id=164&oauth2_token_id=57447761",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705471052/LYMDATALABS/Pages/Services/1209646_Computer_Code_Coder_1280x720_1_1_fxheaw.mp4",
     desc: "Boost your online visibility with the assistance of our specialized web development services. Our team excels in crafting user-centric web experiences that prioritize the needs of your audience. From seamless navigation to visually stunning designs, we ensure every detail contributes to business success, creating a powerful online presence that leaves a lasting impression.    ",
   },
 
   {
     id: 2,
     title: "App Development",
-    img: "https://player.vimeo.com/external/451919864.sd.mp4?s=b1c305a681a31868b221683ed1bbc80f33c9e85b&profile_id=164&oauth2_token_id=57447761",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380085/LYMDATALABS/Pages/Services/1988444561_wfemw1.mp4",
     desc: "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.",
   },
 
   {
     id: 3,
     title: "Performance Marketing",
-    img: "https://player.vimeo.com/external/533386598.sd.mp4?s=89c3d004e8d9e70e94292ae802cf5ef926bcda3c&profile_id=164&oauth2_token_id=57447761",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705477886/LYMDATALABS/Pages/Services/4754575_Businessman_Man_Business_1280x720_cut_1_kc1q6r.mp4",
     desc: "Enhance your digital presence with reliability by utilizing our performance marketing services. Specializing in data-driven strategies, we offer a comprehensive range of solutions including SEO, PPC, social media, and email marketing. By aligning our efforts with your business objectives, we ensure every marketing initiative contributes to measurable success, driving growth and visibility.",
   },
 
   {
     id: 4,
     title: "Software Development",
-    img: "https://player.vimeo.com/external/553360392.sd.mp4?s=7b5a04145b0adab7892780d13ffa60fc26080cd3&profile_id=165&oauth2_token_id=57447761",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380231/LYMDATALABS/Pages/Services/1526736679_ylfr0w.mp4",
     desc: "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.",
   },
 
   {
     id: 5,
     title: "Data Engineering",
-    img: "https://player.vimeo.com/external/368789132.sd.mp4?s=90efbe5a51f1331fd9b4ef2851928ddaefee2023&profile_id=164&oauth2_token_id=57447761",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705474677/LYMDATALABS/Pages/Services/1389251_Business_Infographics_Stock20Market_1280x720_qa9cnw.mp4",
     desc: "Recognizing the transformative power of data-driven insights, our Data Engineering services employ advanced analytics methodologies to achieve significant outcomes.Whether it's uncovering hidden trends, optimizing processes, or making informed decisions, our team harnesses the potential of data to propel your business forward. Experience the difference that data-driven intelligence can make for your organization.",
   },
 
   {
     id: 6,
     title: "Metaverse",
-    img: "https://cdn.pixabay.com/vimeo/703067747/metaverse-115034.mp4?width=640&hash=53f9be70501cfb4782d903d1453281340d58946d",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705474841/LYMDATALABS/Pages/Services/5547383_Coll_wavebreak_Animation_Colourful_1280x720_1_tj4s6a.mp4",
     desc: "With the aid of our all-encompassing services, you can immerse yourself in the world of the Metaverse. Explore abundant possibilities and redefine the way you engage with your audience. From virtual experiences to innovative interactions, our Metaverse solutions open new avenues for creativity, collaboration, and connection. Don't just witness the future – be a part of it in this captivating digital realm you must experience.",
   },
 ];
