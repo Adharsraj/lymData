@@ -555,7 +555,7 @@ export const servv = [
   {
     id: 6,
     title: "Metaverse",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705474841/LYMDATALABS/Pages/Services/5547383_Coll_wavebreak_Animation_Colourful_1280x720_1_tj4s6a.mp4",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380228/LYMDATALABS/Pages/Services/3254767007_vgoooa.mp4",
     desc: "With the aid of our all-encompassing services, you can immerse yourself in the world of the Metaverse. Explore abundant possibilities and redefine the way you engage with your audience. From virtual experiences to innovative interactions, our Metaverse solutions open new avenues for creativity, collaboration, and connection. Don't just witness the future – be a part of it in this captivating digital realm you must experience.",
   },
 ];

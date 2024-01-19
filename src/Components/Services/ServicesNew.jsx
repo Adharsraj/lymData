@@ -7,6 +7,7 @@ import FaqServices from "./FaqServices";
 import { showPopupContext } from "./ContextPopup";
 import GetInTouch from "./GetInTouch";
 import { Link } from "react-router-dom";
+import InfiniteScrollClients from "./InfiniteScrollClients";
 
 
 const ServicesNew = (title) => {
@@ -329,7 +330,8 @@ We have more awesome stuff to show</h1>
 </svg></h2>
   </div>
 </div> */}
-      <TopClients />
+      {/* <TopClients /> */}
+      <InfiniteScrollClients></InfiniteScrollClients>
       <FaqServices />
     </>
   );
