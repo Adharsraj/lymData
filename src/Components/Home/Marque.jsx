@@ -1,9 +1,10 @@
 import React from "react";
+import { OurTopClients } from "../../assets/Data/data";
 
 const Marque = () => {
   return (
     <>
-      <div className="overflow-hidden mt-20 mb-20">
+      {/* <div className="overflow-hidden mt-20 mb-20">
         <div className=" center-container">
           <section id="features" className="rlr-section">
             <div className="container">
@@ -158,7 +159,23 @@ const Marque = () => {
         </div>
       </div>
 
-      
+       */}
+
+      <div className="flex overflow-hidden mt-14 mb-14">
+        <div className="animate-loop-scroll flex gap-32 z-0 ">
+          {OurTopClients?.map((i) => (
+            <img className="w-[100px] grayscale" src={i.img} alt="" />
+          ))}
+        </div>
+        <div
+          className="animate-loop-scroll flex  gap-32 z-10 bg-white"
+          aria-hidden="true"
+        >
+          {OurTopClients?.map((i) => (
+            <img className="w-[100px] grayscale" src={i.img} alt="" />
+          ))}
+        </div>
+      </div>
     </>
   );
 };
