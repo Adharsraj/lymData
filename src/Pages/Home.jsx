@@ -15,6 +15,7 @@ import Services from "../Components/Home/Services";
 import Insights from "../Components/Home/Insights";
 import { Helmet } from "react-helmet";
 import HorizontalScroll from "../Components/Home/HorizontalScroll";
+import SmoothScroll from "../Components/Home/SmoothScroll";
 
 
 const Home = () => {
@@ -43,8 +44,9 @@ const Home = () => {
 
          <Navbar onMenuClose={handleMenuClose} />
       {/* <Hero showImage={showImage} /> */}
-        <DhnnScroller />
+        {/* <DhnnScroller /> */}
         {/* <HorizontalScroll></HorizontalScroll> */}
+        <SmoothScroll></SmoothScroll>
         <HowweThinkdhn />
 {/* <LocomotiveScroll/> */}
         <DataSlide1 />

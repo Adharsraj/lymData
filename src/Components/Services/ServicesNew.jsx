@@ -6,6 +6,8 @@ import TopClients from "./TopClients";
 import FaqServices from "./FaqServices";
 import { showPopupContext } from "./ContextPopup";
 import GetInTouch from "./GetInTouch";
+import { Link } from "react-router-dom";
+import InfiniteScrollClients from "./InfiniteScrollClients";
 
 
 const ServicesNew = (title) => {
@@ -24,32 +26,31 @@ const ServicesNew = (title) => {
     <>
       <div className="pt-20 p-2 max-w-[1640px] lg:max-w-[1150px] mx-auto">
         {/* 1st div */}
-        {description?.map(data=>
-        <div className="md:min-h-screen md:flex md:flex-col md:justify-center">
-          <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
-            <div className="md:h-[300px] ">
-              <p className="lg:text-7xl text-5xl font-bold">
-               {data?.title}
-              </p>
+        {description?.map((data) => (
+          <div className="md:min-h-screen md:flex md:flex-col md:justify-center">
+            <div className="md:grid   md:grid-cols-2 md:mt-[-100px]  md:justify-center md:items-center mx-auto">
+              <div className="md:h-[300px] ">
+                <p className="lg:text-7xl text-5xl font-bold">{data?.title}</p>
 
-              <p>
-               <div className="cursor-pointer" onClick={()=>setShowPoup(true)}>
-                  <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">
-                    Get in touch
-                  </p>
-               </div>
-              {showPopup&&<GetInTouch></GetInTouch>}
-              
-                
+                <p>
+                  <div
+                    className="cursor-pointer"
+                    onClick={() => setShowPoup(true)}
+                  >
+                    <p className="h-16 mt-10 mb-4 bg-black w-[180px] text-white flex justify-center items-center rounded-full ">
+                      Get in touch
+                    </p>
+                  </div>
+                  {showPopup && <GetInTouch></GetInTouch>}
+                </p>
+              </div>
+
+              <p className="text-xl leading-9  md:h-[300px] md:px-10 font-medium">
+                {data?.details}
               </p>
             </div>
-
-            <p className="text-xl leading-9  md:h-[300px] md:px-10 font-medium">
-              {data?.details}
-            </p>
           </div>
-        </div>
-          )}
+        ))}
 
         {/* 2nd div */}
         <div className="md:grid-cols-2 md:grid">
@@ -87,16 +88,31 @@ const ServicesNew = (title) => {
       {/* 3rd div */}
       <div className="bg-black md:min-h-[100vh] flex justify-center items-center text-white">
         <div className="max-w-[1150px] mx-auto px-4">
-          <h2 className="text-4xl md:w-[500px] md:text-6xl lg:text-7xl font-bold  pt-16">
-            Values that Makes LYM
-          </h2>
-          <div className="md:flex md:justify-between md:items-center ">
-            <h2 className="text-4xl md:text-6xl  lg:text-7xl">#1</h2>
-            <p className="h-16 mt-5 md:mt-0  bg-red-200 w-[180px] text-white flex justify-center items-center rounded-full ">
-              Get in touch
-            </p>
+          <div className="lg:flex lg:justify-between lg:items-center">
+            <div>
+              <h2 className="text-4xl md:w-[500px] md:text-6xl lg:text-7xl font-bold  pt-16">
+                Values that Makes LYM
+              </h2>
+            </div>
+            <div
+              className="flex justify-center cursor-pointer"
+              onClick={() => setShowPoup(true)}
+            >
+              <div className="flex gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px]  lg:mt-5 pb-10 px-5 items-center justify-center">
+                <h4 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[500px] bg-white text-black font-bold transition-all transform hover:translate-x-14">
+                  Get in touch
+                </h4>
+                <h4 className="p-3 mt-10 flex items-center rounded-full w-[70px] bg-white text-black">
+                  <img
+                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg"
+                    alt="arrow"
+                  />
+                </h4>
+              </div>
+            </div>
           </div>
-          <div className="h-3 mt-12 w-full bg-green-200"></div>
+          <div class="h-3 mt-12 w-full strip-blue"></div>
+
           <div className="mt-20 md:grid md:grid-cols-3 ">
             <div className="">
               <h2 className="text-xl font-bold mb-4 md:text-3xl lg:text-4xl">
@@ -132,7 +148,7 @@ const ServicesNew = (title) => {
 
       {/* 4th div */}
       <div className="max-w-[1150px] mx-auto px-2">
-        <h2 className="text-xl text-green-400 uppercase mt-16">
+        <h2 className="text-2xl text-[#2FA7E3] font-bold uppercase mt-16">
           Our Tech stack
         </h2>
         <h1 className="text-3xl font-bold mt-3 mb-10 ">
@@ -314,7 +330,8 @@ We have more awesome stuff to show</h1>
 </svg></h2>
   </div>
 </div> */}
-      <TopClients />
+      {/* <TopClients /> */}
+      <InfiniteScrollClients></InfiniteScrollClients>
       <FaqServices />
     </>
   );
