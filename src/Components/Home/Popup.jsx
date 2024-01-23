@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Popup = () => {
   const scale = 0.9; 
@@ -145,14 +146,19 @@ const Popup = () => {
     }
   };
 
-  
+  // google recaptcha
+  const[isVerified,setIsVerified]=useState(false)
+  function onChange(value) {
+    console.log("Captcha value:", value);
+    setIsVerified(true)
+  }
 
   return (
     <>
       {isVisible && (
         <div className="absolute">
           <div className="fixed inset-0 z-50 md:mt-14 p-10   flex   text-white flex-col justify-center items-center backdrop-blur-lg some-ele">
-            <div className="bg-black h-[500px]  lg:flex  p-5  pt-10 overflow-y-auto relative">
+            <div className="bg-black h-[500px]  lg:flex  p-5  pt-0 overflow-y-auto relative">
               <div className="lg:flex lg:flex-col lg:gap-10">
                 <div className="flex justify-between">
                   {/* <svg
@@ -285,8 +291,15 @@ const Popup = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                    placeholder="What ae your biggest website pain points?"
+                    placeholder="What is your biggest website pain points?"
                   />
+                  <div className=" mt-3 mb-[-20px]" >
+                    <ReCAPTCHA
+                      sitekey="6LfClQ4pAAAAAH9desXouDRgOTgpf1s-crTYaBeT"
+                      onChange={onChange}
+                    />
+                  </div>
+
                   {errors.message && (
                     <p className="text-red-500 text-xs">{errors.message}</p>
                   )}
@@ -342,12 +355,17 @@ const Popup = () => {
                 ) : (
                   <div
                     onClick={handleSubmit}
-                    className="flex  group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto  xl:w-[230px]  lg:mb-7 items-center justify-center"
+                    className={`flex group hover:cursor-pointer gap-2 w-[300px] lg:ml-72 xl:mx-auto xl:w-[230px] lg:mb-7 items-center justify-center ${
+                      isVerified
+                        ? ""
+                        : "opacity-30  pointer-events-none cursor-not-allowed"
+                    }`}
+                   
                   >
-                    <h3 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
+                    <h3 className="p-2 text-sm flex items-center justify-center rounded-full w-[150px] bg-black text-white transition-all border transform hover:translate-x-12">
                       Submit
                     </h3>
-                    <h3 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
+                    <h3 className="p-2 flex items-center rounded-full w-[35px] bg-black text-white border fill-current">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 25 25"
