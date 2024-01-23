@@ -11275,6 +11275,11 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,39,121,1) 0%, rgba
   width: 200px; 
   height: auto;
 }
+@media screen and (max-width:320px) {
+    .serviceCard{
+        font-size: 13px;
+    }
+}
 
 /* dust animation */
 #stars {
