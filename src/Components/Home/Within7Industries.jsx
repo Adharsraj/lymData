@@ -177,7 +177,7 @@ const Within7Industriesdhn = () => {
                     <h1 className="mt-10 mb-10 text-center px-2 font-bold">
                       {m.title}
                     </h1>
-                    <h2 className="mt-3 h-[280px] px-5 text-left">{m.desc}</h2>
+                    <h2 className="mt-3 h-[280px]  text-[15px] px-5 text-left serviceCard">{m.desc}</h2>
                     <Link to="inside-services" state={{ title: m.title }}>
                       <div className="flex  mb-5 py-5 shadow-xl pl-4 xl:gap-1 gap-4 w-full  md:w-[200px] justify-center  items-center xl:w-[560px]">
                         <h1 className="p-4 text-sm xl:w-[160px]  border rounded-full w-[140px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
