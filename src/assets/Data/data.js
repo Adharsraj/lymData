@@ -988,3 +988,30 @@ export const insideServiceContent = [
       "Our clients have achieved their digital objectives through our emphasis on user experience, customer satisfaction, and customized solutions that cater to the unique requirements of each business. ",
   },
 ];
+
+export const insightsData = [
+  {
+    id: 1,
+    title:
+      "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp",
+  },
+  {
+    id: 2,
+    title:
+      "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp",
+  },
+  {
+    id: 3,
+    title:
+      "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp",
+  },
+  {
+    id: 4,
+    title:
+      "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp",
+  },
+];

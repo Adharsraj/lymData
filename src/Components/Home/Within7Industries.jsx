@@ -163,54 +163,56 @@ const Within7Industriesdhn = () => {
         ))}
       </div>
 
-      <div className="  md:hidden textSliderContainerd">
-        <h1 className="font-mono text-xs ml-8 lg:mt-10 mb-10">Services</h1>
-        {servv.map((m, index) => (
-          <div className="carousel-container">
-            <div className="carousel-slide flex  flex-col justify-center ">
-              <div className=" w-screen  h-[500px]  px-10   text-center ">
-                <div className="border-r border-l">
-                  <h1 className="mt-10 mb-20 text-center px-2 font-bold">
-                    {m.title}
-                  </h1>
-                  <h2 className="mt-3  h-60 px-2">
-                    {m.desc}
-                  </h2>
-                  <Link to="inside-services" state={{ title: m.title }}>
-                    <div className="flex mb-5 pl-4 xl:gap-1 gap-4 w-full mt-10 md:w-[200px] justify-center  items-center xl:w-[560px]">
-                      <h1 className="p-4 text-sm xl:w-[160px]  border rounded-full w-[140px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
-                        Find out more
-                      </h1>
-                      <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
-                        <img
-                          className="lg:w-56"
-                          src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
-                        />
-                      </h1>
-                    </div>
-                  </Link>
+      <div className="  md:hidden textSliderContainerd h-full mb-5">
+        <h1 className="font-mono text-3xl uppercase font-bold text-center  lg:mt-10 mt-12 ">
+          Services
+        </h1>
+        {servv
+          .filter((i) => i.id == currentSlide + 1)
+          .map((m, index) => (
+            <div className="carousel-container">
+              <div className="carousel-slide flex  flex-col justify-center ">
+                <div className=" w-screen   px-10   text-center ">
+                  <div className="border-r border-l  rounded-lg shadow ">
+                    <h1 className="mt-10 mb-10 text-center px-2 font-bold">
+                      {m.title}
+                    </h1>
+                    <h2 className="mt-3 h-[280px] px-5 text-left">{m.desc}</h2>
+                    <Link to="inside-services" state={{ title: m.title }}>
+                      <div className="flex  mb-5 py-5 shadow-xl pl-4 xl:gap-1 gap-4 w-full  md:w-[200px] justify-center  items-center xl:w-[560px]">
+                        <h1 className="p-4 text-sm xl:w-[160px]  border rounded-full w-[140px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover:-translate-x-[-56px]">
+                          Find out more
+                        </h1>
+                        <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
+                          <img
+                            className="lg:w-56"
+                            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                          />
+                        </h1>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="carousel-buttons mb-5 flex justify-center gap-5">
-              <button
-                className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
-                onClick={prevSlide}
-              >
-                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691415903/LYMDATALABS/Pages/Home/asset_59_wsgb7l_e3bvws.svg" />
-              </button>
-              <div className="text-gray-500 text-xl w-14 h-14 rounded-full  flex items-center justify-center">
-                {carouselData[currentSlide].id}/{carouselData.length}
+              <div className="carousel-buttons mb-5 mt-2 flex justify-center gap-5">
+                <button
+                  className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
+                  onClick={prevSlide}
+                >
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691415903/LYMDATALABS/Pages/Home/asset_59_wsgb7l_e3bvws.svg" />
+                </button>
+                <div className="text-gray-500 text-xl w-14 h-14 rounded-full  flex items-center justify-center">
+                  {carouselData[currentSlide].id}/{carouselData.length}
+                </div>
+                <button
+                  className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
+                  onClick={nextSlide}
+                >
+                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
+                </button>
               </div>
-              <button
-                className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
-                onClick={nextSlide}
-              >
-                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" />
-              </button>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </div>
   );
