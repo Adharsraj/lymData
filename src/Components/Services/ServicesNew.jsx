@@ -181,7 +181,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24">
             <img
               className="w-full h-14"
-              src="https://www.brucira.com/assets/img/services/cards/research.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051283/LYMDATALABS/Pages/Services/research_x4jmiy.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -204,7 +204,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://www.brucira.com/assets/img/services/cards/research.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051581/LYMDATALABS/Pages/Services/design_f6ts1q.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -226,7 +226,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://www.brucira.com/assets/img/services/cards/research.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052423/LYMDATALABS/Pages/Services/development_lbekzy.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -248,7 +248,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://www.brucira.com/assets/img/services/cards/research.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051576/LYMDATALABS/Pages/Services/testing2_h4fwan.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -270,7 +270,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://www.brucira.com/assets/img/services/cards/research.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051821/LYMDATALABS/Pages/Services/launch_vxfkgz.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -289,10 +289,10 @@ const ServicesNew = (title) => {
               user interaction.
             </h3>
           )}
-          <div className="flex justify-between items-center bg-white h-24 mt-5">
+          <div className="flex justify-between items-center bg-white h-24 mt-5 ">
             <img
               className="w-full h-14"
-              src="https://www.brucira.com/assets/img/services/cards/research.svg"
+              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051288/LYMDATALABS/Pages/Services/support2_brov3y.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -306,7 +306,7 @@ const ServicesNew = (title) => {
             </p>
           </div>
           {showh3 === "six" && (
-            <h3 className="bg-white px-5">
+            <h3 className="bg-white px-5 ">
               Provides consistent support to ensure quality and performance
               post-implementation.
             </h3>
