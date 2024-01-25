@@ -11556,3 +11556,17 @@ html.has-scroll-dragging {
   [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
     right: auto;
     bottom: 0; }
+
+    /* scroll bar  */
+    ::-webkit-scrollbar {
+width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+background-color: rgba(64, 64, 64, 0.8);
+border-radius: 10px;
+;
+}
+
