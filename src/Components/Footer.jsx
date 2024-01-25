@@ -25,7 +25,10 @@ const Footer= () => {
   };
   
   return (
-    <div className="max-w-[1640px] mx-auto bg-black text-white md:p-3 md:pt-7">
+    <div
+      className="max-w-[1640px] mx-auto bg-black text-white md:p-3 md:pt-7"
+      data-scroll-section
+    >
       <div className="md:hidden   md:items-center">
         <div className="px-7 pt-7 some-ele">
           <h1 className="font-light text-[32px]">Get started now!</h1>
