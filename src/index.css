@@ -11562,10 +11562,10 @@ html.has-scroll-dragging {
 width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 ::-webkit-scrollbar-thumb {
-background-color: rgba(64, 64, 64, 0.8);
+background-color: rgba(125, 125, 125, 0.8);
 border-radius: 10px;
 ;
 }
