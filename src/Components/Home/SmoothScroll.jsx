@@ -14,9 +14,10 @@ const SmoothScroll = () => {
         window.removeEventListener("mousemove", updateMousePosition);
       };
     }, []);
+    
   return (
     <>
-      <div className=" bg-black overflow-hidden ">
+      <div className=" bg-black overflow-hidden " data-scroll-section>
         <section className="h-screen relative w-screen ">
           <motion.div
             animate={{

@@ -11,7 +11,7 @@ const Insights = () => {
    delaySpeed:4000
  });
   return (
-    <div className="max-w-[1640px] mx-auto  bg-black">
+    <div className="max-w-[1640px] mx-auto  bg-black" data-scroll-section>
       <h4 className="lg:text-[40px] lg:p-12 lg:px-28 text-[35px] lg:font-bold p-3 some-ele text-white">
         {insightsHeading}
         <Cursor cursorColor="white" cursorStyle="|"></Cursor>
@@ -125,7 +125,7 @@ const Insights = () => {
 </div> */}
 
       <Link to="/blog">
-      <div className='flex justify-center'>
+        <div className="flex justify-center">
           <div className="flex gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[300px] mx-44  lg:mb-7 pb-10 px-5 items-center justify-center">
             <h4 className="p-3 text-sm flex items-center justify-center mt-10 rounded-full w-[500px] bg-white text-black font-bold transition-all transform hover:translate-x-14">
               Explore all insights
@@ -137,7 +137,7 @@ const Insights = () => {
               />
             </h4>
           </div>
-      </div>
+        </div>
       </Link>
     </div>
   );
