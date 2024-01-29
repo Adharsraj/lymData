@@ -7,6 +7,7 @@ import {
   SlSocialTwitter,
 } from "react-icons/sl";
 
+
 const Footer= () => {
   const scale = 0.9; 
 
