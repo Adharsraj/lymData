@@ -11,14 +11,15 @@ const HowweThinkdhn = () => {
   });
   const linesHorizontalMovement = useTransform(
     scrollYProgress,
-    [0, 12.1], 
-    ["0%", "-50%"] 
+    [0, 10.1], 
+    ["0%", "-70%"] 
   );
 
   return (
     <div
       id="howethink"
       className="bg-[#F8FAFC] overflow-hidden textSliderContainerd  min-h-screen"
+      data-scroll-section
     >
       <div className="max-w-[1640px]  mx-auto p-4 font-helvetica  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
@@ -122,9 +123,9 @@ const HowweThinkdhn = () => {
                 style={{
                   x: linesHorizontalMovement,
                   transition: "transform 0.3s ease-out",
-                  transformOrigin: "top left", 
-                  scale: 1.5, 
-                  width: "100%", 
+                  transformOrigin: "top left",
+                  scale: 1.6,
+                  width: "100%",
                   height: "auto",
                 }}
               />
