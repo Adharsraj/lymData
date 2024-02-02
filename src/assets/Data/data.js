@@ -487,35 +487,42 @@ export const fullstackcard = [
 
 
 export const jobCards = [
-
   {
     id: 1,
-    post: "Digital Marketing Lead",
+    post: "MERN Stack Lead",
     stream: "Digital",
     workway: "Hybrid",
     place: "Kochi",
   },
   {
     id: 2,
+    post: "Content Writer",
+    stream: "Digital",
+    workway: "Hybrid",
+    place: "Kochi",
+  },
+  {
+    id: 3,
     post: "Business Development.   Executive",
     stream: "Sales & Marketing",
     workway: "Hybrid",
     place: "Kochi",
-  }, {
-    id: 3,
+  },
+  {
+    id: 4,
     post: "React Native Developer",
     stream: "Engineering",
     workway: "Hybrid",
     place: "Kochi",
-  }, {
-    id: 4,
+  },
+  {
+    id: 5,
     post: "Sales executive Intern ",
     stream: "Sales & Marketing ",
     workway: "Hybrid",
     place: "Kochi",
   },
 ];
-
 export const servv = [
   {
     id: 1,
