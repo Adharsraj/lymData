@@ -4,152 +4,197 @@ import Blog3 from "../../Components/Blog/BlogComponents/Blog3";
 import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
+import Blog7 from "../../Components/Blog/BlogComponents/Blog7";
 
 export const OurTechStack = [
   {
     id: 1,
     img: "https://www.brucira.com/assets/img/services/tech/nodejs.svg",
     title: "node.js    ",
-    description: "Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine.    "
+    description:
+      "Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine.    ",
   },
   {
     id: 2,
     img: "https://www.brucira.com/assets/img/services/tech/php.svg",
     title: "PHP",
-    description: "PHP is a general-purpose scripting language for web development    "
+    description:
+      "PHP is a general-purpose scripting language for web development    ",
   },
   {
     id: 3,
     img: "https://www.brucira.com/assets/img/services/tech/react.svg",
     title: "React",
-    description: "React is a JavaScript-based UI development library.    "
+    description: "React is a JavaScript-based UI development library.    ",
   },
   {
     id: 4,
     img: "https://www.brucira.com/assets/img/services/tech/gatsby.svg",
     title: "Gatsby",
-    description: "Gatsby is a React-based open source framework.    "
+    description: "Gatsby is a React-based open source framework.    ",
   },
   {
     id: 5,
     img: "https://www.brucira.com/assets/img/services/tech/gatsby.svg",
     title: "Next.js    ",
-    description: "Next.js is a React framework that gives you building blocks to create web applications.    "
+    description:
+      "Next.js is a React framework that gives you building blocks to create web applications.    ",
   },
   {
     id: 6,
     img: "https://www.brucira.com/assets/img/services/tech/html.svg",
     title: "HTML",
-    description: "HTML is the standard markup language for Web pages.    "
+    description: "HTML is the standard markup language for Web pages.    ",
   },
   {
     id: 7,
     img: "https://www.brucira.com/assets/img/services/tech/css.svg",
     title: "CSS",
-    description: "CSS is the language we use to style an HTML document.    "
+    description: "CSS is the language we use to style an HTML document.    ",
   },
   {
     id: 8,
     img: "https://www.brucira.com/assets/img/services/tech/wordpress.svg",
     title: "WordPress",
-    description: "WordPress is a content management system based on PHP.    "
+    description: "WordPress is a content management system based on PHP.    ",
   },
   {
     id: 9,
     img: "https://www.brucira.com/assets/img/services/tech/typescript.svg",
     title: "TypeScript    ",
-    description: "TypeScript is JavaScript with syntax for types.    "
+    description: "TypeScript is JavaScript with syntax for types.    ",
   },
   {
     id: 10,
     img: "https://www.brucira.com/assets/img/services/tech/javascript.svg",
     title: "JavaScript",
-    description: "JavaScript is the programming language of the Web.    "
+    description: "JavaScript is the programming language of the Web.    ",
   },
   {
     id: 11,
     img: "https://www.brucira.com/assets/img/services/tech/contentful.svg",
     title: "Contentful",
-    description: "API-first composable content platform to create, manage and publish content.    "
+    description:
+      "API-first composable content platform to create, manage and publish content.    ",
   },
   {
     id: 12,
     img: "https://www.brucira.com/assets/img/services/tech/mysql.svg",
     title: "MySQL",
-    description: "MySQL is a widely used relational database management system (RDBMS).    "
+    description:
+      "MySQL is a widely used relational database management system (RDBMS).    ",
   },
   {
     id: 13,
     img: "https://www.brucira.com/assets/img/services/tech/postgresql.svg",
     title: "PostgreSQL",
-    description: "PostgreSQL is a powerful, open source object-relational database system.    "
+    description:
+      "PostgreSQL is a powerful, open source object-relational database system.    ",
   },
   {
     id: 14,
     img: "https://www.brucira.com/assets/img/services/tech/mongodb.svg",
     title: "MongoDB    ",
-    description: "MongoDB is a source-available cross-platform document-oriented database program.    "
+    description:
+      "MongoDB is a source-available cross-platform document-oriented database program.    ",
   },
-]
-
+];
 
 export const OurWorks = [
   {
     id: 1,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
     title: "Al-Hub",
-    features: ["Branding", "Mobile App", "WebApp",
-      "Performance Marketing", "Motion", "UI/UX"],
-    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+    features: [
+      "Branding",
+      "Mobile App",
+      "WebApp",
+      "Performance Marketing",
+      "Motion",
+      "UI/UX",
+    ],
+    description:
+      "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 2,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
     title: "Hotel Ware",
-    features: ["Branding", "Mobile App", "WebApp",
-      "Performance Marketing", "Motion", "UI/UX"],
-    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+    features: [
+      "Branding",
+      "Mobile App",
+      "WebApp",
+      "Performance Marketing",
+      "Motion",
+      "UI/UX",
+    ],
+    description:
+      "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 3,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
     title: "EDUCAS GLOBAL    ",
-    features: ["Branding", "Mobile App", "WebApp",
-      "Performance Marketing", "Motion", "UI/UX"],
-    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+    features: [
+      "Branding",
+      "Mobile App",
+      "WebApp",
+      "Performance Marketing",
+      "Motion",
+      "UI/UX",
+    ],
+    description:
+      "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 4,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
     title: "Aquaguard    ",
-    features: ["Branding", "Mobile App", "WebApp",
-      "Performance Marketing", "Motion", "UI/UX"],
-    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+    features: [
+      "Branding",
+      "Mobile App",
+      "WebApp",
+      "Performance Marketing",
+      "Motion",
+      "UI/UX",
+    ],
+    description:
+      "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 5,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
     title: "Farmfed Tourism    ",
-    features: ["Branding", "Mobile App", "WebApp",
-      "Performance Marketing", "Motion", "UI/UX"],
-    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+    features: [
+      "Branding",
+      "Mobile App",
+      "WebApp",
+      "Performance Marketing",
+      "Motion",
+      "UI/UX",
+    ],
+    description:
+      "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
   {
     id: 6,
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/wnew9_ztmhpp.webp",
     title: "PappaBoo",
-    features: ["Branding", "Mobile App", "WebApp",
-      "Performance Marketing", "Motion", "UI/UX"],
-    description: "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
+    features: [
+      "Branding",
+      "Mobile App",
+      "WebApp",
+      "Performance Marketing",
+      "Motion",
+      "UI/UX",
+    ],
+    description:
+      "AL HUB serves as a virtual guide that assists you in locating the coolest hangouts this amazing country has to offer.Our App not only caters to the needs of citizens but also businesses and tourists.",
   },
+];
 
-
-]
-
-
-
-
-{/* <div className="slide-track">
+{
+  /* <div className="slide-track">
 <div className="slide">
   <img
     data-sizes="auto"
@@ -290,9 +335,8 @@ export const OurWorks = [
     alt="partner logo"
   />
 </div>
-</div> */}
-
-
+</div> */
+}
 
 export const OurTopClients = [
   {
@@ -481,11 +525,6 @@ export const fullstackcard = [
   },
 ];
 
-
-
-
-
-
 export const jobCards = [
   {
     id: 1,
@@ -570,9 +609,10 @@ export const servv = [
 export const blogCards = [
   {
     id: 1,
-    name: "ThePowerofPredictiveAnalytics",
+    name: "The Power of PredictiveAnalytics",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp",
-    title: "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
+    title:
+      "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog1,
   },
@@ -580,7 +620,8 @@ export const blogCards = [
     id: 2,
     name: "DataPrivacyintheDigitalAge",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp",
-    title: "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
+    title:
+      "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog2,
   },
@@ -588,7 +629,7 @@ export const blogCards = [
     id: 3,
     name: "DataAnalyticsforE-commerce",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp",
-    title: "Data Analytics for E-commerce: Boosting Sales and Customer Engagement",
+    title: "E-commerce: Boosting Sales and Customer Engagement",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog3,
   },
@@ -596,12 +637,29 @@ export const blogCards = [
     id: 4,
     name: "Reimaginingrealityasweknowit",
     img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Vr_1_dybul9_1_eqgiq2.webp",
-    title: "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
+    title:
+      "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog4,
   },
+  {
+    id: 5,
+    name: "WhatIsBrandingAndWhyIsItImportant",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707297074/LYMDATALABS/Pages/Blog/Image_1_1920_x_1080_iv87zm.webp",
+    title: "What Is Branding and Why Is It Important? ",
+    desc: "Press Release • 04 Oct, 2023",
+    more: Blog5,
+  },
+  {
+    id: 6,
+    name: "WhatIsInfluencerMarketing",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707297085/LYMDATALABS/Pages/Blog/Image_2_1920_x_1080_vqga6w.webp",
+    title:
+      "What is influencer marketing? The Role of Data in Influencer Marketing? ",
+    desc: "Press Release • 04 Oct, 2023",
+    more: Blog6,
+  },
 ];
-
 
 export const ourValues = [
   {

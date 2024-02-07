@@ -1,123 +1,174 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { SlSocialDribbble, SlSocialLinkedin } from "react-icons/sl";
+import { FaHeart, FaComment } from "react-icons/fa";
+
 const Blog6 = () => {
+  const [likes, setLikes] = useState(0);
+  const [showCommentInput, setShowCommentInput] = useState(false);
+  const [comments, setComments] = useState([]);
+  const [newComment, setNewComment] = useState("");
+
+  const handleLikeClick = () => {
+    setLikes(likes + 1);
+    // Add additional logic if needed, like making an API request.
+  };
+
+  const handleCommentClick = () => {
+    // setComments(comments + 1);
+    setShowCommentInput(!showCommentInput);
+  };
+
+  const handleCommentSubmit = (e) => {
+    e.preventDefault();
+    setComments([...comments, newComment]);
+    setNewComment("");
+    setShowCommentInput(false);
+  };
+
   return (
-    <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px]  ">
+    <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
       <div>
-        <h1 className="text-3xl font-bold mt-4">MAKE IT SIMPLE</h1>
-
+        <h1 className="mt-6 font-bold text-2xl">
+          What is influencer marketing? The Role of Data in Influencer
+          Marketing?
+        </h1>
+        <h3 className="mt-6 text-lg">
+          At its core, influencer marketing falls under the umbrella of social
+          media marketing, utilizing endorsements and product mentions from
+          influencers. These influencers are individuals with a dedicated social
+          following, often regarded as experts within their specific niche.{" "}
+          <br /> The effectiveness of influencer marketing is rooted in the
+          substantial trust these social influencers have cultivated with their
+          followers. Their recommendations act as a powerful form of social
+          proof for your brand, resonating with and influencing potential
+          customers. <br /> Whether you're a brand or a content creator
+          navigating social media, you're likely aware of the pivotal role data
+          plays. Understanding the intricacies of the data behind your
+          influencer marketing campaigns can empower you to make informed
+          decisions and establish deeper connections with your followers.
+          However, there's an ongoing debate about the necessity of leveraging
+          influencer marketing data to fully harness your data potential.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          Planning - Fundamental Element in Influencer Marketing{" "}
+        </h1>
+        <h3 className="mt-6 text-lg">
+          While companies promoting on social media have easy access to data,
+          navigating through and processing this information can be intricate.
+          Opting for an influencer marketing data platform can provide a more
+          lucid and comprehensive understanding of the data, facilitating the
+          development of a robust brand strategy. <br /> Utilizing these
+          platforms offers a unique vantage point by providing surveillance of
+          data from thousands of creators. The beauty of it? You don't need to
+          manually collect data from individual creators; the platform automates
+          this process for you. <br /> In the realm of social media marketing,
+          the task of accumulating and comparing data from various content
+          creators can be overwhelmingly frustrating. The sheer volume of
+          creators makes researching everyone impractical. Even if you manage to
+          gather data, it often turns out to be insignificant when considering
+          the broader picture. The key is to identify crucial pieces of
+          information that hold value for your brand strategy. This way, you can
+          efficiently compare creators and select the most suitable ones for
+          your campaign.
+        </h3>
+       
         <div>
-          <h2 className="text-2xl font-times mt-4 mb-4">
-            HERE ARE OUR 5 MOST IMPORTANT POINTS OF A SUCCESSFUL COOPERATION
-            WITH AN AGENCY
-          </h2>
+          <div className="flex justify-between some-ele">
+            <div className="flex gap-5 sm:mt-10 mt-10 md:ml-5 lg:ml-0">
+              <span
+                className="cursor-pointer text-red-600"
+                onClick={handleLikeClick}
+              >
+                <FaHeart />
+                {likes > 0 && <span className="ml-1 text-xs">{likes}</span>}
+              </span>
 
-          <h4 className="font-dm text-lg">
-            1.Clear goals and expectations: It is important that both sides have
-            clear goals and expectations from the start so that everyone
-            involved knows what is important and what is to be achieved.
-          </h4>
+              <span
+                className="cursor-pointer text-blue-500"
+                onClick={handleCommentClick}
+              >
+                <FaComment />
+                {comments.length > 0 && (
+                  <span className="ml-1 text-xs">{comments.length}</span>
+                )}
+              </span>
+            </div>
 
-          <h4 className="font-dm text-lg">
-            2. Open communication: Open and honest communication is the key to a
-            successful cooperation. It is important that both sides share their
-            thoughts and ideas and give each other feedback in order to achieve
-            the best possible results.
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            {" "}
-            3. Flexibility: Businesses and markets are constantly changing, and
-            it is important that both sides remain flexible and willing to adapt
-            as circumstances change.
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            4. Trust: Good cooperation is based on trust. It is important that
-            both sides trust each other and trust that everyone is doing their
-            best to achieve the common goals.
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            5.Collaboration: In the end, it's about working together and pulling
-            together . It is important that both sides are willing to work
-            together and support each other to achieve the best possible
-            results.
-          </h4>
-
-          <h2 className="text-2xl font-times mt-4 mb-4">
-            IF YOU HAVE ALREADY GOTTEN CLOSER AND NOW WANT TO WORK TOGETHER,
-            HERE ARE OUR TOP 6 TIPS FOR YOUR JOINT ONBOARDING
-          </h2>
-
-          <h4 className="font-dm text-lg">
-            1.It is important that both sides have clear communication from the
-            beginning and are clear about goals, expectations, processes and
-            responsibilities .
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            2. It is important that both parties understand and can rely on the
-            terms of the contract . These include, for example, the duration of
-            the cooperation, the scope of the services, the remuneration and the
-            notice periods.
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            {" "}
-            3. It is important that both sides know the processes and procedures
-            that apply to the collaboration. These include, for example,
-            meetings, reporting requirements, decision-making processes and the
-            distribution of responsibilities .
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            4. It is important that the agency has access to all the necessary
-            information and resources in order to be able to make the
-            cooperation successful. This includes, for example, marketing
-            materials, customer data and company policies, passwords and
-            permissions .
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            5. It is important that the agency is well integrated into the
-            company and has access to relevant people and departments . This
-            includes, for example, meetings with decision-makers, employees from
-            other departments and external partners
-          </h4>
-
-          <h4 className="font-dm text-lg">
-            6. It is important that the agency is well trained and receives all
-            the necessary training and support in order to be able to make the
-            cooperation successful.{" "}
-          </h4>
-
-          <p className="mt-3 text-lg">
-            We hope that you have now been able to take a lot of inspiration for
-            your content strategy with you! If you need support for you or your
-            business, drop us a line!{" "}
-          </p>
-
-          <div className="flex gap-5 sm:mt-10 mt-10  md:ml-5 lg:ml-10">
-            <span>
-              <BsFacebook />
-            </span>
-            <span>
-              <AiFillInstagram />
-            </span>
-            <span>
-              <FaTwitter />
-            </span>
-            <span>
-              <SlSocialDribbble />
-            </span>
-            <span>
-              <SlSocialLinkedin />
-            </span>
+            <div className="flex gap-5 sm:mt-10 mt-10 md:ml-5 lg:ml-10">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsFacebook className="cursor-pointer" />
+              </a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram className="cursor-pointer" />
+              </a>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter className="cursor-pointer" />
+              </a>
+              <a
+                href="https://www.dribbble.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SlSocialDribbble className="cursor-pointer" />
+              </a>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SlSocialLinkedin className="cursor-pointer" />
+              </a>
+            </div>
           </div>
+          {showCommentInput && (
+            <div className="mt-3">
+              <form onSubmit={handleCommentSubmit}>
+                <div>
+                  <textarea
+                    type="text"
+                    className="text-sm"
+                    placeholder="Add a comment..."
+                    value={newComment}
+                    onChange={(e) => setNewComment(e.target.value)}
+                  />
+                </div>
+                <div className="mt-2">
+                  <button
+                    type="submit"
+                    className="text-sm p-1 px-5 cursor-pointer border bg-black text-white rounded-2xl"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          )}
+          {/* Display existing comments */}
+          {comments.length > 0 && (
+            <div className="mt-5">
+              <h3 className="text-sm font-semibold">Comments :</h3>
+              <ul className="list-disc pl-7 text-sm">
+                {comments.map((comment, index) => (
+                  <li key={index}>{comment}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
