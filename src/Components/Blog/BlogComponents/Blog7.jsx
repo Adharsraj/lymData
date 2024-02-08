@@ -32,245 +32,173 @@ const Blog7 = () => {
     <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
       <div>
         <h3 className="mt-6 text-lg">
-          Reality, as we perceive it, has undergone a profound transformation in
-          recent years, thanks to the rapid advancements in Extended Reality
-          (XR) technologies. XR encompasses a spectrum of technologies that
-          bridge the gap between the physical and virtual worlds, providing
-          immersive and interactive experiences that challenge our traditional
-          understanding of reality. In this article, we will explore the
-          exciting world of XR, its various components, and the significant
-          reverberations it exerts across an extensive spectrum of industries,
-          spanning from gaming and entertainment to education and healthcare.
+          Given the dynamic nature of the social media landscape, one needs to
+          be aware of upcoming trends to capitalize on opportunities. Therefore,
+          it is important to be proactive in monitoring the latest developments
+          in social media. What are the latest trends shaping the digital
+          sector?
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          Here are some can’t-miss social media marketing trends for 2024:
+        </h1>
+        <h3 className="mt-6 text-lg">
+          1.Create concise and accurate video content. <br />
+          2.Building an authentic brand image <br /> 3.Creating shareable
+          content <br /> 4.Influencer marketers ditch celebrities for
+          micro-influencers. <br /> 5.Selling products on social media <br />{" "}
+          6.Focusing on building communities over followers <br /> 7.Leveraging
+          Social Media Platforms for Research <br /> 8.Exploring the Potential
+          of YouTube Shorts Investment <br /> 9.Using artificial intelligence
+          (AI) to create social media content <br /> 10.Assign a throw-away
+          photo for each grid post
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          1. Create concise and accurate video content.
+        </h1>
+        <h3 className="mt-6 text-lg">
+          To begin our dialogue on current social advertising and marketing
+          trends, let's deal with the importance of crafting brief-form, proper
+          videos. Short movies have maintained their recognition in current
+          years, thanks to their short consumption and the emergence of systems
+          like TikTok. <br /> In 2024, this fashion stays unchanged, with quick
+          films continuing to dominate social media structures and serving as a
+          key method for engaging audiences. However, the essential shift lies
+          in authenticity. <br /> We'll delve deeper into this subject matter
+          while discussing deinfluencing and logo imaging, however, authenticity
+          emerges as a tremendous fashion for 2024. Users are growing weary of
+          staged and insincere content; instead, they are seeking true material
+          that in reality connects with them.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          2. Building an authentic brand image .
+        </h1>
+        <h3 className="mt-6 text-lg">
+          As mentioned earlier, many of the latest social media trends emphasize
+          authenticity. With so many private producers and distributors, the
+          target content has increased dramatically –– a trend that audiences
+          have grown tired of <br /> This increased demand for authenticity is
+          reflected in social media marketing, where personalized brand
+          representation is now in vogue. Audiences crave authentic brands that
+          remain true to themselves rather than adopting a fake identity for the
+          sake of recognition and fashion. <br /> Accepting this attitude is
+          easy –– just be real. Your company has a unique brand identity and
+          voice that must remain consistent in your content creation. Stay true
+          to your brand by acknowledging its authenticity and reference it in
+          all your content endeavors.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          3. Influencer marketers ditch celebrities for micro-influencers.
+        </h1>
+        <h3 className="mt-6 text-lg">
+          In the old days of influencer marketing, the main attraction revolved
+          around the number of followers. However, in today’s environment, the
+          emphasis has shifted more towards content quality and brand alignment.
+          A large portion of social media users, including an even larger
+          percentage of Gen-Z, prefer discovery through influencers on social
+          platforms. This highlights the enduring benefits of influencer
+          marketing. What they have done is the standard for determining
+          valuable influencers.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          4. Creating shareable content .
+        </h1>
+        <h3 className="mt-6 text-lg">
+          One constant on social media is content sharing. To drive growth and
+          expand your audience, it’s important that your followers share your
+          content with their networks. For example, Wendy’s effectively uses
+          memes and funny stories about its products to encourage product
+          sharing. When you create shareable content, you encourage others to
+          share your content on their profiles, thus gaining access to their
+          followers. This approach helps businesses gain new followers, increase
+          engagement, and gain other benefits. Developing this information will
+          be important in 2024 to get the right leadership.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          5. Selling products on social media{" "}
+        </h1>
+        <h3 className="mt-6 text-lg">
+          Next on the roster of social media marketing trends is integrating
+          products directly into social platforms. Respected platforms like
+          Instagram and TikTok facilitate easy in-app shopping experiences,
+          allowing users to interact with your products through social media
+          posts and make purchases of things that are not from the app.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          6. Focusing on building communities over followers
+        </h1>
+        <h3 className="mt-6 text-lg">
+          As companies establish their social media presence, their primary
+          focus is often on gaining followers. While expanding your following is
+          certainly a good step, there will be a new trend in social media in
+          2024: developing a community. Today’s customers are looking for more
+          than a business that will just be an account—they crave value and
+          relationships. Having a sense of community fosters that important
+          relationship, and makes your audience feel valued and engaged. This
+          relationship plays an important role in maintaining long-term
+          engagement with your brand.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          7. Leveraging Social Media Platforms for Research.
+        </h1>
+        <h3 className="mt-6 text-lg">
+          Continuing our exploration of trends in social media marketing, let’s
+          dig deeper into the social media channels we use for research
+          purposes. In today’s digital environment, while search engines remain
+          a popular tool for finding information, a growing number of
+          individuals also rely on social media as a valuable resource. Unlike
+          search engines, social media offers a more direct approach. <br /> For
+          example, if you search for broccoli cheddar soup recipes on Instagram,
+          you will come across a lot of videos and pictures of different dishes,
+          providing a quick way to check the appropriateness as a result, many
+          people turn away social media channels to discover recipes, products
+          and other resources. This highlights the importance of optimizing your
+          content to make it visible and accessible when users search across
+          social media platforms.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          8. Exploring the Potential of YouTube Shorts Investment.
+        </h1>
+        <h3 className="mt-6 text-lg">
+          It’s common to think about platforms like TikTok and Instagram for
+          posting when creating short videos. However, there is another platform
+          worth exploring: YouTube. <br /> Adding YouTube Shorts to your social
+          media strategy is a must by 2024. It’s a simple process to use this
+          feature—share video content you’ve already posted on TikTok and Reels
+          for Just YouTube Shorts. This allows you to share your content and
+          participate in comments on other social media platforms.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          9. Using artificial intelligence (AI) to create social media content.
+        </h1>
+        <h3 className="mt-6 text-lg">
+          Another emerging social media trend involves utilizing AI for content
+          creation. AI tools, like ChatGPT and Microsoft Bing AI, are gaining
+          widespread popularity due to their ability to rapidly generate
+          information. This efficiency is particularly attractive for businesses
+          in 2024, as it enables faster information generation and time-saving
+          benefits. With this in mind, businesses are increasingly turning to AI
+          tools to streamline their social media strategies. Specifically, they
+          are leveraging AI to generate captions, headlines, and text-based
+          posts for their social media content.
+        </h3>
+        <h1 className="mt-6 font-bold text-2xl">
+          10. Assign a throw-away photo for each grid post.
+        </h1>
+        <h3 className="mt-6 text-lg">
+          Another trend emerging in social media in 2024 is photo disposal,
+          which involves sharing posts with multiple images that encapsulate a
+          story, experience, or moment This reflects a change in the online
+          environment posting characteristics revealed, with individuals posting
+          little but their own when experiencing and momentarily choosing a
+          disposable image for the taking. Take advantage of these social media
+          trends to stay ahead of your plan. While we can’t predict the
+          emergence of every new platform, or content format we can leverage
+          broad social media marketing trends to fuel our path to success. By
+          doing so, we lay a solid foundation that continues to withstand
+          unexpected changes on the platform.
         </h3>
 
-        <h3></h3>
-        {/* <h4 className="text-xl mt-5 font-bold mb-5">
-          THIS IS HOW THE PANTONE COLOR INSTITUTE DESCRIBES VIVA MAGENTA{" "}
-        </h4>
-
-        <h3 className="mt-6 text-lg">
-          "The Pantone Color of the Year, Viva Magenta 18-1750, vibrates with
-          panache and vigor. It's a shade rooted in nature, descended from the
-          red family, and expressing a new signal of strength. Viva Magenta is
-          bold and fearless and a vibrant color whose exuberance encourages a
-          joyful and optimistic celebration and writes a new story.
-        </h3>
-        <h3 className="mt-6 text-lg">
-          This year's color of the year is powerful and empowering. It's a new
-          vibrant red that revels in sheer joy, that encourages experimentation
-          and uninhibited self-expression, an electrifying, limitless hue that
-          manifests as a standout statement. PANTONE 18-1750 Viva Magenta
-          welcomes everyone and everyone with the same will to live and
-          rebellious spirit. It's a color that's bold, full of wit, and open to
-          all." (Source: www.pantone.com)
-        </h3> */}
         <div>
-          <h4 className="text-2xl mt-4">
-            Gaining insight into the intricacies of Extended Reality (XR)
-          </h4>
-          <h3 className="mt-6 text-lg">
-            Extended Reality is an umbrella term that encompasses several
-            immersive technologies, including Augmented Reality (AR), Virtual
-            Reality (VR), and Mixed Reality (MR).
-          </h3>
-
-          <h4 className="text-2xl mt-4">Augmented Reality (AR)</h4>
-          <h3 className="mt-6 text-lg">
-            AR overlays digital elements onto the real world, enhancing our
-            perception of reality. Popular applications include mobile AR apps,
-            heads-up displays, and the famous Pokémon GO game, which
-            superimposed virtual creatures onto the physical world through
-            smartphone screens.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Virtual Reality (VR)</h4>
-          <h3 className="mt-6 text-lg">
-            VR offers a completely immersive experience, disconnecting users
-            from the real world and transporting them to a fully digital
-            environment. Users typically wear a VR headset to explore these
-            immersive environments, often used for gaming, simulations, and
-            training.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Mixed Reality (MR)</h4>
-          <h3 className="mt-6 text-lg">
-            MR combines elements of AR and VR, merging the real and digital
-            worlds in a seamless manner. Microsoft's HoloLens, for instance,
-            offers MR experiences where digital holograms interact with the real
-            environment.
-          </h3>
-
-          <h4 className="text-2xl mt-4">
-            The Impact on Entertainment and Gaming
-          </h4>
-          <h3 className="mt-6 text-lg">
-            The entertainment industry has been at the forefront of adopting XR
-            technologies, pushing the boundaries of what is possible in
-            immersive experiences.
-          </h3>
-          {/* <h3 className="mt-6 text-lg">
-          Furthermore, AR-based mobile games have taken social interactions to a new level, bringing people together for outdoor adventures. Pokémon GO is a prime example, encouraging players to explore their surroundings while hunting for digital creatures. These games blend real and virtual worlds, fostering an active and engaged player base.
-          </h3> */}
-
-          <h4 className="text-2xl mt-4">In the gaming world</h4>
-          <h3 className="mt-6 text-lg">
-            VR has revolutionized gameplay, offering an unparalleled level of
-            immersion. Players find themselves transported to fantastical
-            worlds, interacting with characters and environments as if they were
-            real.
-          </h3>
-
-          <h4 className="text-2xl mt-4">AR-based mobile games</h4>
-          <h3 className="mt-6 text-lg">
-            These have taken social interactions to a new level, bringing people
-            together for outdoor adventures. Mobile App Development has taken a
-            new shift in their realm where Pokémon GO is a prime example,
-            encouraging players to explore their surroundings while hunting for
-            digital creatures.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Education and Training</h4>
-          <h3 className="mt-6 text-lg">
-            The educational landscape has also been profoundly impacted by XR
-            technologies.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Immersive learning experiences</h4>
-          <h3 className="mt-6 text-lg">
-            These have been shown to improve retention and understanding of
-            complex subjects. VR simulations can recreate historical events,
-            deep-sea dives, or even space exploration, offering students an
-            opportunity to learn by doing.
-          </h3>
-
-          <h4 className="text-2xl mt-4">AR and MR in classrooms</h4>
-          <h3 className="mt-6 text-lg">
-            These technologies are transforming traditional classrooms by
-            overlaying digital information onto physical textbooks or providing
-            3D models for interactive science lessons. In the workplace, XR has
-            found applications in employee training, from simulating dangerous
-            scenarios for firefighters to training aviation engineers.
-          </h3>
-
-          <h4 className="text-2xl mt-4">
-            Biomedical and Clinical Implementations
-          </h4>
-          <h3 className="mt-6 text-lg">
-            Extended Reality is making waves in the healthcare industry, both in
-            medical training and patient care.
-          </h3>
-
-          <h4 className="text-2xl mt-4">
-            Surgeons practicing in virtual settings
-          </h4>
-          <h3 className="mt-6 text-lg">
-            Before performing procedures on patients, reducing the risk of
-            errors.
-          </h3>
-
-          <h4 className="text-2xl mt-4">VR therapy</h4>
-          <h3 className="mt-6 text-lg">
-            Aids patients in regaining mobility and cognitive functions. For
-            example, stroke survivors can engage in virtual activities that
-            motivate them to move and rebuild neural pathways. Additionally, AR
-            is being used in telemedicine, allowing remote specialists to
-            provide guidance and support to on-site medical staff during
-            procedures.
-          </h3>
-
-          <h4 className="text-2xl mt-4">
-            Architectural Design and Real Estate
-          </h4>
-          <h3 className="mt-6 text-lg">
-            Architects and real estate professionals have embraced XR for its
-            ability to provide realistic and interactive representations of
-            buildings and properties.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Virtual walkthroughs</h4>
-          <h3 className="mt-6 text-lg">
-            Clients can explore virtual walkthroughs of future homes, offices,
-            or commercial spaces before construction even begins, enhancing
-            customer satisfaction and streamlining the design process.
-          </h3>
-
-          <h4 className="text-2xl mt-4">AR apps for real estate agents</h4>
-          <h3 className="mt-6 text-lg">
-            These provide customers with property information by simply scanning
-            a physical brochure or sign, simplifying the decision-making process
-            for potential buyers.
-          </h3>
-
-          <h4 className="text-2xl mt-4">The Future of Retail</h4>
-          <h3 className="mt-6 text-lg">
-            XR technologies are reshaping the retail sector by enhancing the
-            shopping experience.
-          </h3>
-
-          <h4 className="text-2xl mt-4">AR apps for visualization</h4>
-          <h3 className="mt-6 text-lg">
-            Customers can visualize how furniture or clothing items will look in
-            their own living spaces or on their bodies, reducing return rates.
-          </h3>
-
-          <h4 className="text-2xl mt-4">AR engagement in physical stores</h4>
-          <h3 className="mt-6 text-lg">
-            By scanning products or displays, customers can access additional
-            information, reviews, and promotions, bridging the gap between
-            in-store and online shopping experiences.
-          </h3>
-
-          <h4 className="text-2xl mt-4">The Challenges of XR</h4>
-          <h3 className="mt-6 text-lg">
-            While XR technologies offer immense potential, there are challenges
-            to address.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Cost and accessibility</h4>
-          <h3 className="mt-6 text-lg">
-            High-quality VR and MR equipment can be costly, limiting access to
-            these experiences for some individuals and organizations.
-          </h3>
-
-          <h4 className="text-2xl mt-4">Data security and privacy</h4>
-          <h3 className="mt-6 text-lg">
-            Ensuring data security and privacy in XR applications is a growing
-            concern, as these technologies gather significant amounts of
-            personal information.
-            <h3 className="mt-6 text-lg">
-              As Extended Reality technologies continue to advance, the boundary
-              between the physical and virtual worlds becomes increasingly
-              porous. The impact of XR is felt across various sectors, from
-              entertainment and education to healthcare and real estate. The
-              ability to blend reality and digital experiences is opening up new
-              possibilities for creativity, learning, and problem-solving. As we
-              move forward, addressing challenges related to affordability and
-              data privacy will be essential to ensure equitable access and
-              responsible use of these transformative technologies. In
-              reimagining reality as we know it, XR is empowering us to explore
-              uncharted territories, learn in innovative ways, and improve
-              countless aspects of our lives.
-            </h3>
-          </h3>
-
-          {/* <div className="flex gap-5 sm:mt-10 mt-10  md:ml-5 lg:ml-10">
-            <span>
-              <BsFacebook />
-            </span>
-            <span>
-              <AiFillInstagram />
-            </span>
-            <span>
-              <FaTwitter />
-            </span>
-            <span>
-              <SlSocialDribbble />
-            </span>
-            <span>
-              <SlSocialLinkedin />
-            </span>
-          </div> */}
-
           <div className="flex justify-between some-ele">
             <div className="flex gap-5 sm:mt-10 mt-10 md:ml-5 lg:ml-0">
               <span
@@ -330,7 +258,6 @@ const Blog7 = () => {
               </a>
             </div>
           </div>
-
           {showCommentInput && (
             <div className="mt-3">
               <form onSubmit={handleCommentSubmit}>
@@ -354,7 +281,6 @@ const Blog7 = () => {
               </form>
             </div>
           )}
-
           {/* Display existing comments */}
           {comments.length > 0 && (
             <div className="mt-5">

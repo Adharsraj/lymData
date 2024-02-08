@@ -659,6 +659,14 @@ export const blogCards = [
     desc: "Press Release • 04 Oct, 2023",
     more: Blog6,
   },
+  {
+    id: 7,
+    name: "TheTopSocialMediaMarketingTrendsfor2024",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707385699/LYMDATALABS/Pages/Blog/Image_3_1920_x_1080_bcn6z9.webp",
+    title: "The Top Social Media Marketing Trends for 2024 ",
+    desc: "Press Release • 04 Oct, 2023",
+    more: Blog7,
+  },
 ];
 
 export const ourValues = [
