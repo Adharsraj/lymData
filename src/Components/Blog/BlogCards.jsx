@@ -37,10 +37,10 @@ const BlogCards = () => {
   return (
     <>
       <div className="max-w-[1640px] mx-auto bg-white min-h-screen">
-        <div className="grid  p-5  gap-7 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:px-10">
+        <div className="  p-5  gap-8 blogCards  lg:px-10">
           {blogCards.map((m) => (
             <Link key={m.id} to={`/blog/${m.name}`}>
-              <div className="w-full lg:w-[300px] lg:mt-10 h-[450px] bg-white cursor-pointer rounded-3xl mx-auto shadow-2xl">
+              <div className="w-full lg:w-[300px] lg:mt-10 h-[450px] bg-white  cursor-pointer rounded-3xl mx-auto shadow-2xl">
                 <img
                   src={m.img}
                   className="h-[200px] w-full rounded-t-3xl"

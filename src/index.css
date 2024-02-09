@@ -11545,3 +11545,29 @@ html.has-scroll-dragging {
   background-color: rgba(90, 89, 89, 0.8);
   border-radius: 10px;
 }
+
+/* @media screen and (max-width: 1280px) {
+  .blogCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 900px) {
+  .blogCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 989px) {
+  .blogCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .blogCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
+
+.blogCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
