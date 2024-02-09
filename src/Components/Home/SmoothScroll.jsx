@@ -1,23 +1,26 @@
-import React, { useEffect, useState } from 'react'
-import {motion} from "framer-motion"
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 const SmoothScroll = () => {
-    const [isHovered, setIsHovered] = useState(false);
-    const size = isHovered ? 280 : 30;
-    const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-    const updateMousePosition = (e) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
+  const [isHovered, setIsHovered] = useState(false);
+  const size = isHovered ? 280 : 30;
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const updateMousePosition = (e) => {
+    setMousePosition({ x: e.clientX, y: e.clientY });
+  };
+
+  useEffect(() => {
+    window.addEventListener("mousemove", updateMousePosition);
+    return () => {
+      window.removeEventListener("mousemove", updateMousePosition);
     };
-    
-    useEffect(() => {
-      window.addEventListener("mousemove", updateMousePosition);
-      return () => {
-        window.removeEventListener("mousemove", updateMousePosition);
-      };
-    }, []);
-    
+  }, []);
+
   return (
     <>
-      <div className=" bg-black overflow-hidden " data-scroll-section>
+      <div
+        className=" bg-black overflow-hidden cursor-default "
+        data-scroll-section
+      >
         <section className="h-screen relative w-screen ">
           <motion.div
             animate={{
@@ -37,7 +40,8 @@ const SmoothScroll = () => {
             >
               <span className="text-[#000000]">DATA-DRIVEN </span>
               <br />
-              SOLUTIONS <br /> SHAPING YOUR <br /> DIGITAL <span className='text-black'>SUCCESS.</span>
+              SOLUTIONS <br /> SHAPING YOUR <br /> DIGITAL{" "}
+              <span className="text-black">SUCCESS.</span>
             </p>
           </motion.div>
           <div id="stars"></div>
@@ -62,6 +66,6 @@ const SmoothScroll = () => {
       </div>
     </>
   );
-}
+};
 
-export default SmoothScroll
+export default SmoothScroll;

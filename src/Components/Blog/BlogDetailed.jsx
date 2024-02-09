@@ -85,12 +85,6 @@
 
 // export default BlogDetailed;
 
-
-
-
-
-
-
 // import React, { useEffect, useState } from "react";
 // import { Link, useParams } from "react-router-dom";
 // import { blogCards } from '../../assets/Data/data';
@@ -104,7 +98,7 @@
 
 //   useEffect(() => {
 //     const m = blogCards.find((o) => o.name === name);
-    
+
 //     setBlogCards(m);
 //     console.log(combinedData);
 //   }, [name]);
@@ -168,12 +162,6 @@
 
 // export default BlogDetailed;
 
-
-
-
-
-
-
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { blogCards } from "../../assets/Data/data";
@@ -186,15 +174,15 @@ const BlogDetailed = () => {
   const [combinedData, setCombinedData] = useState([]);
 
   useEffect(() => {
-    const m = blogCards.find((o) => o.name === name);
-    if (parseInt(m.id) < 4) {
-      const n = blogCards.find((o) => o.id === parseInt(m.id) + 1);
-      const o = blogCards.find((o) => o.id === parseInt(m.id) + 2);
+    const m = blogCards.find((o) => o?.name === name);
+    if (parseInt(m?.id) < 6) {
+      const n = blogCards.find((o) => o?.id === parseInt(m?.id) + 1);
+      const o = blogCards.find((o) => o?.id === parseInt(m?.id) + 2);
       const newData = [...(n ? [n] : []), ...(o ? [o] : [])];
       setCombinedData(newData);
     } else {
-      const n = blogCards.find((o) => o.id === parseInt(m.id) - 1);
-      const o = blogCards.find((o) => o.id === parseInt(m.id) - 2);
+      const n = blogCards.find((o) => o?.id === parseInt(m?.id) - 1);
+      const o = blogCards.find((o) => o?.id === parseInt(m?.id) - 2);
       const newData = [...(n ? [n] : []), ...(o ? [o] : [])];
       setCombinedData(newData);
     }
@@ -238,10 +226,7 @@ const BlogDetailed = () => {
             <div className="flex justify-center">
               <div className="grid md:grid-cols-2 gap-5">
                 {combinedData.map((m) => (
-                  <Link key={m.id} to={`/blog/${m.name}`}
-                 
-                
-                  >
+                  <Link key={m.id} to={`/blog/${m.name}`}>
                     <div className="w-full lg:w-[300px] lg:mt-10 h-[450px] bg-white cursor-pointer rounded-3xl mx-auto shadow-2xl">
                       <img
                         src={m.img}
