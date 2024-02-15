@@ -88,7 +88,7 @@ const Insights = () => {
     
       
         //3rd card
-        <Link to={"/blog/DataPrivacyintheDigitalAge"}>
+        <Link to={"/blog/DataAnalyticsforE-commerce"}>
           <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
             <div className="relative  xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
               <img
