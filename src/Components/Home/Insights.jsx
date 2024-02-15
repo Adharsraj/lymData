@@ -72,6 +72,7 @@ const Insights = () => {
                 </h5>
               </div>
             </div>
+            
 
             <div className="text-left md:pt-2 pt-3 some-ele pl-2">
               <h4 className="lg:hidden font-bold lg:text-[16px] text-[12px] text-white">
@@ -84,14 +85,16 @@ const Insights = () => {
             </div>
           </div>
         </Link>
+    
+      
         //3rd card
-        <Link to={"/blog/DataAnalyticsforE-commerce"}>
-          <div className="flex lg:flex-col   gap-1 shadow-2xl cursor-pointer">
+        <Link to={"/blog/DataPrivacyintheDigitalAge"}>
+          <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
             <div className="relative  xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
               <img
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp"
                 alt="img"
-                className="md:h-[200px] md:w-[348px] w-full h-full rounded-t-[6px] transition-opacity duration-300 group-hover:opacity-80"
+                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-[6px]"
               />
               <div className="hidden lg:flex flex-col justify-center items-center absolute inset-0 text-white text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black z-[10] bg-opacity-70">
                 <p className="lg:text-[14px]">Read More</p>
@@ -111,7 +114,7 @@ const Insights = () => {
                 Blog . 11 min read
               </h4>
               <h4 className="font-bold lg:text-[16px] text-[10px] text-white">
-                Data Analytics for E-commerce: Boosting Sales and Customer
+              Data Analytics for E-commerce: Boosting Sales and Customer
                 Engagement
               </h4>
             </div>
