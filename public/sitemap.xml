@@ -77,7 +77,6 @@
 <changefreq>always</changefreq>
 <priority>0.6</priority>
 </url>
-</urlset>
 <url>
 <loc>https://www.lymdata.com/blog/WhatIsBrandingAndWhyIsItImportant</loc>
 <lastmod>2024-02-12</lastmod>
@@ -96,3 +95,4 @@
 <changefreq>always</changefreq>
 <priority>0.3</priority>
 </url>
+</urlset>
