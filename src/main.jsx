@@ -45,6 +45,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import Popup from "./Components/Home/Popup";
 import ContextPopup from "./Components/Services/ContextPopup.jsx";
 import useLocoScroll from "./Hooks/useLocoScroll.jsx";
+import { hydrate, render } from "react-dom";
 
 function InitLocomotiveScroll({ children }) {
   // useEffect(() => {
@@ -63,7 +64,7 @@ function InitLocomotiveScroll({ children }) {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const APP = (
   <>
     <Popup />
     <InitLocomotiveScroll>
@@ -73,3 +74,42 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </InitLocomotiveScroll>
   </>
 );
+
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(APP, rootElement);
+} else {
+  render(APP, rootElement);
+}
+
+
+// without pre render
+
+// import React, { useEffect, useRef } from "react";
+// import ReactDOM from "react-dom/client";
+// import { RouterProvider } from "react-router-dom";
+// import "./index.css";
+// import Router from "./Routers/Routes.jsx";
+// import App from "./App";
+// import LocomotiveScroll from "locomotive-scroll";
+// import Popup from "./Components/Home/Popup";
+// import ContextPopup from "./Components/Services/ContextPopup.jsx";
+// import useLocoScroll from "./Hooks/useLocoScroll.jsx";
+
+// function InitLocomotiveScroll({ children }) {
+//   useLocoScroll();
+//   return (
+//     <div>{children}</div>
+//   );
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <>
+//     <Popup />
+//     <InitLocomotiveScroll>
+//       <ContextPopup>
+//         <App />
+//       </ContextPopup>
+//     </InitLocomotiveScroll>
+//   </>
+// );
