@@ -5,6 +5,7 @@ import Blog4 from "../../Components/Blog/BlogComponents/Blog4";
 import Blog5 from "../../Components/Blog/BlogComponents/Blog5";
 import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 import Blog7 from "../../Components/Blog/BlogComponents/Blog7";
+import Blog8 from "../../Components/Blog/BlogComponents/Blog8";
 
 export const OurTechStack = [
   {
@@ -666,6 +667,15 @@ export const blogCards = [
     title: "The Top Social Media Marketing Trends for 2024 ",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog7,
+  },
+  {
+    id: 8,
+    name: "ThePowerofARandVRinMarketing",
+    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1709023173/LYMDATALABS/Pages/Blog/6646640_xu6p7g.jpg",
+    title:
+      "The Power of AR and VR in Marketing: The Future of Marketing Trends ",
+    desc: "Press Release • 04 Oct, 2023",
+    more: Blog8,
   },
 ];
 
