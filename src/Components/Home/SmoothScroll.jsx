@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import gsap from "gsap";
 const SmoothScroll = () => {
   const [isHovered, setIsHovered] = useState(false);
   const size = isHovered ? 280 : 30;
@@ -13,6 +14,20 @@ const SmoothScroll = () => {
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
     };
+  }, []);
+
+  //text reveal
+  useEffect(() => {
+    const t1 = gsap.timeline();
+    t1.from(".singleLine div", {
+      y: 200,
+      ease: "power4.out",
+      delay: 0.5,
+      duration: 1.8,
+      stagger: {
+        amount: 0.4,
+      },
+    });
   }, []);
 
   return (
@@ -38,7 +53,7 @@ const SmoothScroll = () => {
               onMouseLeave={() => setIsHovered(false)}
               className="w-[400px] lg:text-[104px] lg:leading-[96px]  pl-5 md:text-[70px] md:pl-7 md:w-[1000px] text-start text-white font-bold  leading-[50px] md:leading-[76px]  text-[50px] "
             >
-              <span className="text-[#000000]">DATA-DRIVEN </span>
+              <span className="text-[#000000]">DATA-DRIVEN</span>
               <br />
               SOLUTIONS <br /> SHAPING YOUR <br /> DIGITAL{" "}
               <span className="text-black">SUCCESS.</span>
@@ -49,10 +64,23 @@ const SmoothScroll = () => {
 
           <div className="h-full w-full flex items-center justify-center absolute">
             <p className="w-[400px] lg:text-[104px] lg:leading-[96px] pl-5 md:text-[70px] md:pl-7 md:w-[1000px] text-start text-white font-bold  leading-[50px] md:leading-[76px] text-[50px] ">
-              <span className="landing-title">DATA-DRIVEN</span>
-              <br />
-              SOLUTIONS <br /> SHAPING YOUR <br /> DIGITAL
-              <span className="landing-title"> SUCCESS.</span>
+              <div className="singleLine">
+                {" "}
+                <div className="landing-title">DATA-DRIVEN</div>
+              </div>
+              <div className="singleLine">
+                <div> SOLUTIONS</div>
+              </div>{" "}
+              <div className="singleLine">
+                <div>SHAPING YOUR</div>
+              </div>
+              <div className="singleLine">
+                <div>
+                  {" "}
+                  DIGITAL
+                  <span className="landing-title"> SUCCESS.</span>
+                </div>
+              </div>
             </p>
           </div>
 

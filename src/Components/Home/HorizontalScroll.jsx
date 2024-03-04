@@ -61,19 +61,21 @@ const HorizontalScroll = () => {
     };
   }, []);
 
+ 
+
   //get mouse position
-  const[isHovered,setIsHovered]=useState(false)
-  const size=isHovered?280:30
-const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
-const updateMousePosition = (e)=>{
-setMousePosition ({x: e.clientX, y: e.clientY});
-}
-useEffect( () => {
-window.addEventListener("mousemove", updateMousePosition)
-return () => {
-window.removeEventListener("mousemove", updateMousePosition)
-}
-}, [])
+  const [isHovered, setIsHovered] = useState(false);
+  const size = isHovered ? 280 : 30;
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const updateMousePosition = (e) => {
+    setMousePosition({ x: e.clientX, y: e.clientY });
+  };
+  useEffect(() => {
+    window.addEventListener("mousemove", updateMousePosition);
+    return () => {
+      window.removeEventListener("mousemove", updateMousePosition);
+    };
+  }, []);
   return (
     <>
       <section className="scroll-section-outer overflow-hidden">
@@ -100,15 +102,17 @@ window.removeEventListener("mousemove", updateMousePosition)
                     onMouseLeave={() => setIsHovered(false)}
                     className="w-[800px] text-center text-white text-[64px] font-bold leading-[65px]"
                   >
-                    We <span className="text-black">Create</span> extraordinary digital experiences.
+                    We <span className="text-black">Create</span> extraordinary
+                    digital experiences.
                   </p>
                 </motion.div>
-<div id="stars"></div>
-{/* <div id="stars"></div> */}
+                <div id="stars"></div>
+                {/* <div id="stars"></div> */}
 
                 <div className="h-full w-full flex items-center justify-center  text-white absolute  ">
                   <p className="w-[800px] text-center font-bold text-[64px] leading-[66px]">
-                    We <span className="text-[#34a4ff]">Create</span> extraordinary digital experiences.
+                    We <span className="text-[#34a4ff]">Create</span>{" "}
+                    extraordinary digital experiences.
                   </p>
                 </div>
               </section>

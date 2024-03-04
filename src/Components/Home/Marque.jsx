@@ -161,14 +161,14 @@ const Marque = () => {
 
        */}
 
-      <div className="flex overflow-hidden mt-14 mb-14" data-scroll-section>
-        <div className="animate-loop-scroll flex gap-32 z-0 ">
+      <div className="flex overflow-hidden  mt-14 mb-14" data-scroll-section>
+        <div className="animate-loop-scroll pr-9 flex gap-32 z-0 ">
           {OurTopClients?.map((i) => (
             <img className="w-[100px] grayscale" src={i.img} alt="" />
           ))}
         </div>
         <div
-          className="animate-loop-scroll flex  gap-32 z-10 bg-white"
+          className="animate-loop-scroll flex pl-9 gap-32 z-10 bg-white"
           aria-hidden="true"
         >
           {OurTopClients?.map((i) => (
