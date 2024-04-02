@@ -73,8 +73,8 @@ const ServicesNew = (title) => {
             {fullstackcard.map((m) => (
               <div className="mt-10 px-2 lg:w-[450px] lg:mt-32">
                 {/* <h1>{m.id}</h1> */}
-
-                <img className="w-20 h-20 " src={m.img} alt="imges" />
+                {/* s3 bucket pending*/}
+                {/* <img className="w-20 h-20 " src={m.img} alt="imges" /> */}
                 <p className="text-3xl font-bold mt-4 md:mt-8  md:mb-8">
                   {m.title}
                 </p>
