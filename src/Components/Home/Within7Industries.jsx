@@ -91,12 +91,13 @@ const Within7Industriesdhn = () => {
     };
 
     fetchVideos();
-  }, []); 
+  }, []);
 
-    const handleVideoError = (id) => {
-      console.error(`Error loading video ${id}`);
-      setVideoLoading((prevLoading) => ({ ...prevLoading, [id]: false }));
-    };
+  const handleVideoError = (id) => {
+    console.error(`Error loading video ${id}`);
+    setVideoLoading((prevLoading) => ({ ...prevLoading, [id]: false }));
+  };
+  console.log(videoUrls);
   return (
     <div
       id="withinseven"
@@ -120,8 +121,8 @@ const Within7Industriesdhn = () => {
                 loop
                 muted
                 preload="auto"
-                className={`w-full h-full object-cover duration-100 opacity-60 ${
-                  index === 0 && "object-bottom"
+                className={`w-full h-full object-cover duration-100 opacity-50 ${
+                  index === 0 && "object-center"
                 }`}
                 onError={() => handleVideoError(m.id)}
                 onLoadedData={() =>
@@ -131,7 +132,7 @@ const Within7Industriesdhn = () => {
                   }))
                 }
               >
-                <source src={videoUrls[m.id]} type="video/mp4" />
+                <source src={m.img} type="video/mp4" />
               </video>
             ) : null}
             <div>
@@ -149,10 +150,10 @@ const Within7Industriesdhn = () => {
                     <h1 className="p-4 xl:w-[160px] text-base  rounded-full w-[120px] flex items-center h-10 bg-[#282728] transition-all duration-300 text-white transform group-hover/item:-translate-x-[-56px]">
                       What we do
                     </h1>
-                    <h1 className="p-4 rounded-full textSliderContainerd  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
+                    <h1 className="p-3 rounded-full textSliderContainerd  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
                       <img
-                        className="lg:w-56"
-                        src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                        className="lg:w-56 "
+                        src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
                         alt="Arrow Right"
                       />
                     </h1>
@@ -189,7 +190,7 @@ const Within7Industriesdhn = () => {
                         <h1 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
                           <img
                             className="lg:w-56"
-                            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                            src="https://res..com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
                           />
                         </h1>
                       </div>

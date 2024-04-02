@@ -12,25 +12,25 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 // import img5 from "../../assets/Images/career5.jpeg";
 
 const Carousel = () => {
-    const swiperRef = useRef(null);
+  const swiperRef = useRef(null);
 
-    const goPrev = () => {
-      if (swiperRef.current && swiperRef.current.swiper) {
-        swiperRef.current.swiper.slidePrev();
-      }
-    };
-  
-    const goNext = () => {
-      if (swiperRef.current && swiperRef.current.swiper) {
-        swiperRef.current.swiper.slideNext();
-      }
-    };
-  
-    useEffect(() => {
-      if (swiperRef.current && swiperRef.current.swiper) {
-        swiperRef.current.swiper.update();
-      }
-    }, []);
+  const goPrev = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
+  const goNext = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
+  useEffect(() => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.update();
+    }
+  }, []);
 
   return (
     <>
@@ -154,7 +154,7 @@ const Carousel = () => {
             <div className=" md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className=" flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/career2_ezqmqx.webp"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187575/assets/assets%20%283%29/asset_34_xw8ije.svg"
                   alt="img2"
                 />
               </div>
@@ -179,7 +179,7 @@ const Carousel = () => {
             <div className=" md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className=" flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172896/LYMDATALABS/Pages/webp/career1_qhcvin.webp"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/assets%20%283%29/asset_40_bin1o9.svg"
                   alt="img1"
                 />
               </div>
@@ -204,7 +204,7 @@ const Carousel = () => {
             <div className=" md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className="flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/career5_lk48rl.webp"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187558/assets/assets%20%283%29/asset_13_kvk415.png"
                   alt="img5"
                 />
               </div>
@@ -228,7 +228,7 @@ const Carousel = () => {
             <div className="md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className="flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172893/LYMDATALABS/Pages/webp/career4_q4bx1w.webp"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
                   alt="img4"
                 />
               </div>
@@ -250,7 +250,7 @@ const Carousel = () => {
             <div className="md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className="flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172895/LYMDATALABS/Pages/webp/career3_s0rp2u.webp"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_38_yz6gqj.svg"
                   alt="img3"
                 />
               </div>

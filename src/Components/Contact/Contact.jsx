@@ -5,11 +5,11 @@ import axios from "axios";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ReCAPTCHA from 'react-google-recaptcha';
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
-  const scale = 0.9; 
-  
+  const scale = 0.9;
+
   const [showform, setshowform] = useState(true);
   const [loading, setLoading] = useState(false);
   const [sucess, setsucess] = useState(false);
@@ -187,27 +187,23 @@ const Contact = () => {
     });
   };
 
- 
+  const [captchaValue, setCaptchaValue] = useState(null);
+  const [errorMessage, setErrorMessage] = useState("");
 
-    const [captchaValue, setCaptchaValue] = useState(null);
-    const [errorMessage, setErrorMessage] = useState('');
-
-    const handleCaptchaChange = (value) => {
-      setCaptchaValue(value);
-      setErrorMessage('');
-    };
-
+  const handleCaptchaChange = (value) => {
+    setCaptchaValue(value);
+    setErrorMessage("");
+  };
 
   // emailjs credentials
-    const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.name || !formData.email) {
-      setErrorMessage('Please fill out all required fields.');
+      setErrorMessage("Please fill out all required fields.");
       return;
     }
     if (!captchaValue) {
-       
-      setErrorMessage('Please complete the CAPTCHA.');
+      setErrorMessage("Please complete the CAPTCHA.");
       return;
     }
     setLoading(true);
@@ -247,8 +243,6 @@ const Contact = () => {
       [name]: value,
     });
   };
-
-  
 
   return (
     <div className="bg-[#F4F4F4]">
@@ -598,7 +592,7 @@ const Contact = () => {
       <div className=" hidden md:flex  h-screen relative overflow-hidden some-element">
         <img
           className="hidden xl:flex absolute  top-[150px] left-0 transform  scale-150 overflow-hidden   "
-          src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
+          src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187552/assets/assets%20%283%29/asset_36_mfzyyl.svg"
           alt="img"
         />
         <div className="flex flex-col justify-around ">

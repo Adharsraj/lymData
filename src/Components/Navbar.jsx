@@ -164,7 +164,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
                 <img
                   id="logo"
                   className="lg:w-[106px] lg:h-[80px] md:w-16 w-24 logo"
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691419210/LYMDATALABS/Pages/Companylogo_lok0s3_fgcea5.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/Companylogo_lok0s3_fgcea5.svg"
                   alt="companylogo"
                 />{" "}
               </Link>

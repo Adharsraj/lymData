@@ -12,8 +12,8 @@ const BuildingTogether = () => {
             <h1 className="lg:ml-20">—together</h1>
           </h2>
           <img
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417363/LYMDATALABS/Pages/Culture/asset_3_gtyaon_aqutmr.png"
-            className=" w-full top-0 h-[300px] lg:h-[600px] scale-x-150"
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187632/assets/assets/contactusimg_xyclvw.png"
+            className=" w-full top-0 h-[300px] lg:h-[600px] opacity-10 scale-x-150"
             alt="imgrotate"
           />
         </div>

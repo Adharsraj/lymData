@@ -23,9 +23,9 @@ const Insights = () => {
           <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
             <div className="relative xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
               <img
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/representation-user-experience-interface-design-computer-min.jpg"
                 alt="img"
-                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-[6px]"
+                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-[6px] object-cover"
               />
               <div className="hidden lg:flex flex-col justify-center items-center absolute inset-0 text-white text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black z-[10] bg-opacity-70">
                 <p className="lg:text-[14px]">Read More</p>
@@ -56,9 +56,9 @@ const Insights = () => {
           <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
             <div className="relative  xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
               <img
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/business-corporate-protection-safety-security-concept_53876-64964.avif"
                 alt="img"
-                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-[6px]"
+                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-[6px] object-cover"
               />
               <div className="hidden lg:flex flex-col justify-center items-center absolute inset-0 text-white text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black z-[10] bg-opacity-70">
                 <p className="lg:text-[14px]">Read More</p>
@@ -72,7 +72,6 @@ const Insights = () => {
                 </h5>
               </div>
             </div>
-            
 
             <div className="text-left md:pt-2 pt-3 some-ele pl-2">
               <h4 className="lg:hidden font-bold lg:text-[16px] text-[12px] text-white">
@@ -85,16 +84,14 @@ const Insights = () => {
             </div>
           </div>
         </Link>
-    
-      
         //3rd card
         <Link to={"/blog/DataAnalyticsforE-commerce"}>
           <div className="flex lg:flex-col   gap-2 shadow-2xl cursor-pointer">
             <div className="relative  xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] h-20 rounded-[6px] overflow-hidden group">
               <img
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/online-shopping-landing-page_33099-1725.jpg"
                 alt="img"
-                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-[6px]"
+                className="md:h-[200px] md:w-[348px] w-[140px] h-[75px] rounded-t-[6px] object-cover"
               />
               <div className="hidden lg:flex flex-col justify-center items-center absolute inset-0 text-white text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black z-[10] bg-opacity-70">
                 <p className="lg:text-[14px]">Read More</p>
@@ -114,7 +111,7 @@ const Insights = () => {
                 Blog . 11 min read
               </h4>
               <h4 className="font-bold lg:text-[16px] text-[10px] text-white">
-              Data Analytics for E-commerce: Boosting Sales and Customer
+                Data Analytics for E-commerce: Boosting Sales and Customer
                 Engagement
               </h4>
             </div>
@@ -141,7 +138,7 @@ const Insights = () => {
             </h4>
             <h4 className="p-3 mt-10 flex items-center rounded-full w-[70px] bg-white text-black">
               <img
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_49_lb3zxr.svg"
                 alt="arrow"
               />
             </h4>

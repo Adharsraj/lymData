@@ -42,14 +42,6 @@
 
 // export default CareerIntro;
 
-
-
-
-
-
-
-
-
 import React from "react";
 // import img from "../../assets/Career.jpeg";
 const CareerIntro = () => {
@@ -63,8 +55,8 @@ const CareerIntro = () => {
           </h2>
         </div>
         <img
-          className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[600px] lg:w-[520px] mx-auto"
-          src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Career_j1ebig.webp"
+          className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[600px] lg:w-[520px] mx-auto object-cover"
+          src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187574/assets/assets%20%283%29/hero-lines2_o2pswp.png"
           alt="career_image"
           srcset=""
         />
@@ -94,4 +86,4 @@ const CareerIntro = () => {
   );
 };
 
-export default CareerIntro; 
+export default CareerIntro;

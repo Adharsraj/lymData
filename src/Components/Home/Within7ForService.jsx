@@ -107,7 +107,7 @@ const Within7ForService = () => {
                   <h5 className="p-4 rounded-full  text-white flex text-center items-center w-[40px] xl:h-10 xl:w-[50px] bg-[#282728]">
                     <img
                       className="lg:w-56"
-                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
                       alt="Arrow Right"
                     />
                   </h5>
@@ -140,7 +140,7 @@ const Within7ForService = () => {
                   <h5 className="p-4 rounded-full text-white flex text-center items-center w-[40px]  xl:h-10   xl:w-[50px] bg-[#282728]">
                     <img
                       className="lg:w-56"
-                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
                       alt="arrow"
                     />
                   </h5>
@@ -162,7 +162,7 @@ const Within7ForService = () => {
               className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={nextSlide}
             >
-              <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+              <img src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg" alt="arrow"/>
             </button>
           </div>
         </div>

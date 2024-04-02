@@ -59,7 +59,7 @@ const Approach = () => {
             </div>
             <div className="flex group hover:cursor-pointer gap-4 w-[600px] xl:w-[560px] mx-auto">
               <h4 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-                Lets build together
+                Lets build togethers
               </h4>
               <h4 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#282728]">
                 <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>

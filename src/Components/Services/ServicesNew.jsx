@@ -1,5 +1,9 @@
 import React, { useContext, useState } from "react";
-import { OurTechStack, fullstackcard, insideServiceContent } from "../../assets/Data/data";
+import {
+  OurTechStack,
+  fullstackcard,
+  insideServiceContent,
+} from "../../assets/Data/data";
 import Scene from "./ServicesGsap";
 import ServiceCarousel from "./ServiceCarousel";
 import TopClients from "./TopClients";
@@ -9,10 +13,11 @@ import GetInTouch from "./GetInTouch";
 import { Link } from "react-router-dom";
 import InfiniteScrollClients from "./InfiniteScrollClients";
 
-
 const ServicesNew = (title) => {
-  const  {showPopup, setShowPoup} = useContext(showPopupContext);
-  const description=insideServiceContent.filter(details=>details.title==title?.title)
+  const { showPopup, setShowPoup } = useContext(showPopupContext);
+  const description = insideServiceContent.filter(
+    (details) => details.title == title?.title
+  );
   const [showh3, setshowh3] = useState("");
   const setshow = (e) => {
     if (showh3 === e) {
@@ -56,7 +61,7 @@ const ServicesNew = (title) => {
         <div className="md:grid-cols-2 md:grid">
           <img
             className="md:sticky md:top-0 md:pb-20 md:pr-20 pb-10 pt-1"
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704697425/LYMDATALABS/Pages/webp/asset-12_ndmztw.webp"
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_4_udsfcg.jpg"
             alt="typing img"
           />
 
@@ -104,7 +109,7 @@ const ServicesNew = (title) => {
                 </h4>
                 <h4 className="p-3 mt-10 flex items-center rounded-full w-[70px] bg-white text-black">
                   <img
-                    src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg"
+                    src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_49_lb3zxr.svg"
                     alt="arrow"
                   />
                 </h4>

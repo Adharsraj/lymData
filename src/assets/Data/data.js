@@ -567,42 +567,42 @@ export const servv = [
   {
     id: 1,
     title: "Web Development",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705471052/LYMDATALABS/Pages/Services/1209646_Computer_Code_Coder_1280x720_1_1_fxheaw.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/5f7858f8-95a3-4a9c-b8bb-141f85a8f66a.mp4",
     desc: "Boost your online visibility with the assistance of our specialized web development services. Our team excels in crafting user-centric web experiences that prioritize the needs of your audience. From seamless navigation to visually stunning designs, we ensure every detail contributes to business success, creating a powerful online presence that leaves a lasting impression.    ",
   },
 
   {
     id: 2,
     title: "App Development",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380085/LYMDATALABS/Pages/Services/1988444561_wfemw1.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/1988444561.mp4",
     desc: "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.",
   },
 
   {
     id: 3,
     title: "Performance Marketing",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705477886/LYMDATALABS/Pages/Services/4754575_Businessman_Man_Business_1280x720_cut_1_kc1q6r.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/2487945767+(1).mp4",
     desc: "Enhance your digital presence with reliability by utilizing our performance marketing services. Specializing in data-driven strategies, we offer a comprehensive range of solutions including SEO, PPC, social media, and email marketing. By aligning our efforts with your business objectives, we ensure every marketing initiative contributes to measurable success, driving growth and visibility.",
   },
 
   {
     id: 4,
     title: "Software Development",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380231/LYMDATALABS/Pages/Services/1526736679_ylfr0w.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/2518095927.mp4",
     desc: "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.",
   },
 
   {
     id: 5,
     title: "Data Engineering",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705474677/LYMDATALABS/Pages/Services/1389251_Business_Infographics_Stock20Market_1280x720_qa9cnw.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/1526736679.mp4",
     desc: "Recognizing the transformative power of data-driven insights, our Data Engineering services employ advanced analytics methodologies to achieve significant outcomes.Whether it's uncovering hidden trends, optimizing processes, or making informed decisions, our team harnesses the potential of data to propel your business forward. Experience the difference that data-driven intelligence can make for your organization.",
   },
 
   {
     id: 6,
     title: "Metaverse",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705900230/LYMDATALABS/Pages/Services/5730191_Coll_wavebreak_People_Animation_1280x720_1_xdss05.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/3254767007.mp4",
     desc: "With the aid of our all-encompassing services, you can immerse yourself in the world of the Metaverse. Explore abundant possibilities and redefine the way you engage with your audience. From virtual experiences to innovative interactions, our Metaverse solutions open new avenues for creativity, collaboration, and connection. Don't just witness the future – be a part of it in this captivating digital realm you must experience.",
   },
 ];
@@ -611,7 +611,7 @@ export const blogCards = [
   {
     id: 1,
     name: "The Power of PredictiveAnalytics",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/representation-user-experience-interface-design-computer-min.jpg",
     title:
       "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
     desc: "Press Release • 04 Oct, 2023",
@@ -620,7 +620,7 @@ export const blogCards = [
   {
     id: 2,
     name: "DataPrivacyintheDigitalAge",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/business-corporate-protection-safety-security-concept_53876-64964.avif",
     title:
       "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
     desc: "Press Release • 04 Oct, 2023",
@@ -629,7 +629,7 @@ export const blogCards = [
   {
     id: 3,
     name: "DataAnalyticsforE-commerce",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/online-shopping-landing-page_33099-1725.jpg",
     title: "E-commerce: Boosting Sales and Customer Engagement",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog3,
@@ -637,7 +637,7 @@ export const blogCards = [
   {
     id: 4,
     name: "Reimaginingrealityasweknowit",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Vr_1_dybul9_1_eqgiq2.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/teenager-dressed-white-t-shirt-using-virtual-reality-glasses-with-graph-charts-numbers-lines-technology-concept_613910-5097.jpg",
     title:
       "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
@@ -646,7 +646,7 @@ export const blogCards = [
   {
     id: 5,
     name: "WhatIsBrandingAndWhyIsItImportant",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707297074/LYMDATALABS/Pages/Blog/Image_1_1920_x_1080_iv87zm.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/branding-strategy-marketing-business-graphic-design-min.jpg",
     title: "What Is Branding and Why Is It Important? ",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog5,
@@ -654,7 +654,7 @@ export const blogCards = [
   {
     id: 6,
     name: "WhatIsInfluencerMarketing",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707297085/LYMDATALABS/Pages/Blog/Image_2_1920_x_1080_vqga6w.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/influencer-marketing-job-concept.jpg",
     title:
       "What is influencer marketing? The Role of Data in Influencer Marketing? ",
     desc: "Press Release • 04 Oct, 2023",
@@ -663,7 +663,7 @@ export const blogCards = [
   {
     id: 7,
     name: "TheTopSocialMediaMarketingTrendsfor2024",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707385699/LYMDATALABS/Pages/Blog/Image_3_1920_x_1080_bcn6z9.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/full-shot-woman-reading-with-smartphone_23-2149629602.avif",
     title: "The Top Social Media Marketing Trends for 2024 ",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog7,
@@ -671,7 +671,7 @@ export const blogCards = [
   {
     id: 8,
     name: "ThePowerofARandVRinMarketing",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1709023173/LYMDATALABS/Pages/Blog/6646640_xu6p7g.jpg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/6646640.jpg",
     title:
       "The Power of AR and VR in Marketing: The Future of Marketing Trends ",
     desc: "Press Release • 04 Oct, 2023",
@@ -1004,7 +1004,7 @@ export const fourCultures = [
   {
     id: 1,
     head1: "Curiosity    ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_38_yz6gqj_kapx57.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_38_yz6gqj.svg",
     head2:
       "Curiosity fuels our relentless pursuit of the unknown, enriching our understanding of the world's intricacies. This daily commitment to curiosity is the catalyst for innovation, guiding us through uncertainty and elevating our creativity.      ",
   },
@@ -1012,7 +1012,7 @@ export const fourCultures = [
   {
     id: 2,
     head1: "Adaptability   ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_39_azl9yl_ip1mhx.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187552/assets/assets%20%283%29/asset_36_mfzyyl.svg",
     head2:
       "Agility defines our approach,we are always prepared to adapt strategies based on fresh insights. This mindset echoes in our output quality, team dynamics, and innovative recruitment strategies.      ",
   },
@@ -1020,14 +1020,14 @@ export const fourCultures = [
   {
     id: 3,
     head1: "  Collaboration ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_40_bin1o9_udedo7.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_39_azl9yl.svg",
     head2:
       "Our methodology centers around cultivating exceptional teams with a storied history of collaborative excellence, alliances, and cross-disciplinary interactions. Over years of venturing into diverse sectors, we've embraced a wealth of perspectives from the outset, enhancing our problem-solving prowess.      ",
   },
   {
     id: 4,
     head1: " Sustainability  ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_41_hferql_lqmruu.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187556/assets/assets%20%283%29/asset_50_qkwtjs.svg",
     head2:
       "It's inherent that we are part of a larger entity, drawing sustenance and recognizing our obligation to preserve the environment. Our commitment to shaping the future lies in fostering an environment that propels an enhanced rendition of the present.      ",
   },
