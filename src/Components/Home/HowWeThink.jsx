@@ -1,9 +1,10 @@
-import { useScroll,motion, useTransform } from "framer-motion";
+import { useScroll, motion, useTransform } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 const HowweThinkdhn = () => {
-  const content=" At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies,empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps."
-  const words=content.split(" ")
+  const content =
+    " At LYM Data Labs, constant learning is our driving force. We actively invest in cutting-edge tools and technologies,empowering our team to stay ahead in the dynamic landscape of digital solutions. At the core of our approach is a deep understanding of our Client’s needs and goals. We specialize in crafting tailored solutions across the realms of digital marketing, branding, web design, web development, and mobile apps.";
+  const words = content.split(" ");
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,
@@ -11,8 +12,8 @@ const HowweThinkdhn = () => {
   });
   const linesHorizontalMovement = useTransform(
     scrollYProgress,
-    [0, 10.1], 
-    ["0%", "-70%"] 
+    [0, 10.1],
+    ["0%", "-70%"]
   );
 
   return (
@@ -51,7 +52,7 @@ const HowweThinkdhn = () => {
               </h1>
             </div>
             <Link to="/about">
-              <div className="flex   group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[560px]  lg:mb-7">
+              <div className="flex z-30  group hover:cursor-pointer gap-2 w-[300px] lg:ml-56 xl:mx-auto  xl:w-[560px]  lg:mb-7">
                 <h1 className="p-2 text-sm flex items-center justify-center mt-10 rounded-full w-[150px] bg-black text-white transition-all ">
                   Dive into our culture
                 </h1>
@@ -70,7 +71,7 @@ const HowweThinkdhn = () => {
               </h1>
               <img
                 className="hover:animate-spin"
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_48_v3glxe.svg"
                 alt=""
                 style={{ animationDuration: "3s" }}
               />
@@ -100,25 +101,10 @@ const HowweThinkdhn = () => {
                 })}
               </h1>
             </div>
-            <div className="flex  gap-4 w-[600px] lg:ml-10 xl:mx-auto  xl:w-[700px] mx-auto lg:mb-7">
-              <Link to="/about">
-                <div className="flex  group  gap-2 ">
-                  <h1 className="p-2 flex border  items-center justify-center mt-7 rounded-full w-[220px] bg-black text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
-                    Dive into our culture
-                  </h1>
-                  <h1 className="p-2 mt-7 flex items-center rounded-full w-[45px] bg-black text-white">
-                    <img
-                      src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
-                      alt="Arrow Right"
-                    />
-                  </h1>
-                </div>
-              </Link>
-            </div>
 
             <div className="hidden xl:flex absolute lines z-0 top-[140px] opacity-[50%] pt-3 left-0">
               <motion.img
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705569668/LYMDATALABS/Pages/Home/2a32bc_ypvd7n.webp"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/lines_rnz7i6.png"
                 alt="img"
                 style={{
                   x: linesHorizontalMovement,
@@ -127,8 +113,24 @@ const HowweThinkdhn = () => {
                   scale: 1.6,
                   width: "100%",
                   height: "auto",
+                  zIndex: "-1000",
                 }}
               />
+            </div>
+            <div className="flex  gap-4 w-[600px] lg:ml-10 xl:mx-auto  xl:w-[700px] mx-auto lg:mb-7">
+              <Link to="/about">
+                <div className="flex  group  gap-2  z-[100]">
+                  <h1 className="p-2 flex border  items-center justify-center mt-7 z-100 rounded-full w-[220px] bg-black text-white transition-all duration-300 transform group-hover:-translate-x-[-56px]">
+                    Dive into our culture
+                  </h1>
+                  <h1 className="p-2 mt-7  flex items-center rounded-full w-[45px] bg-black text-white">
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="Arrow Right"
+                    />
+                  </h1>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

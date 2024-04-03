@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from "../Home/Within7ForService";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 
 const ServicesLanding = () => {
   const navigate = useNavigate();
@@ -80,7 +80,6 @@ const ServicesLanding = () => {
     maxWidth: "100%",
     marginLeft: "10px",
     transform: "scale(1.8)",
-
   };
   return (
     <>
@@ -109,16 +108,13 @@ const ServicesLanding = () => {
           </div>
 
           <div className="text-white  md:flex md:gap-10 lg:gap-24 xl:gap-72 xl:mr-36 mt-32 z-10 relative lg:ml-32">
-            <div 
-              className="inline-block hover:cursor-pointer mt-[-20px] mb-20 "
-            >
-            {/* <img
+            <div className="inline-block hover:cursor-pointer mt-[-20px] mb-20 ">
+              {/* <img
             onClick={handleClicktoapproach}
             className="lg:ml-10 w-14 h-14 rounded-full bg-gray-400 cursor-pointer animate-bounce"
             src={img}
             alt=""
           /> */}
-             
             </div>
 
             <div className="md:mt-48 some-element">
@@ -161,7 +157,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
                 <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
@@ -169,7 +168,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
               </div>
@@ -213,7 +215,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
                 <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
@@ -221,7 +226,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
               </div>
@@ -248,7 +256,7 @@ const ServicesLanding = () => {
                   <h5 className="border-b border-b-[#464546] py-4">
                     Mobile App Development
                   </h5>
-                  
+
                   <h5 className="border-b border-b-[#464546] py-4">
                     API & CMS Development
                   </h5>
@@ -274,7 +282,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
                 <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
@@ -282,36 +293,37 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
               </div>
-              
+
               <div>
                 <h3 className="text-3xl font-semibold mt-10 mb-10">
-                Web & Mobile Development
+                  Web & Mobile Development
                 </h3>
                 <div className="text-sm">
                   <h5 className="lg:text-sm border-b border-b-[#464546] py-4">
-                  Web Application Development
+                    Web Application Development
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  E-commerce
+                    E-commerce
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Content Management System
+                    Content Management System
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  B2B Platforms
+                    B2B Platforms
+                  </h5>
+                  <h5 className="border-b border-b-[#464546] py-4">ERP /CRM</h5>
+                  <h5 className="border-b border-b-[#464546] py-4">
+                    Backend Solutions
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  ERP /CRM
-                  </h5>
-                  <h5 className="border-b border-b-[#464546] py-4">
-                  Backend Solutions
-                  </h5>
-                  <h5 className="border-b border-b-[#464546] py-4">
-                  Mobile App Development
+                    Mobile App Development
                   </h5>
                 </div>
               </div>
@@ -321,7 +333,10 @@ const ServicesLanding = () => {
                   see more
                 </h3>
                 <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                  <img
+                    src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                    alt="arrow"
+                  />
                 </h3>
               </div>
               <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
@@ -329,50 +344,51 @@ const ServicesLanding = () => {
                   see more
                 </h3>
                 <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                  <img
+                    src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                    alt="arrow"
+                  />
                 </h3>
               </div>
 
               <div>
                 <h3 className="text-3xl font-semibold mt-10 mb-10">
-                  Growth, Marketing <br /> & Sales 
+                  Growth, Marketing <br /> & Sales
                 </h3>
                 <div className="text-sm">
                   <h5 className="lg:text-sm border-b border-b-[#464546] py-4">
-                  Branding 
+                    Branding
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Consumer & Shopper Insights
+                    Consumer & Shopper Insights
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Customer Experience 
+                    Customer Experience
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Customer Lifecycle Management 
+                    Customer Lifecycle Management
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Digital Marketing 
+                    Digital Marketing
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Green Growth 
+                    Green Growth
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Insights & Analytics 
+                    Insights & Analytics
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Marketing Return on Investment 
+                    Marketing Return on Investment
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  NeXT Commerce 
+                    NeXT Commerce
                   </h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Organization & Capabilities  
+                    Organization & Capabilities
                   </h5>
+                  <h5 className="border-b border-b-[#464546] py-4">Pricing</h5>
                   <h5 className="border-b border-b-[#464546] py-4">
-                  Pricing  
-                  </h5>
-                  <h5 className="border-b border-b-[#464546] py-4">
-                  Sales & Channel Management
+                    Sales & Channel Management
                   </h5>
                 </div>
 
@@ -381,7 +397,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
                 <div className="flex md:hidden  group hover:cursor-pointer gap-4 w-full   mx-auto">
@@ -389,7 +408,10 @@ const ServicesLanding = () => {
                     see more
                   </h3>
                   <h3 className="p-2 mt-10 flex items-center rounded-full w-[40px] bg-[#7B7B7B]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                    <img
+                      src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                      alt="arrow"
+                    />
                   </h3>
                 </div>
               </div>
@@ -405,7 +427,7 @@ const ServicesLanding = () => {
         </div>
         <div className="overflow-hidden">
           <img
-            src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418667/LYMDATALABS/Pages/Services/asset_1_ixuqhj_zx5ems.png"
+            src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_27_zd98am.png"
             className="absolute  opacity-10  top-[1400px]"
             alt="image2"
           />
@@ -431,7 +453,11 @@ const ServicesLanding = () => {
 
               <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left leading-10  text-[#7b7b7b]  mt-10  mb-16 some-element">
                 <h3>
-                Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
+                  Businesses can achieve growth and success in the digital era
+                  by utilizing data and its associated technologies. Our company
+                  specializes in assisting organizations to leverage the
+                  potential of data-driven intelligence, upgrade their core
+                  technology.
                 </h3>
 
                 <Link to="/contact">
@@ -440,7 +466,10 @@ const ServicesLanding = () => {
                       Dive into contact
                     </h3>
                     <h3 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">
-                      <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                      <img
+                        src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                        alt="arrow"
+                      />
                     </h3>
                   </div>
                 </Link>
@@ -456,7 +485,7 @@ const ServicesLanding = () => {
                 </h3>
                 <img
                   className="hover:animate-spin"
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_40_gvfj4b.svg"
                   alt="wheel"
                   style={{ animationDuration: "3s" }}
                 />
@@ -464,24 +493,30 @@ const ServicesLanding = () => {
 
               <div className="text-[42px] lg:mt-[-40px] lg:text-[47px]  w-[600px] xl:text-[42px] xl:w-[560px] mx-auto text-left   leading-10   text-[#7b7b7b]   mb-16">
                 <h3 className="lg:text-4xl  lg:leading-[44px] some-element text-[#7b7b7b]  lg:w-[690px] some-element">
-                Businesses can achieve growth and success in the digital era by utilizing data and its associated technologies. Our company specializes in assisting organizations to leverage the potential of data-driven intelligence, upgrade their core technology.
+                  Businesses can achieve growth and success in the digital era
+                  by utilizing data and its associated technologies. Our company
+                  specializes in assisting organizations to leverage the
+                  potential of data-driven intelligence, upgrade their core
+                  technology.
                 </h3>
               </div>
-              <Link to="/contact">
-                <div className="flex group hover:cursor-pointer gap-4 w-[600px] xl:w-[560px] mx-auto">
-                  <h3 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
-                    Dive into contact
-                  </h3>
-                  <h3 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">
-                    <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
-                  </h3>
-                </div>
-              </Link>
+              <Link to="/contact"></Link>
               <img
-                className="hidden xl:flex absolute z-10 top-[150px] left-0 transform  scale-150 overflow-hidden   "
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691418735/LYMDATALABS/Pages/Services/lines2_tfqf81_au43wv.png"
+                className="hidden xl:flex absolute z-10 top-[150px] left-0 opacity-20 transform  scale-150 overflow-hidden   "
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187584/assets/assets/asset_19_n7xksx.png"
                 alt="img"
               />
+            </div>
+            <div className="flex group hover:cursor-pointer gap-4 w-[600px] xl:w-[560px] mx-auto">
+              <h3 className="p-2 mt-10 flex justify-center rounded-full w-[220px] text-white bg-[#282728] transition-all duration-300 transform group-hover:-translate-x-[-56px] some-element">
+                Dive into contact
+              </h3>
+              <h3 className="p-2 mt-10 flex items-center rounded-full w-[45px] bg-[#282728]">
+                <img
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                  alt="arrow"
+                />
+              </h3>
             </div>
           </div>
         </div>
@@ -576,7 +611,7 @@ const ServicesLanding = () => {
                   </span>{" "}
                   <br />{" "}
                   <span className="text-[#424142] mb-10 ">
-                  Leading the way in digital design & innovation.
+                    Leading the way in digital design & innovation.
                   </span>
                 </h3>
               </div>

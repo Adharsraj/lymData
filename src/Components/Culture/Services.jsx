@@ -30,7 +30,10 @@ const Services = () => {
                 Lets build together
               </h3>
               <h3 className="p-2 md:mt-10 flex items-center rounded-full w-[50px] bg-[#282728]">
-                <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                <img
+                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                  alt="arrow"
+                />
               </h3>
             </div>
           </Link>
@@ -44,7 +47,7 @@ const Services = () => {
               </h3>
               <img
                 className="hover:animate-spin"
-                src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
+                src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187585/assets/assets/asset_40_gvfj4b.svg"
                 alt="image3"
                 style={{ animationDuration: "3s" }}
               />
@@ -63,7 +66,10 @@ const Services = () => {
                   Lets build together
                 </h3>
                 <h3 className="p-2  flex items-center rounded-full w-[40px] bg-[#282728] ">
-                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg" alt="arrow"/>
+                  <img
+                    src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg"
+                    alt="arrow"
+                  />
                 </h3>
               </div>
             </Link>

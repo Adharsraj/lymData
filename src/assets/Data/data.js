@@ -342,105 +342,105 @@ export const OurWorks = [
 export const OurTopClients = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Alhub_Logo_Vector_kxtp71.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/alhub.webp",
     title: "Al-Hub",
     description:
       "Illustration library for world’s biggest data scientist platform kaggle.    ",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368021/LYMDATALABS/Pages/client%20logos%20png/vector/Ayursatva_vector_logo_q89f8o.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/Ayur+Satva+Logo+png.png",
     title: "Ayur Satva",
     description:
       "Created Regional versions of the title posters of most successfull disney movies.    ",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368007/LYMDATALABS/Pages/client%20logos%20png/vector/Miracle_Gold_And_Diamonds_p6amro.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/Miracle+Gold+%26+Diamonds+logo.png",
     title: "Miracle",
     description:
       "Handling entire digital marketing for oppo theme store, app store and browser.    ",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368010/LYMDATALABS/Pages/client%20logos%20png/vector/Quarinto_Logo_w3brqs.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/Quarinto-Horizontal-logo-%402x.png",
     title: "Quarinto",
     description:
       "Animated isometric illustration designs and development for the website.    ",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704369516/LYMDATALABS/Pages/client%20logos%20png/2aUNxSKevS2lfwlLEdAT5x6GuKk_jaudg1.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/unique+-cropped-unique-htl-1.png",
     title: "Unique",
     description:
       "Delivering unique and premium hotel amenities,elevates visitor experiences with a carefully chosen collection of premium hospitality basics.",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368013/LYMDATALABS/Pages/client%20logos%20png/vector/GokulOttupura_Logo_vector_v96gqx.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/cropped-Oottupura-Maroon-Logo-3.webp",
     title: "Gokul Ootupura",
     description:
       "Revamped entire brand along with website design and development    ",
   },
-  {
-    id: 7,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368017/LYMDATALABS/Pages/client%20logos%20png/vector/Hussain_Al_Shemsi_Vector_awu5oy.svg",
-    title: "Hussain-Al-shemsi",
-    description:
-      "Designed illustrations for RazorpayX and developed the FTX'21 website    ",
-  },
+  // {
+  //   id: 7,
+  //   img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368017/LYMDATALABS/Pages/client%20logos%20png/vector/Hussain_Al_Shemsi_Vector_awu5oy.svg",
+  //   title: "Hussain-Al-shemsi",
+  //   description:
+  //     "Designed illustrations for RazorpayX and developed the FTX'21 website    ",
+  // },
   {
     id: 8,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704347180/LYMDATALABS/Pages/client%20logos%20png/CaseMax_Vector_fdhj5v.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/Casemax_Logo_368_x_200_300x300.avif",
     title: "Case max",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 9,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368005/LYMDATALABS/Pages/client%20logos%20png/vector/Educus_Global_Vector_vptqbo.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/educus+global.webp",
     title: "Educus Global",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 10,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704367999/LYMDATALABS/Pages/client%20logos%20png/vector/2aTd4AJCyTT9E6oC8TG5Mo3oMoX_tzfdxc.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/acon+printing+press.webp",
     title: "acon",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 11,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368009/LYMDATALABS/Pages/client%20logos%20png/vector/Sidhah_Logo_Vector_oknnlt.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/siddha-logo-3-300x115.png",
     title: "Sidhah",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 12,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368011/LYMDATALABS/Pages/client%20logos%20png/vector/United_ndt_vector_nzfktt.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/Artboard+1.webp",
     title: "United",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 13,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704691830/LYMDATALABS/Pages/client%20logos%20png/vector/Unisex_Saloon_Vector_2_kgs1gy.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/Unisex+L+%26+E+logo+(2)+Black.png",
     title: "LE",
     description:
       "Offering professional hair and beauty services, L&E Unisex Salons in Kochi give customers of all genders an elegant grooming experience.",
   },
   {
     id: 14,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704368001/LYMDATALABS/Pages/client%20logos%20png/vector/Farmfed_Fisheries_Vector_qlpk2b.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/farmfed+fisheries.webp",
     title: "Farmfed Fisheries",
     description:
       "Farmfed Fishers, a prominent brand in Kochi, stands as a distinguished leader in the fisheries industry.",
   },
   {
     id: 15,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047236/LYMDATALABS/Pages/client%20logos%20png/Farmfed_Tourism_llofho.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/farmfed+tourism.webp",
     title: "Farmfed Tourism",
     description:
       "Farmfed Tourism, a premier travel brand based in Kochi, offers curated global journeys,providing a unique and enriching perspective on travel.",
@@ -454,28 +454,28 @@ export const OurTopClients = [
   },
   {
     id: 17,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047184/LYMDATALABS/Pages/client%20logos%20png/PappaBoo_mczc1f.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/pappaboo.webp",
     title: "PappaBoo",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 18,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047176/LYMDATALABS/Pages/client%20logos%20png/Aquaguard_shanty.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/aquaquarduae.webp",
     title: "AquaGuard",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 19,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047170/LYMDATALABS/Pages/client%20logos%20png/Wayanad_Logo_td8tej.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/wayanad.webp",
     title: "Wayanad village inn",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
   },
   {
     id: 20,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705047138/LYMDATALABS/Pages/client%20logos%20png/Southern_green_farming_Logo_ahwvff.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/clients+logo/b%26w+logo/south+green+farming.webp",
     title: "Souther green farming",
     description:
       "Covered UI and designed 3D graphics for the fintech start-up    ",
@@ -484,42 +484,42 @@ export const OurTopClients = [
 export const fullstackcard = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
     title: "Websites",
     description:
       "Dynamic websites are designed with interactive features, real-time updates, and user-generated content. They may include forums, blogs, multimedia content, and e-commerce capabilities.",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052193/LYMDATALABS/Pages/Services/saas_apps_lbavjb.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/saas_apps.svg",
     title: "SaaS applications",
     description:
       "Select our services to develop SaaS products that are ready for the future. We provide end-to-end support for deploying the products.  ",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
     title: "Quality Assurance ",
     description:
       "Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance.",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
     title: "Cloud-based applications",
     description:
       "We develop robust, fast, and scalable cloud-based software for businesses, keeping up with the latest tech trends.",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
     title: "Enterprise applications    ",
     description:
       "Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    ",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052024/LYMDATALABS/Pages/Services/website2_u8o6br.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
     title: "Content Management System    ",
     description:
       "Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    ",
@@ -567,42 +567,42 @@ export const servv = [
   {
     id: 1,
     title: "Web Development",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705471052/LYMDATALABS/Pages/Services/1209646_Computer_Code_Coder_1280x720_1_1_fxheaw.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/5f7858f8-95a3-4a9c-b8bb-141f85a8f66a.mp4",
     desc: "Boost your online visibility with the assistance of our specialized web development services. Our team excels in crafting user-centric web experiences that prioritize the needs of your audience. From seamless navigation to visually stunning designs, we ensure every detail contributes to business success, creating a powerful online presence that leaves a lasting impression.    ",
   },
 
   {
     id: 2,
     title: "App Development",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380085/LYMDATALABS/Pages/Services/1988444561_wfemw1.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/1988444561.mp4",
     desc: "By leveraging our proficiency in Mobile App Development, your organization can maximize its potential.Boasting a proven track record, we excel in creating highly popular and widely used apps. Our approach combines data insights with principles of behavioral science, ensuring your mobile app not only meets but exceeds user expectations, fostering engagement and success.",
   },
 
   {
     id: 3,
     title: "Performance Marketing",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705477886/LYMDATALABS/Pages/Services/4754575_Businessman_Man_Business_1280x720_cut_1_kc1q6r.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/2487945767+(1).mp4",
     desc: "Enhance your digital presence with reliability by utilizing our performance marketing services. Specializing in data-driven strategies, we offer a comprehensive range of solutions including SEO, PPC, social media, and email marketing. By aligning our efforts with your business objectives, we ensure every marketing initiative contributes to measurable success, driving growth and visibility.",
   },
 
   {
     id: 4,
     title: "Software Development",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705380231/LYMDATALABS/Pages/Services/1526736679_ylfr0w.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/2518095927.mp4",
     desc: "Our Custom Software Development team specializes in tailor made solutions for your specific business needs.We understand that every business is distinct, requiring software solutions that align perfectly with specific objectives. Our expertise lies in developing customized software that enhances efficiency, scalability, and overall business performance, ensuring a seamless fit for your operations.",
   },
 
   {
     id: 5,
     title: "Data Engineering",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705474677/LYMDATALABS/Pages/Services/1389251_Business_Infographics_Stock20Market_1280x720_qa9cnw.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/1526736679.mp4",
     desc: "Recognizing the transformative power of data-driven insights, our Data Engineering services employ advanced analytics methodologies to achieve significant outcomes.Whether it's uncovering hidden trends, optimizing processes, or making informed decisions, our team harnesses the potential of data to propel your business forward. Experience the difference that data-driven intelligence can make for your organization.",
   },
 
   {
     id: 6,
     title: "Metaverse",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/video/upload/v1705900230/LYMDATALABS/Pages/Services/5730191_Coll_wavebreak_People_Animation_1280x720_1_xdss05.mp4",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/3254767007.mp4",
     desc: "With the aid of our all-encompassing services, you can immerse yourself in the world of the Metaverse. Explore abundant possibilities and redefine the way you engage with your audience. From virtual experiences to innovative interactions, our Metaverse solutions open new avenues for creativity, collaboration, and connection. Don't just witness the future – be a part of it in this captivating digital realm you must experience.",
   },
 ];
@@ -611,7 +611,7 @@ export const blogCards = [
   {
     id: 1,
     name: "The Power of PredictiveAnalytics",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Insights_2_rpiac9_1_k6miov.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/representation-user-experience-interface-design-computer-min.jpg",
     title:
       "The Power of Predictive Analytics: How Data Is Revolutionizing Decision-Making",
     desc: "Press Release • 04 Oct, 2023",
@@ -620,7 +620,7 @@ export const blogCards = [
   {
     id: 2,
     name: "DataPrivacyintheDigitalAge",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172892/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Privacy_1_1_uqotuc_1_lmikg4.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/business-corporate-protection-safety-security-concept_53876-64964.avif",
     title:
       "Data Privacy in the Digital Age: Navigating Regulations and Best Practices",
     desc: "Press Release • 04 Oct, 2023",
@@ -629,7 +629,7 @@ export const blogCards = [
   {
     id: 3,
     name: "DataAnalyticsforE-commerce",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Data_Analytics_ad94wp_1_fg0ajh.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/online-shopping-landing-page_33099-1725.jpg",
     title: "E-commerce: Boosting Sales and Customer Engagement",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog3,
@@ -637,7 +637,7 @@ export const blogCards = [
   {
     id: 4,
     name: "Reimaginingrealityasweknowit",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172891/LYMDATALABS/Pages/webp/Banner_Image_1920_x_1080_Blog_Vr_1_dybul9_1_eqgiq2.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/teenager-dressed-white-t-shirt-using-virtual-reality-glasses-with-graph-charts-numbers-lines-technology-concept_613910-5097.jpg",
     title:
       "Reimagining reality as we know it: Our extended reality technologies bridge the gap between physical and virtual worlds.",
     desc: "Press Release • 04 Oct, 2023",
@@ -646,7 +646,7 @@ export const blogCards = [
   {
     id: 5,
     name: "WhatIsBrandingAndWhyIsItImportant",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707297074/LYMDATALABS/Pages/Blog/Image_1_1920_x_1080_iv87zm.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/branding-strategy-marketing-business-graphic-design-min.jpg",
     title: "What Is Branding and Why Is It Important? ",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog5,
@@ -654,7 +654,7 @@ export const blogCards = [
   {
     id: 6,
     name: "WhatIsInfluencerMarketing",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707297085/LYMDATALABS/Pages/Blog/Image_2_1920_x_1080_vqga6w.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/influencer-marketing-job-concept.jpg",
     title:
       "What is influencer marketing? The Role of Data in Influencer Marketing? ",
     desc: "Press Release • 04 Oct, 2023",
@@ -663,7 +663,7 @@ export const blogCards = [
   {
     id: 7,
     name: "TheTopSocialMediaMarketingTrendsfor2024",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1707385699/LYMDATALABS/Pages/Blog/Image_3_1920_x_1080_bcn6z9.webp",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/full-shot-woman-reading-with-smartphone_23-2149629602.avif",
     title: "The Top Social Media Marketing Trends for 2024 ",
     desc: "Press Release • 04 Oct, 2023",
     more: Blog7,
@@ -671,7 +671,7 @@ export const blogCards = [
   {
     id: 8,
     name: "ThePowerofARandVRinMarketing",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1709023173/LYMDATALABS/Pages/Blog/6646640_xu6p7g.jpg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/6646640.jpg",
     title:
       "The Power of AR and VR in Marketing: The Future of Marketing Trends ",
     desc: "Press Release • 04 Oct, 2023",
@@ -1004,7 +1004,7 @@ export const fourCultures = [
   {
     id: 1,
     head1: "Curiosity    ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_38_yz6gqj_kapx57.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_38_yz6gqj.svg",
     head2:
       "Curiosity fuels our relentless pursuit of the unknown, enriching our understanding of the world's intricacies. This daily commitment to curiosity is the catalyst for innovation, guiding us through uncertainty and elevating our creativity.      ",
   },
@@ -1012,7 +1012,7 @@ export const fourCultures = [
   {
     id: 2,
     head1: "Adaptability   ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_39_azl9yl_ip1mhx.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187552/assets/assets%20%283%29/asset_36_mfzyyl.svg",
     head2:
       "Agility defines our approach,we are always prepared to adapt strategies based on fresh insights. This mindset echoes in our output quality, team dynamics, and innovative recruitment strategies.      ",
   },
@@ -1020,14 +1020,14 @@ export const fourCultures = [
   {
     id: 3,
     head1: "  Collaboration ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_40_bin1o9_udedo7.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187553/assets/assets%20%283%29/asset_39_azl9yl.svg",
     head2:
       "Our methodology centers around cultivating exceptional teams with a storied history of collaborative excellence, alliances, and cross-disciplinary interactions. Over years of venturing into diverse sectors, we've embraced a wealth of perspectives from the outset, enhancing our problem-solving prowess.      ",
   },
   {
     id: 4,
     head1: " Sustainability  ",
-    img: "https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691417809/LYMDATALABS/Pages/Culture/asset_41_hferql_lqmruu.svg",
+    img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187556/assets/assets%20%283%29/asset_50_qkwtjs.svg",
     head2:
       "It's inherent that we are part of a larger entity, drawing sustenance and recognizing our obligation to preserve the environment. Our commitment to shaping the future lies in fostering an environment that propels an enhanced rendition of the present.      ",
   },
