@@ -6,9 +6,7 @@ import { useLayoutEffect, useRef } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Scene() {
-
-
-useEffect(()=>{
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     let section = document.querySelector(
       ".service-detail-process > .scrollContainer > .container"
@@ -26,24 +24,19 @@ useEffect(()=>{
           end: () => "+=" + width * 1.7,
           scrub: true,
           pin: true,
-        //   markers:true,
+          //   markers:true,
         },
       });
-      tl.fromTo(
-        cardContainer,
-        { x: 0 },
-        { x: -width, ease: "Power1.easeOut" }
-      );
+      tl.fromTo(cardContainer, { x: 0 }, { x: -width, ease: "Power1.easeOut" });
       tl.fromTo(lineProgress, { xPercent: -100 }, { xPercent: 0 }, 0);
-    
+
       return () => tl.kill();
     });
-    
+
     window.addEventListener("onload", function () {
       ScrollTrigger.refresh();
     });
-})
-
+  });
 
   return (
     <section class="bg-lightgrey service-detail-process">
@@ -56,7 +49,7 @@ useEffect(()=>{
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051283/LYMDATALABS/Pages/Services/research_x4jmiy.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/research.svg"
                   alt
                   width="79"
                   height="130"
@@ -71,7 +64,7 @@ useEffect(()=>{
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051581/LYMDATALABS/Pages/Services/design_f6ts1q.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/design+(1).svg"
                   alt
                   width="96"
                   height="125"
@@ -83,7 +76,7 @@ useEffect(()=>{
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052423/LYMDATALABS/Pages/Services/development_lbekzy.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/development+(1).svg"
                   alt
                   width="108"
                   height="111"
@@ -98,7 +91,7 @@ useEffect(()=>{
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051576/LYMDATALABS/Pages/Services/testing2_h4fwan.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/testing2.svg"
                   alt
                   width="108"
                   height="105"
@@ -113,7 +106,7 @@ useEffect(()=>{
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051821/LYMDATALABS/Pages/Services/launch_vxfkgz.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/launch.svg"
                   alt
                   width="101"
                   height="100"
@@ -128,7 +121,7 @@ useEffect(()=>{
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051288/LYMDATALABS/Pages/Services/support2_brov3y.svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/support2.svg"
                   alt
                   width="91"
                   height="100"

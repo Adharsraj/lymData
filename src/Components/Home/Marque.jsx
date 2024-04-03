@@ -162,9 +162,13 @@ const Marque = () => {
        */}
 
       <div className="flex overflow-hidden  mt-14 mb-14" data-scroll-section>
-        <div className="animate-loop-scroll pr-9 flex gap-32 z-0 ">
+        <div className="animate-loop-scroll pr-32 flex gap-32 z-0 ">
           {OurTopClients?.map((i) => (
-            <img className="w-[100px] grayscale" src={i.img} alt="" />
+            <img
+              className="w-[200px] grayscale object-center h-[100px]"
+              src={i.img}
+              alt=""
+            />
           ))}
         </div>
         <div
@@ -172,7 +176,11 @@ const Marque = () => {
           aria-hidden="true"
         >
           {OurTopClients?.map((i) => (
-            <img className="w-[100px] grayscale" src={i.img} alt="" />
+            <img
+              className="w-[200px] grayscale object-center h-[100px]"
+              src={i.img}
+              alt=""
+            />
           ))}
         </div>
       </div>
