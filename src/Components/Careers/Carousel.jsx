@@ -204,7 +204,7 @@ const Carousel = () => {
             <div className=" md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className="flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187558/assets/assets%20%283%29/asset_13_kvk415.png"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/Mediamodifier-Design+(10).svg"
                   alt="img5"
                 />
               </div>
@@ -228,7 +228,7 @@ const Carousel = () => {
             <div className="md:grid md:grid-cols-2 bg-gray-100 border border-black min-h-[15rem] md:min-h-[20rem] lg:min-h-[27rem]  md:w-[] rounded-full">
               <div className="flex justify-center items-center">
                 <img
-                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187633/assets/assets/asset_61_jtdinc.svg"
+                  src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187580/assets/assets%20%283%29/asset_35_rrxuyo.svg"
                   alt="img4"
                 />
               </div>

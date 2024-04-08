@@ -66,7 +66,10 @@ const Within7ForService = () => {
   };
 
   return (
-    <div id="withservices" className="max-w-[1840px] mx-auto overflow-hidden border">
+    <div
+      id="withservices"
+      className="max-w-[1840px] mx-auto overflow-hidden border"
+    >
       <div className=" hidden md:block some-element">
         <h5 className="font-mono text-xs ml-8 lg:mt-10 mb-10 ">
           Within these 7 industries
@@ -150,19 +153,26 @@ const Within7ForService = () => {
           </div>
           <div className="carousel-buttons flex justify-center gap-5">
             <button
-              className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
+              className="w-14 p-3 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={prevSlide}
             >
-              <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691415903/LYMDATALABS/Pages/Home/asset_59_wsgb7l_e3bvws.svg" alt="larrow"/>
+              <img
+                className="invert"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/left_arrow-removebg-preview.png"
+                alt="larrow"
+              />
             </button>
             <div className="text-gray-500 text-xl w-14 h-14 rounded-full  flex items-center justify-center">
               {carouselData[currentSlide].id}/{carouselData.length}
             </div>
             <button
-              className="w-14 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
+              className="w-14 p-3 h-14 rounded-full flex items-center justify-center text-white bg-[#282728]"
               onClick={nextSlide}
             >
-              <img src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg" alt="arrow"/>
+              <img className="invert"
+                src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/right_arrow-removebg-preview.png"
+                alt="arrow"
+              />
             </button>
           </div>
         </div>

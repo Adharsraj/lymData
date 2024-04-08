@@ -9,12 +9,12 @@ const Services = () => {
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center some-element">
               <h3>services</h3>
-              <img
+              {/* <img
                 className="hover:animate-spin"
                 src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                 alt="image2"
                 style={{ animationDuration: "3s" }}
-              />
+              /> */}
             </div>
 
             <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left   leading-10  text-[#000]  mt-10  mb-16 some-element">
@@ -31,7 +31,8 @@ const Services = () => {
               </h3>
               <h3 className="p-2 md:mt-10 flex items-center rounded-full w-[50px] bg-[#282728]">
                 <img
-                  src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414574/LYMDATALABS/Pages/Home/asset_60_lqw1hz_xibjq8.svg"
+                  className="invert"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/services/right_arrow-removebg-preview.png"
                   alt="arrow"
                 />
               </h3>
