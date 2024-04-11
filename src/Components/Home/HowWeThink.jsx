@@ -57,7 +57,7 @@ const HowweThinkdhn = () => {
                   Dive into our culture
                 </h1>
                 <h1 className="p-2 mt-10 flex items-center rounded-full w-[35px] bg-black text-white">
-                  <img src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412489/LYMDATALABS/Pages/Home/asset_49_lb3zxr_vnzxpt.svg" />
+                  <img src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/asset_60_lqw1hz.svg" />
                 </h1>
               </div>
             </Link>

@@ -56,7 +56,7 @@ const CareerIntro = () => {
         </div>
         <img
           className="pt-10 md:w-[500px] xl:w-[700px] xl:h-[600px] lg:w-[520px] mx-auto object-cover"
-          src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187574/assets/assets%20%283%29/hero-lines2_o2pswp.png"
+          src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/075ffc.webp"
           alt="career_image"
           srcset=""
         />

@@ -158,7 +158,7 @@ const Cultureandmore = () => {
             <img
               src="https://res.cloudinary.com/db5gkedee/image/upload/v1690187570/assets/assets%20%283%29/asset_2_shbldr.png"
               alt="img3"
-              className="ml-14 lg:ml-52 md:ml-0 md:mt-0 md:mb-44 mb-36 mt-10 md:w-[350px] md:h-[350px]"
+              className="ml-14 lg:ml-52 opa md:ml-0 md:mt-0 md:mb-44 sm:block hidden mb-36 mt-10 md:w-[350px] md:h-[350px]"
             />
           </div>
         </div>

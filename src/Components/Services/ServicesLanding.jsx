@@ -4,6 +4,7 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 import Within7ForService from "../Home/Within7ForService";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import Within7Industriesdhn from "../Home/Within7Industries";
 
 const ServicesLanding = () => {
   const navigate = useNavigate();
@@ -443,12 +444,12 @@ const ServicesLanding = () => {
             <div className="md:hidden">
               <div className="flex justify-between align-middle items-center some-element">
                 <h3>approach</h3>
-                <img
+                {/* <img
                   className="hover:animate-spin"
                   src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691412277/LYMDATALABS/Pages/Home/asset_61_jtdinc_jfsfpu.svg"
                   alt="wheel"
                   style={{ animationDuration: "3s" }}
-                />
+                /> */}
               </div>
 
               <div className="text-[25px]  xl:text-[82px] xl:w-[560px] mx-auto text-left leading-10  text-[#7b7b7b]  mt-10  mb-16 some-element">
@@ -574,6 +575,7 @@ const ServicesLanding = () => {
             </div>
           </div>
           <Within7ForService />
+          {/* <Within7Industriesdhn/> */}
         </div>
 
         <div

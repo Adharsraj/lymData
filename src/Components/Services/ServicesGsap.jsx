@@ -64,7 +64,7 @@ export default function Scene() {
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/design+(1).svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/design.svg"
                   alt
                   width="96"
                   height="125"
@@ -76,7 +76,7 @@ export default function Scene() {
             <div class="process-card">
               <div class="image-wrap">
                 <img
-                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/development+(1).svg"
+                  src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/development.svg"
                   alt
                   width="108"
                   height="111"

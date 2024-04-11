@@ -484,42 +484,42 @@ export const OurTopClients = [
 export const fullstackcard = [
   {
     id: 1,
-    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/website2.svg",
     title: "Websites",
     description:
       "Dynamic websites are designed with interactive features, real-time updates, and user-generated content. They may include forums, blogs, multimedia content, and e-commerce capabilities.",
   },
   {
     id: 2,
-    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/saas_apps.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/saas_apps.svg",
     title: "SaaS applications",
     description:
       "Select our services to develop SaaS products that are ready for the future. We provide end-to-end support for deploying the products.  ",
   },
   {
     id: 3,
-    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/website2.svg",
     title: "Quality Assurance ",
     description:
       "Grow your business without worrying about the quality of the products we create for you. Our engineers assure you of top-notch quality and performance.",
   },
   {
     id: 4,
-    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/website2.svg",
     title: "Cloud-based applications",
     description:
       "We develop robust, fast, and scalable cloud-based software for businesses, keeping up with the latest tech trends.",
   },
   {
     id: 5,
-    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/website2.svg",
     title: "Enterprise applications    ",
     description:
       "Optimize workplace productivity and improve processes using custom software we would create based on your requirements.    ",
   },
   {
     id: 6,
-    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/website2.svg",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/website2.svg",
     title: "Content Management System    ",
     description:
       "Get customized CMS designed for your business needs and reduce delays, dependencies and blocked workflows.    ",
@@ -844,7 +844,7 @@ export const allWorks = [
   {
     id: 3,
     img: "https://res.cloudinary.com/db5gkedee/image/upload/v1690187563/assets/Images/allworks/IMAGE_17_srzwqt.png",
-    head1: "A unique ecommerce experience for an iconic British brand",
+    head1: "A unique  experience for an iconic British brand",
     title: "Brompton",
   },
 

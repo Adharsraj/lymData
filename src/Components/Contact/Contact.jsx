@@ -657,11 +657,11 @@ const Contact = () => {
           Our <br /> locations
         </h3>
         <div className="flex">
-          <img
+          {/* <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1704172893/LYMDATALABS/Pages/webp/contact_q4zo6u.webp"
             alt="img2"
             className="  pl-5 filter grayscale  overflow-hidden"
-          />
+          /> */}
           <h3
             className=" py-5 text-sm uppercase  font-light"
             style={verticalTextStyle}

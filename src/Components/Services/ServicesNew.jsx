@@ -185,7 +185,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24">
             <img
               className="w-full h-14"
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051283/LYMDATALABS/Pages/Services/research_x4jmiy.svg"
+              src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/research.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -208,7 +208,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051581/LYMDATALABS/Pages/Services/design_f6ts1q.svg"
+              src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/design.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -230,7 +230,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705052423/LYMDATALABS/Pages/Services/development_lbekzy.svg"
+              src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/development.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -252,7 +252,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051576/LYMDATALABS/Pages/Services/testing2_h4fwan.svg"
+              src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/testing2.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -274,7 +274,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5">
             <img
               className="w-full h-14"
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051821/LYMDATALABS/Pages/Services/launch_vxfkgz.svg"
+              src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/launch.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -296,7 +296,7 @@ const ServicesNew = (title) => {
           <div className="flex justify-between items-center bg-white h-24 mt-5 ">
             <img
               className="w-full h-14"
-              src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1705051288/LYMDATALABS/Pages/Services/support2_brov3y.svg"
+              src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/svg+/support2.svg"
               alt="image"
             />
             <p className="w-full font-bold flex justify-center  text-lg">
@@ -321,7 +321,7 @@ const ServicesNew = (title) => {
           <Scene />
         </div>
       </div>
-      <ServiceCarousel />
+      {/* <ServiceCarousel /> */}
 
       {/* <div className="bg-black  text-white h-[450px] max-w-[1150px] md:mx-auto md:h-[200px] mb-10 mx-2 py-5 mt-10 ">
   <div className="flex flex-col md:flex-row h-full justify-around items-center">
@@ -336,7 +336,7 @@ We have more awesome stuff to show</h1>
 </div> */}
       {/* <TopClients /> */}
       {/* <InfiniteScrollClients></InfiniteScrollClients> */}
-      <FaqServices />
+      {/* <FaqServices /> */}
     </>
   );
 };
