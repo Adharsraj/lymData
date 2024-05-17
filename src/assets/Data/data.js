@@ -683,7 +683,7 @@ export const blogCards = [
     name: "7SignsYouNeedAWebsiteRefresh",
     img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/udrive/hands-businessman-typing-laptop-modern-office-with-smart-phone-digital-tablet-computer.jpg",
     title:
-      "Are You worried About Your website's Performance ? Here are 7 signs That Indicate It Might Be Time For A Referesh",
+      "Are You worried About Your Website's Performance ? Here are 7 signs That Indicate It Might Be Time for a Refresh",
     desc: "Press Release • 17 May, 2024",
     more: Blog9,
   },

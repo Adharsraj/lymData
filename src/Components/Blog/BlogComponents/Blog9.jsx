@@ -33,8 +33,8 @@ const Blog8 = () => {
         <>
             <Helmet>
                 <title>
-                    Are You worried About Your website's Performance ? 
-                    Here are 7 signs That Indicate It Might Be Time For A Referesh{" "}
+                    Are You worried About Your Website's Performance ? 
+                    Here are 7 Signs That Indicate It Might Be Time for a Refresh{" "}
                 </title>
                 <meta
                     name="description"
