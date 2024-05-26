@@ -1914,8 +1914,9 @@ span.two {
   
   .animate-loop-scroll {
     display: flex;
-    animation: loop-scroll 20s linear infinite;
-    width: calc(200px * 2 * var(--client-count)); /* Adjust width calculation */
+    animation: loop-scroll 30s linear infinite;
+    width: calc(200px * 2
+     * var(--client-count)); /* Adjust width calculation */
   }
   
   
