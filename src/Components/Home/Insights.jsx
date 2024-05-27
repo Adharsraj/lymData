@@ -11,7 +11,7 @@ const Insights = () => {
     delaySpeed: 4000,
   });
   return (
-    <div className="max-w-[1640px] mx-auto  bg-black" data-scroll-section>
+    <div className="max-w-[2560px] mx-auto  bg-black" data-scroll-section>
       <h4 className="lg:text-[40px] lg:p-12 lg:px-28 text-[35px] lg:font-bold p-3 some-ele text-white">
         {insightsHeading}
         <Cursor cursorColor="white" cursorStyle="|"></Cursor>

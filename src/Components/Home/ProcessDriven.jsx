@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProcessDrivendhn = () => {
   return (
     <div className="bg-[#BEBDBE] relative">
-      <div className="max-w-[1640px] relative bg-[#BEBDBE]   mx-auto  font-dm  md:text-xl overflow-hidden ">
+      <div className="max-w-[2560px] relative bg-[#BEBDBE]   mx-auto  font-dm  md:text-xl overflow-hidden ">
         <div className="absolute inset-0 flex items-center justify-center">
           <img
             src="https://res.cloudinary.com/https-www-lymdata-com/image/upload/v1691414521/LYMDATALABS/Pages/Home/giphy_2_udzb4u.webp"

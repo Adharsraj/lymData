@@ -195,7 +195,7 @@ const BlogDetailed = () => {
       <Navbar />
       <div>
         {blogCardss && (
-          <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-4 lg:max-w-[900px]">
+          <div className="max-w-[1800px] mx-auto p-4 font-roboto mb-4 lg:max-w-[900px]">
             <div className=" mx-3 mt-32">
               <h4 className="uppercase text-2xl md:text-4xl font-bold w-[230px] md:w-[600px] mt-10">
                 {blogCardss.title}
@@ -212,7 +212,7 @@ const BlogDetailed = () => {
           </div>
         )}
         {combinedData && (
-          <div className="max-w-[1640px] mx-auto p-4 font-roboto mb-20">
+          <div className="max-w-[1800px] mx-auto p-4 font-roboto mb-20">
             <div className="flex justify-between">
               <p className="font-times mb-6 text-3xl w-[250px] md:w-[400px] ">
                 MORE BLOG ARTICLES

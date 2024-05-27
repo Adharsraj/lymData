@@ -38,7 +38,7 @@ const Blog5 = () => {
           content="Transform your product into something more: Learn the art of crafting and nurturing a brand that elevates your business, making it recognized, cherished, and chosen above all others."
         />
       </Helmet>
-      <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
+      <div className="max-w-[1800px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
         <div>
           <h1 className="mt-6 font-bold text-2xl">
             What Is Branding and Why Is It Important?{" "}

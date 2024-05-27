@@ -121,7 +121,7 @@ const HorizontalScroll = () => {
                   <div className="">
                     <div className=" hider">
                       {showWowText ? (
-                        <section className="max-w-[1640px]">
+                        <section className="max-w-[1800px]">
                           <div className=" flex items-center text-center z-0">
                             <div className="  flex flex-col md:justify-center font-aeonic uppercase text-[134px] mx-auto">
                               <div className="col  ">
@@ -142,7 +142,7 @@ const HorizontalScroll = () => {
                           </div>
                         </section>
                       ) : (
-                        <section className="max-w-[1640px]  ">
+                        <section className="max-w-[1800px]  ">
                           <div className=" hider  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
                             <div className=" flex  flex-col md:justify-center font-aeonic uppercase   mx-auto">
                               <div className=" driven">

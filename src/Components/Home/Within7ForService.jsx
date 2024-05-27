@@ -68,7 +68,7 @@ const Within7ForService = () => {
   return (
     <div
       id="withservices"
-      className="max-w-[1840px] mx-auto overflow-hidden border"
+      className="max-w-[2560px] mx-auto overflow-hidden border"
     >
       <div className=" hidden md:block some-element">
         <h5 className="font-mono text-xs ml-8 lg:mt-10 mb-10 ">

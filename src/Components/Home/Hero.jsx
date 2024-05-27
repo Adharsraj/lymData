@@ -135,7 +135,7 @@ const Hero = ({ showImage }) => {
   return (
     <>
       <div className=" bg-black text-white relative">
-        <div className="max-w-[1640px] mx-auto overflow-hidden">
+        <div className="max-w-[1800px] mx-auto overflow-hidden">
           <div className="">
             <div className=" ">
             {showWowText ?(
@@ -169,7 +169,7 @@ const Hero = ({ showImage }) => {
                   
                                 </section>
                 ):
-              <section className="max-w-[1640px] ">
+              <section className="max-w-[1800px] ">
                
 <div className="  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
   <div className=" flex flex-col md:justify-center font-aeonic uppercase text-  mx-auto">

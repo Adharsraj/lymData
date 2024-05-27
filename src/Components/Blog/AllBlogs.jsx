@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AllBlogs = () => {
   return (
-    <div className="max-w-[1640px] mx-auto p-4 font-roboto ">
+    <div className="max-w-[1800px] mx-auto p-4 font-roboto ">
       <div className="mb-6">
         <div className=" lg:flex lg:justify-between mt-32 lg:p-8">
           <h2 className="text-3xl  uppercase mb-5  lg:text-6xl md:text-5xl">

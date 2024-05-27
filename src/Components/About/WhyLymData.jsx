@@ -3,7 +3,7 @@ import { whyLymData } from "../../assets/Data/data";
 
 const WhyLymData = () => {
   return (
-    <div className="max-w-[1640px]  mx-auto p-4 bg-[#F8F8F8]  font-roboto">
+    <div className="max-w-[1800px]  mx-auto p-4 bg-[#F8F8F8]  font-roboto">
       <div className="flex flex-col justify-center  text-center ">
         <h1 className="text-sm text-gray-400  text-left md:text-lg lg:text-xl md:ml-5 lg:ml-10 mt-6 mb-6">
           Why LymData

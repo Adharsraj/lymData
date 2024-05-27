@@ -315,7 +315,7 @@ const DhnnScroller = ({ showImage }) => {
                 <h1> im here</h1>
                </div> */}
 <div className='fixed headerz top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 text-400 text-gray-300'>
-        <div className="max-w-[1640px] mx-auto overflow-hidden">
+        <div className="max-w-[1800px] mx-auto overflow-hidden">
           <div className="">
             <div className=" hider">
             {showWowText ?(
@@ -349,7 +349,7 @@ const DhnnScroller = ({ showImage }) => {
                   
                                 </section>
                 ):
-              <section className="max-w-[1640px]  ">
+              <section className="max-w-[1800px]  ">
                
 <div className=" hider  flex items-center text-center z-0 md:min-h-screen  mx-auto ">
   <div className=" flex  flex-col md:justify-center font-aeonic uppercase   mx-auto">

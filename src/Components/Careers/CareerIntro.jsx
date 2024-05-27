@@ -46,7 +46,7 @@ import React from "react";
 // import img from "../../assets/Career.jpeg";
 const CareerIntro = () => {
   return (
-    <div className="max-w-[1640px] mx-auto p-4 text-[#040404] overflow-hidden ">
+    <div className="max-w-[1800px] mx-auto p-4 text-[#040404] overflow-hidden ">
       <div className="text-center relative mt-10">
         <div className="absolute top-[-20%] md:top-[10%] w-full text-8xl md:text-9xl md:leading-[10px] font-aeonic">
           <h2 className="text-6xl px-1 z-20  text-[#282728] xxl:px-40 lg:text-[170px] xxl:text-[220px] md:text-8xl mt-52 lg:mt-10 font-bold absolute">

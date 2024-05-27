@@ -22,7 +22,7 @@ const HowweThinkdhn = () => {
       className="bg-[#F8FAFC] overflow-hidden textSliderContainerd  min-h-screen"
       data-scroll-section
     >
-      <div className="max-w-[1640px]  mx-auto p-4 font-helvetica  md:text-xl bg-[#F8FAFC] ">
+      <div className="max-w-[1800px]  mx-auto p-4 font-helvetica  md:text-xl bg-[#F8FAFC] ">
         <div className="lg:mt-20">
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center">

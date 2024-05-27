@@ -246,7 +246,7 @@ const Contact = () => {
 
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-[1640px]  mx-auto p-4  text-[#040404] overflow-hidden">
+      <div className="max-w-[1800px]  mx-auto p-4  text-[#040404] overflow-hidden">
         <div className=" md:px-20">
           <div className="relative flex flex-col justify-center items-center h-screen xl:mt-[-40px] font-aeonic">
             <span className=" text-gray-300 opacity-50 font-extrabold absolute xl:text-[700px] xl:ml-48  md:text-[400px] text-[200px]  overflow-hidden  ">

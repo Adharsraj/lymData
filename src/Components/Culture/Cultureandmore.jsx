@@ -35,7 +35,7 @@ const Cultureandmore = () => {
   }, []);
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-[1640px] p-4 overflow-hidden  mx-auto  font-dm  md:text-xl ">
+      <div className="max-w-[1800px] p-4 overflow-hidden  mx-auto  font-dm  md:text-xl ">
         <div className="lg:mt-20">
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center some-ele">

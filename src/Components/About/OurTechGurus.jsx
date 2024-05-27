@@ -3,7 +3,7 @@ import React from "react";
 
 const OurTechGurus = () => {
   return (
-    <div className="max-w-[1640px]  mx-auto p-4 bg-black text-white  font-roboto ">
+    <div className="max-w-[1800px]  mx-auto p-4 bg-black text-white  font-roboto ">
       <div className="text-center mt-16">
         <span className="text-gray-400 md:text-lg ">Our Tech Gurus</span>
         <h1 className="text-2xl mt-8 mb-6 md:text-6xl ">Leadership team</h1>

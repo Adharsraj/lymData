@@ -41,7 +41,7 @@ const Blog6 = () => {
           content="The rise of influencer marketing highlights the need for true influencer data acquisition. Brands use influencer data for strategic insights and targeted marketing campaigns."
         />
       </Helmet>
-      <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
+      <div className="max-w-[1800px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
         <div>
           <h1 className="mt-6 font-bold text-2xl">
             What is influencer marketing? The Role of Data in Influencer

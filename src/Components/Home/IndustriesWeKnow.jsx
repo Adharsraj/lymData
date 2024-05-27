@@ -19,7 +19,7 @@ const IndustriesWeknowdhn = () => {
   }, []);
 
   return (
-    <div className="max-w-[1640px] mx-auto p-4 overflow-hidden">
+    <div className="max-w-[1800px] mx-auto p-4 overflow-hidden">
       <div className="grid md:flex md:items-center gap-4">
         <div className="col-span-3 md:col-span-1">
           <h4 className="font-mono lg:mb-20 text-sm">

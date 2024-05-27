@@ -6,7 +6,7 @@ const ProcessDrivenFive = () => {
   return (
     <>
       <div className="bg-[#BCBCBC] hidden md:block">
-        <div className="max-w-[1840px]  bg-[#BCBCBC] mb-10   mx-auto p-4 md:p-0  md:text-xl overflow-hidden  ">
+        <div className="max-w-[2560px]  bg-[#BCBCBC] mb-10   mx-auto p-4 md:p-0  md:text-xl overflow-hidden  ">
           <div className="md:flex">
             {productDrivenDesign.map((m) => (
               <div

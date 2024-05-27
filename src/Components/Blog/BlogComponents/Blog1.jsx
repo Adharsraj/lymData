@@ -29,7 +29,7 @@ const Blog1 = () => {
   };
 
   return (
-    <div className="max-w-[1640px] mx-auto md:px-12 lg:text-xl lg:max-w-[900px] some-ele ">
+    <div className="max-w-[1800px] mx-auto md:px-12 lg:text-xl lg:max-w-[900px] some-ele ">
       <div>
         <h3 className="text-3xl font-bold mt-7">
         Introduction

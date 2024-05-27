@@ -40,7 +40,7 @@ const Blog8 = () => {
           content="What's next for social media marketing? Stay ahead of the curve with this inside look at the top social media marketing trends for 2024."
         />
       </Helmet>
-      <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
+      <div className="max-w-[1800px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
         <div>
           <h3 className="mt-6 text-lg">
             In today’s dynamic world, technology continues to evolve,

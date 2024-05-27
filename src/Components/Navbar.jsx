@@ -152,7 +152,7 @@ const NavbarNew = React.memo(({ onMenuClose }) => {
 
   return (
     <div data-scroll-section>
-      <div className="z-50 navbar">
+      <div className="z-50 navbar ">
         <div className="navbar-content">
           <h1 id="navh1 " className=""></h1>
           <div

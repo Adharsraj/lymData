@@ -4,7 +4,7 @@ import { fourCultures } from "../../assets/Data/data";
 const FourCultures = () => {
   return (
     <div id="fourculture" className="bg-[#282728]">
-      <div className="max-w-[1640px] mt-[-150px] text-white  mx-auto p-2  ">
+      <div className="max-w-[1800px] mt-[-150px] text-white  mx-auto p-2  ">
         <h4 className=" invisible mt-10 mb-10">gh</h4>
         <div className="mb-12 md:hidden ">
           {fourCultures.map((m) => (

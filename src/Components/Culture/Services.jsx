@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-[1640px]   mx-auto p-4 font-dm  md:text-xl overflow-hidden  ">
+      <div className="max-w-[1800px]   mx-auto p-4 font-dm  md:text-xl overflow-hidden  ">
         <div className="lg:mt-20">
           <div className="md:hidden">
             <div className="flex justify-between align-middle items-center some-element">

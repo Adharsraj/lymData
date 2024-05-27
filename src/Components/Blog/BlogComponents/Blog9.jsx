@@ -41,7 +41,7 @@ const Blog8 = () => {
                     content="What is the first thing you do when you hear about a new company or a product? You go and check the website of the company, right?"
                 />
             </Helmet>
-            <div className="max-w-[1640px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
+            <div className="max-w-[1800px] mx-auto md:px-12 font-roboto lg:text-xl lg:max-w-[900px] some-ele ">
                 <div>
                     <h3 className="mt-6 text-lg">
                         Your website is the face of your company, literally the most vital business asset.

@@ -101,7 +101,7 @@ const Within7Industriesdhn = () => {
   return (
     <div
       id="withinseven"
-      className="max-w-[1840px] textSliderContainerd mx-auto overflow-hidden"
+      className="max-w-[2560px] textSliderContainerd mx-auto overflow-hidden"
       data-scroll-section
     >
       <div className="hidden md:block">

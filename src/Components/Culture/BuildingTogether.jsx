@@ -2,7 +2,7 @@ import React from "react";
 const BuildingTogether = () => {
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-[1640px] font-aeonic  mx-auto p-2    ">
+      <div className="max-w-[1800px] font-aeonic  mx-auto p-2    ">
         <h3 className=" md:hidden mt-32">Recognition</h3>
         <h3 className="hidden md:block md:mt-24"></h3>
 

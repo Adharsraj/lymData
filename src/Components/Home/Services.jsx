@@ -4,7 +4,7 @@ import { servv } from '../../assets/Data/data'
 const Services = () => {
   return (
     <>
-      <div className="max-w-[1640px] mx-auto bg-white min-h-screen">
+      <div className="max-w-[2560px] mx-auto bg-white min-h-screen">
         <h4 className="lg:text-[70px] text-[35px] font-bold lg:px-28 text-black px-5 some-element">
           Services
         </h4>

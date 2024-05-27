@@ -8,7 +8,7 @@ const BlogCards = () => {
 
   return (
     <>
-      <div className="max-w-[1640px] mx-auto bg-white min-h-screen">
+      <div className="max-w-[1800px] mx-auto bg-white min-h-screen">
         <div className="p-5 gap-8 blogCards lg:px-10">
           {reversedBlogCards.map((m) => (
             <Link key={m.id} to={`/blog/${m.name}`}>

@@ -8,7 +8,7 @@ const Faq = () => {
   };
   
   return (
-    <div className="font-times max-w-[1640px]  mx-auto">
+    <div className="font-times max-w-[1800px]  mx-auto">
       <div className="lg:mx-36 mb-10  ">
         <h1 className=" lg:text-7xl md:text-6xl text-4xl text-center mt-10 ">
           Frequently <i>Asked</i> Questions
