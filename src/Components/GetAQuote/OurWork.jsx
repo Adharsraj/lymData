@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const OurWork = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -71,41 +70,39 @@ const OurWork = () => {
       {isMobile ? (
         <div style={mobileStyles.container} className="lg:px-10">
           <div style={mobileStyles.slide}>
-            <Link to={"#"}>
-              <div className="flex flex-col items-center gap-2 shadow-2xl cursor-pointer">
-                <div style={mobileStyles.imageContainer}>
-                  <img
-                    src={slides[currentSlide].src}
-                    alt="img"
-                    style={mobileStyles.image}
-                  />
-                </div>
-                <div className="text-left md:pt-2 pt-3 pl-2">
-                  <h4 className="font-bold lg:text-[16px] text-[10px] text-ash text-center text-white">
-                    {slides[currentSlide].title}
-                  </h4>
-                </div>
+            <div className="flex flex-col items-center gap-2 shadow-2xl cursor-pointer">
+              <div style={mobileStyles.imageContainer}>
+                <img
+                  src={slides[currentSlide].src}
+                  alt="img"
+                  style={mobileStyles.image}
+                />
               </div>
-            </Link>
+              <div className="text-left md:pt-2 pt-3 pl-2">
+                <h4 className="font-bold lg:text-[16px] text-[10px] text-ash text-center text-white">
+                  {slides[currentSlide].title}
+                </h4>
+              </div>
+            </div>
           </div>
         </div>
       ) : (
         <div className="flex flex-col lg:flex-row lg:justify-around gap-2 p-2 lg:px-10">
           {slides.map((slide, index) => (
-              <div className="flex flex-col items-center gap-2 shadow-2xl cursor-pointer">
-                <div className="relative xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] w-[140px] h-[75px] md:w-[348px] md:h-[200px] rounded-[6px] overflow-hidden group">
-                  <img
-                    src={slide.src}
-                    alt="img"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="text-left md:pt-2 pt-3 pl-2">
-                  <h4 className="font-bold lg:text-[16px] text-[10px] text-ash text-center text-white">
-                    {slide.title}
-                  </h4>
-                </div>
+            <div key={index} className="flex flex-col items-center gap-2 shadow-2xl cursor-pointer">
+              <div className="relative xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] w-[140px] h-[75px] md:w-[348px] md:h-[200px] rounded-[6px] overflow-hidden group">
+                <img
+                  src={slide.src}
+                  alt="img"
+                  className="w-full h-full object-cover"
+                />
               </div>
+              <div className="text-left md:pt-2 pt-3 pl-2">
+                <h4 className="font-bold lg:text-[16px] text-[10px] text-ash text-center text-white">
+                  {slide.title}
+                </h4>
+              </div>
+            </div>
           ))}
         </div>
       )}
