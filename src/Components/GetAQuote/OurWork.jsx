@@ -92,7 +92,6 @@ const OurWork = () => {
       ) : (
         <div className="flex flex-col lg:flex-row lg:justify-around gap-2 p-2 lg:px-10">
           {slides.map((slide, index) => (
-            <Link to={"#"} key={index}>
               <div className="flex flex-col items-center gap-2 shadow-2xl cursor-pointer">
                 <div className="relative xxl:w-[348px] lg:w-[240px] md:w-[348px] md:h-[229px] w-[140px] h-[75px] md:w-[348px] md:h-[200px] rounded-[6px] overflow-hidden group">
                   <img
@@ -107,7 +106,6 @@ const OurWork = () => {
                   </h4>
                 </div>
               </div>
-            </Link>
           ))}
         </div>
       )}
