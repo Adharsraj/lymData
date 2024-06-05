@@ -15,6 +15,7 @@ const WorkDetailed = lazy(() => import("../Components/Works/WorkDetailed"));
 const About = lazy(() => import("../Pages/About"));
 const Careers = lazy(() => import("../Pages/Careers"));
 const Contact = lazy(() => import("../Pages/Contact"));
+const GetAQuote = lazy(() => import("../Pages/GetAQuote"));
 const Home = lazy(() => import("../Pages/Home"));
 const Services = lazy(() => import("../Pages/Services"));
 const TermsOfUse = lazy(() => import("../Pages/TermsOfUse"));
@@ -131,6 +132,16 @@ const Router = createBrowserRouter([
       <Suspense fallback={<Loading />}>
         <Wrapper>
           <Services />
+        </Wrapper>
+      </Suspense>
+    ),
+  },
+  {
+    path: "/getaquote",
+    element: (
+      <Suspense fallback={<Loading />}>
+        <Wrapper>
+          <GetAQuote/>
         </Wrapper>
       </Suspense>
     ),

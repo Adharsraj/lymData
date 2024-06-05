@@ -16,6 +16,7 @@ const Blog = lazy(() => import("./Pages/Blog"));
 const WorkDetailed = lazy(() => import("./Components/Works/WorkDetailed"));
 const About = lazy(() => import("./Pages/About"));
 const InsideServices = lazy(() => import("./Pages/InsideServices"));
+const GetAQuote = lazy(() => import("./Pages/GetAQuote"));
 const Careers = lazy(() => import("./Pages/Careers"));
 const Contact = lazy(() => import("./Pages/Contact"));
 const Home = lazy(() => import("./Pages/Home"));
@@ -181,6 +182,16 @@ function App() {
         <Suspense>
           <Wrapper>
             <SignUp />
+          </Wrapper>
+        </Suspense>
+      ),
+    },
+    {
+      path: "/getaquote",
+      element: (
+        <Suspense>
+          <Wrapper>
+            <GetAQuote />
           </Wrapper>
         </Suspense>
       ),
