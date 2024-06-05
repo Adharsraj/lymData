@@ -54,11 +54,22 @@ const OurWork = () => {
       height: '160px', // Increase height for mobile
       borderRadius: '6px',
       overflow: 'hidden',
+      position: 'relative', // Required for the overlay
     },
     image: {
       width: '100%',
       height: '100%',
       objectFit: 'cover',
+    },
+    overlay: {
+      content: '""',
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'rgba(0, 0, 0, 0.4)', // Adjust the darkness level
+      zIndex: 1,
     },
   };
 
@@ -77,6 +88,7 @@ const OurWork = () => {
                   alt="img"
                   style={mobileStyles.image}
                 />
+                <div style={mobileStyles.overlay}></div>
               </div>
               <div className="text-left md:pt-2 pt-3 pl-2">
                 <h4 className="font-bold lg:text-[16px] text-[10px] text-ash text-center text-white">
@@ -96,6 +108,7 @@ const OurWork = () => {
                   alt="img"
                   className="w-full h-full object-cover"
                 />
+                <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
               </div>
               <div className="text-left md:pt-2 pt-3 pl-2">
                 <h4 className="font-bold lg:text-[16px] text-[10px] text-ash text-center text-white">
