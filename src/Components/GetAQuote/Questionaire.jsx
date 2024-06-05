@@ -27,11 +27,18 @@ const Questionnaire = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
+  // State for website goal question
+  const [websiteGoal, setWebsiteGoal] = useState('');
+  const [websiteOthersSelected, setWebsiteOthersSelected] = useState(false);
+  const [websiteOtherText, setWebsiteOtherText] = useState('');
+
   const handlePrimaryInterestClick = (interest) => {
     setPrimaryInterest(interest);
-    if (interest === 'Web Development' || interest === 'Mobile App Development' || interest === 'Website Designing') {
+    if (interest === 'Web Development' || interest === 'Mobile App Development') {
       setStep(2);
-    } else if (interest === 'Data Engineering') {
+    } else if (interest === 'Website Designing') {
+      setStep(6); // Display step 6 for Website Designing
+    } else if (interest === 'Digital Marketing') {
       setStep(5);
     }
   };
@@ -52,13 +59,33 @@ const Questionnaire = () => {
     } else {
       setMarketingChallenge(challenge);
       setOthersSelected(false);
-      setStep(4);
+      if (primaryInterest === 'Digital Marketing') {
+        setStep(3);
+      } else {
+        setStep(4);
+      }
     }
   };
 
   const handleProceedClick = () => {
     setMarketingChallenge(otherText);
     setStep(4);
+  };
+
+  const handleWebsiteGoalClick = (goal) => {
+    if (goal === 'Other') {
+      setWebsiteOthersSelected(true);
+    } else {
+      setWebsiteGoal(goal);
+      setWebsiteOthersSelected(false);
+      setStep(2);// Proceed to the next step
+    }
+  };
+
+  const handleWebsiteProceedClick = () => {
+    setWebsiteGoal(websiteOtherText);
+    setWebsiteOthersSelected(false);
+    setStep(3); // Proceed to the next step
   };
 
   const handleInputChange = (e) => {
@@ -76,10 +103,6 @@ const Questionnaire = () => {
       email: "",
       mobileNumber: "",
       companyName: "",
-      primary_interest: primaryInterest,
-      project_stage: projectStage,
-      budget: budget,
-      marketing_challenge: marketingChallenge,
     });
   };
 
@@ -91,28 +114,23 @@ const Questionnaire = () => {
       mobileNumber: "",
       companyName: "",
     };
-
+  
     if (!/^[a-zA-Z0-9_]+$/.test(formData.fullName)) {
       updatedErrors.fullName = 'Name can only contain letters, numbers, and underscores';
       valid = false;
     }
-
+  
     // Email validation: a simple regex for basic email format
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       updatedErrors.email = 'Invalid email address';
       valid = false;
     }
-
+  
     if (!/^[0-9-]+$/.test(formData.mobileNumber)) {
       updatedErrors.mobileNumber = 'Invalid phone number';
       valid = false;
     }
-
-    if (formData.companyName.trim() === '') {
-      updatedErrors.companyName = 'Company name cannot be empty';
-      valid = false;
-    }
-
+  
     setErrors(updatedErrors);
     return valid;
   };
@@ -124,36 +142,49 @@ const Questionnaire = () => {
 
     if (validateForm()) {
       try {
-        // Send the email using Email.js
+        let templateParams = {
+          from_name: formData.fullName,
+          to_name: "LYMData",
+          from_email: formData.email,
+          to_email: "info@lymdata.com",
+          company_name: formData.companyName,
+          phone_number: formData.mobileNumber,
+        };
+
+        if (step >= 2) {
+          templateParams.primary_interest = primaryInterest;
+        }
+        if (step >= 3) {
+          templateParams.project_stage = projectStage;
+        }
+        if (step >= 4) {
+          templateParams.budget = budget;
+        }
+        if (step >= 5 && primaryInterest === 'Digital Marketing') {
+          templateParams.marketing_challenge = marketingChallenge;
+        }
+        if (step >= 6 && primaryInterest === 'Website Designing') {
+          templateParams.website_goal = websiteGoal;
+        }
+
         await emailjs.send(
           "service_w4ox98s",
           "template_95dbo87",
-          {
-            from_name: formData.fullName,
-            to_name: "LYMData",
-            from_email: formData.email,
-            to_email: "info@lymdata.com",
-            company_name: formData.companyName,
-            phone_number: formData.mobileNumber,
-            primary_interest: primaryInterest,
-            project_stage: projectStage,
-            budget: budget,
-            marketing_challenge: marketingChallenge,
-          },
+          templateParams,
           "_h7dmU_ZWC9dc_ISz"
         );
-        setLoading(false);
 
+        setLoading(false);
         setSuccess(true);
-        resetForm(); // Reset the form fields
+        resetForm(); 
         setTimeout(() => {
-          setStep(1); // Reset to the initial step or any other logic you want
+          setStep(1); 
         }, 2000);
 
         console.log("Email sent successfully");
       } catch (error) {
         console.error("Error sending email:", error);
-        // Handle error (e.g., display an error message to the user)
+        // Handle error 
       }
     } else {
       setLoading(false);
@@ -161,8 +192,7 @@ const Questionnaire = () => {
   };
 
   const calculateProgress = () => {
-    // Update this logic to reflect the actual number of steps in your process
-    const totalSteps = 5;
+    const totalSteps = 6;
     return (step / totalSteps) * 100;
   };
 
@@ -185,12 +215,12 @@ const Questionnaire = () => {
             <button style={buttonStyle} onClick={() => handlePrimaryInterestClick('Website Designing')}>Website Designing</button>
           </div>
           <div>
-            <button style={buttonStyle} onClick={() => handlePrimaryInterestClick('Data Engineering')}>Data Engineering</button>
+            <button style={buttonStyle} onClick={() => handlePrimaryInterestClick('Digital Marketing')}>Digital Marketing</button>
           </div>
         </div>
       )}
 
-      {step === 2 && ['Web Development', 'Mobile App Development', 'Website Designing'].includes(primaryInterest) && (
+      {step === 2 && ['Web Development', 'Mobile App Development','Website Designing'].includes(primaryInterest) && (
         <div>
           <h1 className='text-[25px]'>What's the stage of your project?</h1>
           <div className='mt-2'>
@@ -202,7 +232,7 @@ const Questionnaire = () => {
         </div>
       )}
 
-      {step === 3 && ['Web Development', 'Mobile App Development', 'Website Designing'].includes(primaryInterest) && (
+      {step === 3 && ['Web Development', 'Mobile App Development', 'Website Designing', 'Digital Marketing'].includes(primaryInterest) && (
         <div>
           <h1 className='text-[25px]'>Do you have a budget in mind for your project?</h1>
           <div>
@@ -251,6 +281,38 @@ const Questionnaire = () => {
         </div>
       )}
 
+      {/* Website designing question */}
+      {step === 6 && primaryInterest === 'Website Designing' && (
+        <div>
+          <h1 className='text-[25px]'>What's the primary goal of your website?</h1>
+          <div className='mt-2'>
+            <button style={buttonStyle} onClick={() => handleWebsiteGoalClick('Generate leads and sales')}>Generate leads and sales</button>
+          </div>
+          <div>
+            <button style={buttonStyle} onClick={() => handleWebsiteGoalClick('Showcase my portfolio or services')}>Showcase my portfolio or services</button>
+          </div>
+          <div>
+            <button style={buttonStyle} onClick={() => handleWebsiteGoalClick('E-commerce - Sell products or services online')}>E-commerce - Sell products or services online</button>
+          </div>
+          <div>
+            {websiteOthersSelected ? (
+              <div>
+                <input
+                  style={inputButtonStyle}
+                  type="text"
+                  placeholder="Please specify"
+                  value={websiteOtherText}
+                  onChange={(e) => setWebsiteOtherText(e.target.value)}
+                /><br></br>
+                <button style={proceedButtonStyle} onClick={handleWebsiteProceedClick}>Proceed</button>
+              </div>
+            ) : (
+              <button style={buttonStyle} onClick={() => handleWebsiteGoalClick('Other')}>Other (please specify)</button>
+            )}
+          </div>
+        </div>
+      )}
+
       {step === 4 && (
         <form onSubmit={handleSubmit}>
           <h2 className='text-[40px]'>Contact Us</h2><br></br>
@@ -276,7 +338,7 @@ const Questionnaire = () => {
               name="companyName"
               value={formData.companyName}
               onChange={handleInputChange}
-              required
+             
             />
             {errors.companyName && <p style={{ color: 'red' }}>{errors.companyName}</p>}
           </div>
@@ -309,7 +371,7 @@ const Questionnaire = () => {
           <button style={submitButtonStyle} type="submit" disabled={loading}>
             {loading ? "Submitting..." : "Submit"}
           </button>
-          {success && <p style={{ color: 'green' }}>Your Response has been recorded  Our assistant will get in touch with you soon. </p>}
+          {success && <p style={{ color: 'green' }}>Your Response has been recorded  Our assistant will get in touch with you soon.</p>}
         </form>
       )}
     </div>
@@ -346,8 +408,8 @@ const buttonStyle = {
 };
 
 const inputButtonStyle = {
-  backgroundColor: 'white',
-  color: 'black',
+  backgroundColor: 'black',
+  color: 'whitek',
   width: '100%',
   maxWidth: '600px',
   height: '60px',
