@@ -50,8 +50,8 @@ const OurWork = () => {
       overflow: 'hidden',
     },
     imageContainer: {
-      width: '200px', // Increase width for mobile
-      height: '110px', // Increase height for mobile
+      width: '260px', // Increase width for mobile
+      height: '160px', // Increase height for mobile
       borderRadius: '6px',
       overflow: 'hidden',
     },
