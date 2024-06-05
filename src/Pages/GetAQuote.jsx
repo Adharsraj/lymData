@@ -21,21 +21,26 @@ const GetAQuote = () => {
   useEffect(() => {
     // Function to remove HubSpot script
     const removeHubSpotScript = () => {
-      const hubSpotScript = document.querySelector("script[src*='hubspot']");
+      const hubSpotScript = document.getElementById("hs-script-loader");
       if (hubSpotScript) {
         hubSpotScript.remove();
       }
-      const hubSpotEmbed = document.querySelector("#hubspot-messages-iframe-container");
-      if (hubSpotEmbed) {
-        hubSpotEmbed.remove();
+
+      const hubSpotChat = document.querySelector("[id^='hubspot-messages-iframe-container']");
+      if (hubSpotChat) {
+        hubSpotChat.remove();
       }
     };
 
-    // Remove HubSpot script on this page
+    // Initial removal of HubSpot script
     removeHubSpotScript();
 
+    // Interval to continuously remove the HubSpot script if reinserted
+    const intervalId = setInterval(removeHubSpotScript, 1000);
+
     return () => {
-      // Cleanup if necessary
+      // Clear the interval on unmount
+      clearInterval(intervalId);
     };
   }, []);
 
