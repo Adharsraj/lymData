@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../Components/Footer";
 import Marque from "../Components/Home/Marque";
 import FirstOne from "../Components/GetAQuote/FirstOne";
@@ -17,6 +17,27 @@ const GetAQuote = () => {
   const handleMenuClose = () => {
     setShowImage(true);
   };
+
+  useEffect(() => {
+    // Function to remove HubSpot script
+    const removeHubSpotScript = () => {
+      const hubSpotScript = document.querySelector("script[src*='hubspot']");
+      if (hubSpotScript) {
+        hubSpotScript.remove();
+      }
+      const hubSpotEmbed = document.querySelector("#hubspot-messages-iframe-container");
+      if (hubSpotEmbed) {
+        hubSpotEmbed.remove();
+      }
+    };
+
+    // Remove HubSpot script on this page
+    removeHubSpotScript();
+
+    return () => {
+      // Cleanup if necessary
+    };
+  }, []);
 
   return (
     <>
@@ -58,10 +79,10 @@ const GetAQuote = () => {
 
         <Navbar onMenuClose={handleMenuClose} />
         <FirstOne />
-        <Slides/>
-        <OurWork/>
+        <Slides />
+        <OurWork />
         <Marque />
-        <Questionaire/>
+        <Questionaire />
         <Footer />
       </div>
     </>
