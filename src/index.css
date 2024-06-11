@@ -1862,16 +1862,15 @@ span.two {
     width: 100%;
   }
 }
-  
 .fixed-dimensions {
-    width: 250px; /* Fixed width for all logos */
-    height: 150px; /* Fixed height for all logos */
-    object-fit: contain; /* Ensure logos fit within the specified dimensions */
-    box-sizing: border-box; /* Ensure borders are included in the dimensions */
+    width: 250px;
+    height: 150px;
+    object-fit: contain;
+    box-sizing: border-box;
   }
   
   .border-logo {
-    border: 1px solid rgb(23, 23, 23); /* Adjust the color and thickness as needed */
+    border: 1px solid rgb(23, 23, 23);
   }
   
   @keyframes loop-scroll {
@@ -1905,7 +1904,7 @@ span.two {
   }
   
   .gap-32 {
-    gap: 8rem; /* Adjust gap as needed */
+    gap: 8rem;
   }
   
   .grayscale {
@@ -1915,9 +1914,8 @@ span.two {
   .animate-loop-scroll {
     display: flex;
     animation: loop-scroll 30s linear infinite;
-    width: calc(200px * 2
-     * var(--client-count)); /* Adjust width calculation */
   }
+  
   
   
   

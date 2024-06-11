@@ -7,6 +7,7 @@ import Blog6 from "../../Components/Blog/BlogComponents/Blog6";
 import Blog7 from "../../Components/Blog/BlogComponents/Blog7";
 import Blog8 from "../../Components/Blog/BlogComponents/Blog8";
 import Blog9 from "../../Components/Blog/BlogComponents/Blog9";
+import Blog10 from "../../Components/Blog/BlogComponents/Blog10";
 
 export const OurTechStack = [
   {
@@ -687,6 +688,15 @@ export const blogCards = [
       "Are You worried About Your Website's Performance ? Here are 7 signs That Indicate It Might Be Time for a Refresh",
     desc: "Press Release • 17 May, 2024",
     more: Blog9,
+  },
+  {
+    id: 10,
+    name: "WhyData-drivenDigitalSolutionsareImportantforYourBusiness",
+    img: "https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/blogs/Blog10.jpg",
+    title:
+      "Why Data-driven Digital Solutions are Important for Your Business",
+    desc: "Press Release • 11 June, 2024",
+    more: Blog10,
   },
 ];
 
