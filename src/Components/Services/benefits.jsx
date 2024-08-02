@@ -13,7 +13,7 @@ const Benefits = () => {
       <div className="w-1/2 grid grid-cols-1 md:grid-cols-2 gap-4 ml-[60px]">
         <div className="flex flex-col items-center p-4 border border-[#2FA7E3] rounded-lg bg-[#212121] h-[250px] w-[330px]">
         <img
-          className="h-[70px] w-[200px]"
+          className="h-[70px] w-[230px]"
           src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/service/professionalteam.svg"
           alt="featured"
         />
@@ -25,7 +25,7 @@ const Benefits = () => {
 
         <div className="flex flex-col items-center p-4 border border-[#2FA7E3] rounded-lg bg-[#212121] h-[250px] w-[330px]">
         <img
-          className="h-[70px] w-[200px]"
+          className="h-[70px] w-[230px]"
           src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/service/creativepeople.svg"
           alt="featured"
         />
@@ -37,7 +37,7 @@ const Benefits = () => {
 
         <div className="flex flex-col items-center p-4 border border-[#2FA7E3] rounded-lg bg-[#212121] h-[250px] w-[330px]">
         <img
-          className="h-[70px] w-[200px]"
+          className="h-[70px] w-[230px]"
           src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/service/freindlysupport.svg"
           alt="featured"
         />
@@ -49,7 +49,7 @@ const Benefits = () => {
 
         <div className="flex flex-col items-center p-4 border border-[#2FA7E3] rounded-lg bg-[#212121] h-[250px] w-[330px]">
         <img
-          className="h-[70px] w-[200px]"
+          className="h-[70px] w-[230px]"
           src="https://lymdatalabs.s3.ap-south-1.amazonaws.com/lym+website/service/fastdelivery.svg"
           alt="featured"
         />
